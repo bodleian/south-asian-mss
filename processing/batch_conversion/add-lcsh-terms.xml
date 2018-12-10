@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:saxon="http://saxon.sf.net/"
+	exclude-result-prefixes="xs tei saxon"
+	version="2.0">
+    
+    <xsl:output method="xml" indent="yes"/>
+
+    <!-- This adds the nearest Library of Congress subject or name authorities matches to the values in 
+         class attributes on msItems, which contain a local or ad hoc taxonomy of some kind --> 
+
+	<xsl:variable name="newline" select="'&#10;'"/>
+	<xsl:variable name="workclasses" as="xs:string*" select="distinct-values(//tei:msItem/@class[string-length(.) gt 0])"/>
+	<xsl:variable name="class2lcmappings" as="element()*">
+	    <map class="Astrology tables">sh2009116097|Astrology--Tables</map>
+	    <map class="Biographical tale">sh85132085|Tales</map>
+	    <map class="Biographical tale">sh85014152|Biography</map>
+	    <map class="Biographies">sh85014152|Biography</map>
+	    <map class="Biography">sh85014152|Biography</map>
+	    <map class="Biography translation">sh85014152|Biography</map>
+	    <map class="Bon and Buddhist history">sh85061245|History--Religious aspects--Buddhism</map>
+	    <map class="Bon and Buddhist history">sh2009117334|Bon (Tibetan religion)--History</map>
+	    <map class="Bon text with commentary">sh85015578|Bon (Tibetan religion)</map>
+	    <map class="Buddhist reference work">sh85017454|Buddhism</map>
+	    <map class="Buddhist reference work">sh2010110681|Religions--Encyclopedias</map>
+	    <map class="Canonical text">n83159862|Kanjur</map>
+	    <map class="Ceremonial rite">sh85111625|Rdzogs-chen</map>
+	    <map class="Ceremonial rite">sh85114211|Rites and ceremonies</map>
+	    <map class="Chronicle">sh85061150|Historical drama</map>
+	    <map class="Deity text">n2017054713|Avalokiteśvara (Buddhist deity)</map>
+	    <map class="Divination">sh85038589|Divination</map>
+	    <map class="Divination text">sh85038589|Divination</map>
+	    <map class="Divinaton slips">sh85038589|Divination</map>
+	    <map class="Doctrine">sh85017463|Buddhism--Doctrines</map>
+	    <map class="Drafts &amp; typescripts">sh85136967|Translations</map>
+	    <map class="Edict draft">sh96010631|Animal sacrifice</map>
+	    <map class="Edict draft">sh85123693|Smoking</map>
+	    <map class="Esoteric instructions">sh85132363|Tantric Buddhism</map>
+	    <map class="Fictional biography">sh90000129|Tibetan fiction</map>
+	    <map class="History">sh85061212|History</map>
+	    <map class="Language examples">sh2008112892|Tibetan language--Texts</map>
+	    <map class="Lecture with notes">sh85112429|Reincarnation</map>
+	    <map class="Letters">sh85076240|Letters</map>
+	    <map class="Life and works">sh85014152|Biography</map>
+	    <map class="Liturgy">sh2002011417|Liturgy</map>
+	    <map class="Long life practice">sh2010012660|Long life practice (Buddhism)</map>
+	    <map class="Mantra explication">sh85017565|Buddhist mantras</map>
+	    <map class="Mantra exposition">sh85017565|Buddhist mantras</map>
+	    <map class="Medical text">sh85083064|Medicine</map>
+	    <map class="Medical texts">sh85083064|Medicine</map>
+	    <map class="Meditation instructions">sh85083210|Meditation</map>
+	    <map class="Meditation instructions translation">sh85083210|Meditation</map>
+	    <map class="Meditation preliminary exercises text">sh85083210|Meditation</map>
+	    <map class="Meditation rite">sh85083210|Meditation</map>
+	    <map class="Meditation rite">sh85114211|Rites and ceremonies</map>
+	    <map class="Meditation ritual">sh85083210|Meditation</map>
+	    <map class="Meditation ritual">sh85114228|Ritual</map>
+	    <map class="Miscellanea">sh99001944|Miscellanea</map>
+	    <map class="Miscellaneous texts">sh99001944|Miscellanea</map>
+	    <map class="Myang ro temple praise">sh85133743|Temples</map>
+	    <map class="Notes">sh2013001938|Tibetan language--Alphabet</map>
+	    <map class="Oblation rituals">sh85114228|Ritual</map>
+	    <map class="Philosophy">sh85100849|Philosophy</map>
+	    <map class="Place guide">sh85086694|Buddhist monasteries</map>
+	    <map class="Poem of metaphysics">sh85084286|Metaphysics</map>
+	    <map class="Poem of metaphysics">sh85135229|Tibetan poetry</map>
+	    <map class="Poems">sh85135229|Tibetan poetry</map>
+	    <map class="Practice text">sh85017580|Buddhism--Customs and practices</map>
+	    <map class="Praise and prayers">sh2003007202|Praise--Religious aspects</map>
+	    <map class="Praise and prayers">sh85106113|Prayer</map>
+	    <map class="Prayer">sh85106113|Prayer</map>
+	    <map class="Prayers">sh85106113|Prayer</map>
+	    <map class="Prayers translation">sh85106113|Prayer</map>
+	    <map class="Protection rites">sh85114211|Rites and ceremonies</map>
+	    <map class="Protection ritual">sh85114228|Ritual</map>
+	    <map class="Rite">sh85114211|Rites and ceremonies</map>
+	    <map class="Rites">sh85114211|Rites and ceremonies</map>
+	    <map class="Ritual">sh85114228|Ritual</map>
+	    <map class="Ritual for averting disasters">sh85114228|Ritual</map>
+	    <map class="Ritual terma">sh85114228|Ritual</map>
+	    <map class="Ritual terma">sh2005003005|Gter ma</map>
+	    <map class="Ritual text">sh85114228|Ritual</map>
+	    <map class="Ritual text">sh2003003695|Rituals--Texts</map>
+	    <map class="Rituals">sh85114228|Ritual</map>
+	    <map class="Songs">sh85125120|Songs, Tibetan</map>
+	    <map class="Study of chronology">sh99001875|Chronology, Tibetan</map>
+	    <map class="Supplication prayers">sh85106113|Prayer</map>
+	    <map class="Sutra">sh85106113|Prayer</map>
+	    <map class="Tantra canonical text">sh2006008511|Tantric literature</map>
+	    <map class="Tantra extracts">sh2006008511|Tantric literature</map>
+	    <map class="Terma of meditation practice">sh2005003005|Gter ma</map>
+	    <map class="Terma of meditation practice">sh85083210|Meditation</map>
+	    <map class="Terma prayer">sh2005003005|Gter ma</map>
+	    <map class="Terma prayer">sh85106113|Prayer</map>
+	    <map class="Termas">sh2005003005|Gter ma</map>
+	    <map class="Tibetan calendar">sh90001186|Calendar, Tibetan</map>
+	    <map class="Tibetan text">sh2008112892|Tibetan language--Texts</map>
+	    <map class="Translation &amp; notes">sh85136967|Translations</map>
+	    <map class="Translation and notes">sh85136967|Translations</map>
+	    <map class="Translation draft">sh85136967|Translations</map>
+	    <map class="Translation of dictionary">sh2010012100|Tibetan language--Dictionaries</map>
+	    <map class="Translation typescript">sh85136967|Translations</map>
+	    <map class="Translations">sh85136967|Translations</map>
+	    <map class="Variety of texts">sh2008112892|Tibetan language--Texts</map>
+	    <map class="Vinaya commentary">sh85017462|Buddhism--Discipline</map>
+	    <map class="Wisdom text">sh85147110|Wisdom--Religious aspects--Buddhism</map>
+	    <map class="ritual for liberating local spirits">sh85114228|Ritual</map>
+	</xsl:variable>
+	
+    <xsl:template match="/">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="processing-instruction('xml-model')">
+        <xsl:value-of select="$newline"/>
+        <xsl:copy/>
+        <xsl:if test="preceding::processing-instruction('xml-model')"><xsl:value-of select="$newline"/></xsl:if>
+    </xsl:template>
+
+	<xsl:template match="*"><xsl:copy><xsl:copy-of select="@*"/><xsl:apply-templates/></xsl:copy></xsl:template>
+    
+    <xsl:template match="text()|comment()|processing-instruction()"><xsl:copy/></xsl:template>
+    
+    <xsl:template match="tei:revisionDesc[count($workclasses) gt 0 and $class2lcmappings/@class = $workclasses]">
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#LCSH">
+					<list>
+						<xsl:for-each select="$workclasses">
+							<xsl:variable name="class" select="."/>
+							<xsl:for-each select="$class2lcmappings">
+								<xsl:if test="@class = $class">
+									<xsl:variable name="lcid" select="substring-before(., '|')"/>
+									<xsl:variable name="lclabel" select="substring-after(., '|')"/>
+									<item>
+									    <xsl:choose>
+									        <xsl:when test="starts-with($lcid, 'sh')">
+									            <term key="subject_{$lcid}" target="https://id.loc.gov/authorities/subjects/{$lcid}">
+									                <xsl:value-of select="$lclabel"/>
+									            </term>
+									        </xsl:when>
+									        <xsl:when test="starts-with($lcid, 'n')">
+									            <term key="subject_{$lcid}" target="https://id.loc.gov/authorities/names/{$lcid}">
+									                <xsl:value-of select="$lclabel"/>
+									            </term>
+									        </xsl:when>
+									    </xsl:choose>
+									</item>
+								</xsl:if>
+							</xsl:for-each>
+						</xsl:for-each>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:apply-templates/>
+		</xsl:copy>
+	</xsl:template>
+    
+    
+</xsl:stylesheet>
