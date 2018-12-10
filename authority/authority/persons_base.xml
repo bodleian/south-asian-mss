@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <!--<person role="aut">
+                    <persName type="standard" xml:lang="en">Unknown</persName>
+                    <persName type="display" xml:lang="en">Unknown</persName>
+                    <idno type="VIAF">00000000</idno>
+                    <idno type="local">00000</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>-->
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="sa">Rūpagosvamin</persName>
+                    <persName type="display" xml:lang="sa">Rūpagosvamin</persName>
+                    <idno type="VIAF">14776299</idno>
+                    <idno type="local">00001</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/14776299/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                
+                <person role="dnr">
+                    <persName type="standard" xml:lang="en">Johnston, E.H.</persName>
+                    <persName type="display" xml:lang="en">Prof E.H. Johnston</persName>
+                    <idno type="VIAF">89804438</idno>
+                    <idno type="local">00002</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/89804438/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                
+                <person role="dnr">
+                    <persName type="standard" xml:lang="en">Evans-Wentz, W.Y.</persName>
+                    <persName type="display" xml:lang="en">Dr. W.Y. Evans-Wentz</persName>
+                    <idno type="VIAF">31996034</idno>
+                    <idno type="local">00003</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/31996034/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="sa">Mahendramalla</persName>
+                    <persName type="display" xml:lang="sa">Mahendramalla</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00004</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Nepalese king, reigned ca 1560–1574.</note>
+                </person>
+                
+                <person role="pat">
+                    <persName type="standard" xml:lang="sa">Mayalasiṃhacandra</persName>
+                    <persName type="display" xml:lang="sa">Mayalasiṃhacandra</persName>
+<!--                    <idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00005</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Buddhist monk, commissioned Bodleian MS. Sansk. d. 346(R).</note>
+                </person>
+                
+                <person role="scr">
+                    <persName type="standard" xml:lang="en">Vijayacandra</persName>
+                    <persName type="display" xml:lang="en">Vijayacandra</persName>
+<!--                    <idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00006</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note><term xml:lang="sa">Vajrācārya</term>, scribe of Bodleian MS. Sansk. d. 346(R).</note>
+                </person>
+                
+                <person role="pat">
+                    <persName type="standard" xml:lang="en">Chandra Shamsher Jang Bahadur Rana</persName>
+                    <persName type="display" xml:lang="en">Chandra Shum Sher</persName>
+                    <idno type="VIAF">42700590</idno>
+                    <idno type="local">00007</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/42700590/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Mahārāja of <name  type="place" key="local_00004"><placeName xml:lang="sa" type="standard">Nepāl</placeName></name> (1863-1929).</note>
+                </person>
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="en">Bhartṛhari</persName>
+                    <persName type="display" xml:lang="en">Bhartṛhari</persName>
+                    <idno type="VIAF">265079553 </idno>
+                    <idno type="local">00008</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/265079553/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="en">Helārāja</persName>
+                    <persName type="display" xml:lang="en">Helārāja</persName>
+                    <idno type="VIAF">141752189 </idno>
+                    <idno type="local">00009</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/141752189/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="oth">
+                    <persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                    <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName>
+                    <idno type="VIAF">2837388 </idno>
+                    <idno type="local">00010</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/2837388/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="en">Kabīr</persName>
+                    <persName type="display" xml:lang="en">Kabīr</persName>
+                    <idno type="VIAF">262355054</idno>
+                    <idno type="local">00011</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/262355054/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="en">Unknown</persName>
+                    <persName type="display" xml:lang="en">Unknown</persName>
+                    <idno type="VIAF">00000000</idno>
+                    <idno type="local">00000</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+            </listPerson>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+             
+                <bibl xml:id="work_00001">
+                    <title type="uniform" xml:lang="sa">Mañjuśrīnāmasaṅgīti</title>
+                    <idno type="VIAF">181446806</idno>
+                    <idno type="local">00001</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/181446806/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+
+                <bibl xml:id="work_00002">
+                    <title type="desc" xml:lang="sa">[Buddhist stotra]</title>
+                    <idno type="local">00002</idno>
+                </bibl>
+
+                <bibl xml:id="work_00003">
+                    <title type="uniform" xml:lang="sa">Haṃsadūta</title>
+                    <idno type="VIAF">183536469 </idno>
+                    <idno type="local">00003</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/183536469/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00004">
+                    <title type="uniform" xml:lang="sa">Vākyapadīya</title>
+                    <idno type="VIAF">181909315</idno>
+                    <idno type="local">00001</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/181909315">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00005">
+                    <title type="uniform" xml:lang="sa">Prakīrṇaprakāśa</title>
+                    <idno type="VIAF">191538946 </idno>
+                    <idno type="local">00005</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/191538946/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00006">
+                    <title type="uniform" xml:lang="awa">Bījaka</title>
+                    <title type="variant" xml:lang="awa">Bījak</title>
+                    <idno type="VIAF">178635523</idno>
+                    <idno type="local">00006</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/178635523/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_0000X">
+                    <title type="uniform" xml:lang="sa"></title>
+                    <title type="variant" xml:lang="xct"></title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                
+
+            </listBibl>
+        </body>
+    </text>
+</TEI>
