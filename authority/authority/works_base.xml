@@ -36,7 +36,7 @@
                 </bibl>
 
                 <bibl xml:id="work_00002">
-                    <title type="desc" xml:lang="sa">[Buddhist stotra]</title>
+                    <title type="desc" xml:lang="en">[Buddhist stotra]</title>
                     <idno type="local">00002</idno>
                 </bibl>
 
@@ -101,6 +101,111 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00007">
+                    <title type="uniform" xml:lang="sa">Bhairavapadmāvatīkalpa</title>
+                    <idno type="VIAF">76146937819213832232</idno>
+                    <idno type="local">00007</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/76146937819213832232/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00008">
+                    <title type="uniform" xml:lang="sa">Jñātādharmakathā</title>
+                    <title type="variant" xml:lang="sa">Jñātādharmakathāṅgasūtra</title>
+                    <title type="variant" xml:lang="sa">Jñātṛdharmakathā</title>
+                    <title type="variant" xml:lang="pka">Nāyādhammakahā</title>
+                    <idno type="VIAF">177019807</idno>
+                    <idno type="local">00008</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/177019807/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00009">
+                    <title type="uniform" xml:lang="sa">Bhagavatīsūtra</title>
+                    <title type="variant" xml:lang="pka">Bhagavaī</title>
+                    <idno type="VIAF">174592943</idno>
+                    <idno type="local"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/174592943/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00010">
+                    <title type="uniform" xml:lang="sa">Rājapraśnīyasūtra</title>
+                    <title type="variant" xml:lang="sa">Rājapraśnīya</title>
+                    <title type="variant" xml:lang="pra">Rāyapaseṇīya</title>
+                    <title type="variant" xml:lang="pra">Rayapaseṇaijja</title>
+                    <idno type="VIAF">177018202</idno>
+                    <idno type="PANDIT">96101</idno>
+                    <idno type="local">00010</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/177018202/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96101/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00011">
+                    <title type="uniform" xml:lang="sa">Rājapraśnīyopāṅgavṛttikā</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00012">
+                    <title type="uniform" xml:lang="sa">Abhijñānaśākuntala</title>
+                    <title type="variant" xml:lang="sa">Abhijñānaśakuntalā</title>
+                    <title type="variant" xml:lang="sa">Śakuntalā</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_0000X">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
@@ -116,8 +221,6 @@
                         </list>
                     </note>
                 </bibl>
-                
-                
 
             </listBibl>
         </body>

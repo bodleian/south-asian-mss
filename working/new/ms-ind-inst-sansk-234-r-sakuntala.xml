@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00012">
 
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>CSL</funder>
+                <funder>AWM</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -40,9 +40,9 @@
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 232(R)</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 234(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark">Or.long.C.360</idno>
+                            <idno type="or_long_shelfmark">Or.long.C.361</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -53,42 +53,46 @@
                     <msContents n="1">
                         <!--increment n attribute for ms containing multiple ms items-->
                         <summary>A Bengali paper manuscript of <name type="person" subtype="aut"
-                                key="local_00001 VIAF_14776299">
-                                <persName xml:lang="sa" type="standard">Rūpagosvamin</persName>
-                            </name>'s <title xml:lang="sa">Haṃsadūta</title> with numerous
+                            key="local_00012">
+                                <persName xml:lang="sa" type="standard">Kālidāsa</persName>
+                            </name>'s <title xml:lang="sa">Abhijñānaśākuntala</title> with numerous
                             annotations in the margins.</summary>
 
                         <msItem n="1" defective="true">
 
                             <author>
-                                <name type="person" subtype="aut" key="local_00001 VIAF_14776299">
-                                    <persName xml:lang="sa" type="standard">Rūpagosvamin</persName>
+                                <name type="person" subtype="aut"
+                                    key="local_00012">
+                                    <persName xml:lang="sa" type="standard">Kālidāsa</persName>
                                 </name>
                             </author>
 
-                            <title xml:lang="sa" key="local_00003">Haṃsadūta</title>
+                            <title xml:lang="sa" key="local_00012">Abhijñānaśākuntala</title>
 
-                            <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> oṃ huṃ
-                                namaḥ śrīkṛṣṇāya || ^^^ || </rubric>
-                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> dukūlaṃ ,
-                                bibhrāṇo , dalitaharitāladyutibharaṃ ,
-                                javāpuṣpaśreṇīrucirucirapādāmbujatalaḥ , | tamālaśyāmāṅgo , <lb/>
-                                [1v2] davahasitalīlāñcitamukhaḥ , parānandābhogaḥ , sphuratu , hṛdi
-                                , me ko 'pi puruṣaḥ ' || 1 || </incipit>
+                            <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                oṃ namo gaṇeśāya |
+                            </rubric>
+                            
+                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                || kaścit_ kāntāvirahaguruṇā svādhikārapramattaḥ <sic>śāpenāstaṃ gamitamahimā</sic> varṣabhogyeṇa bhartuḥ | 
+                                yakṣa<lb/>ś cakre janakatanayāsnānapuṇyodakeṣu snigdhacchāyā    taruṣu vasatiṃ rāmagiryyāśrameṣu || 1 ||
+                            </incipit>
 
-                            <explicit xml:lang="sa"><locus from="20r" to="20r">[20r4]</locus>
-                                rasānā,mādhārair aparicitadoṣaḥ sahṛdayair mmurārā<damage>teḥ
-                                        <sic>krī</sic></damage>niviḍaghaṭanārū<lb/>[20r5]pamahitaḥ |
-                                prabandho 'yaṃ bandhorakhilajagatāṃ tasya sahasā prabhor antaḥ
-                                sāndrāṃ pramadalaharīṃ pallavayatu || 142 || <g type="puspika">@</g> || <g type="puspika">@</g> || </explicit>
+                            <explicit xml:lang="sa"><locus from="21r" to="21r">[21r2]</locus> 
+                                etat_ kṛtvā priyasamucitaṃ prārthanācetaye me 
+                                sauhārddād vā vidhura iti vā ma<damage agent="water">yy a</damage>nukrośabuddhyā | <lb/>
+                                iṣṭān deśān vicara jalada prāvṛṣā saṃbhṛtaśrīr 
+                                mā bhūd evaṃ kṣaṇam api ca te vidyutā viprayogaḥ || 114 || 1 || <g type="puṣpikā">@</g>
+                                || <g type="puṣpikā">@</g> || <g type="puṣpikā">@</g> || 
+                            </explicit>
 
-                            <finalRubric xml:lang="sa"><locus from="20r" to="20r">[20r5]</locus>
-                                iti śrīrūpa<locus from="20v" to="20v">[20v1]</locus>padevakṛtaṃ
-                                haṃsadūtākhyaṃ kāvyaṃ samāptaṃ || <g type="puspika">@</g> || <g type="puspika">@</g> || </finalRubric>
+                            <finalRubric xml:lang="sa"><locus from="21r" to="21r">[21r4]</locus> 
+                                || <space/> iti śrīkālidāsakṛtaṃ meghadūtaṃ dhavalikāvyaṃ samāptaṃ || <g type="puṣpikā">@</g> || <g type="puṣpikā">@</g> || 
+                            </finalRubric>
 
-                            <colophon xml:lang="sa"><locus from="20v" to="20v">[20v1]</locus> yathā
-                                dṛṣṭvādi || <g type="puspika">@</g> || śakābdā 1621 || <g type="puspika">@</g> ||
-                                    <damage>śubha</damage>m astu ^^^|| </colophon>
+                            <colophon xml:lang="sa"><locus from="21r" to="21r">[21r4]</locus> 
+                                śubham astu lipikarttari || <sic>śakābdā</sic> 1622 || 
+                            </colophon>
 
                             <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
@@ -105,18 +109,17 @@
                                     </p>
                                 </support>
 
-                                <extent xml:id="folio" n="20"> 20 ff.</extent>
+                                <extent xml:id="folio" n="X"> X ff.</extent>
 
                                 <foliation n="1" rend="original">Bengali numerals, mid-right margin, verso.</foliation>
 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <condition> Damaged; the right side of the first two folios is half
-                                    torn off; all folios are smudged and stained, with <term
+                                <condition> Damaged; all folios are smudged and stained, with <term
                                         xml:lang="sa">akṣara</term>s (mostly still readable)
                                     damaged by humidity. </condition>
                             </supportDesc>
 
-                            <layoutDesc>
+                            <!--<layoutDesc>
                                 <layout columns="1" writtenLines="5">
                                     <dimensions type="written" unit="cm">
                                         <height atLeast="3" atMost="4">Written area: 3-4</height>
@@ -130,17 +133,17 @@
                                     <dimensions type="interlinear_space" scope="most" unit="mm">
                                         <height quantity="2">Interlinear space height: 2</height>
                                     </dimensions>
-                                    <!--<commentaryForm type=""></commentaryForm>-->
-                                    <!--<stringHole type="true" quantity="2"> Two string holes framed by double parallel lines in black ink. 
+                                    <!-\-<commentaryForm type=""></commentaryForm>-\->
+                                    <!-\-<stringHole type="true" quantity="2"> Two string holes framed by double parallel lines in black ink. 
                                             <dimensions type="string hole spaces" scope="most" unit="cm">
                                                 <height quantity="2.5">2.5</height>
                                                 <width quantity="1.5">1.5</width>
                                                 <depth quantity="10.5">10.5</depth>
                                             </dimensions>
-                                    </stringHole>-->
+                                    </stringHole>-\->
                                     <p>Impressed marginal frame lines, no ruling.</p>
                                 </layout>
-                            </layoutDesc>
+                            </layoutDesc>-->
                         </objectDesc>
 
                         <handDesc>
@@ -149,7 +152,7 @@
                                     annotations).</desc>
                             </handNote>
                             <handNote scope="minor" script="Bengali" medium="redink">
-                                <desc>Bengali in red ink (second set of annotations?).</desc>
+                                <desc>Bengali in red ink (second set of annotations).</desc>
                             </handNote>
                         </handDesc>
 
@@ -177,7 +180,7 @@
 
                     <history>
                         <origin>
-                            <date calendar="Śāka" when="1621">Śāka 1621 / 1699 CE.</date>
+                            <date calendar="Śāka" when="1622">Śāka 1622 / 1700 CE.</date>
                             <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
                         <provenance>Donated by <name type="person" role="dnr" key="local_00002 VIAF_89804438"
@@ -372,12 +375,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-03-02">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
-            </change>
-            <change when="2016-03-02">
+            <change when="2020-05-05">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
