@@ -48,14 +48,10 @@
                         </altIdentifier>
                     </msIdentifier>
                     
-                    <msContents n="1">
-                        <!--increment n attribute for ms containing multiple ms items-->
+                    <msContents n="1+1">
+                        
                         <summary>
-                            This work is th e2nd upāṅga of Jaina canon. It mainly deals with the birth of king
-                            Pradeśīas Sūryābha deva, his celestial grandeour and enjoyments, his stagingof a drama and a
-                            dance in the presence of Lord Mahāvīra, description of his vimāna(celestial car), and a
-                            dialogue regarding the identity of soul and body betweenhim and Keśi nigrantha, a follower of
-                            Lord Pārvśa. 
+                            
                         </summary>
                         
                         <msItemStruct n="2">
@@ -66,10 +62,9 @@
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="local_00010">Rājapraśnīyasūtra</title>
-                                <title xml:lang="sa" type="alt" >Rājapraśnīya</title>
-                                <title xml:lang="pka" type="alt">Rāyapaseṇīya</title>
-                                <title xml:lang="pka" type="alt">Rayapaseṇaijja</title>
+                                <title xml:lang="sa" key="local_00000">[insert here the uniform title of the work]</title>
+                                <title xml:lang="sa" type="alt" >[insert here a variant title of the work]</title>
+                                <title xml:lang="pka" type="alt">[insert here a variant title of the work]</title>
                                 
                                 <rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
                                 </rubric>
@@ -88,14 +83,26 @@
                             
                             <msItemStruct class="commentary">
                                 <author>
-                                    <name type="person" subtype="aut" key="local_00018">
-                                        <persName xml:lang="sa" type="standard">Malayagirisūri</persName>
+                                    <name type="person" subtype="aut" key="local_00000">
+                                        <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="local_00011">Rājapraśnīyopāṅgavṛttikā</title>
+                                <title xml:lang="sa" key="local_00000">[insert here the uniform title of the work]</title>
+                                
+                                <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                                </rubric>
                                 
                                 <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    <damage agent="X" unit="X" quantity="1"></damage>
+                                    <sic></sic>
+                                    <del rend="X"></del>
+                                    <unclear reason="X"></unclear>
+                                    <add place="X" type="X" hand="X"></add>
+                                    <subst><del></del><add></add></subst>
+                                    <gap reason="X"></gap>
+                                    <g></g>
+                                    <figure type="X" rend="X"></figure>
                                 </incipit>
                                 
                                 <explicit xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
@@ -147,28 +154,33 @@
                            <layoutDesc>
                                <layout columns="1" ruledLines="X">
 <!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
+                                   <p>
+                                       XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
+                                       <dimensions type="akṣara" n="X" unit="mm">
+                                           <height quantity="X">X</height>
+                                           <width quantity="X">X</width>
+                                           <dim type="aspect_ratio" quantity="X">X</dim>
+                                       </dimensions>
+                                   </p>
+                                   
+                                   <p>
                                    <dimensions type="written_area" unit="cm">
-                                        <height quantity="X"></height>
-                                        <width atLeast="X" atMost="X"></width>
-                                    </dimensions>
-
-                                   <dimensions type="akṣara" n="X" unit="mm">
-                                        <height quantity="X">X</height>
-                                        <width quantity="X">X</width>
-                                        <dim type="aspect_ratio" quantity="X">X</dim>
-                                    </dimensions>
-                                   
-                                    <dimensions type="interlinear_space" scope="most" unit="mm">
-                                        <height quantity="X">X</height>
-                                    </dimensions>
-                                   
-                                   <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                       <height quantity="2.5">2.5</height>
-                                       <width quantity="1.5">1.5</width>
-                                       <depth quantity="10.5">10.5</depth>
+                                       <height quantity="X"></height>
+                                       <width atLeast="X" atMost="X"></width>
                                    </dimensions>
+                                   <dimensions type="interlinear_space" scope="most" unit="mm">
+                                       <height quantity="X">X</height>
+                                    </dimensions>
+                                   </p>
+                                  
+                                   <p>
+                                       <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
+                                           <height quantity="X">X</height>
+                                           <width quantity="X">X</width>
+                                           <depth quantity="X">X</depth>
+                                       </dimensions>
+                                   </p> 
                                    
-                                   <p>XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.</p>
                                    <p>Details on frame, marginal lines, ruling and the like.</p>
                                 </layout>
                            </layoutDesc>
@@ -214,10 +226,16 @@
                             <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
                             <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
                         </origin>
-                        <provenance>Bought by <name type="person" subtype="dnr" key="local_00002 VIAF_7477330"><persName type="standard" xml:lang="eng" >Wright, Daniel</persName><persName type="display" xml:lang="eng" >Dr. D. Wright</persName></name> in <date
+                        <provenance>Bought by 
+                            <name type="person" subtype="dnr" key="local_00000">
+                                <persName type="standard" xml:lang="lat">Sempronius, Titius
+                                    Caius</persName><persName type="display" xml:lang="lat">Titius
+                                    Caius Sempronius</persName></name> in <date
                             calendar="Gregorian" from="1873" to="1876">1873-6</date>.
                         </provenance>
-                        <acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>
+                        <acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>
                     </history>
                     
                     <additional>
@@ -260,6 +278,7 @@
                                 </monogr>
                             </biblStruct>
                         </listBibl>
+                        
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
                             <bibl>
@@ -272,6 +291,7 @@
                                 Libraries</orgName>: <ref type="extant_mss" target="">MS. XXX</ref>,
                                     <ref type="extant_mss" target="">MS. XXX</ref>. </bibl>
                         </listBibl>-->
+                        
                         <!--<listBibl>
                             <head>Edition(s)</head>
                             <ref type="biblio" target="Name_19XX"/>
@@ -1361,7 +1381,8 @@
 <pb n="411r" facs="#i823"/>
 <pb n="411v" facs="#i824"/>
 <pb n="412r" facs="#i825"/>
-<pb n="412v" facs="#i826"/> 
+<pb n="412v" facs="#i826"/>
+                
 <pb n="413r" facs="#i827"/>
 <pb n="413v" facs="#i828"/>
 <pb n="414r" facs="#i829"/>

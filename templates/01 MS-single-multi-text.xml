@@ -122,34 +122,39 @@
                                 </condition>
                             </supportDesc>
                             
-                           <layoutDesc>
-                               <layout columns="1" ruledLines="X">
-<!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
-                                   <dimensions type="written_area" unit="cm">
-                                        <height quantity="X"></height>
-                                        <width atLeast="X" atMost="X"></width>
-                                    </dimensions>
-
-                                   <dimensions type="akṣara" n="X" unit="mm">
-                                        <height quantity="X">X</height>
-                                        <width quantity="X">X</width>
-                                        <dim type="aspect_ratio" quantity="X">X</dim>
-                                    </dimensions>
-                                   
-                                    <dimensions type="interlinear_space" scope="most" unit="mm">
-                                        <height quantity="X">X</height>
-                                    </dimensions>
-                                   
-                                   <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                       <height quantity="X">X</height>
-                                       <width quantity="X">X</width>
-                                       <depth quantity="X">X</depth>
-                                   </dimensions>
-                                   
-                                   <p>XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.</p>
-                                   <p>Details on frame, marginal lines, ruling and the like.</p>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="X">
+                                    <!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
+                                    <p>
+                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
+                                        <dimensions type="akṣara" n="X" unit="mm">
+                                            <height quantity="X">X</height>
+                                            <width quantity="X">X</width>
+                                            <dim type="aspect_ratio" quantity="X">X</dim>
+                                        </dimensions>
+                                    </p>
+                                    
+                                    <p>
+                                        <dimensions type="written_area" unit="cm">
+                                            <height quantity="X"></height>
+                                            <width atLeast="X" atMost="X"></width>
+                                        </dimensions>
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height quantity="X">X</height>
+                                        </dimensions>
+                                    </p>
+                                    
+                                    <p>
+                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
+                                            <height quantity="X">X</height>
+                                            <width quantity="X">X</width>
+                                            <depth quantity="X">X</depth>
+                                        </dimensions>
+                                    </p> 
+                                    
+                                    <p>Details on frame, marginal lines, ruling and the like.</p>
                                 </layout>
-                           </layoutDesc>
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
@@ -192,10 +197,16 @@
                             <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
                             <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
                         </origin>
-                        <provenance>Bought by <name type="person" subtype="dnr" key="local_00002 VIAF_7477330"><persName type="standard" xml:lang="eng" >Wright, Daniel</persName><persName type="display" xml:lang="eng" >Dr. D. Wright</persName></name> in <date
+                        <provenance>Bought by 
+                            <name type="person" subtype="dnr" key="local_00000">
+                                <persName type="standard" xml:lang="lat">Sempronius, Titius
+                                    Caius</persName><persName type="display" xml:lang="lat">Titius
+                                    Caius Sempronius</persName></name> in <date
                             calendar="Gregorian" from="1873" to="1876">1873-6</date>.
                         </provenance>
-                        <acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date></acquisition>
+                        <acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>
                     </history>
                     
                     <additional>
@@ -1354,7 +1365,8 @@
 <pb n="417r" facs="#i835"/>
 <pb n="417v" facs="#i836"/>
 <pb n="418r" facs="#i837"/>
-<pb n="418v" facs="#i838"/><pb n="419r" facs="#i839"/>
+<pb n="418v" facs="#i838"/>
+<pb n="419r" facs="#i839"/>
 <pb n="419v" facs="#i840"/>
 <pb n="420r" facs="#i841"/>
 <pb n="420v" facs="#i842"/>

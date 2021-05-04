@@ -1,108 +1,109 @@
-<?oxygen RNGSchema="http://schema.lib.cam.ac.uk/cam.ac.uk/lib/cudl/msTei/rnc/sanskrit/sanskrit-ms.rnc" type="compact"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00010">
+    
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title/>
-                <funder>AHRC</funder>
-                <principal>Vincenzo Vergiani</principal>
+                <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
+                <funder>Andrew W. Mellon Foundation</funder>
+                <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
+                <publisher>Bodleian Libraries</publisher>
                 <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Cambridge University Library</publisher>
                 <pubPlace>
                     <address>
-                <addrLine>Cambridge University Library</addrLine>
-               <street>West Road</street>
-                <settlement>Cambridge</settlement>
-                <postCode>CB3 9DR</postCode>
-                <addrLine><ref target="http://www.lib.cam.ac.uk">Cambridge University Library
-                </ref></addrLine>
-                <addrLine><email>library@lib.cam.ac.uk</email></addrLine>
-                </address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                            >Bodleian Library </ref></addrLine>
+                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                    </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
-                
-                <availability xml:id="displayImageRights" status="restricted"><p>Zooming image © Cambridge University Library, All rights reserved.</p></availability>
-                <availability xml:id="downloadImageRights" status="restricted">
-                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/">Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
-                </availability>
-                <availability xml:id="metadataRights" status="restricted">
-                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.</licence>
-                </availability>                
-                
             </publicationStmt>
             <sourceDesc>
                 
                 <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
-                        <region type="county">Cambridgeshire</region>
-                        <settlement>Cambridge</settlement>
-                        <institution>Cambridge University</institution>
-                        <repository>Cambridge University Library</repository>
-                        <collection>Additional Manuscripts</collection>
-                        <idno>MS Add.</idno>
-                     <altIdentifier type="internal"> 
-                        <collection type="CUL_collection">Sanskrit</collection> <idno/> 
-                     </altIdentifier>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <collection type="main">Oriental Manuscripts</collection>
+                        <collection type="sanskrit" subtype="miscellaneous" xml:id="Evans-Wentz">Sanskrit, miscellaneous</collection>
+                        <idno type="shelfmark">MS Sansk.</idno>
+                        <altIdentifier type="internal">
+                            <idno type="or_long_shelfmark"></idno>
+                            <note><country>United Kingdom</country>
+                                <region type="county">Oxfordshire</region>
+                                <settlement>Oxford</settlement>
+                                <orgName></orgName></note>
+                        </altIdentifier>
                     </msIdentifier>
                     
-                    
                     <msContents n="X">
-                        <!--increment n attribute for ms containing multiple ms items-->
                         <summary></summary>
                         
-                        
-                        <msItem n="1" defective="X">
-                            <!--repeat the <msItem> element for every work in the ms; 
-                           change the @defective to the following values: if the ms is complete, "false", if incomplete, "true"; 
-                           if you are unsure, choose "inapplicable", DO NOT use unknown;
-                           use <locus> element in the case of multiple msItems to indicate range in manuscript, otherwise delete it-->
-                            <locus from="1r" to="20v">ff. XrY-XvY</locus>
+                        <msItem n="1" defective="unknown">
+                            <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
                             
                             <author>
-                                <name type="person" subtype="aut" key="local_ VIAF_"><persName xml:lang="san" type="standard">[insert here the most common and widespread form of the author's name]</persName>
-                                    <persName xml:lang="san" type="alt">[if different, insert here the author's name as spelt in the ms]</persName>
-                                    <persName xml:lang="san" type="alt">[insert here any other form of the author's name]</persName>
+                                <name type="person" subtype="aut" key="local_">
+                                    <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="san">[insert here the most common and widespread form of the title]</title>
-                            <!--the following elements are optional, delete if not used-->
-                            <title xml:lang="san" type="alt">[if different, insert here the title as spelt in the ms]</title>
-                            <title xml:lang="san" type="alt">[insert here any other form of the title]</title>
-                            <title xml:lang="san" type="alt">[same as above, repeat this element anytime is needed]</title>
+                            <title xml:lang="sa">[insert here the uniform title of the work]</title>
                             
+                            <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            </rubric>
                             
-                            <rubric xml:lang="san"><locus from="Xv" to="Xv">[XvY]</locus> </rubric>
-                            <incipit xml:lang="san"><locus from="Xv" to="Xv">[XvY]</locus><graphic/>[<hi rend="italic">miniature</hi>]<graphic/></incipit>
+                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                                <damage agent="X" unit="X" quantity="1"></damage>
+                                <sic></sic>
+                                <del rend="X"></del>
+                                <unclear reason="X"></unclear>
+                                <add place="X" type="X" hand="X"></add>
+                                <subst><del></del><add></add></subst>
+                                <gap reason="X"></gap>
+                                <g></g>
+                                <figure type="X" rend="X"></figure>
+                            </incipit>
                             
-                            <finalRubric type="section" xml:lang="san"><locus from="3r" to="3"></locus>|| <g>@</g>|| </finalRubric>
+                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
+                            </finalRubric>
                             
-                            <explicit xml:lang="san"><locus from="89v" to="89v">[89v5]</locus></explicit>
+                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
                             
-                            <finalRubric xml:lang="san"><locus from="90r" to="90r">[90r2]</locus></finalRubric>
+                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
                             
-                            <colophon xml:lang="san"><locus from="90r" to="90r">[90r2]</locus></colophon>
+                            <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
                             
-                            <textLang mainLang="san" >Sanskrit.</textLang>
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
                     <physDesc>
-                        <p>Composite manuscript consisting of X codicological units 
-                            (X palm-leaf or paper folio(s) of the same dimensions has been added at the beginning of the manuscript as a supply).</p>
-                        <objectDesc form="X"> 
+                        <p>Composite manuscript consisting of X codicological units (X palm-leaf or
+                            paper folio(s) of the same dimensions has been added at the beginning of
+                            the manuscript as a supply).
+                        </p>
+                        <objectDesc form="X" > 
                             <supportDesc material="X">
                                 <support>[Insert here the description of the material, using one of the following set phrases: 
                                     Palm leaf, Nepalese paper, Nepalese multi-layered paper, 
                                     Nepalese multi-layered black paper, Birch bark, Paper.]
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="X">ca. X</height>
-                                            <width quantity="X">ca. X</width>
+                                            <height quantity="X"> X</height>
+                                            <width quantity="X"> X</width>
                                         </dimensions>
                                         <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <dimensions type="folio" scope="range" unit="cm">
@@ -112,7 +113,7 @@
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="X">X ff.</extent>
+                                <extent xml:id="folio" n="X"> X ff.</extent>
                                 
                                 <condition>
                                     Complete, in good condition.
@@ -131,87 +132,84 @@
                             <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
                             <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
                         </origin>
-                        <provenance>Bought by <name type="person" subtype="dnr" key="local_00002 VIAF_7477330"><persName type="standard" xml:lang="eng" >Wright, Daniel</persName><persName type="display" xml:lang="eng" >Dr. D. Wright</persName></name> in <date
-                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+                        <provenance>Bought by 
+                            <name type="person" subtype="dnr" key="local_00000">
+                                <persName type="standard" xml:lang="lat">Sempronius, Titius
+                                    Caius</persName><persName type="display" xml:lang="lat">Titius
+                                        Caius Sempronius</persName></name> in <date
+                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
                         </provenance>
-                        <acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>
+                        <acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>
                     </history>
                     
                     <additional>
                         <adminInfo>
-                            <recordHist>
-                                <source><ref type="biblio" target="LVP_Add.XYZ">LVP Add.XYZ</ref>, direct inspection.</source>
-                            </recordHist>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card for admissions procedures contact <ref
-                                        target="http://www.lib.cam.ac.uk/cgi-bin/eligibility.cgi/"
-                                        >Cambridge University Library Admissions</ref>).</p>
+                                    a valid reader's card, for admissions procedures contact <ref
+                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
-                        
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
-                            
-                            <biblStruct type="manuscript" xml:id="Handlist_1900">
+                            <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
-                                    <title>List of Oriental MSS. Class Catalogue of Oriental MSS.</title>
+                                    <title level="m">[unpublished manuscript]</title>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
                                     <imprint>
-                                        <pubPlace>Cambridge</pubPlace>
-                                        <date>1900–</date>
+                                        <pubPlace/>
+                                        <date/>
                                     </imprint>
                                 </monogr>
-                                <idno type="callNumber">Handlist_1900</idno>
                             </biblStruct>
-                            
-                            <biblStruct type="manuscript" xml:id="de_La_Vallée_Poussin1916">
+                            <biblStruct type="book" xml:id="XX">
                                 <monogr>
-                                    <title>U[niversity.L[ibrary].C[ambridge]. Catalogue of Sanskrit MSS [unpublished card catalogue]</title>
+                                    <title/>
                                     <author>
-                                        <forename>Louis</forename>
-                                        <surname>LVP = de La Vallée Poussin</surname>
-                                    </author>
-                                    <author>
-                                        <forename>Caroline Mary</forename>
-                                        <surname>Ridding</surname>
+                                        <forename/>
+                                        <surname/>
                                     </author>
                                     <imprint>
-                                        <pubPlace>Cambridge</pubPlace>
-                                        <date>1916</date>
+                                        <pubPlace/>
+                                        <publisher/>
+                                        <date/>
                                     </imprint>
                                 </monogr>
-                                <idno type="callNumber">LVP</idno>
                             </biblStruct>
                         </listBibl>
                         
-                        <listBibl type="manuscripts">
+                        <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
                             <bibl>
-                                <orgName>NGMCP</orgName>:
-                                <ref type="extant_mss" target=""> XX listed manuscripts</ref>
+                                <orgName>NGMCP</orgName>: <ref type="extant_mss" target=""> XX
+                                    listed manuscripts</ref>
                                 <ref type="extant_mss" target=""> X catalogued manuscripts</ref>
                             </bibl>
                             <bibl>
-                                <placeName>Cambridge</placeName>, <orgName>Cambridge University Library</orgName>: 
-                                <ref type="extant_mss" target="">Add. XXX</ref>, 
-                                <ref type="extant_mss" target="">Add. XXX</ref>.
-                            </bibl>
-                        </listBibl>
+                                <placeName>Oxford</placeName>, <orgName>Bodleian
+                                Libraries</orgName>: <ref type="extant_mss" target="">MS. XXX</ref>,
+                                    <ref type="extant_mss" target="">MS. XXX</ref>. </bibl>
+                        </listBibl>-->
                         
-                        <listBibl>
+                        <!--<listBibl>
                             <head>Edition(s)</head>
-                            <ref type="biblio" target="Name_19XX"></ref>
-                            <biblStruct></biblStruct>
-                            <biblStruct></biblStruct>
-                        </listBibl>
-                        
-                        <listBibl> 
+                            <ref type="biblio" target="Name_19XX"/>
+                            <biblStruct/>
+                            <biblStruct/>
+                        </listBibl>-->
+                        <!--<listBibl>
                             <head>Secondary Literature</head>
-                            <ref type="biblio" target="Name_19XX"></ref>
-                            <biblStruct></biblStruct>
-                            <biblStruct></biblStruct>
-                        </listBibl>
+                            <ref type="biblio" target="Name_19XX"/>
+                            <biblStruct/>
+                            <biblStruct/>
+                        </listBibl>-->
                     </additional>
                     
                     <msPart n="1">
