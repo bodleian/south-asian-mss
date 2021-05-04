@@ -123,8 +123,14 @@
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" ruledLines="X">
-                                    <!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
+                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha_etc">
+                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-->
+                                    
+                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
+                                    </note>
+                                    
                                     <p>
                                         XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
                                         <dimensions type="akṣara" n="X" unit="mm">
@@ -134,7 +140,7 @@
                                         </dimensions>
                                     </p>
                                     
-                                    <p>
+                                    <p>Details on frame, marginal lines, ruling and the like.
                                         <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
@@ -144,15 +150,13 @@
                                         </dimensions>
                                     </p>
                                     
-                                    <p>
+                                    <p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p> 
-                                    
-                                    <p>Details on frame, marginal lines, ruling and the like.</p>
+                                    </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
