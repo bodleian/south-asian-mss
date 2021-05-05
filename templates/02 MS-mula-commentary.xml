@@ -151,7 +151,6 @@
                                 </condition>
                             </supportDesc>
                             
-<<<<<<< HEAD
                             <layoutDesc>
                                 <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
@@ -187,39 +186,6 @@
                                             <depth quantity="X">X</depth>
                                         </dimensions>
                                     </p>
-=======
-                           <layoutDesc>
-                               <layout columns="1" ruledLines="X">
-<!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
-                                   <p>
-                                       XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                       <dimensions type="akṣara" n="X" unit="mm">
-                                           <height quantity="X">X</height>
-                                           <width quantity="X">X</width>
-                                           <dim type="aspect_ratio" quantity="X">X</dim>
-                                       </dimensions>
-                                   </p>
-                                   
-                                   <p>
-                                   <dimensions type="written_area" unit="cm">
-                                       <height quantity="X"></height>
-                                       <width atLeast="X" atMost="X"></width>
-                                   </dimensions>
-                                   <dimensions type="interlinear_space" scope="most" unit="mm">
-                                       <height quantity="X">X</height>
-                                    </dimensions>
-                                   </p>
-                                  
-                                   <p>
-                                       <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                           <height quantity="X">X</height>
-                                           <width quantity="X">X</width>
-                                           <depth quantity="X">X</depth>
-                                       </dimensions>
-                                   </p> 
-                                   
-                                   <p>Details on frame, marginal lines, ruling and the like.</p>
->>>>>>> 4a7889c0dbd1483cbebcb9f1a618220e562fdcc0
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -268,13 +234,8 @@
                             <name type="person" subtype="dnr" key="local_00000">
                                 <persName type="standard" xml:lang="lat">Sempronius, Titius
                                     Caius</persName><persName type="display" xml:lang="lat">Titius
-<<<<<<< HEAD
                                         Caius Sempronius</persName></name> in <date
                                             calendar="Gregorian" from="1873" to="1876">1873-6</date>.
-=======
-                                    Caius Sempronius</persName></name> in <date
-                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
->>>>>>> 4a7889c0dbd1483cbebcb9f1a618220e562fdcc0
                         </provenance>
                         <acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
