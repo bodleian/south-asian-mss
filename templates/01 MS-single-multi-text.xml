@@ -123,7 +123,11 @@
                             </supportDesc>
                             
                             <layoutDesc>
+<<<<<<< HEAD
+                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+=======
                                 <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha_etc">
+>>>>>>> 4a7889c0dbd1483cbebcb9f1a618220e562fdcc0
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
@@ -198,15 +202,20 @@
                     
                     <history>
                         <origin>
-                            <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
-                            <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
+                            <date calendar="Nepāla" when="0914">914 Nepāla</date> / <date calendar="Gregorian" when="1784">1794 CE.</date>
+                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
                         <provenance>Bought by 
                             <name type="person" subtype="dnr" key="local_00000">
                                 <persName type="standard" xml:lang="lat">Sempronius, Titius
                                     Caius</persName><persName type="display" xml:lang="lat">Titius
+<<<<<<< HEAD
+                                        Caius Sempronius</persName></name> in <date
+                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+=======
                                     Caius Sempronius</persName></name> in <date
                             calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+>>>>>>> 4a7889c0dbd1483cbebcb9f1a618220e562fdcc0
                         </provenance>
                         <acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
@@ -223,8 +232,10 @@
                             </availability>
                             <note/>
                         </adminInfo>
+                        
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
+                            
                             <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
                                     <title level="m">[unpublished manuscript]</title>
@@ -238,6 +249,7 @@
                                     </imprint>
                                 </monogr>
                             </biblStruct>
+                            
                             <biblStruct type="book" xml:id="XX">
                                 <monogr>
                                     <title/>

@@ -130,7 +130,7 @@
                                             <height quantity="X"> X</height>
                                             <width quantity="X"> X</width>
                                         </dimensions>
-<!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
+                                        <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <dimensions type="folio" scope="range" unit="cm">
                                             <height atLeast="X" atMost="Y">ca. X-Y</height>
                                             <width atLeast="X" atMost="Y">ca. X-Y</width>
@@ -144,13 +144,50 @@
                                 <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
                                 <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
                                 
-<!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+                                <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
                                     Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
                                     some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
                                 </condition>
                             </supportDesc>
                             
+<<<<<<< HEAD
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-->
+                                    
+                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
+                                    </note>
+                                    
+                                    <p>
+                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
+                                        <dimensions type="akṣara" n="X" unit="mm">
+                                            <height quantity="X">X</height>
+                                            <width quantity="X">X</width>
+                                            <dim type="aspect_ratio" quantity="X">X</dim>
+                                        </dimensions>
+                                    </p>
+                                    
+                                    <p>Details on frame, marginal lines, ruling and the like.
+                                        <dimensions type="written_area" unit="cm">
+                                            <height quantity="X"></height>
+                                            <width atLeast="X" atMost="X"></width>
+                                        </dimensions>
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height quantity="X">X</height>
+                                        </dimensions>
+                                    </p>
+                                    
+                                    <p>Details about the string hole(s).
+                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
+                                            <height quantity="X">X</height>
+                                            <width quantity="X">X</width>
+                                            <depth quantity="X">X</depth>
+                                        </dimensions>
+                                    </p>
+=======
                            <layoutDesc>
                                <layout columns="1" ruledLines="X">
 <!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
@@ -182,8 +219,9 @@
                                    </p> 
                                    
                                    <p>Details on frame, marginal lines, ruling and the like.</p>
+>>>>>>> 4a7889c0dbd1483cbebcb9f1a618220e562fdcc0
                                 </layout>
-                           </layoutDesc>
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
@@ -223,15 +261,20 @@
                     
                     <history>
                         <origin>
-                            <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
-                            <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
+                            <date calendar="Nepāla" when="0914">914 Nepāla</date> / <date calendar="Gregorian" when="1784">1794 CE.</date>
+                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
                         <provenance>Bought by 
                             <name type="person" subtype="dnr" key="local_00000">
                                 <persName type="standard" xml:lang="lat">Sempronius, Titius
                                     Caius</persName><persName type="display" xml:lang="lat">Titius
+<<<<<<< HEAD
+                                        Caius Sempronius</persName></name> in <date
+                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+=======
                                     Caius Sempronius</persName></name> in <date
                             calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+>>>>>>> 4a7889c0dbd1483cbebcb9f1a618220e562fdcc0
                         </provenance>
                         <acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
