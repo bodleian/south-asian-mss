@@ -54,14 +54,14 @@
                         <summary></summary>
                     </msContents>
                     
-                    <msPart n="1" xml:id="kernel">
+                    <msPart n="1" xml:id="produnit1">
                         <msIdentifier>
                             <altIdentifier>
-                                <idno>First codicological unit (kernel)</idno>
+                                <idno>First production unit (kernel)</idno>
                             </altIdentifier>
                         </msIdentifier>
                         
-                        <msContents corresp="#unit1">
+                        <msContents corresp="#produnit1">
                             <!--increment n attribute for ms containing multiple ms items-->
                             
                             <msItem n="1" defective="unknown">
@@ -297,7 +297,7 @@
                         </additional>
                     </msPart>
                     
-                    <msPart n="2" xml:id="unit2">
+                    <msPart n="2" xml:id="produnit2">
                         <msIdentifier>
                             <altIdentifier>
                                 <idno>Second codicological unit</idno>

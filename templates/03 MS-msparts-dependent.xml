@@ -62,10 +62,10 @@
                             
                             <title xml:lang="sa">[insert here the uniform title of the work]</title>
                             
-                            <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <rubric corresp="#produnit2" xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <incipit corresp="#produnit2" xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                                 <damage agent="X" unit="X" quantity="1"></damage>
                                 <sic></sic>
                                 <del rend="X"></del>
@@ -77,14 +77,14 @@
                                 <figure type="X" rend="X"></figure>
                             </incipit>
                             
-                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
+                            <finalRubric type="section" corresp="#produnit1" xml:lang="sa"><locus from="3r" to="3r"></locus> 
                             </finalRubric>
                             
-                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
+                            <explicit corresp="#produnit1" xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
                             
-                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
+                            <finalRubric corresp="#produnit1" xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
                             
-                            <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
+                            <colophon corresp="#produnit1" xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
@@ -213,10 +213,10 @@
                         </listBibl>-->
                     </additional>
                     
-                    <msPart n="1" xml:id="kernel">
+                    <msPart n="1" xml:id="produnit1">
                         <msIdentifier>
                         <altIdentifier>
-                            <idno>First codicological unit (kernel)</idno>
+                            <idno>First production unit (kernel)</idno>
                         </altIdentifier>
                         </msIdentifier>
                         
@@ -329,10 +329,10 @@
                         </history>
                     </msPart>
                     
-                    <msPart n="2" xml:id="unit2">
+                    <msPart n="2" xml:id="produnit2">
                         <msIdentifier>
                         <altIdentifier>
-                            <idno>Second codicological unit</idno>
+                            <idno>Second production unit</idno>
                         </altIdentifier>
                         </msIdentifier>
                         
