@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>AWM</funder>
+                <funder>Andrew W. Mellon Foundation</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -74,7 +74,7 @@
                             
                             <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
                                 || kaścit_ kāntāvirahaguruṇā svādhikārapramattaḥ <sic>śāpenāstaṃ gamitamahimā</sic> varṣabhogyeṇa bhartuḥ | 
-                                yakṣa<lb/>ś cakre janakatanayāsnānapuṇyodakeṣu snigdhacchāyā    taruṣu vasatiṃ rāmagiryyāśrameṣu || 1 ||
+                                yakṣa<lb/>ś cakre janakatanayāsnānapuṇyodakeṣu snigdhacchāyā taruṣu vasatiṃ rāmagiryyāśrameṣu || 1 ||
                             </incipit>
 
                             <explicit xml:lang="sa"><locus from="21r" to="21r">[21r2]</locus> 
@@ -110,58 +110,54 @@
 
                                 <extent xml:id="folio" n="X"> X ff.</extent>
 
-                                <foliation n="1" rend="original">Bengali numerals, mid-right margin, verso.</foliation>
+                                <foliation n="1" style="letter" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
 
-                                <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+<!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition> Damaged; all folios are smudged and stained, with <term
                                         xml:lang="sa">akṣara</term>s (mostly still readable)
                                     damaged by humidity. </condition>
                             </supportDesc>
 
-                            <!--<layoutDesc>
-                                <layout columns="1" writtenLines="5">
-                                    <dimensions type="written" unit="cm">
-                                        <height atLeast="3" atMost="4">Written area: 3-4</height>
-                                        <width quantity="29">29</width>
-                                    </dimensions>
-                                    <p>5 lines per page, approximately 53 <term xml:lang="sa"
-                                            >akṣara</term>s per line.</p>
-                                    <dimensions type="akṣara" unit="mm" n="53">
-                                        <height quantity="4">Akṣara height: 4</height>
-                                    </dimensions>
-                                    <dimensions type="interlinear_space" scope="most" unit="mm">
-                                        <height quantity="2">Interlinear space height: 2</height>
-                                    </dimensions>
-                                    <!-\-<commentaryForm type=""></commentaryForm>-\->
-                                    <!-\-<stringHole type="true" quantity="2"> Two string holes framed by double parallel lines in black ink. 
-                                            <dimensions type="string hole spaces" scope="most" unit="cm">
-                                                <height quantity="2.5">2.5</height>
-                                                <width quantity="1.5">1.5</width>
-                                                <depth quantity="10.5">10.5</depth>
-                                            </dimensions>
-                                    </stringHole>-\->
-                                    <p>Impressed marginal frame lines, no ruling.</p>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="4">
+                                    
+                                    <p>
+                                        4 lines per page, approximately 54 <term xml:lang="sa">akṣara</term>s per line.
+                                        <dimensions type="akṣara" n="54" unit="mm">
+                                            <height atLeast="3" atMost="4">3-4</height>
+                                            <width quantity="3">3</width>
+                                            <dim type="aspect_ratio" quantity="1.25">1.25:1</dim>
+                                        </dimensions>
+                                    </p>
+                                    
+                                    <p>Impressed marginal frame lines.
+                                        <dimensions type="written_area" unit="cm">
+                                            <height quantity="2">2</height>
+                                            <width atLeast="23.7" atMost="25.5">23.7-25.5</width>
+                                        </dimensions>
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height quantity="2">2</height>
+                                        </dimensions>
+                                    </p>
                                 </layout>
-                            </layoutDesc>-->
+                            </layoutDesc>
                         </objectDesc>
 
                         <handDesc>
                             <handNote scope="major" script="Bengali" medium="blackink">
-                                <desc>Bengali in black ink (main text and first set of
-                                    annotations).</desc>
+                                <desc>Bengali  in black ink.</desc>
                             </handNote>
                             <handNote scope="minor" script="Bengali" medium="redink">
                                 <desc>Bengali in red ink (second set of annotations).</desc>
                             </handNote>
-                        </handDesc>
+                            </handDesc>
 
                         <additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <add type="invocations">Invocation (<term xml:lang="sa"
-                                            >śrī</term>) immediately before the foliation, mid right
-                                        margin, verso.</add>
+                                    <add type="invocations">Invocation (<term xml:lang="sa">śrī</term>) immediately before the foliation, mid right margin, verso.
+                                    </add>
                                 </item>
                                 <item>
                                     <add type="annotations">Numerous annotations on all
@@ -179,7 +175,7 @@
 
                     <history>
                         <origin>
-                            <date calendar="Śāka" when="1622">Śāka 1622 / 1700 CE.</date>
+                            <date calendar="Śāka" when="1622">Śāka 1622</date> / <date calendar="Gregorian" when="1700">1700 CE.</date>
                             <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
                         <provenance>Donated by <name type="person" role="dnr" key="local_00002 VIAF_89804438"
@@ -211,106 +207,38 @@
                             <note/>
                         </adminInfo>
 
-                        <!--<listBibl type="ms_descriptions">
-                                <head>Descriptions of the manuscript</head>
-                                
-                                
-                                <biblStruct type="manuscript" xml:id="ULIB7355Bradshaw1870">
-                                    <monogr>
-                                        <title level="m">Notes on the collections of Oriental, Thibetan and
-                                            'Additional' manuscripts [unpublished manuscript]</title>
-                                        <author>
-                                            <forename>Henry</forename>
-                                            <surname>ULIB 7/3/55 =
-                                                Bradshaw</surname>
-                                        </author>
-                                        <imprint>
-                                            <pubPlace>Cambridge</pubPlace>
-                                            <date>1870-80</date>
-                                            
-                                        </imprint>
-                                    </monogr>
-                                </biblStruct>
-                                
-                                <biblStruct type="manuscript" xml:id="ULIB714Griffith1873">
-                                    <monogr>
-                                        <title level="m">Assorted lists of manuscripts and books, chiefly Oriental,
-                                            acquired by the Library, with related papers</title>
-                                        <author>
-                                            <forename>Ralph T. H.</forename>
-                                            <surname>ULIB 7/1/4 =
-                                                Griffith</surname>
-                                        </author>
-                                        <author>
-                                            <forename>Daniel</forename>
-                                            <surname>Wright</surname>
-                                        </author>
-                                        <imprint>
-                                            <pubPlace>Cambridge</pubPlace>
-                                            <date>1873</date>
-                                        </imprint>
-                                    </monogr>
-                                    <idno type="callNumber">ULIB 7/1/4</idno>
-                                </biblStruct>
-                                
-                                <biblStruct type="manuscript" xml:id="zoteroItem_243">
-                                    <monogr>
-                                        <title level="m">List Add. 923-1827 = List of Additional Manuscripts 923-1827 [unpublished manuscript]</title>
-                                        <imprint>
-                                            <pubPlace>Cambridge</pubPlace>
-                                            <date>1878</date>
-                                        </imprint>
-                                    </monogr>
-                                    <idno type="callNumber">Handlist_Add_1878</idno>
-                                </biblStruct>
-                                
-                                <biblStruct type="book" xml:id="Bendall1883">
-                                    <monogr>
-                                        <title>Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge. 
-                                            With Introductory Notices and Illustrations of the Palæography and Chronology of Nepal and Bengal</title>
-                                        <author>
-                                            <forename>Cecil</forename>
-                                            <surname>Bendall</surname>
-                                        </author>
-                                        <imprint>
-                                            <pubPlace>Cambridge</pubPlace>
-                                            <publisher>University Press</publisher>
-                                            <date>1883</date>
-                                        </imprint>
-                                    </monogr>
-                                    <idno type="callNumber">Bendall_1883</idno>
-                                </biblStruct>
-                                
-                                <biblStruct type="manuscript" xml:id="Handlist_1900">
-                                    <monogr>
-                                        <title>List of Oriental MSS. Class Catalogue of Oriental MSS. [unpublished manuscript]</title>
-                                        <imprint>
-                                            <pubPlace>Cambridge</pubPlace>
-                                            <date>1900–</date>
-                                        </imprint>
-                                    </monogr>
-                                    <idno type="callNumber">Handlist_1900</idno>
-                                </biblStruct>
-                                
-                                <biblStruct type="manuscript" xml:id="de_La_Vallée_Poussin1916">
-                                    <monogr>
-                                        <title>U[niversity.L[ibrary].C[ambridge]. Catalogue of Sanskrit MSS [unpublished card catalogue]</title>
-                                        <author>
-                                            <forename>Louis</forename>
-                                            <surname>LVP = de La Vallée Poussin</surname>
-                                        </author>
-                                        <author>
-                                            <forename>Caroline Mary</forename>
-                                            <surname>Ridding</surname>
-                                        </author>
-                                        <imprint>
-                                            <pubPlace>Cambridge</pubPlace>
-                                            <date>1916</date>
-                                        </imprint>
-                                    </monogr>
-                                    <idno type="callNumber">LVP</idno>
-                                </biblStruct>
-                            </listBibl>-->
+                        <listBibl type="ms_descriptions">
+                            <head>Descriptions of the manuscript</head>
+                            
+                            <biblStruct type="manuscript" xml:id="X">
+                                <monogr>
+                                    <title level="m">[unpublished manuscript]</title>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
+                                    <imprint>
+                                        <pubPlace/>
+                                        <date/>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            
+                            <biblStruct type="book" xml:id="XX">
+                                <monogr>
+                                    <title/>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
+                                    <imprint>
+                                        <pubPlace/>
+                                        <publisher/>
+                                        <date/>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>
 
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
@@ -352,6 +280,196 @@
                             Congress Subject Headings</ref>
                     </bibl>
                 </taxonomy>
+            <taxonomy xml:id="local_subjects">
+                    <category xml:id="vaidika"><catDesc>Vaidika</catDesc>
+                        <category xml:id="saṃhitā">
+                            <catDesc>Saṃhitā</catDesc>
+                        </category>
+                        <category xml:id="brāhmaṇa">
+                            <catDesc>Brāhmaṇa</catDesc>
+                        </category>
+                        <category xml:id="āraṇyaka">
+                            <catDesc>Āraṇyaka</catDesc>
+                        </category>
+                        <category xml:id="upaṇiṣad">
+                            <catDesc>Upaṇiṣad</catDesc>
+                        </category>
+                        <category xml:id="śrautasūtra">
+                            <catDesc>Śrautasūtra</catDesc>
+                        </category>
+                        <category xml:id="gṛhyasūtra">
+                            <catDesc>Gṛhyasūtra</catDesc>
+                        </category>
+                        <category xml:id="vedalakṣaṇa">
+                            <catDesc>Vedalakṣaṇa</catDesc>
+                            <category xml:id="śikṣā">
+                                <catDesc>Śikṣā</catDesc>
+                                </category>
+                            <category xml:id="pariśiṣṭa">
+                                <catDesc>Pariśiṣṭa</catDesc>
+                                </category>
+                            <category xml:id="anukramaṇikā">
+                                <catDesc>Anukramaṇikā</catDesc>
+                                </category>
+                            <category xml:id="prātiśākhya">
+                                <catDesc>Prātiśākhya</catDesc>
+                                </category>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="itihāsa"><catDesc>Itihāsa</catDesc>
+                        <category xml:id="mahābhārata">
+                            <catDesc>Mahābhārata</catDesc>
+                        </category>
+                        <category xml:id="rāmāyaṇa">
+                            <catDesc>Rāmāyaṇa</catDesc>
+                        </category>
+                        <category xml:id="vaṃśāvalī">
+                            <catDesc>Vaṃśāvalī</catDesc>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="purāṇa"><catDesc>Purāṇa</catDesc>
+                        <category xml:id="māhātmya">
+                            <catDesc>Māhātmya</catDesc>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="stotra">
+                        <catDesc>Stotra</catDesc>
+                    </category>
+                    
+                    <category xml:id="karmakāṇḍa">
+                        <catDesc>Karmakāṇḍa</catDesc>
+                    </category>
+                    
+                    <category xml:id="bhakti"><catDesc>Bhakti</catDesc>
+                    </category>
+                    
+                    <category xml:id="tantra">
+                        <catDesc>Tantra</catDesc>
+                    </category>
+                    
+                    <category xml:id="śāstra"><catDesc>Śāstra</catDesc>
+                        <category xml:id="artha">
+                            <catDesc>Artha</catDesc>
+                        </category>
+                        <category xml:id="kāma">
+                            <catDesc>Kāma</catDesc>
+                        </category>
+                        <category xml:id="dharma">
+                            <catDesc>Dharma</catDesc>
+                        </category>
+                        <category xml:id="vyākaraṇa">
+                            <catDesc>Vyākaraṇa</catDesc>
+                        </category>
+                        <category xml:id="kośa">
+                            <catDesc>Kośa</catDesc>
+                        </category>
+                        <category xml:id="jyotiṣa">
+                            <catDesc>Jyotiṣa</catDesc>
+                        </category>
+                        <category xml:id="nīti">
+                            <catDesc>Nīti</catDesc>
+                        </category>
+                        <category xml:id="dhanur">
+                            <catDesc>Dhanur</catDesc>
+                        </category>
+                        <category xml:id="nyāya">
+                            <catDesc>Nyāya</catDesc>
+                        </category>
+                        <category xml:id="vaiśeṣika">
+                            <catDesc>Vaiśeṣika</catDesc>
+                        </category>
+                        <category xml:id="yoga">
+                            <catDesc>Yoga</catDesc>
+                        </category>
+                        <category xml:id="sāṃkhya">
+                            <catDesc>Sāṃkhya</catDesc>
+                        </category>
+                        <category xml:id="mīmāṃsā">
+                            <catDesc>Mīmāṃsā</catDesc>
+                        </category>
+                        <category xml:id="vedānta">
+                            <catDesc>Vedānta</catDesc>
+                        </category>
+                        <category xml:id="āyurveda">
+                            <catDesc>Āyurveda</catDesc>
+                        </category>
+                        <category xml:id="rasāyaṇa">
+                            <catDesc>Rasāyaṇa</catDesc>
+                        </category>
+                        <category xml:id="alaṃkāra">
+                            <catDesc>Alaṃkāra</catDesc>
+                        </category>
+                        <category xml:id="chandas">
+                            <catDesc>Chandas</catDesc>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="subhāṣita">
+                        <catDesc>Subhāṣita</catDesc>
+                    </category>
+                    
+                    <category xml:id="kāvya"><catDesc>Kāvya</catDesc>
+                        <category xml:id="mahākāvya">
+                            <catDesc>Mahākāvya</catDesc>
+                        </category>
+                        <category xml:id="laghukāvya">
+                            <catDesc>Laghukāvya</catDesc>
+                        </category>
+                        <category xml:id="kāthā">
+                            <catDesc>Kāthā</catDesc>
+                        </category>
+                        <category xml:id="campū">
+                            <catDesc>Campū</catDesc>
+                        </category>
+                        <category xml:id="sandeśakāvya">
+                            <catDesc>Sandeśakāvya</catDesc>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="nāṭya"><catDesc>Nāṭya</catDesc>
+                        <category xml:id="nāṭaka">
+                            <catDesc>Nāṭaka</catDesc>
+                        </category>
+                        <category xml:id="nāṭikā">
+                            <catDesc>Nāṭikā</catDesc>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="vaiṣṇava"><catDesc>Vaiṣṇava</catDesc>
+                    </category>
+                    
+                    <category xml:id="śaiva"><catDesc>Śaiva</catDesc>
+                    </category>
+                    
+                    <category xml:id="śākta"><catDesc>Śākta</catDesc>
+                    </category>
+                    
+                    <category xml:id="saurya"><catDesc>Saurya</catDesc>
+                    </category>
+                    
+                    <category xml:id="jaina"><catDesc>Jaina</catDesc>
+                    </category>
+                    
+                    <category xml:id="bauddha"><catDesc>Bauddha</catDesc>
+                    </category>
+                    
+                    <category xml:id="sikh">
+                        <catDesc>Sikh</catDesc>
+                    </category>
+                    
+                    <category xml:id="avesta">
+                        <catDesc>Avesta</catDesc>
+                    </category>
+                    
+                </taxonomy>
+                
+                <taxonomy xml:id="local_texts">
+                    <category xml:id="mūla">
+                    </category>
+                </taxonomy>
             </classDecl>
         </encodingDesc>
         <profileDesc>
@@ -366,14 +484,19 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item>Kāvya</item>
-                        <item>Laghukāvya</item>
-                        <item>Sandeśakāvya</item>
+                        <item corresp="#kāvya">Kāvya</item>
+                        <item corresp="#laghukāvya">Laghukāvya</item>
+                        <item corresp="#sandeśakāvya">Sandeśakāvya</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2020-06-15">
+                <persName>Camillo Formigatti modified this entry according to the <ref
+                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            </change>
             <change when="2020-05-05">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
