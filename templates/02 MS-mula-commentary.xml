@@ -140,9 +140,9 @@
                                 
                                 <extent xml:id="folio" n="X"> X ff.</extent>
                                 
-                                <foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
+                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>  
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>

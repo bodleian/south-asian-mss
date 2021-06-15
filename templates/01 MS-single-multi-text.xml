@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -55,7 +54,7 @@
                             <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
                             
                             <author>
-                                <name type="person" subtype="aut" key="local_">
+                                <name type="person" key="local_">
                                     <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
                                 </name>
                             </author>
@@ -111,8 +110,8 @@
                                 
                                 <extent xml:id="folio" n="X"> X ff.</extent>
                                 
-                                <foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
                                 <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
@@ -166,7 +165,7 @@
                             <handNote scope="sole" script="X" medium="X" scribeRef="X">
                                 <desc>X in X ink.</desc>
                                 <desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
+                                    <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
                                     </name>
                                 </desc>
@@ -203,7 +202,7 @@
                             <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
                         <provenance>Bought by 
-                            <name type="person" subtype="dnr" key="local_00000">
+                            <name type="person" role="dnr" key="local_00000">
                                 <persName type="standard" xml:lang="lat">Sempronius, Titius
                                     Caius</persName><persName type="display" xml:lang="lat">Titius
                                         Caius Sempronius</persName></name> in <date
