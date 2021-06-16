@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00001">
+    
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
+                <funder>CSL</funder>
+                <principal>Gillian Evison</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Libraries</publisher>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine>
+                            <email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                    </address>
+                </pubPlace>
+                <idno>Sanskrit</idno>
+            </publicationStmt>
+            <sourceDesc>
+                
+                <msDesc xml:id="Sanskrit" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <collection type="main">Oriental Manuscripts</collection>
+                        <collection type="Sanskrit" subtype="miscellaneous">Sanskrit</collection>
+                        <idno type="shelfmark">MS. Sansk. d. 346(R)</idno>
+                        <altIdentifier type="internal">
+                            <idno type="or_long_shelfmark">Or.long.D.4</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents n="2">
+                        <summary>This Nepalese manuscript is composite and consists of two
+                            codicological units. <p>The main codicological unit (kernel) is written on black
+                            paper (<term xml:lang="san">nīlapattra</term>) with golden ink (<term
+                                xml:lang="san">suvarṇākṣara</term>) and contains the <title
+                                xml:lang="san">Mañjuśrīnāmasaṅgīti</title>, a popular Buddhist
+                            tantric work, which consists primarily of 162 verses associated with
+                            Mañjuśrī, the Bodhisattva of wisdom. According to the colophon, the
+                            manuscript was written in 1570 CE by the <term xml:lang="san"
+                                >vajrācārya</term> Vijayacandra in the 
+                                <name type="place" key="local_00002"><placeName xml:lang="sa"
+                                        type="standard">Maṇisaṅgha</placeName></name> monastery (<term
+                                    xml:lang="san">mahāvihāra </term>) in 
+                                <name type="place" key="local_00003"><placeName xml:lang="en" type="standard">Kathmandu</placeName></name>, under the reign of king
+                                <name type="person" key="local_ 00004"><persName xml:lang="sa" type="standard"
+                                        >Mahendramalla</persName></name> (ca 1560–1574). It was commissioned by the Buddhist monk
+                                <name type="person" role="pat" key="local_ 00005"><persName xml:lang="sa" type="standard"
+                                    >Mayalasiṃhacandra</persName></name>, who was based in the <name type="place" key="local_00005"><placeName xml:lang="sa">Kīrttipuṇya</placeName></name>  monastery (<term
+                                xml:lang="san">mahāvihāra</term>), located in the same city.They
+                            contain twenty-five stanzas of a text (a hymn?) in a form of Sanskritized
+                            Newārī. Folios <locus
+                                from="7v" to="7v">1v</locus> and <locus from="8r" to="8r">2r</locus> 
+                            are decorated with miniatures of the Buddha Śākyamuni (?) in the center
+                            of a lotus and an eight-armed unidentified Bodhisattva figure (?).</p>
+                            <p>The second codicological unit, written in 1822, consists of six white paper folios written with red ink, added at the beginning
+                                of the manuscript with the last one pasted on the black-paper flyleaf. Originally it did not have the string holes and
+                                therefore they were pierced through it when it was added to the kernel, thus obliterating some characters.</p>
+                        </summary>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent n="37"> 37 ff.</extent>
+                            </supportDesc>
+                        </objectDesc>
+                        
+                        <bindingDesc>
+                            <p><material>Wood cover</material>, original binding. The covers are painted with floral motives on the
+                            outside, while on the inside there are images of three Buddhist wrathful deities
+                            (Mahākāla ?) and white Tārā (?) flanked by four Bodhisattvas (Mañjuśrī
+                            (?), Vajrasattva (?), and two other unidentified figures).</p>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <acquisition>Bought from <orgName>Spink &amp; Son</orgName> in <date
+                            calendar="Gregorian" when="1988-09">September 1988</date>.</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source> Previously uncatalogued.</source>
+                            </recordHist>
+                            <availability status="restricted">
+                                <p>Entry to read in the Library is permitted only on presentation of
+                                    a valid reader's card, for admissions procedures contact <ref
+                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+                        
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscript</head>
+                                
+                                
+                                <biblStruct type="manuscript" xml:id="ULIB7355Bradshaw1870">
+                                    <monogr>
+                                        <title level="m">Bodleian Handlist of Oriental Manuscripts (MSS.2.B–C Except Bodl.Or.)</title>
+                                        <author>
+                                            <forename></forename>
+                                            <surname>BHOM (based on Norman Sainsbury et al.) = </surname>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace>Oxford</pubPlace>
+                                            <date>Ongoing</date>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        
+                        <!--<listBibl type="manuscripts">
+                            <head>Manuscripts</head>
+                            <bibl>
+                                <orgName>NGMCP</orgName>:
+                                <ref type="extant_mss" target=""> XX listed manuscripts</ref>
+                                <ref type="extant_mss" target=""> X catalogued manuscripts</ref>
+                            </bibl>
+                            <bibl>
+                                <placeName>Cambridge</placeName>, <orgName>Cambridge University Library</orgName>: 
+                                <ref type="extant_mss" target="">Add. XXX</ref>, 
+                                <ref type="extant_mss" target="">Add. XXX</ref>.
+                            </bibl>
+                        </listBibl>-->
+                        
+                        <!--<listBibl>
+                            <head>Edition(s)</head>
+                            <ref type="biblio" target="Name_19XX"></ref>
+                            <biblStruct></biblStruct>
+                            <biblStruct></biblStruct>
+                        </listBibl>-->
+                        
+                        <!--<listBibl> 
+                            <head>Secondary Literature</head>
+                            <ref type="biblio" target="Name_19XX"></ref>
+                            <biblStruct></biblStruct>
+                            <biblStruct></biblStruct>
+                        </listBibl>-->
+                    </additional>
+                    
+                    <msPart n="1">
+                        <msIdentifier>
+                            <idno xml:id="kernel-1">First codicological unit (kernel)</idno>
+                        </msIdentifier>
+                        
+                        <msContents>
+                        <msItem n="2" defective="false">
+                            <author>
+                                <name type="person" subtype="aut" key="local_00000"><persName xml:lang="en" type="standard">‏Unknown</persName></name>
+                            </author>
+                            
+                            <title xml:lang="sa" key="local_00001">Mañjuśrīnāmasaṅgīti</title>
+                            
+                            <rubric xml:lang="san"><ref corresp="#kernel-1"><locus from="7v" to="7v">[7v1 = 1v1, first codicological unit (kernel)]</locus> 
+                                vra oṃ namo mañjunāthāya ||</ref>
+                            </rubric>
+                            
+                            <incipit xml:lang="san">
+                                <ref corresp="#kernel-1"><locus from="7v" to="7v">[7v1 = 1v1, first codicological unit (kernel)]</locus> 
+                                atha <sic>vajadharaḥ</sic>
+                                <g>[miniature]</g> śrīmān_ durdāntadamakaḥ paraḥ | triloka¦[7v2 =
+                                1v2]vijayī vīro <sic>guykarāṭ_</sic> kuliśe<g>[miniature]</g>śvaraḥ ||</ref>
+                            </incipit>
+                            
+                            <explicit xml:lang="sa" type="section">
+                                <ref corresp="#kernel-1"><locus from="32v" to="32v">[32v2 = 25v2, first codicological unit (kernel)]</locus> 
+                                <g type="string_hole">%</g> gambhīrodāravaipulyo mahārthajagadatha<g type="string_hole">%</g><unclear reason="faded">kṛt_ bu</unclear>ddhānāṃ viṣayo hy eṣaḥ 
+                                sa[32v3 = 25v3]myaksaṃbuddhabhāṣitaḥ || 5 ||| <g type="string_hole">%</g> upasaṃhāragāthā pañcā ||^^^||</ref>
+                            </explicit>
+                            
+                            <finalRubric xml:lang="sa" type="section">
+                                <ref corresp="#kernel-1"><locus from="32v" to="32v">[32v3 = 25v3, first codicological unit (kernel)]</locus> 
+                                <unclear reason="faded"><sic>āya</sic>mā</unclear>yājālāt_
+                                ṣoḍaśa[32v4 = 25v4]sāhasrikāt mahāyogataṃtrānta<g type="string_hole">%</g>ḥ
+                                pātisamādhijalāpa||^^^||talād_ bhagavat_śākyamuni[32v5 = 25v5]tathāgato 
+                                bhāṣitā bhagavato mañjuśrījñāna<sic>satosya</sic>
+                                <sic>paramānāmasaṃgītī</sic> parisamāptā ||^^^<g type="puspika">@</g>^^^||</ref>
+                            </finalRubric>
+                            
+                            <colophon xml:lang="san">
+                                <ref corresp="#kernel-1"><locus from="32v" to="32v">[32v5 = 25v5, first codicological unit (kernel)]</locus> 
+                                ye <sic>dhamā</sic> hetuprabhā<locus from="33r" to="33r">[33r1 = 26r1, first codicological unit (kernel)]</locus>vā 
+                                hetu teṣāṃ tathāgato <add place="above">|</add> hy avadat eṣāñ ca yo nirodha evaṃvādī mahāśramaṇaḥ ||^^^|| 
+                                oṃ namo ratnatrayāya || vāgīśāya [33r2 = 26r2] namas tubhyaṃ ḥ lokeśāya namo
+                                ¦ <g type="string_hole">%</g> namaḥ | padmodbhavaḥ padmahastaḥ padma<g type="string_hole">%</g>śrīpadmanāyakaḥ || <sic>padmāśana[33r3 = 26r3]sthaḥ</sic> 
+                                padmeśaḥ lokeśvarajiteśvaraḥ || tāny eśanāmaṇi lokeśvara<add place="above">e</add> dine dine || patanād roga(?)     naśyanti 
+                                sarva[33r4 = 26r4]pāpāṇi caiva hi maṇḍaleśvaraca¦<g type="string_hole">%</g>kravarttitvaṃ jāyate daivaḍatmaṇi(?) || cāntenūm(?)iśvaraṃ pradyotato 
+                                mukhāvati vra[33r5 = 26r5]jet_ ||^^^|| iti lokanāthasyāṣṭanāma <sic>samāptāḥ</sic> ||^^^||  
+                                ye <sic>dhamā</sic> hetuprabhāvā hetu <sic>te<del>ṣa</del>ṣā</sic> tathāgato | hy avadat eṣāñ ca yo
+                                <locus from="33v" to="33v">[33v1 = 26v1, first codicological unit (kernel)]</locus> nirodha evaṃvādi mahāśravana ||^^^||
+                                mahārājādhirājaparame<unclear reason="faded">śvara</unclear>paramabhaṭṭārakaśrīśrījayemahendramallade¦[33v2 = 26v2]vaprabhutākkulasa 
+                                vijayarāje <g type="string_hole">%</g> || dānapati || deyadharmo yaṃ 
+                                pravalama<g type="string_hole">%</g>hāyānayāyinaparamapāśa[33v3 = 26v3]kaśrīkāṣṭhamaṇḍapamahānagare 
+                                kīrttipuṇyamahāvihārāvasthitaḥ <g type="string_hole">%</g> mahāguligṛhādhivāśinaśā[33v4 = 26v4]kyabhikṣuśrīmayalasiṃhacandra<g type="string_hole">%</g>sya 
+                                bhāryāsvakaṇalakṣmī tasya putra<g type="string_hole">%</g>śākyavaṃśāvatālasamalasiṃ[33v4 = 26v4]hacandrebhiyajamātasagaṇapalīcārāṇāṃ 
+                                <unclear reason="script">.ā</unclear>hanāmasaṃgītisuvarṇṇākṣalapustakali<add place="margin">khi 1</add>taṃ 
+                                saṃpuṇeṇa<unclear reason="script">-1-</unclear>tatpunyānubhāvena <locus from="34r" to="34r">[34r1 = 27r1, first codicological unit (kernel)]</locus> 
+                                āpurārojñajanadhanavṛddhir astu paścād anuttarajñānapālaṃ saṃprāptayeti ||^^^|| śreyo 'stu || 
+                                saṃvat_ 691 aśunīmāṃ¦[34r2 = 27r2]śe śuklapakṣe dvitīyāyāṃ tithau <g type="string_hole">%</g> svātinakṣatre 
+                                viṣkambhayoge śukradi<g type="string_hole">%</g>ne thva dinakuhnu lepakasaṃpūṇṇa || [34r3 = 27r3] 
+                                leṣako yaṃ śapavanagale maṇi<g type="string_hole">%</g>saṃghavihārāvasthitalatalevajaye<g type="string_hole">%</g>gitīsthāne 
+                                śākyabhikṣuśrīvajā[34r3 = 27r3]cāryavijayecandreneti ||^^^|| <g type="string_hole">%</g> śubham astu ||^^^|| sarvadā kālaṃ bha ||^^^|| vantu ||^^^|| iti ||</ref>
+                            </colophon>
+                            
+                            <textLang mainLang="san">Sanskrit.</textLang>
+                        </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī"> 
+                                <supportDesc material="black_paper">
+                                    <support>Nepalese multi-layered black paper.
+                                        <p>
+                                            <dimensions type="folia" scope="most" unit="cm">
+                                                <height quantity="7.5">7.5</height>
+                                                <width quantity="25.2">25.2</width>
+                                                <depth atLeast=".2" atMost=".35" unit="mm">0.20–0.35 (the last value only for the two folios with miniatures; all other folios are between 0.20 and 0.28)</depth>
+                                            </dimensions>
+                                            Some folios were trimmed.
+                                        </p>
+                                    </support>
+                                    
+                                    <extent n="31"> 31 ff. (1 flyleaf + 27 written ff. + 3 unwritten ff.)</extent>
+                                    
+                                    <foliation n="1" rend="original">Letter numbers, mid-left margin, verso.</foliation>
+                                    <foliation n="2" rend="original">Nepālākṣara numerals, mid-right margin, verso.</foliation>
+                                    <foliation n="3" rend="original">Nepālākṣara  numerals, right string-hole space margin, verso (<locus from="17v" to="26v">ff. 17v–26v</locus>).</foliation> 
+                                    
+                                    <condition>
+                                        Complete, in good condition. Damaged on the margins; some <term xml:lang="san">akṣara</term>s are damaged, but still readable.
+                                    </condition>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="5">
+                                        <dimensions type="written" unit="cm">
+                                            <height atLeast="4" atMost="5">4–5</height>
+                                            <width atLeast="19.8" atMost="20.9">19.8–20.9</width>
+                                        </dimensions>
+                                        
+                                        <p>5 lines per page, approximately 47 <term xml:lang="san">akṣara</term>s per line.</p>
+                                        <dimensions type="akṣara" unit="mm" n="47">
+                                            <height quantity="6">6</height>
+                                            <width quantity="4">4</width>
+                                            <dim type="ratio">1.5</dim>
+                                        </dimensions>
+                                        
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height quantity="2">2</height>
+                                        </dimensions>
+                                        
+                                        <p>Triple marginal frame lines in golden ink.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="sole" script="ranj" medium="golden_ink">
+                                    <desc>Rañjanā  in golden ink. </desc>
+                                    <p><hi rend="bold">Scribe:</hi>  <name type="person" role="scr" key="local_00006"><persName xml:lang="sa" type="standard">Vijayacandra.</persName></name>.</p>
+                                </handNote>
+                            </handDesc>
+                            
+                            <decoDesc>
+                                <decoNote type="miniature">
+                                    <desc>On <locus from="7v" to="7v">f. 1v of the kernel</locus> , a seated Buddha Śākyamuni inside a lotus-shaped frame; on 
+                                        <locus from="8r" to="8r">on f. 2r of the kernel</locus>, an eight-armed, unidentified Bodhisattva seated on a lotus.</desc>
+                                </decoNote>
+                            </decoDesc>
+                            
+                            <additions>
+                                <list>
+                                    <head>Marginalia</head>
+                                    <item>
+                                        <add type="corrections">Rare corrections on the upper and lower margins.</add>
+                                    </item>
+                                </list>
+                            </additions>
+                            <bindingDesc>
+                                <binding>
+                                <p></p>
+                                <stringHole type="true" quantity="2"> Two string holes framed by single lines in golden ink. 
+                                    <dimensions type="string_hole_spaces" scope="most" unit="cm">
+                                        <height quantity="1.5">2.5</height>
+                                        <width quantity="1.5">1.5</width>
+                                        <depth quantity="10.5">10.5</depth>
+                                    </dimensions>
+                                </stringHole>
+                                </binding>
+                            </bindingDesc>
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <date calendar="Nepāla" when="1570"> Nepāla Saṃvat 691 / 1570 CE.</date>
+                                <origPlace>
+                                    <name  type="place" key="local_00002"><placeName xml:lang="sa" type="original">Maṇisaṅghamahāvihāra</placeName></name>, 
+                                    <name type="place" key="local_00003"><placeName xml:lang="en" type="standard">Kathmandu</placeName> (<placeName xml:lang="sa"
+                                        type="original">Kāṣṭhamaṇḍapa</placeName>)</name>,
+                                    <name  type="place" key="local_00004"><placeName xml:lang="sa" type="standard">Nepāl</placeName></name>.</origPlace>
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                    <msPart n="2">
+                        <msIdentifier>
+                            <idno xml:id="unit-2">Second codicological unit</idno>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <msItem n="1">        
+                                <author>
+                                    <name type="person" subtype="aut" key="local_00000"><persName xml:lang="en" type="standard">‏Unknown</persName></name>
+                                </author>
+                                
+                                <title xml:lang="sa" key="local_00002">[Buddhist stotra]</title>
+                                
+                                <rubric>
+                                    <ref corresp="#unit-2"><locus from="1r" to="1r">[1r1, second codicological unit]</locus> 
+                                    oṃ namo bhagavate <sic>āryyavalokaśvelāya</sic> <sic>bodīsatvāya</sic> mahāsatvāya <sic>mahākālunikāya</sic> oṃ <lb/>[1r2] namo lokanāthāya || śrī ||</ref>
+                                </rubric>                            
+                                
+                                <incipit xml:lang="san">
+                                    <ref corresp="#unit-2"><locus from="1r" to="1r">[1r2, first codicological unit (kernel)]</locus> dejamanukhyāṃ suranatacalanaṃ, pratihatajanānuja<lb/>[1r3]manana || loke <add place="inline">ma</add>tvā māmasalune || na
+                                    <unclear reason="script">kta</unclear>kupālokulaneṃ || 1 ||</ref>
+                                </incipit>
+                                
+                                <explicit xml:lang="san">
+                                    <ref corresp="#unit-2"><locus from="5v" to="5v">[5v1, second codicological unit]</locus> itī bhagavate,, śumanadhanā || 
+                                    <add place="bottom">japune gamatane<gap reason="illegible" quantity="2" unit="aksara"/>[-2-]gada <gap reason="illegible" quantity="1" unit="aksara"/>[-1-]mā
+                                        ||</add>labhatā śrībo<locus from="6r" to="6r">[6r1]</locus>tana,, kācanavāsaṃ || jana i<unclear reason="script">tusu</unclear>dala,, vīvidhī vīnāsaṃ || 25 ||</ref>
+                                </explicit>
+                                
+                                <colophon xml:lang="san">
+                                    <ref corresp="#unit-2"><locus from="6r2" to="6r2">[6r2, second codicological unit]</locus>
+                                    <g type="puspika">@</g> śrīmat śrī<damage>[-1-]</damage>
+                                    <unclear reason="script" quantity="1" unit="aksara">[-1-]</unclear>jyāvavokya<add place="below">te</add>
+                                        svalabha<unclear reason="damaged" quantity="1" unit="aksara">ga</unclear><damage>[-1-]</damage>lakasevasapa<lb/>[6r3]trīpāvīcanastosamāka
+                                    || <g type="puspika">@</g>śubha || sa<supplied reason="damaged">ṃ</supplied>vat 942 mi 7 na<lb/>[6r4]tra śukra <unclear
+                                        reason="script" quantity="2" unit="aksara">[-2-]</unclear>sacoyākulaśubhaṃ || magalaṃ bhavatuḥ</ref>
+                                </colophon>
+                                <textLang mainLang="new">Nepāl Bhāṣā (Nevārī).</textLang>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī"> 
+                                <supportDesc material="paper">
+                                    <support>Nepalese paper.
+                                        <p>
+                                            <dimensions type="folia" scope="most" unit="cm">
+                                                <height quantity="7.5">7.5</height>
+                                                <width quantity="25.2">25.2</width>
+                                                <depth atLeast=".21" atMost=".27" unit="mm">0.21–0.27</depth>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    
+                                    <extent n="6"> 6 ff.</extent>   
+                                    
+                                    <foliation n="1" rend="original">Letter numbers, mid-left margin, verso.</foliation>
+                                    <foliation n="2" rend="original">Nepālākṣara numerals, mid-right margin, verso.</foliation>
+                                    
+                                    <condition>
+                                        Complete, in good condition.
+                                    </condition>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="4 6">
+                                        
+                                        <!--<dimensions type="written_area" unit="cm">
+                                            <height quantity="X"></height>
+                                            <width atLeast="X" atMost="X"></width>
+                                        </dimensions>-->
+                                        
+                                        <p>4–6 lines per page, very carelessly written, with <term xml:lang="sa">akṣara</term>s of different dimensions, irregular lines and interlinear spaces.</p>
+                                        <!--<dimensions type="akṣara" unit="mm" n="X">
+                                            <height quantity="X">X</height>
+                                        </dimensions>-->
+                                        
+                                        <!--<dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height>Very carelessly written.</height>
+                                        </dimensions>-->
+                                       
+<!--                                       <label type="commentary" rend="X"></label>-->
+                                        
+                                        <p>Details on frame, marginal lines, ruling and the like.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="major" script="Nepālākṣara" medium="red_ink">
+                                    <desc>Nepālākṣarā  in red ink. </desc>
+                                </handNote>
+                                <handNote scope="minor" script="Nepālākṣara" medium="black_ink">
+                                    <desc>Nepālākṣarā  in black ink (correction and some figures in the foliation). </desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <!--<decoDesc>
+                                <decoNote type="miniature">
+                                    <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
+                                </decoNote>
+                            </decoDesc>-->
+                            
+                            <additions>
+                                <list>
+                                    <head>Marginalia</head>
+                                    <item>
+                                        <add type="corrections" place="bottom">
+                                            On <locus from="5v" to="5v">f. 5v</locus>, missing text supplied on the lower margin.</add>
+                                    </item>
+                                </list>
+                            </additions>
+                            <bindingDesc>
+                                <p>No string-hole spaces; the string hole was punched after the manuscript had been written and obliterated some <term xml:lang="sa">akṣara</term>s.</p>
+                            </bindingDesc>
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <date calendar="Nepala" when="1822"> 942 Nepāla / 1822 CE.</date>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761.html">Manuscripts, Sanskrit</ref>
+                        </item>
+                    </list>
+                </keywords>
+                <keywords scheme="local">
+                    <list>
+                        <item>Bauddha</item>
+                        <item>Mahāyāna</item>
+                        <item>Navadharma</item>
+                        <item>Dhāraṇī</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-09-21">
+                <persName>Camillo Formigatti completed the description.</persName>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile>
+        <!-\-here's where we'll list the images, no need to worry about this!-\->
+        <graphic url="[link to image 1]"/>
+        <graphic url="[link to image 2]"/>
+    </facsimile>-->
+    <text>
+        <body>
+            <div>
+<pb n="cover" facs="#i1"/>
+<pb n="cover (inside)" facs="#i2"/>
+<pb n="1r" facs="#i3"/>
+<pb n="1v" facs="#i4"/>
+<pb n="2r" facs="#i5"/>
+<pb n="2v" facs="#i6"/>
+<pb n="3r" facs="#i7"/>
+<pb n="3v" facs="#i8"/>
+<pb n="4r" facs="#i9"/>
+<pb n="4v" facs="#i10"/>
+<pb n="5r" facs="#i11"/>
+<pb n="5v" facs="#i12"/>
+<pb n="6r" facs="#i13"/>
+<pb n="6v" facs="#i14"/>
+<pb n="7r" facs="#i15"/>
+<pb n="7v" facs="#i16"/>
+<pb n="8r" facs="#i17"/>
+<pb n="8v" facs="#i18"/>
+<pb n="9r" facs="#i19"/>
+<pb n="9v" facs="#i20"/>
+<pb n="10r" facs="#i21"/>
+<pb n="10v" facs="#i22"/>
+<pb n="11r" facs="#i23"/>
+<pb n="11v" facs="#i24"/>
+<pb n="12r" facs="#i25"/>
+<pb n="12v" facs="#i26"/>
+<pb n="13r" facs="#i27"/>
+<pb n="13v" facs="#i28"/>
+<pb n="14r" facs="#i29"/>
+<pb n="14v" facs="#i30"/>
+<pb n="15r" facs="#i31"/>
+<pb n="15v" facs="#i32"/>
+<pb n="16r" facs="#i33"/>
+<pb n="16v" facs="#i34"/>
+<pb n="17r" facs="#i35"/>
+<pb n="17v" facs="#i36"/>
+<pb n="18r" facs="#i37"/>
+<pb n="18v" facs="#i38"/>
+<pb n="19r" facs="#i39"/>
+<pb n="19v" facs="#i40"/>
+<pb n="20r" facs="#i41"/>
+<pb n="20v" facs="#i42"/>
+<pb n="21r" facs="#i43"/>
+<pb n="21v" facs="#i44"/>
+<pb n="22r" facs="#i45"/>
+<pb n="22v" facs="#i46"/>
+<pb n="23r" facs="#i47"/>
+<pb n="23v" facs="#i48"/>
+<pb n="24r" facs="#i49"/>
+<pb n="24v" facs="#i50"/>
+<pb n="25r" facs="#i51"/>
+<pb n="25v" facs="#i52"/>
+<pb n="26r" facs="#i53"/>
+<pb n="26v" facs="#i54"/>
+<pb n="27r" facs="#i55"/>
+<pb n="27v" facs="#i56"/>
+<pb n="28r" facs="#i57"/>
+<pb n="28v" facs="#i58"/>
+<pb n="29r" facs="#i59"/>
+<pb n="29v" facs="#i60"/>
+<pb n="30r" facs="#i61"/>
+<pb n="30v" facs="#i62"/>
+<pb n="31r" facs="#i63"/>
+<pb n="31v" facs="#i64"/>
+<pb n="32r" facs="#i65"/>
+<pb n="32v" facs="#i66"/>
+<pb n="33r" facs="#i67"/>
+<pb n="33v" facs="#i68"/>
+<pb n="34r" facs="#i69"/>
+<pb n="34v" facs="#i70"/>
+<pb n="35r" facs="#i71"/>
+<pb n="35v" facs="#i72"/>
+<pb n="36r" facs="#i73"/>
+<pb n="36v" facs="#i74"/>
+<pb n="37r" facs="#i75"/>
+<pb n="37v" facs="#i76"/>
+<pb n="38r" facs="#i77"/>
+<pb n="38v" facs="#i78"/>
+<pb n="39r" facs="#i79"/>
+<pb n="39v" facs="#i80"/>
+<pb n="40r" facs="#i81"/>
+<pb n="40v" facs="#i82"/>
+<pb n="41r" facs="#i83"/>
+<pb n="41v" facs="#i84"/>
+<pb n="42r" facs="#i85"/>
+<pb n="42v" facs="#i86"/>
+<pb n="43r" facs="#i87"/>
+<pb n="43v" facs="#i88"/>
+<pb n="44r" facs="#i89"/>
+<pb n="44v" facs="#i90"/>
+<pb n="45r" facs="#i91"/>
+<pb n="45v" facs="#i92"/>
+<pb n="back cover (inside)" facs="#i1000"/>
+<pb n="back cover" facs="#i1001"/>
+            </div>
+        </body>
+    </text>
+</TEI>
