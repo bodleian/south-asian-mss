@@ -193,13 +193,19 @@
                     <title type="uniform" xml:lang="sa">Abhijñānaśākuntala</title>
                     <title type="variant" xml:lang="sa">Abhijñānaśakuntalā</title>
                     <title type="variant" xml:lang="sa">Śakuntalā</title>
-                    <idno type="VIAF"></idno>
-                    <idno type="local"></idno>
+                    <idno type="VIAF">312346889</idno>
+                    <idno type="PANDIT">96246</idno>
+                    <idno type="local">00012</idno>
                     <note type="links">
                         <list type="links">
                             <item>
-                                <ref target="https://viaf.org/viaf/00000000/">
+                                <ref target=" http://viaf.org/viaf/312346889">
                                     <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96246/work">
+                                    <title>PANDIT</title>
                                 </ref>
                             </item>
                         </list>
