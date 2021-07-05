@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00012">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00004">
 
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>AWM</funder>
+                <funder>Andrew W. Mellon Foundation</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -40,9 +40,9 @@
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 234(R)</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 236.1(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark">Or.long.C.361</idno>
+                            <idno type="or_long_shelfmark">Or.long.C.363</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -52,30 +52,29 @@
 
                     <msContents n="1">
                         <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>A Bengali paper manuscript of <name type="person" subtype="aut"
-                            key="local_00012">
-                                <persName xml:lang="sa" type="standard">Kālidāsa</persName>
-                            </name>'s <title xml:lang="sa">Abhijñānaśākuntala</title> with numerous
-                            annotations in the margins.</summary>
+                        <summary>A Bengali incomplete paper manuscript containing the beginning of a commentary of <name type="person" subtype="aut" key="local_00012">
+                                <persName xml:lang="sa" type="standard">Kālidāsa</persName></name>'s <title xml:lang="sa">Meghadūta</title>.
+                        </summary>
 
                         <msItem n="1" defective="true">
 
                             <author>
                                 <name type="person" subtype="aut"
-                                    key="local_00012">
-                                    <persName xml:lang="sa" type="standard">Kālidāsa</persName>
+                                    key="local_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
                                 </name>
                             </author>
 
-                            <title xml:lang="sa" key="local_00012">Abhijñānaśākuntala</title>
+                            <title xml:lang="sa" key="local_00009">[Meghadūtavyākhyā]</title>
 
                             <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                oṃ namo gaṇeśāya |
+                                śrīrāmaḥ ||
                             </rubric>
                             
                             <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                || kaścit_ kāntāvirahaguruṇā svādhikārapramattaḥ <sic>śāpenāstaṃ gamitamahimā</sic> varṣabhogyeṇa bhartuḥ | 
-                                yakṣa<lb/>ś cakre janakatanayāsnānapuṇyodakeṣu snigdhacchāyā    taruṣu vasatiṃ rāmagiryyāśrameṣu || 1 ||
+                                <sic>sargabandhe</sic> mahākāvyam ucyate tasya laksaṇaṃ | āśīr namaskriyā vastu<space/> nirdeśo vāpi tanmukhaṃ | 
+                                <sic>itihāsakathodbhūta itaratrapadāśrayaḥ</sic> | nagarārṇṇavaśailartucandrārkodayavarṇṇanaṃ || udyādi mahā<lb/>[1v2]kāvyalakṣaṇaṃ | 
+                                khalu kāvyam idaṃ sargabandhād yad uktaṃ ca tallakṣaṇasahitaṃ rahitaṃ sargabandhanena | tad <sic>ucati</sic> khalu kāvyaṃ jñātavyaṃ meghadūtādi |
                             </incipit>
 
                             <explicit xml:lang="sa"><locus from="21r" to="21r">[21r2]</locus> 
@@ -104,46 +103,40 @@
                                 <support>Yellow paper. <p>
                                         <dimensions type="folia" scope="range" unit="cm">
                                             <height quantity="8">8</height>
-                                            <width atLeast="36" atMost="36.5">36-36.5</width>
+                                            <width atLeast="36" atMost="36.5">36.5</width>
                                         </dimensions>
                                     </p>
                                 </support>
 
-                                <extent xml:id="folio" n="39"> 39 ff.</extent>
+                                <extent xml:id="folio" n="X"> X ff.</extent>
 
-                                <foliation n="1" style="numeral" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
+                                <foliation n="1" style="letter" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
 
-                                <condition> Damaged; all folios are smudged and stained, with <term xml:lang="sa">akṣara</term>s 
-                                    (mostly still readable) damaged by humidity.
-                                </condition>
+<!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+                                <condition> Damaged; all folios are smudged and stained, with <term
+                                        xml:lang="sa">akṣara</term>s (mostly still readable)
+                                    damaged by humidity. </condition>
                             </supportDesc>
-                            
+
                             <layoutDesc>
-                                <layout columns="1" writtenLines="6 7">
+                                <layout columns="1" writtenLines="4">
                                     
                                     <p>
-                                        6-7 lines per page, approximately 60 <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="60" unit="mm">
-                                            <height quantity="3">3</height>
+                                        4 lines per page, approximately 54 <term xml:lang="sa">akṣara</term>s per line.
+                                        <dimensions type="akṣara" n="54" unit="mm">
+                                            <height atLeast="3" atMost="4">3-4</height>
                                             <width quantity="3">3</width>
-                                            <dim type="aspect_ratio" quantity="1">1:1</dim>
+                                            <dim type="aspect_ratio" quantity="1.25">1.25:1</dim>
                                         </dimensions>
                                     </p>
                                     
-                                    <p>Apparently no delineated frame, marginal lines, and ruling, yet all aspects of the layout display considerable uniformity.
+                                    <p>Impressed marginal frame lines.
                                         <dimensions type="written_area" unit="cm">
-                                            <height atLeast="3.5" atMost="4.1">3.5-4.1</height>
-                                            <width atLeast="28.1" atMost="29">28.1-29</width>
+                                            <height quantity="2">2</height>
+                                            <width atLeast="23.7" atMost="25.5">23.7-25.5</width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height atLeast="2" atMost="5">2-5</height>
-                                        </dimensions>
-                                    </p>
-                                    
-                                    <p>Blank space left for string hole.
-                                        <dimensions type="string_hole" rend="false" quantity="1" scope="most" unit="cm">
-                                            <height quantity="3">3</height>
-                                            <width atLeast="2" atMost="3">2-3</width>
+                                            <height quantity="2">2</height>
                                         </dimensions>
                                     </p>
                                 </layout>
@@ -152,30 +145,26 @@
 
                         <handDesc>
                             <handNote scope="major" script="Bengali" medium="blackink">
-                                <desc>Bengali in black ink (main text and first set of annotations).</desc>
+                                <desc>Bengali  in black ink.</desc>
                             </handNote>
-                            
-                            <handNote scope="minor" script="Bengali" medium="blackink">
-                                <desc>Bengali in black ink (second set of annotations).</desc>
+                            <handNote scope="minor" script="Bengali" medium="redink">
+                                <desc>Bengali in red ink (second set of annotations).</desc>
                             </handNote>
-                        </handDesc>
+                            </handDesc>
 
                         <additions>
-                            <p>In the upper left margin of <locus from="1r" to="1r">folio 1r</locus>, 
-                                an invocation in Bengali script by a different hand (<add xml:lang="sa">śrīrāmaḥ | śrīdurgā </add>).
-                            </p>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="invocations">On folio <locus from="2v" to="2v">2v</locus>, invocation (<term xml:lang="sa">śrī</term>) 
-                                        instead of foliation, mid right margin, verso.
-                                    </marginalia>
+                                    <add type="invocations">Invocation (<term xml:lang="sa">śrī</term>) immediately before the foliation, mid right margin, verso.
+                                    </add>
                                 </item>
                                 <item>
-                                    <marginalia type="annotations">Numerous annotations on all margins throughout the manuscript; 
-                                        the first set in black ink was probably written by the scribe of the main text,
-                                        while the second set also in black ink might have been added later.
-                                    </marginalia>
+                                    <add type="annotations">Numerous annotations on all
+                                        margins throughout the manuscript; the first set in black
+                                        ink was probably written by the scribe of the main text,
+                                        while the second set in red ink might have been added
+                                        later.</add>
                                 </item>
                             </list>
                         </additions>
@@ -186,11 +175,11 @@
 
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1600" notAfter="1699">18th century (probably second half as MS Ind. Inst. Sansk. 233).</date>
+                            <date calendar="Śāka" when="1622">Śāka 1622</date> / <date calendar="Gregorian" when="1700">1700 CE.</date>
                             <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Donated by <name type="person" role="dnr" key="local_00002 VIAF_89804438">
-                            <!--<persName type="standard" xml:lang="eng">Johnston,
+                        <provenance>Donated by <name type="person" role="dnr" key="local_00002 VIAF_89804438"
+                                    ><!--<persName type="standard" xml:lang="eng">Johnston,
                                     E.H.</persName>-->
                                 <persName type="display" xml:lang="eng">Prof E.H.
                                     Johnston</persName></name> in <date calendar="Gregorian"
@@ -205,6 +194,10 @@
                     <additional>
 
                         <adminInfo>
+                            <!--<recordHist>
+                                <source> <ref type="biblio" target="Bendall_1883">Bendall (1883:
+                                        XX-XX)</ref>, <ref type="biblio" target="LVP_Add.875">LVP Or.</ref>, direct inspection.</source>
+                            </recordHist>-->
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
                                     a valid reader's card, for admissions procedures contact <ref
@@ -246,31 +239,33 @@
                                 </monogr>
                             </biblStruct>
                         </listBibl>
-                        
+
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
                             <bibl>
-                                <orgName>NGMCP</orgName>: <ref type="extant_mss" target=""> XX
-                                    listed manuscripts</ref>
+                                <orgName>NGMCP</orgName>:
+                                <ref type="extant_mss" target=""> XX listed manuscripts</ref>
                                 <ref type="extant_mss" target=""> X catalogued manuscripts</ref>
                             </bibl>
                             <bibl>
-                                <placeName>Oxford</placeName>, <orgName>Bodleian
-                                Libraries</orgName>: <ref type="extant_mss" target="">MS. XXX</ref>,
-                                    <ref type="extant_mss" target="">MS. XXX</ref>. </bibl>
+                                <placeName>Cambridge</placeName>, <orgName>Cambridge University Library</orgName>: 
+                                <ref type="extant_mss" target="">Add. XXX</ref>, 
+                                <ref type="extant_mss" target="">Add. XXX</ref>.
+                            </bibl>
                         </listBibl>-->
-                        
+
                         <!--<listBibl>
                             <head>Edition(s)</head>
-                            <ref type="biblio" target="Name_19XX"/>
-                            <biblStruct/>
-                            <biblStruct/>
+                            <ref type="biblio" target="Name_19XX"></ref>
+                            <biblStruct></biblStruct>
+                            <biblStruct></biblStruct>
                         </listBibl>-->
-                        <!--<listBibl>
+
+                        <!--<listBibl> 
                             <head>Secondary Literature</head>
-                            <ref type="biblio" target="Name_19XX"/>
-                            <biblStruct/>
-                            <biblStruct/>
+                            <ref type="biblio" target="Name_19XX"></ref>
+                            <biblStruct></biblStruct>
+                            <biblStruct></biblStruct>
                         </listBibl>-->
                     </additional>
                 </msDesc>
@@ -285,8 +280,7 @@
                             Congress Subject Headings</ref>
                     </bibl>
                 </taxonomy>
-                
-                <taxonomy xml:id="local_subjects">
+            <taxonomy xml:id="local_subjects">
                     <category xml:id="vaidika"><catDesc>Vaidika</catDesc>
                         <category xml:id="saṃhitā">
                             <catDesc>Saṃhitā</catDesc>
@@ -310,16 +304,16 @@
                             <catDesc>Vedalakṣaṇa</catDesc>
                             <category xml:id="śikṣā">
                                 <catDesc>Śikṣā</catDesc>
-                            </category>
+                                </category>
                             <category xml:id="pariśiṣṭa">
                                 <catDesc>Pariśiṣṭa</catDesc>
-                            </category>
+                                </category>
                             <category xml:id="anukramaṇikā">
                                 <catDesc>Anukramaṇikā</catDesc>
-                            </category>
+                                </category>
                             <category xml:id="prātiśākhya">
                                 <catDesc>Prātiśākhya</catDesc>
-                            </category>
+                                </category>
                         </category>
                     </category>
                     
@@ -490,14 +484,15 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#nāṭya">Nāṭya</item>
-                        <item corresp="#nāṭaka">Nāṭaka</item>
+                        <item corresp="#kāvya">Kāvya</item>
+                        <item corresp="#laghukāvya">Laghukāvya</item>
+                        <item corresp="#sandeśakāvya">Sandeśakāvya</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2020-06-18">
+            <change when="2020-06-15">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>

@@ -212,6 +212,34 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00013">
+                    <title type="uniform" xml:lang="sa">Kāvyādarśa</title>
+                    <title type="variant" xml:lang="xct">snyan ngag me long</title>
+                    <idno type="VIAF">176605861</idno>
+                    <idno type="local">00013</idno>
+                    <idno type="PANDIT">96586</idno>
+                    <idno type="BDRC">WA0RTI3636</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/176605861">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96586/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="http://purl.bdrc.io/resource/WA0RTI3636">
+                                    <title>BDRC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_0000X">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

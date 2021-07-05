@@ -364,6 +364,36 @@
                 </person>
                 
                 <person role="aut">
+                    <persName type="standard" xml:lang="sa">Daṇḍin</persName>
+                    <persName type="display" xml:lang="sa">Daṇḍin</persName>
+                    <persName type="translation" xml:lang="xct">dbyug pa can</persName>
+                    <idno type="VIAF">54954822</idno>
+                    <idno type="local">00019</idno>
+                    <idno type="PANDIT">96585</idno>
+                    <idno type="BDRC">P5787</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/54954822">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96585/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="http://purl.bdrc.io/resource/P5787">
+                                    <title>BDRC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="aut">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
                     <idno type="VIAF">00000000</idno>
