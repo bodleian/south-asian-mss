@@ -240,6 +240,27 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00014">
+                    <title type="uniform" xml:lang="sa">Rāmāyaṇa</title>
+                    <idno type="VIAF">310519999 </idno>
+                    <idno type="local">00014</idno>
+                    <idno type="PANDIT">96104</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/310519999">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96104/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_0000X">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

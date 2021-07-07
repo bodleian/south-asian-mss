@@ -394,6 +394,45 @@
                 </person>
                 
                 <person role="aut">
+                    <persName type="standard" xml:lang="sa">Vālmīki</persName>
+                    <persName type="display" xml:lang="sa">Vālmīki</persName>
+                    <idno type="VIAF">288016626 </idno>
+                    <idno type="local">00020</idno>
+                    <idno type="PANDIT">108861</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/288016626">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/108861/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="dnr">
+                    <persName type="standard" xml:lang="sa">Gmelin, F.</persName>
+                    <persName type="display" xml:lang="sa">F. Gmelin</persName>
+                    <idno type="local">00021</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note></note>
+                </person>
+                
+                <person role="aut">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
                     <idno type="VIAF">00000000</idno>
