@@ -433,6 +433,29 @@
                 </person>
                 
                 <person role="aut">
+                    <persName type="standard" xml:lang="sa">Puṣpadanta</persName>
+                    <persName type="display" xml:lang="sa">Puṣpadanta</persName>
+                    <idno type="VIAF">128612988</idno>
+                    <idno type="local">00022</idno>
+                    <idno type="PANDIT">109569</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/128612988">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109569/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person role="aut">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
                     <idno type="VIAF">00000000</idno>

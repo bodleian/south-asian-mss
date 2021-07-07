@@ -38,9 +38,9 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="miscellaneous" xml:id="Evans-Wentz">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS Sansk.</idno>
+                        <idno type="shelfmark">MS Ind. Inst. Sansk. 141(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark"></idno>
+                            <idno type="or_long_shelfmark">Or.long.C.80</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -48,25 +48,34 @@
                         </altIdentifier>
                     </msIdentifier>
                     
-                    <msContents n="X">
-                        <summary></summary>
+                    <msContents n="1">
+                        <summary>A single paper quire in the <term xml:lang="sa">pothī</term> format containing 
+                            <name type="person" subtype="aut" key="local_00022"><persName xml:lang="sa" type="standard">Puṣpadanta's</persName>
+                                <title xml:lang="sa">Mahimnastotra</title>.
+                        </name></summary>
                         
-                        <msItem n="1" defective="unknown">
-                            <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
+                        <msItem n="1" defective="false">
                             
                             <author>
                                 <name type="person" subtype="aut" key="local_">
-                                    <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
+                                    <persName xml:lang="sa" type="standard">Puṣpadanta</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa">[insert here the uniform title of the work]</title>
+                            <title xml:lang="sa" key="local_00015">Mahimnastotra</title>
                             
-                            <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <rubric xml:lang="sa"><locus from="2r" to="2r">[2r1]</locus> 
+                                oṃ śrīgaṇeśāya namaḥ
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
-                                <damage agent="X" unit="X" quantity="1"></damage>
+                            <incipit xml:lang="sa"><locus from="2r" to="2r">[2r1]</locus> 
+                                mahimnaḥ pāraṃ te paramaviduṣo yady asadṛśī stutir brahmādīnām api tava sannā¦s <lb/>[2r2] tvayi giraḥ <space/> 
+                                athāvācyaḥ sarvāḥ svāmatipariṇāmāvadhi gṛṇan mamāpy eṣa stotre hara nirapavādaḥ parika<lb/>[2r3]raḥ <space/> 1
+                            </incipit>
+                            
+                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
+                            
+                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus><damage agent="X" unit="X" quantity="1"></damage>
                                 <sic></sic>
                                 <del rend="X"></del>
                                 <unclear reason="X"></unclear>
@@ -74,15 +83,7 @@
                                 <subst><del></del><add></add></subst>
                                 <gap reason="X"></gap>
                                 <g></g>
-                                <figure type="X" rend="X"></figure>
-                            </incipit>
-                            
-                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
-                            </finalRubric>
-                            
-                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
-                            
-                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
+                                <figure type="X" rend="X"></figure> </finalRubric>
                             
                            <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
                             
