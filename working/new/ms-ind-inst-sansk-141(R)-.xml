@@ -37,7 +37,7 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="miscellaneous" xml:id="Evans-Wentz">Sanskrit, miscellaneous</collection>
+                        <collection type="sanskrit" subtype="miscellaneous" xml:id="Malan">Sanskrit, Malan collection</collection>
                         <idno type="shelfmark">MS Ind. Inst. Sansk. 141(R)</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.80</idno>
@@ -68,64 +68,54 @@
                                 oṃ śrīgaṇeśāya namaḥ
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="2r" to="2r">[2r1]</locus> 
+                            <incipit xml:lang="sa"><locus from="2r" to="2r">[2r1 = 1r1]</locus> 
                                 mahimnaḥ pāraṃ te paramaviduṣo yady asadṛśī stutir brahmādīnām api tava sannā¦s <lb/>[2r2] tvayi giraḥ <space/> 
                                 athāvācyaḥ sarvāḥ svāmatipariṇāmāvadhi gṛṇan mamāpy eṣa stotre hara nirapavādaḥ parika<lb/>[2r3]raḥ <space/> 1
                             </incipit>
                             
-                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
+                            <explicit xml:lang="sa"><locus from="7r" to="7r">[7r6 = 6r6]</locus>
+                                śrīpuṣpadaṃtamukhapaṃkajanirgatena stotreṇa kilbiṣahareṇa harapriyeṇa kaṃṭha<lb/>[7r7 = 6r7]sthitena 
+                                paṭhitena samāhitena suprīṇito bhavati bhūtapatir maheśaḥ || 40 ||
+                            </explicit>
                             
-                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus><damage agent="X" unit="X" quantity="1"></damage>
-                                <sic></sic>
-                                <del rend="X"></del>
-                                <unclear reason="X"></unclear>
-                                <add place="X" type="X" hand="X"></add>
-                                <subst><del></del><add></add></subst>
-                                <gap reason="X"></gap>
-                                <g></g>
-                                <figure type="X" rend="X"></figure> </finalRubric>
+                            <finalRubric xml:lang="sa"><locus from="7r" to="7v">[7r7 = 6r7]</locus> 
+                                iti śrīpu<g>¦</g><lb/>[7v1 = 6v1]ṣpadaṃtācāryaviracitaṃ mahimnākhye stotraṃ samāptaṃm agamat_ ||  
+                            </finalRubric>
                             
-                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
+                           <colophon xml:lang="sa"><locus from="7r" to="7r">[7r1 = 6r1]</locus> 
+                               śubham astu || saṃvat || 18 | 77
+                           </colophon>
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
                     <physDesc>
-                        <objectDesc form="X"> 
-                            <supportDesc material="X">
-                                <support>[Insert here the description of the material, using one of the following set phrases: 
-                                    Palm leaf, Nepalese paper, Nepalese multi-layered paper, 
-                                    Nepalese multi-layered black paper, Birch bark, Paper.]
+                        <objectDesc form="quire"> 
+                            <supportDesc material="paper">
+                                <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="X"> X</height>
-                                            <width quantity="X"> X</width>
-                                        </dimensions>
-<!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
-                                        <dimensions type="folio" scope="range" unit="cm">
-                                            <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                            <width atLeast="X" atMost="Y">ca. X-Y</width>
+                                            <height quantity="13.8">13.8</height>
+                                            <width atLeast="23.3" atMost="23.8">23.3-23.8</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="X"> X ff.</extent>
+                                <extent xml:id="folio" n="8"> 8 ff.</extent>
                                 
-                                <foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
+                                
+                                <foliation n="1" style="numeral" rend="dev">Devanāgarī numerals, mid-right margin, verso.</foliation> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
-                                    some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
+                                    Complete, in good condition; frayed on the margins, rust-coloured stains on most folios.
                                 </condition>
                             </supportDesc>
                             
-                            <layoutDesc>
+                            <!--<layoutDesc>
                                 <layout columns="1" ruledLines="X">
-                                    <!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
+                                    <!-\-                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-\->
                                     <p>
                                         XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
                                         <dimensions type="akṣara" n="X" unit="mm">
@@ -155,59 +145,46 @@
                                     
                                     <p>Details on frame, marginal lines, ruling and the like.</p>
                                 </layout>
-                            </layoutDesc>
+                            </layoutDesc>-->
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="X" medium="X" scribeRef="X">
-                                <desc>X in X ink.</desc>
-                                <desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
-                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
-                                    </name>
-                                </desc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_red_ink">
+                                <desc>Black and red ink.</desc>
                             </handNote>
                         </handDesc>
                         
-                        <decoDesc>
+                        <!--<decoDesc>
                             <decoNote type="miniature">
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
-                        </decoDesc>
+                        </decoDesc>-->
                         
                         <additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="corrections">On the bottom right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
-                                </item>
-                                <item>
-                                    <marginalia type="annotations">On the top right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
+                                    <marginalia type="title">Running marginal title (<term xml:lang="sa">ma°</term>), top left margin under foliation, verso.</marginalia>
                                 </item>
                             </list>
                         </additions>
                         
                         <bindingDesc>
-                            <p><material>Wood cover</material>, original binding.</p>
-                            <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
+                            <p><material>Cardboard box</material>.</p>
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
+                            <date calendar="Vikrama" when="1877">1877 Vikrama</date> / <date calendar="Gregorian" when="1820">1820 CE</date>.
                             <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
                         </origin>
-                        <provenance>Bought by 
-                            <name type="person" subtype="dnr" key="local_00000">
-                                <persName type="standard" xml:lang="lat">Sempronius, Titius
-                                    Caius</persName><persName type="display" xml:lang="lat">Titius
-                                    Caius Sempronius</persName></name> in <date
-                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+                        <provenance>Donated by the Rev. 
+                            <name type="person" subtype="dnr" key="local_00023">
+                                <persName type="standard" xml:lang="lat">Malan, Solomon
+                                    Caesar</persName><persName type="display" xml:lang="lat">S. C.  Malan</persName></name> in <date
+                            calendar="Gregorian" when="1885">1885</date>.
                         </provenance>
-                        <acquisition>
-                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>
                     </history>
                     
                     <additional>
@@ -220,7 +197,7 @@
                             </availability>
                             <note/>
                         </adminInfo>
-                        <listBibl type="ms_descriptions">
+                        <!--<listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
@@ -249,7 +226,7 @@
                                     </imprint>
                                 </monogr>
                             </biblStruct>
-                        </listBibl>
+                        </listBibl>-->
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
@@ -415,9 +392,6 @@
                         <category xml:id="chandas">
                             <catDesc>Chandas</catDesc>
                         </category>
-                        <category xml:id="">
-                            <catDesc></catDesc>
-                        </category>
                     </category>
                     
                     <category xml:id="subhāṣita">
@@ -492,39 +466,32 @@
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080761.html">Manuscripts, Sanskrit</ref>
                         </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item></item>
-                        <item></item>
-                        <item></item>
+                        <item corresp="#stotra">Stotra</item>
+                        <item corresp="#śaiva">Śaiva</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-03-02">
+            <change when="2021-07-09">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2016-03-02">
+            <change when="2021-07-09">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <!--here's where we'll list the images, no need to worry about this!-->
+    <!--<facsimile>
+        <!-\-here's where we'll list the images, no need to worry about this!-\->
         <graphic url="[link to image 1]"/>
         <graphic url="[link to image 2]"/>
-    </facsimile>
+    </facsimile>-->
     <text>
         <body>
             <div>
