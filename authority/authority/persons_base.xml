@@ -234,7 +234,7 @@
                                 </ref>
                             </item>
                             <item>
-                                <ref target="">
+                                <ref target="https://www.panditproject.org/entity/40377/person">
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
@@ -469,6 +469,22 @@
                             </item>
                         </list>
                     </note>
+                    <note></note>
+                </person>
+                
+                <person role="aut">
+                    <persName type="standard" xml:lang="sa">Rāmānandatīrtha</persName>
+                    <persName type="display" xml:lang="sa">Rāmānandatīrtha</persName>
+                    <idno type="local">00024</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
                     <note></note>
                 </person>
                 

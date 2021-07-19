@@ -286,6 +286,52 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00016">
+                    <title type="uniform" xml:lang="sa">Rāmahṛdaya</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local"></idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00017">
+                    <title type="uniform" xml:lang="sa">Rāmagītā</title>
+                    <idno type="VIAF">179495900</idno>
+                    <idno type="local">00017</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/179495900">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note><title xml:lang="sa">Rāmagītā</title> from the <title xml:lang="sa">Adhyātmarāmāyaṇa</title>.</note>
+                </bibl>
+                
+                <bibl xml:id="work_00018">
+                    <title type="uniform" xml:lang="sa">Rāmagītāṭīkā</title>
+                    <idno type="local">00018</idno>
+                    <note type="links">
+                        <!--<list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/179495900">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    </note>
+                    <note><title xml:lang="sa">Rāmagītā</title> from the <title xml:lang="sa">Adhyātmarāmāyaṇa</title>.</note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

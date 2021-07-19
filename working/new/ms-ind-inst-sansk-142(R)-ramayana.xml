@@ -37,10 +37,10 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="miscellaneous" xml:id="Malan">Sanskrit, Malan collection</collection>
-                        <idno type="shelfmark">MS Ind. Inst. Sansk. 141(R)</idno>
+                        <collection type="sanskrit" subtype="miscellaneous" xml:id="Gmelin">Sanskrit, miscellaneous</collection>
+                        <idno type="shelfmark">MS.Ind.Inst.Sansk.142(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark">Or.long.C.80</idno>
+                            <idno type="or_long_shelfmark">Or.long.C.81</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -49,67 +49,68 @@
                     </msIdentifier>
                     
                     <msContents n="1">
-                        <summary>A single paper quire in the <term xml:lang="sa">pothī</term> format containing 
-                            <name type="person" subtype="aut" key="local_00022"><persName xml:lang="sa" type="standard">Puṣpadanta's</persName>
-                                <title xml:lang="sa">Mahimnastotra</title>.
-                        </name></summary>
+                        <summary>
+                            A paper manuscript in Bengali script containing some stanzas from the an unidentified work related to the <title xml:lang="sa">Rāmāyaṇa</title>.
+                        </summary>
                         
-                        <msItem n="1" defective="false">
+                        <msItem n="1" defective="true">
+                            
                             
                             <author>
-                                <name type="person" subtype="aut" key="local_">
-                                    <persName xml:lang="sa" type="standard">Puṣpadanta</persName>
-                                </name>
+                                <name type="person" subtype="aut" key="local_00020">Vālmīki</name>
                             </author>
                             
-                            <title xml:lang="sa" key="local_00015">Mahimnastotra</title>
+                            <title xml:lang="sa" key="local_00014">Rāmāyaṇa</title>
                             
-                            <rubric xml:lang="sa"><locus from="2r" to="2r">[2r1]</locus> 
-                                oṃ śrīgaṇeśāya namaḥ
+                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="2r" to="2r">[2r1 = 1r1]</locus> 
-                                mahimnaḥ pāraṃ te paramaviduṣo yady asadṛśī stutir brahmādīnām api tava sannā¦s <lb/>[2r2] tvayi giraḥ <space/> 
-                                athāvācyaḥ sarvāḥ svāmatipariṇāmāvadhi gṛṇan mamāpy eṣa stotre hara nirapavādaḥ parika<lb/>[2r3]raḥ <space/> 1
+                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                                <damage agent="X" unit="X" quantity="1"></damage>
+                                <sic></sic>
+                                <del rend="X"></del>
+                                <unclear reason="X"></unclear>
+                                <add place="X" type="X" hand="X"></add>
+                                <subst><del></del><add></add></subst>
+                                <gap reason="X"></gap>
+                                <g></g>
+                                <figure type="X" rend="X"></figure>
                             </incipit>
                             
-                            <explicit xml:lang="sa"><locus from="7r" to="7r">[7r6 = 6r6]</locus>
-                                śrīpuṣpadaṃtamukhapaṃkajanirgatena stotreṇa kilbiṣahareṇa harapriyeṇa kaṃṭha<lb/>[7r7 = 6r7]sthitena 
-                                paṭhitena samāhitena suprīṇito bhavati bhūtapatir maheśaḥ || 40 ||
-                            </explicit>
-                            
-                            <finalRubric xml:lang="sa"><locus from="7r" to="7v">[7r7 = 6r7]</locus> 
-                                iti śrīpu<g>¦</g><lb/>[7v1 = 6v1]ṣpadaṃtācāryaviracitaṃ mahimnākhye stotraṃ samāptaṃm agamat_ ||  
+                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
                             </finalRubric>
                             
-                           <colophon xml:lang="sa"><locus from="7r" to="7r">[7r1 = 6r1]</locus> 
-                               śubham astu || saṃvat || 18 | 77
-                           </colophon>
+                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
+                            
+                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
+                            
+                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
                     <physDesc>
-                        <objectDesc form="quire"> 
+                        <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Paper.
+                                <support>Yellow and red paper.
                                     <p>
-                                        <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="13.8">13.8</height>
-                                            <width atLeast="23.3" atMost="23.8">23.3-23.8</width>
+                                        
+                                        <dimensions type="folio" scope="range" unit="cm">
+                                            <height atLeast="9" atMost="9.4">ca. 9-9.4</height>
+                                            <width atLeast="36" atMost="36.7">ca. 36-36.7</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="8"> 8 ff.</extent>
+                                <extent xml:id="folio" n="3"> 3 ff.</extent>
                                 
+                                <foliation n="1" style="numeral" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
                                 
-                                <foliation n="1" style="numeral" rend="dev">Devanāgarī numerals, mid-right margin, verso.</foliation> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, in good condition; frayed on the margins, rust-coloured stains on most folios.
+                                    Inccomplete, in good condition.
                                 </condition>
                             </supportDesc>
                             
@@ -149,42 +150,40 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Devanāgarī" medium="black_red_ink">
-                                <desc>Black and red ink.</desc>
+                            <handNote scope="sole" script="Bengali" medium="black_ink">
+                                <desc>Bengali in blackink.</desc>
                             </handNote>
                         </handDesc>
                         
-                        <!--<decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
-                        
-                        <additions>
+                        <!--<additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="title">Running marginal title (<term xml:lang="sa">ma°</term>), top left margin under foliation, verso.</marginalia>
+                                    <marginalia type="corrections">On the bottom right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
+                                </item>
+                                <item>
+                                    <marginalia type="annotations">On the top right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
                                 </item>
                             </list>
-                        </additions>
+                        </additions>-->
                         
                         <bindingDesc>
-                            <p><material>Cardboard box</material>.</p>
+                            <p>Loose folios.</p>
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Vikrama" when="1877">1877 Vikrama</date> / <date calendar="Gregorian" when="1820">1820 CE</date>.
-                            <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
+                            <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
+                            <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Donated by the Rev. 
-                            <name type="person" subtype="dnr" key="local_00023">
-                                <persName type="standard" xml:lang="lat">Malan, Solomon
-                                    Caesar</persName><persName type="display" xml:lang="lat">S. C.  Malan</persName></name> in <date
-                            calendar="Gregorian" when="1885">1885</date>.
+                        <provenance>Donated by the Rev.
+                            <name type="person" subtype="dnr" key="local_00000">
+                                <persName type="standard" xml:lang="lat">F. Gmelin</persName><persName type="display" xml:lang="lat">Gmelin, F</persName></name>.
                         </provenance>
+                        <!--<acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>-->
                     </history>
                     
                     <additional>
@@ -470,19 +469,20 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#stotra">Stotra</item>
-                        <item corresp="#śaiva">Śaiva</item>
+                        <item corresp="#rāmāyaṇa">Rāmāyaṇa</item>
+                        <item></item>
+                        <item></item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-07-09">
+            <change when="2016-03-02">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-07-09">
+            <change when="2016-03-02">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
