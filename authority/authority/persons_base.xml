@@ -549,9 +549,11 @@
                     <persName type="standard" xml:lang="sa">Nārāyaṇa Tīrtha</persName>
                     <persName type="display" xml:lang="sa">Nārāyaṇa Tīrtha</persName>
                     <persName type="variant" xml:lang="sa">Nārāyaṇatīrtha</persName>
+                    <persName type="variant" xml:lang="sa">Govinda Śāstrin</persName>
+                    <persName type="variant" xml:lang="sa">Nārāyaṇa Yati</persName>
                     <idno type="VIAF">230996487</idno>
                     <idno type="local">00028</idno>
-                    <idno type="PANDIT">86184</idno>
+                    <idno type="PANDIT">86268</idno>
                     <note type="links">
                         <list type="links">
                             <item>
@@ -560,7 +562,30 @@
                                 </ref>
                             </item>
                             <item>
-                                <ref target="https://www.panditproject.org/entity/86184/person">
+                                <ref target="https://www.panditproject.org/entity/86268/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Author of the <title type="uniform" xml:lang="sa" key="work_00027">Sāṅkhyacandrikā</title>.</note>
+                </person>
+                
+                <person xml:id="person_00029">
+                    <persName type="standard" xml:lang="sa">Īśvarakṛṣṇa</persName>
+                    <persName type="display" xml:lang="sa">Īśvarakṛṣṇa</persName>
+                    <idno type="VIAF">814581</idno>
+                    <idno type="local">00029</idno>
+                    <idno type="PANDIT">85119</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/814581">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85119/person">
                                     <title>PANDIT</title>
                                 </ref>
                             </item>

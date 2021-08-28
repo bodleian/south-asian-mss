@@ -145,6 +145,21 @@
                         <category xml:id="dhanur">
                             <catDesc>Dhanur</catDesc>
                         </category>
+                        <category xml:id="āyurveda">
+                            <catDesc>Āyurveda</catDesc>
+                        </category>
+                        <category xml:id="rasāyaṇa">
+                            <catDesc>Rasāyaṇa</catDesc>
+                        </category>
+                        <category xml:id="alaṃkāra">
+                            <catDesc>Alaṃkāra</catDesc>
+                        </category>
+                        <category xml:id="chandas">
+                            <catDesc>Chandas</catDesc>
+                        </category>
+                    </category>
+                    
+                    <category xml:id="darśana"><catDesc>Darśana</catDesc>
                         <category xml:id="nyāya"><catDesc>Nyāya</catDesc>
                             <category xml:id="prācīnanyāya">
                                 <catDesc>Prācīnanyāya</catDesc>
@@ -167,18 +182,6 @@
                         </category>
                         <category xml:id="vedānta">
                             <catDesc>Vedānta</catDesc>
-                        </category>
-                        <category xml:id="āyurveda">
-                            <catDesc>Āyurveda</catDesc>
-                        </category>
-                        <category xml:id="rasāyaṇa">
-                            <catDesc>Rasāyaṇa</catDesc>
-                        </category>
-                        <category xml:id="alaṃkāra">
-                            <catDesc>Alaṃkāra</catDesc>
-                        </category>
-                        <category xml:id="chandas">
-                            <catDesc>Chandas</catDesc>
                         </category>
                     </category>
                     
