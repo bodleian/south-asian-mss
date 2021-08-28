@@ -50,7 +50,7 @@
                     
                     <msContents n="1">
                         <summary>
-                            A paper manuscript in Bengali script containing the first chapter of <name type="person" subtype="aut" key="local_00000">
+                            A paper manuscript in Bengali script containing the first chapter of <name type="person" subtype="aut" key="person_00000">
                                 <persName xml:lang="sa" type="standard">Rāmānandatīrtha</persName>
                             </name>'s <title xml:lang="sa">Rāmahṛdaya</title>.
                         </summary>
@@ -58,12 +58,12 @@
                         <msItem n="1" defective="unknown">
                             
                             <author>
-                                <name type="person" subtype="aut" key="local_00024">
+                                <name type="person" subtype="aut" key="person_00024">
                                     <persName xml:lang="sa" type="standard">Rāmānandatīrtha</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="local_">Rāmahṛdaya</title>
+                            <title xml:lang="sa" key="work_">Rāmahṛdaya</title>
                             
                             <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
@@ -197,19 +197,16 @@
                     
                     <history>
                         <origin>
-                            <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
-                            <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
+                            <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
+                            <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Bought by 
+                        <provenance>Donated by the Rev.
                             <name type="person" subtype="dnr" key="local_00000">
-                                <persName type="standard" xml:lang="lat">Sempronius, Titius
-                                    Caius</persName><persName type="display" xml:lang="lat">Titius
-                                    Caius Sempronius</persName></name> in <date
-                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+                                <persName type="standard" xml:lang="lat">F. Gmelin</persName><persName type="display" xml:lang="lat">Gmelin, F</persName></name>.
                         </provenance>
-                        <acquisition>
+                        <!--<acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>
+                        </acquisition>-->
                     </history>
                     
                     <additional>

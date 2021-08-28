@@ -38,9 +38,9 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS Sansk.</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 132(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark"></idno>
+                            <idno type="or_long_shelfmark">Or.long.D.3</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -48,19 +48,23 @@
                         </altIdentifier>
                     </msIdentifier>
                     
-                    <msContents n="X">
-                        <summary></summary>
+                    <msContents n="1">
+                        <summary>A facsimile of a Nepalese palm-leaf manuscript of <name type="person" subtype="aut" key="person_">
+                                <persName xml:lang="sa" type="standard">Brahmagupta</persName></name>'s 
+                            <title xml:lang="sa">Khaṇḍakhādya</title>.  
+                            A note on a piece of paper states that the photographs were "Presented to the Ind. Inst. through Prof. Shuster". 
+                            Described in Shastri vol. I p. 89 and vol. II p.87, corresponding to NGMPP A 31-22.
+                        </summary>
                         
-                        <msItem n="1" defective="unknown">
-                            <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
+                        <msItem n="1" defective="true">
                             
                             <author>
-                                <name type="person" subtype="aut" key="local_">
-                                    <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
+                                <name type="person" subtype="aut" key="person_00027">
+                                    <persName xml:lang="sa" type="standard">Brahmagupta</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa">[insert here the uniform title of the work]</title>
+                            <title xml:lang="sa" key="work_00026">Khaṇḍakhādya</title>
                             
                             <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>

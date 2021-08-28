@@ -52,12 +52,12 @@
                         <summary>Several manuscripts have been bound together in one volume: 
                             <list>
                                 <item>
-                                    <name type="person" subtype="aut" key="local_ VIAF_">
+                                    <name type="person" subtype="aut" key="person_ VIAF_">
                                     <persName xml:lang="san" type="standard">Ratnākara</persName>
                                 </name>'s  <title xml:lang="san">Haravijaya</title>; 
                                 </item>
                                 <item>
-                                    <name type="person" subtype="aut" key="local_ VIAF_">
+                                    <name type="person" subtype="aut" key="person_ VIAF_">
                                     <persName xml:lang="san" type="standard">Murāri</persName>
                                 </name>'s <title xml:lang="san">Anargharāghava</title>;
                                 </item>
@@ -65,11 +65,11 @@
                                     <title xml:lang="san">Hanumannāṭaka</title> (first and part of the second <term xml:lang="san">aṅka</term>); 
                                 </item>
                                 <item>
-                                    <name type="person" subtype="aut" key="local_ VIAF_">
+                                    <name type="person" subtype="aut" key="person_ VIAF_">
                                         <persName xml:lang="san" type="standard">Ruyyaka</persName></name>'s <title xml:lang="san">Alaṅkārasarvasva</title>;  
                                 </item>
                                 <item>
-                                    <name type="person" subtype="aut" key="local_ VIAF_">
+                                    <name type="person" subtype="aut" key="person_ VIAF_">
                                         <persName xml:lang="san" type="standard">Sugrīva</persName>'s 
                                     </name>'s <title xml:lang="san">Grahapraśna</title>; 
                                 </item>
@@ -84,7 +84,7 @@
                             <locus from="1r" to="20v">ff. XrY-XvY</locus>
                             
                             <author>
-                                <name type="person" subtype="aut" key="local_ VIAF_"><persName xml:lang="san" type="standard">[insert here the most common and widespread form of the author's name]</persName>
+                                <name type="person" subtype="aut" key="person_ VIAF_"><persName xml:lang="san" type="standard">[insert here the most common and widespread form of the author's name]</persName>
                                     <persName xml:lang="san" type="alt">[if different, insert here the author's name as spelt in the ms]</persName>
                                     <persName xml:lang="san" type="alt">[insert here any other form of the author's name]</persName>
                                 </name>

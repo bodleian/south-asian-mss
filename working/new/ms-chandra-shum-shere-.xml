@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -37,31 +36,32 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 135(R)</idno>
-                        <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark">Or.long.C.22</idno>
+                        <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
+                        <idno type="shelfmark">MS Chandra Shum Shere c.193(1)</idno>
+                        <!--<altIdentifier type="internal">
+                            <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
                                 <orgName></orgName></note>
-                        </altIdentifier>
+                        </altIdentifier>-->
                     </msIdentifier>
                     
-                    <msContents n="X">
-                        <summary> A paper manuscript in Bengali script of the <title xml:lang="sa">Mānavadharmaśāstra</title> 
-                            with numerous marginal annotations. 
+                    <msContents n="1">
+                        <summary>
+                            A paper manuscript of <name type="person" key="local_"><persName xml:lang="sa" type="standard">Nārāyaṇa Tīrtha</persName></name>
                         </summary>
                         
                         <msItem n="1" defective="unknown">
+                            <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
                             
                             <author>
-                                <name type="person" subtype="aut" key="person_">
-                                    <persName xml:lang="sa" type="standard">Raghunandana</persName>
+                                <name type="person" key="local_">
+                                    <persName xml:lang="sa" type="standard">Nārāyaṇa Tīrtha</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa">Smṛtitattva</title>
+                            <title xml:lang="sa" key="work_">[insert here the uniform title of the work]</title>
                             
                             <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
@@ -76,6 +76,7 @@
                                 <gap reason="X"></gap>
                                 <g></g>
                                 <figure type="X" rend="X"></figure>
+                                <space type=""></space>
                             </incipit>
                             
                             <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
@@ -112,8 +113,8 @@
                                 
                                 <extent xml:id="folio" n="X"> X ff.</extent>
                                 
-                                <foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
                                 <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
@@ -124,8 +125,15 @@
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" ruledLines="X">
-                                    <!--                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-->
+                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+
+                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-->
+                                    
+                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
+                                    </note>
+                                    
                                     <p>
                                         XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
                                         <dimensions type="akṣara" n="X" unit="mm">
@@ -135,7 +143,7 @@
                                         </dimensions>
                                     </p>
                                     
-                                    <p>
+                                    <p>Details on frame, marginal lines, ruling and the like.
                                         <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
@@ -145,15 +153,13 @@
                                         </dimensions>
                                     </p>
                                     
-                                    <p>
+                                    <p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p> 
-                                    
-                                    <p>Details on frame, marginal lines, ruling and the like.</p>
+                                    </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -162,7 +168,7 @@
                             <handNote scope="sole" script="X" medium="X" scribeRef="X">
                                 <desc>X in X ink.</desc>
                                 <desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
+                                    <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
                                     </name>
                                 </desc>
@@ -195,15 +201,15 @@
                     
                     <history>
                         <origin>
-                            <date calendar="Nepali" when="1794">914 Nepāla / 1794 CE.</date>
-                            <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
+                            <date calendar="Nepāla" when="0914">914 Nepāla</date> / <date calendar="Gregorian" when="1784">1794 CE.</date>
+                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
                         <provenance>Bought by 
-                            <name type="person" subtype="dnr" key="local_00000">
+                            <name type="person" role="dnr" key="local_00000">
                                 <persName type="standard" xml:lang="lat">Sempronius, Titius
                                     Caius</persName><persName type="display" xml:lang="lat">Titius
-                                    Caius Sempronius</persName></name> in <date
-                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+                                        Caius Sempronius</persName></name> in <date
+                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
                         </provenance>
                         <acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
@@ -220,8 +226,10 @@
                             </availability>
                             <note/>
                         </adminInfo>
+                        
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
+                            
                             <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
                                     <title level="m">[unpublished manuscript]</title>
@@ -235,6 +243,7 @@
                                     </imprint>
                                 </monogr>
                             </biblStruct>
+                            
                             <biblStruct type="book" xml:id="XX">
                                 <monogr>
                                     <title/>
