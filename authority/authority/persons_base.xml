@@ -19,7 +19,7 @@
     <text>
         <body>
             <listPerson>
-                <person role="aut">
+                <person xml:id="person_00000">
                     <persName type="standard" xml:lang="en">Unknown</persName>
                     <persName type="display" xml:lang="en">Unknown</persName>
                     <idno type="VIAF">00000000</idno>
@@ -36,7 +36,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00001">
                     <persName type="standard" xml:lang="sa">Rūpagosvamin</persName>
                     <persName type="display" xml:lang="sa">Rūpagosvamin</persName>
                     <idno type="VIAF">14776299</idno>
@@ -52,7 +52,7 @@
                     </note>
                 </person>
                 
-                <person role="dnr">
+                <person xml:id="person_00002">
                     <persName type="standard" xml:lang="en">Johnston, E.H.</persName>
                     <persName type="display" xml:lang="en">Prof E.H. Johnston</persName>
                     <idno type="VIAF">89804438</idno>
@@ -68,7 +68,7 @@
                     </note>
                 </person>
                 
-                <person role="dnr">
+                <person xml:id="person_00003">
                     <persName type="standard" xml:lang="en">Evans-Wentz, W.Y.</persName>
                     <persName type="display" xml:lang="en">Dr. W.Y. Evans-Wentz</persName>
                     <idno type="VIAF">31996034</idno>
@@ -84,7 +84,7 @@
                     </note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00004">
                     <persName type="standard" xml:lang="sa">Mahendramalla</persName>
                     <persName type="display" xml:lang="sa">Mahendramalla</persName>
                     <!--<idno type="VIAF">00000000</idno>-->
@@ -101,7 +101,7 @@
                     <note>Nepalese king, reigned ca 1560–1574.</note>
                 </person>
                 
-                <person role="pat">
+                <person xml:id="person_00005">
                     <persName type="standard" xml:lang="sa">Mayalasiṃhacandra</persName>
                     <persName type="display" xml:lang="sa">Mayalasiṃhacandra</persName>
 <!--                    <idno type="VIAF">00000000</idno>-->
@@ -118,7 +118,7 @@
                     <note>Buddhist monk, commissioned Bodleian MS. Sansk. d. 346(R).</note>
                 </person>
                 
-                <person role="scr">
+                <person xml:id="person_00006">
                     <persName type="standard" xml:lang="sa">Vijayacandra</persName>
                     <persName type="display" xml:lang="sa">Vijayacandra</persName>
 <!--                    <idno type="VIAF">00000000</idno>-->
@@ -135,7 +135,7 @@
                     <note><term xml:lang="sa">Vajrācārya</term>, scribe of Bodleian MS. Sansk. d. 346(R).</note>
                 </person>
                 
-                <person role="pat">
+                <person xml:id="person_00007">
                     <persName type="standard" xml:lang="sa">Chandra Shamsher Jang Bahadur Rana</persName>
                     <persName type="display" xml:lang="sa">Chandra Shum Sher</persName>
                     <idno type="VIAF">42700590</idno>
@@ -152,7 +152,7 @@
                     <note>Mahārāja of <name  type="place" key="local_00004"><placeName xml:lang="sa" type="standard">Nepāl</placeName></name> (1863-1929).</note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00008">
                     <persName type="standard" xml:lang="sa">Bhartṛhari</persName>
                     <persName type="display" xml:lang="sa">Bhartṛhari</persName>
                     <idno type="VIAF">265079553 </idno>
@@ -169,7 +169,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00009">
                     <persName type="standard" xml:lang="sa">Helārāja</persName>
                     <persName type="display" xml:lang="sa">Helārāja</persName>
                     <idno type="VIAF">141752189 </idno>
@@ -186,7 +186,7 @@
                     <note></note>
                 </person>
                 
-                <person role="oth">
+                <person xml:id="person_00010">
                     <persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                     <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName>
                     <idno type="VIAF">2837388 </idno>
@@ -203,7 +203,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00011">
                     <persName type="standard" xml:lang="pa">Kabīr</persName>
                     <persName type="display" xml:lang="pa">Kabīr</persName>
                     <idno type="VIAF">262355054</idno>
@@ -220,7 +220,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00012">
                     <persName type="standard" xml:lang="sa">Kālidāsa</persName>
                     <persName type="display" xml:lang="sa">Kālidāsa</persName>
                     <idno type="VIAF">100903230</idno>
@@ -243,7 +243,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00013">
                     <persName type="standard" xml:lang="sa">Malliṣeṇa</persName>
                     <persName type="display" xml:lang="sa">Malliṣeṇa</persName>
                     <idno type="VIAF">68068711</idno>
@@ -266,7 +266,7 @@
                     <note>Author of the Bhairavapadmāvatīkalpa</note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00014">
                     <persName type="standard" xml:lang="sa">Bandhuṣena</persName>
                     <persName type="display" xml:lang="sa">Bandhuṣena</persName>
                     <idno type="local">00014</idno>
@@ -282,7 +282,7 @@
                     <note>Author of the Bhairavapadmāvatīkalpa[ṭīkā]</note>
                 </person>
                 
-                <person role="pat">
+                <person xml:id="person_00015">
                     <persName type="standard" xml:lang="en">Monier-Williams, Monier</persName>
                     <persName type="display" xml:lang="en">M. Monier-Williams</persName>
                     <idno type="VIAF">39495690</idno>
@@ -299,7 +299,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00016">
                     <persName type="standard" xml:lang="de">Bühler, Georg</persName>
                     <persName type="display" xml:lang="de">Georg Bühler</persName>
                     <idno type="VIAF">66539129</idno>
@@ -322,7 +322,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00017">
                     <persName type="standard" xml:lang="sa">Sudharmāsvāmī</persName>
                     <persName type="display" xml:lang="sa">Sudharmāsvāmī</persName>
                     <idno type="VIAF">50623740</idno>
@@ -339,7 +339,7 @@
                     <note>Author of the Bhagavatīsūtra according to the Jaina tradition.</note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00018">
                     <persName type="standard" xml:lang="sa">Malayagirisūri</persName>
                     <persName type="display" xml:lang="sa">Malayagirisūri</persName>
                     <persName type="variant" xml:lang="sa">Malayagiri</persName>
@@ -363,7 +363,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00019">
                     <persName type="standard" xml:lang="sa">Daṇḍin</persName>
                     <persName type="display" xml:lang="sa">Daṇḍin</persName>
                     <persName type="translation" xml:lang="xct">dbyug pa can</persName>
@@ -393,7 +393,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00020">
                     <persName type="standard" xml:lang="sa">Vālmīki</persName>
                     <persName type="display" xml:lang="sa">Vālmīki</persName>
                     <idno type="VIAF">288016626 </idno>
@@ -416,7 +416,7 @@
                     <note></note>
                 </person>
                 
-                <person role="dnr">
+                <person xml:id="person_00021">
                     <persName type="standard" xml:lang="sa">Gmelin, F.</persName>
                     <persName type="display" xml:lang="sa">F. Gmelin</persName>
                     <idno type="local">00021</idno>
@@ -432,7 +432,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00022">
                     <persName type="standard" xml:lang="sa">Puṣpadanta</persName>
                     <persName type="display" xml:lang="sa">Puṣpadanta</persName>
                     <idno type="VIAF">128612988</idno>
@@ -455,7 +455,7 @@
                     <note></note>
                 </person>
                 
-                <person role="dnr">
+                <person xml:id="person_00023">
                     <persName type="standard" xml:lang="sa">Malan, Solomon Caesar</persName>
                     <persName type="display" xml:lang="sa">S. C. Malan</persName>
                     <idno type="VIAF">64145443</idno>
@@ -472,7 +472,7 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00024">
                     <persName type="standard" xml:lang="sa">Rāmānandatīrtha</persName>
                     <persName type="display" xml:lang="sa">Rāmānandatīrtha</persName>
                     <idno type="local">00024</idno>
@@ -488,16 +488,103 @@
                     <note></note>
                 </person>
                 
-                <person role="aut">
+                <person xml:id="person_00025">
+                    <persName type="standard" xml:lang="sa">Vopadeva</persName>
+                    <persName type="display" xml:lang="sa">Vopadeva</persName>
+                    <idno type="VIAF">282593598</idno>
+                    <idno type="local">00025</idno>
+                    <idno type="PANDIT">40812</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/128612988">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40812/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Author of the Mugdhabodha.</note>
+                </person>
+                
+                <person xml:id="person_00026">
+                    <persName type="standard" xml:lang="sa">Manu</persName>
+                    <persName type="display" xml:lang="sa">Manu</persName>
+                    <idno type="VIAF">298796113</idno>
+                    <idno type="local">00026</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/298796113">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00027">
+                    <persName type="standard" xml:lang="sa">Brahmagupta</persName>
+                    <persName type="display" xml:lang="sa">Brahmagupta</persName>
+                    <idno type="VIAF">39509380</idno>
+                    <idno type="local">00027</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/39509380">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00028">
+                    <persName type="standard" xml:lang="sa">Nārāyaṇa Tīrtha</persName>
+                    <persName type="display" xml:lang="sa">Nārāyaṇa Tīrtha</persName>
+                    <persName type="variant" xml:lang="sa">Nārāyaṇatīrtha</persName>
+                    <idno type="VIAF">230996487</idno>
+                    <idno type="local">00028</idno>
+                    <idno type="PANDIT">86184</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/230996487">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86184/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
                     <idno type="VIAF">00000000</idno>
                     <idno type="local">00000</idno>
+                    <idno type="PANDIT">00000000</idno>
                     <note type="links">
                         <list type="links">
                             <item>
                                 <ref target="https://viaf.org/viaf/00000000/">
                                     <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
                                 </ref>
                             </item>
                         </list>
