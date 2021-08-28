@@ -57,12 +57,12 @@
                         <msItemStruct n="2">
                             <msItemStruct class="mūla">
                                 <author>
-                                    <name type="person" subtype="aut" key="local_00000">
+                                    <name type="person" subtype="aut" key="person_00000">
                                         <persName xml:lang="sa" type="standard">Unknown</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="local_00000">[insert here the uniform title of the work]</title>
+                                <title xml:lang="sa" key="work_00000">[insert here the uniform title of the work]</title>
                                 <title xml:lang="sa" type="alt" >[insert here a variant title of the work]</title>
                                 <title xml:lang="pka" type="alt">[insert here a variant title of the work]</title>
                                 
@@ -83,12 +83,12 @@
                             
                             <msItemStruct class="commentary">
                                 <author>
-                                    <name type="person" subtype="aut" key="local_00000">
+                                    <name type="person" subtype="aut" key="person_00000">
                                         <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="local_00000">[insert here the uniform title of the work]</title>
+                                <title xml:lang="sa" key="work_00000">[insert here the uniform title of the work]</title>
                                 
                                 <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                                 </rubric>
