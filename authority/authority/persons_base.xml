@@ -594,6 +594,24 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00030">
+                    <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                    <persName type="display" xml:lang="ne">Chandra Shum Shere</persName>
+                    <persName type="variant" xml:lang="ne">Chandra Shamsher Jang Bahadur Rana</persName>
+                    <idno type="VIAF">42700590</idno>
+                    <idno type="local">00030</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/42700590">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Maharaja Chandra Shamsher Jang Bahadur Rana (1863-1929).</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
