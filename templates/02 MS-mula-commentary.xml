@@ -55,7 +55,7 @@
                         </summary>
                         
                         <msItemStruct n="2">
-                            <msItemStruct class="mūla">
+                            <msItemStruct class="mūla" defective="false">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00000">
                                         <persName xml:lang="sa" type="standard">Unknown</persName>
@@ -81,7 +81,7 @@
                                 <textLang mainLang="pka">Ardhamāgadhī.</textLang>
                             </msItemStruct>
                             
-                            <msItemStruct class="commentary">
+                            <msItemStruct class="commentary" defective="false">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00000">
                                         <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
@@ -253,6 +253,7 @@
                             </availability>
                             <note/>
                         </adminInfo>
+                        
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             <biblStruct type="manuscript" xml:id="X">
