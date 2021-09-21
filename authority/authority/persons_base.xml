@@ -612,6 +612,45 @@
                     <note>Maharaja Chandra Shamsher Jang Bahadur Rana (1863-1929).</note>
                 </person>
                 
+                <person xml:id="person_00031">
+                    <persName type="standard" xml:lang="sa">Vācaspati Miśra</persName>
+                    <persName type="display" xml:lang="sa">Vācaspati Miśra</persName>
+                    <persName type="variant" xml:lang="sa">Vācaspatimiśra</persName>
+                    <idno type="VIAF">88053445</idno>
+                    <idno type="local">00031</idno>
+<!--                    <idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/88053445">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note>Author of the <title type="uniform" xml:lang="sa">Sāṅkhyatattvakaumudī</title>.</note>
+                </person>
+                
+                <person xml:id="person_00032">
+                    <persName type="standard" xml:lang="sa">Bhāratī Yati</persName>
+                    <persName type="display" xml:lang="sa">Bhāratī Yati</persName>
+                    <idno type="local">00032</idno>
+                    <note>Author of a <term xml:lang="sa">vyākhyā</term> on <name type="person" role="aut" key="local_"><persName xml:lang="sa" type="standard">Vācaspati Miśra</persName></name>'s 
+                        <title xml:lang="sa" key="work_00029">Sāṅkhyatattvakaumudī</title>.</note>
+                </person>
+                
+                <person xml:id="person_00033">
+                    <persName type="standard" xml:lang="sa">Sadānanda</persName>
+                    <persName type="display" xml:lang="sa">Sadānanda</persName>
+                    <idno type="local">00033</idno>
+                    <note>Scribe of MS Chandra Shum Shere d.459(4), active in the first half of the 19th century.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

@@ -50,22 +50,21 @@
                     
                     <msContents n="1">
                         <summary>
-                            A paper manuscript in Bengali script of the <title xml:lang="sa">Pāramahaṃsyasaṃhitā</title>, a section of the <title xml:lang="sa">Bhāgavatapurāṇa</title>.
+                            A paper manuscript in Bengali script of a commentary on the <title xml:lang="sa">Pāramahaṃsyasaṃhitā</title>, a section of the <title xml:lang="sa">Bhāgavatapurāṇa</title>.
                         </summary>
                         
                         <msItem n="1" defective="unknown">
-                            <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
                             
                             <author>
-                                <name type="person" subtype="aut" key="person_">
-                                    <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
+                                <name type="person" subtype="aut" key="person_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
                                 </name>
                             </author>
                             
                             <title xml:lang="sa" key="work_00021" type="main">Bhāgavatapurāṇa</title>
                             <title xml:lang="sa" type="sub">Pāramahaṃsyasaṃhitā</title>
                             
-                            <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
                             
                             <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
@@ -87,7 +86,7 @@
                             
                             <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
                             
-                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
+                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
@@ -96,29 +95,29 @@
                     <physDesc>
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Paper
-                                    <p>
+                                <support>Paper.
+                                    <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">
                                             <height quantity="X"> X</height>
                                             <width quantity="X"> X</width>
                                         </dimensions>
-<!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
+<!-\-                                        ALTERNATIVELY, if you give a range use the following pattern:-\->
                                         <dimensions type="folio" scope="range" unit="cm">
                                             <height atLeast="X" atMost="Y">ca. X-Y</height>
                                             <width atLeast="X" atMost="Y">ca. X-Y</width>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </support>
                                 
                                 <extent xml:id="folio" n="19">19 ff.</extent>
                                 
-                                <foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
+                                <!--<foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                   Damaged on the margins with loss of some <term xml:lang="sa">akṣara</term>s.
+                                   Faded and damaged on the margins, with loss of some <term xml:lang="sa">akṣara</term>s.
                                 </condition>
                             </supportDesc>
                             

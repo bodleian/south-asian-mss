@@ -63,7 +63,7 @@
                             
                             <title xml:lang="sa" key="work_00025">Mānavadharmaśāstra</title>
                             
-                            <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
                             
                             <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
@@ -85,7 +85,7 @@
                             
                             <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
                             
-                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>
+                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
@@ -95,37 +95,37 @@
                         <objectDesc form="tālapatra"> 
                             <supportDesc material="palm_leaf">
                                 <support>Palm leaf.
-                                    <p>
+                                    <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">
                                             <height quantity="X"> X</height>
                                             <width quantity="X"> X</width>
                                         </dimensions>
-                                        <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
+                                        <!-\-                                        ALTERNATIVELY, if you give a range use the following pattern:-\->
                                         <dimensions type="folio" scope="range" unit="cm">
                                             <height atLeast="X" atMost="Y">ca. X-Y</height>
                                             <width atLeast="X" atMost="Y">ca. X-Y</width>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </support>
                                 
                                 <extent xml:id="folio" n="X"> X ff.</extent>
                                 
-                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <condition>
+                                <!--<condition>
                                     Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
                                     some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
-                                </condition>
+                                </condition>-->
                             </supportDesc>
                             
-                            <layoutDesc>
+                            <!--<layoutDesc>
                                 <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
                                     
-                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-->
+                                    <!-\-the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-\->
                                     
                                     <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
                                         <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
@@ -158,25 +158,25 @@
                                         </dimensions>
                                     </p>
                                 </layout>
-                            </layoutDesc>
+                            </layoutDesc>-->
                         </objectDesc>
                         
                         <handDesc>
                             <handNote scope="sole" script="Bengali" medium="black_ink">
                                 <desc>Bengali in black ink.</desc>
-                                <desc>Scribe: 
+                                <!--<desc>Scribe: 
                                     <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
                                     </name>
-                                </desc>
+                                </desc>-->
                             </handNote>
                         </handDesc>
                         
-                        <decoDesc>
+                        <!--<decoDesc>
                             <decoNote type="miniature">
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
-                        </decoDesc>
+                        </decoDesc>-->
                         
                         <additions>
                             <list>
@@ -187,10 +187,10 @@
                             </list>
                         </additions>
                         
-                        <bindingDesc>
+                        <!--<bindingDesc>
                             <p><material>Wood cover</material>, original binding.</p>
                             <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
-                        </bindingDesc>
+                        </bindingDesc>-->
                     </physDesc>
                     
                     <history>
@@ -217,7 +217,8 @@
                             </availability>
                             <note/>
                         </adminInfo>
-                        <listBibl type="ms_descriptions">
+                        
+                        <!--<listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
@@ -246,7 +247,7 @@
                                     </imprint>
                                 </monogr>
                             </biblStruct>
-                        </listBibl>
+                        </listBibl>-->
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
@@ -497,7 +498,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-08-19">
+            <change when="2021-09-17">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
@@ -507,11 +508,11 @@
             </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <!--here's where we'll list the images, no need to worry about this!-->
+    <!--<facsimile>
+        <!-\-here's where we'll list the images, no need to worry about this!-\->
         <graphic url="[link to image 1]"/>
         <graphic url="[link to image 2]"/>
-    </facsimile>
+    </facsimile>-->
     <text>
         <body>
             <div>

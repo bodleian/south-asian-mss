@@ -73,7 +73,7 @@
                                 mānase' ramatāṃ' dīrghaṃ' sarvva'śuklā' sarasvatī' ||
                             </incipit>
                             
-                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
+                            <!--<finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
                                 <damage agent="X" unit="X" quantity="1"></damage>
                                 <sic></sic>
                                 <del rend="X"></del>
@@ -84,7 +84,7 @@
                                 <g></g>
                                 <figure type="X" rend="X"></figure>
                                 <space type=""></space>
-                            </finalRubric>
+                            </finalRubric>-->
                             
                             <explicit xml:lang="sa"><locus from="34v" to="34v">[34v2]</locus> 
                                 <unclear reason="faded">vyutpannabuddhir amunā vidhidarśitena mārgeṇa doṣaguṇayor</unclear> vvaśavarttinībhiḥ | 
@@ -419,9 +419,6 @@
                         <category xml:id="chandas">
                             <catDesc>Chandas</catDesc>
                         </category>
-                        <category xml:id="">
-                            <catDesc></catDesc>
-                        </category>
                     </category>
                     
                     <category xml:id="subhāṣita">
@@ -517,11 +514,11 @@
             </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <!--here's where we'll list the images, no need to worry about this!-->
+    <!--<facsimile>
+        <!-\-here's where we'll list the images, no need to worry about this!-\->
         <graphic url="[link to image 1]"/>
         <graphic url="[link to image 2]"/>
-    </facsimile>
+    </facsimile>-->
     <text>
         <body>
             <div>
