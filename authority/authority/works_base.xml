@@ -570,6 +570,97 @@
                     <note>Written by <name type="person" role="aut" key="person_00032"><persName xml:lang="sa" role="aut" type="standard">Bhāratī Yati</persName></name>.</note>
                 </bibl>
                 
+                <bibl xml:id="work_00031">
+                    <title type="uniform" xml:lang="sa">Antarakathāsaṅgraha</title>
+                    <title type="variant" xml:lang="sa">Antarakathāsaṃgraha</title>
+                    <idno type="VIAF">175067453</idno>
+                    <idno type="local">00031</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/175067453">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00032">
+                    <title type="uniform" xml:lang="sa">Kṣetrasamāsāvacūri</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local">00032</idno>
+                    <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00033">
+                    <title type="uniform" xml:lang="sa">Śāntināthacaritra</title>
+                    <title type="variant" xml:lang="sa">Śāntipurāṇa</title>
+<!--                    <idno type="VIAF"></idno>-->
+                    <idno type="local">00033</idno>
+<!--                    <idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://jaina-prosopography.org/work/2173">
+                                    <title>Jaina Prosopography</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00034">
+                    <title type="uniform" xml:lang="sa">Tattvasamāsasūtravṛtti</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00034</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

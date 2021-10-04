@@ -38,13 +38,13 @@
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
                         <idno type="shelfmark">MS Chandra Shum Shere d.459(2)</idno>
-                        <!--<altIdentifier type="internal">
-                            <idno type="or_long_shelfmark"></idno>
+                        <altIdentifier type="internal">
+                            <idno type="Chandra_Shum_Shere_Āśutoṣa">1467</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
                                 <orgName></orgName></note>
-                        </altIdentifier>-->
+                        </altIdentifier>
                     </msIdentifier>
                     
                     <msContents n="1+1">
@@ -88,7 +88,7 @@
                             <title xml:lang="sa" key="work_00029">Sāṅkhyatattvakaumudī</title>
                             
                             <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                śgn || || 
+                                śrīgaṇeśāya namaḥ || || 
                             </rubric>
                             
                             <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 

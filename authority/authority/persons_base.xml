@@ -651,6 +651,86 @@
                     <note>Scribe of MS Chandra Shum Shere d.459(4), active in the first half of the 19th century.</note>
                 </person>
                 
+                <person xml:id="person_00034">
+                    <persName type="standard" xml:lang="sa">Rājaśekhara</persName>
+                    <persName type="display" xml:lang="sa">Rājaśekhara</persName>
+                    <persName type="variant" xml:lang="sa">Rājaśekharamaladhārin</persName>
+                    <idno type="VIAF">262929296</idno>
+                    <idno type="local">00034</idno>
+                    <idno type="PANDIT">96322</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/262929296">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96322/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://jaina-prosopography.org/person/310">
+                                    <title>Jaina Prosopography</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Rājaśekhara, Vi.Saṃ. 1399-1405, Harṣapurīyagaccha (Maladhārigaccha), disciple of Śrītilaka, preceptor of Sudhākalaśa, composed Antarakathāsaṃgraha.</note>
+                </person>
+                
+                <person xml:id="person_00035">
+                    <persName type="standard" xml:lang="sa">Ratnaśekhara</persName>
+                    <persName type="display" xml:lang="sa">Ratnaśekhara</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00035</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://jaina-prosopography.org/person/701">
+                                    <title>Jaina Prosopography</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Ratnaśekhara, sūri, about Vi.Saṃ. 1390-1430, Nāgapurīyatapāgaccha.</note>
+                </person>
+                
+                <person xml:id="person_00036">
+                    <persName type="standard" xml:lang="sa">Bhāvacandrasūri</persName>
+                    <persName type="display" xml:lang="sa">Bhāvacandrasūri</persName>
+                    <persName type="variant" xml:lang="sa">Bhāvacandra</persName>
+                    <idno type="VIAF">77915068</idno>
+                    <idno type="local">00036</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/77915068">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://jaina-prosopography.org/person/5013">
+                                    <title>Jaina Prosopography</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Bhāvacandra, paṭṭadhara Vi.Saṃ. 1095-1115, Digambara, author of <title xml:lang="sa">Śāntināthacaritra</title> [Śāntipurāṇa].</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

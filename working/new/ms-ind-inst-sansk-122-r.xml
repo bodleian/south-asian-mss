@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_000">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+
+		<fileDesc>
+			<titleStmt>
+				<title>Sanskrit Manuscripts in the Bodleian Libraries</title>
+				<funder>CSL</funder>
+				<principal>Gillian Evison</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Bodleian Libraries</publisher>
+				<date calendar="Gregorian">[Date when first made available]</date>
+				<pubPlace>
+					<address>
+						<addrLine>Department of Special Collections</addrLine>
+						<addrLine>Bodleian Library</addrLine>
+						<street>Broad Street</street>
+						<settlement>Oxford</settlement>
+						<postCode>OX1 3BG</postCode>
+						<addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+								>Bodleian Library </ref></addrLine>
+						<addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+					</address>
+				</pubPlace>
+				<idno>Sanskrit</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="Sanskrit" xml:lang="en">
+					<msIdentifier>
+						<country>United Kingdom</country>
+						<region type="county">Oxfordshire</region>
+						<settlement>Oxford</settlement>
+						<institution>Oxford University</institution>
+						<repository>Bodleian Library</repository>
+						<collection type="main">Oriental Manuscripts</collection>
+						<collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz"
+							>Sanskrit, Evans-Wentz Collection </collection>
+						<idno type="shelfmark">MS. Ind. Inst. Sansk. </idno>
+						<!--<altIdentifier type="internal">
+							<idno type="or_long_shelfmark">Or.long.</idno>
+							<note><country>United Kingdom</country>
+								<region type="county">Oxfordshire</region>
+								<settlement>Oxford</settlement>
+								<orgName/></note>
+						</altIdentifier>-->
+					</msIdentifier>
+					<msContents n="1">
+						<!--increment n attribute for ms containing multiple ms items-->
+						<summary/>
+						<msItem n="1" defective="true">
+							<author>
+								<name type="person" subtype="aut" key="local_00000 VIAF_">
+									<persName xml:lang="sa" type="standard"/>
+								</name>
+							</author>
+							<title xml:lang="sa" key="local_00000"/>
+							<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus>
+							</rubric>
+							<incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus>
+							</incipit>
+							<explicit xml:lang="sa"><locus from="X" to="X">[X]</locus>
+							</explicit>
+							<finalRubric xml:lang="sa"><locus from="X" to="X">[X]</locus>
+							</finalRubric>
+							<colophon xml:lang="sa"><locus from="20v" to="20v">[20v1]</locus>
+							</colophon>
+							<textLang mainLang="sa">Sanskrit.</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="pothī">
+							<supportDesc material="paper">
+								<support>Yellow paper. <p>
+										<dimensions type="folia" scope="range" unit="cm">
+											<height quantity="X"/>
+											<width atLeast="X" atMost="X"/>
+										</dimensions>
+									</p>
+								</support>
+								<extent xml:id="folio" n="X"> X ff.</extent>
+								<foliation n="1" rend="original">X numerals, mid-right margin,
+									verso.</foliation>
+								<!--the following element contains free text; however, stick to the set phrases as far as possible!-->
+								<condition/>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="5">
+									<dimensions type="written" unit="cm">
+										<height atLeast="X" atMost="X">Written area: X</height>
+										<width quantity="X">X</width>
+									</dimensions>
+									<p>X lines per page, approximately X <term xml:lang="sa"
+											>akṣara</term>s per line.</p>
+									<dimensions type="akṣara" unit="mm" n="X">
+										<height quantity="X">Akṣara height: X</height>
+									</dimensions>
+									<dimensions type="interlinear_space" scope="most" unit="mm">
+										<height quantity="X">Interlinear space height: X</height>
+									</dimensions>
+									<!--<commentaryForm type=""></commentaryForm>-->
+									<!--<stringHole type="true" quantity="2"> Two string holes framed by double parallel lines in black ink.                                              <dimensions type="string hole spaces" scope="most" unit="cm">                                                 <height quantity="2.5">2.5</height>                                                 <width quantity="1.5">1.5</width>                                                 <depth quantity="10.5">10.5</depth>                                             </dimensions>                                     </stringHole>-->
+									<p>Impressed marginal frame lines, no ruling.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote scope="major" script="Bengali" medium="blackink">
+								<desc>Bengali in black ink (main text and first set of
+									annotations).</desc>
+							</handNote>
+							<handNote scope="minor" script="Bengali" medium="redink">
+								<desc>Bengali in red ink (second set of annotations?).</desc>
+							</handNote>
+						</handDesc>
+						<additions>
+							<list>
+								<head>Marginalia</head>
+								<item>
+									<add type="invocations">Invocation (<term xml:lang="sa"
+											>śrī</term>) immediately before the foliation, mid right
+										margin, verso.</add>
+								</item>
+								<item>
+									<add type="annotations">Numerous annotations on all margins
+										throughout the manuscript; the first set in black ink was
+										probably written by the scribe of the main text, while the
+										second set in red ink might have been added later.</add>
+								</item>
+							</list>
+						</additions>
+						<bindingDesc>
+							<p><material>Cardboard box</material>, library binding.</p>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<date calendar="Śāka" when="1794">Śāka 1621 / 1699 CE.</date>
+							<origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
+						</origin>
+						<provenance>Donated by <name type="person" role="dnr"
+								key="local_00002 VIAF_89804438"><!--<persName type="standard" xml:lang="eng">Johnston,                                     E.H.</persName>-->
+								<persName type="display" xml:lang="eng">Prof E.H.
+									Johnston</persName></name> in <date calendar="Gregorian"
+								when="1940-02">February 1940</date>; previously belonged to <name
+								type="person" role="dnr" key="local_00003 VIAF_31996034"><persName
+									type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
+								<persName type="display" xml:lang="eng">Dr. W.Y.
+									Evans-Wentz</persName></name>. </provenance>
+						<!--<acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
+					</history>
+					<additional>
+						<adminInfo>
+							<!--<recordHist>                                 <source> <ref type="biblio" target="Bendall_1883">Bendall (1883:                                         XX-XX)</ref>, <ref type="biblio" target="LVP_Add.875">LVP Or.</ref>, direct inspection.</source>                             </recordHist>-->
+							<availability status="restricted">
+								<p>Entry to read in the Library is permitted only on presentation of
+									a valid reader's card, for admissions procedures contact <ref
+										target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+										>Bodleian Libraries' Admissions Office</ref>.</p>
+							</availability>
+							<note/>
+						</adminInfo>
+						<listBibl type="ms_descriptions">
+							<head>Descriptions of the manuscript</head>
+							<biblStruct type="manuscript" xml:id="X">
+								<monogr>
+									<title level="m">[unpublished manuscript]</title>
+									<author>
+										<forename/>
+										<surname/>
+									</author>
+									<imprint>
+										<pubPlace/>
+										<date/>
+									</imprint>
+								</monogr>
+							</biblStruct>
+							<biblStruct type="book" xml:id="XX">
+								<monogr>
+									<title/>
+									<author>
+										<forename/>
+										<surname/>
+									</author>
+									<imprint>
+										<pubPlace/>
+										<publisher/>
+										<date/>
+									</imprint>
+								</monogr>
+							</biblStruct>
+						</listBibl>
+						<listBibl type="manuscripts">
+							<head>Manuscripts</head>
+							<bibl>
+								<orgName>NGMCP</orgName>: <ref type="extant_mss" target=""> XX
+									listed manuscripts</ref>
+								<ref type="extant_mss" target=""> X catalogued manuscripts</ref>
+							</bibl>
+							<bibl>
+								<placeName>Oxford</placeName>, <orgName>Bodleian
+								Libraries</orgName>: <ref type="extant_mss" target="">MS. XXX</ref>,
+									<ref type="extant_mss" target="">MS. XXX</ref>. </bibl>
+						</listBibl>
+						<listBibl>
+							<head>Edition(s)</head>
+							<ref type="biblio" target="Name_19XX"/>
+							<biblStruct/>
+							<biblStruct/>
+						</listBibl>
+						<listBibl>
+							<head>Secondary Literature</head>
+							<ref type="biblio" target="Name_19XX"/>
+							<biblStruct/>
+							<biblStruct/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<classDecl>
+				<taxonomy xml:id="LCSH">
+					<bibl>
+						<ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+							Congress Subject Headings</ref>
+					</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#LCSH">
+					<list>
+						<item>
+							<ref target="http://id.loc.gov/authorities/subjects/sh85080761.html"
+								>Manuscripts, Sanskrit</ref>
+						</item>
+					</list>
+				</keywords>
+				<keywords scheme="local">
+					<list>
+						<item/>
+						<item/>
+						<item/>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2016-03-02">
+				<persName>Camillo Formigatti modified this entry according to the <ref
+						target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+						>https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+			</change>
+			<change when="2016-03-02">
+				<persName>Camillo Formigatti created this entry.</persName>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<!--<facsimile>         <!-\-here's where we'll list the images, no need to worry about this!-\->         <graphic url="[link to image 1]"/>         <graphic url="[link to image 2]"/>     </facsimile>-->
+	<text>
+		<body>
+			<msDescription id="test">
+				<msIdentifier>
+					<country>United Kingdom</country>
+					<region>London</region>
+					<settlement>Euston</settlement>
+					<institution>The OXFORD</institution>
+					<repository>The OXFORD</repository>
+					<collection>.</collection>
+					<idno type="kk">Ms.Ind.Inst.Sansk.122(R)[33]</idno>
+				</msIdentifier>
+				<msHeading>
+					<title>Upāsakadaśāṅgasūtra-vivaraṇa</title>
+					<author reg="k" attested="no" accepted="u">Abhayadevasūri</author>
+					<origPlace>.</origPlace>
+					<origDate>.</origDate>
+
+					<textLang langKey="pal">Sanskrit</textLang>
+					<note>A blank space is left in the center of the folio. Red pigment is used over
+						titles and sub-titles. Script is clear.</note>
+				</msHeading>
+				<msContents>
+					<overview>
+						<p>.This work is called as Pañcāgī vṛtti also. This work is divided in to
+							ten chapters as below. capter 1 ends on fol.11A; 2nd on fol.18A; 3rd on
+							fol.18A; 4th on fol.18A; 5th on fol.18A; 6th on fol.19B; 7th on fol.22B;
+							8th on fol. 23A; 9th &amp;10th on fol.23B</p>
+					</overview>
+					<msItem>
+						<incipit type="k" defective="unk">
+							<locus>Begins On folio No.1A With</locus>śrīVarddhamānasya vyākhyā
+							kācidvidhīyate, Upāsakadaśādīnāṃ prāyo granthāntarekṣitā I 1 I
+							tatr'Upāsakadaśāḥ I saptam-aṅgam-iha c ayam abhidhānārtha upāsakānāṃ
+							śramaṇopāsakānāṃ saṃbandhen anuṣṭhānasya pratipādikā daśā
+							daśā'dhyayana-rūpā Upāsaakadaśā bahu-vacanātam-etatd grantha-nāma āsāṃ
+							ca saṃbandha'bhidheya prayojanāni nāmātvartha sāmārthyen aiva
+							pratipāditānyava gantavyāni Itathāhi I .....etc</incipit>
+						<explicit type="k" defective="unk">
+							<locus>Ends On folio No. 23 A last line with</locus>I khalu I aruṇappaha
+							3, aruṇakanta 4, siddheya 5, aruṇajjajjhaeya cchaṭṭhe 6, bhūyavaḍense 8,
+							gave 9, kīle10 I 5 I śsṣṭādināmānya pada-pūrvāṇi dṛśyāni
+							aruṇa-śiṭam-ityādi etāś ca pūrvokt-anusāreṇāvaseyāḥ I yadiha na
+							vyākhyātaṃ tat sarvaṃ Jñātādharmakathā'nusāreṇa- vyākhyānam-upayuktena
+							nirupyāva-seyām-iti I cha I sarvasy-api savkīyaṃ vacanam-abhimataṃ
+							prāyasaḥ syājjanasya yattu svasy api samyag (ja)na hi vihita ruci-syāt
+							kathaṃ tat pareṣāṃ citto'llāsāt-kutaś cittad'api nigaditaṃ kiñci devaṃ
+							may'aitat yuktaṃ yaccātra tasya mamaladhiyaṃ kurvatāṃ prītayeme I 1 I </explicit>
+						<colophon>.samāptam Upāsakadaśaka vivaraṇaṃ I cha I bhadraṃ bhūyā
+							llekhaka-pāṭhakayoḥ I cha I </colophon>
+					</msItem>
+				</msContents>
+				<physDesc>
+					<form>
+						<p>Verse</p>
+					</form>
+					<support>
+						<overview>
+							<p>Indian Paper</p>
+						</overview>
+					</support>
+					<extent><dimensions units="mm">
+							<height>26.0</height>
+							<width>10.5</width>
+						</dimensions></extent>
+					<msWriting>
+						<p>Scribe : .</p>
+						<p>Copied at : .</p>
+						<p>Copied on : 16th AD]</p>
+					</msWriting>
+					<decoration>
+						<decoNote technique="na" quality="na" figurative="na" illustrative="u">
+							<p>Margin : Two double black lines. At verso at top left margin title '
+								Pañcāgī vṛ. U.vṛ' is written in black with folio nos.</p>
+							<p>Illustrtion : .</p>
+							<p>Miniatures : None</p>
+						</decoNote>
+					</decoration>
+					<foliation>
+						<p>Total Folio :23</p>
+						<p>Numbred : .1B - 23B</p>
+						<p>Number of lines per page - 14 - 15</p>
+						<p>Number of character per line - 55 - 60.</p>
+						<p>This is text No.....1...... of .....1...... Total Texts.</p>
+					</foliation>
+					<additions>
+						<p>Subject : .Jaina canon</p>
+						<p>Commentary Title : Vivaraṇa</p>
+						<p>Commentator :.</p>
+						<p>Date of Commentry : .</p>
+						<p>Place of Commentary : .</p>
+						<p>Language of Commentary : .</p>
+					</additions>
+					<condition>
+						<p>Good</p>
+					</condition>
+				</physDesc>
+				<additional>
+					<listBibl>
+						<head>References of Catalogue : .BhORI Vol.XVII pt.1(a) no. 139 - 142 <title
+								level="m"> References of Publication : .</title>
+						</head>
+					</listBibl>
+				</additional>
+			</msDescription>
+		</body>
+	</text>
+</TEI>
