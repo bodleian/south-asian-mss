@@ -661,6 +661,73 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00035">
+                    <title type="uniform" xml:lang="pra">Paḍikkamaṇasutta</title>
+                    <title type="variant" xml:lang="pra">Paḍikamaṇāsūtra</title>
+                    <title type="variant" xml:lang="sa">Pratikramaṇasūtra</title>
+                    <idno type="VIAF">186697350</idno>
+                    <idno type="local">00035</idno>
+                    <idno type="PANDIT">96096</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/186697350">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96096/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00036">
+                    <title type="uniform" xml:lang="pra">Uttarajjhayaṇasutta</title>
+                    <title type="variant" xml:lang="sa">Uttarādhyayanasūtra</title>
+                    <title type="variant" xml:lang="sa">Uttarāśrayadhyāyanasūtra</title>
+                    <idno type="VIAF">174250278</idno>
+                    <idno type="local">00036</idno>
+                    <idno type="PANDIT">96173</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/174250278">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96173/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00037">
+                    <title type="uniform" xml:lang="pra">Uttarajjhayaṇasutta Ṭabo</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00037</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

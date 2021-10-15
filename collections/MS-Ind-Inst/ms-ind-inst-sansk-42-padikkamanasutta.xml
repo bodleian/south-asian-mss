@@ -36,8 +36,8 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS Sansk.</idno>
+                            <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams</collection>
+                            <idno type="shelfmark">MS. Ind. Inst. Sansk. 42</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -48,93 +48,86 @@
                     </msIdentifier>
                     
                     <msContents n="1">
-                    	<summary> A 17th-century paper manuscript of <name type="person"
-                    		subtype="aut" key="local_00000 VIAF_">
-                    		<persName xml:lang="sa" type="standard"
-                    			>Bhāvacandrasūri</persName></name>'s <title xml:lang="sa"
-                    				key="local_00000">Śāntināthacaritra</title>. This work describes the
-                    		life of 16th Lord Śāntinātha in Sanskrit prose with his earlier twelve
-                    		births. <!--This is divided into 6 prastāvas (chapters) as below. 1st
-                    		prastāva edns on fol.8B; 2nd ends on fol.20B; 3rd ends on fol.37B; 4th
-                    		ends on fol. 53B; 5th ends on fol.72B; 6th ends on fol.105B --></summary>
+                    	<summary>A paper manuscript of the <title xml:lang="sa" key="work_00035">Paḍikkamaṇasutta</title> of the Jaina canon. A
+                    		manual of ethics. Complete, but very inaccurate and badly written.</summary>
                         
                         <msItem n="1" defective="unknown">
                             
                             <author>
-                                <name type="person" key="person_00036">
-                                    <persName xml:lang="sa" type="standard">Bhāvacandrasūri</persName>
+                                    <name type="person" key="person_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_00033">Śāntināthacaritra</title>
+                        	<title xml:lang="pra" key="work_00035">Paḍikkamaṇasutta</title>
+                        	<title xml:lang="pra" type="alt">Paḍikamaṇāsūtra</title>
+                        	<title xml:lang="pra" type="alt">Pratikramaṇasūtra</title>
                             
-                            <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> śrī jināya
-                                namaḥ || </rubric>
-                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus>
-                                praṇipatyārtahaḥ sarvān Vāgdevīṃ sadgurun api, gadyabandhena vakṣyāmi
-                                śrīŚānthi caritaṃ mudā || 1 || sarve saṃsāriṇo jīvā .......[to add from
-                                fol.34 catl.] kathyante || teṣām ādyā-bhavaḥ procyate || ihe eva
-                                Jaṃbūdvīpe Bharatakṣetre ananta-ratna-niketanaṃ śrīmad Ratnapuraṃ nāma
-                                Pattanam asti ...etc </incipit>
-                            <rubric xml:lang="sa"><locus from="8v" to="8v">[8v7]</locus> [On fol.8B
-                                7th line] iti śrī gadyabandhe śrīŚāntinātha caritre bhava trayaṃ
-                                varṇṇano nāma prathama prastāvaḥ || 1 || </rubric>
-                            <explicit xml:lang="sa"><locus from="105v" to="105v">[105v7]</locus> itaś
-                                ca Bharatakṣetre madhya-khaṇḍe suraccitaṃ jaga-vikhyāta
-                                koṭiśalābhidhānaṃ avaraṃ tīrtham asti tatra bahubhiḥ kevalibhiḥ samaṃ
-                                cakrāyudha-gaṇadharo anaśanaṃ vyadhāya puṇyātmā san śivaṃ yayau yā śilā
-                                śrīcakrāyudha gaṇadharaṃ || 1 || hridbhyāṃ pūrva paviśitāṃ ......siddhāḥ
-                                saṅkhyātā gata-ghātakā || 2 || Arasya svāmino tīrthe ....karmmāṇi
-                                kṣapayitvā śivaṃ gatā || 3 || tīrthe Mallijinendra ......nirvāṇa-vrata
-                                śālināṃ || 4 || Munisuvratanāthasya .......padamavyayaṃ || 5 || tīrthe
-                                Namijinesyā pi .......su vusiddhi kriyā vajāṃ || 6 || jeṣāṃ tīrtha kṛtāṃ
-                                ......koṭiśilā tataḥ || 7 || cāraṇa śramaṇo siddhā .....nityṃ tīrthe
-                                koṭi śilābhidhāṃ || 9 || itthaṃ Śāntijineśvarasya mayakā proktā bhavā
-                                dvādaśa śrāddha dvādaśa saṅkhya sad-bhūta kathā saṃlekhinā bandhuraḥ sa
-                                cakrāyudha nāmadheya gaṇabhṛta vyākhyānaṃ sadvārddhitāḥ [to add as above
-                                said] </explicit>
-                            <finalRubric xml:lang="sa"><locus from="105v" to="105v">[105v?]</locus>
-                                iti śrībhāvacaṃdrasūriviracite gadyabaṃdhe śrīŚāntināthacaritre
-                                dvādaśabhavavarṇṇano nāma ṣaṣṭaḥ prastāvaḥ || </finalRubric>-->
+                        	<!--<rubric xml:lang="pra"><locus from="1r" to="1r">[1r1]</locus> 
+                        		namo arihantāṇaṃ. namo siddhāṇaṃ, namo āyariyāṇaṃ,........
+                        	</rubric>
+                        	<incipit xml:lang="pra"><locus from="1r" to="1r">[1r1]</locus> 
+                        		paḍhamaṃ havai maṅgalaṃ || 1 || icchāmi-khamāsamaṇo vandiu jāvaṇijjāe nisihīāe
+                        		mathaeṇa-vandāmi || 1 || icchākāra sorāi-se-daivasī sukha-tapa
+                        		.......etc [On fol.1B] logassa ūjjoagare dhamma-titthayare jiṇe arīhante
+                        		kittaissaṃ cauvīsaṃ-pi-kevalī || 1 || ....etc </incipit>
+                        	<explicit xml:lang="sa"><locus from="6r" to="6r">[6r4]</locus> sāta lākha
+                        		prathī-kāya, sāta lākha appa-kāya, sāta lākha teu-kāya, sāta lākha
+                        		vāū-kāya, dasa lākha prateka-vanaspati-kāya, cavade lākha
+                        		sādhāraṇa-vanaspati-kāya, bai lākha bairīndrī, bai lākha terindrī, bai
+                        		lākha caurandrī, cāra lākha devatā, cyāra lākha nārakī, cyāra lākha
+                        		tiryañca, cavade lākha manuṣya, caurāsī lākha jīvājonime mārai jīva
+                        		jāṇa-ajāṇa duch(kh)o huvai saṅkalpa-vikalpa upajāyo huvai tesa sati huṃ
+                        		mana-vacana-kāyāiṃ kaare tasa-mīchāmī-dukaḍaṃ || </explicit>
+                        	<finalRubric xml:lang="sa"><locus from="6r" to="6r">[6r?]</locus> iti
+                        		Paḍikamaṇāsūtra saṃpūrṇa || </finalRubric>
+                        	<colophon xml:lang="sa"><locus from="6r" to="6r">[6r?]</locus> saṃvat
+                        		1858 varaṣe sākai 1723 pravartamāne māsotama-māse Āso ja māsai Kṛṣṇa
+                        		pakṣai amāvasyā tītho Budhavāre līkhataṃ paṇ.Śivahaṃsa tata sīṣya
+                        		muniJītahaṃsa va(ā)canārathaṃ ||
+                        	</colophon>-->
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="pra" >Prakrit.</textLang>
                         </msItem>
                     </msContents>
                     
                     <physDesc>
                         <objectDesc form="pothī"> 
-                            <supportDesc material="Paper">
+                            <supportDesc material="paper">
                                 <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="25.5">25.5</height>
-                                            <width quantity="10">10</width>
+                                             <height quantity="26.5">26.5</height>
+                                             <width quantity="10.5">10.5</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="105">105 ff.</extent>
+                                <extent xml:id="folio" n="6">6 ff.</extent>
                                 
                                 <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
                                 <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <!--<condition>
-                                    Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
-                                    some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
-                                </condition>-->
+                                <condition>
+                                    Complete, in good condition.
+                                </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="19">
+                                <layout columns="1" writtenLines="12" type="commentary" subtype="tripāṭha">
 
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
+                                    <!--<note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
+                                    </note>-->
+                                    
                                     <p>
-                                        19 lines per page, approximately 65 <term xml:lang="sa">akṣara</term>s per line.
-                                        <!--<dimensions type="akṣara" n="65" unit="mm">
+                                        12 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
@@ -151,13 +144,13 @@
                                         </dimensions>
                                     </p>-->
                                     
-                                    <p>A blank space is left in the center part and filled with characters.
-                                        <!--<dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
+                                    <!--<p>Details about the string hole(s).
+                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
-                                        </dimensions>-->
-                                    </p>
+                                        </dimensions>
+                                    </p>-->
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -165,11 +158,6 @@
                         <handDesc>
                             <handNote scope="sole" script="Jainanāgarī" medium="black_ink">
                                 <desc>Jainanāgarī in black ink.</desc>
-                                <!--<desc>Scribe: 
-                                    <name type="person" role="scr" key="local_">
-                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
-                                    </name>
-                                </desc>-->
                             </handNote>
                         </handDesc>
                         
@@ -179,41 +167,32 @@
                             </decoNote>
                         </decoDesc>-->
                         
-                        <additions>
+                        <!--<additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="invocations">Invocation (<term xml:lang="sa">śrī</term>)
-                                        immediately before the foliation, mid right margin, verso.</marginalia>
+                                    <marginalia type="corrections">On the bottom right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
                                 </item>
                                 <item>
-                                    <marginalia type="annotations">Numerous annotations on all margins throughout
-                                        the manuscript; the first set in black ink was probably written by the
-                                        scribe of the main text, while the second set in red ink might have
-                                        been added later.</marginalia>
+                                    <marginalia type="annotations">On the top right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
                                 </item>
                             </list>
-                        </additions>
+                        </additions>-->
                         
                         <bindingDesc>
-                            <p><material>Cardboard box</material>, library binding.</p>
+                            <p><material>Cardboard cover</material>, library binding.</p>
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1600" notAfter="1699">17th century.</date>
-                            <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
+                            <date calendar="Vikrama" when="1858">1858 Vikrama</date> / <date calendar="Gregorian" when="1801">1801 CE.</date>
+                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
                         <provenance>Collected by <name type="person" role="dnr" key="person_00016">
-                            <persName type="standard" xml:lang="de">Bühler, Georg</persName>
-                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
-                                calendar="Gregorian" from="1877" to="1878">1877-78</date>.
-                            Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
-                                <persName type="standard" xml:lang="en">Monier-Williams, Monier</persName>
-                                <persName type="display" xml:lang="en">M. Monier-Williams</persName></name><!-- in <date
-                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>-->.
-                        </provenance>
+		<persName type="standard" xml:lang="de">Bühler, Georg</persName><persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date calendar="Gregorian"
+		   from="1877" to="1878">1877-78</date>. Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015"><persName type="standard" xml:lang="en">Monier-Williams, Monier</persName><persName type="display" xml:lang="en">M. Monier-Williams</persName></name><!-- in <date calendar="Gregorian" from="1873" to="1876">1873-6</date>-->.
+                         </provenance>
                         <!--<acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
                         </acquisition>-->
@@ -233,19 +212,33 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <!--<biblStruct type="manuscript" xml:id="X">
                                 <monogr>
-                                    <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
-                                        Library, Oxford</title>
-                                    <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
+                                    <title level="m">[unpublished manuscript]</title>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
-                                        <publisher>Clarendon Press</publisher>
-                                        <date>1903</date>
-                                        <biblScope>no. 64, p. 34-35</biblScope>
+                                        <pubPlace/>
+                                        <date/>
                                     </imprint>
                                 </monogr>
-                            </biblStruct>
+                            </biblStruct>-->
+                            
+                        	<biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                        		<monogr>
+                        			<title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
+                        				Library, Oxford</title>
+                        			<author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
+                        			<imprint>
+                        				<pubPlace>Oxford</pubPlace>
+                        				<publisher>Clarendon Press</publisher>
+                        				<date>1903</date>
+                        				<biblScope>no. 53, p. 27</biblScope>
+                        			</imprint>
+                        		</monogr>
+                        	</biblStruct>
                         </listBibl>
                         
                         <!--<listBibl type="manuscripts">
@@ -627,7 +620,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="#LCSH">
-                    <list>                        
+                    <list>
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
                         </item>
@@ -635,21 +628,19 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#jaina">Jaina.</item>
-                        <item corresp="#digambara">Digambara.</item>
-                        <item corresp="#narrative_digambara">Narrative literature.</item>
-                        <item></item>
+                        <item corresp="#jaina">Jaina</item>
+                        <item corresp="#canonical">Canonical scripture</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-10-04">
+            <change when="2021-10-15">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-10-04">
+        	<change when="2021-10-15">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>

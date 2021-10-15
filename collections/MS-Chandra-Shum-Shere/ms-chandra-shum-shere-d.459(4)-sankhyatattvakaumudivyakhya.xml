@@ -271,36 +271,22 @@
                             </availability>
                             <note/>
                         </adminInfo>
-                        <!--<listBibl type="ms_descriptions">
+                        
+                        <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
-                            <biblStruct type="manuscript" xml:id="X">
+                            
+                            <listBibl xmlns="http://www.tei-c.org/ns/1.0"><biblStruct type="manuscript" xml:id="Gambier_Parry" corresp="http://zotero.org/users/5493666/items/KU4TYAUH">
                                 <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
+                                    <title level="m">Index Catalogue of MSS. Chandra Shum Shere by T. Gambier Parry. Revised
+                                        and Completed by E. H. Johnston [unpublished handlist]</title>
+                                    <author><forename>T.</forename><surname>Gambier Parry</surname></author>
+                                    <author><forename>E. H.</forename><surname>Johnston</surname></author>
                                     <imprint>
-                                        <pubPlace/>
+                                        <pubPlace>Oxford</pubPlace>
                                         <date/>
                                     </imprint>
-                                </monogr>
-                            </biblStruct>
-                            <biblStruct type="book" xml:id="XX">
-                                <monogr>
-                                    <title/>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <publisher/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>
-                        </listBibl>-->
+                                </monogr></biblStruct></listBibl>
+                        </listBibl>
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>

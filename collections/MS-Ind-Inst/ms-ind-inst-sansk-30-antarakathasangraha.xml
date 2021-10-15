@@ -253,7 +253,7 @@
                             <date calendar="Gregorian" notBefore="1600" notAfter="1699">17th century.</date>
                             <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
                         </origin>
-                    	<provenance>Collected by <name type="person" role="dnr" key="person_00016">
+                        <provenance>Collected by <name type="person" role="dnr" key="person_00016">
                     		<persName type="standard" xml:lang="de">Bühler, Georg</persName>
                     		<persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
                     			calendar="Gregorian" from="1877" to="1878">1877-78</date>.
@@ -278,10 +278,10 @@
                             <note/>
                         </adminInfo>
                         
-                        <!--<listBibl type="ms_descriptions">
+                        <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="manuscript" xml:id="X">
+                            <!--<biblStruct type="manuscript" xml:id="X">
                                 <monogr>
                                     <title level="m">[unpublished manuscript]</title>
                                     <author>
@@ -293,23 +293,22 @@
                                         <date/>
                                     </imprint>
                                 </monogr>
-                            </biblStruct>
+                            </biblStruct>-->
                             
-                            <biblStruct type="book" xml:id="XX">
+                            <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
                                 <monogr>
-                                    <title/>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
+                                    <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
+                                        Library, Oxford</title>
+                                    <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
                                     <imprint>
-                                        <pubPlace/>
-                                        <publisher/>
-                                        <date/>
+                                        <pubPlace>Oxford</pubPlace>
+                                        <publisher>Clarendon Press</publisher>
+                                        <date>1903</date>
+                                        <biblScope>no. 62, p. 31</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
-                        </listBibl>-->
+                        </listBibl>
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
