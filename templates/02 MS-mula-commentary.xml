@@ -153,12 +153,12 @@
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+                                <layout columns="1" ruledLines="X" type="commentary"  style="tripāṭha">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
-                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
-                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
+                                    <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, 
+                                        running; <term xml:lang="sa">mūla</term> cited in full.
                                     </note>
                                     
                                     <p>

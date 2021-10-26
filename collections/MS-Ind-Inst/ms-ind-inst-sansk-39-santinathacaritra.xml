@@ -107,8 +107,8 @@
                                 <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="25.5">25.5</height>
-                                            <width quantity="10">10</width>
+                                            <height quantity="10">10</height>
+                                            <width quantity="25.5">25.5</width>
                                         </dimensions>
                                     </p>
                                 </support>
@@ -209,14 +209,13 @@
                             <persName type="standard" xml:lang="de">Bühler, Georg</persName>
                             <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
                                 calendar="Gregorian" from="1877" to="1878">1877-78</date>.
+                        </provenance>
+                        <acquisition>
                             Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
                                 <persName type="standard" xml:lang="en">Monier-Williams, Monier</persName>
                                 <persName type="display" xml:lang="en">M. Monier-Williams</persName></name><!-- in <date
                                             calendar="Gregorian" from="1873" to="1876">1873-6</date>-->.
-                        </provenance>
-                        <!--<acquisition>
-                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>-->
+                        </acquisition>
                     </history>
                     
                     <additional>

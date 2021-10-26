@@ -642,6 +642,8 @@
                 
                 <bibl xml:id="work_00034">
                     <title type="uniform" xml:lang="sa">Tattvasamāsasūtravṛtti</title>
+                    <title type="variant" xml:lang="sa">Samāsasāṅkhyasūtravṛtti</title>
+                    <title type="variant" xml:lang="sa">Sāṅkhyatattvasamāsasūtravṛtti</title>
                     <!--<idno type="VIAF"></idno>-->
                     <idno type="local">00034</idno>
                     <!--<idno type="PANDIT"></idno>-->
@@ -711,6 +713,71 @@
                     <title type="uniform" xml:lang="pra">Uttarajjhayaṇasutta Ṭabo</title>
                     <!--<idno type="VIAF"></idno>-->
                     <idno type="local">00037</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00038">
+                    <title type="uniform" xml:lang="sa">Uttarādhyayanasūtrabālāvabodha</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00038</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Bodleian Libraries MS. Ind. Inst. Sansk. 46.</note>
+                </bibl>
+                
+                <bibl xml:id="work_00039">
+                    <title type="uniform" xml:lang="sa">Sarvopakāriṇī</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00039</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Commentary on the <title xml:lang="sa" key="work_00040">Tattvasamāsasūtra</title>.</note>
+                </bibl>
+                
+                <bibl xml:id="work_00040">
+                    <title type="uniform" xml:lang="sa">Tattvasamāsasūtra</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00040</idno>
                     <!--<idno type="PANDIT"></idno>-->
                     <!--<note type="links">
                         <list type="links">
