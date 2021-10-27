@@ -27,8 +27,8 @@
                 </pubPlace>
                 <idno>Sanskrit</idno>
             </publicationStmt>
-            <sourceDesc>
-                
+            
+            <sourceDesc>    
                 <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
@@ -38,9 +38,9 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere d.459(4)</idno>
+                        <idno type="shelfmark">MS Chandra Shum Shere d.837</idno>
                         <altIdentifier type="internal">
-                            <idno type="Chandra_Shum_Shere_Āśutoṣa">2554</idno>
+                            <idno type="Chandra_Shum_Shere_Āśutoṣa">2513</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -48,102 +48,67 @@
                         </altIdentifier>
                     </msIdentifier>
                     
-                    <msContents n="1+1+1">
+                    <msContents n="1+1">
+                        
                         <summary>
-                            A paper manuscript of <name type="person" role="aut" key="person_00032"><persName xml:lang="sa" role="aut" type="standard">Bhāratī Yati</persName></name>'s 
-                            commentary on <name type="person" role="aut" key="local_"><persName xml:lang="sa" type="standard">Vācaspati Miśra</persName></name>'s 
-                            <title xml:lang="sa" key="work_00029">Sāṅkhyatattvakaumudī</title>. According to the colophon, 
-                            it was copied by a certain <name type="person" role="scr" key="person_00033"><persName xml:lang="sa" type="standard">Sadānanda</persName> on 16 August 1843.
-                            </name>
+                            A paper manuscript of <name type="person" subtype="aut" key="person_00039"><persName xml:lang="sa" type="standard">Vijñānabhikṣu</persName></name>'s 
+                            <title xml:lang="sa" key="work_00042">Sāṅkhyapravacanabhāṣya</title> on the <title xml:lang="sa" key="work_00041">Sāṅkhyasūtra</title>s.
                         </summary>
                         
-                        <msItemStruct>
-                            <msItemStruct class="mūla">
+                        <msItemStruct n="2">
+                            <msItemStruct class="mūla" defective="true">
                                 <author>
-                                    <name type="person" subtype="aut" key="person_00029">
-                                        <persName xml:lang="sa" type="standard">Īśvarakṛṣṇa</persName>
+                                    <name type="person" key="person_00038">
+                                        <persName xml:lang="sa" type="standard">Kapila</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00000">Sāṅkhyakārikā</title>
-                                
-                                <!--<rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </rubric>
-                                
-                                <incipit xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </incipit>
-                                
-                                <explicit xml:lang="pka"><locus from="110r" to="110r">[110r12]</locus> 
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="110r" to="110r">[110r]</locus> 
-                                </finalRubric>-->
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                            
-                            <msItemStruct class="commentary">
-                                <author>
-                                    <name type="person" key="person_00031">
-                                        <persName xml:lang="sa" type="standard">Vācaspati Miśra</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00029">Sāṅkhyatattvakaumudī</title>
+                                <title xml:lang="sa" key="work_00041">Sāṅkhyasūtra</title>
                                 
                                 <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    śgn || || 
+                                    śrīkṛṣṇāya namaḥ ||
                                 </rubric>
                                 
                                 <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    <sic>ajom</sic> ekāṃ
-                                </incipit>
+                                    atha trividha
+                                </incipit>-->
                                 
-                                <explicit xml:lang="sa"><locus from="34v" to="34v">[34v]</locus> 
-                                    satāṃ sadā ||
-                                </explicit>
+                                <!--<explicit xml:lang="sa"><locus from="13v" to="13v">[13v]</locus> 
+                                    pūtibhāvayogā 
+                                </explicit>-->
                                 
-                                <finalRubric xml:lang="sa"><locus from="34v" to="34v">[34v]</locus> 
-                                    || iti śrīvācaspatimiśraviracitā sāṃkhyatattvakaumudī samāptā ||
-                                </finalRubric>
+                                <!--<finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>-->
                                 
-                                <colophon xml:lang="sa"><locus from="34v" to="34v">[34v]</locus> 
-                                    || śubhaṃ bhavatu ||
-                                </colophon>-->
+                                <!--<colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
                                 
                                 <textLang mainLang="sa" >Sanskrit.</textLang>
                             </msItemStruct>
                             
-                            <msItemStruct class="subcommentary">
+                            <msItemStruct class="commentary" defective="true">
                                 <author>
-                                    <name type="person" key="person_00032">
-                                        <persName xml:lang="sa" type="standard">Bhāratī Yati</persName>
+                                    <name type="person" subtype="aut" key="person_00039">
+                                        <persName xml:lang="sa" type="standard">Vijñānabhikṣu</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00030">Sāṅkhyatattvakaumudīvyākhyā</title>
+                                <title xml:lang="sa" key="work_00042">Sāṅkhyapravacanabhāṣya</title>
                                 
-                                <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    oṃ śgn ||
+                                <rubric xml:lang="sa"><locus from="3v" to="3v">[3v1]</locus> 
+                                    śrīrāmāya namaḥ
                                 </rubric>
                                 
-                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    || yatpra+dād ajaṃ
+                                <incipit xml:lang="sa"><locus from="3v" to="3v">[3v1]</locus> 
+                                    eko ’dvitīya
                                 </incipit>
                                 
-                                <explicit xml:lang="sa"><locus from="34v" to="34v">[34v]</locus> 
-                                    manīṣibhiḥ 1
+                                <explicit xml:lang="sa"><locus from="70v" to="70v">[70v]</locus> 
+                                    īśvarānabhyu
                                 </explicit>
                                 
-                                <finalRubric xml:lang="sa"><locus from="34v" to="34v">[34v]</locus> 
-                                    iti śrīvodhāraṇyayatiśiṣyaśrībhāratīnāmakayatikṛtā tatvakaumudīvyākhyā samāptā
-                                </finalRubric>
+                                <!--<finalRubric xml:lang="sa"><locus from="110r" to="110r">[110r]</locus> 
+                                </finalRubric>-->
                                 
-                                <colophon xml:lang="sa"><locus from="34v" to="34v">[34v]</locus> 
-                                    saṃvat 1900 śrāvaṇakṛṣṇa 6 lipitam idaṃ sadānandena
-                                </colophon>
-                                
-                                <textLang mainLang="sa" >Sanskrit.</textLang>
+                                <textLang mainLang="sa">Sanskrit</textLang>
                             </msItemStruct>
                         </msItemStruct>
                     </msContents>
@@ -151,38 +116,40 @@
                     <physDesc>
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Paper (ff. <locus from="10r" to="10v">10</locus>, <locus from="20r" to="20v">20</locus>, and <locus from="30r" to="30v">30</locus> are yellow).
+                                <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="11.5">11.5</height>
-                                            <width quantity="27">27</width>
+                                            <height quantity="10">10</height>
+                                            <width quantity="29">29</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="34">34 ff.</extent>
+                                <extent xml:id="folio" n="68">68 ff.</extent>
                                 
                                 <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->  
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Most folios damaged in the edges with loss of text on <locus from="1r" to="18v">ff. 1-18</locus>.
+                                    Incomplete, extant folios [1]-[2] (lff. 3-4), 3-4, [5] (lf. 7), 6-7, [8] (lf. 10), 9, 9[a] (lf. 12, is a <term xml:lang="sa">truṭipatra</term>
+                                        in a different hand), 10-54, 55 (also numbered 56), 57-70; left edges damaged with loss of several folio numbers. 
+                                    <locus from="1r" to="1v">Folio 1</locus> and <locus from="70r" to="70v">70</locus> 
+                                    damaged in the right margin with loss of text. Several folios worm-eaten with loss of several <term xml:lang="sa">akṣara</term>s.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="10" type="commentary" style="running" subtype="pratīka">
-                                    
+                                <layout columns="1" writtenLines="13" type="commentary"  style="running" subtype="mūla">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
-                                    <note> Commentary layout: <term xml:lang="sa">pratīka</term> (<term xml:lang="sa">mūla</term>) in lemmata and smeared in red.
+                                    <note>Commentary layout: running; <term xml:lang="sa">mūla</term> cited in full and smeared in red.
                                     </note>
                                     
                                     <p>
-                                        10 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        13 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
                                         <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
@@ -190,12 +157,12 @@
                                         </dimensions>-->
                                     </p>
                                     
-                                    <p>Nomaginal frame lines.
+                                    <p>Deletions in yellow.
                                         <!--<dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
-                                        </dimensions>
-                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                        </dimensions>-->
+                                        <!--<dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
                                         </dimensions>-->
                                     </p>
@@ -214,6 +181,11 @@
                         <handDesc>
                             <handNote scope="sole" script="Devanāgarī" medium="black_ink">
                                 <desc>Devanāgarī in black ink.</desc>
+                                <!--<desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_">
+                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
+                                    </name>
+                                </desc>-->
                             </handNote>
                         </handDesc>
                         
@@ -224,31 +196,25 @@
                         </decoDesc>-->
                         
                         <additions>
-                            On <locus from="1r" to="1r">f. 1</locus>, in the same hand: <add xml:lang="sa">5 sāṃkhyatatvakaumudī prāraṃbhaḥ | 34</add>; in a later hand:
-                            <add xml:lang="sa">jṛdṛ[?]pothī 51</add>; in a modern hand: <add xml:lang="sa">vācaspatiḥ</add> (in blue ink).
+                            On <locus from="1r" to="1r">folio 1 (lf. 3)</locus>, in a modern hand: <q xml:lang="sa">vi[in pencil]jñānācārya. kāpilasāṃkhyapravacanabhāṣya 70</q>.
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="corrections">Corrections in the same hand on <locus from="1v" to="7v">ff. 1-7</locus>.</marginalia>
-                                </item>
-                                <item>
-                                    <marginalia type="annotations">Interlinear and marginal notes in the same hand on <locus from="1v" to="7v">ff. 1-7</locus>.</marginalia>
-                                </item>
-                                <item>
-                                    <marginalia type="title">Running marginal title (<add xml:lang="sa">kau. ṭī.</add>).</marginalia>
+                                    <marginalia type="corrections">Marginal corrections in the same hand.</marginalia>
                                 </item>
                             </list>
                         </additions>
                         
                         <bindingDesc>
-                            <p><material>Leather cover</material>, library binding.</p>
+                            <p><material>Cardboard cover</material>, library binding.</p>
+                            <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Vikrama" when="1900">1900 Vikrama</date> / <date calendar="Gregorian" when="1843">1843 CE.</date>
-                            <!--                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
+                            <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
+                            <!--<origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>-->
                         </origin>
                         <provenance>Donated by 
                             <name type="person" role="dnr" key="person_00030">
@@ -675,20 +641,20 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#darśana">Darśana</item>
-                        <item corresp="#sāṃkhya">Sāṃkhyā</item>
+                        <item corresp="#śāstra">Śāstra</item>
+                        <item corresp="#sāṃkhya">Sāṅkhya</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-09-16">
+            <change when="2021-10-27">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-09-03">
-                <persName>Camillo Formigatti created this entry, based on the unpublished catalogue entry by Gérard Colas.</persName>
+            <change when="2021-10-27">
+                <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
     </teiHeader>
