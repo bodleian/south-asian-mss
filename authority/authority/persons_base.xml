@@ -851,6 +851,29 @@
                     <note>Author of the <title xml:lang="sa" key="work_00044">Jñānārṇavadīpikā</title>.</note>
                 </person>
                 
+                <person xml:id="person_00042">
+                    <persName type="standard" xml:lang="sa">Rāmamohanadeva Śarman</persName>
+                    <persName type="display" xml:lang="sa">Śarman, Rāmamohanadeva</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">person_00042</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Scribe of <idno type="shelfmark">MS Chandra Shum Shere c.337</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

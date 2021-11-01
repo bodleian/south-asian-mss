@@ -882,6 +882,28 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00045">
+                    <title type="uniform" xml:lang="sa">Sāṅkhyasāra</title>
+                    <title type="variant" xml:lang="sa">Sāṃkhyasāra</title>
+                    <idno type="VIAF">173835530</idno>
+                    <idno type="local">00045</idno>
+                    <idno type="PANDIT">91201</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/173835530">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/91201/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
