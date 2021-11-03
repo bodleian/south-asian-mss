@@ -98,126 +98,114 @@
                     </msContents>
                     
                     <physDesc>
-                        <objectDesc form="X"> 
-                            <supportDesc material="X">
-                                <support>[Insert here the description of the material, using one of the following set phrases: 
-                                    Palm leaf, Nepalese paper, Nepalese multi-layered paper, 
-                                    Nepalese multi-layered black paper, Birch bark, Paper.]
+                        <objectDesc form="pothī"> 
+                            <supportDesc material="paper">
+                                <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="X"> X</height>
-                                            <width quantity="X"> X</width>
-                                        </dimensions>
-<!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
-                                        <dimensions type="folio" scope="range" unit="cm">
-                                            <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                            <width atLeast="X" atMost="Y">ca. X-Y</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="19">19</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="X"> X ff.</extent>
+                                <extent xml:id="folio" n="13">13 ff. (folio 12 missing).</extent>
                                 
-                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
-                                    some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
+                                    Incomplete, in good condition.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" ruledLines="X" type="commentary" subtype="pratīka">
+                                <layout columns="1" writtenLines="6 7" type="mūla">
 
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
-                                    <note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
-                                    </note>
+                                    <!--<note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
+                                    </note>-->
                                     
                                     <p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
+                                        6-7 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details on frame, marginal lines, ruling and the like.
-                                        <dimensions type="written_area" unit="cm">
+                                    <p>Final rubrics and colophon highlighted in red; deletions in yellow.
+                                        <!--<dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details about the string hole(s).
+                                    <!--<p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="X" medium="X" scribeRef="X">
-                                <desc>X in X ink.</desc>
-                                <desc>Scribe: 
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
+                                <!--<desc>Scribe: 
                                     <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
                                     </name>
-                                </desc>
+                                </desc>-->
                             </handNote>
                         </handDesc>
                         
-                        <decoDesc>
+                        <!--<decoDesc>
                             <decoNote type="miniature">
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
-                        </decoDesc>
+                        </decoDesc>-->
                         
                         <additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="corrections">On the bottom right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
-                                </item>
-                                <item>
-                                    <marginalia type="annotations">On the top right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
+                                    <marginalia type="titles">Running marginal title <term xml:lang="sa">yo°</term> on the left margin, <term xml:lang="sa">sū°</term> on the right margin.</marginalia>
                                 </item>
                             </list>
                         </additions>
                         
                         <bindingDesc>
-                            <p><material>Wood cover</material>, original binding.</p>
-                            <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
+                            <p><material>Cardboard cover</material>, library binding.</p>
+                            <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Nepāla" when="0914">914 Nepāla</date> / <date calendar="Gregorian" when="1784">1794 CE.</date>
-                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
+                            <date calendar="Śāka" when="1708">1708 Śāka</date> / <date calendar="Gregorian" when="1786-09-21">21 September 1786.</date>
+                            <!--                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
                         </origin>
-                        <provenance>Bought by 
-                            <name type="person" role="dnr" key="local_00000">
-                                <persName type="standard" xml:lang="lat">Sempronius, Titius
-                                    Caius</persName><persName type="display" xml:lang="lat">Titius
-                                        Caius Sempronius</persName></name> in <date
-                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+                        <provenance>Donated by 
+                            <name type="person" role="dnr" key="person_00030">
+                                <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date
+                                    calendar="Gregorian" when="1909">1909</date>.
                         </provenance>
-                        <acquisition>
+                        <!--<acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>
+                        </acquisition>-->
                     </history>
                     
                     <additional>
@@ -234,21 +222,19 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="manuscript" xml:id="X">
+                            <listBibl xmlns="http://www.tei-c.org/ns/1.0"><biblStruct type="manuscript" xml:id="Gambier_Parry" corresp="http://zotero.org/users/5493666/items/KU4TYAUH">
                                 <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
+                                    <title level="m">Index Catalogue of MSS. Chandra Shum Shere by T. Gambier Parry. Revised
+                                        and Completed by E. H. Johnston [unpublished handlist]</title>
+                                    <author><forename>T.</forename><surname>Gambier Parry</surname></author>
+                                    <author><forename>E. H.</forename><surname>Johnston</surname></author>
                                     <imprint>
-                                        <pubPlace/>
+                                        <pubPlace>Oxford</pubPlace>
                                         <date/>
                                     </imprint>
-                                </monogr>
-                            </biblStruct>
+                                </monogr></biblStruct></listBibl>
                             
-                            <biblStruct type="book" xml:id="XX">
+                            <!--<biblStruct type="book" xml:id="XX">
                                 <monogr>
                                     <title/>
                                     <author>
@@ -261,7 +247,7 @@
                                         <date/>
                                     </imprint>
                                 </monogr>
-                            </biblStruct>
+                            </biblStruct>-->
                         </listBibl>
                         
                         <!--<listBibl type="manuscripts">
@@ -647,39 +633,34 @@
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080761.html">Manuscripts, Sanskrit</ref>
                         </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item></item>
-                        <item></item>
+                        <item corresp="#śāstra">Śāstra</item>
+                        <item corresp="#yoga">Yoga</item>
                         <item></item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
+        
         <revisionDesc>
-            <change when="2016-03-02">
+            <change when="2021-11-03">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2016-03-02">
-                <persName>Camillo Formigatti created this entry.</persName>
+            <change when="2021-11-03">
+                <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <!--here's where we'll list the images, no need to worry about this!-->
+    <!--<facsimile>
+        <!-\-here's where we'll list the images, no need to worry about this!-\->
         <graphic url="[link to image 1]"/>
         <graphic url="[link to image 2]"/>
-    </facsimile>
+    </facsimile>-->
     <text>
         <body>
             <div>
