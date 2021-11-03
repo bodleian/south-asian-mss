@@ -874,6 +874,29 @@
                     <note>Scribe of <idno type="shelfmark">MS Chandra Shum Shere c.337</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00043">
+                    <persName type="standard" xml:lang="sa">Patañjali</persName>
+                    <persName type="display" xml:lang="sa">Patañjali</persName>
+                    <idno type="VIAF">22151776730718010639</idno>
+                    <idno type="local">00043</idno>
+                    <idno type="PANDIT">85108</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/22151776730718010639">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85108/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

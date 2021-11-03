@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00001">
-
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00012">
+    
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
@@ -26,9 +26,9 @@
                 </pubPlace>
                 <idno>Sanskrit</idno>
             </publicationStmt>
+            
             <sourceDesc>
-                
-                <msDesc  xml:id="Sanskrit" xml:lang="en">
+                <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <region type="county">Oxfordshire</region>
@@ -36,68 +36,43 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS Asiat. Misc. 8</idno>
-                        <!--<altIdentifier type="internal">
-                            <idno type="or_long_shelfmark"></idno>
+                        <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
+                        <idno type="shelfmark">MS Chandra Shum Shere d.459(5)</idno>
+                        <altIdentifier type="internal">
+                            <idno type="Chandra_Shum_Shere_Āśutoṣa">5289</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
                                 <orgName></orgName></note>
-                        </altIdentifier>-->
+                        </altIdentifier>
                     </msIdentifier>
                     
-                    
-                    <msContents>
-                        <summary>A trilingual manuscript of the <title xml:lang="san">Mañjuśrīnāmasaṅgīti</title> 
-                            (Recitation of the Names of Mañjuśrī), a Tantric work popular in Central Asian Buddhism. It consists of verses
-                            associated with Mañjuśrī, the Bodhisattva of Wisdom. The main text is the Tibetan translation of the Sanskrit, written in 
-                            <term xml:lang="xct">dbu can</term> script, with the Mongolian translation dangling underneath it and the
-                            Sanskrit text, most probably added later, written in hooked <term xml:lang="sa">nepālākṣarā</term>
-                            script in red ink.</summary>
+                    <msContents n="1">
+                        <summary>
+                            A paper manuscript of 
+                            <name type="person" subtype="aut" key="person_00039"><persName xml:lang="sa" type="standard">Vijñānabhikṣu</persName></name>'s 
+                            <title xml:lang="sa" key="work_00045">Sāṅkhyasāra</title>.
+                        </summary>
                         
-                        <msItem n="1" defective="false">
+                        <msItem n="1" defective="true">
+                            
                             <author>
-                                <name type="person" subtype="aut" key="person_00000"><persName xml:lang="en" type="standard">‏Unknown</persName></name>
+                                <name type="person" subtype="aut" key="person_00039">
+                                    <persName xml:lang="sa" type="standard">Vijñānabhikṣu</persName>
+                                </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_00001">Mañjuśrīnāmasaṅgīti</title>
+                            <title xml:lang="sa" key="work_00045">Sāṅkhyasāra</title>
                             
-                            
-                            <rubric xml:lang="xct">
-                                <locus from="1r" to="1r">[1r1]</locus>
-                                    | bod skad du | <space/> 'phags pa 'jam dpal gyi mtshan dang yang dag par brjod pa |
-                            </rubric>
-                            
-                            <incipit xml:lang="xct"><locus from="1r" to="1r">[1r2]</locus>
-                                || de nas dpal ldan rdo rje chang | <space/> | 
-                                <locus from="1v" to="1v">[1v1]</locus>
-                                'dul dka' 'dul ba rnams kyim chog | <space/> | dpa' bo 'jig rten gsum las rgyal | <space/> | rdo rje dbang [1v3] 
-                                <damage>[-1-]</damage> gsang ba'i rgyal |
+                            <incipit xml:lang="sa"><locus from="5r" to="5r">[5r]</locus> 
+                                buddhisākṣī
                             </incipit>
                             
+                            <explicit xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
+                                vedyaṃ <sic>jatadaṃ</sic> 
+                            </explicit>
                             
-                            
-                            
-                            <!--<explicit xml:lang="sa" type="section">
-                                <locus from="32v" to="32v"></locus> 
-                                    gambhīrodāravaipulyo mahārthajagadathakṛt_ buddhānāṃ viṣayo hy eṣaḥ 
-                                    sa[32v3 = 25v3]myaksaṃbuddhabhāṣitaḥ || 5 ||| upasaṃhāragāthā pañcā ||^^^||
-                            </explicit>-->
-                            
-                            <!--<finalRubric xml:lang="sa" type="section">
-                                <locus from="" to=""></locus> 
-                                    <sic>āya</sic>māyājālāt_
-                                    ṣoḍaśa[32v4 = 25v4]sāhasrikāt mahāyogataṃtrāntaḥ
-                                    pātisamādhijalāpa||^^^||talād_ bhagavat_śākyamuni[32v5 = 25v5]tathāgato 
-                                    bhāṣitā bhagavato mañjuśrījñāna<sic>satosya</sic>
-                                    <sic>paramānāmasaṃgītī</sic> parisamāptā ||^^^^^^||
-                            </finalRubric>-->
-                            
-                            <colophon xml:lang="sa">
-                            </colophon>
-                            
-                            <textLang mainLang="xct" otherLangs="cmg sa">Tibetan, Mongolian, Sanskrit.</textLang>
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
@@ -105,46 +80,45 @@
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
                                 <support>Paper.
-                                    <!--<p>
+                                    <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="X"> X</height>
-                                            <width quantity="X"> X</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="23.5">23.5</width>
                                         </dimensions>
-                                    </p>-->
+                                    </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="57"> 57 ff.</extent>
+                                <extent xml:id="folio" n="10">10 ff.</extent>
                                 
-                                <foliation n="1" style="letter" rend="dbu_can">Tibetan letters, middle left margin, recto.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, top right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, middle right margin, recto.</foliation> 
- 
+                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
+                                
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, in good condition.
+                                    Incomplete, in good condition.
                                 </condition>
                             </supportDesc>
                             
-                            <!--<layoutDesc>
-                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="11">
+
+                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-->
                                     
-                                    <!-\-the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-\->
-                                    
-                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
-                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
-                                    </note>
+                                    <!--<note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
+                                    </note>-->
                                     
                                     <p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
+                                        11 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details on frame, marginal lines, ruling and the like.
+                                    <!--<p>Keywords smeared in red.
                                         <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
@@ -152,30 +126,28 @@
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                     
-                                    <p>Details about the string hole(s).
+                                    <!--<p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </layout>
-                            </layoutDesc>-->
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="major" script="dbu_can" medium="black_ink">
-                                <desc>Dbu can in black ink. </desc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
+                                <!--<desc>Scribe: 
+                                    <name type="person" role="scr" key="person_00042">
+                                        <persName xml:lang="sa" type="standard">Rāmamohanadeva Śarman</persName>
+                                    </name>
+                                </desc>-->
                             </handNote>
-                            <handNote scope="minor" script="Mongolian" medium="black_ink">
-                                <desc>Mongolian in black ink. </desc>
-                            </handNote>
-                            <handNote scope="minor" script="Hooked_Nepālakṣarā" medium="red_ink">
-                                <desc>Hooked Nepālakṣarā in red ink. </desc>
-                            </handNote>
-                            
                         </handDesc>
                         
                         <!--<decoDesc>
@@ -183,32 +155,37 @@
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
                         </decoDesc>-->
+                        
                         <additions>
+                            On <locus from="5r" to="5r">folio 5r</locus>, in the upper margin, in a modern hand: <q xml:lang="sa">khaṃ°</q>, (in red ink) <q xml:lang="sa">sāṃkhyasāra</q>.
                             <list>
                                 <head>Marginalia</head>
-                                <item xml:lang="sa"><locus from="1v" to="1v"></locus> 
-                                    [1v3] oṃ namo <sic>mañjuśrīkumālibhūtāya</sic>
-                                </item>
-                                    
                                 <item>
-                                    <locus from="2r" to="2r">[1v1]</locus> 
-                                    atha vajradharaḥ śrīmān_ durdāntadamakaḥ paraḥ | <space/> trilokavijayavīro <space/> guhya[1v3]karāṭ_ kuliśeśvaraḥ || </item>
+                                    <marginalia type="corrections">Rare marginal corrections in the same hand.</marginalia>
+                                </item>
                             </list>
                         </additions>
+                        
                         <bindingDesc>
-                            <p><material>Leather cover</material>, bound as a Western book.</p>
+                            <p><material>Cardboard cover</material>, library binding.</p>
+                            <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1701" notAfter="1900">18th-19th century.</date>
+                            <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
                             <!--<origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>-->
                         </origin>
-                        <provenance>[Found in Department<date
-                            calendar="Gregorian" when="1976">1976</date>].
+                        <provenance>Donated by 
+                            <name type="person" role="dnr" key="person_00030">
+                                <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date
+                                    calendar="Gregorian" when="1909">1909</date>.
                         </provenance>
-<!--                        <acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
+                        <!--<acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>-->
                     </history>
                     
                     <additional>
@@ -222,65 +199,46 @@
                             <note/>
                         </adminInfo>
                         
-                        <!--<listBibl type="ms_descriptions">
+                        <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="manuscript" xml:id="X">
+                            <listBibl xmlns="http://www.tei-c.org/ns/1.0"><biblStruct type="manuscript" xml:id="Gambier_Parry" corresp="http://zotero.org/users/5493666/items/KU4TYAUH">
                                 <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
+                                    <title level="m">Index Catalogue of MSS. Chandra Shum Shere by T. Gambier Parry. Revised
+                                        and Completed by E. H. Johnston [unpublished handlist]</title>
+                                    <author><forename>T.</forename><surname>Gambier Parry</surname></author>
+                                    <author><forename>E. H.</forename><surname>Johnston</surname></author>
                                     <imprint>
-                                        <pubPlace/>
+                                        <pubPlace>Oxford</pubPlace>
                                         <date/>
                                     </imprint>
-                                </monogr>
-                            </biblStruct>
-                            
-                            <biblStruct type="book" xml:id="XX">
-                                <monogr>
-                                    <title/>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <publisher/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>
-                        </listBibl>-->
+                                </monogr></biblStruct></listBibl>
+                        </listBibl>
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
                             <bibl>
-                                <orgName>NGMCP</orgName>:
-                                <ref type="extant_mss" target=""> XX listed manuscripts</ref>
+                                <orgName>NGMCP</orgName>: <ref type="extant_mss" target=""> XX
+                                    listed manuscripts</ref>
                                 <ref type="extant_mss" target=""> X catalogued manuscripts</ref>
                             </bibl>
                             <bibl>
-                                <placeName>Cambridge</placeName>, <orgName>Cambridge University Library</orgName>: 
-                                <ref type="extant_mss" target="">Add. XXX</ref>, 
-                                <ref type="extant_mss" target="">Add. XXX</ref>.
-                            </bibl>
+                                <placeName>Oxford</placeName>, <orgName>Bodleian
+                                Libraries</orgName>: <ref type="extant_mss" target="">MS. XXX</ref>,
+                                    <ref type="extant_mss" target="">MS. XXX</ref>. </bibl>
                         </listBibl>-->
                         
                         <!--<listBibl>
                             <head>Edition(s)</head>
-                            <ref type="biblio" target="Name_19XX"></ref>
-                            <biblStruct></biblStruct>
-                            <biblStruct></biblStruct>
+                            <ref type="biblio" target="Name_19XX"/>
+                            <biblStruct/>
+                            <biblStruct/>
                         </listBibl>-->
-                        
-                        <!--<listBibl> 
+                        <!--<listBibl>
                             <head>Secondary Literature</head>
-                            <ref type="biblio" target="Name_19XX"></ref>
-                            <biblStruct></biblStruct>
-                            <biblStruct></biblStruct>
+                            <ref type="biblio" target="Name_19XX"/>
+                            <biblStruct/>
+                            <biblStruct/>
                         </listBibl>-->
                     </additional>
                 </msDesc>
@@ -360,6 +318,9 @@
                     </category>
                     
                     <category xml:id="bhakti"><catDesc>Bhakti</catDesc>
+                        <category xml:id="gītā">
+                            <catDesc>Gītā</catDesc>
+                        </category>
                     </category>
                     
                     <category xml:id="tantra">
@@ -373,11 +334,30 @@
                         <category xml:id="kāma">
                             <catDesc>Kāma</catDesc>
                         </category>
-                        <category xml:id="dharma">
-                            <catDesc>Dharma</catDesc>
+                        <category xml:id="dharma"><catDesc>Dharma</catDesc>
+                            <category xml:id="dharmanibandha">
+                                <catDesc>Dharmanibandha</catDesc>
+                            </category>
                         </category>
-                        <category xml:id="vyākaraṇa">
-                            <catDesc>Vyākaraṇa</catDesc>
+                        <category xml:id="vyākaraṇa"><catDesc>Vyākaraṇa</catDesc>
+                            <category xml:id="pāṇinīya">
+                                <catDesc>Pāṇinīya</catDesc>
+                            </category>
+                            <category xml:id="cāndra">
+                                <catDesc>Cāndra</catDesc>
+                            </category>
+                            <category xml:id="sārasvata">
+                                <catDesc>Sārasvata</catDesc>
+                            </category>
+                            <category xml:id="kātantra">
+                                <catDesc>Kātantra</catDesc>
+                            </category>
+                            <category xml:id="haima">
+                                <catDesc>Haima</catDesc>
+                            </category>
+                            <category xml:id="vopadeva">
+                                <catDesc>Vopadeva</catDesc>
+                            </category>
                         </category>
                         <category xml:id="kośa">
                             <catDesc>Kośa</catDesc>
@@ -391,8 +371,13 @@
                         <category xml:id="dhanur">
                             <catDesc>Dhanur</catDesc>
                         </category>
-                        <category xml:id="nyāya">
-                            <catDesc>Nyāya</catDesc>
+                        <category xml:id="nyāya"><catDesc>Nyāya</catDesc>
+                            <category xml:id="prācīnanyāya">
+                                <catDesc>Prācīnanyāya</catDesc>
+                            </category>
+                            <category xml:id="navanyāya">
+                                <catDesc>Navanyāya</catDesc>
+                            </category>
                         </category>
                         <category xml:id="vaiśeṣika">
                             <catDesc>Vaiśeṣika</catDesc>
@@ -434,8 +419,8 @@
                         <category xml:id="laghukāvya">
                             <catDesc>Laghukāvya</catDesc>
                         </category>
-                        <category xml:id="kāthā">
-                            <catDesc>Kāthā</catDesc>
+                        <category xml:id="kathā">
+                            <catDesc>Kathā</catDesc>
                         </category>
                         <category xml:id="campū">
                             <catDesc>Campū</catDesc>
@@ -458,6 +443,12 @@
                     </category>
                     
                     <category xml:id="śaiva"><catDesc>Śaiva</catDesc>
+                        <category xml:id="śaivasiddhānta">
+                            <catDesc>Śaivasiddhānta</catDesc>
+                            <category xml:id="trika">
+                                <catDesc>Trika</catDesc>
+                            </category>
+                        </category>
                     </category>
                     
                     <category xml:id="śākta"><catDesc>Śākta</catDesc>
@@ -467,18 +458,130 @@
                     </category>
                     
                     <category xml:id="jaina"><catDesc>Jaina</catDesc>
+                        <category xml:id="śvetāmbara"><catDesc>Śvetāmbara</catDesc>
+                            <category xml:id="aṅga">
+                                <catDesc>Aṅga</catDesc>
+                            </category>
+                            <category xml:id="upāṅga">
+                                <catDesc>Upāṅga</catDesc>
+                            </category>
+                            <category xml:id="chedasūtra">
+                                <catDesc>Chedasūtra</catDesc>
+                            </category>
+                            <category xml:id="mūlasūtra">
+                                <catDesc>Mūlasūtra</catDesc>
+                            </category>
+                            <category xml:id="nandisūtra">
+                                <catDesc>Nandisūtra</catDesc>
+                            </category>
+                            <category xml:id="anuyogadvāra">
+                                <catDesc>Anuyogadvāra</catDesc>
+                            </category>
+                            <category xml:id="prakīrṇaka">
+                                <catDesc>Prakīrṇaka</catDesc>
+                            </category>
+                            <category xml:id="āvaśyaka">
+                                <catDesc>Āvaśyaka</catDesc>
+                            </category>
+                            <category xml:id="monastic_discipline">
+                                <catDesc>Monastic discipline</catDesc>
+                            </category>
+                            <category xml:id="cosmology">
+                                <catDesc>Cosmology</catDesc>
+                            </category>
+                            <category xml:id="karma">
+                                <catDesc></catDesc>
+                            </category>
+                            <category xml:id="ethics">
+                                <catDesc>General teaching on ethics and particular ethical topics</catDesc>
+                            </category>
+                            <category xml:id="polemic_works">
+                                <catDesc>Polemic works</catDesc>
+                            </category>
+                            <category xml:id="philosophy">
+                                <catDesc>Philosophy</catDesc>
+                            </category>
+                            <category xml:id="narrative_śvetāmbara">
+                                <catDesc>Narrative literature relating to the Jinas, early Jain teachers, and individual characters</catDesc>
+                            </category>
+                            <category xml:id="Semi-historical_texts">
+                                <catDesc>Semi-historical texts</catDesc>
+                            </category>
+                            <category xml:id="stories">
+                                <catDesc>Collections of stories</catDesc>
+                            </category>
+                            <category xml:id="tīrtha">
+                                <catDesc>Tīrtha literature</catDesc>
+                            </category>
+                            <category xml:id="vrata_śvetāmbar">
+                                <catDesc>Vrata and rituals</catDesc>
+                            </category>
+                            <category xml:id="paṭṭāvalī">
+                                <catDesc>Paṭṭāvalīs</catDesc>
+                            </category>
+                            <category xml:id="lists_śvetāmbara">
+                                <catDesc>Lists and tables</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="digambara"><catDesc>Digambara</catDesc>
+                            <category xml:id="canonical">
+                                <catDesc>Canonical scriptures</catDesc>
+                            </category>
+                            <category xml:id="dogmatics">
+                                <catDesc>Dogmatics and ethics</catDesc>
+                            </category>
+                            <category xml:id="narrative_digambara">
+                                <catDesc>Narrative literature</catDesc>
+                            </category>
+                            <category xml:id="vrata_digambara">
+                                <catDesc>Vrata and ritual works</catDesc>
+                            </category>
+                            <category xml:id="lists_digambara">
+                                <catDesc>Lists and tables</catDesc>
+                            </category>
+                        </category>
                     </category>
                     
                     <category xml:id="bauddha"><catDesc>Bauddha</catDesc>
+                        <category xml:id="vinaya">
+                            <catDesc>Vinaya</catDesc>
+                        </category>
+                        <category xml:id="abhidharma">
+                            <catDesc>Abhidharma</catDesc>
+                        </category>
+                        <category xml:id="theravāda">
+                            <catDesc>Theravāda</catDesc>
+                        </category>
+                        <category xml:id="mahāyāna"><catDesc>Mahāyāna</catDesc>
+                            <category xml:id="sūtra">
+                                <catDesc>Sūtra</catDesc>
+                            </category>
+                            <category xml:id="navadharma">
+                                <catDesc>Navadharma</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="vajrayāna">
+                            <catDesc>Vajrayāna</catDesc>
+                        </category>
+                        <category xml:id="dhāraṇī">
+                            <catDesc>Dhāraṇī</catDesc>
+                        </category>
+                        <category xml:id="avadāna_jātaka">
+                            <catDesc>Avadānas and Jātakas</catDesc>
+                        </category>
+                        <category xml:id="pramāṇa">
+                            <catDesc>Pramāṇa</catDesc>
+                        </category>
+                        <category xml:id="lekha">
+                            <catDesc>Lekha</catDesc>
+                        </category>
                     </category>
                     
-                    <category xml:id="sikh">
-                        <catDesc>Sikh</catDesc>
+                    <category xml:id="sikh"><catDesc>Sikh</catDesc>
                     </category>
                     
-                    <category xml:id="avesta">
-                        <catDesc>Avesta</catDesc>
-                    </category>
+                    <category xml:id="avesta"><catDesc>Avesta</catDesc>
+                    </category>    
                 </taxonomy>
                 
                 <taxonomy xml:id="local_texts">
@@ -487,6 +590,7 @@
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
                 <keywords scheme="#LCSH">
@@ -498,19 +602,20 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#bauddha">Bauddha</item>
-                        </list>
+                        <item corresp="#śāstra">Śāstra</item>
+                        <item corresp="#sāṃkhya">Sāṅkhya</item>
+                    </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-09-16">
+            <change when="2021-11-03">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2020-05-15">
-                <persName>Camillo Formigatti created this entry.</persName>
+            <change when="2021-11-03">
+                <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
     </teiHeader>

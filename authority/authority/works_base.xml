@@ -925,6 +925,27 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00047">
+                    <title type="uniform" xml:lang="sa">Yogasūtra</title>
+                    <idno type="VIAF">185913755</idno>
+                    <idno type="local">00047</idno>
+                    <idno type="PANDIT">88183</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/185913755">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/88183/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
