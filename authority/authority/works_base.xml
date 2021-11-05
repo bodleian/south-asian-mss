@@ -969,6 +969,29 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00049">
+                    <title type="uniform" xml:lang="sa">Pradīpikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00049</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note><name type="person" role="aut" key="person_00045"><persName xml:lang="sa" role="aut" type="standard">Bhāvāgaṇeṣa</persName></name>'s 
+                        commentary on the <title xml:lang="sa" key="work_00047">Yogasūtra</title>.</note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
