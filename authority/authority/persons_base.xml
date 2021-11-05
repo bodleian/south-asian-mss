@@ -920,6 +920,29 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00045">
+                    <persName type="standard" xml:lang="sa">Bhāvāgaṇeṣa</persName>
+                    <persName type="display" xml:lang="sa">Bhāvāgaṇeṣa</persName>
+                    <idno type="VIAF">7619712</idno>
+                    <idno type="local">00045</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/7619712">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
