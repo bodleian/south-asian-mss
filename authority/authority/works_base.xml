@@ -946,6 +946,51 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00047a">
+                    <title type="uniform" xml:lang="sa">Yogasūtrabhāṣya</title>
+                    <title type="variant" xml:lang="sa">Yogabhāṣya</title>
+                    <title type="variant" xml:lang="sa">Yogabhāṣya</title>
+                    <idno type="VIAF">183475995</idno>
+                    <idno type="local">00047a</idno>
+                    <idno type="PANDIT">88376</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/183475995">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/88376/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00047b">
+                    <title type="uniform" xml:lang="sa">Pātañjalayogaśāstra</title>
+                    <title type="variant" xml:lang="sa">Yogaśāstra</title>
+                    <!--<idno type="VIAF">183475995</idno>-->
+                    <idno type="local">00047b</idno>
+                    <!--<idno type="PANDIT">88376</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/183475995">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/88376/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
                 <bibl xml:id="work_00048">
                     <title type="uniform" xml:lang="sa">Gūḍhārthadyotikā</title>
                     <title type="variant" xml:lang="sa">Candrikā</title>
@@ -990,6 +1035,116 @@
                     </note>-->
                     <note><name type="person" role="aut" key="person_00045"><persName xml:lang="sa" role="aut" type="standard">Bhāvāgaṇeṣa</persName></name>'s 
                         commentary on the <title xml:lang="sa" key="work_00047">Yogasūtra</title>.</note>
+                </bibl>
+                
+                <bibl xml:id="work_00050">
+                    <title type="uniform" xml:lang="sa">Tattvavaiśāradī</title>
+                    <title type="variant" xml:lang="sa">Pātañjalabhāṣyavyākhyā</title>
+                    <title type="variant" xml:lang="sa">Yogasūtrabhāṣyavyākhyā</title>
+                    <idno type="VIAF">309517657</idno>
+                    <idno type="local">00050</idno>
+                    <idno type="PANDIT">89042</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/309517657">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89042/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00051">
+                    <title type="uniform" xml:lang="sa">Rājamārtaṇḍa</title>
+                    <idno type="VIAF">177589281</idno>
+                    <idno type="local">00051</idno>
+                    <idno type="PANDIT">89308</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/177589281">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89308/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00052">
+                    <title type="uniform" xml:lang="sa">Tattvacintāmaṇidīdhiti</title>
+                    <idno type="VIAF">184736712</idno>
+                    <idno type="local">00052</idno>
+                    <idno type="PANDIT">90767</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/184736712">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/90767/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00053">
+                    <title type="uniform" xml:lang="sa">Vivādārṇavasetu</title>
+                    <title type="variant" xml:lang="sa">Vivādārṇavabhaṅga</title>
+                    <title type="variant" xml:lang="sa">Vivādārṇavabhañjana</title>
+                    <title type="variant" xml:lang="sa">Vivādaratnākarasetu</title>
+                    <idno type="VIAF">213238705</idno>
+                    <idno type="local">00053</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/213238705">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00054">
+                    <title type="uniform" xml:lang="sa">Saṅkṣiptasāra</title>
+                    <idno type="VIAF">182664655</idno>
+                    <idno type="local">00054</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/182664655">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
                 </bibl>
                 
                 <bibl xml:id="work_000XX">
