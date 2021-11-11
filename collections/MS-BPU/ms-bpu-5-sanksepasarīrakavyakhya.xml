@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00053">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00054">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -20,7 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -39,7 +39,7 @@
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS.BPU.4</idno>
+                        <idno type="shelfmark">MS.BPU.5</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -51,19 +51,20 @@
                     
                     <msContents n="1">
                         <summary>
-                            A paper manuscript of <name type="person" role="aut" key="person_00064"><persName xml:lang="sa" role="aut" type="standard">Kramadīśvara</persName></name>'s 
-                            <title xml:lang="sa" key="work_00054">Saṅkṣiptasāra</title>.
+                            A paper manuscript of the first <term xml:lang="sa">adhyāya</term> of <name type="person" role="aut" key="person_00065">
+                                <persName xml:lang="sa" role="aut" type="standard">Madhusūdana Sarasvatī</persName></name>'s 
+                            <title xml:lang="sa" key="work_00055">Saṅkṣepaśārīrakavyākhyā</title>.
                         </summary>
                         
                         <msItem n="1" defective="unknown">
                             
                             <author>
-                                <name type="person" key="person_00064">
-                                    <persName xml:lang="sa" type="standard">Kramadīśvara</persName>
+                                <name type="person" key="person_00065">
+                                    <persName xml:lang="sa" type="standard">Madhusūdana Sarasvatī</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_00054">Saṅkṣiptasāra</title>
+                            <title xml:lang="sa" key="work_00055">Saṅkṣepaśārīrakavyākhyā</title>
                             
                             <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
@@ -98,15 +99,15 @@
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
                                 <support>Paper.
-                                    <p>
+                                    <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <!--<height quantity="X"> X</height>-->
+                                            <!-\-<height quantity="X"> X</height>-\->
                                             <width quantity="42.5">42.5</width>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </support>
                                 
-                                <extent xml:id="folio" n="213">213 ff.</extent>
+                                <extent xml:id="folio" n="224">224 ff.</extent>
                                 
                                 <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
@@ -114,7 +115,7 @@
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, water-stained.
+                                    Complete, in good condition.
                                 </condition>
                             </supportDesc>
                             
@@ -637,18 +638,18 @@
                 <keywords scheme="local">
                     <list>
                         <item corresp="#śāstra">Śāstra</item>
-                        <item corresp="#vyākaraṇa">Vyākaraṇa</item>
+                        <item corresp="#vedānta">Vedānta</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-11-10">
+            <change when="2021-11-11">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-11-10">
+            <change when="2021-11-11">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
