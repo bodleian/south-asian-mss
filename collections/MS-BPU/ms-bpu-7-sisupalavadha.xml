@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00053">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00056">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -20,7 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -39,7 +39,7 @@
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS.BPU.4</idno>
+                        <idno type="shelfmark">MS.BPU.7</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -51,45 +51,41 @@
                     
                     <msContents n="1">
                         <summary>
-                            A paper manuscript of <name type="person" role="aut" key="person_00064"><persName xml:lang="sa" role="aut" type="standard">Kramadīśvara</persName></name>'s 
-                            <title xml:lang="sa" key="work_00054">Saṅkṣiptasāra</title>.
+                        	A paper manuscript of <name type="person" role="aut" key="person_00067"><persName xml:lang="sa" role="aut" type="standard">Māgha</persName></name>'s 
+                        	<title xml:lang="sa" key="work_00057">Śiśupālavadha</title>.
                         </summary>
                         
                         <msItem n="1" defective="unknown">
                             
                             <author>
-                                <name type="person" key="person_00064">
-                                    <persName xml:lang="sa" type="standard">Kramadīśvara</persName>
+                            	<name type="person" key="person_00067">
+                            		<persName xml:lang="sa" type="standard">Māgha</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_00054">Saṅkṣiptasāra</title>
+                        	<title xml:lang="sa" key="work_00057">Śiśupālavadha</title>
                             
-                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                 oṃ namaḥ kṛṣṇāya ||
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
-                                <damage agent="X" unit="X" quantity="1"></damage>
-                                <sic></sic>
-                                <del rend="X"></del>
-                                <unclear reason="X"></unclear>
-                                <add place="X" type="X" hand="X"></add>
-                                <subst><del></del><add></add></subst>
-                                <gap reason="X"></gap>
-                                <g></g>
-                                <figure type="X" rend="X"></figure>
-                                <space type=""></space>
+                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                yaj jijñāsā yajñadānādhibhiḥ syād_ śrutyā matyā cintayā yatra bodhaḥ yasmin_ buddhe bādhyate 'narthamūlaṃ taṃ bhūmānaṃ bhāvaye svātmarūpaṃ ||
                             </incipit>
                             
-                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
+                            <!-\-<explicit xml:lang="sa"><locus from="224v" to="224v">[224v1]</locus> 
+                                
+                            </explicit>-\->
+                            
+                            <finalRubric xml:lang="sa"><locus from="224v" to="224v">[224v1]</locus> 
+                                iti śrīmatparamahaṃsaparivrajakācaryyaśrībhagavajjagannāthaśrīmannṛsiṃhāśrama<damage agent="rubbing">[-2-]</damage>kṛtāv advaita<lb/>
+                                [224v2]dīpikāyāṃ anandadīpikākhyacaturthaḥ paricchedaḥ samāptaḥ || <g>@</g> || 
                             </finalRubric>
                             
-                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
-                            
-                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
-                            
-                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
-                            
+                           <colophon xml:lang="sa"><locus from="224v" to="224v">[224v2]</locus> 
+                               śṛī<unclear reason="script">[-2-]ḥ <sic>pranātu</sic> ||</unclear>
+                           </colophon>
+                            -->
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
                     </msContents>
@@ -98,45 +94,37 @@
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
                                 <support>Paper.
-                                    <p>
+                                    <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <!--<height quantity="X"> X</height>-->
-                                            <width quantity="42.5">42.5</width>
+                                            <height atLeast="8.2" atMost="11.9">8.2-11.9</height>
+                                            <width atLeast="37.5" atMost="38.8">37.5-38.8</width>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </support>
                                 
-                                <extent xml:id="folio" n="213">213 ff.</extent>
-                                
-                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
+                                <extent xml:id="folio" n="107">107 ff.</extent>
+                                   
+                                <!--<foliation n="1" style="numeral" rend="deva">Bengali numerals, mid-right margin, verso.</foliation>--> 
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, water-stained.
+                                    Complete, in good condition.
                                 </condition>
                             </supportDesc>
                             
-                            <layoutDesc>
-                                <layout columns="1" type="mūla">
-
-                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-->
+                            <!--<layoutDesc>
+                                <layout columns="1" writtenLines="8 11" type="mūla">
                                     
-                                    <!--<note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
-                                    </note>-->
-                                    
-                                    <!--<p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
+                                    <p>
+                                        8-11 lines per page<!-\-, approximately XX <term xml:lang="sa">akṣara</term>s per line-\->.
+                                        <!-\-<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
-                                    </p>-->
+                                        </dimensions>-\->
+                                    </p>
                                     
-                                    <!--<p>Details on frame, marginal lines, ruling and the like.
+                                    <!-\-<p>Details on frame, marginal lines, ruling and the like.
                                         <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
@@ -144,17 +132,17 @@
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
                                         </dimensions>
-                                    </p>-->
+                                    </p>-\->
                                     
-                                    <!--<p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
+                                    <p>Details about the string hole(s).
+                                        <dimensions type="string_hole" rend="true" quantity="1" scope="most" unit="cm">
+                                            <height quantity="4.5">4.5</height>
+                                            <width quantity="2.4">2.4</width>
+                                            <!-\-<depth quantity="X">X</depth>-\->
                                         </dimensions>
-                                    </p>-->
+                                    </p>
                                 </layout>
-                            </layoutDesc>
+                            </layoutDesc>-->
                         </objectDesc>
                         
                         <handDesc>
@@ -174,24 +162,24 @@
                             </decoNote>
                         </decoDesc>-->
                         
-                        <!--<additions>
+                        <additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
                                     <marginalia type="annotations">Numerous marginal annotations.</marginalia>
                                 </item>
                             </list>
-                        </additions>-->
+                        </additions>
                         
                         <bindingDesc>
-                            <p><material>Cardboard box</material>, library binding.</p>
+                        	<p><material>Illuminated wooden covers</material>, original binding.</p>
                             <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
+                            <date calendar="Gregorian" notBefore="1600" notAfter="1799">17th-18th century.</date>
                             <origPlace xml:lang="eng" key="place_00001">Bengal</origPlace>
                         </origin>
                         <provenance>Bequeathed by <name
@@ -636,19 +624,19 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#śāstra">Śāstra</item>
-                        <item corresp="#vyākaraṇa">Vyākaraṇa</item>
+                        <item corresp="#kāvya">Kāvya</item>
+                        <item corresp="#mahākāvya">Mahākāvya</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-11-10">
+            <change when="2021-11-11">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-11-10">
+            <change when="2021-11-11">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>

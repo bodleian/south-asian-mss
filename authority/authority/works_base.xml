@@ -1147,6 +1147,155 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00055">
+                    <title type="uniform" xml:lang="sa">Saṅkṣepaśārīrakavyākhyā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00055</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00056">
+                    <title type="uniform" xml:lang="sa">Advaitadīpikā</title>
+                    <title type="variant" xml:lang="xct">Advaitadīpikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00056</idno>
+                    <idno type="PANDIT">90968</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/90968/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00057">
+                    <title type="uniform" xml:lang="sa">Śiśupālavadha</title>
+                    <idno type="VIAF">183138752</idno>
+                    <idno type="local">00057</idno>
+                    <idno type="PANDIT">96133</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/183138752">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96133/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00058">
+                    <title type="uniform" xml:lang="sa">Narapatijayacaryā</title>
+                    <idno type="VIAF">183942155</idno>
+                    <idno type="local">00058</idno>
+                    <idno type="PANDIT">106597</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/183942155">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/106597/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00059">
+                    <title type="uniform" xml:lang="sa">[Caitanyacaritāmṛtaṭīkā]</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00059</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00060">
+                    <title type="uniform" xml:lang="sa">Caitanyacaritāmṛta</title>
+                    <idno type="VIAF">176268705</idno>
+                    <idno type="local">00060</idno>
+                    <idno type="PANDIT">95120</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/176268705">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/95120/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00061">
+                    <title type="uniform" xml:lang="sa">Nāradapurāṇa</title>
+                    <title type="variant" xml:lang="sa">Bṛhannāradīyapurāṇa</title>
+                    <idno type="VIAF">175391183</idno>
+                    <idno type="local">00061</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/175391183">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
