@@ -1522,6 +1522,54 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00071">
+                    <persName type="standard" xml:lang="sa">Sanātana Gosvāmin</persName>
+                    <persName type="display" xml:lang="sa">Sanātana Gosvāmin</persName>
+                    <idno type="VIAF">44620956</idno>
+                    <idno type="local">00071</idno>
+                    <idno type="PANDIT">85840</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/44620956">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85840/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00072">
+                    <persName type="standard" xml:lang="sa">Madhva</persName>
+                    <persName type="display" xml:lang="sa">Madhva</persName>
+                    <persName type="variant" xml:lang="sa">Ānandapūrṇa</persName>
+                    <persName type="variant" xml:lang="sa">Ānandatīrtha</persName>
+                    <idno type="VIAF">15803826</idno>
+                    <idno type="local">00072</idno>
+                    <idno type="PANDIT">85566</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/15803826">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85566/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
