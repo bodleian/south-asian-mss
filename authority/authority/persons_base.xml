@@ -1016,8 +1016,8 @@
                 </person>
                 
                 <person xml:id="person_00049">
-                    <persName type="standard" xml:lang="sa">Balamukunda</persName>
-                    <persName type="display" xml:lang="sa">Balamukunda</persName>
+                    <persName type="standard" xml:lang="sa">Bālamukunda</persName>
+                    <persName type="display" xml:lang="sa">Bālamukunda</persName>
                     <!--<idno type="VIAF">00000000</idno>-->
                     <idno type="local">00049</idno>
                     <!--<idno type="PANDIT">00000000</idno>-->
@@ -1035,7 +1035,7 @@
                             </item>
                         </list>
                     </note>-->
-                    <note>Owner of <idno type="shelfmark">MS Chandra Shum Shere d.836</idno>.</note>
+                    <note>Owner of <idno type="shelfmark">MS Chandra Shum Shere d.836</idno>, <idno type="shelfmark">MS Chandra Shum Shere d.457(8)</idno>.</note>
                 </person>
                 
                 <person xml:id="person_00050">
@@ -1568,6 +1568,146 @@
                         </list>
                     </note>
                     <note></note>
+                </person>
+                
+                <person xml:id="person_00073">
+                    <persName type="standard" xml:lang="sa">Dharmadāsa</persName>
+                    <persName type="display" xml:lang="sa">Dharmadāsa</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00073</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Author of the </note>
+                </person>
+                
+                <person xml:id="person_00074">
+                    <persName type="standard" xml:lang="sa">Śrīdharasvāmin</persName>
+                    <persName type="display" xml:lang="sa">Śrīdharasvāmin</persName>
+                    <persName type="variant" xml:lang="sa">Śrīdhara Svāmin</persName>
+                    <persName type="variant" xml:lang="sa">Śrīdhara</persName>
+                    <idno type="VIAF">67837193</idno>
+                    <idno type="local">00074</idno>
+                    <idno type="PANDIT">85686</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/67837193">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85686/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00075">
+                    <persName type="standard" xml:lang="sa">Stokes, Maire</persName>
+                    <persName type="display" xml:lang="sa">Maire Stokes</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00075</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Donor of <idno type="shelfmark">MS.Ind.Misc.d.11</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00076">
+                    <persName type="standard" xml:lang="sa">Svātmārāma</persName>
+                    <persName type="display" xml:lang="sa">Svātmārāma</persName>
+                    <idno type="VIAF">265686334</idno>
+                    <idno type="local">00076</idno>
+                    <idno type="PANDIT">85680</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/265686334">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85680/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00077">
+                    <persName type="standard" xml:lang="sa">Ṭhākuradāsa Harṣa</persName>
+                    <persName type="display" xml:lang="sa">Ṭhākuradāsa Harṣa</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00077</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Son of Puṣkara and scribe of <idno type="shelfmark">MS Chandra Shum Shere d.457(8)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00078">
+                    <persName type="standard" xml:lang="sa">Puṣkara</persName>
+                    <persName type="display" xml:lang="sa">Puṣkara</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00077</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Father of Ṭhākuradāsa Harṣa.</note>
                 </person>
                 
                 <person xml:id="person_">
