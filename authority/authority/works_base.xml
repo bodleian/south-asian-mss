@@ -1383,6 +1383,93 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00066">
+                    <title type="uniform" xml:lang="sa">Vidagdhamukhamaṇḍana</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00066</idno>
+                    <idno type="PANDIT">96182</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96182/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00067">
+                    <title type="uniform" xml:lang="sa">Bhāvārthadīpikā</title>
+                    <title type="variant" xml:lang="sa">Bhāgavatapurāṇabhāvārthadīpikā</title>
+                    <title type="variant" xml:lang="sa">Bhāgavatapurāṇabhāvārthadīpikāṭīkā</title>
+                    <!--<idno type="VIAF">185492343</idno>-->
+                    <idno type="local">00067</idno>
+                    <!--<idno type="PANDIT">42357</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/185492343">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42357/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00068">
+                    <title type="uniform" xml:lang="sa">Pañcarakṣā</title>
+                    <idno type="VIAF">226483373</idno>
+                    <idno type="local">00068</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/226483373">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00069">
+                    <title type="uniform" xml:lang="sa">Haṭhapradīpikā</title>
+                    <title type="variant" xml:lang="sa">Haṭhayogapradīpikā</title>
+                    <idno type="VIAF">177184018</idno>
+                    <idno type="local">00069</idno>
+                    <idno type="PANDIT">90461</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/177184018">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/90461/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
