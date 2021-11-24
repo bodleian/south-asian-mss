@@ -1470,6 +1470,27 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00070">
+                    <title type="uniform" xml:lang="sa">Jyotsnā</title>
+                    <idno type="VIAF">313505928</idno>
+                    <idno type="local">00070</idno>
+                    <idno type="PANDIT">93798</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/93798/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
