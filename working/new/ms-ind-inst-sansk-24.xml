@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00022">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00074">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -38,7 +38,7 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
-                        <idno type="shelfmark">MS.Ind.Inst.Sansk.46</idno>
+                        <idno type="shelfmark">MS.Ind.Inst.Sansk.24</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -51,44 +51,7 @@
                     <msContents n="1+1">
                         
                         <summary>
-                        	A 17th-century paper manuscript of the <title xml:lang="pra" key="local_00000">Uttarajjhayaṇasutta</title>
-                        	<title xml:lang="sa" type="alt">Uttarādhyayanasūtra</title>, a part of the
-                        	Jaina canon, with a commentary (<term xml:lang="sa">kathā</term>) in Sanskrit. 
-                        	The first
-                        	<term xml:lang="sa">mūlasūtra</term> is with Sanskrit <term xml:lang="sa">kathā</term>s to illustrate the text and from
-                        	<locus from="10r" to="119v">ff. 10-119</locus> with glosses in <term xml:lang="sa">bhāṣā</term>.
-                        	
-                        	<!--Here this work contains only 2 halfand 3rd adhyayana out of 36. the
-                        	detailsare as below. Kūlavālka kathā ends on fol.9B with 125 Vss,;
-                        	Caṇḍarudrācāryaśiṣya kathā ends on fol. 12B with Vss.36; Kulaputra kathā
-                        	ends onfol.13B with Vss.11; priyāpriya samtve kathā ends onfol. 14B wiht
-                        	Vss.16; Bhātṛdvaya kathā ends onfol.16B with Vss. 33; Secanakakari kathā
-                        	ends on fol. 18B with 29 Vss.; 1st Viṇaya ajjhayaṇaṃ ends on fol.22B;
-                        	Hastimitra kathā ends onfol.25B with Vss,36; Dhanaśarma muni kathā ends
-                        	onfol. 28B with Vss. 39; Sādhu-catuṣka kathā ednds on fol. 30A withVss.
-                        	21; Arhannaka kathā ends on fol.33B with Vss.54; Śramaṇabhadra kathā ends
-                        	on fol.34B with Vss. 14; Somadevrṣi kathā ends on fol. 44B with Vss. 151;
-                        	Arhadattamuni kathā endsnfol. 52A with Vss. 117; Sthūlabhadrarṣi kathā
-                        	ends on fol. 65B with vss, 205; Sagṅamācārya kathā ends onfol.69B with
-                        	vss. 51; Somadatta-somadevaarṣi kathā ends on fol.71B with vss. 11;
-                        	Kṣapaka kathā endson fol.73A with vss. 15; Arjumamālikārṣi kathā ends
-                        	onfol 76B with vss.54; Saparivāre Skandarṣi kathā ends on fol. 80B with
-                        	vss. 62; Balabhadrarṣi kathā ends on fol 98A with vss. 260; Pisācajaya
-                        	kathā ends onfol.99B with vss.22; Ḍhaṇḍhaṇaṛṣi kathā ends on fol.102A
-                        	with vss.35; Kālavaiśika sādhu kathā endson fol.104A with vss.31;
-                        	Bhadramaharṣi kathā ends on fol.105A with vss.11; Sunanda śrāvaka kathā
-                        	endson fol 106B with vss. 20; Sāgarācārya kathā ends onfol.105B with
-                        	vss.55; Śakaṭāpitṛmuni - Sthūlabhadra kathā ends onfol.115B with vss.34;
-                        	Sthūlabhadrarṣi kathā ends onfol.117A with vss.23; Āṣāḍhācārya kathā
-                        	endson fol.129A with vss.176; 2nd Parīṣaha ajjhayaṇaṃ ends on fol.129A;
-                        	Collaga dṣṭānta prathama ends on fol. 131B with vss. 34; Pāśaka dṛṣṭānta
-                        	dvitīya ends on fol. 141A with vss.159; Dhānya dṛṣṭānta tṛtīya ends on
-                        	fol. 141B with vss,11; Dhrūta dṛṣṭānta caturtha ends on fol. 143A with
-                        	vss. 21; Ranta dṛṣṭānta pañcama ends on fol. 144A with vss.21; Svapana
-                        	dṛṣṭānta ṣaṣṭa ends on fol. 160A with vss. 265; Rādhāvedha dṛṣṭānta
-                        	saptama ends on fol.165B with vss. 90; Kūrmma dṛṭānta aṣṭama ends on
-                        	fol.166B with vss.9; Yuga dṛṣṭānta navama ends on fol.166B with vss.5;
-                        	only one verse of 1oth Cūrṇṇa dṛṣṭānta and MS. ends.-->
+                            
                         </summary>
                         
                         <msItemStruct n="2">
@@ -98,44 +61,36 @@
                                         <persName xml:lang="sa" type="standard">Unknown</persName>
                                     </name>
                                 </author>
-
-                                <title xml:lang="pka" key="work_00036">Uttarajjhayaṇasutta</title>
-                                <title xml:lang="sa" type="alt">Uttarādhyayanasūtra</title>
-
-                                <!--<rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                    namaḥ śrī vītarāgāya I 
+                                
+                                <title xml:lang="sa" key="work_00000">[insert here the uniform title of the work]</title>
+                                <title xml:lang="sa" type="alt" >[insert here a variant title of the work]</title>
+                                <title xml:lang="pka" type="alt">[insert here a variant title of the work]</title>
+                                
+                                <rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
                                 </rubric>
                                 
                                 <incipit xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                    sañjogā vippamukkassa aṇagārassa bhikhuṇo viṇaysṃ pāukarissāmi āṇupuvviṃ suṇeha
-                                    me I 1 I .....I 3 I atha ṭīkā-strūaṃ I atha Kūlavālū kathā I sūrir ekasya
-                                    śiṣyo bhūd-'avinīto tiroṣaṇaḥ cukopa kopasadanaṃ śiṣyamāṇaḥ sasūrīṇā I1 I
-                                    dakṣayā śikṣayā sūris tathāpi tam aśikṣayat , sūtratām api
-                                    mene'ṃtarviṣaktaaviśikhopamāḥ I2I hita śiṣyā hi duṣṭānāṃ nopakārāya
-                                    jāyate payaḥpānam ivāhināṃkiṃ tu syād viṣa-vṛddhaye I3I .......etc 
                                 </incipit>
                                 
-                                <explicit xml:lang="pka"><locus from="166v" to="166v">[166v?]</locus> 
-                                    atha Paramāṇu dṛṣṭāntam āha tathāhi sthaṃbhamika mahā-mānaṃ māṇikayamayam uttamaṃ sva-sāmarthya
-                                    parikṣārthaṃ gīrvāṇaḥ kopya cūrṇṇa yat I1I tac cūrṇaṇm atiś lakṣaṇaṃ ni
+                                <explicit xml:lang="pka"><locus from="110r" to="110r">[110r12]</locus> 
                                 </explicit>
                                 
                                 <finalRubric xml:lang="sa"><locus from="110r" to="110r">[110r]</locus> 
-                                </finalRubric>-->
-
+                                </finalRubric>
+                                
                                 <textLang mainLang="pka">Ardhamāgadhī.</textLang>
                             </msItemStruct>
-
-                            <msItemStruct class="commentary" defective="true">
+                            
+                            <msItemStruct class="commentary" defective="false">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00000">
-                                        <persName xml:lang="sa" type="standard">Unknown</persName>
+                                        <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00000">Uttarādhyayanasūtrabālāvabodha</title>
+                                <title xml:lang="sa" key="work_00000">[insert here the uniform title of the work]</title>
                                 
-                                <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                                <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                                 </rubric>
                                 
                                 <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
@@ -158,115 +113,131 @@
                                 </finalRubric>
                                 
                                 <colophon xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
-                                </colophon>-->
+                                </colophon>
                                 
-                                <textLang mainLang="guj">Gujarati.</textLang>
+                                <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItemStruct>
                         </msItemStruct>
                     </msContents>
                     
                     <physDesc>
-                        <objectDesc form="pothī"> 
-                            <supportDesc material="paper">
-                                <support>Paper.
+                        <objectDesc form="X"> 
+                            <supportDesc material="X">
+                                <support>[Insert here the description of the material, using one of the following set phrases: 
+                                    Palm leaf, Nepalese paper, Nepalese multi-layered paper, 
+                                    Nepalese multi-layered black paper, Birch bark, Paper.]
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <width quantity="24.5">24.5</width>
-                                            <height quantity="12">12.0</height>
+                                            <height quantity="X"> X</height>
+                                            <width quantity="X"> X</width>
+                                        </dimensions>
+                                        <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
+                                        <dimensions type="folio" scope="range" unit="cm">
+                                            <height atLeast="X" atMost="Y">ca. X-Y</height>
+                                            <width atLeast="X" atMost="Y">ca. X-Y</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="166">166 ff.</extent>
+                                <extent xml:id="folio" n="X"> X ff.</extent>
                                 
-                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->  
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>  
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, in good condition.
+                                    Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
+                                    some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="8" type="commentary" style="running">
+                                <layout columns="1" ruledLines="X" type="commentary"  style="tripāṭha">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
-                                    <note>Commentary layout: running.
+                                    <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, 
+                                        running; <term xml:lang="sa">mūla</term> cited in full.
                                     </note>
                                     
                                     <p>
-                                        8 lines per page, approximately 45-47 <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="45 47" unit="mm">
-                                            <!--<height quantity="X">X</height>
+                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
+                                        <dimensions type="akṣara" n="X" unit="mm">
+                                            <height quantity="X">X</height>
                                             <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>-->
+                                            <dim type="aspect_ratio" quantity="X">X</dim>
                                         </dimensions>
                                     </p>
                                     
-                                    <p>Double marginal frame lines in red ink.
-                                        <!--<dimensions type="written_area" unit="cm">
+                                    <p>Details on frame, marginal lines, ruling and the like.
+                                        <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
-                                        </dimensions>-->
-                                        <!--<dimensions type="interlinear_space" scope="most" unit="mm">
+                                        </dimensions>
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>-->
+                                        </dimensions>
                                     </p>
                                     
-                                    <!--<p>Details about the string hole(s).
+                                    <p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p>-->
+                                    </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Jainanāgarī" medium="black_ink">
-                                <desc>Jainanāgarī in black ink.</desc>
+                            <handNote scope="sole" script="X" medium="X" scribeRef="X">
+                                <desc>X in X ink.</desc>
+                                <desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_">
+                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
+                                    </name>
+                                </desc>
                             </handNote>
                         </handDesc>
                         
-                        <!--<decoDesc>
+                        <decoDesc>
                             <decoNote type="miniature">
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
-                        </decoDesc>-->
+                        </decoDesc>
                         
                         <additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="titles">Running marginal title, (<term xml:lang="sa">uttarādhyāya</term>), top-left margin, verso.</marginalia>
+                                    <marginalia type="corrections">On the bottom right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
                                 </item>
                                 <item>
-                                    <marginalia type="invocations">Invocation (<term xml:lang="sa">jinaḥ</term>, lower right margin, verso.</marginalia>
+                                    <marginalia type="annotations">On the top right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
                                 </item>
                             </list>
                         </additions>
                         
                         <bindingDesc>
-                            <p><material>Cardboard cover</material>, library binding.</p>
+                            <p><material>Wood cover</material>, original binding.</p>
+                            <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1600" notAfter="1699">17th century.</date>
-                            <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
+                            <date calendar="Nepāla" when="0914">914 Nepāla</date> / <date calendar="Gregorian" when="1784">1794 CE.</date>
+                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
-                        
-                        <provenance>Collected by <name type="person" role="dnr" key="person_00016">
-                            <persName type="standard" xml:lang="de">Bühler, Georg</persName>
-                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
-                                calendar="Gregorian" when="1878">1878</date>.
-                        </provenance>
+                        <!--<provenance>Bought by 
+                            <name type="person" subtype="dnr" key="local_00000">
+                                <persName type="standard" xml:lang="lat">Sempronius, Titius
+                                    Caius</persName><persName type="display" xml:lang="lat">Titius
+                                        Caius Sempronius</persName></name> in <date
+                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
+                        </provenance>-->
                         <acquisition>
                             Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
                                 <persName type="standard" xml:lang="en">Monier-Williams, Monier</persName>
@@ -312,7 +283,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1903</date>
-                                        <biblScope>no. 48, p. 24-25</biblScope>
+                                        <biblScope>no. 28, p. 16</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -368,8 +339,8 @@
                         <category xml:id="āraṇyaka">
                             <catDesc>Āraṇyaka</catDesc>
                         </category>
-                        <category xml:id="upaṇiṣad">
-                            <catDesc>Upaṇiṣad</catDesc>
+                        <category xml:id="upaniṣad">
+                            <catDesc>Upaniṣad</catDesc>
                         </category>
                         <category xml:id="śrautasūtra">
                             <catDesc>Śrautasūtra</catDesc>
@@ -704,35 +675,35 @@
                             <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
                         </item>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080721">Manuscripts, Gujarati</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
                         </item>
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#jaina">Jaina</item>
-                        <item corresp="#canonical">Canonical scriptures</item>
+                        <item></item>
+                        <item></item>
                         <item></item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-10-18">
+            <change when="2016-03-02">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-10-18">
+            <change when="2016-03-02">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
     </teiHeader>
-    <!--<facsimile>
-        <!-\-here's where we'll list the images, no need to worry about this!-\->
+    <facsimile>
+        <!--here's where we'll list the images, no need to worry about this!-->
         <graphic url="[link to image 1]"/>
         <graphic url="[link to image 2]"/>
-    </facsimile>-->
+    </facsimile>
     <text>
         <body>
             <div>

@@ -1733,6 +1733,53 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00080">
+                    <persName type="standard" xml:lang="sa">Vyāsa</persName>
+                    <persName type="display" xml:lang="sa">Vyāsa</persName>
+                    <persName type="variant" xml:lang="sa">Kṛṣṇa Dvaipāyana</persName>
+                    <idno type="VIAF">7739151778235418130004</idno>
+                    <idno type="local">00080</idno>
+                    <idno type="PANDIT">108876</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/7739151778235418130004">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/108876/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00081">
+                    <persName type="standard" xml:lang="sa">Falk, T.</persName>
+                    <persName type="display" xml:lang="sa">T. Falk</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00081</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS.Sansk.e.92(R)</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
