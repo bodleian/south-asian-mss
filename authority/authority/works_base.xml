@@ -1491,6 +1491,27 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00071">
+                    <title type="uniform" xml:lang="sa">Mahābhārata</title>
+                    <idno type="VIAF">181826247</idno>
+                    <idno type="local">00071</idno>
+                    <idno type="PANDIT">42078</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/181826247">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42078/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
