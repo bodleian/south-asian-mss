@@ -50,89 +50,55 @@
                     
                     <msContents n="1+1">
                         
-                        <summary> A paper manuscript of <name type="person" role="aut" key="person_00079"><persName xml:lang="sa" role="aut" type="standard">Brahmānanda</persName></name>'s 
-                            <title xml:lang="sa" key="work_00070">Jyotsnā</title>, 
-                            a commentary on <name type="person" role="aut" key="person_00076"><persName xml:lang="sa" role="aut" type="standard">Svātmārāma</persName></name>'s 
-                            <title xml:lang="sa" key="work_00069">Haṭhapradīpikā</title>. 
+                        <summary> A paper manuscript of the <title xml:lang="sa" key="work_00072">Jñānadīpa</title>. 
                         </summary>
                         
-                        <msItemStruct n="2">
-                            <msItemStruct class="mūla" defective="true">
-                                <author>
-                                    <name type="person" key="person_00076">
-                                        <persName xml:lang="sa" type="standard">Svātmārāma</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00069">Haṭhapradīpikā</title>
-                                
-                                <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    || śrīrāmakṛṣṇaprasaṃno yaṃ śrīr astu || śrīviṭṭhalāya namaḥ || atha yogasūtrāṇi likhyaṃte ||
-                                </rubric>
-                                
-                                <incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> 
-                                    atha yogānuśāsanaṃ 1
-                                </incipit>
-                                
-                                <explicit xml:lang="sa" type="section"><locus from="11v" to="11v">[11v]</locus> 
-                                    sarvajñātṛtvaṃ
-                                </explicit>
-                                
-                                <incipit xml:lang="sa" type="section"><locus from="13r" to="13r">[13r]</locus> 
-                                    lavyavahitānāṃm apy ānaṃtaryasmṛti
-                                </incipit>
-                                
-                                <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
-                                </finalRubric>
-                                
-                                <explicit xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    citiśaktir iti 34
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    iti yogasūtrādhyāye <sic>kaivalyapādaḥś ca turthaḥ</sic> 4
-                                </finalRubric>
-                                
-                                <colophon xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    sūtre prathamapāda 52 dvī° 55 tri° 55° catu° 34 evaṃ 196 śake 1708 parābhavasaṃvatsare bhādrapadavadya 14 <sic>dvitīyapraharī</sic> samāpto yaṃ satyaṃ śrīr astu
-                                </colophon>-->
-                                
-                                <textLang mainLang="sa" >Sanskrit.</textLang>
-                            </msItemStruct>
+                        <msItem n="1" defective="true">
                             
-                            <msItemStruct class="commentary" defective="true">
-                                <author>
-                                    <name type="person" subtype="aut" key="person_00079">
-                                        <persName xml:lang="sa" type="standard">Brahmānanda</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00070">Jyotsnā</title>
-                                
-                                <incipit xml:lang="sa"><locus from="2r" to="2r">[2r]</locus> 
-                                    <damage>-1-</damage>kṣ<damage>-3-</damage>ha yeneti yena ādināth<damage>-2-</damage>padiṣṭā
-                                </incipit>
-                                
-                                <explicit xml:lang="sa"><locus from="115r" to="115r">[115r]</locus> 
-                                    <sic>śivāṃghriyugule</sic> rpitā 2
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="115r" to="115r">[115r]</locus> 
-                                    iti śrīhaṭhapradīpikāvyākhyāyāṃ vrahmānaṃda kṛtāyāṃ jyotsnābhidhāyāṃ samādhinirūpaṇaṃ nāma caturthopadeśaḥ
-                                </finalRubric>
-                                
-                                <colophon xml:lang="sa"><locus from="115r" to="115r">[115r]</locus> 
-                                    <sic>saṃvata</sic> 18 ||
-                                </colophon>
-                                
-                                <note>F. 4[a] bears the same text as f. 4 (the damaged parts of the recto of f. 4 are marked by hyphens on this folio):
-                                    <p>Begins, recto: - - - - -prāpto vrahmavid</p>
-                                    <p>Ends, verso: vadatā bhaga</p>
-                                </note>
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            <author>
+                                <name type="person" key="person_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
+                                </name>
+                            </author>
+                            
+                            <title xml:lang="sa" key="work_00072">Jñānadīpa</title>
+                            
+                            <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                śrīganeśāya namaḥ śrīgurugaṃgādharāya namaḥ || 
+                            </rubric>
+                            
+                            <incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> 
+                                bhaira || va uvāca || brahmasaṃvādanāmeti tatra muktiṃ vadāmy ahaṃ | mahābhairavena proktaṃ khaṃḍajñānavivarjjitaṃ || 1 || 
+                                yena muktiṃ avāpnoti mahānaṃda prasīdati vistarāṃ || mahānandaṃ paraśāstraṃ mama tejasamudbhavaṃ || 2 || [...] na mātā na pitā caiva na bhrā
+                            </incipit>
+                            
+                            <incipit xml:lang="sa" type="section"><locus from="6r" to="6r">[6r]</locus> 
+                                sarvavyāpī niraṃjanaṃ || tatra cittasamādhāya na kiṃcid api ciṃttayet ||
+                            </incipit>
+                            
+                            <finalRubric type="section" xml:lang="sa"><locus from="7r" to="7r">[7r]</locus> 
+                                iti śrīpārapīṭhamataḥ sārasaṃgrahe mahāyogasārasaṃgrahaḥ samāptaḥ ||
+                            </finalRubric>
+                            
+                            <explicit xml:lang="sa" type="section"><locus from="9v" to="9v">[9v]</locus> 
+                                pūtaṃ yathā hṛdayamadhye tathā svādhi(sic)nā mathanena dṛśyate || biṃdunāthaprasādena bhāṣyeṇa brahmadhāriṇā || 
+                                jñānadīpam idaṃ śāstraṃ kathyate tatvam uttamaṃ || yad yattayet sadā bhaktyā sa śīghraṃ mokṣam āpnuyāt ||
+                            </explicit>
+                            
+                            <finalRubric xml:lang="sa"><locus from="9v" to="9v">[9v]</locus> 
+                                iti yogaśāstre jñānadīpaṃ samāptam || śarīre sādhanaṃ jñānaṃ devānām api durllabhaṃ ||
+                            </finalRubric>
+                            
+                            <explicit xml:lang="sa"><locus from="13v" to="13v">[13v]</locus> 
+                                anenābhyāsayogena sidhyate nātra saṃśayaḥ ||
+                            </explicit>
+                            
+                            <finalRubric xml:lang="sa"><locus from="13v" to="13v">[13v]</locus> 
+                                iti karmmayogena jñānadīpaṃ ||
+                            </finalRubric>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                        </msItem>
                     </msContents>
                     
                     <physDesc>
@@ -141,13 +107,13 @@
                                 <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="11">11</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="10.5">10.5</height>
+                                            <width quantity="17">17</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="114">114 ff.</extent>
+                                <extent xml:id="folio" n="9">9 ff.</extent>
                                 
                                 <!--<foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
                                 <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
@@ -155,22 +121,17 @@
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, in good condition; extant folios: lf. 3, ff. 2-79, 81, 81[a] (lf. 83), 82-115, 4[a] (lf. 118); lf. 3 blank. 
-                                    <locus from="4r" to="41v">Folios 4-41</locus> damaged and repaired (with loss of several akṣaras on <locus from="4r" to="41v">ff. 4-10</locus>).
-                                    Lower half of f. 28v rewritten on a whitened out text.
+                                    Incomplete, in good condition; extant folios: folio 1 and 6-13.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="8 12" type="commentary"  style="pañcapāṭha">
+                                <layout columns="1" writtenLines="7 10" type="mūla">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
-                                    <note>Commentary layout: <term xml:lang="sa">pañcapāṭhā</term>.
-                                    </note>
-                                    
                                     <p>
-                                        8-12 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        7-10 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
                                         <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
@@ -178,15 +139,15 @@
                                         </dimensions>-->
                                     </p>
                                     
-                                    <p>Deletions in yellow.
-                                        <!--<dimensions type="written_area" unit="cm">
+                                    <!--<p>Deletions in yellow.
+                                        <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>-->
-                                    </p>
+                                        </dimensions>
+                                    </p>-->
                                     
                                     <!--<p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
@@ -200,8 +161,7 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote>Folios 35, 37 and 91 in another hand. Folio 4[a] in a third hand.</handNote>
-                            <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
                                 <desc>Devanāgarī in black ink.</desc>
                                 <!--<desc>Scribe: 
                                     <name type="person" subtype="scr" key="local_">
@@ -226,13 +186,16 @@
                         </decoDesc>-->
                         
                         <additions>
-                            In a modern hand (in red ink), on <locus from="2r" to="2r">folio 2</locus>, in upper margin: <quote xml:lang="sa">haṭhapradīpikā 2-115 vrahmānaṃdakṛ° jyotsnāṭīkā</quote>; 
-                            on <locus from="20r" to="20r">folio 20</locus>, in upper margin: <quote xml:lang="sa">haṭhapradīpikā 20-74svātmārāmakṛ° ṭī° jyotsnā</quote>; 
-                            on <locus from="115v" to="115v">folio 115v</locus> (in black ink): <quote xml:lang="sa">vrahmānaṃdakṛ° jyotsnā haṭhapradīpikā saṭīkā 115</quote>.
+                            On <locus from="1r" to="1r">folio 1r</locus>, in the same hand: <quote xml:lang="sa">śrījñānadīpaṃ</quote>; in another hand, <quote>13</quote>. 
+                            In a later hand, on <locus from="1r" to="1r">folio 1</locus>: <quote xml:lang="sa">veṃ° 5 va° aṃ° 20</quote>; 
+                            on <locus from="6r" to="6r">folio 6r</locus>in upper margin: <quote xml:lang="sa">ve° 5 va° aṃka 20</quote>.
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="title">Running marginal title: <term xml:lang="sa">haṭha° jyo°</term>.</marginalia>
+                                    <marginalia type="title">Running marginal title: <term xml:lang="sa">jñā°</term>.</marginalia>
+                                </item>
+                                <item>
+                                    <marginalia type="corrections">Occasional marginal corrections in the same hand.</marginalia>
                                 </item>
                             </list>
                         </additions>
@@ -697,12 +660,12 @@
         </profileDesc>
         
         <revisionDesc>
-            <change when="2021-11-24">
+            <change when="2022-01-04">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-11-24">
+            <change when="2022-01-04">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
