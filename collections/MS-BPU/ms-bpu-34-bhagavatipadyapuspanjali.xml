@@ -117,22 +117,22 @@
                                 <layout columns="1" writtenLines="5" type="mūla">
                                     
                                     <p>
-                                        5 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
-                                        <!--<dimensions type="akṣara" n="X" unit="mm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>-->
+                                        5 lines per page, approximately 15 <term xml:lang="sa">akṣara</term>s per line.
+                                        <dimensions type="akṣara" n="15" unit="mm">
+                                            <height quantity="6">6</height>
+                                            <width quantity="6">6</width>
+                                            <dim type="aspect_ratio" quantity="1">1</dim>
+                                        </dimensions>
                                     </p>
                                     
                                     <p><term xml:lang="sa">Daṇḍa</term>s in red ink.
-                                        <!--<dimensions type="written_area" unit="cm">
-                                            <height quantity="X"></height>
-                                            <width atLeast="X" atMost="X"></width>
-                                        </dimensions>-->
-                                        <!--<dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height quantity="X">X</height>
-                                        </dimensions>-->
+                                        <dimensions type="written_area" unit="cm">
+                                            <height quantity="5.5">5.5</height>
+                                            <width quantity="11">11</width>
+                                        </dimensions>
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height quantity="3">3</height>
+                                        </dimensions>
                                     </p>
                                     
                                     <!--<p>Details about the string hole(s).
