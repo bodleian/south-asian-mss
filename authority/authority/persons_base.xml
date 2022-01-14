@@ -1827,6 +1827,29 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00084">
+                    <persName type="standard" xml:lang="sa">Rāmakṛṣṇa</persName>
+                    <persName type="display" xml:lang="sa">Rāmakṛṣṇa</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00084</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Author of the <title xml:lang="sa" key="work_00075">Bhagavatīpadyapuṣpāñjali</title>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
