@@ -1533,6 +1533,48 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00073">
+                    <title type="uniform" xml:lang="sa">Samādhidīpikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00073</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00074">
+                    <title type="uniform" xml:lang="sa">Siddhasiddhāntapaddhati</title>
+                    <idno type="VIAF">294525935</idno>
+                    <idno type="local">00074</idno>
+                    <idno type="PANDIT">89585</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/294525935">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89585/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

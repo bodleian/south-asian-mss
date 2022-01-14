@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00074">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00075">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -38,9 +38,9 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere f.32(2)</idno>
+                        <idno type="shelfmark">MS Chandra Shum Shere d.555(8)</idno>
                         <altIdentifier type="internal">
-                            <idno type="Chandra_Shum_Shere_Āśutoṣa">3840</idno>
+                            <idno type="Chandra_Shum_Shere_Āśutoṣa">400</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -50,51 +50,44 @@
                     
                     <msContents n="1">
                         
-                        <summary> A paper manuscript of the <title xml:lang="sa" key="work_00072">Jñānadīpa</title>. 
+                        <summary> A paper manuscript of <name type="person" subtype="aut" key="person_00082"><persName xml:lang="sa" type="standard">Kṛṣṇabrahmānanda</persName></name>'s 
+                            <title xml:lang="sa" key="work_00073">Samādhidīpikā</title>. 
                         </summary>
                         
                         <msItem n="1" defective="true">
                             
                             <author>
-                                <name type="person" key="person_00000">
-                                    <persName xml:lang="sa" type="standard">Unknown</persName>
+                                <name type="person" key="person_00082">
+                                    <persName xml:lang="sa" type="standard">Kṛṣṇabrahmānanda</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_00072">Jñānadīpa</title>
+                            <title xml:lang="sa" key="work_00073">Samādhidīpikā</title>
                             
                             <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                śrīganeśāya namaḥ śrīgurugaṃgādharāya namaḥ || 
+                                śrīrāya namaḥ
                             </rubric>
                             
                             <incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> 
-                                bhaira || va uvāca || brahmasaṃvādanāmeti tatra muktiṃ vadāmy ahaṃ | mahābhairavena proktaṃ khaṃḍajñānavivarjjitaṃ || 1 || 
-                                yena muktiṃ avāpnoti mahānaṃda prasīdati vistarāṃ || mahānandaṃ paraśāstraṃ mama tejasamudbhavaṃ || 2 || [...] na mātā na pitā caiva na bhrā
+                                śrīkṛṣṇaṃ śrīgurūn natvā viśveśaṃ tatprasādataḥ samādhidīpikā ceyaṃ yathāmati nirūpyate iha khalu saṃdhiṃ samādhāv ātmany ācared asyārthaḥ ||
                             </incipit>
                             
-                            <incipit xml:lang="sa" type="section"><locus from="6r" to="6r">[6r]</locus> 
-                                sarvavyāpī niraṃjanaṃ || tatra cittasamādhāya na kiṃcid api ciṃttayet ||
+                            <explicit xml:lang="sa" type="section"><locus from="29v" to="29v">[29v]</locus> 
+                                tebhyo gurubhyo yair ayaṃ arthaḥ prāvodhataḥ para+...+
+                            </explicit>                            
+                            
+                            <incipit xml:lang="sa" type="section"><locus from="164r" to="164r">[164r1]</locus> 
+                                mānasaiḥ kāmādeś cittavāraṇaḥ || ātmeti vaṃdhana+...+dhidīpikānāmabhītahetvaṃkuśaṃ vinā | viṣayāraṇyasaṃcārī
                             </incipit>
                             
-                            <finalRubric type="section" xml:lang="sa"><locus from="7r" to="7r">[7r]</locus> 
-                                iti śrīpārapīṭhamataḥ sārasaṃgrahe mahāyogasārasaṃgrahaḥ samāptaḥ ||
-                            </finalRubric>
-                            
-                            <explicit xml:lang="sa" type="section"><locus from="9v" to="9v">[9v]</locus> 
-                                pūtaṃ yathā hṛdayamadhye tathā svādhi(sic)nā mathanena dṛśyate || biṃdunāthaprasādena bhāṣyeṇa brahmadhāriṇā || 
-                                jñānadīpam idaṃ śāstraṃ kathyate tatvam uttamaṃ || yad yattayet sadā bhaktyā sa śīghraṃ mokṣam āpnuyāt ||
+                            <explicit xml:lang="sa"><locus from="164r" to="164r">[164r]</locus> 
+                                +...+ ādiśruter bhagavatpreritatvavedata+
+                                +...+ddhānaṃdavāṃchayā ||
+                                si++...+
                             </explicit>
                             
-                            <finalRubric xml:lang="sa"><locus from="9v" to="9v">[9v]</locus> 
-                                iti yogaśāstre jñānadīpaṃ samāptam || śarīre sādhanaṃ jñānaṃ devānām api durllabhaṃ ||
-                            </finalRubric>
-                            
-                            <explicit xml:lang="sa"><locus from="13v" to="13v">[13v]</locus> 
-                                anenābhyāsayogena sidhyate nātra saṃśayaḥ ||
-                            </explicit>
-                            
-                            <finalRubric xml:lang="sa"><locus from="13v" to="13v">[13v]</locus> 
-                                iti karmmayogena jñānadīpaṃ ||
+                            <finalRubric xml:lang="sa"><locus from="164v" to="164v">[164v]</locus> 
+                                +...+śrībālagopālakṛṣṇaśiṣya+...+
                             </finalRubric>
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
@@ -108,12 +101,12 @@
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
                                             <height quantity="10.5">10.5</height>
-                                            <width quantity="17">17</width>
+                                            <width quantity="25.5">25.5</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="9">9 ff.</extent>
+                                <extent xml:id="folio" n="30">30 ff.</extent>
                                 
                                 <!--<foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
                                 <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
@@ -121,17 +114,18 @@
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, in good condition; extant folios: folio 1 and 6-13.
+                                    Incomplete, in good condition; extant folios: 1-29 + extra folio. Some folios damaged in the corners with loss of <term xml:lang="sa">akṣara</term>s; 
+                                    some folios greatly damaged with important loss of text. Several pages illegible due to ink blotting from opposite folios.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="7 10" type="mūla">
+                                <layout columns="1" writtenLines="9" type="mūla">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
                                     <p>
-                                        7-10 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                       9 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
                                         <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
@@ -139,15 +133,15 @@
                                         </dimensions>-->
                                     </p>
                                     
-                                    <!--<p>Deletions in yellow.
-                                        <dimensions type="written_area" unit="cm">
+                                    <p>Keywords smeared in red on <locus from="1r" to="3v">folios 1-3</locus>.
+                                        <!--<dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
-                                        </dimensions>
-                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                        </dimensions>-->
+                                        <!--<dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>
-                                    </p>-->
+                                        </dimensions>-->
+                                    </p>
                                     
                                     <!--<p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
@@ -186,16 +180,12 @@
                         </decoDesc>-->
                         
                         <additions>
-                            On <locus from="1r" to="1r">folio 1r</locus>, in the same hand: <quote xml:lang="sa">śrījñānadīpaṃ</quote>; in another hand, <quote>13</quote>. 
-                            In a later hand, on <locus from="1r" to="1r">folio 1</locus>: <quote xml:lang="sa">veṃ° 5 va° aṃ° 20</quote>; 
-                            on <locus from="6r" to="6r">folio 6r</locus>in upper margin: <quote xml:lang="sa">ve° 5 va° aṃka 20</quote>.
+                            On folio 135, 14 lines from the <title xml:lang="sa" key="work_00069">Haṭhapradīpikā</title>: <quote xml:lang="sa">tatra vṛttīnddhīvodho … kāyakleśādikaṃ tathā || iti yogaśāstre ||</quote>; 
+                            on folio 164v, in a later hand: <quote xml:lang="sa"><sic>vedāṃtasamādhī</sic>dīpikā</quote>.
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="title">Running marginal title: <term xml:lang="sa">jñā°</term>.</marginalia>
-                                </item>
-                                <item>
-                                    <marginalia type="corrections">Occasional marginal corrections in the same hand.</marginalia>
+                                    <marginalia type="corrections">Marginal corrections, sometimes lengthy, in the same hand.</marginalia>
                                 </item>
                             </list>
                         </additions>
@@ -660,12 +650,12 @@
         </profileDesc>
         
         <revisionDesc>
-            <change when="2022-01-04">
+            <change when="2022-01-12">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2022-01-04">
+            <change when="2022-01-12">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
