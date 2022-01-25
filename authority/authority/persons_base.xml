@@ -1722,7 +1722,7 @@
                                 <ref target="http://viaf.org/viaf/39551146">
                                     <title>VIAF</title>
                                 </ref>
-                            </item>
+                            </item>Cordier, Palmyr Uldéric Alexis
                             <item>
                                 <ref target="https://www.panditproject.org/entity/86602/person">
                                     <title>PANDIT</title>
@@ -1851,8 +1851,8 @@
                 </person>
                 
                 <person xml:id="person_">
-                    <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
-                    <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
+                    <persName type="standard" xml:lang="la">Sempronius, Titius Caius</persName>
+                    <persName type="display" xml:lang="la">Titius Caius Sempronius</persName>
                     <idno type="VIAF">00000000</idno>
                     <idno type="local">00000</idno>
                     <idno type="PANDIT">00000000</idno>
@@ -1873,6 +1873,75 @@
                     <note></note>
                 </person>
                 
+                <person>
+                    <persName type="standard" xml:lang="fr">Ariel, Édouard</persName>
+                    <persName type="display" xml:lang="fr">Édouard Ariel</persName>
+                    <idno type="VIAF">222123501</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/222123501">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                <person>
+                    <persName type="standard" xml:lang="fr">Closs, A.</persName>
+                    <persName type="display" xml:lang="fr">A. Closs</persName>
+                    <idno type="VIAF">316663530</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/316663530">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://viaf.org/viaf/18159335448412962672">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>Parisian bookbinder.</note>
+                </person>
+                <person>
+                    <persName type="standard" xml:lang="fr">Cordier, Palmyr Uldéric Alexis</persName>
+                    <persName type="display" xml:lang="fr">Palmyr Uldéric Alexis Cordier</persName>
+                    <persName type="variant" xml:lang="fr">Palmyr Cordier</persName>
+                    <idno type="VIAF">71437283</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/71437283">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                <person>
+                    <persName type="standard" xml:lang="fr">Burnouf, Eugène</persName>
+                    <persName type="display" xml:lang="fr">Eugène Burnouf</persName>
+                    <idno type="VIAF">22139410</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/22139410">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                <person>
+                    <persName type="standard" xml:lang="sa">Rādhākānta Tarkavāgīśa</persName>
+                    <persName type="display" xml:lang="sa">Rādhākānta Tarkavāgīśa</persName>
+                    <persName type="variant" xml:lang="sa">Rādhākānta Śarmā</persName>
+                    <note>18th century paṇḍit who worked with Warren Hastings and Sir William Jones.</note>
+                </person>
             </listPerson>
         </body>
     </text>
