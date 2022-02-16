@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00051">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00081">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -20,7 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -39,7 +39,7 @@
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS.BPU.2</idno>
+                        <idno type="shelfmark">MS.BPU.22</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -49,45 +49,78 @@
                         </altIdentifier>-->
                     </msIdentifier>
                     
-                    <msContents n="1">
-                        <summary> A paper manuscript of <name type="person" role="aut" key="person_00025"><persName xml:lang="sa" role="aut" type="standard">Vopadeva</persName></name>'s 
-                            <title xml:lang="sa" key="work_00022">Mugdhabodha</title>.
+                    <msContents n="2">
+                        <summary>
+                            A paper manuscript containing the <title xml:lang="sa" key="work_00099">Sūryakavaca</title> from the <title xml:lang="sa" key="work_00100">Brahmayāmalatantra</title>
+                            and the <title xml:lang="sa" key="work_00097">Sadāśivakavaca</title> from the <title xml:lang="sa" key="work_00098">Bhairavatantra</title>.
                         </summary>
                         
-                        <msItem n="1" defective="unknown">
+                        <msItem n="1" defective="false">
                             
                             <author>
-                                <name type="person" key="person_00025">
-                                    <persName xml:lang="sa" type="standard">Vopadeva</persName>
+                                <name type="person" key="person_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_00022">Mugdhabodha</title>
+                            <title xml:lang="sa" key="work_00097">Śivakavaca</title>
                             
-                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                 oṃ śrīgaṇeśāya namaḥ ||
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
-                                <damage agent="X" unit="X" quantity="1"></damage>
-                                <sic></sic>
-                                <del rend="X"></del>
-                                <unclear reason="X"></unclear>
-                                <add place="X" type="X" hand="X"></add>
-                                <subst><del></del><add></add></subst>
-                                <gap reason="X"></gap>
-                                <g></g>
-                                <figure type="X" rend="X"></figure>
-                                <space type=""></space>
+                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                oṃ bhagavatībha<lb/>[1v2]gavatpadapaṃkajaṃ bhramarabhūtasurāsurasevitaṃ || sujanamānasahaṃ sapariṣkṛtaṃ kamalayā mālayā nibhr̥taṃ bhaje | 1 |
                             </incipit>
                             
-                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
-                            </finalRubric>
+                            <explicit xml:lang="sa"><locus from="13r" to="13r">[13r4]</locus> iti
+                                    <lb/>[13r5]śrī<sic>bhagavati</sic>pūjyāpādāraviṃdamaka<locus
+                                    from="13v" to="13v">[13v1]</locus>raṃdasādrasudhāsamullasan
+                                madhumakaraṃ<lb/>[13v2]damaṃjunarapuravāribhaṭ_
+                                sūriśrīpa¦<lb/>[13v3]titajjarāmakṛṣṇakāvikṛtau
+                                    <sic>bhagava<lb/>[13v4]ti</sic>padyapuṣpāṃjaliḥ 
+                                    prācīnācaryava<lb/>[13v5]ryaśrīmadudupanācāryasiddhāṃsasiddhamaṃ<locus
+                                    from="14r" to="14r">[14r1]</locus>galaphalagocaratām alaṃkalapanu¦<lb/>[14r2]śaśāṃkaramaṇīyamukudinīmapāra<lb/>[14r3]myateradharmmasamādharmam
+                                adadhāt_ || </explicit>
                             
-                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
+                            <finalRubric xml:lang="sa"><locus from="14r" to="14r">[14r4]</locus> 
+                                iti <sic>śrīpadyapuśpāṃjalisamāptam_</sic> <lb/>[14r5] oṃ || oṃ || oṃ || oṃ || oṃ || oṃ ||
+                            </finalRubric>-->
                             
-                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                        </msItem>
+                        
+                        <msItem n="2" defective="false">
                             
-                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
+                            <author>
+                                <name type="person" key="person_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
+                                </name>
+                            </author>
+                            
+                            <title xml:lang="sa" key="work_00099">Sūryakavaca</title>
+                            
+                            <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                 oṃ śrīgaṇeśāya namaḥ ||
+                            </rubric>
+                            
+                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                oṃ bhagavatībha<lb/>[1v2]gavatpadapaṃkajaṃ bhramarabhūtasurāsurasevitaṃ || sujanamānasahaṃ sapariṣkṛtaṃ kamalayā mālayā nibhr̥taṃ bhaje | 1 |
+                            </incipit>
+                            
+                            <explicit xml:lang="sa"><locus from="13r" to="13r">[13r4]</locus> iti
+                                    <lb/>[13r5]śrī<sic>bhagavati</sic>pūjyāpādāraviṃdamaka<locus
+                                    from="13v" to="13v">[13v1]</locus>raṃdasādrasudhāsamullasan
+                                madhumakaraṃ<lb/>[13v2]damaṃjunarapuravāribhaṭ_
+                                sūriśrīpa¦<lb/>[13v3]titajjarāmakṛṣṇakāvikṛtau
+                                    <sic>bhagava<lb/>[13v4]ti</sic>padyapuṣpāṃjaliḥ 
+                                    prācīnācaryava<lb/>[13v5]ryaśrīmadudupanācāryasiddhāṃsasiddhamaṃ<locus
+                                    from="14r" to="14r">[14r1]</locus>galaphalagocaratām alaṃkalapanu¦<lb/>[14r2]śaśāṃkaramaṇīyamukudinīmapāra<lb/>[14r3]myateradharmmasamādharmam
+                                adadhāt_ || </explicit>
+                            
+                            <finalRubric xml:lang="sa"><locus from="14r" to="14r">[14r4]</locus> 
+                                iti <sic>śrīpadyapuśpāṃjalisamāptam_</sic> <lb/>[14r5] oṃ || oṃ || oṃ || oṃ || oṃ || oṃ ||
+                            </finalRubric>-->
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
@@ -97,59 +130,52 @@
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
                                 <support>Paper.
-                                    <p>
+                                    <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <!--<height quantity="X"> X</height>-->
-                                            <width quantity="40">40</width>
+                                            <height atLeast="8.2" atMost="11.9">8.2-11.9</height>
+                                            <width atLeast="37.5" atMost="38.8">37.5-38.8</width>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </support>
-                                
-                                <extent xml:id="folio" n="106">106 ff.</extent>
-                                
-                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
+                            	
+                                <extent xml:id="folio" n="7">7 ff.</extent>
+                                   
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, top-right margin, verso.</foliation>
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, water-stained and frayed margins.
+                                      Complete; in good conditions, margins slightly frayed.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" type="mūla">
-
-                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-->
+                                <layout columns="1" writtenLines="7" type="mūla">
                                     
-                                    <!--<note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
-                                    </note>-->
+                                    <p>
+                                        7 lines per page<!--, approximately 15 <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="15" unit="mm">
+                                            <height quantity="6">6</height>
+                                            <width quantity="6">6</width>
+                                            <dim type="aspect_ratio" quantity="1">1</dim>
+                                        </dimensions>-->
+                                    </p>
                                     
-                                    <!--<p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
-                                    </p>-->
-                                    
-                                    <!--<p>Details on frame, marginal lines, ruling and the like.
-                                        <dimensions type="written_area" unit="cm">
-                                            <height quantity="X"></height>
-                                            <width atLeast="X" atMost="X"></width>
+                                    <p><term xml:lang="sa">Daṇḍa</term>s in red ink.
+                                        <!--<dimensions type="written_area" unit="cm">
+                                            <height quantity="5.5">5.5</height>
+                                            <width quantity="11">11</width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height quantity="X">X</height>
-                                        </dimensions>
-                                    </p>-->
+                                            <height quantity="3">3</height>
+                                        </dimensions>-->
+                                    </p>
                                     
                                     <!--<p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
+                                        <dimensions type="string_hole" rend="true" quantity="1" scope="most" unit="cm">
+                                            <height quantity="4.5">4.5</height>
+                                            <width quantity="2.4">2.4</width>
+                                            <!-\-<depth quantity="X">X</depth>-\->
                                         </dimensions>
                                     </p>-->
                                 </layout>
@@ -157,8 +183,8 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Bengali" medium="black_ink">
-                                <desc>Bengali in black ink.</desc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
                                 <!--<desc>Scribe: 
                                     <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
@@ -173,25 +199,25 @@
                             </decoNote>
                         </decoDesc>-->
                         
-                        <additions>
+                        <!--<additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
                                     <marginalia type="annotations">Numerous marginal annotations.</marginalia>
                                 </item>
                             </list>
-                        </additions>
+                        </additions>-->
                         
                         <bindingDesc>
-                            <p><material>Cardboard box</material>, library binding.</p>
+                        	<p><material>Cardboard box</material>, library binding.</p>
                             <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Śāka" when="1673">1673 Śāka</date> / <date calendar="Gregorian" when="1751">1751 CE.</date>
-                            <origPlace xml:lang="eng" key="place_00001">Bengal</origPlace>
+                            <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
+                            <!--<origPlace xml:lang="eng" key="place_00001">Bengal</origPlace>-->
                         </origin>
                         <provenance>Bequeathed by <name
                             type="person" role="dnr" key="local_00003 VIAF_31996034"><persName
@@ -635,20 +661,20 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#śāstra">Śāstra</item>
-                        <item corresp="#vyākaraṇa">Vyākaraṇa</item>
-                        <item corresp="#vopadeva">Vopadeva</item>
+                        <item corresp="#śaiva">Śaiva</item>
+                        <item corresp="#saurya">Saurya</item>
+                        <!--<item corresp="#stotra">Stotra</item>-->
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-11-10">
+            <change when="2022-02-16">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-11-10">
+            <change when="2022-02-16">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
