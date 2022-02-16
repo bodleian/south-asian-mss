@@ -2018,6 +2018,115 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00096">
+                    <title type="uniform" xml:lang="sa">Yogabīja</title>
+                    <idno type="VIAF">4986163813697739110002</idno>
+                    <idno type="local">00096</idno>
+                    <idno type="PANDIT">89589</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/4986163813697739110002">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89589/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00097">
+                    <title type="uniform" xml:lang="sa">Sadāśivakavaca</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00097</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Extract from the <title xml:lang="sa" key="work_00098">Bhairavatantra</title>.</note>
+                </bibl>
+                
+                <bibl xml:id="work_00098">
+                    <title type="uniform" xml:lang="sa">Bhairavatantra</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00098</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00099">
+                    <title type="uniform" xml:lang="sa">Sūryakavaca</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00099</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Extract from the <title xml:lang="sa" key="work_00098">Bhairavatantra</title>.</note>
+                </bibl>
+                
+                <bibl xml:id="work_00100">
+                    <title type="uniform" xml:lang="sa">Brahmayāmalatantra</title>
+                    <title type="variant" xml:lang="sa">Picumata</title>
+                    <title type="variant" xml:lang="sa">Brahmājyamalatantra</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local">00100</idno>
+                    <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
