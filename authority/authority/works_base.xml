@@ -19,6 +19,25 @@
     <text>
         <body>
             <listBibl>
+                
+                <bibl xml:id="work_00000">
+                    <title type="uniform" xml:lang="en">Unidentified fragment</title>
+                    <idno type="local">00000</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
              
                 <bibl xml:id="work_00001">
                     <title type="uniform" xml:lang="sa">Mañjuśrīnāmasaṅgīti</title>
@@ -2120,6 +2139,27 @@
                             </item>
                             <item>
                                 <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00101">
+                    <title type="uniform" xml:lang="sa">Tattvacintāmaṇi</title>
+                    <idno type="VIAF">180651229</idno>
+                    <idno type="local">00101</idno>
+                    <idno type="PANDIT">90147</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/180651229">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/90147/work">
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
