@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00086">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00087">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -38,9 +38,9 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere c.199(4 a-e)</idno>
+                        <idno type="shelfmark">MS Chandra Shum Shere d.470(4)</idno>
                         <altIdentifier type="internal">
-                            <idno type="Chandra_Shum_Shere_Āśutoṣa">4565</idno>
+                            <idno type="Chandra_Shum_Shere_Āśutoṣa">4244</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -52,8 +52,7 @@
                         
                         <summary>
                             An incomplete paper manuscript of <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
-                            <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>, 
-                            including a part of the <title xml:lang="sa" key="work_00102">Tattvacintāmaṇidīdhitigadādharī</title>.
+                            <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>.
                         </summary>
                         
                         <msItem>
@@ -91,15 +90,15 @@
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
                                 <support>Paper.
-                                    <!--<p>
+                                    <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="9.5">9.5</height>
-                                            <width atLeast="26" atMost="26">26</width>
+                                            <height quantity="7.5">7.5</height>
+                                            <width quantity="28">28</width>
                                         </dimensions>
-                                    </p>-->
+                                    </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="78">78 ff.</extent>
+                                <extent xml:id="folio" n="15">15 ff.</extent>
                                 
                                 <!--<foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
                                 <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
@@ -107,23 +106,23 @@
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, in good conditions; extant folios F. 1. A, lff. 77, 79-99, 101-120, 122-227, is <title xml:lang="sa" key="work_00102">Tattvacintāmaṇidīdhitigadādharī</title>.
+                                    Incomplete, in good conditions; extant folios lff. 119-122, 115, (loss of text), 116-118, (loss of text), 125-129, (loss of text), 123-124.
                                 </condition>
                             </supportDesc>
                             
-                            <!--<layoutDesc>
-                                <layout columns="1" writtenLines="7" type="mūla">
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6" type="mūla">
                                     
                                     <p>
-                                        9 lines per page<!-\-, approximately XX <term xml:lang="sa">akṣara</term>s per line-\->.
-                                        <!-\-<dimensions type="akṣara" n="X" unit="mm">
+                                        6 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>-\->
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Deletions in yellow.
+                                    <!--<p>Deletions in yellow.
                                         <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
@@ -139,13 +138,13 @@
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                 </layout>
-                            </layoutDesc>-->
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="major" script="Bengali" medium="black_ink">
+                            <handNote scope="sole" script="Bengali" medium="black_ink">
                                 <desc>Bengali in black ink.</desc>
                             </handNote>
                         </handDesc>
@@ -628,12 +627,12 @@
         </profileDesc>
         
         <revisionDesc>
-            <change when="2022-02-24">
+            <change when="2022-02-28">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2022-02-24">
+            <change when="2022-02-28">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
