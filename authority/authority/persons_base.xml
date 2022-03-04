@@ -1988,6 +1988,75 @@
                     <note>Former owner (?) of <idno type="shelfmark">MS Chandra Shum Shere c.198(5)</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00091">
+                    <persName type="standard" xml:lang="sa">Dāmodara</persName>
+                    <persName type="display" xml:lang="sa">Dāmodara</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00091</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.492(3)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00092">
+                    <persName type="standard" xml:lang="sa">Vīreśvaradeva</persName>
+                    <persName type="display" xml:lang="sa">Vīreśvaradeva</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00092</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.500(1)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00093">
+                    <persName type="standard" xml:lang="sa">Mādhavadeva, Dhārāsūrapura</persName>
+                    <persName type="display" xml:lang="sa">Dhārāsūrapura Mādhavadeva</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00092</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Father of <name type="person" subtype="own" key="person_00092"><persName xml:lang="sa" type="standard">Vīreśvaradeva</persName></name>, former owner of <idno type="shelfmark">MS Chandra Shum Shere d.500(1)</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
