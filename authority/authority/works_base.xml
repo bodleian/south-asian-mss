@@ -2210,6 +2210,27 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00104">
+                    <title type="uniform" xml:lang="sa">Tattvacintāmaṇyāloka</title>
+                    <idno type="VIAF">174749979</idno>
+                    <idno type="local">00104</idno>
+                    <idno type="PANDIT">90652</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/174749979">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/90652/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

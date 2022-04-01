@@ -2057,6 +2057,55 @@
                     <note>Father of <name type="person" subtype="own" key="person_00092"><persName xml:lang="sa" type="standard">Vīreśvaradeva</persName></name>, former owner of <idno type="shelfmark">MS Chandra Shum Shere d.500(1)</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00094">
+                    <persName type="standard" xml:lang="sa">Jayadeva Pakṣadhara Miśra</persName>
+                    <persName type="display" xml:lang="sa">Jayadeva Pakṣadhara Miśra</persName>
+                    <persName type="variant" xml:lang="sa">Jayadevamiśra</persName>
+                    <persName type="variant" xml:lang="sa">Jayadeva</persName>
+                    <persName type="variant" xml:lang="sa">Pakṣadhara</persName>
+                    <idno type="VIAF">3673649</idno>
+                    <idno type="local">00094</idno>
+                    <idno type="PANDIT">85769</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/3673649">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85769/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00095">
+                    <persName type="standard" xml:lang="sa">Gosvāmin, Paraśurāma </persName>
+                    <persName type="display" xml:lang="sa">Paraśurāma Gosvāmin</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00095</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.484</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
