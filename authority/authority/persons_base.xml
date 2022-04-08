@@ -2106,6 +2106,75 @@
                     <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.484</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00096">
+                    <persName type="standard" xml:lang="en">Hoernle, August Friedrich Rudolf</persName>
+                    <persName type="display" xml:lang="en">A.F.R. Hoernle</persName>
+                    <idno type="VIAF">14837838</idno>
+                    <idno type="local">00096</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/14837838">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00097">
+                    <persName type="standard" xml:lang="en">Weber, F.</persName>
+                    <persName type="display" xml:lang="en">F. Weber</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00097</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <!--<note></note>-->
+                </person>
+                
+                <person xml:id="person_00098">
+                    <persName type="standard" xml:lang="sa">Bower, H.</persName>
+                    <persName type="display" xml:lang="sa">H. Bower</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00098</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <!--<note></note>-->
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
