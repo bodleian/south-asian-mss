@@ -109,6 +109,23 @@
                     <note></note>
                 </place>
                 
+                <place xml:id="place_00008">
+                    <placeName xml:lang="en" type="index">Kucha</placeName>
+                    <placeName xml:lang="sa" type="original">Kucha</placeName>
+                    <idno type="GETTY">6003207</idno>
+                    <idno type="local">00008</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://vocab.getty.edu/page/tgn/6003207">
+                                    <title>GETTY</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </place>
+                
                 <place xml:id="place_0000X">
                     <placeName xml:lang="en" type="index"></placeName>
                     <placeName xml:lang="sa" type="original"></placeName>
@@ -117,8 +134,8 @@
                     <note type="links">
                         <list type="links">
                             <item>
-                                <ref target="https://viaf.org/viaf/00000000/">
-                                    <title>VIAF</title>
+                                <ref target="http://vocab.getty.edu/page/tgn/0000000">
+                                    <title>GETTY</title>
                                 </ref>
                             </item>
                         </list>
