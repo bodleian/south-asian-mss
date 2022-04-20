@@ -2130,8 +2130,8 @@
                 </person>
                 
                 <person xml:id="person_00097">
-                    <persName type="standard" xml:lang="en">Weber, F.</persName>
-                    <persName type="display" xml:lang="en">F. Weber</persName>
+                    <persName type="standard" xml:lang="de">Weber, F.</persName>
+                    <persName type="display" xml:lang="de">F. Weber</persName>
                     <!--<idno type="VIAF">00000000</idno>-->
                     <idno type="local">00097</idno>
                     <!--<idno type="PANDIT">00000000</idno>-->
@@ -2153,8 +2153,8 @@
                 </person>
                 
                 <person xml:id="person_00098">
-                    <persName type="standard" xml:lang="sa">Bower, H.</persName>
-                    <persName type="display" xml:lang="sa">H. Bower</persName>
+                    <persName type="standard" xml:lang="en">Bower, H.</persName>
+                    <persName type="display" xml:lang="en">H. Bower</persName>
                     <!--<idno type="VIAF">00000000</idno>-->
                     <idno type="local">00098</idno>
                     <!--<idno type="PANDIT">00000000</idno>-->
@@ -2173,6 +2173,99 @@
                         </list>
                     </note>-->
                     <!--<note></note>-->
+                </person>
+                
+                <person xml:id="person_00099">
+                    <persName type="standard" xml:lang="en">Strange, T.</persName>
+                    <persName type="display" xml:lang="en">Sir T. Strange</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00099</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS. Sansk. e. 13 (R)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00100">
+                    <persName type="standard" xml:lang="en">Ffoulkes, Edmund</persName>
+                    <persName type="display" xml:lang="en">Mrs. Edmund Ffoulkes</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00100</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Daughter of <name type="person" role="dnr" key="person_00099"><persName type="standard" xml:lang="eng">Strange, T.</persName><persName type="display" xml:lang="eng">Sir T. Strange</persName></name>.</note>
+                </person>
+                
+                <person xml:id="person_00101">
+                    <persName type="standard" xml:lang="sa">Sahājanandasvāmī</persName>
+                    <persName type="display" xml:lang="sa">Sahājananda Swami</persName>
+                    <persName type="variant" xml:lang="sa">Svāminārāyaṇa</persName>
+                    <idno type="VIAF">290489406</idno>
+                    <idno type="local">00101</idno>
+                    <idno type="PANDIT">86365</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/290489406">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86365/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00102">
+                    <persName type="standard" xml:lang="sa">Śatānanda</persName>
+                    <persName type="display" xml:lang="sa">Śatānanda</persName>
+                    <idno type="VIAF">667149196575074792338</idno>
+                    <idno type="local">00000</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/667149196575074792338">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
                 </person>
                 
                 <person xml:id="person_">

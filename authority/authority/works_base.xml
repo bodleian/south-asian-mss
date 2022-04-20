@@ -2231,6 +2231,50 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00105">
+                    <title type="uniform" xml:lang="sa">Śikṣāpāttrī</title>
+                    <title type="variant" xml:lang="sa">Śikṣāpātrī</title>
+                    <title type="variant" xml:lang="sa">Śikṣāpatra</title>
+                    <idno type="VIAF">177269663</idno>
+                    <idno type="local">00105</idno>
+                    <idno type="PANDIT">93078</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/177269663">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/93078/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00106">
+                    <title type="uniform" xml:lang="sa">Arthadīpikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00106</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
