@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00074">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00106">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -38,7 +38,7 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
-                        <idno type="shelfmark">MS.Ind.Inst.Sansk.24</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 24</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -51,20 +51,20 @@
                     <msContents n="1+1">
                         
                         <summary>
-                            
+                            A paper manuscript of <name type="person" role="aut" key="person_00102"><persName xml:lang="sa" role="aut" type="standard">Śatānanda</persName></name>'s 
+                            <title xml:lang="sa" key="work_00106">Arthadīpikā</title>, a commentary on <name type="person" role="aut" key="person_00101"><persName xml:lang="sa" type="display">Sahājananda Swami</persName></name>'s 
+                            <title xml:lang="sa" key="work_00105">Śikṣāpāttrī</title>.
                         </summary>
                         
                         <msItemStruct n="2">
                             <msItemStruct class="mūla" defective="false">
                                 <author>
-                                    <name type="person" subtype="aut" key="person_00000">
-                                        <persName xml:lang="sa" type="standard">Unknown</persName>
+                                    <name type="person" subtype="aut" key="person_00101">
+                                        <persName xml:lang="sa" type="standard">Sahājananda Swami</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00000">[insert here the uniform title of the work]</title>
-                                <title xml:lang="sa" type="alt" >[insert here a variant title of the work]</title>
-                                <title xml:lang="pka" type="alt">[insert here a variant title of the work]</title>
+                                <title xml:lang="sa" key="work_00105">Śikṣāpāttrī</title>
                                 
                                 <rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
                                 </rubric>
@@ -83,12 +83,12 @@
                             
                             <msItemStruct class="commentary" defective="false">
                                 <author>
-                                    <name type="person" subtype="aut" key="person_00000">
-                                        <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
+                                    <name type="person" subtype="aut" key="person_00102">
+                                        <persName xml:lang="sa" type="standard">Śatānanda</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00000">[insert here the uniform title of the work]</title>
+                                <title xml:lang="sa" key="work_00106">Arthadīpikā</title>
                                 
                                 <rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                                 </rubric>
