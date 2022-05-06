@@ -2291,6 +2291,75 @@
                     <note>Scribe of <idno type="shelfmark">MS Chandra Shum Shere d.499(6)</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00104">
+                    <persName type="standard" xml:lang="sa">Rāmadayāla</persName>
+                    <persName type="display" xml:lang="sa">Rāmadayāla</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00104</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.464</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00105">
+                    <persName type="standard" xml:lang="sa">Maheśa Ṭhakkura</persName>
+                    <persName type="display" xml:lang="sa">Maheśa Ṭhakkura</persName>
+                    <idno type="VIAF">50823450</idno>
+                    <idno type="local">00105</idno>
+                    <idno type="PANDIT">85871</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/50823450">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85871/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00106">
+                    <persName type="standard" xml:lang="sa">Jagannātha, Bhāradvāja</persName>
+                    <persName type="display" xml:lang="sa">Bhāradvāja Jagannātha</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00106</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.480(1)</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
