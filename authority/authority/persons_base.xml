@@ -2360,6 +2360,76 @@
                     <note>Former owner of <idno type="shelfmark">MS Chandra Shum Shere d.480(1)</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00107">
+                    <persName type="standard" xml:lang="sa">Ṭhakkura, Madhusūdana </persName>
+                    <persName type="display" xml:lang="sa">Madhusūdana Ṭhakkura</persName>
+                    <idno type="VIAF">309710445</idno>
+                    <idno type="local">00107</idno>
+                    <idno type="PANDIT">85870</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/309710445">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85870/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00108">
+                    <persName type="standard" xml:lang="sa">Mathurānātha</persName>
+                    <persName type="display" xml:lang="sa">Mathurānātha</persName>
+                    <idno type="VIAF">74754197</idno>
+                    <idno type="local">00108</idno>
+                    <idno type="PANDIT">86129</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/74754197">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86129/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00109">
+                    <persName type="standard" xml:lang="sa">Gokulanātha</persName>
+                    <persName type="display" xml:lang="sa">Gokulanātha</persName>
+                    <persName type="variant" xml:lang="sa">Gokulanātha Upādhyāya</persName>
+                    <idno type="VIAF">64236683</idno>
+                    <idno type="local">00109</idno>
+                    <idno type="PANDIT">86123</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/64236683">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86123/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
