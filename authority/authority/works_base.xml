@@ -2297,6 +2297,70 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00108">
+                    <title type="uniform" xml:lang="sa">Kaṇṭakoddhāra</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00108</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00109">
+                    <title type="uniform" xml:lang="sa">Rahasya</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00109</idno>
+                    <idno type="PANDIT">92048</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/92048/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00110">
+                    <title type="uniform" xml:lang="sa">Vivaraṇa</title>
+                    <title type="variant" xml:lang="sa">Vidyota</title>
+                    <idno type="VIAF">173847136</idno>
+                    <idno type="local">00110</idno>
+                    <idno type="PANDIT">92024</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/173847136">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/92024/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
