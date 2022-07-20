@@ -2361,6 +2361,71 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00111">
+                    <title type="uniform" xml:lang="sa">Vādārtha</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00111</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00112">
+                    <title type="uniform" xml:lang="sa">Gādādharī</title>
+                    <title type="variant" xml:lang="sa">Prakāśikā</title>
+                    <title type="variant" xml:lang="sa">Dīdhitiprakāśikā</title>
+                    <idno type="VIAF">184334366</idno>
+                    <idno type="local">00112</idno>
+                    <idno type="PANDIT">92258</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/184334366">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/92258/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00113">
+                    <title type="uniform" xml:lang="sa">Jāgadīśī</title>
+                    <idno type="VIAF">184281604</idno>
+                    <idno type="local">00113</idno>
+                    <idno type="PANDIT">91632</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/184281604">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/91632/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
