@@ -1,1 +1,1 @@
-Repsoitory created, awaiting first TEI records.
+Repository created, awaiting first TEI records.
