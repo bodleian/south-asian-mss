@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00125">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00109">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -38,7 +38,7 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere c.197(4).3</idno>
+                        <idno type="shelfmark">MS Chandra Shum Shere c.197(4).1</idno>
                         <altIdentifier type="internal">
                             <idno type="Chandra_Shum_Shere_Āśutoṣa">2733</idno>
                             <note><country>United Kingdom</country>
@@ -51,15 +51,16 @@
                     <msContents n="1" defective="true">
                         
                         <summary>
-                            An incomplete paper manuscript of <name type="person" subtype="aut" key="person_00094"><persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName></name>'s 
+                            An incomplete paper manuscript of <name type="person" subtype="aut" key="person_00108"><persName xml:lang="sa" type="standard">Mathurānātha</persName></name>'s 
+                            <title xml:lang="sa" key="work_00109">Rahasya</title>, a subcommentary on <name type="person" subtype="aut" key="person_00094"><persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName></name>'s 
                             <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>, a commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
-                            <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Anumāna</term>. 
-                            It is bound together with other fragmentary manuscripts under a single shelfmark, however it is most likely a separate manuscript. 
-                            It corresponds to <locus from="217r" to="222v">217-222</locus> in the Bodleian Library foliation.
+                            <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Śabda</term>.
+                            The <locus from="1r" to="1r">recto of the first folio</locus> is blank. It is bound together with other fragmentary manuscripts under a single shelfmark, however it is most likely a separate manuscript. 
+                            It corresponds to <locus from="1r" to="7v">209-215</locus> in the Bodleian Library foliation.
                         </summary>
                         
-                        <msItemStruct n="2">
-                            <msItemStruct class="mūla" defective="false">
+                        <msItemStruct n="3">
+                            <msItemStruct class="mūla" defective="true">
                                 <author>
                                     <name type="person" key="person_00088">
                                         <persName xml:lang="sa" type="standard">Gaṅgeśa</persName>
@@ -83,7 +84,7 @@
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItemStruct>
                             
-                            <msItemStruct class="commentary" defective="false">
+                            <msItemStruct class="commentary" defective="true">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00094">
                                         <persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName>
@@ -92,11 +93,21 @@
                                 
                                 <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>
                                 
-                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> + tayā
-                                    tadbādhāhetutvasyaiva vācyatvāditi nanviṣṭatāvachedaka na (sic)
-                                    prakāreṇa pakṣatāvachedakena viśiṣṭapakṣe sādhyasiddhir astviti
-                                    noktadvayādoṣadvayāvakāśa+++nasi kṛtyānumāṃ(sic)taramāśaṃkate
-                                    nanv iti </incipit>
+                                <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                                </rubric>
+                                
+                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    <damage agent="X" unit="X" quantity="1"></damage>
+                                    <sic></sic>
+                                    <del rend="X"></del>
+                                    <unclear reason="X"></unclear>
+                                    <add place="X" type="X" hand="X"></add>
+                                    <subst><del></del><add></add></subst>
+                                    <gap reason="X"></gap>
+                                    <g></g>
+                                    <figure type="X" rend="X"></figure>
+                                    <space type=""></space>
+                                </incipit>
                                 
                                 <explicit xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
                                 </explicit>
@@ -105,7 +116,36 @@
                                 </finalRubric>
                                 
                                 <colophon xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
-                                </colophon>
+                                </colophon>-->
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItemStruct>
+                            
+                            <msItemStruct class="subcommentary" defective="true">
+                                <author>
+                                    <name type="person" subtype="aut" key="person_00108">
+                                        <persName xml:lang="sa" type="standard">Mathurānātha</persName>
+                                    </name>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_00109">Rahasya</title>
+                                
+                                <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    śrīgaṇeśāya namaḥ
+                                </rubric>
+                                
+                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    kuṃcitādharapuṭena pūrayan vaṃśikāṃ <sic>pracaladaṃgulipaktiḥ</sic>
+                                    mohayannakhilavā(ma)locanāḥ pātu kopi <sic>navanīradacha</sic>
+                                    śrīmatā madhurānāthatarkavāgīśadhīmatā
+                                    śabdamaṇiparichedāloko vyākhyāyate <sic>matā</sic>  | 2 |
+                                    <sic>nirvighnaprārispita</sic> <sic>graṃthasamāptikānayā</sic> kṛ(taṃ) bhagavatastutirūpaṃ
+                                    maṃgalaṃ śiṣyaśikṣāyai ādau nibadhnāti na jāna iti
+                                </incipit>
+                                
+                                <explicit xml:lang="sa"><locus from="7v" to="7v">[7v14]</locus> 
+                                    pakṣatāvacchedakatveneti itarabhedānumāne pakṣatāvachedakatvenety arthaḥ tasya tadviśeṣyakatatprakāraka
+                                </explicit>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItemStruct>
@@ -118,13 +158,13 @@
                                 <support>Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="10">10</height>
-                                            <width quantity="26.5">26.5</width>
+                                            <height quantity="8.5">8.5</height>
+                                            <width quantity="29">29</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="297">297 ff.</extent>
+                                <extent xml:id="folio" n="7">7 ff.</extent>
                                 
                                 <!--<foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
                                 <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
@@ -132,15 +172,15 @@
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, in good conditions.
+                                   Incomplete, damaged; only seven folios extant.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="8" type="mūla">
+                                <layout columns="1" writtenLines="12" type="commentary">
                                     
                                     <p>
-                                        8 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        12 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
                                         <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
@@ -156,9 +196,9 @@
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
                                         </dimensions>
-                                    </p>
+                                    </p>-->
                                     
-                                    <p>Details about the string hole(s).
+                                    <!--<p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
@@ -181,8 +221,10 @@
                             </decoNote>
                         </decoDesc>-->
                         
-                        <!--<additions>
-                            <list>
+                        <additions>
+                            On <locus from="1r" to="1r">1r</locus>, in the middle in black ink written by a different hand: <term xml:lang="sa">śabdamā<del>[-1-]</del>paricchedālokavyākhyā</term>, 
+                            followed by the number 29 in Devanāgarī added in blue ink; on the same folio, on the left margin in blue ink: 217 in Devanāgarī numerals and 2733 in Arabic numerals.
+                            <!--<list>
                                 <head>Marginalia</head>
                                 <item>
                                     <marginalia type="title">Abbreviated marginal title (<term xml:lang="sa">ciṃ° a°; ta° ciṃ°; ta° ciṃ° a°</term> etc.).</marginalia>
@@ -190,8 +232,8 @@
                                 <item>
                                     <marginalia type="corrections">Marginal corrections.</marginalia>
                                 </item>
-                            </list>
-                        </additions>-->
+                            </list>-->
+                        </additions>
                         
                         <bindingDesc>
                             <p><material>Cardboard cover</material>, library binding.</p>
@@ -201,8 +243,8 @@
                     
                     <history>
                         <origin>
-                            <date calendar="Vikrama" when="1603">Vikrama Saṃvat 1603</date> / <date calendar="Gregorian" when="1546">1546 CE (?).</date>
-                            <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
+                            <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
+                            <!--<origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>-->
                         </origin>
                         <provenance>Donated by 
                             <name type="person" role="dnr" key="person_00030">
@@ -653,12 +695,12 @@
         </profileDesc>
         
         <revisionDesc>
-            <change when="2022-04-01">
+            <change when="2022-08-03">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2022-04-01">
+            <change when="2022-08-03">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>
