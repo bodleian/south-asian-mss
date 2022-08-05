@@ -2426,6 +2426,92 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00114">
+                    <title type="uniform" xml:lang="sa">Prakāśa</title>
+                    <title type="variant" xml:lang="sa">Tattvacintāmaṇiprakāśa</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00114</idno>
+                    <idno type="PANDIT">90746</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/90746/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00115">
+                    <title type="uniform" xml:lang="sa">Dravyasārasaṅgraha</title>
+                    <title type="variant" xml:lang="sa">Dravyasārasaṃgraha</title>
+                    <idno type="VIAF">201716911</idno>
+                    <idno type="local">00115</idno>
+                    <idno type="PANDIT">92193</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/201716911">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/92193/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00116">
+                    <title type="uniform" xml:lang="sa">Padārthadharmasaṃgraha</title>
+                    <idno type="VIAF">187170281</idno>
+                    <idno type="local">00116</idno>
+                    <idno type="PANDIT">88455</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/187170281">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/88455/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00117">
+                    <title type="uniform" xml:lang="sa">Kiraṇāvalī</title>
+                    <idno type="VIAF">175236322</idno>
+                    <idno type="local">00117</idno>
+                    <idno type="PANDIT">89096</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/175236322">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89096/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
