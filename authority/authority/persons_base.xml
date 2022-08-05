@@ -2456,6 +2456,7 @@
                 <person xml:id="person_00111">
                     <persName type="standard" xml:lang="sa">Jagadīśa Tarkālaṃkāra</persName>
                     <persName type="display" xml:lang="sa">Jagadīśa Tarkālaṃkāra</persName>
+                    <persName type="variant" xml:lang="sa">Jagadīśa</persName>
                     <idno type="VIAF">44309004</idno>
                     <idno type="local">00111</idno>
                     <idno type="PANDIT">86065</idno>
@@ -2468,6 +2469,98 @@
                             </item>
                             <item>
                                 <ref target="https://www.panditproject.org/entity/86065/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00112">
+                    <persName type="standard" xml:lang="sa">Rucidatta</persName>
+                    <persName type="display" xml:lang="sa">Rucidatta</persName>
+                    <idno type="VIAF">265118077</idno>
+                    <idno type="local">00112</idno>
+                    <idno type="PANDIT">85819</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/265118077">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85819/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00113">
+                    <persName type="standard" xml:lang="sa">Raghudeva Nyāyālaṃkāra Bhaṭṭācārya</persName>
+                    <persName type="display" xml:lang="sa">Raghudeva Nyāyālaṃkāra</persName>
+                    <idno type="VIAF">170860304</idno>
+                    <idno type="local">00113</idno>
+                    <idno type="PANDIT">86177</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/170860304">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86177/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00114">
+                    <persName type="standard" xml:lang="sa">Praśastapāda</persName>
+                    <persName type="display" xml:lang="sa">Praśastapāda</persName>
+                    <idno type="VIAF">149617461</idno>
+                    <idno type="local">00114</idno>
+                    <idno type="PANDIT">85164</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/149617461">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85164/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00115">
+                    <persName type="standard" xml:lang="sa">Udayana</persName>
+                    <persName type="display" xml:lang="sa">Udayana</persName>
+                    <idno type="VIAF">56623455</idno>
+                    <idno type="local">00115</idno>
+                    <idno type="PANDIT">85333</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/56623455">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85333/person">
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
