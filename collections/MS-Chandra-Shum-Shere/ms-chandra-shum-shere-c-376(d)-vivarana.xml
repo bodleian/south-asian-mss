@@ -53,43 +53,18 @@
                         <summary>
                             A paper manuscript of <name type="person" subtype="aut" key="person_00109"><persName xml:lang="sa" type="standard">Gokulanātha</persName></name>'s 
                             <title xml:lang="sa" key="work_00110">Vivaraṇa</title>, a subcommentary on <name type="person" subtype="aut" key="person_00094"><persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName></name>'s 
-                            <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>, a commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
+                            <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>, in its turn a commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
                             <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Anumāna</term>, incomplete. 
                         </summary>
                         
-                        <msItemStruct n="3">
-                            <msItemStruct class="mūla" defective="true">
+                            <msItem class="subcommentary" defective="true">
                                 <author>
-                                    <name type="person" key="person_00088">
-                                        <persName xml:lang="sa" type="standard">Gaṅgeśa</persName>
+                                    <name type="person" subtype="aut" key="person_00109">
+                                        <persName xml:lang="sa" type="standard">Gokulanātha</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>
-                                
-                                <!--<rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </rubric>
-                                
-                                <incipit xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </incipit>
-                                
-                                <explicit xml:lang="pka"><locus from="110r" to="110r">[110r12]</locus> 
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="110r" to="110r">[110r]</locus> 
-                                </finalRubric>-->
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                            
-                            <msItemStruct class="commentary" defective="true">
-                                <author>
-                                    <name type="person" subtype="aut" key="person_00094">
-                                        <persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>
+                                <title xml:lang="sa" key="work_00110">Vivaraṇa</title>
                                 
                                 <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                                 </rubric>
@@ -117,8 +92,7 @@
                                 </colophon>-->
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            </msItem>
                     </msContents>
                     
                     <physDesc>

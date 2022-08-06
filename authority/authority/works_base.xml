@@ -2512,6 +2512,78 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00118">
+                    <title type="uniform" xml:lang="sa">Bhāṣāpariccheda</title>
+                    <title type="variant" xml:lang="sa">Siddhāntamuktāvalī</title>
+                    <title type="variant" xml:lang="sa">Nyāyasiddhāntamuktāvalī</title>
+                    <idno type="VIAF">146146462565627771261</idno>
+                    <idno type="local">00118</idno>
+                    <idno type="PANDIT">91900</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/146146462565627771261">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/91900/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00119">
+                    <title type="uniform" xml:lang="sa">Dinakārī</title>
+                    <title type="variant" xml:lang="sa">Siddhāntamuktāvalīprakāśa</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00119</idno>
+                    <idno type="PANDIT">91734</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/91734/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00120">
+                    <title type="uniform" xml:lang="sa">Yogavāsiṣṭha</title>
+                    <title type="variant" xml:lang="sa">Jñānavāsiṣṭha</title>
+                    <title type="variant" xml:lang="sa">Mahārāmāyaṇa</title>
+                    <title type="variant" xml:lang="sa">Vāsiṣṭha</title>
+                    <title type="variant" xml:lang="sa">Vāsiṣṭharāmāyaṇa</title>
+                    <title type="variant" xml:lang="sa">Yogavāsiṣṭharāmāyaṇa</title>
+                    <title type="variant" xml:lang="sa">Ārṣarāmāyaṇa</title>
+                    <idno type="VIAF">186700059</idno>
+                    <idno type="local">00120</idno>
+                    <idno type="PANDIT">42358</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/186700059">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42358/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

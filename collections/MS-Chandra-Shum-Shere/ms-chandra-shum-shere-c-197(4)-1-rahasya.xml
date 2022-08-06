@@ -53,51 +53,13 @@
                         <summary>
                             An incomplete paper manuscript of <name type="person" subtype="aut" key="person_00108"><persName xml:lang="sa" type="standard">Mathurānātha</persName></name>'s 
                             <title xml:lang="sa" key="work_00109">Rahasya</title>, a subcommentary on <name type="person" subtype="aut" key="person_00094"><persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName></name>'s 
-                            <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>, a commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
+                            <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>, in its turn a commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
                             <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Śabda</term>.
                             The <locus from="1r" to="1r">recto of the first folio</locus> is blank. It is bound together with other fragmentary manuscripts under a single shelfmark, however it is most likely a separate manuscript. 
                             It corresponds to <locus from="1r" to="7v">209-215</locus> in the Bodleian Library foliation.
                         </summary>
                         
-                        <msItemStruct n="2">
-                            <msItemStruct class="commentary" defective="true">
-                                <author>
-                                    <name type="person" subtype="aut" key="person_00094">
-                                        <persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>
-                                
-                                <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
-                                </rubric>
-                                
-                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    <damage agent="X" unit="X" quantity="1"></damage>
-                                    <sic></sic>
-                                    <del rend="X"></del>
-                                    <unclear reason="X"></unclear>
-                                    <add place="X" type="X" hand="X"></add>
-                                    <subst><del></del><add></add></subst>
-                                    <gap reason="X"></gap>
-                                    <g></g>
-                                    <figure type="X" rend="X"></figure>
-                                    <space type=""></space>
-                                </incipit>
-                                
-                                <explicit xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
-                                </finalRubric>
-                                
-                                <colophon xml:lang="sa"><locus from="110v" to="110v">[110v]</locus> 
-                                </colophon>-->
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                            
-                            <msItemStruct class="subcommentary" defective="true">
+                            <msItem class="subcommentary" defective="true">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00108">
                                         <persName xml:lang="sa" type="standard">Mathurānātha</persName>
@@ -124,8 +86,7 @@
                                 </explicit>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            </msItem>
                     </msContents>
                     
                     <physDesc>
