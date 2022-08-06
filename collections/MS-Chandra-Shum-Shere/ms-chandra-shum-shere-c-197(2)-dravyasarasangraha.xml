@@ -57,32 +57,7 @@
                             <title xml:lang="sa" key="work_00116">Padārthadharmasaṃgraha</title>.
                         </summary>
                         
-                        <msItemStruct n="2">
-                            <msItemStruct class="mūla" defective="true">
-                                <author>
-                                    <name type="person" key="person_00115">
-                                        <persName xml:lang="sa" type="standard">Udayana</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00117">Kiraṇāvalī</title>
-                                
-                                <!--<rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </rubric>
-                                
-                                <incipit xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </incipit>
-                                
-                                <explicit xml:lang="pka"><locus from="110r" to="110r">[110r12]</locus> 
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="110r" to="110r">[110r]</locus> 
-                                </finalRubric>-->
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                            
-                            <msItemStruct class="subcommentary" defective="true">
+                            <msItem class="subcommentary" defective="true">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00113">
                                         <persName xml:lang="sa" type="standard">Raghudeva Nyāyālaṃkāra</persName>
@@ -105,7 +80,7 @@
                                     atra sakalaśiṣṭair graṃthādau maṃgalasyopanibaddhatvād ādau maṃgalaphalaṃ vicāryate
                                 </incipit>
                                 
-                                <explicit xml:lang="sa" type="section"><locus from="19v8" to="19v8">[19v8]</locus> 
+                                <explicit xml:lang="sa" type="section"><locus from="19v" to="19v">[19v8]</locus> 
                                     nīlādeḥ svasminn api satvena tatra samavāyena nīlāpattivāraṇāya janyasatvā
                                 </explicit>
                                 
@@ -124,8 +99,7 @@
                                 </explicit>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            </msItem>
                     </msContents>
                     
                     <physDesc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00126">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00129">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -38,9 +38,9 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere c.197(4).4</idno>
+                        <idno type="shelfmark">MS Chandra Shum Shere c.197(3)</idno>
                         <altIdentifier type="internal">
-                            <idno type="Chandra_Shum_Shere_Āśutoṣa">2733</idno>
+                            <idno type="Chandra_Shum_Shere_Āśutoṣa">4348</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -51,32 +51,30 @@
                     <msContents n="1" defective="true">
                         
                         <summary>
-                            An incomplete paper manuscript of <name type="person" subtype="aut" key="person_00094"><persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName></name>'s 
-                            <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>, a commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s 
-                            <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Śabda</term>. 
-                            The <locus from="1r" to="1r">recto of the first folio</locus> is blank. It is bound together with other fragmentary manuscripts under a single shelfmark, however it is most likely a separate manuscript. 
-                            It corresponds to <locus from="1r" to="6v">223-226</locus> in the Bodleian Library foliation.
+                            An incomplete paper manuscript of <name type="person" subtype="aut" key="person_00117"><persName xml:lang="sa" type="standard">Dinakara</persName></name>'s 
+                            <title xml:lang="sa" key="work_00119">Dinakārī</title>, a commentary on <name type="person" subtype="aut" key="person_00116"><persName xml:lang="sa" type="standard">Viśvanātha Nyāyasiddhānta Pañcānana</persName></name>'s 
+                            <title xml:lang="sa" key="work_00118">Bhāṣāpariccheda</title>.
                         </summary>
                         
                             <msItem class="commentary" defective="true">
                                 <author>
-                                    <name type="person" subtype="aut" key="person_00094">
-                                        <persName xml:lang="sa" type="standard">Jayadeva Pakṣadhara Miśra</persName>
+                                    <name type="person" subtype="aut" key="person_00117">
+                                        <persName xml:lang="sa" type="standard">Dinakara</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00104">Tattvacintāmaṇyāloka</title>
+                                <title xml:lang="sa" key="work_00119">Dinakārī</title>
                                 
-                                <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1, unnumbered folio]</locus> 
-                                    śrīgaṇeśāya namaḥ
+                                <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    śrīmanmahāgaṇapataye namaḥ |
                                 </rubric>
                                 
-                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1, unnumbered folio]</locus> 
-                                    na j<del>ñ</del>āne … śaraṇam atheti ihāthaśabdasyānaṃtaryavacanatvena
+                                <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    lakṣmīpāda
                                 </incipit>
                                 
-                                <explicit xml:lang="sa"><locus from="4v" to="4v">[4v15]</locus> 
-                                    īśvarapramārūpasādhyasatvāc cānumānam akṣataṃ yadi ca na pramāṇaṃ tadoktaviśeṣaṇagarbhayo
+                                <explicit xml:lang="sa" type="section"><locus from="25v" to="25v">[25v]</locus> 
+                                    caturviṃśa
                                 </explicit>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -86,32 +84,35 @@
                     <physDesc>
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Paper.
+                                <support>Paper, several folios dyed pink on verso.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
                                             <height quantity="8.5">8.5</height>
-                                            <width quantity="29">29</width>
+                                            <width quantity="30">30</width>
                                         </dimensions>
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="4">4 ff.</extent>
+                                <extent xml:id="folio" n="25">25 ff.</extent>
                                 
-                                <!--<foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
-                                <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->  
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin under the running marginal title and mid-right margin, verso.</foliation>
+                                <foliation n="2" style="digit">Arabic numerals, top right margin, recto.</foliation>  
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                   Incomplete, damaged; only four folios extant.
+                                   Incomplete, in good condition. Extant folios: 1-25.
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="12" type="commentary">
+                                <layout columns="1" writtenLines="7" type="commentary" style="pratīka">
+                                    
+                                    <note>
+                                        Commentary layout: <term xml:lang="sa">pratīka</term>s highlighted in red powder.
+                                    </note>
                                     
                                     <p>
-                                        12 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        7 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
                                         <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
@@ -119,15 +120,15 @@
                                         </dimensions>-->
                                     </p>
                                     
-                                    <p>Deletions in yellow.
-                                        <!--<dimensions type="written_area" unit="cm">
+                                    <!--<p>Margins ruled in red.
+                                        <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>-->
-                                    </p>
+                                        </dimensions>
+                                    </p>-->
                                     
                                     <!--<p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
@@ -153,16 +154,15 @@
                         </decoDesc>-->
                         
                         <additions>
-                            On <locus from="1r" to="1r">1r</locus>, in the middle in black ink written by a different hand: <term xml:lang="sa">nyāya</term>.
-                            <!--<list>
+                            On folio <locus from="1r" to="1r">1r</locus>, in a later hand in Nāgarī: <quote xml:lang="sa">muktāvalī gūḍhārthaprakāśa°</quote> and under it <quote xml:lang="sa">mahādeva</quote>; 
+                            added by the same hand in English: <quote xml:lang="en">by</quote>; in a modern hand: <quote xml:lang="sa">madhura 26 muktāvalī ṭī madhurānātha 26</quote>; 
+                            on the right margin, the Āśutoṣa inventory number 4348 both in Devanāgarī as well as Arabic numerals in blue ink.
+                            <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="title">Abbreviated marginal title (<term xml:lang="sa">ciṃ° a°; ta° ciṃ°; ta° ciṃ° a°</term> etc.).</marginalia>
+                                    <marginalia type="title">Abbreviated marginal title, top-right margin, verso (<term xml:lang="sa">mu° ṭī°</term>).</marginalia>
                                 </item>
-                                <item>
-                                    <marginalia type="corrections">Marginal corrections.</marginalia>
-                                </item>
-                            </list>-->
+                            </list>
                         </additions>
                         
                         <bindingDesc>
@@ -625,12 +625,12 @@
         </profileDesc>
         
         <revisionDesc>
-            <change when="2022-08-03">
+            <change when="2022-08-06">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2022-08-03">
+            <change when="2022-08-06">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.
             </change>
         </revisionDesc>

@@ -57,32 +57,7 @@
                             <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Anumāna</term>, incomplete. 
                         </summary>
                         
-                        <msItemStruct n="3">
-                            <msItemStruct class="mūla" defective="true">
-                                <author>
-                                    <name type="person" key="person_00088">
-                                        <persName xml:lang="sa" type="standard">Gaṅgeśa</persName>
-                                    </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>
-                                
-                                <!--<rubric xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </rubric>
-                                
-                                <incipit xml:lang="pka"><locus from="1v" to="1v">[1v1]</locus> 
-                                </incipit>
-                                
-                                <explicit xml:lang="pka"><locus from="110r" to="110r">[110r12]</locus> 
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="110r" to="110r">[110r]</locus> 
-                                </finalRubric>-->
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                            
-                            <msItemStruct class="commentary" defective="true">
+                            <msItem class="commentary" defective="true">
                                 <author>
                                     <name type="person" key="person_00050">
                                         <persName xml:lang="sa" type="standard">Raghunātha Śiromaṇi</persName>
@@ -117,8 +92,8 @@
                                 </colophon>-->
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            </msItem>
+                        
                     </msContents>
                     
                     <physDesc>
