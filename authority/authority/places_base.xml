@@ -128,6 +128,23 @@
                     <note></note>
                 </place>
                 
+                <place xml:id="place_00009">
+                    <placeName xml:lang="en" type="index">Bindumādhava</placeName>
+                    <placeName xml:lang="sa" type="original">Bindumādhava</placeName>
+                    <!--<idno type="GETTY"></idno>-->
+                    <idno type="local">00009</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://vocab.getty.edu/page/tgn/0000000">
+                                    <title>GETTY</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Temple in <name type="place" key="place_00006"><placeName xml:lang="sa">Vārāṇasī</placeName></name>.</note>
+                </place>
+                
                 <place xml:id="place_0000X">
                     <placeName xml:lang="en" type="index"></placeName>
                     <placeName xml:lang="sa" type="original"></placeName>
