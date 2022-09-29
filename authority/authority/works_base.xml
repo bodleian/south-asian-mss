@@ -2584,6 +2584,28 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00121">
+                    <title type="uniform" xml:lang="sa">Advaitaprakāśikā</title>
+                    <title type="variant" xml:lang="sa">Advaitaprakāśa</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00121</idno>
+                    <idno type="PANDIT">92098</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/92098/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

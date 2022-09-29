@@ -2615,6 +2615,29 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00118">
+                    <persName type="standard" xml:lang="sa">Rāmānanda Tīrtha</persName>
+                    <persName type="display" xml:lang="sa">Rāmānandatīrtha</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00118</idno>
+                    <idno type="PANDIT">86144</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86144/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
