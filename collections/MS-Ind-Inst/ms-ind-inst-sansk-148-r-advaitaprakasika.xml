@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00040">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00146">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -20,15 +20,16 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                            >Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
             </publicationStmt>
-            
             <sourceDesc>
-                <msDesc  xml:id="Sanskrit" xml:lang="en">
+                
+                <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <region type="county">Oxfordshire</region>
@@ -36,10 +37,10 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="Hoernle">Sanskrit, Hoernle Collection</collection>
-                        <idno type="shelfmark">MS Sansk. c. 25(R)</idno>
+                        <collection type="sanskrit" subtype="Gmelin">Sanskrit, Gmelin collection</collection>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 148(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark">Or.long.C.258</idno>
+                             <idno type="or_long_shelfmark">Or.long.C.87</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -48,64 +49,71 @@
                     </msIdentifier>
                     
                     <msContents n="1">
-                        <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>A fragmentary 12th or 13th century palm-leaf manuscript of the <title xml:lang="san">Bhikṣuṇīkarmavācanā</title>.</summary>
+                        <summary>
+                            An incomplete paper manuscript in Bengali script of a section of <name type="person" subtype="aut" key="person_00118"><persName xml:lang="sa" type="standard">Rāmānanda Tīrtha</persName></name>'s 
+                            <title xml:lang="sa" key="work_00121">Advaitaprakāśikā</title>. However, according to a note in English written on a slip of paper wrapping the folios together, the manuscript ought to be is a list of contents, 
+                        	which confirms the Sanskrit title provided on the same slip, <term xml:lang="">Śrīmadbhāgavatapurāṇaviṣaya</term>. 
+                        </summary>
                         
-                        <msItem n="1" defective="true">
+                        <msItem n="1" defective="unknown">
+                            
                             <author>
-                                <name type="person" subtype="aut" key="person_00000">
-                                    <persName xml:lang="eng" type="standard">‏Unknown.</persName>
+                                <name type="person" subtype="aut" key="person_00118">
+                                    <persName xml:lang="sa" type="standard">Rāmānanda Tīrtha</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="san">Bhikṣuṇīkarmavācanā</title>
+                            <title xml:lang="sa" key="work_00121" type="main">Advaitaprakāśikā</title>
                             
-                            <incipit xml:lang="san"><locus from="3r" to="3r">[3r1]</locus>
-                                mātṛgrāmasya caturthasya śrāmaṇyaphala<add place="top">syā 1</add>dhigamāya la<g>%</g>bhate
-                                mātṛgrāmaḥ svākhyāte dharmmavi<add place="top">na 1</add>ye pravrajyām upasampadaṃ
-                                bhikṣuṇībhāvañ caret_ mātṛgrāmo bhagavato ntike bra<damage>-1-</damage><lb/>[3r2]caryam ity
-                                evam ukte bhagavān mahāprajāpatīṃ gautamī¦<g>%</g>m idam avocat_ |
+                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            </rubric>
+                            
+                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                                <damage agent="X" unit="X" quantity="1"></damage>
+                                <sic></sic>
+                                <del rend="X"></del>
+                                <unclear reason="X"></unclear>
+                                <add place="X" type="X" hand="X"></add>
+                                <subst><del></del><add></add></subst>
+                                <gap reason="X"></gap>
+                                <g></g>
+                                <figure type="X" rend="X"></figure>
                             </incipit>
                             
-<!--                            <finalRubric type="section" xml:lang="san"><locus from="3r" to="3"></locus>|| <g>@</g>|| </finalRubric>-->
+                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
+                            </finalRubric>
                             
-<!--                            <explicit xml:lang="san"><locus from="89v" to="89v">[89v5]</locus></explicit>-->
+                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
                             
-<!--                            <finalRubric xml:lang="san"><locus from="90r" to="90r">[90r2]</locus></finalRubric>-->
+                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
                             
-<!--                            <colophon xml:lang="san"><locus from="90r" to="90r">[90r2]</locus></colophon>-->
+                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
                             
-                            <textLang mainLang="san" >Sanskrit.</textLang>
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
                     <physDesc>
                         <objectDesc form="pothī"> 
-                            <supportDesc material="corypha_palm_leaf">
-                                <support>
-                                    Palm leaf (Corypha).
+                            <supportDesc material="paper">
+                                <support>Paper, orange dyed.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="30"> 30</height>
-                                            <width quantity="5.4"> 5.4</width>
+                                            <height atLeast="9" atMost="9.3">9-9.3</height>
+                                            <width quantity="36.5">36.5</width>
                                         </dimensions>
-<!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
-                                        <!--<dimensions type="folio" scope="range" unit="cm">
-                                            <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                            <width atLeast="X" atMost="Y">ca. X-Y</width>
-                                        </dimensions>-->
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="25"> 25 ff.</extent>
+                                <extent xml:id="folio" n="5">5 ff.</extent>
                                 
-<!--                                <foliation n="1" type="original">Letter numerals, mid-left margin, verso.</foliation>-->
-<!--                                <foliation n="2" type="original">Devanāgarī numerals, mid-right margin, verso.</foliation>-->
-<!--                                <foliation n="3" type="modern">Arabic numerals, top right margin, verso.</foliation> -->
- 
+                                <!--<foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
+                                
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, damaged.
+                                   Good condition, incomplete. Extant folios: 2-3, 8, 10, 11.
                                 </condition>
                             </supportDesc>
                             
@@ -150,9 +158,8 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="pāla" medium="black_ink">
-                                <desc>Pāla script in black ink. </desc>
-                                <!--<p><hi rend="bold">Scribe:</hi> <name type="person" subtype="scr" key="local_ VIAF_"><persName xml:lang="san" type="standard"> [scribe name]</persName></name></p>-->
+                            <handNote scope="sole" script="Bengali" medium="black_ink">
+                                <desc>Bengali in black ink.</desc>
                             </handNote>
                         </handDesc>
                         
@@ -162,51 +169,51 @@
                             </decoNote>
                         </decoDesc>-->
                         
-                        <!--<additions>
+                        <additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="corrections">On the bottom right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
+                                    <marginalia type="corrections">Marginal corrections by the same hand.</marginalia>
                                 </item>
                                 <item>
-                                    <marginalia type="annotations">On the top right margin of folio <locus from="61r" to="61r">61r5</locus>, ..... .</marginalia>
+                                    <marginalia type="annotations">Marginal annotations by a different hand.</marginalia>
                                 </item>
                             </list>
-                        </additions>-->
-                        <!--<bindingDesc>
-                            <p><material>Wood cover</material>, original binding.</p>
-                            <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
-                        </bindingDesc>-->
+                        </additions>
+                        
+                        <bindingDesc>
+                            <p><material>Cardboard cover</material>, library binding.</p>
+                            <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
+                        </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1100" notAfter="1300">12th–13th century.</date>
+                            <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
                             <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Bought from <name type="person" role="dnr" key="local_12 VIAF_14837838"
-                            ><!--<persName type="standard" xml:lang="eng">Johnston,
-                                    E.H.</persName>-->
-                            <persName type="display" xml:lang="eng">A. F. R. Hoernle</persName></name> in <date calendar="Gregorian"
-                                    when="1887">1887</date>. </provenance>
-                        <!--<acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
+                        <provenance>Donated by the Rev.
+                            <name type="person" subtype="dnr" key="local_00000">
+                                <persName type="standard" xml:lang="lat">F. Gmelin</persName><persName type="display" xml:lang="lat">Gmelin, F</persName></name>.
+                        </provenance>
+                        <!--<acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>-->
                     </history>
                     
                     <additional>
-                        
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
                                     a valid reader's card, for admissions procedures contact <ref
                                         target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>).</p>
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
                         
-                        <listBibl type="ms_descriptions">
+                        <!--<listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
-                            
                             <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
                                     <title level="m">[unpublished manuscript]</title>
@@ -220,8 +227,7 @@
                                     </imprint>
                                 </monogr>
                             </biblStruct>
-                            
-                            <!--<biblStruct type="book" xml:id="XX">
+                            <biblStruct type="book" xml:id="XX">
                                 <monogr>
                                     <title/>
                                     <author>
@@ -234,8 +240,8 @@
                                         <date/>
                                     </imprint>
                                 </monogr>
-                            </biblStruct>-->
-                        </listBibl>
+                            </biblStruct>
+                        </listBibl>-->
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
@@ -441,8 +447,8 @@
                         <category xml:id="laghukāvya">
                             <catDesc>Laghukāvya</catDesc>
                         </category>
-                        <category xml:id="kāthā">
-                            <catDesc>Kāthā</catDesc>
+                        <category xml:id="kathā">
+                            <catDesc>Kathā</catDesc>
                         </category>
                         <category xml:id="campū">
                             <catDesc>Campū</catDesc>
@@ -612,7 +618,6 @@
                 </taxonomy>
             </classDecl>
         </encodingDesc>
-        
         <profileDesc>
             <textClass>
                 <keywords scheme="#LCSH">
@@ -624,21 +629,19 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#bauddha">Bauddha</item>
-                        <item corresp="#vinaya">Vinaya</item>
-                        <item></item>
+                        <item corresp="#śāstra">Śāstra</item>
+                        <item corresp="#vedānta">Vedānta</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
-        
         <revisionDesc>
-            <change when="2021-09-21">
+            <change when="2022-09-29">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2020-04-02">
+            <change when="2022-09-29">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
