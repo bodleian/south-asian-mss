@@ -64,29 +64,26 @@
                             
                             <title xml:lang="sa" key="work_00022">Mugdhabodha</title>
                             
-                            <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
+                            <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                oṃ namo gaṇeśāya ||
                             </rubric>
                             
-                            <incipit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
-                                <damage agent="X" unit="X" quantity="1"></damage>
-                                <sic></sic>
-                                <del rend="X"></del>
-                                <unclear reason="X"></unclear>
-                                <add place="X" type="X" hand="X"></add>
-                                <subst><del></del><add></add></subst>
-                                <gap reason="X"></gap>
-                                <g></g>
-                                <figure type="X" rend="X"></figure>
+                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                mukundaṃ saccidānandaṃ praṇipatya pralīyate | mugdhabodhaṃ vyākaraṇaṃ paropakṛtaye mayā || oṃ namaḥ śivāya || iti namaskārasūtraṃ || <lb/> 
+                                [1v2] śaṃ śabdaiḥ || śabdair maṅgalaṃ <sic>syāt</sic> iti prayojanābhidheyasambandhāḥ ||
                             </incipit>
                             
-                            <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
+                            <!--<explicit xml:lang="sa"><locus from="130r" to="130v">[130r4]</locus> 
+                                yasya vyākaraṇa<lb/>[130r5]ṇe 
+                            </explicit>-->
+                            
+                            <finalRubric xml:lang="sa"><locus from="130v" to="130v">[130v1]</locus> 
+                                ity ācaryyacakracuḍāmaṇiśrīvopadevaviracitaṃ mugdha<lb/>[130v2]bodhaṃ vyākaraṇaṃ samāptaṃ || <g>@</g> || <g>@</g> || <g>@</g>
                             </finalRubric>
                             
-                            <explicit xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> </explicit>
-                            
-                            <finalRubric xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </finalRubric>
-                            
-                           <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
+                           <colophon xml:lang="sa"><locus from="130v" to="130v">[130v2]</locus> 
+                               śakābdāḥ 1719 || 24 māghasya || śrīkṛṣṇaśuraṇaṃ ||
+                           </colophon>
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
@@ -95,20 +92,18 @@
                     <physDesc>
                         <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Paper.
-                                    <!--<p>
+                                <support>Paper; alternating folios dyed in red.
+                                    <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="X"> X</height>
-                                            <width quantity="X"> X</width>
+                                            <height quantity="8">8</height>
+                                            <width atLeast="34" atMost="34.5">34-34.5</width>
                                         </dimensions>
-                                    </p>-->
+                                    </p>
                                 </support>
                                 
-<!--                                <extent xml:id="folio" n="X"> X ff.</extent>-->
+                                <extent xml:id="folio" n="130">130 ff.</extent>
                                 
-                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
+                                <foliation n="1" style="numeral" rend="ben">Bengali numerals, mid-right margin, verso.</foliation> 
                                 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
@@ -117,44 +112,40 @@
                                 </condition>
                             </supportDesc>
                             
-                            <!--<layoutDesc>
-                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="5" type="mūla">
                                     
-                                    <!-\-the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-\->
-                                    
-                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                    <!--<note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
                                         <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
-                                    </note>
+                                    </note>-->
                                     
                                     <p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
+                                        5 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details on frame, marginal lines, ruling and the like.
-                                        <dimensions type="written_area" unit="cm">
+                                    <p>Impressed marginal frame lines. Corrections in red and yellow paste.
+                                        <!--<dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
+                                    <p>One string hole, possibly never used.
+                                        <dimensions type="string_hole" rend="true" quantity="1" scope="most" unit="cm">
+                                            <height atLeast="2.7" atMost="3">2.7-3</height>
+                                            <width quantity="2.5">2.5</width>
                                         </dimensions>
                                     </p>
                                 </layout>
-                            </layoutDesc>-->
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
@@ -178,7 +169,7 @@
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="annotations">Numerous marginal annotations.</marginalia>
+                                    <marginalia type="annotations">Numerous marginal annotationsin Bengali script in black, red, and blue ink by different hands.</marginalia>
                                 </item>
                             </list>
                         </additions>
