@@ -358,6 +358,11 @@
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
+                            <item>
+                                <ref target="https://jaina-prosopography.org/person/1034">
+                                    <title>Jaina Prosopography</title>
+                                </ref>
+                            </item>
                         </list>
                     </note>
                     <note></note>
@@ -2636,6 +2641,52 @@
                         </list>
                     </note>
                     <note></note>
+                </person>
+                
+                <person xml:id="person_00119">
+                    <persName type="standard" xml:lang="sa">Sudharmāsvāmī</persName>
+                    <persName type="display" xml:lang="sa">Sudharmāsvāmī</persName>
+                    <idno type="VIAF">50623740</idno>
+                    <idno type="local">00119</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/50623740">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00120">
+                    <persName type="standard" xml:lang="sa">Jopadevajī</persName>
+                    <persName type="display" xml:lang="sa">Jopadevajī</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00120</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Scribe of <idno type="shelfmark">Ms. Ind. Inst. Sansk. 114(R)</idno>.</note>
                 </person>
                 
                 <person xml:id="person_">

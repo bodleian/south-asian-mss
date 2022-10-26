@@ -154,15 +154,21 @@
                 </bibl>
                 
                 <bibl xml:id="work_00009">
-                    <title type="uniform" xml:lang="sa">Bhagavatīsūtra</title>
-                    <title type="variant" xml:lang="pka">Bhagavaī</title>
-                    <idno type="VIAF">174592943</idno>
-                    <idno type="local"></idno>
+                    <title type="uniform" xml:lang="sa">Meghadūta</title>
+                    <title type="variant" xml:lang="sa">Meghasandeśa</title>
+                    <idno type="VIAF">186721044</idno>
+                    <idno type="local">00009</idno>
+                    <idno type="PANDIT">108721</idno>
                     <note type="links">
                         <list type="links">
                             <item>
-                                <ref target="https://viaf.org/viaf/174592943/">
+                                <ref target="http://viaf.org/viaf/186721044">
                                     <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/108721/work">
+                                    <title>PANDIT</title>
                                 </ref>
                             </item>
                         </list>
@@ -2623,6 +2629,72 @@
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00123">
+                    <title type="uniform" xml:lang="sa">Bhagavatīsūtra</title>
+                    <title type="variant" xml:lang="sa">Vivāhaprajñapti</title>
+                    <title type="variant" xml:lang="sa">Vyākhyāprajñaptisūtra</title>
+                    <idno type="VIAF">174592943</idno>
+                    <idno type="local">00123</idno>
+                    <idno type="PANDIT">95956</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/174592943">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/95956/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00124">
+                    <title type="uniform" xml:lang="sa">Rājapraśnīyavṛtti</title>
+                    <idno type="VIAF">16353673</idno>
+                    <idno type="local">00124</idno>
+                    <idno type="PANDIT">89678</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/16353673">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89678/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00125">
+                    <title type="uniform" xml:lang="sa">Jambūdvīpaprajñaptisūtra</title>
+                    <title type="variant" xml:lang="pka">Jambuddīvapannattī</title>
+                    <idno type="VIAF">178209462</idno>
+                    <idno type="local">00125</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/178209462">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
                         </list>
                     </note>
                 </bibl>
