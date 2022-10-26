@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00018">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00026">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -37,156 +37,122 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 38</idno>
-                        <!--<altIdentifier type="internal">
-                            <idno type="or_long_shelfmark"></idno>
+                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 131(R)</idno>
+                        <altIdentifier type="internal">
+                            <idno type="or_long_shelfmark">Or.long.C.241</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
                                 <orgName></orgName></note>
-                        </altIdentifier>-->
+                        </altIdentifier>
                     </msIdentifier>
                     
-                    <msContents n="1+1">
+                    <msContents n="1">
+                        <summary>
+                            A paper manuscript in Bengali script of <name type="person" subtype="aut" key="person_00025">
+                                <persName xml:lang="sa" type="standard">Vopadeva's </persName>
+                            </name> <title xml:lang="sa">Mugdhabodha</title> with numerous marginal annotations.
+                        </summary>
                         
-                        <!--<summary>
-                        	There are charts. tables and diagrams on fol. 2A-B,3A,4A,6A-B,
-                        	7A-B, 8A, 9A,10A-B, 11A-B, 12A,13B,14A-B; 17A-B, 22B, 24A-B, 25A, 29A,
-                        	31A-B,34A, 35A, 37A, 38A-B, 39A, 40A-B, 41A-B, On fol.7B -a diagram of
-                        	Mount Meru; on fol.14B - there is a kālacakra with descriptions of 6 ārās
-                        	with it's 12 divisions.; On fol.17A - diagram of Lavaṇa samudra.; On
-                        	fol.17B there are two diagramas at left - [TO CHECK DIAGRAM FROM DIARY TO
-                        	COSMOLOGY WORK],; On fol.20A - a diagram of Vidyutaprabha ; On fol.20B -
-                        	a diagram of Aḍhīdvīpa.; On fol.21A - a diagram of Vaitāḍhya mountain; On
-                        	fol. 21B a diagram of Jaṃbū vṛkṣa.; On fol. 22A - a diagram of
-                        	Jagatīcakra.; On fol.23B - a diagram of 14 Rājaloka.; on fol.26A - a
-                        	diagram of Samaśreṇi.; On fol.34B - a diagram of four Kalasa.; On fol.35B
-                        	- a diagram of Jaṃbūdvīpa measurement .;On fol.42A - a diagram of Rucaka
-                        	parvatamāna  
-                        </summary>-->
-                        
-                        <msItemStruct n="2">
-                            <msItemStruct class="mūla" defective="false">
-                                 <author>
-                                     <name type="person" subtype="aut" key="local_00000 VIAF_"><persName xml:lang="sa" type="standard">Ratnaśekhara</persName></name>
-                                 </author>
-                                
-                                 <title xml:lang="sa" key="local_00000" type="alt">Kṣetrasamāsa</title>
-                                 
-                                 <!--<incipit xml:lang="pra" type="mula"><locus from="1v" to="1v">[1v1]</locus> Vīraṃ jaya-sehara-paya paiṭṭhiaṃ paṇamiūṇa su-guruṃ ca
-                            		manda tti sasaraṇ-aṭṭhā Khittiviyārāṇum ucchāmi || 1 ||
-                                 </incipit>
-                                 <explicit xml:lang="pra" type="mula"><locus from="42r" to="42r">[42r1?]</locus> sesāṇa dīvāṇa taho dahīṇaṃ viyāra vitthāramaṇorapāraṃ,
-                            		sayā suyāu paribhāvayantu savvapi savvattu mai kkavitta || 264 ||
-                            		msūrīhiṃ jaṃ Rayaṇasehara-nāmaehi app'attham eva raiyam
-                            		nara-khitta-vikkhaṃ saṃsohiyaṃ payaraṇaṃ suyaṇehi loe pāveu taṃ
-                            		kusala-raṅga-maiṃ pasiddhiṃ || 265 ||
-                                 </explicit>
-                                 <finalRubric xml:lang="pra" type="mula"><locus from="42r" to="42r">[42r]</locus> iti śrīKhetasamāsa-sāvacūriḥ || cha ||
-                                 </finalRubric>-->
-                            	<!--<colophon xml:lang="pra" type="mula"><locus from="20v" to="20v">[20v1]</locus></colophon>-->
-                                
-                                <textLang mainLang="pra">Prakrit.</textLang>
-                            </msItemStruct>
+                        <msItem n="1" defective="unknown">
+                            <author>
+                                <name type="person" subtype="aut" key="person_00025">
+                                    <persName xml:lang="sa" type="standard">Vopadeva</persName>
+                                </name>
+                            </author>
                             
-                            <msItemStruct class="commentary" defective="false">
-                                <author>
-                                   <name type="person" subtype="aut" key="person_00035">
-                                      <persName xml:lang="sa" type="standard">Ratnaśekhara</persName>
-                                   </name>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00032">Kṣetrasamāsāvacūri</title>
-                                
-                                <!--<incipit xml:lang="gu" type="commentary"><locus from="1v" to="1v"
-                                    >[1v1]</locus> śrīMahāvīra deva te kehavā chai jagaddiśva(ra) tihā
-                                    śekhara-mukuṭa praṇamīnaiṃ āpaṇuṃ gurupaṇa mūrkha chau āpaṇa pānai
-                                    samariyā Kṣetra-vicāranu ........tirichau eka rāja-kṣetra nai viṣai
-                                    asaṅkhyātī dvīpa sahui te saghalā uddhāra palyopamanā pacavĪsa koḍākoḍī
-                                    nā samayamāna dvīpa samudra jāṇi Kuru-kṣetra nā </incipit>
-                                <explicit xml:lang="gu" type="commentary"><locus from="42r" to="42r"
-                                    >[42r?]</locus> tathā samudranau vicāra teha cha nu vistāra anant pāra
-                                    nirantara śrute siddhānta thakī paribhākhyau saṃpūrṇa sarva janā-mataṃ
-                                    naiṃ viṣai eka citra thakā || 264 || ācārya śrīRatnaśekhara nāmai
-                                    stokārthā ji racitaṃ manuṣya-kṣetra nau vakhāṇa samyag prakāri sodhi kāu
-                                    eka prakaraṇa sva-jana-loka pāmyauṃ te māṅgalikya raṅgamaya prasiddha
-                                    samṛddhi || 265 || </explicit>
-                                <finalRubric xml:lang="sa" type="commentary"><locus from="42r" to="42r"
-                                    >[42r?]</locus> iti śrīKṣetrasamāsa sūtra sācacūri samāptaṃ || 108(?)
-                                    || </finalRubric>
-                                <!-\-<colophon xml:lang="gu" type="commentary"><locus from="20v" to="20v">[20v1]</locus></colophon>-\->-->
-                                
-                                <textLang mainLang="gu">Old Gujarātī.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            <title xml:lang="sa" key="work_00022">Mugdhabodha</title>
+                            
+                            <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                oṃ namo gaṇeśāya ||
+                            </rubric>
+                            
+                            <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                mukundaṃ saccidānandaṃ praṇipatya pralīyate | mugdhabodhaṃ vyākaraṇaṃ paropakṛtaye mayā || oṃ namaḥ śivāya || iti namaskārasūtraṃ || <lb/> 
+                                [1v2] śaṃ śabdaiḥ || śabdair maṅgalaṃ <sic>syāt</sic> iti prayojanābhidheyasambandhāḥ ||
+                            </incipit>
+                            
+                            <!--<explicit xml:lang="sa"><locus from="130r" to="130v">[130r4]</locus> 
+                                yasya vyākaraṇa<lb/>[130r5]ṇe 
+                            </explicit>-->
+                            
+                            <finalRubric xml:lang="sa"><locus from="130v" to="130v">[130v1]</locus> 
+                                ity ācaryyacakracuḍāmaṇiśrīvopadevaviracitaṃ mugdha<lb/>[130v2]bodhaṃ vyākaraṇaṃ samāptaṃ || <g>@</g> || <g>@</g> || <g>@</g>
+                            </finalRubric>
+                            
+                           <colophon xml:lang="sa"><locus from="130v" to="130v">[130v2]</locus> 
+                               śakābdāḥ 1719 || 24 māghasya || śrīkṛṣṇaśuraṇaṃ ||
+                           </colophon>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                        </msItem>
                     </msContents>
                     
                     <physDesc>
-                        <objectDesc form="pothī">
-                            <supportDesc material="Paper">
-                                <support>Paper. <p>
+                        <objectDesc form="pothī"> 
+                            <supportDesc material="paper">
+                                <support>Paper; alternating folios dyed in red.
+                                    <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="10"> 10</height>
-                                            <width quantity="25.5">25.5</width>
+                                            <height quantity="8">8</height>
+                                            <width atLeast="34" atMost="34.5">34-34.5</width>
                                         </dimensions>
                                     </p>
                                 </support>
-
-                                <extent xml:id="folio" n="42">42 ff.</extent>
-
-                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
-
+                                
+                                <extent xml:id="folio" n="130">130 ff.</extent>
+                                
+                                <foliation n="1" style="numeral" rend="ben">Bengali numerals, mid-right margin, verso.</foliation> 
+                                
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <condition> Complete, in good condition. </condition>
+                                <condition>
+                                    Complete, in good condition. Damaged on the lower left margin, original restorations with black paper on all folios; 
+                                    some folios are slightly worm eaten, and some <term xml:lang="sa">akṣara</term>s are damaged, but still readable.
+                                </condition>
                             </supportDesc>
-
+                            
                             <layoutDesc>
-                                <!--<layout columns="1" writtenLines="5" type="commentary" style="tripāṭha">
-                                    <!-\-the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-\->
+                                <layout columns="1" writtenLines="5" type="mūla">
                                     
-                                    <!-\-<note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                    <!--<note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
                                         <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
-                                    </note>-\->
+                                    </note>-->
                                     
                                     <p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
+                                        5 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                        <!--<dimensions type="akṣara" n="X" unit="mm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details on frame, marginal lines, ruling and the like.
-                                        <dimensions type="written_area" unit="cm">
+                                    <p>Impressed marginal frame lines. Corrections in red and yellow paste.
+                                        <!--<dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
                                         </dimensions>
                                         <dimensions type="interlinear_space" scope="most" unit="mm">
                                             <height quantity="X">X</height>
-                                        </dimensions>
+                                        </dimensions>-->
                                     </p>
                                     
-                                    <p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
+                                    <p>One string hole, possibly never used.
+                                        <dimensions type="string_hole" rend="true" quantity="1" scope="most" unit="cm">
+                                            <height atLeast="2.7" atMost="3">2.7-3</height>
+                                            <width quantity="2.5">2.5</width>
                                         </dimensions>
                                     </p>
-                                </layout>-->
+                                </layout>
                             </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Jainanāgarī" medium="black_ink">
-                                <desc>Jainanāgarī in black ink.</desc>
+                            <handNote scope="sole" script="Bengali" medium="black_ink">
+                                <desc>Bengali in black ink.</desc>
                                 <!--<desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
+                                    <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
                                     </name>
                                 </desc>-->
@@ -203,40 +169,24 @@
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="invocations">Invocation (<term xml:lang="sa">śrī</term>)
-                                        immediately before the foliation, mid right margin, verso.</marginalia>
-                                </item>
-                                <item>
-                                    <marginalia type="annotations">Numerous annotations on all margins throughout
-                                        the manuscript; the first set in black ink was probably written by the
-                                        scribe of the main text, while the second set in red ink might have
-                                        been added later.</marginalia>
+                                    <marginalia type="annotations">Numerous marginal annotationsin Bengali script in black, red, and blue ink by different hands.</marginalia>
                                 </item>
                             </list>
                         </additions>
                         
-                        <bindingDesc>
-                            <p><material>Cardboard box</material>, library binding.</p>
-                        </bindingDesc>
+                        <!--<bindingDesc>
+                            <p><material>Wood cover</material>, original binding.</p>
+                            <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
+                        </bindingDesc>-->
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1500" notAfter="1700">16-17th
-                                century.</date>
-                            <origPlace xml:lang="eng" key="place_00010">Gujarat.</origPlace>
+                            <date calendar="Śāka" when="1719">Śāka 1719</date> / <date calendar="Gregorian" when="1796">1796 CE.</date>
+                            <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Collected by <name type="person" role="dnr" key="person_00016">
-                            <persName type="standard" xml:lang="de">Bühler, Georg</persName>
-                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
-                                calendar="Gregorian" from="1877" to="1878">1877-78</date>.
-                        </provenance>
-                        <acquisition>
-                            Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
-                                <persName type="standard" xml:lang="en">Monier-Williams, Monier</persName>
-                                <persName type="display" xml:lang="en">M. Monier-Williams</persName></name><!-- in <date
-                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>-->.
-                        </acquisition>
+                        <provenance>Provenance unknown.</provenance>
+                        <!--<acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
                     </history>
                     
                     <additional>
@@ -250,23 +200,36 @@
                             <note/>
                         </adminInfo>
                         
-                        <listBibl type="ms_descriptions">
+                        <!--<listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
-                            
-                            <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="manuscript" xml:id="X">
                                 <monogr>
-                                    <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
-                                        Library, Oxford</title>
-                                    <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
+                                    <title level="m">[unpublished manuscript]</title>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
-                                        <publisher>Clarendon Press</publisher>
-                                        <date>1903</date>
-                                        <biblScope>no. 58, p. 29</biblScope>
+                                        <pubPlace/>
+                                        <date/>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
-                        </listBibl>
+                            <biblStruct type="book" xml:id="XX">
+                                <monogr>
+                                    <title/>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
+                                    <imprint>
+                                        <pubPlace/>
+                                        <publisher/>
+                                        <date/>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>-->
                         
                         <!--<listBibl type="manuscripts">
                             <head>Manuscripts</head>
@@ -472,8 +435,8 @@
                         <category xml:id="laghukāvya">
                             <catDesc>Laghukāvya</catDesc>
                         </category>
-                        <category xml:id="kathā">
-                            <catDesc>Kathā</catDesc>
+                        <category xml:id="kāthā">
+                            <catDesc>Kāthā</catDesc>
                         </category>
                         <category xml:id="campū">
                             <catDesc>Campū</catDesc>
@@ -648,27 +611,25 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#jaina">Jaina.</item>
-                        <item corresp="#śvetāmbara">Śvetāmbara.</item>
-                        <item corresp="#cosmology">Cosmology.</item>
-                        <item corresp="#jyotiṣa">Jyotiṣa.</item>
+                        <item corresp="#vyākaraṇa">Vyākaraṇa</item>
+                        <item corresp="#vopadeva">Vopadeva</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-10-04">
+            <change when="2021-09-17">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-10-04">
+            <change when="2021-08-18">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>
