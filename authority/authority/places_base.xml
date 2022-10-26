@@ -22,13 +22,13 @@
             <listPlace>
                 <place xml:id="place_00001">
                     <placeName xml:lang="en" type="index">Bengal</placeName>
-                    <placeName xml:lang="sa" type="original">Bengal</placeName>
+                    <placeName xml:lang="en" type="original">Bengal</placeName>
                     <idno type="GETTY">7547215</idno>
                     <idno type="local">00001</idno>
                 </place>
                 
                 <place xml:id="place_00002">
-                    <placeName xml:lang="en" type="index">Maṇisaṅghamahāvihāra</placeName>
+                    <placeName xml:lang="sa" type="index">Maṇisaṅghamahāvihāra</placeName>
                     <placeName xml:lang="sa" type="original">Maṇisaṅghamahāvihāra</placeName>
 <!--                    <idno type="GETTY"></idno>-->
                     <idno type="local">00002</idno>
@@ -60,7 +60,7 @@
                 </place>
                 
                 <place xml:id="place_00005">
-                    <placeName xml:lang="en" type="index">Kīrttipuṇyamāhavihāra</placeName>
+                    <placeName xml:lang="sa" type="index">Kīrttipuṇyamāhavihāra</placeName>
                     <placeName xml:lang="sa" type="original">Kīrttipuṇyamāhavihāra</placeName>
                     <!--                    <idno type="GETTY"></idno>-->
                     <idno type="local">00005</idno>
@@ -71,8 +71,8 @@
                     <placeName xml:lang="en" type="index">Vārāṇasī</placeName>
                     <placeName xml:lang="sa" type="original">Vārāṇasī</placeName>
                     <placeName xml:lang="sa" type="variant">Kāśī</placeName>
-                    <placeName xml:lang="sa" type="variant">Benares</placeName>
-                    <placeName xml:lang="sa" type="variant">Banaras</placeName>
+                    <placeName xml:lang="en" type="variant">Benares</placeName>
+                    <placeName xml:lang="en" type="variant">Banaras</placeName>
                     <idno type="GETTY">7001509</idno>
                     <idno type="local">00006</idno>
                     <idno type="VIAF">168498951</idno>
@@ -113,7 +113,7 @@
                 
                 <place xml:id="place_00008">
                     <placeName xml:lang="en" type="index">Kucha</placeName>
-                    <placeName xml:lang="sa" type="original">Kucha</placeName>
+                    <placeName xml:lang="en" type="original">Kucha</placeName>
                     <idno type="GETTY">6003207</idno>
                     <idno type="local">00008</idno>
                     <note type="links">
@@ -129,7 +129,7 @@
                 </place>
                 
                 <place xml:id="place_00009">
-                    <placeName xml:lang="en" type="index">Bindumādhava</placeName>
+                    <placeName xml:lang="sa" type="index">Bindumādhava</placeName>
                     <placeName xml:lang="sa" type="original">Bindumādhava</placeName>
                     <!--<idno type="GETTY"></idno>-->
                     <idno type="local">00009</idno>
@@ -145,9 +145,27 @@
                     <note>Temple in <name type="place" key="place_00006"><placeName xml:lang="sa">Vārāṇasī</placeName></name>.</note>
                 </place>
                 
+                <place xml:id="place_00010">
+                    <placeName xml:lang="en" type="index">Gujarāt</placeName>
+                    <placeName xml:lang="sa" type="original">Gujarāt</placeName>
+                    <placeName xml:lang="en" type="variant">Gujarat</placeName>
+                    <idno type="GETTY">7573040</idno>
+                    <idno type="local">00010</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://vocab.getty.edu/page/tgn/7573040">
+                                    <title>GETTY</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </place>
+                
                 <place xml:id="place_0000X">
-                    <placeName xml:lang="en" type="index"></placeName>
-                    <placeName xml:lang="sa" type="original"></placeName>
+                    <placeName xml:lang="en" type="index">Gujarāt</placeName>
+                    <placeName xml:lang="sa" type="original">Gujarāt</placeName>
                     <idno type="GETTY"></idno>
                     <idno type="local">0000X</idno>
                     <note type="links">
