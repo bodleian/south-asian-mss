@@ -2720,6 +2720,49 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00127">
+                    <title type="uniform" xml:lang="en">Horoscope</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00127</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00128">
+                    <title type="uniform" xml:lang="sa">Bhagavadgītāṭīkā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00128</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Unpublished <term xml:lang="sa">bhāṣā</term> commentary in <idno type="shelfmark">MS. Ind. Inst. Sansk. 138(R)</idno>.</note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
