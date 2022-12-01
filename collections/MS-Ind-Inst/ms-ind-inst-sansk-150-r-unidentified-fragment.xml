@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00029">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00148">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -37,10 +37,10 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="miscellaneous" xml:id="Gmelin">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS.Ind.Inst.Sansk.143(R)</idno>
+                        <collection type="sanskrit" subtype="Gmelin">Sanskrit, Gmelin collection</collection>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 150(R)</idno>
                         <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark">Or.long.C.82</idno>
+                            <idno type="or_long_shelfmark">Or.long.C.89</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
@@ -50,20 +50,18 @@
                     
                     <msContents n="1">
                         <summary>
-                            A paper manuscript in Bengali script containing the first chapter of <name type="person" subtype="aut" key="person_00024">
-                                <persName xml:lang="sa" type="standard">Rāmānanda Tīrtha</persName>
-                            </name>'s <title xml:lang="sa">Rāmahṛdaya</title>.
+                            A fragment of a paper manuscript consisiting of one bifolium, containing a text consisting of a discourse by Brahmā to Yājñavalkya.
                         </summary>
                         
-                        <msItem n="1" defective="true">
+                        <msItem n="1" defective="unknown">
                             
                             <author>
-                                <name type="person" subtype="aut" key="person_00024">
-                                    <persName xml:lang="sa" type="standard">Rāmānanda Tīrtha</persName>
+                                <name type="person" subtype="aut" key="person_00000">
+                                    <persName xml:lang="sa" type="standard">Unknown</persName>
                                 </name>
                             </author>
                             
-                            <title xml:lang="sa" key="work_">Rāmahṛdaya</title>
+                            <title xml:lang="sa" key="work_00000" type="main">Unidentified fragment</title>
                             
                             <!--<rubric xml:lang="sa"><locus from="Xv" to="Xv">[XvY]</locus> 
                             </rubric>
@@ -99,30 +97,34 @@
                                 <support>Paper.
                                     <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="X"> X</height>
-                                            <width quantity="X"> X</width>
-                                        </dimensions>
-<!-\-                                        ALTERNATIVELY, if you give a range use the following pattern:-\->
-                                        <dimensions type="folio" scope="range" unit="cm">
-                                            <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                            <width atLeast="X" atMost="Y">ca. X-Y</width>
+                                            <height atLeast="9" atMost="9.3">9-9.3</height>
+                                            <width quantity="36.5">36.5</width>
                                         </dimensions>
                                     </p>-->
                                 </support>
                                 
-                                <extent xml:id="folio" n="6">6 ff.</extent>
+                                <extent xml:id="folio" n="2">2 ff. (1 bifolium)</extent>
                                 
-                                <foliation n="1" style="numeral-beng">Bengali numerals, mid-left margin, verso.</foliation> 
+                                <!--<foliation n="1" style="letter">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral-deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, in good condition.
+                                   Good condition, incomplete.
                                 </condition>
                             </supportDesc>
                             
                             <!--<layoutDesc>
-                                <layout columns="1" ruledLines="X">
-                                    <!-\-                                   the @ruledLines must be used only in those cases when there is actually a ruling, otherwise use the @writtenLines-\->
+                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
+                                    
+                                    <!-\-the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-\->
+                                    
+                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
+                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
+                                    </note>
+                                    
                                     <p>
                                         XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
                                         <dimensions type="akṣara" n="X" unit="mm">
@@ -132,7 +134,7 @@
                                         </dimensions>
                                     </p>
                                     
-                                    <p>
+                                    <p>Details on frame, marginal lines, ruling and the like.
                                         <dimensions type="written_area" unit="cm">
                                             <height quantity="X"></height>
                                             <width atLeast="X" atMost="X"></width>
@@ -142,22 +144,20 @@
                                         </dimensions>
                                     </p>
                                     
-                                    <p>
+                                    <p>Details about the string hole(s).
                                         <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
                                             <height quantity="X">X</height>
                                             <width quantity="X">X</width>
                                             <depth quantity="X">X</depth>
                                         </dimensions>
-                                    </p> 
-                                    
-                                    <p>Details on frame, marginal lines, ruling and the like.</p>
+                                    </p>
                                 </layout>
                             </layoutDesc>-->
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Bengali" medium="black_ink">
-                                <desc>Bengali in black ink.</desc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
                             </handNote>
                         </handDesc>
                         
@@ -167,25 +167,28 @@
                             </decoNote>
                         </decoDesc>-->
                         
-                        <additions>
+                        <!--<additions>
                             <list>
                                 <head>Marginalia</head>
                                 <item>
-                                    <marginalia type="annotations">Occasional marginal annotations.</marginalia>
+                                    <marginalia type="corrections">Marginal corrections by the same hand.</marginalia>
+                                </item>
+                                <item>
+                                    <marginalia type="annotations">Marginal annotations by a different hand.</marginalia>
                                 </item>
                             </list>
-                        </additions>
+                        </additions>-->
                         
-                        <!--<bindingDesc>
-                            <p><material>Wood cover</material>, original binding.</p>
-                            <p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>
-                        </bindingDesc>-->
+                        <bindingDesc>
+                            <p><material>Cardboard cover</material>, library binding.</p>
+                            <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
+                        </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
-                            <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
+                            <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
+                            <!--<origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>-->
                         </origin>
                         <provenance>Donated by the Rev.
                             <name type="person" subtype="dnr" key="person_00021">
@@ -301,16 +304,16 @@
                             <catDesc>Vedalakṣaṇa</catDesc>
                             <category xml:id="śikṣā">
                                 <catDesc>Śikṣā</catDesc>
-                                </category>
+                            </category>
                             <category xml:id="pariśiṣṭa">
                                 <catDesc>Pariśiṣṭa</catDesc>
-                                </category>
+                            </category>
                             <category xml:id="anukramaṇikā">
                                 <catDesc>Anukramaṇikā</catDesc>
-                                </category>
+                            </category>
                             <category xml:id="prātiśākhya">
                                 <catDesc>Prātiśākhya</catDesc>
-                                </category>
+                            </category>
                         </category>
                     </category>
                     
@@ -341,6 +344,9 @@
                     </category>
                     
                     <category xml:id="bhakti"><catDesc>Bhakti</catDesc>
+                        <category xml:id="gītā">
+                            <catDesc>Gītā</catDesc>
+                        </category>
                     </category>
                     
                     <category xml:id="tantra">
@@ -354,11 +360,30 @@
                         <category xml:id="kāma">
                             <catDesc>Kāma</catDesc>
                         </category>
-                        <category xml:id="dharma">
-                            <catDesc>Dharma</catDesc>
+                        <category xml:id="dharma"><catDesc>Dharma</catDesc>
+                            <category xml:id="dharmanibandha">
+                                <catDesc>Dharmanibandha</catDesc>
+                            </category>
                         </category>
-                        <category xml:id="vyākaraṇa">
-                            <catDesc>Vyākaraṇa</catDesc>
+                        <category xml:id="vyākaraṇa"><catDesc>Vyākaraṇa</catDesc>
+                            <category xml:id="pāṇinīya">
+                                <catDesc>Pāṇinīya</catDesc>
+                            </category>
+                            <category xml:id="cāndra">
+                                <catDesc>Cāndra</catDesc>
+                            </category>
+                            <category xml:id="sārasvata">
+                                <catDesc>Sārasvata</catDesc>
+                            </category>
+                            <category xml:id="kātantra">
+                                <catDesc>Kātantra</catDesc>
+                            </category>
+                            <category xml:id="haima">
+                                <catDesc>Haima</catDesc>
+                            </category>
+                            <category xml:id="vopadeva">
+                                <catDesc>Vopadeva</catDesc>
+                            </category>
                         </category>
                         <category xml:id="kośa">
                             <catDesc>Kośa</catDesc>
@@ -372,8 +397,13 @@
                         <category xml:id="dhanur">
                             <catDesc>Dhanur</catDesc>
                         </category>
-                        <category xml:id="nyāya">
-                            <catDesc>Nyāya</catDesc>
+                        <category xml:id="nyāya"><catDesc>Nyāya</catDesc>
+                            <category xml:id="prācīnanyāya">
+                                <catDesc>Prācīnanyāya</catDesc>
+                            </category>
+                            <category xml:id="navyanyāya">
+                                <catDesc>Navyanyāya</catDesc>
+                            </category>
                         </category>
                         <category xml:id="vaiśeṣika">
                             <catDesc>Vaiśeṣika</catDesc>
@@ -415,8 +445,8 @@
                         <category xml:id="laghukāvya">
                             <catDesc>Laghukāvya</catDesc>
                         </category>
-                        <category xml:id="kāthā">
-                            <catDesc>Kāthā</catDesc>
+                        <category xml:id="kathā">
+                            <catDesc>Kathā</catDesc>
                         </category>
                         <category xml:id="campū">
                             <catDesc>Campū</catDesc>
@@ -439,6 +469,12 @@
                     </category>
                     
                     <category xml:id="śaiva"><catDesc>Śaiva</catDesc>
+                        <category xml:id="śaivasiddhānta">
+                            <catDesc>Śaivasiddhānta</catDesc>
+                            <category xml:id="trika">
+                                <catDesc>Trika</catDesc>
+                            </category>
+                        </category>
                     </category>
                     
                     <category xml:id="śākta"><catDesc>Śākta</catDesc>
@@ -448,19 +484,130 @@
                     </category>
                     
                     <category xml:id="jaina"><catDesc>Jaina</catDesc>
+                        <category xml:id="śvetāmbara"><catDesc>Śvetāmbara</catDesc>
+                            <category xml:id="aṅga">
+                                <catDesc>Aṅga</catDesc>
+                            </category>
+                            <category xml:id="upāṅga">
+                                <catDesc>Upāṅga</catDesc>
+                            </category>
+                            <category xml:id="chedasūtra">
+                                <catDesc>Chedasūtra</catDesc>
+                            </category>
+                            <category xml:id="mūlasūtra">
+                                <catDesc>Mūlasūtra</catDesc>
+                            </category>
+                            <category xml:id="nandisūtra">
+                                <catDesc>Nandisūtra</catDesc>
+                            </category>
+                            <category xml:id="anuyogadvāra">
+                                <catDesc>Anuyogadvāra</catDesc>
+                            </category>
+                            <category xml:id="prakīrṇaka">
+                                <catDesc>Prakīrṇaka</catDesc>
+                            </category>
+                            <category xml:id="āvaśyaka">
+                                <catDesc>Āvaśyaka</catDesc>
+                            </category>
+                            <category xml:id="monastic_discipline">
+                                <catDesc>Monastic discipline</catDesc>
+                            </category>
+                            <category xml:id="cosmology">
+                                <catDesc>Cosmology</catDesc>
+                            </category>
+                            <category xml:id="karma">
+                                <catDesc></catDesc>
+                            </category>
+                            <category xml:id="ethics">
+                                <catDesc>General teaching on ethics and particular ethical topics</catDesc>
+                            </category>
+                            <category xml:id="polemic_works">
+                                <catDesc>Polemic works</catDesc>
+                            </category>
+                            <category xml:id="philosophy">
+                                <catDesc>Philosophy</catDesc>
+                            </category>
+                            <category xml:id="narrative_śvetāmbara">
+                                <catDesc>Narrative literature relating to the Jinas, early Jain teachers, and individual characters</catDesc>
+                            </category>
+                            <category xml:id="Semi-historical_texts">
+                                <catDesc>Semi-historical texts</catDesc>
+                            </category>
+                            <category xml:id="stories">
+                                <catDesc>Collections of stories</catDesc>
+                            </category>
+                            <category xml:id="tīrtha">
+                                <catDesc>Tīrtha literature</catDesc>
+                            </category>
+                            <category xml:id="vrata_śvetāmbar">
+                                <catDesc>Vrata and rituals</catDesc>
+                            </category>
+                            <category xml:id="paṭṭāvalī">
+                                <catDesc>Paṭṭāvalīs</catDesc>
+                            </category>
+                            <category xml:id="lists_śvetāmbara">
+                                <catDesc>Lists and tables</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="digambara"><catDesc>Digambara</catDesc>
+                            <category xml:id="canonical">
+                                <catDesc>Canonical scriptures</catDesc>
+                            </category>
+                            <category xml:id="dogmatics">
+                                <catDesc>Dogmatics and ethics</catDesc>
+                            </category>
+                            <category xml:id="narrative_digambara">
+                                <catDesc>Narrative literature</catDesc>
+                            </category>
+                            <category xml:id="vrata_digambara">
+                                <catDesc>Vrata and ritual works</catDesc>
+                            </category>
+                            <category xml:id="lists_digambara">
+                                <catDesc>Lists and tables</catDesc>
+                            </category>
+                        </category>
                     </category>
                     
                     <category xml:id="bauddha"><catDesc>Bauddha</catDesc>
+                        <category xml:id="vinaya">
+                            <catDesc>Vinaya</catDesc>
+                        </category>
+                        <category xml:id="abhidharma">
+                            <catDesc>Abhidharma</catDesc>
+                        </category>
+                        <category xml:id="theravāda">
+                            <catDesc>Theravāda</catDesc>
+                        </category>
+                        <category xml:id="mahāyāna"><catDesc>Mahāyāna</catDesc>
+                            <category xml:id="sūtra">
+                                <catDesc>Sūtra</catDesc>
+                            </category>
+                            <category xml:id="navadharma">
+                                <catDesc>Navadharma</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="vajrayāna">
+                            <catDesc>Vajrayāna</catDesc>
+                        </category>
+                        <category xml:id="dhāraṇī">
+                            <catDesc>Dhāraṇī</catDesc>
+                        </category>
+                        <category xml:id="avadāna_jātaka">
+                            <catDesc>Avadānas and Jātakas</catDesc>
+                        </category>
+                        <category xml:id="pramāṇa">
+                            <catDesc>Pramāṇa</catDesc>
+                        </category>
+                        <category xml:id="lekha">
+                            <catDesc>Lekha</catDesc>
+                        </category>
                     </category>
                     
-                    <category xml:id="sikh">
-                        <catDesc>Sikh</catDesc>
+                    <category xml:id="sikh"><catDesc>Sikh</catDesc>
                     </category>
                     
-                    <category xml:id="avesta">
-                        <catDesc>Avesta</catDesc>
-                    </category>
-                    
+                    <category xml:id="avesta"><catDesc>Avesta</catDesc>
+                    </category>    
                 </taxonomy>
                 
                 <taxonomy xml:id="local_texts">
@@ -480,19 +627,18 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#itihāsa">Itihāsa</item>
-                        <item corresp="#rāmāyaṇa">Rāmāyaṇa</item>
+                        <item corresp="#purāṇa">Purāṇa</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-09-17">
+            <change when="2022-11-04">
                 <persName>Camillo Formigatti modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
                     >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2021-09-17">
+            <change when="2022-11-04">
                 <persName>Camillo Formigatti created this entry.</persName>
             </change>
         </revisionDesc>

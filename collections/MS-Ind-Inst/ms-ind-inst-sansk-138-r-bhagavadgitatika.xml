@@ -37,7 +37,7 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="hoernle">Sanskrit, Hoernle Collection</collection>
+                        <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
                         <idno type="shelfmark">MS. Ind. Inst. Sansk. 138(R)</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark">XYZ</idno>
@@ -49,7 +49,7 @@
                     </msIdentifier>
                     
                     
-                    <msContents n="1+1">
+                    <msContents n="1+1+1">
                         <!--increment n attribute for ms containing multiple ms items-->
                         <summary>
                             A modern manuscript written on European paper, containing only the first nine <term xml:lang="sa">adhyāya</term>s of the 
