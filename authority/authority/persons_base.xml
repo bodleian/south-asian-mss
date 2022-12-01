@@ -478,18 +478,25 @@
                 </person>
                 
                 <person xml:id="person_00024">
-                    <persName type="standard" xml:lang="sa">Rāmānandatīrtha</persName>
+                    <persName type="standard" xml:lang="sa">Rāmānanda Tīrtha</persName>
                     <persName type="display" xml:lang="sa">Rāmānandatīrtha</persName>
-                    <idno type="local">00024</idno>
-                    <!--<note type="links">
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00118</idno>
+                    <idno type="PANDIT">86144</idno>
+                    <note type="links">
                         <list type="links">
-                            <item>
+                            <!--<item>
                                 <ref target="https://viaf.org/viaf/00000000/">
                                     <title>VIAF</title>
                                 </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/86144/person">
+                                    <title>PANDIT</title>
+                                </ref>
                             </item>
                         </list>
-                    </note>-->
+                    </note>
                     <note></note>
                 </person>
                 
@@ -2621,20 +2628,20 @@
                 </person>
                 
                 <person xml:id="person_00118">
-                    <persName type="standard" xml:lang="sa">Rāmānanda Tīrtha</persName>
-                    <persName type="display" xml:lang="sa">Rāmānandatīrtha</persName>
-                    <!--<idno type="VIAF">00000000</idno>-->
+                    <persName type="standard" xml:lang="sa">Pālakāpya</persName>
+                    <persName type="display" xml:lang="sa">Pālakāpya</persName>
+                    <idno type="VIAF">2459349</idno>
                     <idno type="local">00118</idno>
-                    <idno type="PANDIT">86144</idno>
+                    <idno type="PANDIT">40941</idno>
                     <note type="links">
                         <list type="links">
-                            <!--<item>
-                                <ref target="https://viaf.org/viaf/00000000/">
+                            <item>
+                                <ref target="http://viaf.org/viaf/2459349">
                                     <title>VIAF</title>
                                 </ref>
-                            </item>-->
+                            </item>
                             <item>
-                                <ref target="https://www.panditproject.org/entity/86144/person">
+                                <ref target="https://www.panditproject.org/entity/40941/person">
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
@@ -2710,6 +2717,32 @@
                         </list>
                     </note>
                     <note></note>
+                </person>
+                
+                <person xml:id="person_00122">
+                    <persName type="standard" xml:lang="sa">Jagadānandamiśra</persName>
+                    <persName type="display" xml:lang="sa">Jagadānandamiśra</persName>
+                    <persName type="variant" xml:lang="sa">Jagadānanda Miśra</persName>
+                    <persName type="variant" xml:lang="sa">Jagadānandaśarmā</persName>
+                    <persName type="variant" xml:lang="sa">Jagadānanda</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00122</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Author of the <title xml:lang="sa" key="work_00129">Kulārcanadīpikā</title>.</note>
                 </person>
                 
                 <person xml:id="person_">

@@ -2763,6 +2763,58 @@
                     <note>Unpublished <term xml:lang="sa">bhāṣā</term> commentary in <idno type="shelfmark">MS. Ind. Inst. Sansk. 138(R)</idno>.</note>
                 </bibl>
                 
+                <bibl xml:id="work_00129">
+                    <title type="uniform" xml:lang="sa">Kulārcanadīpikā</title>
+                    <title type="variant" xml:lang="sa">Kulārcanadīpakā</title>
+                    <title type="variant" xml:lang="sa">Kālikārcanadīpikā</title>
+                    <title type="variant" xml:lang="sa">Kaulārcanadīpikā</title>
+                    <title type="variant" xml:lang="sa">Kaulikārcanadīpikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00129</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00130">
+                    <title type="uniform" xml:lang="sa">Gajaśāstra</title>
+                    <title type="variant" xml:lang="sa">Hastyāyurveda</title>
+                    <title type="variant" xml:lang="sa">Gajacikitsā</title>
+                    <title type="variant" xml:lang="sa">Gajvaidya</title>
+                    <title type="variant" xml:lang="sa">Gajāyurveda</title>
+                    <title type="variant" xml:lang="sa">Pālakāpya</title>
+                    <title type="variant" xml:lang="sa">Pālakāvya</title>
+                    <idno type="VIAF">309517621</idno>
+                    <idno type="local">00130</idno>
+                    <idno type="PANDIT">42248</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/309517621">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42248/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>
