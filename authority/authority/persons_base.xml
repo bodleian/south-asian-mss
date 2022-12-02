@@ -2745,6 +2745,53 @@
                     <note>Author of the <title xml:lang="sa" key="work_00129">Kulārcanadīpikā</title>.</note>
                 </person>
                 
+                <person xml:id="person_00123">
+                    <persName type="standard" xml:lang="sa">Viṣṇuśarman</persName>
+                    <persName type="display" xml:lang="sa">Viṣṇuśarman</persName>
+                    <idno type="VIAF">59090393</idno>
+                    <idno type="local">00123</idno>
+                    <idno type="PANDIT">112154</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/59090393">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112154/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00124">
+                    <persName type="standard" xml:lang="sa">Nārāyaṇa Paṇḍita</persName>
+                    <persName type="display" xml:lang="sa">Nārāyaṇa Paṇḍita</persName>
+                    <persName type="variant" xml:lang="sa">Nārāyaṇa</persName>
+                    <idno type="VIAF">7437033</idno>
+                    <idno type="local">00124</idno>
+                    <idno type="PANDIT">111761</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/7437033">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/111761/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
