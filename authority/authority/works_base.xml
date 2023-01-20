@@ -2857,6 +2857,72 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00133">
+                    <title type="uniform" xml:lang="sa">Prasthānabheda</title>
+                    <!--<title type="variant" xml:lang="xct"></title>-->
+                    <idno type="VIAF">173843144</idno>
+                    <idno type="local">00133</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/173843144/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00134">
+                    <title type="uniform" xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title>
+                    <title type="variant" xml:lang="sa">Kāvyālaṅkārasutrāṇi</title>
+                    <title type="variant" xml:lang="sa">Kāvyālaṅkāravṛtti</title>
+                    <idno type="VIAF">176682803</idno>
+                    <idno type="local">00134</idno>
+                    <idno type="PANDIT">109009</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/176682803">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109009/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00135">
+                    <title type="uniform" xml:lang="sa">Daśarūpaka</title>
+                    <idno type="VIAF">316868742</idno>
+                    <idno type="local">00135</idno>
+                    <idno type="PANDIT">96443</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/316868742">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96443/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
                 <bibl xml:id="work_000XX">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="xct"></title>

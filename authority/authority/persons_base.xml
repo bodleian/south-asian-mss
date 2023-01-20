@@ -481,7 +481,7 @@
                     <persName type="standard" xml:lang="sa">Rāmānanda Tīrtha</persName>
                     <persName type="display" xml:lang="sa">Rāmānandatīrtha</persName>
                     <!--<idno type="VIAF">00000000</idno>-->
-                    <idno type="local">00118</idno>
+                    <idno type="local">00024</idno>
                     <idno type="PANDIT">86144</idno>
                     <note type="links">
                         <list type="links">
@@ -2784,6 +2784,101 @@
                             </item>
                             <item>
                                 <ref target="https://www.panditproject.org/entity/111761/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00125">
+                    <persName type="standard" xml:lang="sa">Madhusūdana Sarasvatī</persName>
+                    <persName type="display" xml:lang="sa">Madhusūdanasarasvatī</persName>
+                    <persName type="variant" xml:lang="sa">Madhusūdana</persName>
+                    <idno type="VIAF">2643569</idno>
+                    <idno type="local">00125</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/2643569">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00126">
+                    <persName type="standard" xml:lang="en">Law, J. S.</persName>
+                    <persName type="display" xml:lang="en">J. S. Law</persName>
+                    <persName type="variant" xml:lang="en">Major J. S. Law</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00126</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Donor of <idno type="shelfmark">Ms. Ind. Inst. Sansk. 59(iv)</idno> and <idno type="shelfmark">Ms. Ind. Inst. Sansk. 4</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00127">
+                    <persName type="standard" xml:lang="sa">Vāmana</persName>
+                    <persName type="display" xml:lang="sa">Vāmana</persName>
+                    <idno type="VIAF">24830597</idno>
+                    <idno type="local">00127</idno>
+                    <idno type="PANDIT">109008</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/24830597">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109008/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00128">
+                    <persName type="standard" xml:lang="sa">Dhanañjaya</persName>
+                    <persName type="display" xml:lang="sa">Dhanañjaya</persName>
+                    <persName type="variant" xml:lang="sa">Dhanaṃjaya</persName>
+                    <idno type="VIAF">263357483</idno>
+                    <idno type="local">00128</idno>
+                    <idno type="PANDIT">96442</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/263357483">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96442/person">
                                     <title>PANDIT</title>
                                 </ref>
                             </item>
