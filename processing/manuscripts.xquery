@@ -153,6 +153,7 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                     <field name="id">{ $msid }</field>
                     { bod:one2one($mainshelfmark, 'title', 'error') }
                     { bod:one2one($ms//tei:titleStmt/tei:title[@type='collection'], 'ms_collection_s') }
+                    { bod:many2one($ms//tei:msDesc/tei:msIdentifier/tei:collection, 'ms_collection_s', 'Not specified') }
                     { bod:one2one($ms//tei:msDesc/tei:msIdentifier/tei:institution, 'institution_sm') }
                     { bod:many2one($ms//tei:msDesc/tei:msIdentifier/tei:repository, 'ms_repository_s') }
                     { bod:strings2many(bod:shelfmarkVariants($allshelfmarks), 'shelfmarks') (: Non-tokenized field :) }
