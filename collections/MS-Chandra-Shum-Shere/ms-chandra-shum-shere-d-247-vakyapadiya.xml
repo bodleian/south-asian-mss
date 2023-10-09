@@ -216,6 +216,11 @@
                         </availability>
                         <note/>
                     </adminInfo>
+                    <surrogates>
+                        <bibl type="digital-facsimile" subtype="full">
+                            <ref target="https://digital.bodleian.ox.ac.uk/objects/809a5212-276f-487f-96ca-17a7d939ac1b/"><title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                        </bibl> 
+                    </surrogates>
                     
                     <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>

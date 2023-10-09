@@ -140,6 +140,12 @@
                             </availability>
                             <note/>
                         </adminInfo>
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/8bc0c8d7-b3b4-4de1-9ad4-da1e5d866289/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                     </additional>
                 </msDesc>
             </sourceDesc>
