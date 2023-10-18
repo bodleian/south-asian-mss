@@ -30,7 +30,7 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection type="main">Douce Collection</collection>
-                  <idno type="shelfmark">MS. Douce Or. b. 1</idno>
+                  <idno type="shelfmark">MS. Douce Or. b. 1</idno><idno type="ieArk">ark:29072/x0tm70mt5209</idno><idno type="crArk">ark:29072/x0c534fp43j3</idno>
                </msIdentifier>
                <msContents>
                   <summary>An album of 26 Indian pictures with 14 calligraphic
@@ -39,10 +39,8 @@
                </msContents>
                <history>
                   <origin>n.d.</origin>
-                  <provenance>The collections of <persName key="person_00130" role="fmo dnr"
-                     >Francis Douce, d. 1834</persName>.</provenance>
-                  <acquisition>The Douce bequest came to the Bodleian Library in <date
-                     calendar="#Gregorian" when="1834">1834</date>.</acquisition>
+                  <provenance>The collections of <persName key="person_00130" role="fmo dnr">Francis Douce, d. 1834</persName>.</provenance>
+                  <acquisition>The Douce bequest came to the Bodleian Library in <date calendar="#Gregorian" when="1834">1834</date>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -50,9 +48,7 @@
                         <source>For fuller details see the record for <ref target="https://www.fihrist.org.uk/catalog/manuscript_22920">MS. Douce Or. b. 1</ref> in FIHRIST.</source>
                      </recordHist>
                   </adminInfo>
-                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref
-                     target="https://digital.bodleian.ox.ac.uk/objects/b8d569b5-7bc8-4c25-8d3f-31c1fabf5fb9/"
-                     ><title>Digital Bodleian</title></ref>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/b8d569b5-7bc8-4c25-8d3f-31c1fabf5fb9/"><title>Digital Bodleian</title></ref>
                      <note>(full digital facsimile)</note></bibl></surrogates>
                </additional>
             </msDesc>

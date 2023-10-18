@@ -30,7 +30,7 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection type="main">Ouseley Add. Collection</collection>
-                  <idno type="shelfmark">MS. Ouseley Add. 166</idno>
+                  <idno type="shelfmark">MS. Ouseley Add. 166</idno><idno type="ieArk">ark:29072/x0pg15bd74qc</idno><idno type="crArk">ark:29072/x0pc289h91dh</idno>
                </msIdentifier>
                <msContents>
                   <summary>An Album of 44 Indian Paintings.</summary>
@@ -57,14 +57,11 @@
                            outlining the subject of your research, the importance of this item to
                            that research, and the resources you have already consulted. Entry to
                            read in the Library is permitted only on presentation of a valid reader's
-                           card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>).</p>
                      </availability>
                   </adminInfo>
-                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref
-                           target="https://digital.bodleian.ox.ac.uk/objects/ff980e86-cb6d-4c1e-aa0d-c782d111c44b/"
-                              ><title>Digital Bodleian</title></ref>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/ff980e86-cb6d-4c1e-aa0d-c782d111c44b/"><title>Digital Bodleian</title></ref>
                         <note>(full digital facsimile)</note></bibl></surrogates>
                </additional>
             </msDesc>

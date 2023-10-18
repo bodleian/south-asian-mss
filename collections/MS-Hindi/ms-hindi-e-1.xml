@@ -36,7 +36,7 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="hindi" subtype="miscellaneous">Hindi, miscellaneous</collection>
-                        <idno type="shelfmark">MS.Hindi.e.1</idno>
+                        <idno type="shelfmark">MS.Hindi.e.1</idno><idno type="ieArk">ark:29072/x0cj82k776s2</idno><idno type="crArk">ark:29072/x0cf95jb93g6</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -216,9 +216,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -496,14 +494,13 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080723"
-                                >Manuscripts, Hindi</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080723">Manuscripts, Hindi</ref>
                         </item>
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#sikh"></item>
+                        <item corresp="#sikh"/>
                     </list>
                 </keywords>
             </textClass>
@@ -513,8 +510,7 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080723"
-                                >Manuscripts, Hindi</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080723">Manuscripts, Hindi</ref>
                         </item>
                     </list>
                 </keywords>
@@ -525,9 +521,7 @@
                 <persName>Camillo Formigatti modified this entry.</persName>
             </change>
             <change when="2016-11-21">
-                <persName>Camillo Formigatti created this entry  according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref>.</persName>
+                <persName>Camillo Formigatti created this entry  according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref>.</persName>
             </change>
         </revisionDesc>
     </teiHeader>

@@ -30,7 +30,7 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection type="main">Douce Collection</collection>
-                  <idno type="shelfmark">MS. Douce Or. a. 3</idno>
+                  <idno type="shelfmark">MS. Douce Or. a. 3</idno><idno type="ieArk">ark:29072/x06m311p89j5</idno><idno type="crArk">ark:29072/x0c247ds6077</idno>
                </msIdentifier>
                <msContents>
                   <summary>An Album of 38 Indian Paintings and calligraphic panels.</summary>
@@ -42,10 +42,8 @@
                      <origDate calendar="#Gregorian" from="1700" to="1800">Compiled in the 18th
                         century.</origDate>
                   </origin>
-                  <provenance>The collections of <persName key="person_00130" role="fmo dnr"
-                        >Francis Douce, d. 1834</persName>.</provenance>
-                  <acquisition>The Douce bequest came to the Bodleian Library in <date
-                        calendar="#Gregorian" when="1834">1834</date>.</acquisition>
+                  <provenance>The collections of <persName key="person_00130" role="fmo dnr">Francis Douce, d. 1834</persName>.</provenance>
+                  <acquisition>The Douce bequest came to the Bodleian Library in <date calendar="#Gregorian" when="1834">1834</date>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -61,14 +59,11 @@
                            outlining the subject of your research, the importance of this item to
                            that research, and the resources you have already consulted. Entry to
                            read in the Library is permitted only on presentation of a valid reader's
-                           card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>).</p>
                      </availability>
                   </adminInfo>
-                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref
-                           target="https://digital.bodleian.ox.ac.uk/objects/2b80c88c-93a4-4592-b98d-bf2b64132b4f/"
-                              ><title>Digital Bodleian</title></ref>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/2b80c88c-93a4-4592-b98d-bf2b64132b4f/"><title>Digital Bodleian</title></ref>
                         <note>(full digital facsimile)</note></bibl></surrogates>
                </additional>
             </msDesc>

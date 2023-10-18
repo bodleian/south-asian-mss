@@ -30,7 +30,7 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection type="main">Ouseley Add. Collection</collection>
-                  <idno type="shelfmark">MS. Ouseley Add. 171</idno>
+                  <idno type="shelfmark">MS. Ouseley Add. 171</idno><idno type="ieArk">ark:29072/x0pv63g007zh</idno><idno type="crArk">ark:29072/x0pr76f324nn</idno>
                   <altIdentifier>
                      <idno/>
                   </altIdentifier>
@@ -62,14 +62,11 @@
                            outlining the subject of your research, the importance of this item to
                            that research, and the resources you have already consulted. Entry to
                            read in the Library is permitted only on presentation of a valid reader's
-                           card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>).</p>
                      </availability>
                   </adminInfo>
-                  <surrogates><bibl type="digital-facsimile" subtype="partial"><ref
-                           target="https://digital.bodleian.ox.ac.uk/objects/c9c5dfcc-6e14-4800-a4a7-19712b5f952f/"
-                              ><title>Digital Bodleian</title></ref>
+                  <surrogates><bibl type="digital-facsimile" subtype="partial"><ref target="https://digital.bodleian.ox.ac.uk/objects/c9c5dfcc-6e14-4800-a4a7-19712b5f952f/"><title>Digital Bodleian</title></ref>
                         <note>(partial digital facsimile)</note></bibl></surrogates>
                </additional>
             </msDesc>

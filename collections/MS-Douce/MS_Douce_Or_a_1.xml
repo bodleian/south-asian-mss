@@ -31,7 +31,7 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection type="main">Douce Collection</collection>
-                  <idno type="shelfmark">MS. Douce Or. a. 1</idno>
+                  <idno type="shelfmark">MS. Douce Or. a. 1</idno><idno type="ieArk">ark:29072/x02f75r890jj</idno><idno type="crArk">ark:29072/x0bz60cw76x5</idno>
                </msIdentifier>
                <msContents>
                   <summary>An album of 41 Indian pictures with calligraphic
@@ -43,10 +43,8 @@
                      <origPlace/>
                      <origDate calendar="#Gregorian" when="1650">Assembled c. 1650</origDate>
                   </origin>
-                  <provenance>The collections of <persName key="person_00130" role="fmo dnr"
-                        >Francis Douce, d. 1834</persName>.</provenance>
-                  <acquisition>The Douce bequest came to the Bodleian Library in <date
-                        calendar="#Gregorian" when="1834">1834</date>.</acquisition>
+                  <provenance>The collections of <persName key="person_00130" role="fmo dnr">Francis Douce, d. 1834</persName>.</provenance>
+                  <acquisition>The Douce bequest came to the Bodleian Library in <date calendar="#Gregorian" when="1834">1834</date>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -62,14 +60,11 @@
                            outlining the subject of your research, the importance of this item to
                            that research, and the resources you have already consulted. Entry to
                            read in the Library is permitted only on presentation of a valid reader's
-                           card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>).</p>
                      </availability>
                   </adminInfo>
-                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref
-                           target="https://digital.bodleian.ox.ac.uk/objects/ad812eb4-7922-4bb3-a9c5-b751ef21de7f/"
-                              ><title>Digital Bodleian</title></ref>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/ad812eb4-7922-4bb3-a9c5-b751ef21de7f/"><title>Digital Bodleian</title></ref>
                         <note>(full digital facsimile)</note></bibl></surrogates>
                </additional>
             </msDesc>

@@ -30,7 +30,7 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection type="main">Ouseley Add. Collection</collection>
-                  <idno type="shelfmark">MS. Ouseley Add. 170</idno>
+                  <idno type="shelfmark">MS. Ouseley Add. 170</idno><idno type="ieArk">ark:29072/x0pn89d641bs</idno><idno type="crArk">ark:29072/x0pk02c9581k</idno>
                </msIdentifier>
                <msContents>
                   <summary>An Album of 21 Indian Paintings with calligraphic panels.</summary>
@@ -59,14 +59,11 @@
                            outlining the subject of your research, the importance of this item to
                            that research, and the resources you have already consulted. Entry to
                            read in the Library is permitted only on presentation of a valid reader's
-                           card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>).</p>
                      </availability>
                   </adminInfo>
-                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref
-                           target="https://digital.bodleian.ox.ac.uk/objects/ec31ab9d-b229-460f-b913-b25b24a31318/"
-                              ><title>Digital Bodleian</title></ref>
+                  <surrogates><bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/ec31ab9d-b229-460f-b913-b25b24a31318/"><title>Digital Bodleian</title></ref>
                         <note>(full digital facsimile)</note></bibl></surrogates>
                </additional>
             </msDesc>
