@@ -35,16 +35,15 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="miscellaneous" xml:id="Ffoulkes">Sanskrit, miscellaneous
                         </collection>
-                        <idno type="shelfmark">MS. Sansk. e. 13 (R)</idno>
+                        <idno type="shelfmark">MS. Sansk. e. 13 (R)</idno><idno type="ieArk">ark:29072/x0qv33rw412h</idno><idno type="crArk">ark:29072/x0qr46r057rp</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.D.49</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
                     
@@ -84,7 +83,7 @@
                                śṛī<unclear reason="script">[-2-]ḥ <sic>pranātu</sic> ||</unclear>
                            </colophon>
                             -->
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
@@ -180,13 +179,9 @@
                             <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
                             <origPlace xml:lang="eng" key="place_00006">Vārāṇasī</origPlace>
                         </origin>
-                        <provenance>Executed for <name
-                            type="person" role="dnr" key="person_00099"><persName
-                                type="standard" xml:lang="eng">Strange, T.</persName>
+                        <provenance>Executed for <name type="person" role="dnr" key="person_00099"><persName type="standard" xml:lang="eng">Strange, T.</persName>
                             <persName type="display" xml:lang="eng">Sir T. Strange</persName></name> in <date calendar="Gregorian" when="1864">1864</date> 
-                            by his daughter <name
-                                type="person" role="dnr" key="person_00100"><persName
-                                    type="standard" xml:lang="eng">Ffoulkes, Edmund</persName>
+                            by his daughter <name type="person" role="dnr" key="person_00100"><persName type="standard" xml:lang="eng">Ffoulkes, Edmund</persName>
                                 <persName type="display" xml:lang="eng">Mrs. Edmund Ffoulkes</persName></name>
                         </provenance>
                         <!--<acquisition>
@@ -198,13 +193,16 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
-                        
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/9df7f094-47c4-4f75-a962-916b40f668a3/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
@@ -222,8 +220,7 @@
                                 </monogr>
                             </biblStruct>-->
                             
-                            <biblStruct type="book" xml:id="Keith1903"
-                                corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
                                         Library, Oxford</title>
@@ -512,7 +509,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -632,9 +629,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2022-04-20">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2022-04-20">
                 <persName>Camillo Formigatti created this entry.</persName>

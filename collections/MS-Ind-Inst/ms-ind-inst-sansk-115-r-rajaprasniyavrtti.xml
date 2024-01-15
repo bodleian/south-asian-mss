@@ -35,15 +35,14 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
-                        <idno type="shelfmark">Ms. Ind. Inst. Sansk. 115(R)</idno>
+                        <idno type="shelfmark">Ms. Ind. Inst. Sansk. 115(R)</idno><idno type="ieArk">ark:29072/x0db78tc438j</idno><idno type="crArk">ark:29072/x0d791sg59zk</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.294</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
                     
@@ -136,7 +135,7 @@
                             </supportDesc>
                             
                             <layoutDesc>
-                                <layout columns="1" writtenLines="22" type="commentary"  style="pañcapāṭha">
+                                <layout columns="1" writtenLines="22" type="commentary" style="pañcapāṭha">
                                     <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
                                     otherwise use the @writtenLines-->
                                     
@@ -210,8 +209,7 @@
                         </origin>
                         <provenance>Collected by <name type="person" role="dnr" key="person_00016">
                             <persName type="standard" xml:lang="de">Bühler, Georg</persName>
-                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
-                                calendar="Gregorian" from="1877" to="1878">1877-78</date>.
+                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date calendar="Gregorian" from="1877" to="1878">1877-78</date>.
                         </provenance>
                         <acquisition>
                             Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
@@ -225,9 +223,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -525,7 +521,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -649,9 +645,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2022-10-20">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2022-10-20">
                 <persName>Camillo Formigatti created this entry.</persName>

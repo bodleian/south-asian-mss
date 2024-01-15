@@ -35,40 +35,30 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS. Sansk. d. 346(R)</idno>
+                        <idno type="shelfmark">MS. Sansk. d. 346(R)</idno><idno type="ieArk">ark:29072/x0qn59q374ft</idno><idno type="crArk">ark:29072/x0qj72p69142</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.D.4</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
                     
                     <msContents n="2">
                         <summary>This Nepalese manuscript is composite and consists of two
                             codicological units. <p>The main codicological unit (kernel) is written on black
-                            paper (<term xml:lang="san">nīlapattra</term>) with golden ink (<term
-                                xml:lang="san">suvarṇākṣara</term>) and contains the <title
-                                xml:lang="san">Mañjuśrīnāmasaṅgīti</title>, a popular Buddhist
+                            paper (<term xml:lang="san">nīlapattra</term>) with golden ink (<term xml:lang="san">suvarṇākṣara</term>) and contains the <title xml:lang="san">Mañjuśrīnāmasaṅgīti</title>, a popular Buddhist
                             tantric work, which consists primarily of 162 verses associated with
                             Mañjuśrī, the Bodhisattva of wisdom. According to the colophon, the
-                            manuscript was written in 1570 CE by the <term xml:lang="san"
-                                >vajrācārya</term> Vijayacandra in the 
-                                <name type="place" key="local_00002"><placeName xml:lang="sa"
-                                        type="standard">Maṇisaṅgha</placeName></name> monastery (<term
-                                    xml:lang="san">mahāvihāra </term>) in 
+                            manuscript was written in 1570 CE by the <term xml:lang="san">vajrācārya</term> Vijayacandra in the 
+                                <name type="place" key="local_00002"><placeName xml:lang="sa" type="standard">Maṇisaṅgha</placeName></name> monastery (<term xml:lang="san">mahāvihāra </term>) in 
                                 <name type="place" key="local_00003"><placeName xml:lang="en" type="standard">Kathmandu</placeName></name>, under the reign of king
-                                <name type="person" key="local_ 00004"><persName xml:lang="sa" type="standard"
-                                        >Mahendramalla</persName></name> (ca 1560–1574). It was commissioned by the Buddhist monk
-                                <name type="person" role="pat" key="local_ 00005"><persName xml:lang="sa" type="standard"
-                                    >Mayalasiṃhacandra</persName></name>, who was based in the <name type="place" key="local_00005"><placeName xml:lang="sa">Kīrttipuṇya</placeName></name>  monastery (<term
-                                xml:lang="san">mahāvihāra</term>), located in the same city.They
+                                <name type="person" key="person_00004"><persName xml:lang="sa" type="standard">Mahendramalla</persName></name> (ca 1560–1574). It was commissioned by the Buddhist monk
+                                <name type="person" role="pat" key="person_00005"><persName xml:lang="sa" type="standard">Mayalasiṃhacandra</persName></name>, who was based in the <name type="place" key="local_00005"><placeName xml:lang="sa">Kīrttipuṇya</placeName></name>  monastery (<term xml:lang="san">mahāvihāra</term>), located in the same city.They
                             contain twenty-five stanzas of a text (a hymn?) in a form of Sanskritized
-                            Newārī. Folios <locus
-                                from="7v" to="7v">1v</locus> and <locus from="8r" to="8r">2r</locus> 
+                            Newārī. Folios <locus from="7v" to="7v">1v</locus> and <locus from="8r" to="8r">2r</locus> 
                             are decorated with miniatures of the Buddha Śākyamuni (?) in the center
                             of a lotus and an eight-armed unidentified Bodhisattva figure (?).</p>
                             <p>The second codicological unit, written in 1822, consists of six white paper folios written with red ink, added at the beginning
@@ -93,8 +83,7 @@
                     </physDesc>
                     
                     <history>
-                        <acquisition>Bought from <orgName>Spink &amp; Son</orgName> in <date
-                            calendar="Gregorian" when="1988-09">September 1988</date>.</acquisition>
+                        <acquisition>Bought from <orgName>Spink &amp; Son</orgName> in <date calendar="Gregorian" when="1988-09">September 1988</date>.</acquisition>
                     </history>
                     
                     <additional>
@@ -104,9 +93,7 @@
                             </recordHist>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -249,7 +236,7 @@
                                     
                                     <extent n="31"> 31 ff. (1 flyleaf + 27 written ff. + 3 unwritten ff.)</extent>
                                     
-                                    <foliation n="1" style="letter" rend="nepa">>Letter numbers, mid-left margin, verso.</foliation>
+                                    <foliation n="1" style="letter" rend="nepa">&gt;Letter numbers, mid-left margin, verso.</foliation>
                                     <foliation n="2" style="numeral" rend="nepa">Nepālākṣara numerals, mid-right margin, verso.</foliation>
                                     <foliation n="3" style="numeral" rend="nepa">Nepālākṣara  numerals, right string-hole space margin, verso (<locus from="17v" to="26v">ff. 17v–26v</locus>).</foliation>
                                     
@@ -294,7 +281,7 @@
                             <handDesc>
                                 <handNote scope="sole" script="Rāñjanā" medium="golden_ink" scribeRef="local_00006">
                                     <desc>Rañjanā  in golden ink. </desc>
-                                    <p><hi rend="bold">Scribe:</hi>  <name type="person" role="scr" key="local_00006"><persName xml:lang="sa" type="standard">Vijayacandra.</persName></name>.</p>
+                                    <p><hi rend="bold">Scribe:</hi>  <name type="person" role="scr" key="person_00006"><persName xml:lang="sa" type="standard">Vijayacandra.</persName></name>.</p>
                                 </handNote>
                             </handDesc>
                             
@@ -309,7 +296,7 @@
                                 <list>
                                     <head>Marginalia</head>
                                     <item>
-                                        <marginalia type="corrections">>Rare corrections on the upper and lower margins.</marginalia>
+                                        <marginalia type="corrections">&gt;Rare corrections on the upper and lower margins.</marginalia>
                                     </item>
                                 </list>
                             </additions>
@@ -324,10 +311,9 @@
                             <origin>
                                 <date calendar="Nepāla" when="0691">Nepāla Saṃvat 691</date> / <date calendar="Gregorian" when="1570">1570 CE.</date>
                                 <origPlace>
-                                    <name  type="place" key="local_00002"><placeName xml:lang="sa" type="original">Maṇisaṅghamahāvihāra</placeName></name>, 
-                                    <name type="place" key="local_00003"><placeName xml:lang="en" type="standard">Kathmandu</placeName> (<placeName xml:lang="sa"
-                                        type="original">Kāṣṭhamaṇḍapa</placeName>)</name>,
-                                    <name  type="place" key="local_00004"><placeName xml:lang="sa" type="standard">Nepāl</placeName></name>.</origPlace>
+                                    <name type="place" key="local_00002"><placeName xml:lang="sa" type="original">Maṇisaṅghamahāvihāra</placeName></name>, 
+                                    <name type="place" key="local_00003"><placeName xml:lang="en" type="standard">Kathmandu</placeName> (<placeName xml:lang="sa" type="original">Kāṣṭhamaṇḍapa</placeName>)</name>,
+                                    <name type="place" key="local_00004"><placeName xml:lang="sa" type="standard">Nepāl</placeName></name>.</origPlace>
                             </origin>
                         </history>
                     </msPart>
@@ -372,8 +358,7 @@
                                     <g type="puspika">@</g> śrīmat śrī<damage>[-1-]</damage>
                                     <unclear reason="script" quantity="1" unit="aksara">[-1-]</unclear>jyāvavokya<add place="below">te</add>
                                         svalabha<unclear reason="damaged" quantity="1" unit="aksara">ga</unclear><damage>[-1-]</damage>lakasevasapa<lb/>[6r3]trīpāvīcanastosamāka
-                                    || <g type="puspika">@</g>śubha || sa<supplied reason="damaged">ṃ</supplied>vat 942 mi 7 na<lb/>[6r4]tra śukra <unclear
-                                        reason="script" quantity="2" unit="aksara">[-2-]</unclear>sacoyākulaśubhaṃ || magalaṃ bhavatuḥ</ref>
+                                    || <g type="puspika">@</g>śubha || sa<supplied reason="damaged">ṃ</supplied>vat 942 mi 7 na<lb/>[6r4]tra śukra <unclear reason="script" quantity="2" unit="aksara">[-2-]</unclear>sacoyākulaśubhaṃ || magalaṃ bhavatuḥ</ref>
                                 </colophon>
                                 <textLang mainLang="new">Nepāl Bhāṣā (Nevārī).</textLang>
                             </msItem>
@@ -394,7 +379,7 @@
                                     
                                     <extent n="6"> 6 ff.</extent>   
                                     
-                                    <foliation n="1" style="letter">>Letter numerals, mid-left margin, verso.</foliation>
+                                    <foliation n="1" style="letter">&gt;Letter numerals, mid-left margin, verso.</foliation>
                                     <foliation n="2" style="numeral-nepa">Nepālākṣara numerals, mid-right margin, verso.</foliation>
                                     
                                     <condition>
@@ -709,7 +694,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -832,9 +817,7 @@
         
         <revisionDesc>
             <change when="2021-09-21">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2018-09-21">
                 <persName>Camillo Formigatti created this entry.</persName>

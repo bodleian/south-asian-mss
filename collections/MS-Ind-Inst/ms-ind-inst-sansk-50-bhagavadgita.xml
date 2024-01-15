@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,9 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="hoernle">Sanskrit, Hoernle Collection</collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 50</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 50</idno><idno type="ieArk">ark:29072/x0n296wz08cw</idno><idno type="crArk">ark:29072/x0n009w2252p</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark">XYZ</idno>
                             <note><country>United Kingdom</country>
@@ -51,13 +49,9 @@
                     
                     <msContents n="1+1">
                         <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>A modern paper manuscript of the <title xml:lang="sa"
-                                >Bhagavadgītā</title>, in a Jaina style. The <title xml:lang="sa"
-                                >Bhagavadgītā</title> is preceded by a short introductory text
-                            containing the information for the recitation of poem such as <term
-                                xml:lang="sa">ṛṣiḥ</term>, <term xml:lang="sa">chandas</term>,
-                                <term xml:lang="sa">devatā</term>, <term xml:lang="sa"
-                                >bījam</term>, <term xml:lang="sa">śaktiḥ</term> etc. and for
+                        <summary>A modern paper manuscript of the <title xml:lang="sa">Bhagavadgītā</title>, in a Jaina style. The <title xml:lang="sa">Bhagavadgītā</title> is preceded by a short introductory text
+                            containing the information for the recitation of poem such as <term xml:lang="sa">ṛṣiḥ</term>, <term xml:lang="sa">chandas</term>,
+                                <term xml:lang="sa">devatā</term>, <term xml:lang="sa">bījam</term>, <term xml:lang="sa">śaktiḥ</term> etc. and for
                             meditating upon it, i.e. <term xml:lang="sa">dhyāna</term>
                             verses.</summary>
                         
@@ -90,7 +84,7 @@
                                     || iti nyāsaḥ |
                                 </finalRubric>
                                 
-                                <textLang mainLang="sa" >Sanskrit.</textLang>
+                                <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItemStruct>
                             
                             <msItemStruct class="mūla" defective="false">
@@ -120,7 +114,7 @@
                                     śrī || śrī || śrīrāmakṛṣṇāya namaḥ
                                 </colophon>
                                 
-                                <textLang mainLang="sa" >Sanskrit.</textLang>
+                                <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItemStruct>
                         </msItemStruct>
                     </msContents>
@@ -217,11 +211,7 @@
                             <date calendar="Gregorian" notBefore="1701" notAfter="1900">18th-19th century.</date>
                             <!--<origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>-->
                         </origin>
-                        <provenance>Presented by <name type="person" subtype="dnr"
-                                key="local_ VIAF_"><persName type="standard"
-                                    xml:lang="eng">Morison, J.</persName><persName type="display"
-                                    xml:lang="eng">J. Morison</persName></name> to the Indian Institute in <date
-                                calendar="Gregorian" when="1918-10">October 1918</date>.
+                        <provenance>Presented by <name type="person" subtype="dnr" key="local_ VIAF_"><persName type="standard" xml:lang="eng">Morison, J.</persName><persName type="display" xml:lang="eng">J. Morison</persName></name> to the Indian Institute in <date calendar="Gregorian" when="1918-10">October 1918</date>.
                         </provenance>
 <!--                        <acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
                     </history>
@@ -230,9 +220,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -519,9 +507,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-11">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2021-09-11">
                 <persName>Camillo Formigatti created this entry.</persName>

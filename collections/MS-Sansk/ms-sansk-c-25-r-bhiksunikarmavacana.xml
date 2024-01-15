@@ -28,22 +28,21 @@
             </publicationStmt>
             
             <sourceDesc>
-                <msDesc  xml:id="Sanskrit" xml:lang="en">
+                <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <region type="county">Oxfordshire</region>
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="Hoernle">Sanskrit, Hoernle Collection</collection>
-                        <idno type="shelfmark">MS Sansk. c. 25(R)</idno>
+                        <idno type="shelfmark">MS Sansk. c. 25(R)</idno><idno type="ieArk">ark:29072/x0qf85nb07t5</idno><idno type="crArk">ark:29072/x0qb98mf24h9</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.258</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
                     
@@ -75,7 +74,7 @@
                             
 <!--                            <colophon xml:lang="san"><locus from="90r" to="90r">[90r2]</locus></colophon>-->
                             
-                            <textLang mainLang="san" >Sanskrit.</textLang>
+                            <textLang mainLang="san">Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
@@ -184,11 +183,9 @@
                             <date calendar="Gregorian" notBefore="1100" notAfter="1300">12th–13th century.</date>
                             <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Bought from <name type="person" role="dnr" key="local_12 VIAF_14837838"
-                            ><!--<persName type="standard" xml:lang="eng">Johnston,
+                        <provenance>Bought from <name type="person" role="dnr" key="person_00096"><!--<persName type="standard" xml:lang="eng">Johnston,
                                     E.H.</persName>-->
-                            <persName type="display" xml:lang="eng">A. F. R. Hoernle</persName></name> in <date calendar="Gregorian"
-                                    when="1887">1887</date>. </provenance>
+                            <persName type="display" xml:lang="eng">A. F. R. Hoernle</persName></name> in <date calendar="Gregorian" when="1887">1887</date>. </provenance>
                         <!--<acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
                     </history>
                     
@@ -197,9 +194,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>).</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>).</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -512,7 +507,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -626,7 +621,7 @@
                     <list>
                         <item corresp="#bauddha">Bauddha</item>
                         <item corresp="#vinaya">Vinaya</item>
-                        <item></item>
+                        <item/>
                     </list>
                 </keywords>
             </textClass>
@@ -634,9 +629,7 @@
         
         <revisionDesc>
             <change when="2021-09-21">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2020-04-02">
                 <persName>Camillo Formigatti created this entry.</persName>

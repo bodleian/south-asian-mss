@@ -35,11 +35,11 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
+                        
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS.BPU.4</idno>
+                        <idno type="shelfmark">MS.BPU.4</idno><idno type="ieArk">ark:29072/x0q811kj415k</idno><idno type="crArk">ark:29072/x0q524jn57vh</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -90,7 +90,7 @@
                             
                            <colophon xml:lang="sa"><locus from="Xr" to="Xr">[XrY]</locus> </colophon>-->
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                     </msContents>
                     
@@ -194,9 +194,7 @@
                             <date calendar="Gregorian" notBefore="1700" notAfter="1899">18th-19th century.</date>
                             <origPlace xml:lang="eng" key="place_00001">Bengal</origPlace>
                         </origin>
-                        <provenance>Bequeathed by <name
-                            type="person" role="dnr" key="local_00003 VIAF_31996034"><persName
-                                type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
+                        <provenance>Bequeathed by <name type="person" role="dnr" key="person_00003"><persName type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
                             <persName type="display" xml:lang="eng">Dr. W.Y.
                                 Evans-Wentz</persName></name> in <date calendar="Gregorian" when="1965">1965</date>.
                         </provenance>
@@ -209,9 +207,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -524,7 +520,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -644,9 +640,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-11-10">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2021-11-10">
                 <persName>Camillo Formigatti created this entry.</persName>

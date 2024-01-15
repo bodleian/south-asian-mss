@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,33 +35,23 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
-                        <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere c.202(1)</idno>
+                        <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere Collection</collection>
+                        <idno type="shelfmark">MS Chandra Shum Shere c.202(1)</idno><idno type="ieArk">ark:29072/x0xs55mb39n4</idno><idno type="crArk">ark:29072/x0xp68kf56b8</idno>
                         <altIdentifier type="internal">
                             <idno type="Chandra_Shum_Shere_Āśutoṣa">4611</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
                     
                     <msContents n="1" defective="true">
                         <summary>
-                            An incomplete paper manuscript of <name type="person" role="aut"
-                                key="person_00110"><persName xml:lang="sa" role="aut"
-                                    type="standard">Gadādhara Bhaṭṭācārya</persName></name>'s <title
-                                xml:lang="sa" key="work_00112">Gādādharī</title>, a commentary on
-                                <name type="person" role="aut" key="person_00050"><persName
-                                    xml:lang="sa" role="aut" type="standard">Raghunātha
-                                    Śiromaṇi</persName></name>'s <title xml:lang="sa"
-                                key="work_00052">Tattvacintāmaṇidīdhiti</title>, in its turn a
-                            commentary on <name type="person" subtype="aut" key="person_00088"
-                                    ><persName xml:lang="sa" type="standard"
-                                >Gaṅgeśa</persName></name>'s <title xml:lang="sa" key="work_00101"
-                                >Tattvacintāmaṇi</title>. <term xml:lang="sa">Anumāna</term>, <term
-                                xml:lang="sa">sāmānyanirukti</term> incomplete. In the same hand as
+                            An incomplete paper manuscript of <name type="person" role="aut" key="person_00110"><persName xml:lang="sa" role="aut" type="standard">Gadādhara Bhaṭṭācārya</persName></name>'s <title xml:lang="sa" key="work_00112">Gādādharī</title>, a commentary on
+                                <name type="person" role="aut" key="person_00050"><persName xml:lang="sa" role="aut" type="standard">Raghunātha
+                                    Śiromaṇi</persName></name>'s <title xml:lang="sa" key="work_00052">Tattvacintāmaṇidīdhiti</title>, in its turn a
+                            commentary on <name type="person" subtype="aut" key="person_00088"><persName xml:lang="sa" type="standard">Gaṅgeśa</persName></name>'s <title xml:lang="sa" key="work_00101">Tattvacintāmaṇi</title>. <term xml:lang="sa">Anumāna</term>, <term xml:lang="sa">sāmānyanirukti</term> incomplete. In the same hand as
                             that of <idno type="shelfmark">MS Chandra Shum Shere c.202(8)</idno>.
                         </summary>                        
                             
@@ -187,8 +176,7 @@
                         <provenance>Donated by 
                             <name type="person" role="dnr" key="person_00030">
                                 <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
-                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date
-                                    calendar="Gregorian" when="1909">1909</date>.
+                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
                         </provenance>
                         <!--<acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
@@ -199,9 +187,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -512,7 +498,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -634,9 +620,7 @@
         
         <revisionDesc>
             <change when="2022-09-08">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2022-09-08">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.

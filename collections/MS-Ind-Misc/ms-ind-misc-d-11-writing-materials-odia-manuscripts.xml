@@ -35,15 +35,14 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS.Ind.Misc.d.11</idno>
+                        <idno type="shelfmark">MS.Ind.Misc.d.11</idno><idno type="ieArk">ark:29072/x0p2676v41g0</idno><idno type="crArk">ark:29072/x0nz805z5858</idno>
                         <altIdentifier type="internal">
                             <idno type="former">MS.Oriss.d.2</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
                     
@@ -201,8 +200,7 @@
                         </origin>
                         <provenance>Donated by 
                             <name type="person" role="dnr" key="person_00075">
-                                <persName type="standard" xml:lang="lat">Stokes, Maire</persName><persName type="display" xml:lang="lat">Maire Stokes</persName></name> on <date
-                                            calendar="Gregorian" when="1909-12-10">10 December 1909</date>.
+                                <persName type="standard" xml:lang="lat">Stokes, Maire</persName><persName type="display" xml:lang="lat">Maire Stokes</persName></name> on <date calendar="Gregorian" when="1909-12-10">10 December 1909</date>.
                         </provenance>
                         <!--<acquisition>
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
@@ -213,9 +211,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -528,7 +524,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -646,18 +642,16 @@
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item></item>
-                        <item></item>
-                        <item></item>
+                        <item/>
+                        <item/>
+                        <item/>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-11-15">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2021-11-15">
                 <persName>Camillo Formigatti created this entry.</persName>

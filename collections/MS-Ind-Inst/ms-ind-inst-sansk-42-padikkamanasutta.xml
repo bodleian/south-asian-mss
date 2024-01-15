@@ -35,9 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
-                            <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams</collection>
-                            <idno type="shelfmark">MS. Ind. Inst. Sansk. 42</idno>
+                            <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
+                            <idno type="shelfmark">MS. Ind. Inst. Sansk. 42</idno><idno type="ieArk">ark:29072/x0mg74qm08h7</idno><idno type="crArk">ark:29072/x0mc87pq256c</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -87,7 +86,7 @@
                         		muniJītahaṃsa va(ā)canārathaṃ ||
                         	</colophon>-->
                             
-                            <textLang mainLang="pra" >Prakrit.</textLang>
+                            <textLang mainLang="pra">Prakrit.</textLang>
                         </msItem>
                     </msContents>
                     
@@ -190,8 +189,7 @@
                             <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
                         </origin>
                         <provenance>Collected by <name type="person" role="dnr" key="person_00016">
-		<persName type="standard" xml:lang="de">Bühler, Georg</persName><persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date calendar="Gregorian"
-		   from="1877" to="1878">1877-78</date>.
+		<persName type="standard" xml:lang="de">Bühler, Georg</persName><persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date calendar="Gregorian" from="1877" to="1878">1877-78</date>.
                         </provenance>
                         <acquisition>
                             Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
@@ -205,9 +203,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -519,7 +515,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -639,9 +635,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-10-15">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
         	<change when="2021-10-15">
                 <persName>Camillo Formigatti created this entry.</persName>

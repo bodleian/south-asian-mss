@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,15 +35,14 @@
                     <settlement>Oxford</settlement>
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
-                    <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                    <idno type="shelfmark">MS. Sansk. c. 17</idno>
+                    <idno type="shelfmark">MS. Sansk. c. 17</idno><idno type="ieArk">ark:29072/x0q811kj416z</idno><idno type="crArk">ark:29072/x0q524jn57ww</idno>
                     <altIdentifier type="internal">
                         <idno type="named_manuscript">Bower manuscript</idno>
                         <note><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName></orgName></note>
+                            <orgName/></note>
                     </altIdentifier>
                 </msIdentifier>
                 
@@ -56,8 +54,7 @@
                             manuscripts, a larger and a smaller’. It was written in early Gupta
                             script by four different scribes and contains seven different texts on
                             topics ranging from medicine to divination. The manuscript was recovered
-                            from <term xml:lang="sa">stūpa</term> or <term xml:lang="sa"
-                                >vihāra</term> near Kucha in modern-day China, close to the main
+                            from <term xml:lang="sa">stūpa</term> or <term xml:lang="sa">vihāra</term> near Kucha in modern-day China, close to the main
                             group of caves of the Min-Oi of Qum Tura. It was presented to
                             Major-General <name type="person" role="own" key="person_00098">
                                 <persName xml:lang="en" type="standard">Bower,
@@ -75,7 +72,7 @@
                         
                         <title xml:lang="sa">Bower Manuscript</title>
                         
-                        <textLang mainLang="sa" >Sanskrit.</textLang>
+                        <textLang mainLang="sa">Sanskrit.</textLang>
                     </msItem>
                 </msContents>
                 
@@ -130,12 +127,16 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/16fc31b7-1003-4658-9f6d-92aed688ef6b/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -386,7 +387,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -509,9 +510,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2022-04-08">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2022-04-08">
                 <persName>Camillo Formigatti created this entry.</persName>

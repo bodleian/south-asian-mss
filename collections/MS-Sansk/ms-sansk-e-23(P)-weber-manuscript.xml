@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,15 +35,14 @@
                     <settlement>Oxford</settlement>
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
-                    <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                    <idno type="shelfmark">MS Sansk. e. 23 (P)</idno>
+                    <idno type="shelfmark">MS Sansk. e. 23 (P)</idno><idno type="ieArk">ark:29072/x0r207tp07p7</idno><idno type="crArk">ark:29072/x0qz20ss24cc</idno>
                     <altIdentifier type="internal">
                         <idno type="named_manuscript">Weber manuscript</idno>
                         <note><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName></orgName></note>
+                            <orgName/></note>
                     </altIdentifier>
                 </msIdentifier>
                 
@@ -74,7 +72,7 @@
                         
                         <title xml:lang="sa">Weber Manuscript</title>
                         
-                        <textLang mainLang="sa" >Sanskrit.</textLang>
+                        <textLang mainLang="sa">Sanskrit.</textLang>
                     </msItem>
                 </msContents>
                 
@@ -135,12 +133,16 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/8bc0c8d7-b3b4-4de1-9ad4-da1e5d866289/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -391,7 +393,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -517,9 +519,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2022-04-08">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2022-04-08">
                 <persName>Camillo Formigatti created this entry.</persName>

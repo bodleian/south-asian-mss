@@ -35,15 +35,14 @@
                     <settlement>Oxford</settlement>
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
-                    <collection type="main">Oriental Manuscripts</collection>
-                    <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere collection</collection>
-                    <idno type="shelfmark">MS. Chandra Shum Shere d. 247</idno>
+                    <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere Collection</collection>
+                    <idno type="shelfmark">MS. Chandra Shum Shere d. 247</idno><idno type="ieArk">ark:29072/x00k225c29bs</idno><idno type="crArk">ark:29072/x00g354g461x</idno>
                     <altIdentifier type="internal">
-                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"/>
                         <note><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName></orgName></note>
+                            <orgName/></note>
                     </altIdentifier>
                 </msIdentifier>
 
@@ -52,9 +51,7 @@
                             collection at the Bodleian Libraries. It was bought, as part of a
                             private collection of 6330 manuscripts in Benares, by the Maharaja Sir
                             Chandra Shum Shere and presented to the University of Oxford in 1909.
-                            The text extends from the beginning of the <title xml:lang="sa"
-                                type="sub">Jātisamuddeśa</title> to the end of the <title
-                                xml:lang="sa" type="sub">Kriyāsamuddeśa</title>, although folios
+                            The text extends from the beginning of the <title xml:lang="sa" type="sub">Jātisamuddeśa</title> to the end of the <title xml:lang="sa" type="sub">Kriyāsamuddeśa</title>, although folios
                             109, 110 and 111 are missing. The manuscript has never been used for an
                             edition and it was not known to Wilhelm Rau, but it is described in
                             Dominik Wujastyk's <title xml:lang="en" level="u">Handlist of the
@@ -83,8 +80,7 @@
                         
                         <msItemStruct class="commentary">
                             <author>
-                                <name type="person" key="local_ 00009"><persName xml:lang="sa"
-                                    type="standard">Helārāja</persName></name>
+                                <name type="person" key="person_00009"><persName xml:lang="sa" type="standard">Helārāja</persName></name>
                             </author>
                             
                             <title xml:lang="sa" type="commentary" key="local_00005">Prakīrṇaprakāśa</title>
@@ -125,7 +121,7 @@
                             <foliation n="1" style="numeral" rend="telu">Telugu numerals, top-left and bottom-right margin, verso.</foliation>
                             <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, bottom-right margin, verso (<locus from="1v" to="11v">f. 1v–11v</locus> only).</foliation>
                             <foliation n="3" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
-                                <name type="person" role="dnr" key="local_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                     <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                 this foliation starts with the first flyleaf).</foliation>
                             
@@ -199,8 +195,7 @@
                     <provenance>Donated by 
                         <name type="person" role="dnr" key="person_00030">
                             <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
-                            <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date
-                                calendar="Gregorian" when="1909">1909</date>.
+                            <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
                     </provenance>
                     <!--<acquisition>
                         <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
@@ -211,12 +206,15 @@
                     <adminInfo>
                         <availability status="restricted">
                             <p>Entry to read in the Library is permitted only on presentation of
-                                a valid reader's card, for admissions procedures contact <ref
-                                    target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                    >Bodleian Libraries' Admissions Office</ref>.</p>
+                                a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                         </availability>
                         <note/>
                     </adminInfo>
+                    <surrogates>
+                        <bibl type="digital-facsimile" subtype="full">
+                            <ref target="https://digital.bodleian.ox.ac.uk/objects/809a5212-276f-487f-96ca-17a7d939ac1b/"><title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                        </bibl> 
+                    </surrogates>
                     
                     <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
@@ -509,7 +507,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -630,9 +628,7 @@
 
     <revisionDesc>
         <change when="2021-09-07">
-            <persName>Camillo Formigatti modified and updated this entry according to the <ref
-                target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            <persName>Camillo Formigatti modified and updated this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
         </change>
         <change when="2016-10-31">
             <persName>Charles Li</persName> created this entry.

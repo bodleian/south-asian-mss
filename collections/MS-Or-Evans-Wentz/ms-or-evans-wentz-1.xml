@@ -35,11 +35,10 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS. OR Evans-Wentz 1</idno>
+                        <idno type="shelfmark">MS. OR Evans-Wentz 1</idno><idno type="ieArk">ark:29072/x0p8418n0832</idno><idno type="crArk">ark:29072/x0p5547r24sv</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark">XYZ</idno>
                             <note><country>United Kingdom</country>
@@ -185,9 +184,7 @@
                             <date calendar="Gregorian" notBefore="1600" notAfter="1799">17th-18th century.</date>
                             <origPlace xml:lang="eng" key="7016788">Rājasthān.</origPlace>
                         </origin>
-                        <provenance>Donated by <name
-                                type="person" role="dnr" key="local_00003 VIAF_31996034"><persName
-                                    type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
+                        <provenance>Donated by <name type="person" role="dnr" key="person_00003"><persName type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
                                 <persName type="display" xml:lang="eng">Dr. W.Y.
                                     Evans-Wentz</persName></name>. </provenance>
                         <!--<acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
@@ -202,13 +199,16 @@
                             </recordHist>-->
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
-
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/e30230cb-5209-4b2d-8af0-e8ef2239012c/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                         <!--<listBibl type="ms_descriptions">
                                 <head>Descriptions of the manuscript</head>
                                 
@@ -547,8 +547,7 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761"
-                                >Manuscripts, Sanskrit</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
                     </list>
                 </keywords>
@@ -561,9 +560,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-13">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2019-08-06">
                 <persName>Camillo Formigatti created this entry.</persName>

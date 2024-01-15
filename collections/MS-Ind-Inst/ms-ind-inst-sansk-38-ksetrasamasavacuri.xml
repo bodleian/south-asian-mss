@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,9 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 38</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 38</idno><idno type="ieArk">ark:29072/x0m326m1758b</idno><idno type="crArk">ark:29072/x0m039k491z4</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -69,7 +67,7 @@
                         <msItemStruct n="2">
                             <msItemStruct class="mūla" defective="false">
                                  <author>
-                                     <name type="person" subtype="aut" key="local_00000 VIAF_"><persName xml:lang="sa" type="standard">Ratnaśekhara</persName></name>
+                                     <name type="person" subtype="aut" key="person_00035"><persName xml:lang="sa" type="standard">Ratnaśekhara</persName></name>
                                  </author>
                                 
                                  <title xml:lang="sa" key="local_00000" type="alt">Kṣetrasamāsa</title>
@@ -228,8 +226,7 @@
                         </origin>
                         <provenance>Collected by <name type="person" role="dnr" key="person_00016">
                             <persName type="standard" xml:lang="de">Bühler, Georg</persName>
-                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date
-                                calendar="Gregorian" from="1877" to="1878">1877-78</date>.
+                            <persName type="display" xml:lang="de">Georg Bühler</persName></name> in <date calendar="Gregorian" from="1877" to="1878">1877-78</date>.
                         </provenance>
                         <acquisition>
                             Donated to the Indian Institute by <name type="person" role="dnr" key="person_00015">
@@ -243,9 +240,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -543,7 +538,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -664,9 +659,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-10-04">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2021-10-04">
                 <persName>Camillo Formigatti created this entry.</persName>

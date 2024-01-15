@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,15 +35,14 @@
                     <settlement>Oxford</settlement>
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
-                    <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                    <idno type="shelfmark">MS Ind. Inst. Sansk. 59(iv)</idno>
+                    <idno type="shelfmark">MS Ind. Inst. Sansk. 59(iv)</idno><idno type="ieArk">ark:29072/x0ng451h41mb</idno><idno type="crArk">ark:29072/x0nc580m589m</idno>
                     <altIdentifier type="internal">
-                        <idno type="or_long_shelfmark"></idno>
+                        <idno type="or_long_shelfmark"/>
                         <note><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName></orgName></note>
+                            <orgName/></note>
                     </altIdentifier>
                 </msIdentifier>
                 
@@ -66,7 +64,7 @@
                         
                         <title xml:lang="sa" key="work_00133">Prasthānabheda</title>
                         
-                        <textLang mainLang="sa" >Sanskrit.</textLang>
+                        <textLang mainLang="sa">Sanskrit.</textLang>
                     </msItem>
                 </msContents>
                 
@@ -114,7 +112,7 @@
                             <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
                         </origin>
                         <provenance>Presented by 
-                            <name type="person" subtype="dnr" key="local_00126">
+                            <name type="person" subtype="dnr" key="person_00126">
                                 <persName type="standard" xml:lang="en">Law, J. S.</persName>
                                 <persName type="display" xml:lang="en">Major J. S. Law</persName></name> in <date calendar="Gregorian" when="1885">August 1885</date>.
                         </provenance>
@@ -124,9 +122,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -412,7 +408,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -530,17 +526,15 @@
                 <keywords scheme="local">
                     <list>
                         <item corresp="#śāstra">Śāstra</item>
-                        <item></item>
-                        <item></item>
+                        <item/>
+                        <item/>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2023-01-16">
-                <persName>Barbora Sojkova modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Barbora Sojkova modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2023-01-16">
                 <persName>Barbora Sojkova created this entry.</persName>

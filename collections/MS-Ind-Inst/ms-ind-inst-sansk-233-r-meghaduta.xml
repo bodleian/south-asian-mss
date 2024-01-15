@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                                >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -36,24 +35,22 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="evans-wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 233(R)</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 233(R)</idno><idno type="ieArk">ark:29072/x0jq085k08x1</idno><idno type="crArk">ark:29072/x0jm214p25m8</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.361</idno>
                             <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                            <orgName></orgName></note>
+                            <orgName/></note>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents n="1">
                         <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>A Bengali paper manuscript of <name type="person" subtype="aut"
-                            key="person_00012">
+                        <summary>A Bengali paper manuscript of <name type="person" subtype="aut" key="person_00012">
                                 <persName xml:lang="sa" type="standard">Kālidāsa</persName>
                             </name>'s <title xml:lang="sa">Meghadūta</title> with numerous
                             annotations in the margins.</summary>
@@ -61,8 +58,7 @@
                         <msItem n="1" defective="true">
 
                             <author>
-                                <name type="person" subtype="aut"
-                                    key="person_00012">
+                                <name type="person" subtype="aut" key="person_00012">
                                     <persName xml:lang="sa" type="standard">Kālidāsa</persName>
                                 </name>
                             </author>
@@ -113,8 +109,7 @@
                                 <foliation n="1" style="numeral" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <condition> Damaged; all folios are smudged and stained, with <term
-                                        xml:lang="sa">akṣara</term>s (mostly still readable)
+                                <condition> Damaged; all folios are smudged and stained, with <term xml:lang="sa">akṣara</term>s (mostly still readable)
                                     damaged by humidity. </condition>
                             </supportDesc>
 
@@ -178,14 +173,10 @@
                             <date calendar="Śāka" when="1622">Śāka 1622</date> / <date calendar="Gregorian" when="1700">1700 CE.</date>
                             <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
                         </origin>
-                        <provenance>Donated by <name type="person" role="dnr" key="local_00002 VIAF_89804438"
-                                    ><!--<persName type="standard" xml:lang="eng">Johnston,
+                        <provenance>Donated by <name type="person" role="dnr" key="person_00002"><!--<persName type="standard" xml:lang="eng">Johnston,
                                     E.H.</persName>-->
                                 <persName type="display" xml:lang="eng">Prof E.H.
-                                    Johnston</persName></name> in <date calendar="Gregorian"
-                                when="1940-02">February 1940</date>; previously belonged to <name
-                                type="person" role="dnr" key="local_00003 VIAF_31996034"><persName
-                                    type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
+                                    Johnston</persName></name> in <date calendar="Gregorian" when="1940-02">February 1940</date>; previously belonged to <name type="person" role="dnr" key="person_00003"><persName type="standard" xml:lang="eng">Evans-Wentz, W.Y.</persName>
                                 <persName type="display" xml:lang="eng">Dr. W.Y.
                                     Evans-Wentz</persName></name>. </provenance>
                         <!--<acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
@@ -200,9 +191,7 @@
                             </recordHist>-->
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -477,8 +466,7 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761"
-                                >Manuscripts, Sanskrit</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
                     </list>
                 </keywords>
@@ -493,9 +481,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-06-15">
-                <persName>Camillo Formigatti modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2020-05-05">
                 <persName>Camillo Formigatti created this entry.</persName>
