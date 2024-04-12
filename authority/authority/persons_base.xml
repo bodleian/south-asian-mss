@@ -2934,6 +2934,171 @@
                     </note>
                 </person>
                 
+                <person xml:id="person_00132">
+                    <persName type="standard" xml:lang="en">Macdonell, Arthur Anthony</persName>
+                    <persName type="display" xml:lang="en">Arthur Anthony Macdonell</persName>
+                    <persName type="variant" xml:lang="en">A. A. Macdonell</persName>
+                    <idno type="VIAF">19751353</idno>
+                    <idno type="local">00127</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://viaf.org/viaf/19751353">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00133">
+                    <persName type="standard" xml:lang="sa">Keśava</persName>
+                    <persName type="display" xml:lang="sa">Keśava</persName>
+                    <persName type="variant" xml:lang="sa">Keśava Srīdharasuta</persName>
+                    <idno type="VIAF">00000000</idno>
+                    <idno type="local">00128</idno>
+                    <idno type="PANDIT">00000000</idno>
+                    <note type="links">
+                        <!--<list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    </note>
+                    <note>The scribe of <idno type="shelfmark">MS. Max Müller d. 8</idno>, active in 15th century.</note>
+                </person>
+                
+                <person xml:id="person_00134">
+                    <persName type="standard" xml:lang="sa">Nārāyaṇa</persName>
+                    <persName type="display" xml:lang="sa">Nārāyaṇa</persName>
+                    <persName type="variant" xml:lang="sa">Nārāyaṇa Kāśīnāthabhaṭṭasūta</persName>
+                    <idno type="VIAF">00000000</idno>
+                    <idno type="local">00129</idno>
+                    <idno type="PANDIT">00000000</idno>
+                    <note type="links">
+                        <!--<list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    </note>
+                    <note>The scribe of <idno type="shelfmark">MS. Max Müller d. 4-5</idno>, active in 18th century.</note>
+                </person>
+                
+                <person xml:id="person_00135">
+                    <persName type="standard" xml:lang="sa">Śaunaka</persName>
+                    <persName type="display" xml:lang="sa">Śaunaka</persName>
+                    <idno type="VIAF">261432256</idno>
+                    <idno type="local">00130</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/261432256/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </person>
+                
+                <person xml:id="person_00136">
+                    <persName type="standard" xml:lang="sa">Jagannātha</persName>
+                    <persName type="display" xml:lang="sa">Jagannātha</persName>
+                    <!--<idno type="VIAF">261432256</idno>-->
+                    <idno type="local">00131</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <!--<list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/261432256/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!-\-<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-\->
+                        </list>-->
+                    </note>
+                    <note>Author of <title xml:lang="sa" key="work_00144">Varṇakramalakṣaṇa</title>; 
+                        possibly the same as the author of commentary on <name><persName type="standard" xml:lang="sa">Kātyāyana</persName></name>'s
+                        <title xml:lang="sa" key="work_00145">Sarvānukramaṇī</title>.
+                </person>
+                
+                <person xml:id="person_00137">
+                    <persName type="standard" xml:lang="sa">Kātyāyana</persName>
+                    <persName type="display" xml:lang="sa">Kātyāyana</persName>
+                    <idno type="VIAF">4973946</idno>
+                    <idno type="local">00132</idno>
+                    <idno type="PANDIT">40605</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/261432256/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40605/personn">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                
+                <person xml:id="person_00138">
+                    <persName type="standard" xml:lang="sa">Cintāmana</persName>
+                    <persName type="display" xml:lang="sa">Cintāmana</persName>
+                    <persName type="variant" xml:lang="sa">Cintāmana Rāmacandrātmaja</persName>
+                    <!--<idno type="VIAF">4973946</idno>-->
+                    <idno type="local">00133</idno>
+                    <!--<idno type="PANDIT">40605</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/261432256/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40605/personn">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>The scribe of <idno type="shelfmark">MS. Max Müller d. 9</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
