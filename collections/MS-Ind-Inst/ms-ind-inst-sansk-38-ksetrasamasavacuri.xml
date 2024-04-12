@@ -48,21 +48,22 @@
                     
                     <msContents n="1+1">
                         
-                        <!--<summary>
-                        	There are charts. tables and diagrams on fol. 2A-B,3A,4A,6A-B,
+                        <summary>A paper manuscript of <persName key="person_00035">Ratnaśekhara's</persName> <title key="local_00154">Kṣetrasamāsa</title>, summary of Jain geography,
+                            with the commentary <title xml:lang="sa" key="work_00032">Kṣetrasamāsāvacūri</title>.
+                          <!--There are charts. tables and diagrams on fol. 2A-B,3A,4A,6A-B,
                         	7A-B, 8A, 9A,10A-B, 11A-B, 12A,13B,14A-B; 17A-B, 22B, 24A-B, 25A, 29A,
                         	31A-B,34A, 35A, 37A, 38A-B, 39A, 40A-B, 41A-B, On fol.7B -a diagram of
                         	Mount Meru; on fol.14B - there is a kālacakra with descriptions of 6 ārās
                         	with it's 12 divisions.; On fol.17A - diagram of Lavaṇa samudra.; On
-                        	fol.17B there are two diagramas at left - [TO CHECK DIAGRAM FROM DIARY TO
+                        	fol.17B there are two diagrams at left - [TO CHECK DIAGRAM FROM DIARY TO
                         	COSMOLOGY WORK],; On fol.20A - a diagram of Vidyutaprabha ; On fol.20B -
                         	a diagram of Aḍhīdvīpa.; On fol.21A - a diagram of Vaitāḍhya mountain; On
                         	fol. 21B a diagram of Jaṃbū vṛkṣa.; On fol. 22A - a diagram of
                         	Jagatīcakra.; On fol.23B - a diagram of 14 Rājaloka.; on fol.26A - a
                         	diagram of Samaśreṇi.; On fol.34B - a diagram of four Kalasa.; On fol.35B
                         	- a diagram of Jaṃbūdvīpa measurement .;On fol.42A - a diagram of Rucaka
-                        	parvatamāna  
-                        </summary>-->
+                        	parvatamāna  -->
+                        </summary>
                         
                         <msItemStruct n="2">
                             <msItemStruct class="mūla" defective="false">
@@ -70,7 +71,7 @@
                                      <name type="person" subtype="aut" key="person_00035"><persName xml:lang="sa" type="standard">Ratnaśekhara</persName></name>
                                  </author>
                                 
-                                 <title xml:lang="sa" key="local_00000" type="alt">Kṣetrasamāsa</title>
+                                 <title xml:lang="sa" key="local_00154" type="alt">Kṣetrasamāsa</title>
                                  
                                  <!--<incipit xml:lang="pra" type="mula"><locus from="1v" to="1v">[1v1]</locus> Vīraṃ jaya-sehara-paya paiṭṭhiaṃ paṇamiūṇa su-guruṃ ca
                             		manda tti sasaraṇ-aṭṭhā Khittiviyārāṇum ucchāmi || 1 ||
@@ -131,14 +132,14 @@
                                     </p>
                                 </support>
 
-                                <extent xml:id="folio" n="42">42 ff.</extent>
+                                <extent xml:id="folio" n="39">39 ff.</extent>
 
                                 <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
                                 <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
 
                                 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <condition> Complete, in good condition. </condition>
+                                <condition> Incomplete: folios 4, 30, and 32 are missing. In good condition. </condition>
                             </supportDesc>
 
                             <layoutDesc>
