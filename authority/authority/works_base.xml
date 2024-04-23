@@ -1367,8 +1367,9 @@
                 </bibl>
                 
                 <bibl xml:id="work_00064">
-                    <title type="uniform" xml:lang="sa">Chandogyopaniṣadbhāṣya</title>
-                    <idno type="VIAF">228081077</idno>
+                    <title type="uniform" xml:lang="sa">Chāndogyopaniṣadbhāṣya</title>
+                    <title type="variant" xml:lang="sa">Chāndogya Upaniṣad Bhāṣya</title>
+                    title type="variant" xml:lang="sa">Chāndogyopaniṣad Bhāṣya</title>
                     <idno type="local">00064</idno>
                     <idno type="PANDIT">89943</idno>
                     <note type="links">
@@ -1388,7 +1389,8 @@
                 </bibl>
                 
                 <bibl xml:id="work_00065">
-                    <title type="uniform" xml:lang="sa">Chandogyopaniṣad</title>
+                    <title type="uniform" xml:lang="sa">Chāndogyopaniṣad</title>
+                    <title type="variant" xml:lang="sa">Chāndogya Upaniṣad</title>
                     <idno type="VIAF">179422395</idno>
                     <idno type="local">00065</idno>
                     <idno type="PANDIT">44742</idno>
@@ -3011,53 +3013,8 @@
                     </note>
                 </bibl>
                 
+                               
                 <bibl xml:id="work_00140">
-                    <title type="uniform" xml:lang="sa">Chāndogya Upaniṣad</title>
-                    <title type="variant" xml:lang="xct">Chāndogyopaniṣad</title>
-                    <idno type="VIAF">179422395</idno>
-                    <idno type="local">00138</idno>
-                    <idno type="PANDIT">44742</idno>
-                    <note type="links">
-                        <list type="links">
-                            <item>
-                                <ref target="http://viaf.org/viaf/179422395/">
-                                    <title>VIAF</title>
-                                </ref>
-                            </item>
-                            <item>
-                                <ref target="https://www.panditproject.org/entity/44742/work">
-                                    <title>PANDIT</title>
-                                </ref>
-                            </item>
-                        </list>
-                    </note>
-                </bibl>
-                
-                
-                <bibl xml:id="work_00141">
-                    <title type="uniform" xml:lang="sa">Chāndogyopaniṣadbhāṣya</title>
-                    <title type="variant" xml:lang="xct">Chāndogyopaniṣad Bhāṣya</title>
-                    <title type="variant" xml:lang="xct">Chāndogya Upaniṣad Bhāṣya</title>
-                    <idno type="VIAF">179880348</idno>
-                    <idno type="local">00139</idno>
-                    <idno type="PANDIT">88643</idno>
-                    <note type="links">
-                        <list type="links">
-                            <item>
-                                <ref target="http://viaf.org/viaf/179880348/">
-                                    <title>VIAF</title>
-                                </ref>
-                            </item>
-                            <item>
-                                <ref target="https://www.panditproject.org/entity/88643/work">
-                                    <title>PANDIT</title>
-                                </ref>
-                            </item>
-                        </list>
-                    </note>
-                </bibl>
-                
-                <bibl xml:id="work_00142">
                     <title type="uniform" xml:lang="sa">Chāndogyabrāhmaṇa</title>
                     <title type="variant" xml:lang="xct">Chāndogya Brāhmaṇa</title>
                     <idno type="VIAF">176661061</idno>
@@ -3079,7 +3036,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00143">
+                <bibl xml:id="work_00141">
                     <title type="uniform" xml:lang="sa">Taittirīya Āraṇyaka</title>
                     <title type="variant" xml:lang="xct">Taittirīyāraṇyaka</title>
                     <idno type="VIAF">180224588</idno>
@@ -3101,7 +3058,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00144">
+                <bibl xml:id="work_00142">
                     <title type="uniform" xml:lang="sa">Ṛgveda Padapāṭha</title>
                     <title type="variant" xml:lang="sa">Ṛgvedapadapāṭha</title>
                     <title type="variant" xml:lang="sa">Ṛgveda</title>
@@ -3122,10 +3079,10 @@
                             </item>-->
                         </list>
                     </note>
-                    <note>A padapāṭha of the <title xml:lang="sa" key="work_00135">Ṛgvedasaṃhitā</title>.</note>
+                    <note>A <term xml:lang="sa">padapāṭha</term> of the <title xml:lang="sa" key="work_00135">Ṛgvedasaṃhitā</title>.</note>
                 </bibl>
                 
-                <bibl xml:id="work_00145">
+                <bibl xml:id="work_00143">
                     <title type="uniform" xml:lang="sa">Ṛgveda Prātiśākhya</title>
                     <title type="variant" xml:lang="sa">Ṛgvedaprātiśākhya</title>
                     <idno type="VIAF">176255675</idno>
@@ -3147,9 +3104,9 @@
                     </note>
                    </bibl>
                 
-                <bibl xml:id="work_00146">
+                <bibl xml:id="work_00144">
                     <title type="uniform" xml:lang="sa">Varṇakramalakṣaṇa</title>
-                    <title type="variant" xml:lang="sa">Varṇakramalakṣaṇa</title>
+                    <title type="variant" xml:lang="sa">Varṇa Krama Lakṣaṇa</title>
                     <!--<idno type="VIAF">176255675</idno>-->
                     <idno type="local">00144</idno>
                     <!--<idno type="PANDIT">000000</idno>-->
@@ -3169,9 +3126,9 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00147">
+                <bibl xml:id="work_00145">
                     <title type="uniform" xml:lang="sa">Sarvānukramaṇī</title>
-                    <title type="variant" xml:lang="sa">Sarvānukramaṇī</title>
+                    <title type="variant" xml:lang="sa">Sarvā Anukramaṇī</title>
                     <!--<idno type="VIAF">176255675</idno>-->
                     <idno type="local">00145</idno>
                     <idno type="PANDIT">111827</idno>
@@ -3191,7 +3148,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00148">
+                <bibl xml:id="work_00146">
                     <title type="uniform" xml:lang="sa">Sāmaveda</title>
                     <title type="variant" xml:lang="sa">Sāma Veda</title>
                     <idno type="VIAF">179825890</idno>
@@ -3213,7 +3170,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00149">
+                <bibl xml:id="work_00147">
                     <title type="uniform" xml:lang="sa">Āraṇyagāna</title>
                     <title type="variant" xml:lang="sa">Āraṇyag Gāna</title>
                     <!--<idno type="VIAF">179825890</idno>-->
@@ -3235,7 +3192,7 @@
                     </note>-->
                 </bibl>
                 
-                <bibl xml:id="work_00150">
+                <bibl xml:id="work_00148">
                     <title type="uniform" xml:lang="sa">Taittirīya Prātiśākhya</title>
                     <title type="variant" xml:lang="sa">Taittirīyaprātiśākhya</title>
                     <idno type="VIAF">173945391</idno>
@@ -3257,7 +3214,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00151">
+                <bibl xml:id="work_00149">
                     <title type="uniform" xml:lang="sa">Tāṇḍya Brāhmaṇa</title>
                     <title type="variant" xml:lang="sa">Tāṇḍyabrāhmaṇa</title>
                     <idno type="VIAF">185091033</idno>
@@ -3280,7 +3237,7 @@
                 </bibl>
                 
                 
-                <bibl xml:id="work_00152"> 
+                <bibl xml:id="work_00150"> 
                     <title type="uniform" xml:lang="sa">Taittirīya Brāhmaṇa</title>
                     <title type="variant" xml:lang="sa">Taittirīyabrāhmaṇa</title>
                     <idno type="VIAF">177020547</idno>
@@ -3302,7 +3259,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00153"> 
+                <bibl xml:id="work_00151"> 
                     <title type="uniform" xml:lang="sa">Vājasaneyī Prātiśākhya</title>
                     <title type="variant" xml:lang="sa">Vājasaneyīprātiśākhya</title>
                     <idno type="VIAF">185949521</idno>
@@ -3324,7 +3281,7 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00154">
+                <bibl xml:id="work_00152">
                     <title type="uniform" xml:lang="sa">Kṣetrasamāsa</title>
                     <title type="variant" xml:lang="xct">Kṣetra Samāsa</title>
                     <title type="variant" xml:lang="xct">Laghukṣetrasamāsa</title>
@@ -3342,21 +3299,20 @@
                     </note>
                 </bibl>
                 
-                <bibl xml:id="work_00155">
+                <bibl xml:id="work_00153">
                     <title type="uniform" xml:lang="sa">Sāmaga Sandhyoppadaviddhi</title>
                     <title type="variant" xml:lang="xct">Sandhyoppadaviddhi</title>
                     <idno type="local">00155</idno>
                 </bibl>
               
-                <bibl xml:id="work_000156">
+                <bibl xml:id="work_000154">
                     <title type="uniform" xml:lang="sa">Anantapayapaddhati</title>
                     <title type="variant" xml:lang="xct"></title>
                     <idno type="local">00156</idno>
-                    </note>
-                </bibl>
+                   </bibl>
                 
                 
-                <bibl xml:id="work_00157">
+                <bibl xml:id="work_00155">
                     <title type="uniform" xml:lang="sa">Bhikṣuṇīkarmavācanā</title>
                     <title type="variant" xml:lang="xct">Bhikṣuṇī Karma Vācanā</title>
                     <title type="variant" xml:lang="xct">Bhikṣuṇī Karmavācanā</title>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00200">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00202">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -20,7 +20,8 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                            >Bodleian Library </ref></addrLine>
                         <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -35,47 +36,46 @@
                     <settlement>Oxford</settlement>
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
+                    <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                    <idno type="shelfmark">MS Ind. Inst. Sansk. 59(iv)</idno><idno type="ieArk">ark:29072/x0ng451h41mb</idno><idno type="crArk">ark:29072/x0nc580m589m</idno>
+                    <idno type="shelfmark">MS. Ind. Inst. Sansk. 61 (vii)</idno>
                     <altIdentifier type="internal">
-                        <idno type="or_long_shelfmark"/>
+                        <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName/></note>
+                            <orgName></orgName></note>
                     </altIdentifier>
                 </msIdentifier>
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00133">Prasthānabheda</title>, a summary of the several
-                        branches of learning. <!--Fairly accurate. Written by the same
-                        hand as nos, 7, 10, 136, with which it is bound up. Probably
-                        this hand wrote also nos. 6, 8, 140, 147, 149.--></summary>
+                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00138">Ṛk ca vā</title>, a collection of fifteen sentences from the <title xml:lang="sa" key="work_00139">Aitareya Brāhmaṇa</title>.</summary>
                     
                     <msItem n="1" defective="unknown">
-                        <!--<locus from="Xr" to="Xv">ff. XrY-XvY</locus>-->
+                        <locus from="Xr" to="Xv">ff. 1v-6v</locus>
+                                              
+                        <title xml:lang="sa" key="work_00136">Ṛk ca vā</title>
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00125">
-                                <persName xml:lang="sa" type="standard">Madhusūdana Sarasvatī</persName>
-                            </name>
-                        </author>
+                        <incipit xml:lang="sa"><locus from="1v" to="1v">[1v]</locus>
+                            śrīgaṇeśāya namaḥ | oṃ | ṛk ca vā idam agre sāma cāstāṃ | saiva nāma ṛg āsīd amo nāma sāvā |
+                            ṛk sāmopāvadan mithunaṃ saṃbhavāvan | prajātyā itt nety abravīt | sāma jyāyān vā | 
+                            ato mama mahi meti | te dve bhūtvopāvadatāṃ | tena prati cana samavadata | tās tisro bhūtvopāvadāṃs | 
+                            tat tisṛbhiḥ samabhavad | yat tisṛbhiḥ samabhavat tasmāt tisṛbhiḥ stuvanti |                      
+                        </incipit>
                         
-                        <title xml:lang="sa" key="work_00133">Prasthānabheda</title>
-                        
-                        <textLang mainLang="sa">Sanskrit.</textLang>
+                        <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
                 </msContents>
                 
                 <physDesc>
-                        <objectDesc form="codex"> 
+                        <objectDesc form="pothī">
                             <supportDesc material="paper">
-                                <support>Western Paper.
+                                <support> Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="19">19</height>
-                                            <width quantity="22.8">22.8</width>
+                                            <height quantity="10">10</height>
+                                            <width quantity="18.6">18.6</width>
                                         </dimensions>
 <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <!--<dimensions type="folio" scope="range" unit="cm">
@@ -85,7 +85,7 @@
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="16">16 ff.</extent> <!--NOT SURE ABOUT THIS, the printed catalogue doesn't say!-->
+                                <extent xml:id="folio" n="6"> 6 ff.</extent> 
                                 
                                 <condition>
                                     Complete, in good condition.
@@ -94,12 +94,17 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                <desc>Devanāgarī in black ink.</desc>
-                               </handNote>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                                <desc>Devanāgarī in black ink, with daṇḍas in red ink.</desc>
+                                <!--<desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_">
+                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
+                                    </name>
+                                </desc>-->
+                            </handNote>
                         </handDesc>
                         
-                      <!--  <decoDesc>
+                        <!--<decoDesc>
                             <decoNote type="miniature">
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
@@ -108,13 +113,10 @@
                     
                     <history>
                         <origin>
-                            <!--<date calendar="Nepāla" when="0914">914 Nepāla</date>--> / <date calendar="Gregorian" notBefore="1850" notAfter="1885">Last half of 19th cent.</date>
+                            <date calendar="Gregorian" notBefore="1800" notAfter="1886">Middle of 19th century CE.</date>
                             <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
                         </origin>
-                        <provenance>Presented by 
-                            <name type="person" subtype="dnr" key="person_00126">
-                                <persName type="standard" xml:lang="en">Law, J. S.</persName>
-                                <persName type="display" xml:lang="en">Major J. S. Law</persName></name> in <date calendar="Gregorian" when="1885">August 1885</date>.
+                        <provenance>Purchased in <date calendar="Gregorian" when="1886">1886</date>.
                         </provenance>
                     </history>
                     
@@ -122,43 +124,29 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref
+                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
-                        
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
-                            
-                            <!--<biblStruct type="manuscript" xml:id="X">
-                                <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>-->
-                            
                             <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
-                                <monogr>
-                                    <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
-                                        Library, Oxford</title>
-                                    <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
-                                    <imprint>
-                                        <pubPlace>Oxford</pubPlace>
-                                        <publisher>Clarendon Press</publisher>
-                                        <date>1903</date>
-                                        <biblScope>no. 2, p. 2-3</biblScope>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>
-                        </listBibl>
-                     </additional>
+                            <monogr>
+                                <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
+                                    Library, Oxford</title>
+                                <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
+                                <imprint>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <publisher>Clarendon Press</publisher>
+                                    <date>1903</date>
+                                    <biblScope>no. 3, p. 2-3.</biblScope>
+                                </imprint>
+                            </monogr>
+                       </biblStruct>
+                      </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -408,7 +396,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc/>
+                                <catDesc></catDesc>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -515,28 +503,26 @@
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
-                        <!--<item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>-->
-                        <!--<item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>-->
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#śāstra">Śāstra</item>
-                        <item/>
-                        <item/>
+                        <item corresp="#vaidika">Vaidika</item>
+                        <item corresp="#brāhmaṇa">Brāhmaṇa</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-01-16">
-                <persName>Barbora Sojkova modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            <change when="2024-04-23">
+                <persName>Barbora Sojkova modified this entry.</persName>
             </change>
-            <change when="2023-01-16">
+            <change when="2023-01-26">
+                <persName>Barbora Sojkova modified this entry according to the <ref
+                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            </change>
+            <change when="2023-01-20">
                 <persName>Barbora Sojkova created this entry.</persName>
             </change>
         </revisionDesc>

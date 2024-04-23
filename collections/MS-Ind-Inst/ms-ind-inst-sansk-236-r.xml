@@ -51,7 +51,7 @@
                     <msContents n="2">
                         <!--increment n attribute for ms containing multiple ms items-->
                         <summary>A composite Bengali paper manuscript. The first three folios contain the beginning of a commentary of <name type="person" subtype="aut" key="person_00012">
-                            <persName xml:lang="sa" type="standard" key="person_00012">Kālidāsa</persName></name>'s <title xml:lang="sa">Meghadūta</title>. 
+                            <persName xml:lang="sa" type="standard" key="person_00012">Kālidāsa</persName></name>'s <title xml:lang="sa" key="work_00009">Meghadūta</title>. 
                             The following seven folios contain a fragment of an unidentified commentary on a <term xml:lang="sa">kāvya</term> on Rāma's story.
                         </summary>
 
@@ -96,13 +96,11 @@
                                 <extent xml:id="folio" n="10">[10 ff.]
                                     <measure type="leaf" quantity="5">3 ff.</measure>
                                     + <measure type="leaf" quantity="3">7 ff. </measure>
-                                
+                                </extent>
 
                                 <foliation n="1" style="letter" rend="beng">First item foliated in Bengali numerals, mid-right margin, verso.</foliation>
                                 <foliation n="2">Second item unfoliated.</foliation>
                                     
-                                </extent>
-
                                 <!--the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition> 
                                     <p>Damaged; all folios are smudged and stained, with <term xml:lang="sa">akṣara</term>s (mostly still readable)

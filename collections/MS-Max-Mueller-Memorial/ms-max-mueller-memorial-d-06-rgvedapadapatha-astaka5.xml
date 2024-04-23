@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00200">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00207">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Balliol-Bodley Scholarship</funder>
+                <funder>Andrew W. Mellon Foundation</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -20,8 +20,9 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
-                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                            >Bodleian Library </ref></addrLine>
+                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -35,47 +36,51 @@
                     <settlement>Oxford</settlement>
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
-                    <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                    <idno type="shelfmark">MS Ind. Inst. Sansk. 59(iv)</idno><idno type="ieArk">ark:29072/x0ng451h41mb</idno><idno type="crArk">ark:29072/x0nc580m589m</idno>
+                    <collection type="main">Oriental Manuscripts</collection>
+                    <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
+                    <idno type="shelfmark">MS Max Müller d. 6</idno>
                     <altIdentifier type="internal">
-                        <idno type="or_long_shelfmark"/>
+                        <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName/></note>
+                            <orgName></orgName></note>
                     </altIdentifier>
                 </msIdentifier>
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00133">Prasthānabheda</title>, a summary of the several
-                        branches of learning. <!--Fairly accurate. Written by the same
-                        hand as nos, 7, 10, 136, with which it is bound up. Probably
-                        this hand wrote also nos. 6, 8, 140, 147, 149.--></summary>
+                    <summary>An incomplete paper manuscript of the fifth <term>aṣṭaka</term> of the 
+                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term>padapāṭha</term> text. 
+                    </summary>
                     
-                    <msItem n="1" defective="unknown">
-                        <!--<locus from="Xr" to="Xv">ff. XrY-XvY</locus>-->
+                    <msItem n="1" defective="true">
+                        <locus from="1r" to="59v">Ff. 1r-75v. Ff. 38-40 and 45-57 are missing. </locus>
                         
                         <author>
-                            <name type="person" subtype="aut" key="person_00125">
-                                <persName xml:lang="sa" type="standard">Madhusūdana Sarasvatī</persName>
+                            <name type="person" subtype="aut" key="person_00000">
+                                <persName xml:lang="sa" type="standard">Unknown</persName>
                             </name>
                         </author>
                         
-                        <title xml:lang="sa" key="work_00133">Prasthānabheda</title>
+                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 5.</title>
                         
-                        <textLang mainLang="sa">Sanskrit.</textLang>
+                        <colophon xml:lang="sa"><locus from="Xr" to="Xr">[Xr]</locus> 
+                            saṃ° 1580 varṣe āśvana śudi 7 adyeha śrī vṛddhanagare agnihotrā unāthiyāsutaharisutanānāṃ paṭhanāṛthaṃ likhitam  
+                        </colophon>
+                        
+                        <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
                 </msContents>
                 
                 <physDesc>
-                        <objectDesc form="codex"> 
+                        <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Western Paper.
+                                <support>Indian Paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="19">19</height>
-                                            <width quantity="22.8">22.8</width>
+                                            <height quantity="9.5">9.5</height>
+                                            <width quantity="23">23</width>
                                         </dimensions>
 <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <!--<dimensions type="folio" scope="range" unit="cm">
@@ -85,21 +90,29 @@
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="16">16 ff.</extent> <!--NOT SURE ABOUT THIS, the printed catalogue doesn't say!-->
+                                <extent xml:id="folio" n="59"> 59 ff.</extent> 
+
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom right margin, verso.</foliation> 
                                 
                                 <condition>
-                                    Complete, in good condition.
+                                    Incomplete. Ff. <locus from="1r" to="1v">1</locus> and <locus from="5r" to="5v">5</locus> have been supplied by two other hands.
+                                    Ff. 38-40 and 45-57 are missing. Corrections have been made by various hands. A considerable damage from insect. 
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                <desc>Devanāgarī in black ink.</desc>
-                               </handNote>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                                <desc>Devanāgarī in black ink, accented in red.</desc>
+                                <!--<desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_">
+                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
+                                    </name>
+                                </desc>-->
+                            </handNote>
                         </handDesc>
                         
-                      <!--  <decoDesc>
+                        <!--<decoDesc>
                             <decoNote type="miniature">
                                 <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
                             </decoNote>
@@ -108,13 +121,14 @@
                     
                     <history>
                         <origin>
-                            <!--<date calendar="Nepāla" when="0914">914 Nepāla</date>--> / <date calendar="Gregorian" notBefore="1850" notAfter="1885">Last half of 19th cent.</date>
+                            <date calendar="Vikrama" when="1580">Vikrama 1580</date> / <date calendar="Gregorian" when="1523">1523 CE.</date>
                             <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
                         </origin>
-                        <provenance>Presented by 
-                            <name type="person" subtype="dnr" key="person_00126">
-                                <persName type="standard" xml:lang="en">Law, J. S.</persName>
-                                <persName type="display" xml:lang="en">Major J. S. Law</persName></name> in <date calendar="Gregorian" when="1885">August 1885</date>.
+                        <provenance>Purchased by 
+                            <name type="person" subtype="dnr" key="local_00127">
+                                <persName type="standard" xml:lang="en">Macdonell, Arthur Anthony</persName>
+                                <persName type="display" xml:lang="en">Arthur Anthony Macdonell</persName></name> 
+                            in <date calendar="Gregorian" when="1907">1907</date>.
                         </provenance>
                     </history>
                     
@@ -122,7 +136,9 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref
+                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -130,35 +146,21 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <!--<biblStruct type="manuscript" xml:id="X">
+                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
                                 <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>-->
-                            
-                            <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
-                                <monogr>
-                                    <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
-                                        Library, Oxford</title>
-                                    <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
+                                    <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
+                                    <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
                                     <imprint>
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
-                                        <date>1903</date>
-                                        <biblScope>no. 2, p. 2-3</biblScope>
+                                        <date>1922</date>
+                                        <biblScope>no. 4, p. 5</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
                         </listBibl>
-                     </additional>
+                        
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -408,7 +410,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc/>
+                                <catDesc></catDesc>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -517,26 +519,27 @@
                         </item>
                         <!--<item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>-->
-                        <!--<item>
+                        </item>
+                        <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
                         </item>-->
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#śāstra">Śāstra</item>
-                        <item/>
-                        <item/>
+                        <item corresp="#vaidika">Vaidika</item>
+                        <item corresp="#saṃhitā">Saṃhitā</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-01-16">
-                <persName>Barbora Sojkova modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            <change when="2023-02-07">
+                <persName>Barbora Sojkova modified this entry according to the <ref
+                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
-            <change when="2023-01-16">
+            <change when="2023-02-03">
                 <persName>Barbora Sojkova created this entry.</persName>
             </change>
         </revisionDesc>

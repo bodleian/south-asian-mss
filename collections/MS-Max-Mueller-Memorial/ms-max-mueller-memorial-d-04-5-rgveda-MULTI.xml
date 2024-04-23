@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00200">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00211">
     
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
@@ -20,64 +20,170 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
+                            >Bodleian Library </ref></addrLine>
                         <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
             </publicationStmt>
             
-            <sourceDesc>
-            <msDesc xml:id="Sanskrit" xml:lang="en">
-                <msIdentifier>
-                    <country>United Kingdom</country>
-                    <region type="county">Oxfordshire</region>
-                    <settlement>Oxford</settlement>
-                    <institution>Oxford University</institution>
-                    <repository>Bodleian Library</repository>
-                    <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                    <idno type="shelfmark">MS Ind. Inst. Sansk. 59(iv)</idno><idno type="ieArk">ark:29072/x0ng451h41mb</idno><idno type="crArk">ark:29072/x0nc580m589m</idno>
-                    <altIdentifier type="internal">
-                        <idno type="or_long_shelfmark"/>
+            <sourceDesc>    
+                <msDesc xml:id="Sanskrit" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <collection type="main">Oriental Manuscripts</collection>
+                        <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
+                        <idno type="shelfmark">MS. Max Müller memorial d. 4-5</idno>
+                        <altIdentifier type="internal">
+                            <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
-                            <region type="county">Oxfordshire</region>
-                            <settlement>Oxford</settlement>
-                            <orgName/></note>
-                    </altIdentifier>
-                </msIdentifier>
-                
-                <msContents n="1">
-                    <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00133">Prasthānabheda</title>, a summary of the several
-                        branches of learning. <!--Fairly accurate. Written by the same
-                        hand as nos, 7, 10, 136, with which it is bound up. Probably
-                        this hand wrote also nos. 6, 8, 140, 147, 149.--></summary>
+                                <region type="county">Oxfordshire</region>
+                                <settlement>Oxford</settlement>
+                                <orgName></orgName></note>
+                        </altIdentifier>
+                        </msIdentifier>
+                                                             
+                  <msContents n="9">
+                        <summary>A composite paper manuscript of the 
+                            <title xml:lang="sa" key="work_00142">Ṛgveda</title> in the <term xml:lang="sa">padapāṭha</term> text. 
+                            Complete in eight <term xml:lang="sa">aṣṭaka</term>s, with each <term xml:lang="sa">aṣṭaka</term> being originally a separate manuscript, individually foliated. 
+                            Now bound in two volumes: <term xml:lang="sa">aṣṭaka</term> 1-4 and 5-8. At the end, it includes a single leaf of the <title xml:lang="sa" key="work_00156">Śanistotra</title>, nine verses in praise of the planet Saturn. </summary>
+                        
+                                                                                                   
+                        <msItem n="1" defective="unknown">
+                         <locus from="1r" to="91v">ff. 1r-91v in original foliation.</locus>
+                             
+                                <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 1.</title>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
+                                
+                                <colophon xml:lang="sa"><locus from="91v" to="91v">f. 91v</locus>: 
+                                    ity upanāmakasapre Kāśīnāthabhaṭṭasūta Nārāyaraṇa likhitam ||
+                                    likhitam.
+                                </colophon>
+                            
+                        </msItem>
+                            
+                        <msItem n="2" defective="unknown">
+                            <locus from="1r" to="92v">ff. 1r-92v in original foliation.</locus>
+                                                        
+                            <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 2.</title>
+                                                                        
+                                                      
+                            <colophon xml:lang="sa"><locus from="92r" to="92r">f. 92r</locus>: 
+                                saṃvat 1811 tāraṇanāma saṃvatsare vaiśākhe māse kṛṣṇapakṣe aṣṭamī ravau [...] ||
+                            </colophon>
+                           
+                        </msItem>
+                        
+                        <msItem n="3" defective="unknown">
+                            <locus from="1r" to="79v">ff. 1r-79v in original foliation.</locus>
+                                                        
+                            <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 3.</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <colophon xml:lang="sa"><locus from="79r" to="79r">f. 79r</locus>: 
+                                saṃvat 1811 tāraṇanāma saṃvatsare āśvīnakṛṣṇa guruvāsara ekādaśyāṃ [...] ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem n="4" defective="unknown">
+                            <locus from="1r" to="92v">ff. 1r-92v in original foliation.</locus>
+                           
+                            <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 4.</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <colophon xml:lang="sa"><locus from="92r" to="92r">f. 92r</locus>: 
+                                saṃvat 1811 tāraṇanāma saṃvatsare māghaśukla saptamī ravau tad dine kāśyaṃ likhitam ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem n="5" defective="unknown">
+                            <locus from="1r" to="86v">ff. 1r-86v in original foliation.</locus>
+                            
+                      <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 5.</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <colophon xml:lang="sa"><locus from="86r" to="86r">f. 86r</locus>: 
+                                saṃvat 1812 pārthīva saṃvatsare vaiśākha kṛṣṇa 30 bhṛguvāra tad dine kāśyaṃ likhitaṃ ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem n="6" defective="unknown">
+                            <locus from="1r" to="86v">ff. 1r-86v in original foliation.</locus>
+                                                   
+                            <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 6.</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <colophon xml:lang="sa"><locus from="86r" to="86r">f. 86r</locus>: 
+                                saṃvat 1814 sarvajīta saṃvatsare || phālgunaśukla aṣṭamī bhṛguvāsara tad dine likhitaṃ ||
+                            </colophon>
+                         
+                        </msItem>
+                        
+                        <msItem n="7" defective="unknown">
+                            <locus from="1r" to="86v">ff. 1r-86v in original foliation.</locus>
+                            
+                                                     
+                            <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 7.</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <colophon xml:lang="sa"><locus from="86r" to="86r">f. 86r</locus>: 
+                                saṃvat 1815 sarvadhārīnāma saṃvatsare māghakṛṣṇa amāvāsyā ravivāra tad dine kāśyāṃ viśveśvara saṃnidhau likhitam ||
+                            </colophon>
+                                       </msItem>
+                        
+                        <msItem n="8" defective="unknown">
+                            <locus from="1r" to="91v">ff. 1r-91v in original foliation.</locus>
+                                                                               
+                            <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 8.</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <colophon xml:lang="sa"><locus from="91r" to="91r">f. 91r</locus>: 
+                                saṃvat 1821 manmatha saṃvatsare pauṣaśuddha pratipadā ravivāra||
+                            </colophon>
+                        </msItem>
+                        
+                        <msItem n="9" defective="unknown">
+                          <locus from="22r" to="22v">f. 22 in original foliation.</locus>
+                                                                              
+                            <title xml:lang="sa" key="work_00156">Śanistotra</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            
+                            <incipit xml:lang="sa"><locus from="22r" to="22r">f. 22r:</locus> 
+                                śrī | śanistotra prārambhaḥ | koṇāṃtakorudrayamodababhrukṛṣṇaḥ śanipiṅgala mandasaurī |
+                            </incipit>
+                        </msItem>
+                        
+                    </msContents>
                     
-                    <msItem n="1" defective="unknown">
-                        <!--<locus from="Xr" to="Xv">ff. XrY-XvY</locus>-->
+                    <physDesc>
+                        <p>A composite manuscript consisting of 9 codicological units.
+                        </p>
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00125">
-                                <persName xml:lang="sa" type="standard">Madhusūdana Sarasvatī</persName>
-                            </name>
-                        </author>
-                        
-                        <title xml:lang="sa" key="work_00133">Prasthānabheda</title>
-                        
-                        <textLang mainLang="sa">Sanskrit.</textLang>
-                    </msItem>
-                </msContents>
-                
-                <physDesc>
-                        <objectDesc form="codex"> 
+                       <objectDesc form="pothī"> 
                             <supportDesc material="paper">
-                                <support>Western Paper.
+                                <support>Indian paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="19">19</height>
-                                            <width quantity="22.8">22.8</width>
+                                            <height quantity="9.5">9.5</height>
+                                            <width quantity="23">23</width>
                                         </dimensions>
-<!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
+                                        <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <!--<dimensions type="folio" scope="range" unit="cm">
                                             <height atLeast="X" atMost="Y">ca. X-Y</height>
                                             <width atLeast="X" atMost="Y">ca. X-Y</width>
@@ -85,44 +191,54 @@
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="16">16 ff.</extent> <!--NOT SURE ABOUT THIS, the printed catalogue doesn't say!-->
+                                <extent xml:id="folio" n="704 ">705 ff.</extent>
+
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top left and mid-right margin, verso.</foliation>
                                 
                                 <condition>
-                                    Complete, in good condition.
-                                </condition>
+                                    Complete, in good condition. A few corrections made by the original or by a closely similar hand.                                </condition>
                             </supportDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                <desc>Devanāgarī in black ink.</desc>
-                               </handNote>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink" scribeRef="person_00129">
+                                <desc>Devanāgarī in black and red ink.</desc>
+                                <desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_00129">
+                                        <persName xml:lang="sa" type="standard">Nārāyaṇa</persName>
+                                    </name>
+                                </desc>
+                            </handNote>
                         </handDesc>
                         
-                      <!--  <decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
+                        <bindingDesc>
+                            <p>Modern Western binding.</p>
+                        </bindingDesc>  
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <!--<date calendar="Nepāla" when="0914">914 Nepāla</date>--> / <date calendar="Gregorian" notBefore="1850" notAfter="1885">Last half of 19th cent.</date>
-                            <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
-                        </origin>
-                        <provenance>Presented by 
-                            <name type="person" subtype="dnr" key="person_00126">
-                                <persName type="standard" xml:lang="en">Law, J. S.</persName>
-                                <persName type="display" xml:lang="en">Major J. S. Law</persName></name> in <date calendar="Gregorian" when="1885">August 1885</date>.
-                        </provenance>
+                    <origin>
+                        <date calendar="Vikrama" from="1811" to="1821">Vikrama 1811-1821.</date> / <date calendar="Gregorian" from="1754" to="1764">1754-1764 CE.</date>
+                        <p><note><term>Aṣṭaka</term> 1 not dated. <term>Aṣṭaka</term>s 2, 3, and 4 dated to saṃvat 1811. <term>Aṣṭaka</term> 5 saṃvat 1812, 
+                            <term>aṣṭaka</term> 6 saṃvat 1814, <term>aṣṭaka</term> 7 saṃvat 1815, and <term>aṣṭaka</term> 8 saṃvat 1821. 
+                            <title xml:lang="sa" key="work_00">Śanistotra</title> not dated. </note></p>
+                        <origPlace xml:lang="eng" key="local_00006">Vārāṇasī</origPlace>
+                    </origin>
+                    <provenance>Purchased by 
+                        <name type="person" subtype="dnr" key="local_00127">
+                            <persName type="standard" xml:lang="en">Macdonell, Arthur Anthony</persName>
+                            <persName type="display" xml:lang="en">Arthur Anthony Macdonell</persName></name> 
+                        in <date calendar="Gregorian" when="1907">1907</date>.
+                    </provenance>
                     </history>
                     
                     <additional>
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref
+                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -130,39 +246,25 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <!--<biblStruct type="manuscript" xml:id="X">
+                            <biblStruct type="book">
                                 <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>-->
-                            
-                            <biblStruct type="book" xml:id="Keith1903" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
-                                <monogr>
-                                    <title level="m">A Catalogue of the Sanskrit and Prākrit mss. in the Indian Institute
-                                        Library, Oxford</title>
-                                    <author><forename>Arthur Berriedale</forename><surname>Keith</surname></author>
+                                    <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
+                                    <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
                                     <imprint>
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
-                                        <date>1903</date>
-                                        <biblScope>no. 2, p. 2-3</biblScope>
+                                        <date>1922</date>
+                                        <biblScope>no. 3, p. 4-5.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
-                        </listBibl>
+                        </listBibl>     
+                        
                      </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
+                         
         <encodingDesc>
             <classDecl>
                 <taxonomy xml:id="LCSH">
@@ -408,7 +510,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc/>
+                                <catDesc></catDesc>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -517,26 +619,30 @@
                         </item>
                         <!--<item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>-->
-                        <!--<item>
+                        </item>
+                        <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>-->
-                    </list>
+                        </item>
+-->                    </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item corresp="#śāstra">Śāstra</item>
-                        <item/>
-                        <item/>
+                        <item corresp="#vaidika">Vaidika</item>
+                        <item corresp="#saṃhitā">Saṃhitā</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-01-16">
-                <persName>Barbora Sojkova modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            <change when="2024-04-23">
+                <persName>Barbora Sojkova modified this entry.</persName>
             </change>
-            <change when="2023-01-16">
+            <change when="2023-03-17">
+                <persName>Barbora Sojkova modified this entry according to the <ref
+                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+            </change>
+            <change when="2023-03-15">
                 <persName>Barbora Sojkova created this entry.</persName>
             </change>
         </revisionDesc>

@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection><!--check this! -->
-                    <idno type="shelfmark">MS Ind. Inst. Sansk. 237 (R)</idno>
+                    <idno type="shelfmark">MS. Ind. Inst. Sansk. 237 (R)</idno>
                     <!-- If listed in CSM, add this number here 
                     <altIdentifier>
                         <idno type="CSM"></idno>
@@ -51,14 +51,14 @@
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="10v">[ff.1r-5v] ff. 1r-10v in original foliation, ff. 3, 5-6, 8, and 9 missing.</locus>
                         
-                        <title xml:lang="sa" key="work_000155">Sāmaga Sandhyoppadaviddhi</title>
+                        <title xml:lang="sa" key="work_000153">Sāmaga Sandhyoppadaviddhi</title>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
                     
                     <msItem n="2" defective="unknown">
                      <locus from="1r" to="3v">[ff. 6r-8v] ff. 1r-3v in original foliation.</locus>  
-                     <title xml:lang="sa" key="work_00156">Anantapayapaddhati</title>
+                     <title xml:lang="sa" key="work_00154">Anantapayapaddhati</title>
                         <textLang mainLang="sa">Sanskrit.</textLang>
                     </msItem>
                     
@@ -98,7 +98,7 @@
                                 </dimensions>-->
                                 </extent> 
                                 <condition>
-                                    <p>Fragmentary work. The first manuscript of <title xml:lang="sa" key="work_000155">Sāmaga Sandhyoppadaviddhi</title> lacks ff. 3, 5-6, 8, and 9.</p>
+                                    <p>Fragmentary work. The first manuscript of <title xml:lang="sa" key="work_000153">Sāmaga Sandhyoppadaviddhi</title> lacks ff. 3, 5-6, 8, and 9.</p>
                                     <p>Damaged; some folios are smudged and stained, with <term xml:lang="sa">akṣara</term>s (mostly still readable)
                                         damaged by humidity.</p>
                                 </condition>
