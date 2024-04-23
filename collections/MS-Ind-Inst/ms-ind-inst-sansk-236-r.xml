@@ -21,7 +21,7 @@
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                         <collection type="sanskrit" subtype="evans-wentz" xml:id="Evans-Wentz">Sanskrit, Evans-Wentz
                             Collection
                         </collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 236.1(R)</idno><idno type="ieArk">ark:29072/x0k930bx08ss</idno><idno type="crArk">ark:29072/x0k643b125g5</idno>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 236 (R)</idno><idno type="ieArk">ark:29072/x0k930bx08ss</idno><idno type="crArk">ark:29072/x0k643b125g5</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.363</idno>
                             <note><country>United Kingdom</country>
@@ -48,33 +48,37 @@
                         </altIdentifier>
                     </msIdentifier>
 
-                    <msContents n="1">
+                    <msContents n="2">
                         <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>The first three folios of a Bengali paper manuscript containing the beginning of a commentary of <name type="person" subtype="aut" key="person_00012">
-                                <persName xml:lang="sa" type="standard">Kālidāsa</persName></name>'s <title xml:lang="sa">Meghadūta</title>.
+                        <summary>A composite Bengali paper manuscript. The first three folios contain the beginning of a commentary of <name type="person" subtype="aut" key="person_00012">
+                            <persName xml:lang="sa" type="standard" key="person_00012">Kālidāsa</persName></name>'s <title xml:lang="sa">Meghadūta</title>. 
+                            The following seven folios contain a fragment of an unidentified commentary on a <term xml:lang="sa">kāvya</term> on Rāma's story.
                         </summary>
 
                         <msItem n="1" defective="true">
-                            <author>
-                                <name type="person" subtype="aut" key="local_00000">
-                                    <persName xml:lang="sa" type="standard">Unknown</persName>
-                                </name>
-                            </author>
-
+                            <locus from="1r" to="3v">ff. 1r-3v in original foliation</locus>
                             <title xml:lang="sa" key="work_00009">[Meghadūtavyākhyā]</title>
+                            
 
                             <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
                                 śrīrāmaḥ ||
                             </rubric>
                             
                             <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                sargabandhe mahākāvyam ucyate tasya laksaṇaṃ | āśīr namaskriyā vastu<space/> nirdeśo vāpi tanmukhaṃ | 
+                                sargabandhe mahākāvyam ucyate tasya laksaṇaṃ | āśīr namaskriyā vastu nirdeśo vāpi tanmukhaṃ | 
                                 <sic>itihāsakathodbhūta itaratrapadāśrayaḥ</sic> | nagarārṇṇavaśailartucandrārkodayavarṇṇanaṃ || ityādi mahā<lb/>[1v2]kāvyalakṣaṇaṃ | 
                                 khalu kāvyam idaṃ sargabandhā<unclear reason="script">d yad uktaṃ tra</unclear>tallakṣaṇasahitaṃ rahitaṃ sargabandhanena | 
                                 tad <sic>uvati</sic> khalu kāvyaṃ jñātavyaṃ meghadūtādi |
                             </incipit>
 
                            <textLang mainLang="sa">Sanskrit.</textLang>
+                        </msItem>
+                        
+                        <msItem n="2" defective="true">
+                            <locus from="2r" to="8v">[ff. 2r-8v, f. 1 missing. Unfoliated]</locus>
+                            <p>An unidentified commentary on a <term xml:lang="sa">kāvya</term> on Rāma's story, written in Bengali script.</p>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
+                                                 
                         </msItem>
                     </msContents>
 
@@ -89,13 +93,22 @@
                                     </p>
                                 </support>
 
-                                <extent xml:id="folio" n="3">3 ff.</extent>
+                                <extent xml:id="folio" n="10">[10 ff.]
+                                    <measure type="leaf" quantity="5">3 ff.</measure>
+                                    + <measure type="leaf" quantity="3">7 ff. </measure>
+                                
 
-                                <foliation n="1" style="letter" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
+                                <foliation n="1" style="letter" rend="beng">First item foliated in Bengali numerals, mid-right margin, verso.</foliation>
+                                <foliation n="2">Second item unfoliated.</foliation>
+                                    
+                                </extent>
 
-<!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                <condition> Damaged; all folios are smudged and stained, with <term xml:lang="sa">akṣara</term>s (mostly still readable)
-                                    damaged by humidity. </condition>
+                                <!--the following element contains free text; however, stick to the set phrases as far as possible!-->
+                                <condition> 
+                                    <p>Damaged; all folios are smudged and stained, with <term xml:lang="sa">akṣara</term>s (mostly still readable)
+                                    damaged by humidity.</p>
+                                    <p>Fragmentary. The first folio of the second item is missing.</p>
+                                </condition>   
                             </supportDesc>
 
                             <layoutDesc>
@@ -465,7 +478,10 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2020-06-15">
+            <change when="2024-04-19">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
+           <change when="2020-06-15">
                 <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2020-05-05">

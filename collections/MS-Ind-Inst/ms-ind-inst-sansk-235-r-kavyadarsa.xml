@@ -36,7 +36,7 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS Ind. Ind. Sansk. 235(R)</idno><idno type="ieArk">ark:29072/x0k356944259</idno><idno type="crArk">ark:29072/x0k0698758v7</idno>
+                        <idno type="shelfmark">MS Ind. Inst. Sansk. 235(R)</idno><idno type="ieArk">ark:29072/x0k356944259</idno><idno type="crArk">ark:29072/x0k0698758v7</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.363</idno>
                             <note><country>United Kingdom</country>
@@ -497,6 +497,8 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-19">
+                <persName>Barbora Sojkova modified this entry.</persName> 
             <change when="2020-06-21">
                 <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>

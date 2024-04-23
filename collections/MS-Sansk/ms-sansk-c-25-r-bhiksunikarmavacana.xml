@@ -48,23 +48,20 @@
                     
                     <msContents n="1">
                         <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>A fragmentary 12th or 13th century palm-leaf manuscript of the <title xml:lang="san">Bhikṣuṇīkarmavācanā</title>.</summary>
+                        <summary>A fragmentary 11th-13th century palm-leaf manuscript of the second part of the <term xml:lang="sa">Mūlasarvāstivāda</term> text <title xml:lang="sa" key="work_00157">Bhikṣuṇīkarmavācanā</title>, the manual for the ordination of Buddhist nuns.</summary>
                         
                         <msItem n="1" defective="true">
-                            <author>
-                                <name type="person" subtype="aut" key="person_00000">
-                                    <persName xml:lang="eng" type="standard">‏Unknown.</persName>
-                                </name>
-                            </author>
-                            
-                            <title xml:lang="san">Bhikṣuṇīkarmavācanā</title>
+                                                       
+                            <title xml:lang="san" key="work_00157">Bhikṣuṇīkarmavācanā</title>
                             
                             <incipit xml:lang="san"><locus from="3r" to="3r">[3r1]</locus>
-                                mātṛgrāmasya caturthasya śrāmaṇyaphala<add place="top">syā 1</add>dhigamāya la<g>%</g>bhate
-                                mātṛgrāmaḥ svākhyāte dharmmavi<add place="top">na 1</add>ye pravrajyām upasampadaṃ
-                                bhikṣuṇībhāvañ caret_ mātṛgrāmo bhagavato ntike bra<damage>-1-</damage><lb/>[3r2]caryam ity
+                                mātṛgrāmasya caturthasya śrāmaṇyaphala<add place="top">syā</add>dhigamāya la<g>%</g>bhate
+                                mātṛgrāmaḥ svākhyāte dharmmavi<add place="top">na</add>ye pravrajyām upasampadaṃ
+                                bhikṣuṇībhāvañ caret_ mātṛgrāmo bhagavato ntike bra<damage>-</damage><lb/>[3r2] caryam ity
                                 evam ukte bhagavān mahāprajāpatīṃ gautamī¦<g>%</g>m idam avocat_ |
                             </incipit>
+                            
+                            <note subtype="gloss" type="additions">Marginal glosses in a different hand.</note>
                             
 <!--                            <finalRubric type="section" xml:lang="san"><locus from="3r" to="3"></locus>|| <g>@</g>|| </finalRubric>-->
                             
@@ -98,13 +95,14 @@
                                 
                                 <extent xml:id="folio" n="25"> 25 ff.</extent>
                                 
-<!--                                <foliation n="1" type="original">Letter numerals, mid-left margin, verso.</foliation>-->
-<!--                                <foliation n="2" type="original">Devanāgarī numerals, mid-right margin, verso.</foliation>-->
-<!--                                <foliation n="3" type="modern">Arabic numerals, top right margin, verso.</foliation> -->
+                                                                                            
+                                <foliation xml:id="original">Original foliation in Pāla numerals, mid-right margin, verso. </foliation>
+                                <foliation xml:id="modern">Additional foliation in Arabic numerals, top right margin, verso. Erroneous.</foliation> 
  
-<!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Incomplete, damaged.
+                                    <p>Significant damage with loss of text on a folios 27-31. A few folios smudged and stained, with <term xml:lang="sa">akṣara</term>s (mostly still readable)
+                                        damaged.</p>
+                                    <p>Fragmentary, 6 folios missing. Extant folios: 3-7, 9-11, 15-31.</p>
                                 </condition>
                             </supportDesc>
                             
@@ -180,8 +178,8 @@
                     
                     <history>
                         <origin>
-                            <date calendar="Gregorian" notBefore="1100" notAfter="1300">12th–13th century.</date>
-                            <origPlace xml:lang="eng" key="7547215">Bengal.</origPlace>
+                            <date calendar="Gregorian" notBefore="1000" notAfter="1300">11th–13th century.</date>
+                            <origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>
                         </origin>
                         <provenance>Bought from <name type="person" role="dnr" key="person_00096"><!--<persName type="standard" xml:lang="eng">Johnston,
                                     E.H.</persName>-->
@@ -202,20 +200,22 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="manuscript" xml:id="X">
+                            <biblStruct type="book" xml:id="X">
                                 <monogr>
-                                    <title level="m">[unpublished manuscript]</title>
+                                    <title level="m">The Buddhist Nuns' Ordination in the Tibetan Canon: Possibilities of the Revival of the Mūlasarvāstivāda Bhikṣuṇī Lineage</title>
                                     <author>
-                                        <forename/>
-                                        <surname/>
+                                        <forename>Carola</forename>
+                                        <surname>Roloff</surname>
                                     </author>
                                     <imprint>
-                                        <pubPlace/>
-                                        <date/>
+                                        <pubPlace>Bochum/Freiburg</pubPlace>
+                                        <publisher>projekt verlag</publisher>
+                                        <date>2020</date>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
                             
+                                                     
                             <!--<biblStruct type="book" xml:id="XX">
                                 <monogr>
                                     <title/>
@@ -628,6 +628,8 @@
         </profileDesc>
         
         <revisionDesc>
+            <change when="2024-04-19">
+                <persName>Barbora Sojkova modified this entry.</persName></change>
             <change when="2021-09-21">
                 <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>

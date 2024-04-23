@@ -36,7 +36,7 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                     	<collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
-                    	<idno type="shelfmark">Ms.Ind.Inst.Sansk.30</idno><idno type="ieArk">ark:29072/x0kp78gg421v</idno><idno type="crArk">ark:29072/x0kk91fk58qw</idno>
+                    	<idno type="shelfmark">Ms. Ind. Inst. Sansk. 30</idno><idno type="ieArk">ark:29072/x0kp78gg421v</idno><idno type="crArk">ark:29072/x0kk91fk58qw</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -48,7 +48,7 @@
                     
                     <msContents n="1">
                     	<summary>A 17th-century paper manuscript of the <title xml:lang="sa" calendar="person_00034">Antarakathāsaṃgraha</title>, a collection of
-                    		moral tales by Rājaśekhara of Maladhāra Gaccha<!-- [to check the guru of
+                    	    moral tales by <name type="person" key="person_00034">Rājaśekhara</name> of Maladhāra Gaccha<!-- [to check the guru of
                     		Rājaśekhara as inJRK it's a pupil of Srītilaka of Harṣapūrīya Gaccha]-->.
                     		This work is a collection of moral stories in prose. It is also called <title xml:lang="sa" calendar="local_00000">Vinodakathāsaṃgraha</title>.
                     		<!--1st Vimala kathā ends on fol.2B; 2nd Badhira
@@ -117,7 +117,7 @@
                             
                         	<title xml:lang="sa" key="work_00031">Antarakathāsaṅgraha</title>
                             
-                        	<!--<incipit xml:lang="sa"><locus from="1r" to="1r">[1r1]</locus> yan naikām
+                        	<incipit xml:lang="sa"><locus from="1r" to="1r">[1r1]</locus> yan naikām
                         		api kāminīṃ pariṇayasy abhyarthamāno'py alaṃ tan nūnaṃ gṛha-bhāra
                         		kātara-tayā mukto-dhyamo-devara mā tsakasva haris trikhaṇḍa vijayī
                         		bhrātā sti te sarvado bhāmādyābhir iti ritaḥ smita-mukho Nemir vaśī pātu
@@ -125,30 +125,30 @@
                         		Maladhāri-Gaṇādhīśā śrīTilakasūrayaḥ || 2 || mano-vinoda-hetūnāṃ
                         		sabhārhāṇāṃ yathā -śrutaṃ mayā kathānāṃ hṛsvānāṃ kriyate saṅgraho budhāḥ
                         		|| 3 || tan nāsti kiñcij jagati yad vācyaṃ na yathāsabhaṃ ato
-                        		Vinoda-kathikā saṅgraho'yaṃ na niṣphalaḥ || 4 || ..|| 5 ||
+                        		Vinoda-kathikā saṅgraho'yaṃ na niṣphalaḥ || 4 || <!--[...] || 5 ||
                         		sat-kāvya-nāda pakṣyābhyāṃ su-vana-traya dhāriṇī devī Sarasvatī -haṃsī
-                        		ramatāṃ mama mānase || 6 || yojana -\-(illegible)ṣaḍ-darśana samākule
+                        		ramatāṃ mama mānase || 6 ||--><!-- yojana -\-(illegible)ṣaḍ-darśana samākule
                         		āsthāne na virodho su kathanīyā kathānikā || 7 || asti śrībhārabhāsuraṃ
-                        		Śrīpuraṃ nāma nagaraṃ, tatra dvādaśa vrata-dharo ......etc [On
+                        		Śrīpuraṃ nāma nagaraṃ, tatra dvādaśa vrata-dharo [...]--><!--...etc [On
                         		Fol.8B]etāś ca buddhyadhikāra pratibaddhā Rohakādi kathā śrīMalayagiri
                         		kṛtanaṃ gadhya-bandhy-adhyayana-ṭīkā tastad vacana-bahumānāttaireva
-                        		gadhyairudhṛtā śeṣaṃ tu śāstraṃ gadhyaiḥ || cha ||
+                        		gadhyairudhṛtā śeṣaṃ tu śāstraṃ gadhyaiḥ || cha ||-->
                         	</incipit>
-                        	<explicit xml:lang="sa"><locus from="36r" to="36r">[36r?]</locus> || cha
+                        	<explicit xml:lang="sa"><locus from="36r" to="36r">[36r?]</locus> <!--|| cha
                         		|| kriyāḥ sarvāḥ kāmadudhāḥ prāk-puṇyaṃ balavadhyadi tathāhi ....(on
                         		fol.36B-11th line) hemāsanam upaveśyakanaka puṣpaiḥ pūjayitvaṃ -tvā
                         		kṛtāñjalir-jāgotva datteyaṃ lakṣmīstāvetaāvayaṃ viṣam apy amṛtaṃ bhavadi
                         		-\-\-yā bhavatyevetyabhidhāya mahatī vibhūti madān tato harīta kī vaidyo
                         		jātolīlā vilāsā tyāga karṇṇo bhoga purandaraḥ || iti guṇa-gauṇatve
-                        		prāk-puṇya prauḍhau ca pathyā vaidya(ka) kathā || 84 || pariṣadi rasa
+                        		prāk-puṇya prauḍhau ca pathyā vaidya(ka) kathā || 84 || -->pariṣadi rasa
                         		śriyāyāṃ rasāvatāraurthamantara kathodhyaṃ Mali(a)dhāra gacchanāthaḥ
                         		sūriḥ śrīRājaśekharaḥ kṛtavān || 1 || dvipūrvārdha gītiḥ ṣaṣṭir mātrā
                         		vyākhyā su munīndrāṇāṃ cātur vidyā'vatā-rasa'rāsu pūjā suvrṇṇa
                         		puṣpa-straja iva phalinī bhavaṃ tvetāḥ || 2 || sumaṅgalaṃ na varaṃ
-                        		kevalaṃ etā iti Antarakathā prakramāyā tta-\-svān </explicit>
+                        		kevalaṃ etā iti Antarakathā prakramāyā tta--svān </explicit>
                         	<finalRubric xml:lang="sa"><locus from="36v" to="36v">[36v?]</locus>
                         		Antarakathā-saṅgraho'ayaṃ nāma granthaḥ || cha || śubhaṃ bhūyāt || cha
-                        		|| </finalRubric>-->
+                        		|| </finalRubric>
                         	<!--<colophon xml:lang="sa"><locus from="20v" to="20v">[20v1]</locus>
 				</colophon>-->
                         	<textLang mainLang="sa">Sanskrit.</textLang>
@@ -175,7 +175,7 @@
                                 
 <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                	Folio 36 is torn by edges but text is not damaged. From folio 20 - 31 at right part of folio is eaten by the warms and slightly torn but text is not damaged. 
+                                	Folio 36 is torn by edges but text is not damaged. From folio 20 - 31 at right part of folio is eaten by worms and slightly torn but text is not damaged. 
                                 </condition>
                             </supportDesc>
                             
@@ -700,7 +700,10 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-        	<change when="2021-10-01">
+            <change when="2024-04-19">
+            <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
+            <change when="2021-10-01">
                 <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2021-10-01">
