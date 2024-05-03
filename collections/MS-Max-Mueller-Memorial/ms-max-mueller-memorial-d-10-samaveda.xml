@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller d. 10</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 10</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,23 +50,17 @@
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the <term>uttārcika</term> of the <title xml:lang="sa" key="work_00146">Sāmaveda</title>,
-                        in the <term>saṃhitā</term> text, accented.</summary>
+                    <summary>A paper manuscript of the <term xml:lang="sa">uttārcika</term> of the <title xml:lang="sa" key="work_00146">Sāmaveda</title>,
+                        in the <term xml:lang="sa">saṃhitā</term> text, accented.</summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="106v">ff. 1r-106v</locus>
+                                               
+                        <title xml:lang="sa" key="work_00146">Sāmaveda, <term xml:lang="sa">uttarārcika</term>.</title>
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
-                        <title xml:lang="sa" key="work_00146">Sāmaveda, <term>uttarārcika</term>.</title>
-                        
-                        <colophon><locus from="116r" to="116r">Ff. 116.</locus>
+                        <colophon><locus from="116r" to="116r">F. 116</locus>:
                         saṃvat 1707 varṣe pauṣa śu. 5 dine |
-                        adya girapure vāstavyaṃ kiṃcit vāṇātasī vāstavyaṃ rāmaprasādāt [...]
+                        adya girapure vāstavyaṃ kiṃcit vāṇātasī vāstavyaṃ rāmaprasādāt [...] ||
                         </colophon>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
@@ -93,9 +87,10 @@
                                 <extent xml:id="folio" n="106"> 106 ff.</extent> 
                                 
                                 <condition>
-                                    Complete. A few corrections have been made. Leaves numbered 28, 80-89 are omitted in the original foliation. 
-                                    Ff.<locus from="1r" to="1v">1</locus> and <locus from="116r" to="116v">116</locus> are supplied in a modern hand, and also parts of <locus from="114r" to="115v">ff. 114-115</locus>, where they have been torn and mended.
-                                    most of colophon is very corrupt and in parts illegible.
+                                    Complete. 
+                                    <p>Corrected. Leaves numbered 28, 80-89 are omitted in the original foliation.</p> 
+                                    <p>Ff.<locus from="1r" to="1v">1</locus> and <locus from="116r" to="116v">116</locus> are supplied in a modern hand, and also parts of <locus from="114r" to="115v">ff. 114-115</locus>, where they have been torn and mended.
+                                    Most of colophon is very corrupt and in parts illegible. </p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -145,7 +140,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -153,7 +148,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 11, p. 8</biblScope>
+                                        <biblScope>no. 11, p. 8.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -532,6 +527,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-03-27">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

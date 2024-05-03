@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection> 
-                    <idno type="shelfmark">MS Max Müller e. 2</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial e. 2</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -49,24 +49,23 @@
                 </msIdentifier>
                 
                 <msContents n="1">
-                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00151">Vājasaneyī Prātiśākhya</title> by <name key="person_0132">Kātyāyana</name>.
-                    Only <term>sūtra</term>s.</summary>
+                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00151">Vājasaneyī Prātiśākhya</title> by <name key="person_0137">Kātyāyana</name>, containing
+                    only the <term xml:lang="sa">sūtra</term>s.</summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="25v">ff. 1r-25v</locus>
                         
                         <author>
-                            <name type="person" subtype="aut" key="person_0132">
+                            <name type="person" subtype="aut" key="person_0137">
                                 <persName xml:lang="sa" type="standard">Kātyāyana</persName>
                             </name>
                         </author>
                         
                         <title xml:lang="sa" key="work_00151">Vājasaneyī Prātiśākhya</title>
                         
-                        <!--<colophon><locus from="25v" to="25v">F. 25.</locus>
-                            śake 1769 plavaṅga saṃvatsare pauṣa śu- 2 |
-                            śubham idaṃ pustakaṃ sāṭhe ity upanāma viśvanāthabhaṭṭena likhitam |
-                        </colophon>-->
+                        <colophon><locus from="25v" to="25v">F. 25.</locus>
+                            śubham idaṃ pustakaṃ sāṭhe ity upanāma viśvanāthabhaṭṭena likhitam śake 1769 plavaṅga saṃvatsare pauṣa śu° 2                            
+                        </colophon>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
@@ -78,8 +77,8 @@
                                 <support>Indian paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="11.5">11.5</height>
-                                            <width quantity="20.3">20.3</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="20">20</width>
                                         </dimensions>
 <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <!--<dimensions type="folio" scope="range" unit="cm">
@@ -91,20 +90,34 @@
                                 
                                 <extent xml:id="folio" n="25"> 25 ff.</extent> 
                                 
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, top left margin, verso.</foliation>
+                                <foliation n="3" style="digit" rend="deva">Modern Arabic numerals in pencil, botto right margin, recto.</foliation>
+                                
                                 <condition>
                                     Complete, in good condition.
+                                    <p>Occassional corrections in different hand.</p>
                                 </condition>
-                            </supportDesc>
+                                </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="7">
+                                                                 
+                                  <p> Description of the layout:
+                                        7 lines per page, approximately 40 <term xml:lang="sa">akṣara</term>s per line.
+                                            </p>
+                                  s</layout>
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                <desc>Devanāgarī in black ink.</desc>
-                                <!--<desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
-                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                                <desc>Devanāgarī in black ink, highlighted in red powder.</desc>
+                                <desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_00140">
+                                        <persName xml:lang="sa" type="display">Viśvanātha Bhaṭṭa</persName>
                                     </name>
-                                </desc>-->
+                                </desc>
                             </handNote>
                         </handDesc>
                         
@@ -142,7 +155,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -150,7 +163,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 19, p. 12</biblScope>
+                                        <biblScope>no. 19, p. 12.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -531,6 +544,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-05-03">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-04-20">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

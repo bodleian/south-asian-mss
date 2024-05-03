@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller d. 8</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 8</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,25 +50,14 @@
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the eighth <term>aṣṭaka</term> of the 
-                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term>padapāṭha</term> text.</summary>
+                    <summary>A paper manuscript of the eighth <term xml:lang="sa">aṣṭaka</term> of the 
+                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term xml:lang="sa">padapāṭha</term> text.</summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="94v">ff. 1r-94v</locus> <!--to find out-->
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
-                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 8</title>
-                        
-                        <!--<colophon xml:lang="sa"><locus from="94v" to="94v">[Xr]</locus> 
-                            svasti saṃvat 1491 varṣe māghamāse śuklapakṣe prati[pa]ttithau bhṛgudine | 
-                            adyeha śri rānacandrarājye dvi° srīdharasuta dvi° kaśavena padapustikā likhitā || 
-                        </colophon>-->
-                        
+                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term xml:lang="sa">Aṣṭaka</term> 8</title>
+                                                                        
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
                 </msContents>
@@ -90,24 +79,27 @@
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="94"> 94 ff. F. 22 (wrongly numbered 20) is by a more modern hand,
-                                and ff. 23-27 by a third hand, but older, and in the characteristc Jaina style.</extent> 
+                                <extent xml:id="folio" n="94"> 94 ff. 
+                                </extent> 
                                 
                                 <condition>
-                                    Complete, in good condition. A few corrections have been made by another hand, 
-                                    and where the edges of the leaves had worn away, they have been mended, and the text restored.
+                                    <p>Complete, in good condition. A few edges torn and mended.</p>
+                                    <p>F. 22 (wrongly numbered 20) written by a more modern hand,
+                                and ff. 23-27 by a third hand, but older, and in the characteristic Jaina style.</p>
+                                 
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         
                         <handDesc>
                             <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                <desc>Devanāgarī (Jaina type) in black ink.</desc>
-                                <!--<desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_00128">
+                                <desc>Devanāgarī with Jaina characteristic features, in black ink.</desc>
+                                <desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_00133">
                                         <persName xml:lang="sa" type="standard">Keśava</persName>
-                                    </name>
-                                </desc>-->
+                                       </name>
+                                </desc>
+                                    <p xml:lang="sa">(<locus from="94v" to="94v">f. 94v</locus>: "adyeha śri rāmacandrarājye dvi° srīdharasuta dvi° keśavena padapustikā likhitā")</p>
                             </handNote>
                         </handDesc>
                         
@@ -121,8 +113,8 @@
                     <history>
                         <origin>
                             <date calendar="Vikrama" when="1491">Vikrama 1491</date> / <date calendar="Gregorian" when="1434">1434 CE.</date>
-                            <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
-                        </origin>
+                            <!--<note>(<locus from="94v" to="94v">f. 94v</locus> svasti saṃvat 1491 varṣe māghamāse śuklapakṣe prati[pa]ttithau bhṛgudine)</note>-->
+                         </origin>
                         <provenance>Purchased by 
                             <name type="person" subtype="dnr" key="local_00127">
                                 <persName type="standard" xml:lang="en">Macdonell, Arthur Anthony</persName>
@@ -145,7 +137,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -153,7 +145,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 6, p. 5-6</biblScope>
+                                        <biblScope>no. 6, p. 5-6.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -516,13 +508,7 @@
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>
-                    </list>
+                               </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
@@ -533,6 +519,10 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-02-06">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
@@ -540,6 +530,7 @@
             </change>
             <change when="2023-02-06">
                 <persName>Barbora Sojkova created this entry.</persName>
+                
             </change>
         </revisionDesc>
     </teiHeader>

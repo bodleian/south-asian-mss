@@ -3099,6 +3099,39 @@
                     <note>The scribe of <idno type="shelfmark">MS. Max Müller d. 9</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00139">
+                    <persName type="standard" xml:lang="sa">Durgasiṃha</persName>
+                    <persName type="display" xml:lang="sa">Durgasiṃha</persName>
+                    <persName type="variant" xml:lang="sa">Durgasiṃha</persName>
+                    
+                    <idno type="VIAF">00000000</idno>
+                    <idno type="local">00139</idno>
+                    <idno type="PANDIT">109738</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109738/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00140">
+                    <persName type="standard" xml:lang="sa">Viśvanāthabhaṭṭa</persName>
+                    <persName type="display" xml:lang="sa">Viśvanātha Bhaṭṭa</persName>
+                    <persName type="variant" xml:lang="sa">Viśvanātha Bhaṭṭa</persName>
+                    <idno type="local">00140</idno>
+                    <note>The scribe of <idno type="shelfmark">MS. Max Müller e. 2</idno>, active in 19th century.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
@@ -3121,6 +3154,7 @@
                     </note>
                     <note></note>
                 </person>
+                
                 
             </listPerson>
         </body>

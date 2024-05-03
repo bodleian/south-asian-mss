@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection> 
-                    <idno type="shelfmark">MS Max Müller d. 20</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 20</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,17 +50,11 @@
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00150">Taittirīya Brāhmaṇa</title> in three <term>aṣṭaka</term>s.</summary>
+                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00150">Taittirīya Brāhmaṇa</title> in three <term xml:lang="sa">aṣṭaka</term>s.</summary>
                     
                     <msItem n="1" defective="true">
                         <!--<locus from="1r" to="301v">ff. 1r-79v, ff. </locus>-->
-                        
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
+                                             
                         <title xml:lang="sa" key="work_00150">Taittirīya Brāhmaṇa</title>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
@@ -85,9 +79,9 @@
                                 </support>
                                 
                                 <extent xml:id="folio" n="301"> 301 ff. 
-                                    First <term>aṣṭaka</term>: ff. 1-79. In second <term>aṣṭaka</term>, the leaves are numbered 77-121, 123-136, 138-181; with ff. 122 and 137 being omitted .
-                                    <term>Aṣṭaka</term> 3 consists of four fragments: <term>adhyāya</term> 1-7, ff. 1-62; <term>adhyāya</term> 8 and a first few lines of <term>adhyāya</term> 9, ff. 1-19;
-                                    the rest of<term>adhyāya</term> 9, ff. 1-13; <term>adhyāya</term> 10, ff. 86-110.
+                                    First <term xml:lang="sa">aṣṭaka</term>: ff. 1-79. In second <term xml:lang="sa">aṣṭaka</term>, the leaves are numbered 77-121, 123-136, 138-181; with ff. 122 and 137 being omitted.
+                                    <term xml:lang="sa">Aṣṭaka</term> 3 consists of four fragments: <term xml:lang="sa">adhyāya</term> 1-7, ff. 1-62; <term xml:lang="sa">adhyāya</term> 8 and a first few lines of <term xml:lang="sa">adhyāya</term> 9, ff. 1-19;
+                                    the rest of<term xml:lang="sa">adhyāya</term> 9, ff. 1-13; <term xml:lang="sa">adhyāya</term> 10, ff. 86-110.
                                 </extent> 
                                 
                                 <condition>
@@ -98,7 +92,7 @@
                         
                         <handDesc>
                             <handNote scope="sole" script="Telugu" medium="black_ink_red_ink">
-                                <desc>Telugu in black ink. Accented in red ink (apart from <term>adhyāya</term> 8 which is not accented).</desc>
+                                <desc>Telugu in black ink. Accented in red ink (apart from <term xml:lang="sa">adhyāya</term> 8 which is not accented).</desc>
                                 <!--<desc>Scribe: 
                                     <name type="person" subtype="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
@@ -117,7 +111,7 @@
                     <history>
                         <origin>
                             <!--<date calendar="Nepāla" when="0914">914 Nepāla</date>--> / <date calendar="Gregorian" notAfter="1900">19th century. Not dated, but modern.</date>
-                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
+                            <origPlace xml:lang="eng" key="local_00004">Nepal.</origPlace>
                         </origin>
                         <provenance>Purchased by 
                             <name type="person" subtype="dnr" key="local_00127">
@@ -141,7 +135,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -149,7 +143,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 25, p. 16</biblScope>
+                                        <biblScope>no. 25, p. 16.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -530,6 +524,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova created this entry.</persName>
+            </change>
             <change when="2023-04-20">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller memorial e. 1</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial e. 1</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,20 +50,14 @@
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the eighth <term>aṣṭaka</term> of the 
-                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term>padapāṭha</term> text.
+                    <summary>A paper manuscript of the eighth <term xml:lang="sa">aṣṭaka</term> of the 
+                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term xml:lang="sa">padapāṭha</term> text.
                         The colophone is much worn and in parts illegible.</summary>
                     
-                    <msItem n="1" defective="unknown">
-                        <locus from="Xr" to="Xv">ff. XrY-XvY</locus> <!--find out-->
+                    <msItem n="1" defective="false">
+                        <locus from="1r" to="109v">ff. 1r-109v</locus> 
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
-                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 8</title>
+                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term xml:lang="sa">Aṣṭaka</term> 8</title>
                         
                         <!--<colophon xml:lang="sa"><locus from="94v" to="94v">[Xr]</locus> 
                             saṃvat 1521 varṣe karttikavadi 11 [...] tithau bhṛgu dine | </colophon>-->
@@ -91,15 +85,17 @@
                                 
                                 <extent xml:id="folio" n="109">109 ff.</extent> 
                                 
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom-right margin, verso. </foliation>
+                                
                                 <condition>
-                                    Complete, except where the edges of the leaves are slightly worn away.
+                                    Complete. Edges of the leaves are slightly worn away and have been conserved.
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         
                         <handDesc>
                             <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
-                                <desc>Devanāgarī in black ink, accented in red.</desc>
+                                <desc>Devanāgarī in black ink, accented in red. Occassional marginal notes and colophon in a different hand.</desc>
                                 <!--<desc>Scribe: 
                                     <name type="person" subtype="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
@@ -108,12 +104,10 @@
                             </handNote>
                         </handDesc>
                         
-                        <!--<decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
-                    </physDesc>
+                    <bindingDesc>
+                        <p><material>Cardboard cover</material>, Western 19th-century binding.</p>
+                        </bindingDesc>
+                       </physDesc>
                     
                     <history>
                         <origin>
@@ -142,7 +136,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -150,7 +144,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 7, p. 6</biblScope>
+                                        <biblScope>no. 7, p. 6.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -530,6 +524,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-02-13">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

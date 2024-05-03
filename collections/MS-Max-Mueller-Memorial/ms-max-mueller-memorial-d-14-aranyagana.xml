@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller d. 14</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 14</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -51,21 +51,15 @@
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
                     <summary>The <title xml:lang="sa" key="work_00147"> Āraṇyagāna</title> of the <title xml:lang="sa" key="work_00146">Sāmaveda</title>
-                        in six <term>prapāṭhakas</term>s, figured for chanting. 
-                        At the end <locus from="84v" to="87v">, ff. 84-87</locus>, are the verses known as <term>mahāmāmnī</term>, here called <term>mahāgāna.</term></summary>
+                        in six <term xml:lang="sa">prapāṭhakas</term>s, figured for chanting. 
+                        At the end <locus from="84v" to="87v">, ff. 84-87</locus>, are the verses known as <term xml:lang="sa">mahāmāmnī</term>, here called <term xml:lang="sa">mahāgāna.</term></summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="87v">ff. 1r-87v</locus>
-                        
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
+                                             
                         <title xml:lang="sa" key="work_00147">Āraṇyagāna</title>
                         
-                        <colophon><locus from="87v" to="87v">f. 87v</locus>
+                        <colophon><locus from="87v" to="87v">f. 87v</locus>:
                         svasti śrī saṃvat [1864?] māse jyeṣṭa śudya candravāsare |
                         adyeha śrī kalānidhi tripāṭhiṣu idaṃ pustakaṃ likhitaṃ śrī rāmānandasutena śubham ||</colophon>
                         
@@ -143,7 +137,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -151,7 +145,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 12, p. 8-9</biblScope>
+                                        <biblScope>no. 12, p. 8-9</biblScope>.
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -530,6 +524,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-03-20">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

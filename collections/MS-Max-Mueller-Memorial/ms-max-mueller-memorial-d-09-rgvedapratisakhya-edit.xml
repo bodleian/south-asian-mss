@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                        <idno type="shelfmark">MS. Max Müller memorial d. 9</idno>
+                        <idno type="shelfmark">MS. Max Müller Memorial d. 9</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -48,7 +48,7 @@
                         </altIdentifier>
                     </msIdentifier>
                     
-                    <msContents n="1+1">
+                    <msContents n="2">
                         
                         <summary>A paper manuscript of <title xml:lang="sa" key="work_00143">Ṛgveda Prātiśākhya</title>, 
                             sometimes attributed to <name type="person" key="person_00130"><persName xml:lang="sa" type="standard">Śaunaka</persName></name>. 
@@ -57,8 +57,7 @@
                           
                         </summary>
                         
-                        <msItemStruct n="2">
-                            <msItemStruct class="mūla" defective="unknown">
+                        <msItem n="1" class="mūla" defective="unknown">
                                 <author>
                                     <name type="person" subtype="aut" key="person_00130">
                                         <persName xml:lang="sa" type="standard">Śaunaka</persName>
@@ -67,14 +66,14 @@
                                 
                                 <title xml:lang="sa" key="work_00143">Ṛgveda Prātiśākhya</title>
                                                                                               
-                                <explicit xml:lang="sa"><locus from="49v" to="49v">49v</locus> 
+                                <explicit xml:lang="sa"><locus from="49v" to="49v">f. 49v</locus>:
                                     iti prātiśākhye tṛtīyādhyāyasya ṣaṣṭaṃ ā[dh]aṃ tasya aṣṭādaśaṃ paṭalaṃ ||
                                 </explicit>
-                              
-                               <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                        </msItem>
                             
-                            <msItemStruct class="commentary" defective="unknown">
+                        <msItem n="2" class="commentary" defective="unknown">
+                                                           
                                 <author>
                                     <name type="person" subtype="aut" key="person_00131">
                                         <persName xml:lang="sa" type="standard">Jaggannātha</persName>
@@ -83,22 +82,20 @@
                                 
                                 <title xml:lang="sa" key="work_00144">Varṇakramalakṣaṇa</title>
                                                                                             
-                                <incipit xml:lang="sa"><locus from="49v" to="49v">49v</locus>
+                                <incipit xml:lang="sa"><locus from="49v" to="49v">f. 49v</locus>:
                                     momeśādīn prapāmyāday jagannāthena sadgurūn || ṛgvedārṇakrama jñānavyākhyā saṃtanyate [']dhunā || 
                                 </incipit>  
                                 
-                                <explicit xml:lang="sa"><locus from="51r" to="51v">51r-51v</locus>
+                                <explicit xml:lang="sa"><locus from="51r" to="51v">f. 51r-51v</locus>:
                                 iti śrīmaj jagannātha viracitaṃ varṇākramalakṣaṇaṃ samāptaṃ ||
                                 </explicit>
                                 
-                                <colophon xml:lang="sa"><locus from="52r" to="52r">52r</locus> 
+                                <colophon xml:lang="sa"><locus from="52r" to="52r">f. 52r</locus>: 
                                     saṃvat 1877 śake 1742 kharanāme saṃvatsare udagayane śiśir ṛtau māghaśukla paurṇi[mā] bhṛguvāsare tad dinīdaṃ
                                     pustakaṃ goḷavalakaropanāmaka rāmacaṃdrātmajaciṃtāmaneṇa likhitaṃ svārthaṃ parārthaṃ ca || iti pustakaṃ samāptaṃ ||
                                 </colophon>
-                                
                                 <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItemStruct>
-                        </msItemStruct>
+                            </msItem>
                     </msContents>
                     
                     <physDesc>
@@ -121,10 +118,9 @@
                                 <extent xml:id="folio" n="54"> 54 ff.</extent>
                                 
                                 <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>-->
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, top left margin and bottom right margin, verso.</foliation>
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top left margin and bottom right margin, verso.</foliation>
                                 <!--<foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->  
-                                
-                                <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+                                               
                                 <condition>
                                     Complete, in good condition.
                                 </condition>
@@ -173,10 +169,11 @@
                             <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink" scribeRef="local_0133">
                                 <desc>Devanāgarī in black ink, highlights and word-divisions in red ink.</desc>
                                 <desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_0133">
+                                    <name type="person" subtype="scr" key="local_0138">
                                         <persName xml:lang="sa" type="standard">Cintāmana</persName>
                                     </name>
                                 </desc>
+                               
                             </handNote>
                         </handDesc>
                         
@@ -210,7 +207,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -218,7 +215,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 8, p. 6-7</biblScope>
+                                        <biblScope>no. 8, p. 6-7.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -598,6 +595,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+            <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-03-20">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

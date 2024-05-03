@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS Max Müller d. 7</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 7</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,23 +50,17 @@
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>A paper manuscript of the sixth <term>aṣṭaka</term> of the 
-                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term>padapāṭha</term> text.</summary>
+                    <summary>A paper manuscript of the sixth <term xml:lang="sa">aṣṭaka</term> of the 
+                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term xml:lang="sa">padapāṭha</term> text.</summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="58v">ff. 1r-58v</locus>
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
+                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term xml:lang="sa">Aṣṭaka</term> 6</title>
                         
-                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 6</title>
-                        
-                        <colophon xml:lang="sa"><locus from="Xr" to="Xr">[Xr]</locus> 
+                     <!--   <colophon xml:lang="sa"><locus from="Xr" to="Xr">[Xr]</locus> 
                             saṃvat 1499 varṣe mārgavadi 2 some likhitam || 
-                        </colophon>
+                        </colophon>-->
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
@@ -92,7 +86,8 @@
                                 <extent xml:id="folio" n="58"> 58 ff.</extent> 
                                 
                                 <condition>
-                                    Complete. Edges of some of the leaves are slightly worn away or torn, especially ff. 1 and 58.
+                                    Complete. 
+                                    <p>Edges of some of the leaves are slightly worn away or torn, especially ff. 1 and 58.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -142,7 +137,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct>
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -150,7 +145,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 5, p. 5</biblScope>
+                                        <biblScope>no. 5, p. 5.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -530,6 +525,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-26">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-02-07">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller d. 3</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 3</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -56,8 +56,7 @@
                     </summary>
                     
                     <msItem n="1" defective="true">
-                        <!--<locus from="Xr" to="Xv">ff. XrY-XvY</locus>--> 
-                        <!--A lot of the original numbering is missing and I was not confident to write the locus down.-->
+                        <locus from="1r" to="48v">ff. 1r-48v</locus> 
                                                                     
                         <title xml:lang="sa" key="work_00137">Ṛgvedasaṃhitā, Aṣṭaka 8.</title>
                         

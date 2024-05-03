@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller d. 19</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 19</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -51,26 +51,24 @@
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
                     <summary>A paper manuscript of the <title xml:lang="sa" key="work_00149">Tāṇḍya Brāhmaṇa</title>,
-                    in 25 <term>prapāṭhaka</term>s, nearly complete.</summary>
+                    in 25 <term xml:lang="sa">prapāṭhaka</term>s, nearly complete.</summary>
                     
                     <msItem n="1" defective="true">
                         <locus from="1r" to="134v">Ff. 1r-134v</locus>
-                        
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
+                                              
                         <title xml:lang="sa" key="00149">Tāṇḍya Brāhmaṇa</title>
                         
-                        <!--<colophon><locus from="134v" to="134v">F. 134.</locus>
-                            svasti saṃvat 1548 varṣe pauṣavadi | [so] me |
-                            adhyeha śrīvṛddhanagare vāstābhyantaranāgarajñātīyamahan nṛsiṃhasūnunā rāṇākena pustakaṃ likhitam |
+                        <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                            oṃ namaḥ śrīgaṇeśāya || śrīsarasvātye namaḥ ||
+                        </rubric>
+                        
+                        <colophon xml:lang="sa"><locus from="134v" to="134v">F. 134</locus>:
+                            svasti saṃvat 1548 varṣe pauṣavadi || [s]o me |
+                            adhyeha śrīvṛddhanagare vāstābhyantaranāgarajñātīyamahaṃ nṛsiṃhasūnunā rāṇākena pustakaṃ likhitam |
                             yāval lavaṇasamudro yāvan nakṣatramaṇḍiyo meruḥ |
                             yāvad bhāskaracandrau tāvad ayaṃ pustako jayatu ||
                             [...] somanāthasutūnāṃ kāka [?] śrīpati [prabhṛtānāṃ] paṭhanārthaṃ likhitaḥ |
-                        </colophon>-->
+                        </colophon>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
@@ -82,8 +80,8 @@
                                 <support>Indian paper.
                                     <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12.8">12.8</height>
-                                            <width quantity="22.9">22.9</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="22.5">22.5</width>
                                         </dimensions>
 <!--                                        ALTERNATIVELY, if you give a range use the following pattern:-->
                                         <!--<dimensions type="folio" scope="range" unit="cm">
@@ -95,9 +93,13 @@
                                 
                                 <extent xml:id="folio" n="134">134 ff.</extent> 
                                 
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom right margin, verso.</foliation>
+                                <foliation n="2" style="digit">Modern Arabic numerals in pencil, bottom left margin, recto.</foliation> 
+                                
                                 <condition>
-                                    In good condition, not complete. The following folios are missing: Ff. <locus from="37r" to="37v">37</locus>,
-                                    <locus from="53r" to="53v">53</locus>, <locus from="57r" to="57v">57</locus>, <locus from="85r" to="86v">85-86</locus>.
+                                   <p>The edges of the leaves are damaged but have been conserved.</p>
+                                    <p>Incomplete. The following folios are missing: Ff. <locus from="37r" to="37v">37</locus>,
+                                    <locus from="53r" to="53v">53</locus>, <locus from="57r" to="57v">57</locus>, <locus from="85r" to="86v">85-86</locus>.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -146,7 +148,7 @@
                         
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
-                        <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                        <biblStruct type="book">
                             <monogr>
                                 <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                 <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -154,7 +156,7 @@
                                     <pubPlace>Oxford</pubPlace>
                                     <publisher>Clarendon Press</publisher>
                                     <date>1922</date>
-                                    <biblScope>no. 23, p. 15</biblScope>
+                                    <biblScope>no. 23, p. 15.</biblScope>
                                 </imprint>
                             </monogr>
                         </biblStruct>
@@ -534,6 +536,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-03-27">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

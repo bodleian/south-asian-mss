@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection> 
-                    <idno type="shelfmark">MS Max Müller d. 21</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 21</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -54,12 +54,6 @@
                     
                     <msItem n="1" defective="unknown">
                         <locus from="Xr" to="Xv">ff. 1r-106v</locus>
-                        
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
                         
                         <title xml:lang="sa" key="work_00141">Taittirīya Āraṇyaka</title>
                         
@@ -89,7 +83,7 @@
                                 <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top left and bottom right margin verso.</foliation> 
                                 
                                 <condition>
-                                    Complete, in good condition. Marginal notes by various hands. 
+                                    Complete, in good condition. <p>Marginal notes by various hands.</p> 
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -139,7 +133,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                                                         
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -147,7 +141,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 26, p. 16-17</biblScope>
+                                        <biblScope>no. 26, p. 16-17.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>

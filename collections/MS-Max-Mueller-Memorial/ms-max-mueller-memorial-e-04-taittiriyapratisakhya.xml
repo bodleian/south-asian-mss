@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -21,7 +21,7 @@
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -37,7 +37,7 @@
                         <repository>Bodleian Library</repository>
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                        <idno type="shelfmark">MS. Max Müller memorial e. 4</idno>
+                        <idno type="shelfmark">MS. Max Müller Memorial e. 4</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -48,24 +48,18 @@
                     </msIdentifier>
                     
                     <msContents n="1">
-                        <summary>A paper manuscript of the <title xml:lang="sa" key="work_00148">Taittirīya Prātiśākhya</title>, <term>sūtra</term>s only.
-                            Divided into two <term>praśna</term>s, at the end of each of which is given a list of the first <term>sūtra</term>s of each <term>adhyāya</term>.
-                            The <term>sūtra</term>s are not separately numbered but, where possible, are numbered in sections of 10 <term>sūtra</term> each.
+                        <summary>A paper manuscript of the <title xml:lang="sa" key="work_00148">Taittirīya Prātiśākhya</title>, <term xml:lang="sa">sūtra</term>s only.
+                            Divided into two <term xml:lang="sa">praśna</term>s, at the end of each of which is given a list of the first <term xml:lang="sa">sūtra</term>s of each <term xml:lang="sa">adhyāya</term>.
+                            The <term xml:lang="sa">sūtra</term>s are not separately numbered but, where possible, are numbered in sections of 10 <term xml:lang="sa">sūtra</term> each.
                         </summary>
                         
                         <msItem n="1" defective="unknown">
                             <locus from="1r" to="19v">ff. 1r-19v</locus>
                             
-                            <author>
-                                <name type="person" subtype="aut" key="person_00000">
-                                    <persName xml:lang="sa" type="standard">Unknown</persName>
-                                </name>
-                            </author>
-                            
                            <title xml:lang="sa" key="work_00148">Taittirīya Prātiśākhya</title>
                                                                                  
-                           <colophon xml:lang="sa"><locus from="19v" to="19v">f. 19v</locus>
-                               idaṃ pustakam ātmakārārtham paropakārarthaṃ śrīmad anantātmaja konerīneṃ likhitam |</colophon>
+                           <colophon xml:lang="sa"><locus from="19v" to="19v">f. 19v</locus>:
+                               idaṃ pustakaṃ ātmakārārtham paropakārarthaṃ śrīmad anaṃtātmaja konerīneṃ likhitam |</colophon>
                             
                             <textLang mainLang="sa" >Sanskrit.</textLang>
                         </msItem>
@@ -90,13 +84,13 @@
                                 
                                 <extent xml:id="folio" n="19"> 19 ff.</extent>
                                 
-                                <foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation> 
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
                                 
                                 
                                 <condition>
-                                    Complete, in good condition.
+                                    <p>Complete.</p>
+                                    <p>Occassional bookworm damage resulting in loss of <term xml:lang="sa">akṣara</term>s.</p>
+                                    <p>Infrequent marginal corrections in different hand.</p>
                                 </condition>
                             </supportDesc>
                             
@@ -104,8 +98,8 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="devanāgarī" medium="black_ink">
-                                <desc>Devanāgarī in black ink.</desc>
+                            <handNote scope="sole" script="devanāgarī" medium="black_ink_red_ink">
+                                <desc>Devanāgarī in black ink. Verse numbers highlighted in red.</desc>
                                 <!--<desc>Scribe: 
                                     <name type="person" role="scr" key="local_">
                                         <persName xml:lang="sa" type="standard">[scribe's name]</persName>
@@ -143,7 +137,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -151,7 +145,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 22, p. 14-15</biblScope>
+                                        <biblScope>no. 22, p. 14-15.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -531,6 +525,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-04-30">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-03-27">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"

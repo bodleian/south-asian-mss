@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS. Max Müller d. 11</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 11</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,21 +50,15 @@
                 
                 <msContents n="2">
                     
-                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00146">Sāmaveda</title> in a <term>padapāṭha</term> text.
-                    The two <term>ārcika</term>s form two distinct manuscripts, bound together in the West.</summary>
+                    <summary>A paper manuscript of the <title xml:lang="sa" key="work_00146">Sāmaveda</title> in a <term xml:lang="sa">padapāṭha</term> text.
+                        The two <term xml:lang="sa">ārcika</term>s form two distinct, individually foliated manuscripts, bound together in the West.</summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="1r" to="83v">Ff. 1r-83v. Ff. 28 and 29 are one leaf.</locus>
+                                             
+                        <title xml:lang="sa" key="work_00146">Sāmaveda, <term xml:lang="sa">ārcika</term> 1.</title>
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
-                        <title xml:lang="sa" key="work_00146">Sāmaveda, <term>ārcika</term> 1.</title>
-                        
-                        <colophon><locus from="83v" to="83v"></locus>
+                        <colophon xml:lang="sa"><locus from="83v" to="83v">f. 83v</locus>:
                          saṃvat 1680 varṣe mārgaśirṣa 
                          śuddha 14 bhaume tripāṭhī puruṣottamasuta keśava paṭhanārtham [...] || </colophon>
                         
@@ -72,19 +66,13 @@
                         
                         <msItem n="2" defective="true">
                             <locus from="1r" to="82v">Ff. 1r-82v. Ff. 69-79 are missing.</locus>
+                                                                               
+                            <title xml:lang="sa" key="work_00146">Sāmaveda, <term xml:lang="sa">ārcika</term> 2.</title>
                             
-                            <author>
-                                <name type="person" subtype="aut" key="person_00000">
-                                    <persName xml:lang="sa" type="standard">Unknown</persName>
-                                </name>
-                            </author>
-                            
-                            <title xml:lang="sa" key="work_00146">Sāmaveda, <term>ārcika</term> 2.</title>
-                            
-                            <colophon><locus from="82v" to="82v"></locus>
+                            <colophon><locus from="82v" to="82v">f. 82v</locus>:
                                 svasti saṃvat 1605 varṣe mahāmāṃgalācaitramāse śuklapakṣe caturthyaṃ tithau ravi dine śrīvṛ-
                                 ddhanagare vāstavya [...] trivāḍīśavāsutānāṃ [...] paṭhanārtham [...] ihaiva vāstavya ābhyaṃtaranāgarajñātīya tri-
-                                vāḍībālasutena śrīdharena mahārudraprītyartham uttarapadapustakam likhitvā||</colophon>
+                                vāḍībālasutena śrīdharena mahārudraprītyartham uttarapadapustakam likhitvā|| </colophon>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
@@ -110,10 +98,11 @@
                                 
                                 <extent xml:id="folio" n="153"> 153 ff.</extent> 
                                 
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, bottom right margin, verso.</foliation>
+                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom right margin, verso.</foliation>
                                 
                                 <condition>
-                                    First part complete, in good condition. Second part not complete, ff. 69-79 missing.
+                                    <p>First part complete, in good condition.</p>
+                                    <p>Second part not complete, ff. 69-79 missing.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -139,8 +128,8 @@
                     <history>
                         <origin>
                             <date calendar="Vikrama" from="1605" to="1680">First manuscript written in vikrama 1680, second in vikrama 1605.</date>
-                            / <date calendar="Gregorian" from="1568" to="1623">First manuscript written in vikrama 1623 CE, second in 1568 Ce.</date>
-                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
+                            / <date calendar="Gregorian" from="1568" to="1623">First manuscript written in vikrama 1623 CE, second in 1568 CE.</date>
+                            <origPlace xml:lang="eng" key="local_00004">Nepal.</origPlace>
                         </origin>
                         <provenance>Purchased by 
                             <name type="person" subtype="dnr" key="local_00127">
@@ -164,7 +153,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -172,7 +161,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 9, p. 7</biblScope>
+                                        <biblScope>no. 9, p. 7</biblScope>.
                                     </imprint>
                                 </monogr>
                             </biblStruct>

@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
-                <funder>Andrew W. Mellon Foundation</funder>
+                <funder>Balliol-Bodley Scholarship</funder>
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
@@ -22,7 +22,7 @@
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
                             >Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -38,7 +38,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
-                    <idno type="shelfmark">MS Max Müller d. 6</idno>
+                    <idno type="shelfmark">MS. Max Müller Memorial d. 6</idno>
                     <altIdentifier type="internal">
                         <idno type="or_long_shelfmark"></idno>
                         <note><country>United Kingdom</country>
@@ -50,22 +50,16 @@
                 
                 <msContents n="1">
                     <!--increment n attribute for ms containing multiple ms items-->
-                    <summary>An incomplete paper manuscript of the fifth <term>aṣṭaka</term> of the 
-                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term>padapāṭha</term> text. 
+                    <summary>An incomplete paper manuscript of the fifth <term xml:lang="sa">aṣṭaka</term> of the 
+                        <title xml:lang="sa" key="work_00142">Ṛgveda</title> in a <term xml:lang="sa">padapāṭha</term> text. 
                     </summary>
                     
                     <msItem n="1" defective="true">
-                        <locus from="1r" to="59v">Ff. 1r-75v. Ff. 38-40 and 45-57 are missing. </locus>
+                        <locus from="1r" to="75v">Ff. 1r-75v. </locus>
+                                              
+                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term xml:lang="sa">Aṣṭaka</term> 5.</title>
                         
-                        <author>
-                            <name type="person" subtype="aut" key="person_00000">
-                                <persName xml:lang="sa" type="standard">Unknown</persName>
-                            </name>
-                        </author>
-                        
-                        <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 5.</title>
-                        
-                        <colophon xml:lang="sa"><locus from="Xr" to="Xr">[Xr]</locus> 
+                        <colophon xml:lang="sa"><locus from="75v" to="75v">f. 75</locus>: 
                             saṃ° 1580 varṣe āśvana śudi 7 adyeha śrī vṛddhanagare agnihotrā unāthiyāsutaharisutanānāṃ paṭhanāṛthaṃ likhitam  
                         </colophon>
                         
@@ -90,13 +84,20 @@
                                     </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="59"> 59 ff.</extent> 
+                                <extent xml:id="folio" n="59"> 59 ff.
+                                <note>
+                                 Ff. <locus from="38r" to="40v">38-40</locus> and <locus from="45r" to="57v">45-57 </locus>are missing.  
+                                </note>
+                                </extent> 
 
-                                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom right margin, verso.</foliation> 
+                                <foliation n="1" style="numeral" rend="deva">Original Devanāgarī numerals, bottom right margin, verso.</foliation> 
+                                <foliation n="2" style="numeral" rend="arabic">Continuous modern Arabic numerals in pencil, bottom left margin, recto.</foliation> 
+                                
                                 
                                 <condition>
-                                    Incomplete. Ff. <locus from="1r" to="1v">1</locus> and <locus from="5r" to="5v">5</locus> have been supplied by two other hands.
-                                    Ff. 38-40 and 45-57 are missing. Corrections have been made by various hands. A considerable damage from insect. 
+                                    <p>Incomplete. Ff. <locus from="1r" to="1v">1</locus> and <locus from="5r" to="5v">5</locus> have been supplied by two other hands.</p>
+                                    <p>Marginal notes and corrections made by various hands.</p>
+                                    <p>A considerable damage from insect. </p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -146,7 +147,7 @@
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
-                            <biblStruct type="book" xml:id="" corresp="http://zotero.org/users/5493666/items/RWEYE63K">
+                            <biblStruct type="book">
                                 <monogr>
                                     <title level="m">A Catalogue of the Sanskrit Manuscripts Purchased for the Administrators of the Max Müller Memorial Fund</title>
                                     <author><forename>T. R.</forename><surname>Gambier-Parry</surname></author>
@@ -154,7 +155,7 @@
                                         <pubPlace>Oxford</pubPlace>
                                         <publisher>Clarendon Press</publisher>
                                         <date>1922</date>
-                                        <biblScope>no. 4, p. 5</biblScope>
+                                        <biblScope>no. 4, p. 5.</biblScope>
                                     </imprint>
                                 </monogr>
                             </biblStruct>
@@ -534,6 +535,9 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-04-23">
+                <persName>Barbora Sojkova modified this entry.</persName>
+            </change>
             <change when="2023-02-07">
                 <persName>Barbora Sojkova modified this entry according to the <ref
                     target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
