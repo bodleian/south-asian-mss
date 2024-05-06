@@ -55,7 +55,7 @@
                 </bibl>
 
                 <bibl xml:id="work_00002">
-                    <title type="desc" xml:lang="en">[Buddhist stotra]</title>
+                    <title type="uniform" xml:lang="en">[Buddhist stotra]</title>
                     <idno type="local">00002</idno>
                 </bibl>
 
@@ -1369,7 +1369,7 @@
                 <bibl xml:id="work_00064">
                     <title type="uniform" xml:lang="sa">Chāndogyopaniṣadbhāṣya</title>
                     <title type="variant" xml:lang="sa">Chāndogya Upaniṣad Bhāṣya</title>
-                    title type="variant" xml:lang="sa">Chāndogyopaniṣad Bhāṣya</title>
+                    <title type="variant" xml:lang="sa">Chāndogyopaniṣad Bhāṣya</title>
                     <idno type="local">00064</idno>
                     <idno type="PANDIT">89943</idno>
                     <note type="links">
@@ -3301,27 +3301,190 @@
                 
                 <bibl xml:id="work_00153">
                     <title type="uniform" xml:lang="sa">Sāmaga Sandhyoppadaviddhi</title>
-                    <title type="variant" xml:lang="xct">Sandhyoppadaviddhi</title>
+                    <title type="variant" xml:lang="sa">Sandhyoppadaviddhi</title>
                     <idno type="local">00155</idno>
                 </bibl>
               
                 <bibl xml:id="work_000154">
                     <title type="uniform" xml:lang="sa">Anantapayapaddhati</title>
-                    <title type="variant" xml:lang="xct"></title>
+                    <title type="variant" xml:lang="sa"></title>
                     <idno type="local">00156</idno>
                    </bibl>
                 
                 
                 <bibl xml:id="work_00155">
                     <title type="uniform" xml:lang="sa">Bhikṣuṇīkarmavācanā</title>
-                    <title type="variant" xml:lang="xct">Bhikṣuṇī Karma Vācanā</title>
-                    <title type="variant" xml:lang="xct">Bhikṣuṇī Karmavācanā</title>
+                    <title type="variant" xml:lang="sa">Bhikṣuṇī Karma Vācanā</title>
+                    <title type="variant" xml:lang="sa">Bhikṣuṇī Karmavācanā</title>
                    <idno type="local">00157</idno>
                    </bibl>
               
-                <bibl xml:id="work_000XX">
+                <bibl xml:id="work_00156">
+                    <title type="uniform" xml:lang="sa">Kātantra Dhātupāṭha</title>
+                    <title type="variant" xml:lang="sa">Dhātupāṭha</title>
+                    <title type="variant" xml:lang="sa">Kalāpadhātupāṭha</title>
+                    <title type="variant" xml:lang="sa">Kalāpadhātusūtra</title>
+                    <title type="variant" xml:lang="sa">Kātantragaṇamālā</title>
+                   <title type="variant" xml:lang="sa">Kātantrīyadhātupāṭha</title>
+                          <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00156</idno>
+                    <idno type="PANDIT">109909</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109909/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+
+                <bibl xml:id="work_00157">
+                    <title type="uniform" xml:lang="sa">Gaṇapāṭha</title>
+                    <idno type="local">00157</idno>
+                    <idno type="PANDIT">42499</idno>
+                    <note type="links">
+                        <list type="links">
+                               <item>
+                                <ref target="https://www.panditproject.org/entity/42499/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00158">
+                   <title type="uniform" xml:lang="sa">Dhātupāṭha</title>
+                    <idno type="VIAF">176022919</idno>
+                    <idno type="local">00158</idno>
+                    <idno type="PANDIT">42448</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/176022919/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42448/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00159">
+                    <title type="uniform" xml:lang="sa">Prayogavivekasaṃgraha</title>
+                    <title type="variant" xml:lang="sa">Prayogaviveka Saṃgraha</title>
+                    <title type="variant" xml:lang="sa">Prayogaviveka Saṅgraha</title>
+                    <title type="variant" xml:lang="sa">Prayogasaṃgraha</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00159</idno>
+                    <idno type="PANDIT">42067</idno>
+                    <note type="links">
+                        <list type="links">
+                           <item>                         
+                                <ref target="https://www.panditproject.org/entity/42067/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+
+                <bibl xml:id="work_00160">
+                    <title type="uniform" xml:lang="sa">Saṃskṛtamañjarī</title>
+                    <title type="variant" xml:lang="sa">Saṃskṛta Mañjarī</title>
+<!--                    <idno type="VIAF"></idno>-->
+                   <idno type="local">00160</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">-->
+                        <!--<list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    <!--</note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00161">
+                    <title type="uniform" xml:lang="sa">Ṣaṭkārakaprakriyā</title>
+                    <title type="display" xml:lang="sa">Ṣaṭkārakaprakriyā</title>
+                    <!--                    <idno type="VIAF"></idno>-->
+                    <idno type="local">00161</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">-->
+                    <!--<list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    <!--</note>-->
+                </bibl>
+
+                <bibl xml:id="work_00162">
+                    <title type="uniform" xml:lang="sa">Prabodhacandrikā</title>
+                    <title type="display" xml:lang="sa">Prabodhacandrikā</title>
+                    <idno type="VIAF">179604292</idno>
+                    <idno type="local">00162</idno>
+                    <note type="links">
+                    <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/179604292/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            </list>
+                    </note>                
+                </bibl>
+
+                <bibl xml:id="work_00163">
+                    <title type="uniform" xml:lang="sa">Samāsacakra</title>
+                    <title type="display" xml:lang="sa">Samāsacakra</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00163</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    <note>The second <term xml:lang="sa">paṭala</term> of <title key="work_00159">Prayogavivekasaṃgraha</title>.</note>
+                </bibl>
+
+                <bibl xml:id="work_00">
                     <title type="uniform" xml:lang="sa"></title>
-                    <title type="variant" xml:lang="xct"></title>
+                    <title type="variant" xml:lang="sa"></title>
                     <idno type="VIAF"></idno>
                     <idno type="local"></idno>
                     <idno type="PANDIT"></idno>
@@ -3340,7 +3503,8 @@
                         </list>
                     </note>
                 </bibl>
-
+                
+                
             </listBibl>
         </body>
     </text>

@@ -3050,8 +3050,8 @@
                     </note>
                     <note>Author of <title xml:lang="sa" key="work_00144">Varṇakramalakṣaṇa</title>; 
                         possibly the same as the author of commentary on <name><persName type="standard" xml:lang="sa">Kātyāyana</persName></name>'s
-                        <title xml:lang="sa" key="work_00145">Sarvānukramaṇī</title>.
-                </person>
+                        <title xml:lang="sa" key="work_00145">Sarvānukramaṇī</title>.</note>
+                   </person>
                 
                 <person xml:id="person_00137">
                     <persName type="standard" xml:lang="sa">Kātyāyana</persName>
@@ -3102,15 +3102,15 @@
                 <person xml:id="person_00139">
                     <persName type="standard" xml:lang="sa">Durgasiṃha</persName>
                     <persName type="display" xml:lang="sa">Durgasiṃha</persName>
-                    <persName type="variant" xml:lang="sa">Durgasiṃha</persName>
+                    <persName type="variant" xml:lang="sa">Durgācārya</persName>
                     
-                    <idno type="VIAF">00000000</idno>
+                    <idno type="VIAF">261301387</idno>
                     <idno type="local">00139</idno>
                     <idno type="PANDIT">109738</idno>
                     <note type="links">
                         <list type="links">
                             <item>
-                                <ref target="https://viaf.org/viaf/00000000/">
+                                <ref target="https://viaf.org/viaf/261301387/">
                                     <title>VIAF</title>
                                 </ref>
                             </item>
@@ -3131,6 +3131,116 @@
                     <idno type="local">00140</idno>
                     <note>The scribe of <idno type="shelfmark">MS. Max Müller e. 2</idno>, active in 19th century.</note>
                 </person>
+                
+                <person xml:id="person_00141">
+                    <persName type="standard" xml:lang="sa">Pāṇini</persName>
+                    <persName type="display" xml:lang="sa">Pāṇini</persName>
+                    <idno type="VIAF">250882672</idno>
+                    <idno type="local">00141</idno>
+                    <idno type="PANDIT">40604</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/250882672/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40604/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00142">
+                    <persName type="display" xml:lang="sa">Rāmakṛṣṇa Dīkṣita</persName>
+                    <idno type="local">00142</idno>
+                    <note>The scribe of <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (ii)</idno>, active in 19th century.</note>
+                </person>
+                
+                <person xml:id="person_00143">
+                    <persName type="standard" xml:lang="sa">Vararuci</persName>
+                    <persName type="display" xml:lang="sa">Vararuci</persName>
+                    <persName type="variant" xml:lang="sa">Kātyāyana</persName>
+                    <idno type="VIAF">119851446 </idno>
+                    <idno type="local">00143</idno>
+                    <idno type="PANDIT">40885</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/119851446/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40885/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00144">
+                    <persName type="display" xml:lang="sa">Anantācārya</persName>
+                    <idno type="local">00144</idno>
+                    <note>The author of <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (4)</idno> and <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (5)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00145">
+                    <persName type="display" xml:lang="sa">Ācāryavara Vatarāma</persName>
+                    <persName type="variant" xml:lang="sa">Ācāryavara</persName>
+                    <idno type="local">00145</idno>
+                    <note>The scribe and former owner of <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (5)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00146">
+                    <persName type="display" xml:lang="sa">Manudāsa</persName>
+                    <idno type="local">00146</idno>
+                    <note>The author of <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (7)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00147">
+                    <persName type="standard" xml:lang="sa">Vaijaladeva Bhūpati</persName>
+                    <persName type="display" xml:lang="sa">Vaijaladeva Bhūpati</persName>
+                    <persName type="variant" xml:lang="sa">Vaijala Bhūpāla</persName>
+                    <persName type="variant" xml:lang="sa">Baijaladeva</persName>
+                    <idno type="VIAF">24114516</idno>
+                    <idno type="local">00147</idno>
+                    <!--<idno type="PANDIT">00000000</idno>
+-->                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/24114516/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00148">
+                    <persName type="display" xml:lang="sa">Viṣṇu Jāīde</persName>
+                    <idno type="local">00148</idno>
+                    <note>The scribe of <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (7)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00149">
+                    <persName type="display" xml:lang="sa">Gopīnātha Karve</persName>
+                    <idno type="local">00149</idno>
+                    <note>The former owner of <idno type="shelfmark">MS. Chandra Shum Shere d. 235 (7)</idno>.</note>
+                </person>
+                
                 
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
