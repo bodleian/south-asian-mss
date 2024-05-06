@@ -3482,6 +3482,52 @@
                     <note>The second <term xml:lang="sa">paṭala</term> of <title key="work_00159">Prayogavivekasaṃgraha</title>.</note>
                 </bibl>
 
+                <bibl xml:id="work_00164">
+                    <title type="uniform" xml:lang="sa">Madhyasiddhāntakaumudī</title>
+                    <title type="variant" xml:lang="sa">Siddhāntakaumudī</title>
+                    <idno type="VIAF">199732769</idno>
+                    <idno type="local">00164</idno>
+                    <idno type="PANDIT">42064</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/199732769/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42064/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                
+                <bibl xml:id="work_00165">
+                    <title type="uniform" xml:lang="sa">Yaṅluṅrūpāṇi</title>
+                    <title type="variant" xml:lang="sa">Yaṅluṅrūpāṇi</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00165</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <<!--note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                
                 <bibl xml:id="work_00">
                     <title type="uniform" xml:lang="sa"></title>
                     <title type="variant" xml:lang="sa"></title>
@@ -3503,7 +3549,6 @@
                         </list>
                     </note>
                 </bibl>
-                
                 
             </listBibl>
         </body>

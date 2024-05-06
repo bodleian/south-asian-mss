@@ -3242,6 +3242,32 @@
                 </person>
                 
                 
+                <person xml:id="person_00150">
+                    <persName type="standard" xml:lang="sa">Varadarāja</persName>
+                    <persName type="display" xml:lang="sa">Varadarāja</persName>
+                    <persName type="display" xml:lang="sa">Varadarājācārya</persName>
+                    <persName type="display" xml:lang="sa">Varadabhaṭṭa</persName>
+                    <persName type="display" xml:lang="sa">Varadarājabhaṭṭa</persName>
+                    <idno type="VIAF">267775475</idno>
+                    <idno type="local">00150</idno>
+                    <idno type="PANDIT">40877</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/267775475/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40877/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
@@ -3264,7 +3290,6 @@
                     </note>
                     <note></note>
                 </person>
-                
                 
             </listPerson>
         </body>
