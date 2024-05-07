@@ -3245,9 +3245,9 @@
                 <person xml:id="person_00150">
                     <persName type="standard" xml:lang="sa">Varadarāja</persName>
                     <persName type="display" xml:lang="sa">Varadarāja</persName>
-                    <persName type="display" xml:lang="sa">Varadarājācārya</persName>
-                    <persName type="display" xml:lang="sa">Varadabhaṭṭa</persName>
-                    <persName type="display" xml:lang="sa">Varadarājabhaṭṭa</persName>
+                    <persName type="variant" xml:lang="sa">Varadarājācārya</persName>
+                    <persName type="variant" xml:lang="sa">Varadabhaṭṭa</persName>
+                    <persName type="variant" xml:lang="sa">Varadarājabhaṭṭa</persName>
                     <idno type="VIAF">267775475</idno>
                     <idno type="local">00150</idno>
                     <idno type="PANDIT">40877</idno>
@@ -3266,6 +3266,36 @@
                         </list>
                     </note>
                     <note></note>
+                </person>
+                
+                <person xml:id="person_00151">
+                    <persName type="standard" xml:lang="sa">Ḍhuṇḍirāja</persName>
+                    <persName type="display" xml:lang="sa">Ḍhuṇḍirāja</persName>
+                    <persName type="variant" xml:lang="sa">Ḍhuṇḍikavīśvara</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00000</idno>
+                    <idno type="PANDIT">96568</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96568/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00152">
+                    <persName type="display" xml:lang="sa">Ḍhuṇḍirāja Moghe</persName>
+                    <idno type="local">00152</idno>
+                    <note>The scribe of <idno type="shelfmark">MS. Chandra Shum Shere d. 827 (3)</idno>.</note>
                 </person>
                 
                 <person xml:id="person_">

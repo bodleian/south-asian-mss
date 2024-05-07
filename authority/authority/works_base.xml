@@ -3503,11 +3503,10 @@
                         </list>
                     </note>
                 </bibl>
-                
-                
+                                
                 <bibl xml:id="work_00165">
                     <title type="uniform" xml:lang="sa">Yaṅluṅrūpāṇi</title>
-                    <title type="variant" xml:lang="sa">Yaṅluṅrūpāṇi</title>
+                    <title type="display" xml:lang="sa">Yaṅluṅrūpāṇi</title>
                     <!--<idno type="VIAF"></idno>-->
                     <idno type="local">00165</idno>
                     <!--<idno type="PANDIT"></idno>-->
@@ -3525,6 +3524,31 @@
                             </item>
                         </list>
                     </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00166">
+                    <title type="uniform" xml:lang="sa">Gīrvāṇapadamañjarī</title>
+                    <title type="display" xml:lang="sa">Gīrvāṇapadamañjarī
+                    </title>
+                    <title type="variant" xml:lang="sa">Girvāṇavāgmañjarī
+                    </title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00166</idno>
+                    <idno type="PANDIT">96570</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/96570/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
                 </bibl>
                 
                 

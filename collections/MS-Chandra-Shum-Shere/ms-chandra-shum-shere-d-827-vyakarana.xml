@@ -38,54 +38,66 @@
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, Chandra Shum Shere Collection</collection><!--check this! -->
-                    <idno type="shelfmark">MS Sansk.</idno>
+                    <idno type="shelfmark">MS. Chandra Shum Shere d. 827</idno>
                     <!-- If listed in CSM, add this number here 
                     <altIdentifier>
                         <idno type="CSM"></idno>
                     </altIdentifier> -->
                  </msIdentifier>
-                <msContents n="1">
-                    <!--increment n attribute for ms containing multiple ms items-->
-                    <summary></summary>
-                    
-                    <msItem n="1" defective="unknown">
-                        <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
-                        
-                        <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
-                        <author key="person_">
-                            <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
-                            
-                        </author>
-                        
-                        <title xml:lang="sa">[insert here the uniform title of the work]</title>
-                        
-                        <textLang mainLang="sa" >Sanskrit.</textLang>
-                    </msItem>
-                </msContents>
+                <head>A composite manuscript containing three works on <term xml:lang="sa">vyākaraṇa</term>, 
+                    individually folliated and bound together in the Bodleian Library.</head>
                 
-                <physDesc>
-                        <objectDesc form="X"> 
-                            <supportDesc material="X">
-                                <support>[Insert here the description of the material, using one of the following set phrases: 
-                                    Palm leaf, Nepalese paper, Nepalese multi-layered paper, 
-                                    Nepalese multi-layered black paper, Birch bark, Paper.]
+                <history><acquisition>Donated by 
+                    <name type="person" role="dnr" key="person_00030">
+                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
+                </acquisition>                                 
+                </history>
+                
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="part">MS. Chandra Shum Shere d. 827 (1)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents n="1">
+                        <!--increment n attribute for ms containing multiple ms items-->
+                        <summary>A complete paper manuscript containing the <title xml:lang="sa" key="work_00164">Madhyasiddhāntakaumudī</title>
+                            of <name xml:lang="sa" key="person_00150">Varadarāja</name>.</summary> 
+                            
+                        <msItem n="1" defective="unknown">
+                            <locus from="3v" to="40">ff. 3v-40 (ff.X-X in original foliation)</locus>
+                            
+                            <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
+                            <author key="person_00150">
+                                <persName xml:lang="sa" type="standard">Varadarāja</persName>
+                            </author>
+                            
+                            <title xml:lang="sa" key="work_00164">Madhyasiddhāntakaumudī</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                        </msItem>
+                                                                       
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="pothī"> 
+                            <supportDesc material="paper">
+                                <support>Paper.
+                                    <p>
+                                        <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="11">11</height>
+                                            <width quantity="24">24</width>
+                                        </dimensions>
+                                    </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="X"> 
-                                    <measure type="Endleaf" quantity="2">X</measure>
-                                    + <measure type="leaf" quantity="153 ">X </measure>
-                                    + <measure type="Endleaf" quantity="2">X</measure>.
+                                <extent xml:id="folio" n="37">37 ff.</extent> 
                                 
-                                <dimensions type="binding" scope="most" unit="cm">
-                                    <height quantity="3"> 3</height>
-                                    <width quantity="6"> 6</width>
-                                </dimensions>
-                                <!--                                        ALTERNATIVELY, if you give a range use the following pattern:
-                                <dimensions type="folio" scope="range" unit="cm">
-                                    <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                    <width atLeast="X" atMost="Y">ca. X-Y</width>
-                                </dimensions>-->
-                                </extent> 
+                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
+                                
                                 <condition>
                                     <p>[Extant leaves]</p>
                                     <p>[Damaged/missing leaves]</p>
@@ -94,39 +106,252 @@
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="X" medium="X" scribeRef="X">
-                                <desc>X in X ink.</desc>
-                                <desc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
+                                <!--<desc>
                                     Scribe: 
-                                        <persName xml:lang="sa" type="standard" key="local_">[scribe's name]</persName>
-                                </desc>
-                                <p></p>
+                                    <persName xml:lang="sa" type="standard" key="local_00142">Rāmakṛṣṇa Dīkṣita</persName>
+                                </desc>-->
                             </handNote>
                         </handDesc>
                         
-                        <!-- delete decoDesc element if not appropriate --><decoDesc>
+                        <decoDesc>
                             <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
+                                <desc>On <locus from="40v" to="40v">f. 40v</locus>, a line drawing of Varāha.</desc>
                             </decoNote>
                         </decoDesc>
+                        
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <origDate calendar="#Nepāla" when="0914">914 Nepāla</origDate> / <origDate calendar="#Gregorian" when="1784">1794 CE.</origDate>
+                            <origDate calendar="Vikrama" when="1887">saṃvat 1887</origDate> / <origDate calendar="#Gregorian" when="1830">1830 CE.</origDate>
                             
-                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
-                            <p>In colophon: <date>saṃvat 1850 <supplied>1794 CE.</supplied> miti vaiśākhaśudī 15 |</date></p>
+                            <p>In colophon: <date>saṃvat 1887 <supplied>1830 CE</supplied></date> [...].</p>
                         </origin>
-                        <provenance>Bought by 
-                            <name type="person" subtype="dnr" key="local_00000">
-                                <persName type="standard" xml:lang="lat">Sempronius, Titius
-                                    Caius</persName><persName type="display" xml:lang="lat">Titius
-                                        Caius Sempronius</persName></name> in <date
-                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
-                        </provenance>
                     </history>
                     
+                    <additional> <listBibl type="ms_descriptions">
+                        <head>Descriptions of the manuscripts</head>
+                        
+                        <biblStruct type="article">
+                            <analytic>
+                                <title level="m">A Handlist of the Vyākaraṇa Manuscripts in the Chandra Shum Shere Collection Preserved in the Bodleian Library</title>
+                                <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                            </analytic>
+                            <monogr>
+                                <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                <title type="main">Vācaspatyam</title>
+                                <title type="sub">Pt. Vamanshastri Bhagwat Felicitation Volume</title>
+                                <imprint>
+                                    <pubPlace>Pune</pubPlace>
+                                    <publisher>Vaidika Samshodhana Mandala</publisher>
+                                    <date>1994</date>
+                                    <biblScope>no. 217, p. 195.</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </listBibl></additional>
+                    
+                </msPart>
+                
+                <msPart>
+                    
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="part">MS. Chandra Shum Shere d. 827 (2)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents n="1">
+                        <!--increment n attribute for ms containing multiple ms items-->
+                        <summary>A complete paper manuscript containing the <title xml:lang="sa" key="work_00165">Yaṅluṅrūpāṇi</title>
+                            of <name xml:lang="sa" key="person_00150">Varadarāja</name>. The work gives the forms of <term xml:lang="sa">laṭ</term>, <term xml:lang="sa">liṭ</term>,
+                            <term xml:lang="sa">luṭ</term>, <term xml:lang="sa">lṛṭ</term>, <term xml:lang="sa">loṭ</term>, <term xml:lang="sa">laṅ</term>,
+                            <term xml:lang="sa">liṅ</term>, <term xml:lang="sa">luṅ</term>, and <term xml:lang="sa">lṛṅ</term> for 35 <term xml:lang="sa">dhātu</term>s.</summary> 
+                        
+                        <msItem n="1" defective="unknown">
+                            <locus from="42" to="56">ff. 42-56 (ff.X-X in original foliation)</locus>
+                            
+                            <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
+                            <author key="person_00150">
+                                <persName xml:lang="sa" type="standard">Varadarāja</persName>
+                                <note>Author's name given in colophon as <name key="person_00150">Varadarājabhaṭṭa</name>.</note>
+                            </author>
+                            
+                            <title xml:lang="sa" key="work_00165">Yaṅluṅrūpāṇi</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="pothī"> 
+                            <supportDesc material="paper">
+                                <support>Paper.
+                                    <p>
+                                        <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="11">11</height>
+                                            <width quantity="25">25</width>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                                
+                                <extent xml:id="folio" n="15">15 ff.</extent> 
+                                
+                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
+                                
+                                <condition>
+                                    <p>[Extant leaves]</p>
+                                    <p>[Damaged/missing leaves]</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
+                                <!--<desc>
+                                    Scribe: 
+                                    <persName xml:lang="sa" type="standard" key="local_00142">Rāmakṛṣṇa Dīkṣita</persName>
+                                </desc>-->
+                            </handNote>
+                        </handDesc>
+                                                                       
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Vikrama" when="1887">saṃvat 1887</origDate> / <origDate calendar="#Gregorian" when="1830">1830 CE.</origDate>
+                            
+                            <p>In colophon: <date>saṃvat 1887 <supplied>1830 CE</supplied></date> [...].</p>
+                        </origin>
+                    </history>
+                    
+                    <additional> <listBibl type="ms_descriptions">
+                        <head>Descriptions of the manuscripts</head>
+                        
+                        <biblStruct type="article">
+                            <analytic>
+                                <title level="m">A Handlist of the Vyākaraṇa Manuscripts in the Chandra Shum Shere Collection Preserved in the Bodleian Library</title>
+                                <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                            </analytic>
+                            <monogr>
+                                <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                <title type="main">Vācaspatyam</title>
+                                <title type="sub">Pt. Vamanshastri Bhagwat Felicitation Volume</title>
+                                <imprint>
+                                    <pubPlace>Pune</pubPlace>
+                                    <publisher>Vaidika Samshodhana Mandala</publisher>
+                                    <date>1994</date>
+                                    <biblScope>no. 220, p. 195.</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </listBibl></additional>
+                    
+                </msPart>
+                    
+                <msPart>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="part">MS. Chandra Shum Shere d. 827 (3)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents n="1">
+                        <!--increment n attribute for ms containing multiple ms items-->
+                        <summary>A paper manuscript containing the <title xml:lang="sa" key="work_00166">Gīrvāṇapadamañjarī</title>
+                            of <name xml:lang="sa" key="person_00151">Ḍhuṇḍirāja</name>. 
+                            
+                        <msItem n="1" defective="unknown">
+                            <locus from="58" to="72">ff. 58-72 (ff.X-X in original foliation)</locus>
+                            
+                            <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
+                            <author key="person_00151">
+                                <persName xml:lang="sa" type="standard">Ḍhuṇḍirāja</persName>
+                                <note>Author's name given in colophon as Ḍhuṇḍikavīśvara, son of Śrī Raṅgabhaṭṭa.</note>
+                            </author>
+                            
+                            <title xml:lang="sa" key="work_00166">Gīrvāṇapadamañjarī</title>
+                            
+                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="pothī"> 
+                            <supportDesc material="paper">
+                                <support>Paper.
+                                    <p>
+                                        <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="11">11</height>
+                                            <width quantity="24">24</width>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                                
+                                <extent xml:id="folio" n="15">15 ff.</extent> 
+                                
+                                <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
+                                
+                                <condition>
+                                    <p>[Extant leaves]</p>
+                                    <p>Missing first four leaves.</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                <desc>Devanāgarī in black ink.</desc>
+                                <desc>
+                                    Scribe: 
+                                    <persName xml:lang="sa" type="standard" key="local_00152">Ḍhuṇḍirāja Moghe</persName>
+                                </desc>
+                            </handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Vikrama" when="1887">saṃvat 1887</origDate> / <origDate calendar="#Gregorian" when="1830">1830 CE.</origDate>
+                            
+                            <p>In colophon: <date>saṃvat 1887 <supplied>1830 CE</supplied></date> [...].</p>
+                        </origin>
+                    </history>
+                    
+                    <additional> <listBibl type="ms_descriptions">
+                        <head>Descriptions of the manuscripts</head>
+                        
+                        <biblStruct type="article">
+                            <analytic>
+                                <title level="m">A Handlist of the Vyākaraṇa Manuscripts in the Chandra Shum Shere Collection Preserved in the Bodleian Library</title>
+                                <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                            </analytic>
+                            <monogr>
+                                <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                <title type="main">Vācaspatyam</title>
+                                <title type="sub">Pt. Vamanshastri Bhagwat Felicitation Volume</title>
+                                <imprint>
+                                    <pubPlace>Pune</pubPlace>
+                                    <publisher>Vaidika Samshodhana Mandala</publisher>
+                                    <date>1994</date>
+                                    <biblScope>no. 70, p. 172.</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </listBibl></additional>
+                    
+                </msPart>
                     <additional>
                         <adminInfo>
                             <availability status="restricted">
@@ -494,25 +719,23 @@
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
-                        <item>
+                        <!--<item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
                         </item>
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>
+                        </item>-->
                     </list>
                 </keywords>
                 <keywords scheme="local">
                     <list>
-                        <item></item>
-                        <item></item>
-                        <item></item>
+                        <item corresp="#vyākaraṇa">Vyākaraṇa</item>
                     </list>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-03-02">
+            <change when="2024-05-07">
                 <persName>Barbora Sojkova</persName> created this entry.
             </change>
         </revisionDesc>
