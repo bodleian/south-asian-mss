@@ -3298,6 +3298,79 @@
                     <note>The scribe of <idno type="shelfmark">MS. Chandra Shum Shere d. 827 (3)</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00153">
+                    <persName type="display" xml:lang="sa">Halāyudha</persName>
+                    <persName type="standard" xml:lang="sa">Halāyudha</persName>
+                    <persName type="variant" xml:lang="sa">Bhaṭṭa Halāyudha</persName>
+                    <idno type="VIAF"></idno>91024283
+                    <idno type="local">00153</idno>
+                    <idno type="PANDIT">109577</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/91024283/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109577/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00154">
+                    <persName type="standard" xml:lang="sa">Jagannātha Paṇḍitarāja</persName>
+                    <persName type="display" xml:lang="sa">Jagannātha Paṇḍitarāja</persName>
+                    <idno type="VIAF">97929384</idno>
+                    <idno type="local">00154</idno>
+                    <idno type="PANDIT">40757</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/97929384/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40757/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00155">
+                    <persName type="standard" xml:lang="sa">Bālambhaṭṭa Pāyaguṇḍa</persName>
+                    <persName type="display" xml:lang="sa">Bālambhaṭṭa Pāyaguṇḍa</persName>
+                    <persName type="variant" xml:lang="sa">Bālakṛṣṇa Pāyaguṇḍa</persName>
+                    <persName type="variant" xml:lang="sa">Bālakṛṣṇa Pāyaguṇḍe</persName>
+                    <idno type="local">00155</idno>
+                    <idno type="PANDIT">40678</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/ 40678/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00156">
+                    <persName type="standard" xml:lang="sa">Lakṣmaṇa Somayājin</persName>
+                    <persName type="display" xml:lang="sa">Lakṣmaṇa Somayājin</persName>
+                    <idno type="local">00156</idno>
+                    <note>The author of <idno type="shelfmark">MS. Chandra Shum Shere d. 433 (5)</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

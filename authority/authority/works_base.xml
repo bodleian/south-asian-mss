@@ -3347,6 +3347,8 @@
 
                 <bibl xml:id="work_00157">
                     <title type="uniform" xml:lang="sa">Gaṇapāṭha</title>
+                    <title type="display" xml:lang="sa">Gaṇapāṭha</title>
+                    <title type="variant" xml:lang="sa">Gaṇāpāṭha</title>
                     <idno type="local">00157</idno>
                     <idno type="PANDIT">42499</idno>
                     <note type="links">
@@ -3510,7 +3512,7 @@
                     <!--<idno type="VIAF"></idno>-->
                     <idno type="local">00165</idno>
                     <!--<idno type="PANDIT"></idno>-->
-                    <<!--note type="links">
+                    <!--note type="links">
                         <list type="links">
                             <item>
                                 <ref target="https://viaf.org/viaf//">
@@ -3551,13 +3553,35 @@
                     </note>
                 </bibl>
                 
-                
-                <bibl xml:id="work_00">
-                    <title type="uniform" xml:lang="sa"></title>
-                    <title type="variant" xml:lang="sa"></title>
-                    <idno type="VIAF"></idno>
-                    <idno type="local"></idno>
-                    <idno type="PANDIT"></idno>
+                <bibl xml:id="work_00167">
+                    <title type="uniform" xml:lang="sa">Kavirahasya</title>
+                    <title type="variant" xml:lang="sa">Kaviguhya</title>
+                    <idno type="VIAF">176667642</idno>
+                    <idno type="local">00167</idno>
+                    <idno type="PANDIT">109580</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/176667642/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109580/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+               
+                <bibl xml:id="work_00168">
+                    <title type="uniform" xml:lang="sa">Avyayārthalaharī</title>
+                    <title type="variant" xml:lang="sa">Avyayārthakārikā</title>
+                    <title type="variant" xml:lang="sa">Avyayārtha Kārikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00168</idno>
+                    <!--<idno type="PANDIT"></idno>
                     <note type="links">
                         <list type="links">
                             <item>
@@ -3571,7 +3595,68 @@
                                 </ref>
                             </item>
                         </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00169">
+                    <title type="uniform" xml:lang="sa">Bhāminīvilāsa</title>
+                    <title type="display" xml:lang="sa">Bhāminīvilāsa</title>
+                    <idno type="VIAF">180064521</idno>
+                    <idno type="local">00169</idno>
+                    <idno type="PANDIT"> 112109</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/180064521/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112109/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
                     </note>
+                </bibl>
+                
+                <bibl xml:id="work_00170">
+                    <title type="uniform" xml:lang="sa">Rākṣasakāvya</title>
+                    <title type="display" xml:lang="sa">Rākṣasakāvya</title>
+                    <title type="variant" xml:lang="sa">Rākṣasa Kāvya</title>
+                    <idno type="VIAF">179084794</idno>
+                    <idno type="local">00170</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/179084794/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00171">
+                    <title type="uniform" xml:lang="sa">Sītārāmavihāra</title>
+                    <title type="display" xml:lang="sa">Sītārāmavihāra</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00171</idno>
+                    <!--<idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
                 </bibl>
                 
             </listBibl>

@@ -140,10 +140,10 @@
 
                         <handDesc>
                             <handNote scope="major" script="Bengali" medium="blackink">
-                                <desc>Bengali  in black ink.</desc>
+                                <desc>Bengali-Assamese  in black ink.</desc>
                             </handNote>
                             <handNote scope="minor" script="Bengali" medium="redink">
-                                <desc>Bengali in red ink (second set of annotations).</desc>
+                                <desc>Bengali-Assamese in red ink (second set of annotations).</desc>
                             </handNote>
                             </handDesc>
 
@@ -208,21 +208,6 @@
                                     </author>
                                     <imprint>
                                         <pubPlace/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>
-                            
-                            <biblStruct type="book" xml:id="XX">
-                                <monogr>
-                                    <title/>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <publisher/>
                                         <date/>
                                     </imprint>
                                 </monogr>
