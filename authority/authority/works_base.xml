@@ -3659,6 +3659,139 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00172">
+                    <title type="uniform" xml:lang="sa">Śabdaratnamālikā</title>
+                    <title type="display" xml:lang="sa">Śabdaratnamālikā</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00172</idno>
+                    <!--<idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00173">
+                    <title type="uniform" xml:lang="sa">Rādhāvinodakāvya</title>
+                    <title type="display" xml:lang="sa">Rādhāvinodakāvya</title>
+                    <title type="variant" xml:lang="sa">Rādhāvinoda</title>
+                   <!-- <idno type="VIAF"></idno>-->
+                    <idno type="local">00173</idno>
+                    <idno type="PANDIT">112119</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112119/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00174">
+                    <title type="uniform" xml:lang="sa">Rādhāvinodakāvyaṭīkā</title>
+                    <title type="display" xml:lang="sa">Rādhāvinodakāvyaṭīkā</title>
+                    <!-- <idno type="VIAF"></idno>-->
+                    <idno type="local">00174</idno>
+                    <idno type="PANDIT">112120</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112120/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00175">
+                    <title type="uniform" xml:lang="sa">Rāmavilāsa</title>
+                    <title type="display" xml:lang="sa">Rāmavilāsa</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00175</idno>
+                    <!--<idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/000000/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00176">
+                    <title type="uniform" xml:lang="sa">Śṛṅgāraśataka</title>
+                    <title type="display" xml:lang="sa">Śṛṅgāraśataka</title>
+                    <idno type="VIAF">194772482</idno>
+                    <idno type="local">00176</idno>
+                    <idno type="PANDIT">112087</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/194772482/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112087/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00177">
+                    <title type="uniform" xml:lang="sa">Śatakatraya</title>
+                    <title type="display" xml:lang="sa">Śatakatraya</title>
+                    <idno type="VIAF">307174014</idno>
+                    <idno type="local">00177</idno>
+                    <idno type="PANDIT">42036</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/307174014/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42036/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
             </listBibl>
         </body>
     </text>

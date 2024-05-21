@@ -29,6 +29,20 @@
         </xsl:if>
     </xsl:template>
     
+    <xsl:template match="msItem">
+        <xsl:apply-templates/>
+        <xsl:if test="@class">
+            <div class="{name()}">
+                <span class="tei-label">
+                    <xsl:copy-of select="bod:standardText('Class:')"/>
+                    <xsl:text> </xsl:text>
+                </span>
+                <xsl:value-of select="@class"/>
+            </div> 
+        </xsl:if>
+    </xsl:template>
+    
+    
 
     
     <xsl:template match="msItemStruct/textLang">

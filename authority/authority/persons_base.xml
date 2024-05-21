@@ -3302,7 +3302,7 @@
                     <persName type="display" xml:lang="sa">Halāyudha</persName>
                     <persName type="standard" xml:lang="sa">Halāyudha</persName>
                     <persName type="variant" xml:lang="sa">Bhaṭṭa Halāyudha</persName>
-                    <idno type="VIAF"></idno>91024283
+                    <idno type="VIAF">91024283</idno>
                     <idno type="local">00153</idno>
                     <idno type="PANDIT">109577</idno>
                     <note type="links">
@@ -3369,6 +3369,37 @@
                     <persName type="display" xml:lang="sa">Lakṣmaṇa Somayājin</persName>
                     <idno type="local">00156</idno>
                     <note>The author of <idno type="shelfmark">MS. Chandra Shum Shere d. 433 (5)</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00157">
+                    <persName type="standard" xml:lang="sa">Rāmacandra Kavi</persName>
+                    <persName type="display" xml:lang="sa">Rāmacandra Kavi</persName>
+                    <persName type="variant" xml:lang="sa">Rāmacandra</persName>
+                    <idno type="VIAF">75452224</idno>
+                    <idno type="local">00157</idno>
+                    <idno type="PANDIT">112118</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/75452224/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112118/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00158">
+                    <persName type="standard" xml:lang="sa">Rānaḍa, Viśvanātha</persName>
+                    <persName type="display" xml:lang="sa">Viśvanātha Rānaḍa</persName>
+                    <idno type="local">00158</idno>
+                    <note>The author of <idno type="shelfmark">MS. Chandra Shum Shere d. 433 (9)</idno>.</note>
                 </person>
                 
                 <person xml:id="person_">
