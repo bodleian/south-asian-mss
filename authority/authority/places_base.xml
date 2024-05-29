@@ -180,6 +180,23 @@
                     <note></note>
                 </place>
                 
+                <place xml:id="place_00011">
+                    <placeName xml:lang="sa" type="index">Alarkapura</placeName>
+                    <placeName xml:lang="sa" type="original">Alarkapura</placeName>
+                    <!--<idno type="GETTY"></idno>-->
+                    <idno type="local">00011</idno>
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://vocab.getty.edu/page/tgn/0000000">
+                                    <title>GETTY</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>Village near Allahabad.</note>
+                </place>
+                
                 <!--<place>
                     <placeName xml:lang="en" type="index"></placeName>
                     <placeName xml:lang="sa" type="original"></placeName>

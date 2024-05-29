@@ -73,7 +73,7 @@
                     <!--increment n attribute for ms containing multiple ms items-->
                         <summary>A paper manuscript containing <name xml:lang="sa" key="person_00139">Durgasiṃha</name>'s <title xml:lang="sa" key="work_00156">Kātantra Dhātupāṭha</title>
                             up to <term xml:lang="sa">gaṇa</term> 1, 
-                            and <name xml:lang="sa" key="person_00141">Pāṇini</name>'s <title xml:lang="sa" key="work_00157">Gaṇapāṭha</title>.</summary>
+                            and the <name xml:lang="sa" key="person_00159">Pāṇinīya</name> <title xml:lang="sa" key="work_00157">Gaṇapāṭha</title>.</summary>
                     
                     <msItem n="1" defective="unknown">
                         <locus from="3v" to="5v">Ff. 3v-5r [ff. 1v-3r in original foliation]</locus>
@@ -97,8 +97,8 @@
                             <locus from="5v" to="28v">Ff. 5r-28v [ff. 3v-26v in original foliation]</locus>
                                                         
                             <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
-                            <author key="person_00141">
-                                <persName xml:lang="sa" type="standard">Pāṇini</persName>
+                            <author key="person_00159">
+                                <persName xml:lang="sa" type="variant">Pāṇinian</persName>
                             </author>
                             
                             <title xml:lang="sa" key="work_00157">Gaṇapāṭha</title>
@@ -304,14 +304,14 @@
                     </msIdentifier>
                     <msContents n="2">
                         <!--increment n attribute for ms containing multiple ms items-->
-                        <summary>A paper manuscript containing the complete <title xml:lang="sa" key="work_00158">Dhātupāṭha</title> of <name xml:lang="sa" key="person_00141">Pāṇini</name>
+                        <summary>A paper manuscript containing the complete <title xml:lang="sa" key="work_00158">Dhātupāṭha</title> of the <name xml:lang="sa" key="person_00159" type="variant">Pāṇiniyan</name> tradition
                             and the complete <title xml:lang="sa" key="work_00159">Prayogavivekasaṃgraha</title> of <name xml:lang="sa" key="person_00143">Vararuci</name> in 31 verses.</summary>
                         
                         <msItem n="1" defective="unknown">
                             <locus from="34v" to="52v">Ff. 34v-52v [ff. 1v-19v in original foliation]</locus>
                             
-                            <author key="person_00141">
-                                <persName xml:lang="sa" type="standard">Pāṇini</persName>
+                            <author key="person_00159">
+                                <persName xml:lang="sa" type="variant">Pāṇinīya</persName>
                             </author>
                             
                             <title xml:lang="sa" key="work_00158">Dhātupāṭha</title>
@@ -647,14 +647,14 @@
                     </altIdentifier>
                 </msIdentifier>
                 <msContents n="1">
-                    <summary>A complete paper manuscript of <name xml:lang="sa" key="person_00141">Pāṇini</name>'s 
-                        <title xml:lang="sa" key="work_00158">Dhātupāṭha</title>.</summary>
+                    <summary>A complete paper manuscript of the <title xml:lang="sa" key="work_00158">Dhātupāṭha</title> in the <name xml:lang="sa" key="person_00159">Pāṇinīya</name>'s 
+                        tradition.</summary>
                     
                     <msItem n="1" defective="false">
                         <locus from="69r" to="86r">Ff. 69r-86r [ff. 1r-18r in original foliation]</locus>
                         
-                        <author key="person_00141">
-                            <persName xml:lang="sa" type="standard">Pāṇini</persName>
+                        <author key="person_00159">
+                            <persName xml:lang="sa" type="standard">Pāṇinīya</persName>
                         </author>
                         
                         <title xml:lang="sa" key="work_00158">Dhātupāṭha</title>
