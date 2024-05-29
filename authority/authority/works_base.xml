@@ -3881,6 +3881,51 @@
                     </note>-->
                 </bibl>
                 
+                <bibl xml:id="work_00182">
+                    <title type="uniform" xml:lang="sa">Gaṇapāṭha</title>
+                    <title type="display" xml:lang="sa">Gaṇapāṭha</title>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00182</idno>
+                    <idno type="PANDIT">42499</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42499/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl> 
+                
+                <bibl xml:id="work_00183">
+                    <title type="uniform" xml:lang="sa">Uṇādisūtra</title>
+                    <title type="display" xml:lang="sa">Uṇādisūtra</title>
+                    <idno type="VIAF">183132934</idno>
+                    <idno type="local">00183</idno>
+                    <idno type="PANDIT">42500</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/183132934/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42500/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                
             </listBibl>
         </body>
     </text>

@@ -832,13 +832,13 @@
                         </msIdentifier>
                         <msContents n="4">
                             
-                            <summary>A composite paper manuscript, containing the <name xml:lang="sa"
+                            <summary>A composite paper manuscript in four sections, containing the <name xml:lang="sa"
                                 key="person_00159">Pāṇinīya</name> <title xml:lang="sa"
-                                key="work_00158">Dhātupāṭha</title>, verses to Saṇkatā composed by a scribe, previously undescribed <title>Uṇādisūtra</title>, and an unidentified fragment in a different hand, written on a final fly leaf.
+                                key="work_00158">Dhātupāṭha</title>, original verses to Saṇkatā composed by the scribe, a previously undescribed <title>Uṇādisūtra</title>, and an unidentified fragment in a different hand, written on a final fly leaf.
                             </summary>
                             
                             <msItem n="1" defective="false">
-                                <locus from="114v" to="134r">Ff. 11v-134r [ff.114v-134r in original
+                                <locus from="114v" to="134r">Ff. 11v-134r [ff.1v-21r in original
                                     foliation]</locus>
                                 
                                 <author key="person_00159">
@@ -866,11 +866,40 @@
                             </msItem>
                             
                             <msItem n="2" defective="unknown">
+                                <locus></locus>
+                                
+                                <author key="person_00161">
+                                    <persName xml:lang="sa" type="standard">Gopīnātha</persName>
+                                </author>
+                                
+                                <title></title>
+                                
+                                <rubric>
+                                    <locus from="114v" to="114v">F. 114v [f. 1v in original foliation]:</locus>
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="114v" to="114v">F. 114v [f. 1v in original foliation]:</locus>
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="114v" to="114v">F. 114v [f. 1v in original foliation]:</locus>
+                                </colophon>
+                                
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                             
                             <msItem n="3" defective="unknown">
                                 
+                                <locus from="114v" to="134r">Ff. 11v-134r [ff.1v-21r in original
+                                    foliation]</locus>
+                                
+                                <author key="person_00159">
+                                    <persName xml:lang="sa" type="standard">Pāṇinīya</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_00183">Uṇādisūtra</title>
+                               
                                 <colophon>
                                     <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
                                     pustakaṃ likhitaṃ caiva gopīnāthena dhīmatā || hitāyātmaparārthaṃ ca likhitaṃ ca subhāṣitam || 1 || || || saṃvat 1907 phālunaśuddha 13 mandelekhaḥ ||  || śrīmaddhaihayādhīśo ‘vatu || || ||
@@ -880,6 +909,13 @@
                             </msItem>
                             
                             <msItem n="4" defective="unknown">
+                                
+                                <locus></locus>
+                                
+                                <title xml:lang="en" key="work_00000">
+                                  An unidentified fragment  
+                                </title>
+                                
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                             
@@ -898,7 +934,7 @@
                                     
                                     <extent n=""> ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso. Occassionally erroneous.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
@@ -914,6 +950,11 @@
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
                                     <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Scribe: 
+                                <name type="person" role="scr" key="local_00161">
+                                    <persName xml:lang="sa" type="standard">Gopīnātha</persName>
+                                </name>
+                                </desc>
                                 </handNote>
                             </handDesc>
                             
@@ -927,7 +968,7 @@
                         
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1907">saṃvat 1907</date> / <date calendar="Gregorian" when="1850">1850 CE.</date>
                             </origin>
                         </history>
                         
@@ -959,7 +1000,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 77, p. 173.</biblScope>
+                                            <biblScope>no. 154, p. 185.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -976,31 +1017,31 @@
                         </msIdentifier>
                         <msContents n="1">
                             
-                            <summary>An incomplete paper manuscript of the <title xml:lang="sa"
-                                key="work_">Vibhaktyarthanirṇaya</title>, composed by <name xml:lang="sa"
-                                    key="person_">Srīkṛṣṇa Mauni</name>.</summary>
+                            <summary>A complete paper manuscript of the <name xml:lang="sa"
+                                key="person_00159">Pāṇinīya</name> <title xml:lang="sa"
+                                    key="work_00182">Gaṇapāṭha</title>.</summary>
                             
                             <msItem defective="false">
-                                <locus from="" to="">Ff. X-X [ff.X-X in original
+                                <locus from="146" to="166">Ff. 146-166 [ff.X-X in original
                                     foliation]</locus>
                                 
-                                <author key="person_">
-                                    <persName xml:lang="sa" type="standard">Srīkṛṣṇa Mauni</persName>
+                                <author key="person_00159">
+                                    <persName xml:lang="sa" type="standard">Pāṇinīya</persName>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_">Vibhaktyarthanirṇaya</title>
+                                <title xml:lang="sa" key="work_00182">Gaṇapāṭha</title>
                                 
                                 <rubric>
-                                    <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
+                                    <locus from="146" to="146">F. 146 [f. Xr in original foliation]:</locus>
                                     
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                    <locus from="146" to="146">F. 146 [f. 1r in original foliation]:</locus>
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                    <locus from="166" to="166">F. 166 [f. X in original foliation]:</locus>
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -1012,8 +1053,8 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="20">20</width>
                                         </dimensions>
                                     </p>
                                     </support>
@@ -1036,6 +1077,11 @@
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
                                     <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Scribe: 
+                                        <name type="person" role="scr" key="local_00162">
+                                            <persName xml:lang="sa" type="standard">Rāmakṛṣṇa Dīkṣita</persName>
+                                        </name>
+                                    </desc>
                                 </handNote>
                             </handDesc>
                             
@@ -1047,7 +1093,7 @@
                         
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1832">saṃvat 1832</date> / <date calendar="Gregorian" when="1775">1775 CE.</date>
                             </origin>
                         </history>
                         
@@ -1079,7 +1125,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 77, p. 173.</biblScope>
+                                            <biblScope>no. 158, p. 186.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -1096,31 +1142,31 @@
                         </msIdentifier>
                         <msContents n="1">
                             
-                            <summary>An incomplete paper manuscript of the <title xml:lang="sa"
-                                key="work_">Vibhaktyarthanirṇaya</title>, composed by <name xml:lang="sa"
-                                    key="person_">Srīkṛṣṇa Mauni</name>.</summary>
+                            <summary>A paper manuscript of the <title xml:lang="sa"
+                                key="work_">Rūpamālikā</title> of <name xml:lang="sa"
+                                    key="person_">Raṅgadeva</name>, a simple list of nominal and verbal derivatives, following <title>Siddhāntakaumudī</title>, for beginners.</summary>
                             
                             <msItem defective="false">
-                                <locus from="" to="">Ff. X-X [ff.X-X in original
+                                <locus from="168" to="188">Ff. 168-188 [ff.X-X in original
                                     foliation]</locus>
                                 
                                 <author key="person_">
-                                    <persName xml:lang="sa" type="standard">Srīkṛṣṇa Mauni</persName>
+                                    <persName xml:lang="sa" type="standard">Raṅgadeva</persName>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_">Vibhaktyarthanirṇaya</title>
+                                <title xml:lang="sa" key="work_">Rūpamālikā</title>
                                 
                                 <rubric>
-                                    <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
+                                    <locus from="168" to="168">F. 168 [f. Xr in original foliation]:</locus>
                                     
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                    <locus from="168" to="168">F. 168 [f. Xr in original foliation]:</locus>
                                 </incipit>
                                 
-                                <colophon>
-                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                <colophon> 
+                                    <locus from="188" to="188">F. 188 [f. Xr in original foliation]:</locus>
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -1132,15 +1178,15 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="24">24</width>
                                         </dimensions>
                                     </p>
                                     </support>
                                     
                                     <extent n=""> ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso. Occassionally erroneous.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
@@ -1199,7 +1245,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 77, p. 173.</biblScope>
+                                            <biblScope>no. 179, p. 189.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -1214,21 +1260,23 @@
                                 <idno type="part">MS. Chandra Shum Shere d. 241 (10)</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents n="1">
+                        <msContents n="1+1">
                             
-                            <summary>An incomplete paper manuscript of the <title xml:lang="sa"
-                                key="work_">Vibhaktyarthanirṇaya</title>, composed by <name xml:lang="sa"
-                                    key="person_">Srīkṛṣṇa Mauni</name>.</summary>
+                            <summary>A paper manuscript of the <title xml:lang="sa"
+                                key="work_">Phiṭsūtra</title>, written by <name xml:lang="sa"
+                                    key="person_">Śāntanava</name>, including a commentary of the <title xml:lang="sa" key="work_">Siddhāntakaumudī</title> by <name xml:lang="sa" key="person_">Bhaṭṭojī Dīkṣita</name>.
+                                Covers the commentary on the <title xml:lang="sa"
+                                    key="work_">Phiṭsūtra</title> from chapter 1, n. 6, to the end.</summary>
                             
                             <msItem defective="false">
-                                <locus from="" to="">Ff. X-X [ff.X-X in original
+                                <locus from="193" to="198">Ff. 193-198 [ff.X-X in original
                                     foliation]</locus>
                                 
                                 <author key="person_">
-                                    <persName xml:lang="sa" type="standard">Srīkṛṣṇa Mauni</persName>
+                                    <persName xml:lang="sa" type="standard">Śāntanava</persName>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_">Vibhaktyarthanirṇaya</title>
+                                <title xml:lang="sa" key="work_">Phiṭsūtra</title>
                                 
                                 <rubric>
                                     <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
@@ -1245,6 +1293,33 @@
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
+                            
+                            <msItem defective="true">
+                                <locus from="" to="">Ff. X-X [ff.X-X in original
+                                    foliation]</locus>
+                                
+                                <author key="person_">
+                                    <persName xml:lang="sa" type="standard">Bhaṭṭojī Dīkṣita</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_">Siddhāntakaumudī[?]</title>
+                                
+                                <rubric>
+                                    <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
+                                    
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                </colophon>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
                         </msContents>
                         
                         <physDesc>
@@ -1252,8 +1327,8 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="25">25</width>
                                         </dimensions>
                                     </p>
                                     </support>
@@ -1319,7 +1394,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 77, p. 173.</biblScope>
+                                            <biblScope>no. 186, p. 190.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -1336,31 +1411,31 @@
                         </msIdentifier>
                         <msContents n="1">
                             
-                            <summary>An incomplete paper manuscript of the <title xml:lang="sa"
-                                key="work_">Vibhaktyarthanirṇaya</title>, composed by <name xml:lang="sa"
-                                    key="person_">Srīkṛṣṇa Mauni</name>.</summary>
+                            <summary>A complete paper manuscript of the <title xml:lang="sa"
+                                key="work_00163">Samāsacakra</title>, composed by <name xml:lang="sa"
+                                    key="person_00143">Vararuci</name>.</summary>
                             
                             <msItem defective="false">
-                                <locus from="" to="">Ff. X-X [ff.X-X in original
+                                <locus from="200" to="203">Ff. 200-203 [ff.X-X in original
                                     foliation]</locus>
                                 
-                                <author key="person_">
-                                    <persName xml:lang="sa" type="standard">Srīkṛṣṇa Mauni</persName>
+                                <author key="person_00143">
+                                    <persName xml:lang="sa" type="standard">Vararuci</persName>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_">Vibhaktyarthanirṇaya</title>
+                                <title xml:lang="sa" key="work_00163">Samāsacakra</title>
                                 
                                 <rubric>
-                                    <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
+                                    <locus from="200" to="200">F. 200 [f. Xr in original foliation]:</locus>
                                     
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                    <locus from="200" to="200">F. 200 [f. Xr in original foliation]:</locus>
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                    <locus from="203" to="203">F. 203 [f. Xr in original foliation]:</locus>
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -1372,8 +1447,8 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="25">25</width>
                                         </dimensions>
                                     </p>
                                     </support>
@@ -1407,7 +1482,7 @@
                         
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1848">saṃvat 1848</date> / <date calendar="Gregorian" when="1791">1791 CE.</date>
                             </origin>
                         </history>
                         
@@ -1439,7 +1514,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 77, p. 173.</biblScope>
+                                            <biblScope>no. 226, p. 196.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -1456,19 +1531,19 @@
                         </msIdentifier>
                         <msContents n="1">
                             
-                            <summary>An incomplete paper manuscript of the <title xml:lang="sa"
-                                key="work_">Vibhaktyarthanirṇaya</title>, composed by <name xml:lang="sa"
-                                    key="person_">Srīkṛṣṇa Mauni</name>.</summary>
+                            <summary>A complete paper manuscript of the <title xml:lang="sa"
+                                key="work_">Rapratyāhāramaṇḍana</title>, composed by <name xml:lang="sa"
+                                    key="person_">Rāmacandra Pāṭhaka</name>.</summary>
                             
                             <msItem defective="false">
-                                <locus from="" to="">Ff. X-X [ff.X-X in original
+                                <locus from="205" to="212">Ff. 205-212 [ff.X-X in original
                                     foliation]</locus>
                                 
                                 <author key="person_">
-                                    <persName xml:lang="sa" type="standard">Srīkṛṣṇa Mauni</persName>
+                                    <persName xml:lang="sa" type="standard">Rāmacandra Pāṭhaka</persName>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_">Vibhaktyarthanirṇaya</title>
+                                <title xml:lang="sa" key="work_">Rapratyāhāramaṇḍana</title>
                                 
                                 <rubric>
                                     <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
@@ -1492,8 +1567,8 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="9">9</height>
+                                            <width quantity="22">22</width>
                                         </dimensions>
                                     </p>
                                     </support>
@@ -1559,7 +1634,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 77, p. 173.</biblScope>
+                                            <biblScope>no. 175, p. 188.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
