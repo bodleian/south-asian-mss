@@ -77,33 +77,33 @@
                         <msContents n="1">
                             <!--increment n attribute for ms containing multiple ms items-->
                             <summary>A paper manuscript of the <title xml:lang="sa"
-                                    key="work_00167">Kavirahasya</title> in 272 verses, composed by <name xml:lang="sa"
-                                    key="person_00153">Halāyudha</name>.</summary>
+                                key="work_00160">Saṃskṛtamañjarī</title>, composed by <name xml:lang="sa"
+                                    key="person_">Raghunātha Bhaṭṭa</name>.</summary>
 
                             <msItem defective="unknown">
-                                <locus from="3v" to="16v">Ff. 3r-16r [ff. 1r-14r in original
+                                <locus from="3v" to="12">Ff. 3r-12 [ff. 1-X in original
                                     foliation]</locus>
 
                                 <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
-                                <author key="person_00153">
-                                    <persName xml:lang="sa" type="standard">Halāyudha</persName>
+                                <author key="person_00">
+                                    <persName xml:lang="sa" type="standard">Raghunātha Bhaṭṭa</persName>
                                 </author>
 
-                                <title xml:lang="sa" key="work_00167">Kavirahasya</title>
+                                <title xml:lang="sa" key="work_00160">Saṃskṛtamañjarī</title>
                                 
                                 <rubric>
                                     <locus from="3v" to="3v">F. 3v [f. 1v in original foliation]:</locus>
-                                    śrīgaṇeṣāya namaḥ || śrī pāṇinīkātyāyanapataṃjalibhyo namaḥ |
+                                  
                                 </rubric>
                                 
                                 <incipit>
                                     <locus from="3v" to="3v">F. 3v [f. 1v in original foliation]:</locus>
-                                    jayaṃti murajitpādanakhadīdhitidīpikā | mohāṃdhakāravidhvaṃsānmuktimārgaṃpradarkṣikāḥ |
+                                   
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="16r" to="16r">F. 16r [f. 14r in original foliation]:</locus>
-                                    iti samāptam avāpta guṇodayaṃ kavirahasyam idaṃ rasikapriyaṃ || sadamidhānanidhānahalāyudhadijavarasyaṣṭutiḥ sukṛtātmanaḥ 273
+                                    <locus from="12" to="16r">F. 12 [f. 12 in original foliation]:</locus>
+                                    
                                 </colophon>
 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -116,13 +116,13 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                             <dimensions type="folio" scope="most" unit="cm">
-                                                <height quantity="9">9</height>
-                                                <width quantity="25">25</width>
+                                                <height quantity="12">12</height>
+                                                <width quantity="254">24</width>
                                             </dimensions>
                                         </p>
                                     </support>
 
-                                    <extent xml:id="folio" n="14">14 ff.</extent>
+                                    <extent xml:id="folio" n=""> ff.</extent>
                                     
                                     <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
@@ -141,6 +141,11 @@
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
                                     <desc>Devanāgarī in black ink. Several folios highlighted in red powder and ruled in red ink.</desc>
                                       </handNote>
+                                <desc>Scribe: 
+                                    <name type="person" role="scr" key="local_00163">
+                                        <persName xml:lang="sa" type="standard">Śiva</persName>
+                                    </name>
+                                </desc>
                             </handDesc>
                             
                             <additions>
@@ -151,8 +156,12 @@
 
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1882">saṃvat 1838</date> / <date calendar="Gregorian" when="1825">1825 CE.</date>
                             </origin>
+                            <provenance>Commissioned by
+                                <name type="person" role="dnr" key="person_00164">
+                                    <persName type="standard" xml:lang="sa">Gosvāmin</persName>.
+                                  </name></provenance>
                         </history>
 
                         <additional>
@@ -187,7 +196,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 76, p. 173.</biblScope>
+                                            <biblScope>no. 171, p. 188.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -199,40 +208,40 @@
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
-                                <idno type="part">MS. Chandra Shum Shere d. 433 (2)</idno>
+                                <idno type="part">MS. Chandra Shum Shere d. 244 (2)</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="1">
                           
-                            <summary>A paper manuscript of the <title xml:lang="sa"
-                                key="work_00167">Kavirahasya</title>, composed by <name xml:lang="sa"
-                                    key="person_00153">Halāyudha</name>.</summary>
+                            <summary>A complete paper manuscript of the <title xml:lang="sa"
+                                key="work_00166">Girvāṇapadamañjarī</title> of <name xml:lang="sa"
+                                    key="person_00150">Varadarāja</name>.</summary>
                                 
                                 <msItem defective="false">
-                                    <locus from="18r" to="32">Ff. 18r-32 [ff.1r-15r in original
+                                    <locus from="13" to="26">Ff. 13-26 [ff.1-X in original
                                         foliation]</locus>
                                     
                                     <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
-                                    <author key="person_00153">
-                                        <persName xml:lang="sa" type="standard">Halāyudha</persName>
+                                    <author key="person_00150">
+                                        <persName xml:lang="sa" type="standard">Varadarāja</persName>
                                     </author>
+                                    <note>Author's name is given as <name xml:lang="sa" type="variant" key="person_00150">Varadabhaṭṭa</name>.</note>
                                     
-                                    <title xml:lang="sa" key="work_00167">Kavirahasya</title>
+                                    <title xml:lang="sa" key="work_00166">Girvāṇapadamañjarī</title>
                                     
                                     <rubric>
-                                        <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
-                                        śrīrāmacaṃdraya namaḥ
+                                        <locus from="13" to="13">F. 13 [f. X in original foliation]:</locus>
+                                        
                                     </rubric>
                                     
                                     <incipit>
-                                        <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
-                                        jayaṃti murajitpādanakhadīdhitidīpikāḥ | mohāṃdhakāravidhvaṃsānpnohaktimārgaprakāśikāḥ |
+                                        <locus from="13" to="13">F. 13 [f. X in original foliation]:</locus>
+                                       
                                     </incipit>
                                     
                                     <colophon>
-                                        <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
-                                        iti samāptim avāpaguṇodayaṃ kavirahasyam idaṁ rasikapriyam sadabhidhānanidhānahalāyudhadvijavarasya kṛtis tu kṛtātmanaḥ 73
-                                        iti śrī kavirahasyaṁ samāptiḥ 1
+                                        <locus from="26" to="26">F. 26 [f. X in original foliation]:</locus>
+                                        
                                     </colophon>
                                     
                                     <textLang mainLang="sa">Sanskrit.</textLang>
@@ -244,13 +253,13 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                             <dimensions type="folio" scope="most" unit="cm">
-                                                <height quantity="12">12</height>
-                                                <width quantity="26">26</width>
+                                                <height quantity="11">11</height>
+                                                <width quantity="24">24</width>
                                             </dimensions>
                                         </p>
                                     </support>
 
-                                    <extent n="15">15 ff.</extent>
+                                    <extent n=""> ff.</extent>
                                     
                                     <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
@@ -260,7 +269,7 @@
 
                                     <condition>
                                         <p>Complete.</p>
-                                        <p>In good condition. F. 31 is water damaged, with loss of some <term xml:lang="sa">akṣara</term>s.</p>
+                                        <p>In good condition. </p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
@@ -311,7 +320,7 @@
                     <pubPlace>Pune</pubPlace>
                     <publisher>Vaidika Samshodhana Mandala</publisher>
                     <date>1994</date>
-                    <biblScope>no. 77, p. 173.</biblScope>
+                    <biblScope>no. 211, p. 194.</biblScope>
                 </imprint>
             </monogr>
         </biblStruct>
@@ -323,35 +332,33 @@
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
-                                <idno type="part">MS. Chandra Shum Shere d. 433 (3)</idno>
+                                <idno type="part">MS. Chandra Shum Shere d. 244 (3)</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="1">
                             <!--increment n attribute for ms containing multiple ms items-->
                             <summary>A previously undescribed paper manuscript of the <title xml:lang="sa"
-                                key="work_00169">Bhāminīvilāsa</title>, composed by <name xml:lang="sa"
-                                    key="person_00154">Jagannātha Paṇḍitarāja</name>.</summary>
+                                key="work_00"></title>, composed by <name xml:lang="sa"
+                                    key="person_00"></name>.</summary>
 
                             <msItem defective="false">
-                                <locus from="34r" to="43r">Ff. 34r-43r [ff. 1r-10r in original
+                                <locus from="" to="">Ff. - [ff.  in original
                                     foliation]</locus>
 
                                 <author key="person_00154">
-                                    <persName xml:lang="sa" type="standard">Jagannātha Paṇḍitarāja</persName>
+                                    <persName xml:lang="sa" type="standard">/persName>
                                 </author>
 
-                                <title xml:lang="sa" key="work_00169">Bhāminīvilāsa</title>
+                                <title xml:lang="sa" key="work_00169"></title>
                                 
                                 <rubric>
                                     <locus from="34r" to="34r">F. 34r [f. 1r in original foliation]:</locus>
-                                    śrī gaṇeśāya namaḥ ||
+                                    
                                 </rubric>
                                 
                                 <colophon>
                                     <locus from="43r" to="43r">F. 43r [f. 10r in original foliation]:</locus>
-                                iti śrīmaj jagannāthapaṃḍitta vircitebhāminīvilāseśāṃtaścaturthovilāsaḥ samāptaḥ ||
-                                saṃvat 1900 pauṣakṛ[?]ma 9 bhṛguvāsare tad dine idaṃ pustakaṁ samāptoyāṁ || śrī kāśīviśveśvarā namaḥ
-                                śrī annapūrṇādevyai namaḥ || cha || cha
+                                
                                 </colophon>
 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -437,14 +444,13 @@
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
-                                <idno type="part">MS. Chandra Shum Shere d. 433 (4)</idno>
+                                <idno type="part">MS. Chandra Shum Shere d. 244 (4)</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents n="1+1">
-                            <summary>A previously unpublished paper manuscript of <title xml:lang="sa" key="work_00170">Rākṣasakāvya</title>, sometimes attributed
-                                to <name xml:lang="sa" key="person_00012">Kālidāsa</name>, with <term xml:lang="sa">vyākhyāna</term> by <name xml:lang="sa" key="person_00155">Bālambhaṭṭa Pāyaguṇḍa</name>.</summary>
-
-                            <msItem defective="false" class="mūla">
+                        <msContents n="2">
+                            <summary>A paper manuscript of <title xml:lang="sa" key="work_00">Aniṭkārikāvyākhyāna</title> of <name xml:lang="sa" key="person_000">Vyāghrabhūti</name>.</summary>
+                                
+                            <msItem defective="false">
                                 <locus from="45v" to="51v">Ff. 45v-51v [ff. 1v-7v in original
                                     foliation]</locus>
                                 
@@ -544,7 +550,7 @@
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
-                                <idno type="part">MS. Chandra Shum Shere d. 433 (5)</idno>
+                                <idno type="part">MS. Chandra Shum Shere d. 244 (5)</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="2">
@@ -677,7 +683,7 @@
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
-                                <idno type="part">MS. Chandra Shum Shere d. 433 (6)</idno>
+                                <idno type="part">MS. Chandra Shum Shere d. 244 (6)</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="1">
@@ -778,54 +784,39 @@
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
-                                <idno type="part">MS. Chandra Shum Shere d. 433 (7)</idno>
+                                <idno type="part">MS. Chandra Shum Shere d. 244 (7)</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents n="1+1">
-                            <summary>A previously uncatalogued paper manuscript of <title xml:lang="sa" key="work_00173">Rādhāvinodakāvya</title> 
-                                of <name xml:lang="sa" key="person_00157">Rāmacandra Kavi</name>, including the <title xml:lang="sa" key="work_00174">Rādhāvinodakāvyaṭīkā</title>.</summary>
-
-                            <msItem class="mūla" defective="false">
-                                <locus from="109r" to="118r">ff. 109r-118r [ff. 1r-10r in original
-                                    foliation]</locus>
-
-                                <author key="person_00157">
-                                    <persName xml:lang="sa" type="standard">Rāmacandra Kavi</persName>
-                                </author>
-
-                                <title xml:lang="sa" key="work_00173">Rādhāvinodakāvya</title>
-                                
-                                <incipit>
-                                    <locus from="109r" to="109r">F. 109r [f. 1r in original foliation]:</locus>
-                                mālīnovanamālīmālīnovanālī mālīnovanamālīmālīnovatumālī 1
-                                </incipit>
-
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItem>
+                        <msContents n="1">
+                            <summary>A paper manuscript of the <title xml:lang="sa"
+                                key="work_00166">Girvāṇapadamañjarī</title> of <name xml:lang="sa"
+                                    key="person_00150">Varadarāja</name>.</summary>
                             
-                            <msItem class="commentary" defective="false">
-                                <locus from="109r" to="118r">ff. 109r-118r [ff. 1r-10r in original
-                                    foliation)</locus>
+                            <msItem defective="false">
+                                <locus from="73" to="83">Ff. 73-83 [ff.1-X in original
+                                    foliation]</locus>
                                 
-                                <author key="person_00157">
-                                    <persName xml:lang="sa" type="standard">Rāmacandra Kavi</persName>
+                                <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
+                                <author key="person_00150">
+                                    <persName xml:lang="sa" type="standard">Varadarāja</persName>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00174">Rādhāvinodakāvyaṭīkā</title>
+                                
+                                <title xml:lang="sa" key="work_00166">Girvāṇapadamañjarī</title>
                                 
                                 <rubric>
-                                    <locus from="109r" to="109r">F. 109r [f. 1r in original foliation]:</locus>
-                                   śrī rādhākṛsmāya namaḥ ||
+                                    <locus from="73" to="73">F. 73 [f. X in original foliation]:</locus>
+                                    
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="109r" to="109r">F. 109r [f. 1r in original foliation]:</locus>
-                                   pitavacanam avaśyam eva pālyaṃ jagatī janānī tīśāsituṃ vanāṃ taṃ gatimatikaruṇā sārducintaṃ radhupatim ekam upāsmhosadāraṃ 1 
+                                    <locus from="73" to="73">F. 73 [f. X in original foliation]:</locus>
+                                    
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="118r" to="118r">F. 118r [f. 10r in original foliation]:</locus>
-                                   iti śrī rāmacaṃdrakaviracitaṃ rādhāvinodākhyaṃkāvyaṁ tasyeyaṁ ṭīkā samāptā || 1 ||
+                                    <locus from="26" to="26">F. 26 [f. X in original foliation]:</locus>
+                                    
                                 </colophon>
                                 
                                 
@@ -839,7 +830,7 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                             <dimensions type="folio" scope="most" unit="cm">
-                                                <height quantity="12">12</height>
+                                                <height quantity="11">11</height>
                                                 <width quantity="24">24</width>
                                             </dimensions>
                                         </p>
@@ -853,14 +844,7 @@
                                     </condition>
                                     
                                 </supportDesc>
-                                    
-                                    <layoutDesc>
-                                        <layout columns="1" writtenLines="11" type="commentary" style="tripāṭha">
-                                            
-                                            <note>Commentary layout: <term xml:lang="sa">tripāṭha</term>; <term xml:lang="sa">mūla</term> cited in full.</note>
-                                        </layout>
-                                    </layoutDesc>
-                                
+                                                                                                      
                             </objectDesc>
 
                             <handDesc>
@@ -873,7 +857,7 @@
 
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1763">saṃvat 1763</date> / <date calendar="Gregorian" when="1706">1706 CE.</date>
                             </origin>
                         </history>
 
@@ -913,7 +897,7 @@
 <msPart>
     <msIdentifier>
         <altIdentifier>
-            <idno type="part">MS. Chandra Shum Shere d. 433 (8)</idno>
+            <idno type="part">MS. Chandra Shum Shere d. 244 (8)</idno>
         </altIdentifier>
     </msIdentifier>
     <msContents n="1+1">
