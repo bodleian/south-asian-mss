@@ -832,13 +832,15 @@
                         </msIdentifier>
                         <msContents n="4">
                             
-                            <summary>A composite paper manuscript in four sections, containing the <name xml:lang="sa"
+                            <summary>A composite paper manuscript, containing four sections: the <name xml:lang="sa"
                                 key="person_00159">Pāṇinīya</name> <title xml:lang="sa"
-                                key="work_00158">Dhātupāṭha</title>, original verses to Saṇkatā composed by the scribe, a previously undescribed <title>Uṇādisūtra</title>, and an unidentified fragment in a different hand, written on a final fly leaf.
+                                key="work_00158">Dhātupāṭha</title>, original verses to Saṃkatā composed by the scribe,
+                                an <title>Uṇādisūtra</title> in the <term xml:lang="sa">pañcapadī</term> recension, 
+                                and an unidentified fragment in a different hand, written on a final fly leaf.
                             </summary>
                             
                             <msItem n="1" defective="false">
-                                <locus from="114v" to="134r">Ff. 11v-134r [ff.1v-21r in original
+                                <locus from="114v" to="134r">Ff. 114v-134r [ff.1v-21r in original
                                     foliation]</locus>
                                 
                                 <author key="person_00159">
@@ -859,49 +861,55 @@
                                 
                                 <colophon>
                                    <locus from="134r" to="134r">F. 134r [f. 21r in original foliation]:</locus>
-                                    || iti dhātupāṭhaḥ samāptaḥ || || cha ||
+                                    || iti dhātupāṭhaḥ samāptaḥ || || cha || 
+                                    || || || patrasaṃkhyā || 21 || padyasaṃkhyāpaṃcāśat || 50 || || ||
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                             
                             <msItem n="2" defective="unknown">
-                                <locus></locus>
+                                <locus from="134v" to="136r">Ff. 134v-136r [ff. 21v-23r in original foliation]</locus>
                                 
                                 <author key="person_00161">
                                     <persName xml:lang="sa" type="standard">Gopīnātha</persName>
                                 </author>
                                 
-                                <title></title>
+                                <title xml:lang="sa" key="work_">Saṃkatāpada</title>
                                 
                                 <rubric>
-                                    <locus from="114v" to="114v">F. 114v [f. 1v in original foliation]:</locus>
+                                    <locus from="134v" to="134v">F. 134v [f. 21v in original foliation]:</locus>
+                                    śrī saṃkaṭe maheśāni vilokayakṛpābharaiḥ ||
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="114v" to="114v">F. 114v [f. 1v in original foliation]:</locus>
+                                    <locus from="134v" to="134v">F. 134v [f. 21v in original foliation]:</locus>
+                                    pūrṇaiḥ kaṭakṣair mādīnaṃ hīnaṃ tvat kṛpayādhunā || 1 ||
                                 </incipit>
                                 
-                                <colophon>
-                                    <locus from="114v" to="114v">F. 114v [f. 1v in original foliation]:</locus>
-                                </colophon>
-                                
+                               
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                             
                             <msItem n="3" defective="unknown">
                                 
-                                <locus from="114v" to="134r">Ff. 11v-134r [ff.1v-21r in original
+                                <locus from="136r" to="134r">Ff. 136r-134r [ff.23r-21r in original
                                     foliation]</locus>
-                                
-                                <author key="person_00159">
-                                    <persName xml:lang="sa" type="standard">Pāṇinīya</persName>
-                                </author>
                                 
                                 <title xml:lang="sa" key="work_00183">Uṇādisūtra</title>
                                
+                                <rubric>
+                                    <locus from="136r" to="136r">F. 136r [f. 23r in original foliation]:</locus>
+                                śrī gaṇeśāya namaḥ || śrī saṃkaṭāpadapaṃ keruhābhyāṃ namaḥ || || śrī saṃkaṭāṃ praṇamyātha jagaduddhāriṇīṃ parāṃ ||
+                                </rubric>
+                                
+                                <rubric>
+                                    <locus from="136r" to="136r">F. 136r [f. 23r in original foliation]:</locus>
+                                    uṇādisūtrasaṁktrekha[.] kriyate mādhavenahi || 1 ||
+                                </rubric>
+                                
                                 <colophon>
-                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                    <locus from="144r" to="144r">F. 144r [f. 32r in original foliation]:</locus>
                                     pustakaṃ likhitaṃ caiva gopīnāthena dhīmatā || hitāyātmaparārthaṃ ca likhitaṃ ca subhāṣitam || 1 || || || saṃvat 1907 phālunaśuddha 13 mandelekhaḥ ||  || śrīmaddhaihayādhīśo ‘vatu || || ||
                                 </colophon>
                                 
@@ -910,11 +918,16 @@
                             
                             <msItem n="4" defective="unknown">
                                 
-                                <locus></locus>
+                                <locus from="144v" to="144v">F. 144v [f. 32v in original foliation]</locus>
                                 
                                 <title xml:lang="en" key="work_00000">
                                   An unidentified fragment  
                                 </title>
+                                
+                                <incipit>
+                                    <locus from="144v" to="144v">F. 144v [f. 32v in original foliation]:</locus>
+                                   agṛhaśnāddhasūciḥ gopīnāthanātīrthasūpāhiṃkanīyāda 
+                                </incipit>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
@@ -926,30 +939,32 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="25">25</width>
                                         </dimensions>
                                     </p>
                                     </support>
                                     
-                                    <extent n=""> ff.</extent>
+                                    <extent n="32">32 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margins, verso.
+                                    <note>Erroneous on <locus from="141" to="141">f. 141 [f. 28 in original sequence]</locus> which is foliated both as f. 28 and 29. Due to the mistake, following f. is 30.</note>
+                                    </foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p></p>
-                                        <p></p>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
                             
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Devanāgarī in black ink. Highlighted in red ink.</desc>
                                     <desc>Scribe: 
                                 <name type="person" role="scr" key="local_00161">
                                     <persName xml:lang="sa" type="standard">Gopīnātha</persName>
@@ -961,7 +976,7 @@
                             <additions>
                                 <p>The flyleaf<locus from="114r" to="114r">[f. 114r, f. 1r in original foliation]</locus> reads:
                                     || || dhātupāṭhauṇādisūtrasyedam idaṃ pustakam || patrasaṃkhyā 32 || || </p>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                                <p>Abbreviated marginal title, top-left and bottom-tight margin, verso.</p>
                             </additions>
                             
                         </physDesc>
@@ -1000,7 +1015,7 @@
                                             <pubPlace>Pune</pubPlace>
                                             <publisher>Vaidika Samshodhana Mandala</publisher>
                                             <date>1994</date>
-                                            <biblScope>no. 154, p. 185.</biblScope>
+                                            <biblScope>no. 154, p. 185; n. 21, p. 165.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
@@ -1022,7 +1037,7 @@
                                     key="work_00182">Gaṇapāṭha</title>.</summary>
                             
                             <msItem defective="false">
-                                <locus from="146" to="166">Ff. 146-166 [ff.X-X in original
+                                <locus from="146v" to="166r">Ff. 146v-166r [ff. 1v-21r in original
                                     foliation]</locus>
                                 
                                 <author key="person_00159">
@@ -1032,16 +1047,20 @@
                                 <title xml:lang="sa" key="work_00182">Gaṇapāṭha</title>
                                 
                                 <rubric>
-                                    <locus from="146" to="146">F. 146 [f. Xr in original foliation]:</locus>
-                                    
+                                    <locus from="146v" to="146v">F. 146v [f. 1r in original foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ kārtravīryārjunāya namaḥ
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="146" to="146">F. 146 [f. 1r in original foliation]:</locus>
+                                    <locus from="146v" to="146v">F. 146v [f. 1r in original foliation]:</locus>
+                                sarvaviśva | ubha | ubhaya | itara | itama | anya | anyatara | itara | tvat | tvanema 
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="166" to="166">F. 166 [f. X in original foliation]:</locus>
+                                    <locus from="166r" to="166r">F. 166r [f. 21r in original foliation]:</locus>
+                                || śrī gaṇāpāṭhe gokr[ddh]anadīkṣitasūnu rāmakṛṣmaviracite 'v[y]amodhyāyaḥ samāptaḥ ||
+                                || vārāṇośyā[?] likhitaṃ gaṇāpāṭhapustakam || rāmakṛṣmena vijñeyaṃ svayarārthaṃ hi yatnataḥ 1
+                                || saṃvat 1832 mīticaitavaṭī 3 vārasomārakesamāpataḥ śrī ||
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -1054,29 +1073,29 @@
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
                                             <height quantity="11">11</height>
-                                            <width quantity="20">20</width>
+                                            <width quantity="25">25</width>
                                         </dimensions>
                                     </p>
                                     </support>
                                     
-                                    <extent n=""> ff.</extent>
+                                    <extent n="21">21 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margins, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p></p>
-                                        <p></p>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
                             
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Devanāgarī in black ink. Highlighted in red powder.</desc>
                                     <desc>Scribe: 
                                         <name type="person" role="scr" key="local_00162">
                                             <persName xml:lang="sa" type="standard">Rāmakṛṣṇa Dīkṣita</persName>
@@ -1086,7 +1105,7 @@
                             </handDesc>
                             
                             <additions>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                                <p>Abbreviated marginal title, top-left and bottom-right margin, verso.</p>
                             </additions>
                             
                         </physDesc>
@@ -1147,7 +1166,7 @@
                                     key="person_">Raṅgadeva</name>, a simple list of nominal and verbal derivatives, following <title>Siddhāntakaumudī</title>, for beginners.</summary>
                             
                             <msItem defective="false">
-                                <locus from="168" to="188">Ff. 168-188 [ff.X-X in original
+                                <locus from="168r" to="188v">Ff. 168r-188v [ff.1r-21v in original
                                     foliation]</locus>
                                 
                                 <author key="person_">
@@ -1157,17 +1176,14 @@
                                 <title xml:lang="sa" key="work_">Rūpamālikā</title>
                                 
                                 <rubric>
-                                    <locus from="168" to="168">F. 168 [f. Xr in original foliation]:</locus>
-                                    
+                                    <locus from="168r" to="168r">F. 168r [f. 1r in original foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ ||
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="168" to="168">F. 168 [f. Xr in original foliation]:</locus>
+                                    <locus from="168r" to="168r">F. 168r [f. 1r in original foliation]:</locus>
+                                    praṇābhyaśirasādevaṃ na siṃhaṃ varadaṃ guruṃ ||
                                 </incipit>
-                                
-                                <colophon> 
-                                    <locus from="188" to="188">F. 188 [f. Xr in original foliation]:</locus>
-                                </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
@@ -1176,37 +1192,41 @@
                         <physDesc>
                             <objectDesc form="pothī">
                                 <supportDesc material="paper">
-                                    <support>Paper. <p>
+                                    <support>Paper. 
+                                        <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="11">11</height>
+                                            <height quantity="10">10</height>
                                             <width quantity="24">24</width>
                                         </dimensions>
                                     </p>
+                                        <p><locus from="170r" to="170r">F. 170r</locus> is bound reversed.</p>
                                     </support>
                                     
-                                    <extent n=""> ff.</extent>
+                                    <extent n="21">21 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left, top-right, and bottom-right margins, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p></p>
-                                        <p></p>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
                             
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Devanāgarī in black ink. Highlighted in red powder.</desc>
                                 </handNote>
                             </handDesc>
                             
                             <additions>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                                <p>Abbreviated marginal title, top-left and top-right margin, verso.</p>
+                                <p>Marginal notes and scribbles in black ink.</p>
+                                <p>Spilled ink on <locus from="169v" to="170r">ff. 169v-170r [ff. 2v-3r in original foliation].</locus></p>
                             </additions>
                             
                         </physDesc>
@@ -1260,16 +1280,37 @@
                                 <idno type="part">MS. Chandra Shum Shere d. 241 (10)</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents n="1+1">
+                        <msContents n="2">
                             
-                            <summary>A paper manuscript of the <title xml:lang="sa"
-                                key="work_">Phiṭsūtra</title>, written by <name xml:lang="sa"
-                                    key="person_">Śāntanava</name>, including a commentary of the <title xml:lang="sa" key="work_">Siddhāntakaumudī</title> by <name xml:lang="sa" key="person_">Bhaṭṭojī Dīkṣita</name>.
-                                Covers the commentary on the <title xml:lang="sa"
-                                    key="work_">Phiṭsūtra</title> from chapter 1, n. 6, to the end.</summary>
+                            <summary>A composite paper manuscript containing a commentary of the <title xml:lang="sa" key="work_">Siddhāntakaumudī</title> by <name xml:lang="sa" key="person_">Bhaṭṭojī Dīkṣita</name>.
+                                and the <title xml:lang="sa" key="work_">Phiṭsūtra</title>, written by <name xml:lang="sa"
+                                        key="person_">Śāntanava</name>, .</summary>
                             
-                            <msItem defective="false">
-                                <locus from="193" to="198">Ff. 193-198 [ff.X-X in original
+                            <msItem n="1" defective="true">
+                                <locus from="190v" to="192v">Ff. 190v-192v [ff.1v-3v in original
+                                    foliation] </locus>
+                                    
+                                <author key="person_">
+                                    <persName xml:lang="sa" type="standard">Bhaṭṭojī Dīkṣita</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_">Siddhāntakaumudī</title>
+                                
+                                <incipit>
+                                    <locus from="190v" to="190v">F. 190v [f. 1v in original foliation]:</locus>
+                                    ataḥ paraṃ piṇa upitṭayajñiyāmaṁ trāprajāyaterāṃrṣa agnau juhoti |
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="192v" to="192v">F. 192v [f. 3v in original foliation]:</locus>
+                                    oṃ vaṭakṛtau maṃtrabhāṣye dvitīyodhyāya <g>@</g> 2 śrīkṛṣāya namaḥ śrīrāmacaṁdrāya namaḥ śrīkṛṣmaḥ śrīāmaḥ
+                                </colophon>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                            <msItem n="2" defective="false">
+                                <locus from="193r" to="198r">Ff. 193r-198r [ff.2r-7r in original
                                     foliation]</locus>
                                 
                                 <author key="person_">
@@ -1278,47 +1319,20 @@
                                 
                                 <title xml:lang="sa" key="work_">Phiṭsūtra</title>
                                 
-                                <rubric>
-                                    <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
-                                    
-                                </rubric>
-                                
                                 <incipit>
-                                    <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                    <locus from="193r" to="193r">F. 193r [f. 2r in original foliation]:</locus>
+                                kiṁ | [?]jyākṣatriyā 
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                    <locus from="198r" to="198r">F. 198r [f. 7r in original foliation]:</locus>
+                                    iti śāṃtanācārya praṇīteṣu phiṭsūtreṣu tṛtīyaḥ pādaḥ
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                             
-                            <msItem defective="true">
-                                <locus from="" to="">Ff. X-X [ff.X-X in original
-                                    foliation]</locus>
-                                
-                                <author key="person_">
-                                    <persName xml:lang="sa" type="standard">Bhaṭṭojī Dīkṣita</persName>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_">Siddhāntakaumudī[?]</title>
-                                
-                                <rubric>
-                                    <locus from="18r" to="18r">F. 18r [f. Xr in original foliation]:</locus>
-                                    
-                                </rubric>
-                                
-                                <incipit>
-                                    <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
-                                </incipit>
-                                
-                                <colophon>
-                                    <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
-                                </colophon>
-                                
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItem>
+                            
                             
                         </msContents>
                         
@@ -1328,29 +1342,29 @@
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
                                             <height quantity="11">11</height>
-                                            <width quantity="25">25</width>
+                                            <width quantity="24">24</width>
                                         </dimensions>
                                     </p>
                                     </support>
                                     
-                                    <extent n=""> ff.</extent>
+                                    <extent n="9">9 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p></p>
-                                        <p></p>
+                                        <p>Incomplete. First folio missing in the second item.</p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
                             
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Devanāgarī in black ink. Highlighted in red powder.</desc>
                                 </handNote>
                             </handDesc>
                             
@@ -1416,7 +1430,7 @@
                                     key="person_00143">Vararuci</name>.</summary>
                             
                             <msItem defective="false">
-                                <locus from="200" to="203">Ff. 200-203 [ff.X-X in original
+                                <locus from="200r" to="203v">Ff. 200r-203v [ff. 1r-4v in original
                                     foliation]</locus>
                                 
                                 <author key="person_00143">
@@ -1426,16 +1440,18 @@
                                 <title xml:lang="sa" key="work_00163">Samāsacakra</title>
                                 
                                 <rubric>
-                                    <locus from="200" to="200">F. 200 [f. Xr in original foliation]:</locus>
-                                    
+                                    <locus from="200r" to="200r">F. 200r [f. 1r in original foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ ||
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="200" to="200">F. 200 [f. Xr in original foliation]:</locus>
+                                    <locus from="200r" to="200r">F. 200r [f. 1r in original foliation]:</locus>
+                                    atha prayogavidhiḥ || prayoga strividhaḥ || karttari prayogaḥ || karmāṇi prayogaḥ ||
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="203" to="203">F. 203 [f. Xr in original foliation]:</locus>
+                                    <locus from="203v" to="203v">F. 203v [f. 4v in original foliation]:</locus>
+                               iti samā[sa]cakram saṃvat 1848 mādha[br]udi 1
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -1453,24 +1469,24 @@
                                     </p>
                                     </support>
                                     
-                                    <extent n=""> ff.</extent>
+                                    <extent n="4">4 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p></p>
-                                        <p></p>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
                             
                             <handDesc>
                                 <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
+                                    <desc>Devanāgarī in black ink. Highlighted in red powder.</desc>
                                 </handNote>
                             </handDesc>
                             
@@ -1536,7 +1552,7 @@
                                     key="person_">Rāmacandra Pāṭhaka</name>.</summary>
                             
                             <msItem defective="false">
-                                <locus from="205" to="212">Ff. 205-212 [ff.X-X in original
+                                <locus from="205v" to="212r">Ff. 205v-212r [ff.1v-(8)r in original
                                     foliation]</locus>
                                 
                                 <author key="person_">
@@ -1546,16 +1562,18 @@
                                 <title xml:lang="sa" key="work_">Rapratyāhāramaṇḍana</title>
                                 
                                 <rubric>
-                                    <locus from="205" to="205">F. 205 [f. Xr in original foliation]:</locus>
-                                    
+                                    <locus from="205v" to="205v">F. 205v [f. 1v in original foliation]:</locus>
+                                    || śrī kṛṣmāya namaḥ ||
                                 </rubric>
                                 
                                 <incipit>
-                                    <locus from="205" to="205">F. 205 [f. Xr in original foliation]:</locus>
+                                    <locus from="205v" to="205v">F. 205v [f. 1v in original foliation]:</locus>
+                                || saṃciṃtyavādi pravaraṃ jatāraṃ śrīpataṃ jaliṃ ||
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="212" to="212">F. 212 [f. 15r in original foliation]:</locus>
+                                    <locus from="212r" to="212r">F. 212r [f. (8)r in original foliation]:</locus>
+                               || iti rapratyāhāra maḍanaṃ prapūrttim agamat || śrīkṛṣmo jayatitarāṃ || ||
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -1573,17 +1591,17 @@
                                     </p>
                                     </support>
                                     
-                                    <extent n=""> ff.</extent>
+                                    <extent n="8">8 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p></p>
-                                        <p></p>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
