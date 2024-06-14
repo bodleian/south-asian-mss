@@ -3448,6 +3448,100 @@
                     <note>The commissioner of <idno type="shelfmark">MS. Chandra Shum Shere d. 244 (1)</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00165">
+                    <persName type="standard" xml:lang="sa">Pāṭhaka, Rāmacandra</persName>
+                    <persName type="display" xml:lang="sa">Rāmacandra Pāṭhaka</persName>
+                    <idno type="VIAF">12535925</idno>
+                    <idno type="local">00165</idno>
+                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/12535925/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            </list>
+                    </note>
+                    </person>
+
+                <person xml:id="person_00166">
+                    <persName type="standard" xml:lang="sa">Mauni, Śrīkṛṣṇa</persName>                   
+                    <persName type="display" xml:lang="sa">Śrīkṛṣṇa Mauni</persName>  
+                    <persName type="variant" xml:lang="sa">Śrīkṛṣṇa Bhaṭṭa</persName>
+                    <idno type="local">00166</idno>
+                    <idno type="PANDIT">41019</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/41019/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                
+                <person xml:id="person_00167">
+                    <persName type="standard" xml:lang="sa">Raṅgadeva</persName>
+                    <persName type="display" xml:lang="sa">Raṅgadeva</persName>
+                    <idno type="local">00167</idno>
+                </person>
+                
+                <person xml:id="person_00168">
+                    <persName type="standard" xml:lang="sa">Bhaṭṭojī Dīkṣita</persName>
+                    <persName type="display" xml:lang="sa">Bhaṭṭojī Dīkṣita</persName>
+                    <persName type="display" xml:lang="sa">Bhaṭṭoji Dīkṣita</persName>
+                    <persName type="variant" xml:lang="sa">Bhaṭṭojidīkṣita</persName>
+                    <idno type="VIAF">61695092</idno>
+                    <idno type="local">00168</idno>
+                    <idno type="PANDIT">40670</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/61695092/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/40670/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00169">
+                    <persName type="standard" xml:lang="sa">Śāntanava</persName>
+                    <persName type="display" xml:lang="sa">Śāntanava</persName>
+                    <idno type="VIAF">287093939</idno>
+                    <idno type="local">00169</idno>
+                    <idno type="PANDIT">41008</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/287093939/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/41008/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00170">
+                    <persName type="standard" xml:lang="sa">Raghunātha Bhaṭṭa</persName>
+                    <persName type="display" xml:lang="sa">Raghunātha Bhaṭṭa</persName>
+                    <idno type="local">00170</idno>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

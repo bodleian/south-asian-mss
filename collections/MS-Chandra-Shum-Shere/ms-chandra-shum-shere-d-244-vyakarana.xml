@@ -78,14 +78,13 @@
                             <!--increment n attribute for ms containing multiple ms items-->
                             <summary>A paper manuscript of the <title xml:lang="sa"
                                 key="work_00160">Saṃskṛtamañjarī</title>, composed by <name xml:lang="sa"
-                                    key="person_">Raghunātha Bhaṭṭa</name>.</summary>
+                                    key="person_00170">Raghunātha Bhaṭṭa</name>.</summary>
 
                             <msItem defective="unknown">
                                 <locus from="3v" to="12">Ff. 3r-12 [ff. 1-X in original
                                     foliation]</locus>
 
-                                <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
-                                <author key="person_00">
+                                <author key="person_00170">
                                     <persName xml:lang="sa" type="standard">Raghunātha Bhaṭṭa</persName>
                                 </author>
 

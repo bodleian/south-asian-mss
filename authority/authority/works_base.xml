@@ -3924,8 +3924,171 @@
                         </list>
                     </note>
                 </bibl>
+
+                <bibl xml:id="work_00184">
+                    <title type="uniform" xml:lang="sa">Rapratyāhāramaṇḍana</title>
+                    <title type="display" xml:lang="sa">Rapratyāhāramaṇḍana</title>
+                    <!--<idno type="VIAF">183132934</idno>
+-->                    <idno type="local">00184</idno>
+                    <!--<idno type="PANDIT">42500</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/183132934/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42500/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+-->                </bibl>
                 
+                <bibl xml:id="work_00185">
+                    <title type="uniform" xml:lang="sa">Vibhaktyarthanirṇaya</title>
+                    <title type="display" xml:lang="sa">Vibhaktyarthanirṇaya</title>
+                    <title type="variant" xml:lang="sa">Vibhaktyartha Nirṇaya</title>
+                    <!--<idno type="VIAF">183132934</idno>
+-->                    <idno type="local">00185</idno>
+                    <!--<idno type="PANDIT">42500</idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/183132934/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42500/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+-->                </bibl>
                 
+                <bibl xml:id="work_00186">
+                    <title type="uniform" xml:lang="sa">Liṅgānuśāsana</title>
+                    <title type="display" xml:lang="sa">Liṅgānuśāsana</title>
+                    <idno type="VIAF">195844297</idno>
+                    <idno type="local">00186</idno>
+                    <idno type="PANDIT">42515</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/195844297/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/42515/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+
+
+                <bibl xml:id="work_00187">
+                    <title type="uniform" xml:lang="sa">Kavikalpadruma</title>
+                    <title type="display" xml:lang="sa">Kavikalpadruma</title>
+                    <idno type="VIAF">178689241</idno>
+                    <idno type="local">00187</idno>
+                    <idno type="PANDIT">109955</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/178689241/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109955/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00188">
+                    <title type="uniform" xml:lang="sa">Vyākaraṇa Kroḍapatrāṇi</title>
+                    <title type="display" xml:lang="sa">Vyākaraṇa Kroḍapatrāṇi</title>
+                    <title type="variant" xml:lang="sa">Kroḍapatrāṇi</title>
+                    <idno type="local">00188</idno>
+                </bibl>
+                
+                <bibl xml:id="work_00189">
+                    <title type="uniform" xml:lang="sa">Saṃkatāpada</title>
+                    <title type="display" xml:lang="sa">Saṃkatāpada</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local">00189</idno>
+                    <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00190">
+                    <title type="uniform" xml:lang="sa">Rūpamālikā</title>
+                    <title type="display" xml:lang="sa">Rūpamālikā</title>
+                    <idno type="local">00190</idno>
+                </bibl>
+                
+                <bibl xml:id="work_00191">
+                    <title type="uniform" xml:lang="sa">Phiṭsūtra</title>
+                    <title type="display" xml:lang="sa">Phiṭsūtra</title>
+                    <!-- <idno type="VIAF"></idno>-->
+                    <idno type="local">00191</idno>
+                    <!--<idno type="PANDIT">42441</idno>-->
+                    <note type="links">
+                        <list type="links">
+                              <!--<item>
+                                <ref target="https://www.panditproject.org/entity/42441/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item> This link leads to Phiṭsūtravṛtti - a commentary to the sūtra by the same author. I am not sure where they are the same but I doubt it, hence commenting it out.
+-->                        </list>
+                    </note>
+                </bibl>
+
+
+                <bibl xml:id="work_00192">
+                    <title type="uniform" xml:lang="sa">Uṇādisūtra</title>
+                    <title type="display" xml:lang="sa">Uṇādisūtra</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local">00190</idno>
+                    <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
             </listBibl>
         </body>
     </text>
