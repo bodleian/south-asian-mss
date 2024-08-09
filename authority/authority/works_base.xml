@@ -4056,23 +4056,22 @@
                     <!-- <idno type="VIAF"></idno>-->
                     <idno type="local">00191</idno>
                     <!--<idno type="PANDIT">42441</idno>-->
-                    <note type="links">
+                    <!--<note type="links">
                         <list type="links">
-                              <!--<item>
+                    -->          <!--<item>
                                 <ref target="https://www.panditproject.org/entity/42441/work">
                                     <title>PANDIT</title>
                                 </ref>
                             </item> This link leads to Phiṭsūtravṛtti - a commentary to the sūtra by the same author. I am not sure where they are the same but I doubt it, hence commenting it out.
--->                        </list>
-                    </note>
+-->                        <!--</list>-->
+<!--                    </note>-->
                 </bibl>
-
 
                 <bibl xml:id="work_00192">
                     <title type="uniform" xml:lang="sa">Uṇādisūtra</title>
                     <title type="display" xml:lang="sa">Uṇādisūtra</title>
                     <idno type="VIAF"></idno>
-                    <idno type="local">00190</idno>
+                    <idno type="local">00192</idno>
                     <idno type="PANDIT"></idno>
                     <note type="links">
                         <list type="links">
@@ -4089,6 +4088,74 @@
                         </list>
                     </note>
                 </bibl>
+                
+                <bibl xml:id="work_00193">
+                    <title type="uniform" xml:lang="sa">Veṭkārikā</title>
+                    <title type="display" xml:lang="sa">Veṭkārikā</title>
+                    <!--<idno type="VIAF"></idno>
+-->                    <idno type="local">00193</idno>
+                    <!--<idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    <!--</note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00194">
+                    <title type="uniform" xml:lang="sa">Aniṭkārikāvyākhyāna</title>
+                    <title type="display" xml:lang="sa">Aniṭkārikāvyākhyāna</title>
+                    <title type="variant" xml:lang="sa">Aniṭkārikā Vyākhyāna</title>
+                    <!--<idno type="VIAF"></idno>
+-->                    <idno type="local">00194</idno>
+                    <!--<idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>-->
+                    <!--</note>-->
+                </bibl>
+                
+                <bibl xml:id="work_00195">
+                    <title type="uniform" xml:lang="sa">Liṅgānuśāsana</title>
+                    <title type="display" xml:lang="sa">Liṅgānuśāsana</title>
+                    <idno type="VIAF">176263197</idno>
+                    <idno type="local">00195</idno>
+                    <!--<idno type="PANDIT"></idno>
+                    --><note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/176263197/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        --></list>
+                    </note>
+                </bibl>
+                
             </listBibl>
         </body>
     </text>

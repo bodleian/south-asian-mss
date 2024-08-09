@@ -3491,7 +3491,7 @@
                 <person xml:id="person_00168">
                     <persName type="standard" xml:lang="sa">Bhaṭṭojī Dīkṣita</persName>
                     <persName type="display" xml:lang="sa">Bhaṭṭojī Dīkṣita</persName>
-                    <persName type="display" xml:lang="sa">Bhaṭṭoji Dīkṣita</persName>
+                    <persName type="variant" xml:lang="sa">Bhaṭṭoji Dīkṣita</persName>
                     <persName type="variant" xml:lang="sa">Bhaṭṭojidīkṣita</persName>
                     <idno type="VIAF">61695092</idno>
                     <idno type="local">00168</idno>
@@ -3540,6 +3540,52 @@
                     <persName type="standard" xml:lang="sa">Raghunātha Bhaṭṭa</persName>
                     <persName type="display" xml:lang="sa">Raghunātha Bhaṭṭa</persName>
                     <idno type="local">00170</idno>
+                </person>
+                
+                <person xml:id="person_00171">
+                    <persName type="standard" xml:lang="sa">Vyāghrabhūti</persName>
+                    <persName type="display" xml:lang="sa">Vyāghrabhūti</persName>
+                    <!--<idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00171</idno>
+                    <idno type="PANDIT">109809</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--<item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109809/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00172">
+                    <persName type="standard" xml:lang="sa">Hemacandra</persName>
+                    <persName type="display" xml:lang="sa">Hemacandra</persName>
+                    <idno type="VIAF">262581533</idno>
+                    <idno type="local">00172</idno>
+                    <idno type="PANDIT">85489</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/262581533/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85489/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
                 </person>
                 
                 <person xml:id="person_">

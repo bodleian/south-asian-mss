@@ -81,7 +81,7 @@
                                     key="person_00170">Raghunātha Bhaṭṭa</name>.</summary>
 
                             <msItem defective="unknown">
-                                <locus from="3v" to="12">Ff. 3r-12 [ff. 1-X in original
+                                <locus from="3v" to="12v">Ff. 3r-12v [ff. 1r-10v in original
                                     foliation]</locus>
 
                                 <author key="person_00170">
@@ -92,17 +92,18 @@
                                 
                                 <rubric>
                                     <locus from="3v" to="3v">F. 3v [f. 1v in original foliation]:</locus>
-                                  
+                                  śrī gaṇeśāya namaḥ ||
                                 </rubric>
                                 
                                 <incipit>
                                     <locus from="3v" to="3v">F. 3v [f. 1v in original foliation]:</locus>
-                                   
+                                   iṃdirānaṃdasaṃdohakaṃdamiṃdivarekṣaṇaṁ ||
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="12" to="16r">F. 12 [f. 12 in original foliation]:</locus>
-                                    
+                                    <locus from="12r" to="12v">Ff. 12r-12v [f. 10r-10v in original foliation]:</locus>
+                                    iti saṃskṛtamaṃjarisaṃpūrṇe | 
+                                    śūbham astu pakṣāṣu nāgaśaśisamvatavikramasya māsorjja yakṣaśitanāgatithau vāregūrau[?]vāsavabhemṛrocalgte tathāyogayutebhruvāravye gosvāmisārthalikhitaṃ śivena
                                 </colophon>
 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -116,14 +117,14 @@
                                     <support>Paper. <p>
                                             <dimensions type="folio" scope="most" unit="cm">
                                                 <height quantity="12">12</height>
-                                                <width quantity="254">24</width>
+                                                <width quantity="24">24</width>
                                             </dimensions>
                                         </p>
                                     </support>
 
-                                    <extent xml:id="folio" n=""> ff.</extent>
+                                    <extent xml:id="folio" n="10">10 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
@@ -137,25 +138,25 @@
                             </objectDesc>
 
                             <handDesc>
-                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink. Several folios highlighted in red powder and ruled in red ink.</desc>
-                                      </handNote>
-                                <desc>Scribe: 
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                                    <desc>Devanāgarī in black ink. <term xml:lang="sa">Daṇḍas</term> in red ink. Corrections in yellow powder.</desc>
+                                     <desc>Scribe: 
                                     <name type="person" role="scr" key="local_00163">
                                         <persName xml:lang="sa" type="standard">Śiva</persName>
                                     </name>
                                 </desc>
+                                </handNote>
                             </handDesc>
                             
                             <additions>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                                <p>Abbreviated marginal title on <locus from="1v" to="1v">f. 1v</locus>, top left margin.</p>
                             </additions>
 
                         </physDesc>
 
                         <history>
                             <origin>
-                                <date calendar="Vikrama" when="1882">saṃvat 1838</date> / <date calendar="Gregorian" when="1825">1825 CE.</date>
+                                <date calendar="Vikrama" when="1882">saṃvat 1882</date> / <date calendar="Gregorian" when="1825">1825 CE.</date>
                             </origin>
                             <provenance>Commissioned by
                                 <name type="person" role="dnr" key="person_00164">
@@ -217,7 +218,7 @@
                                     key="person_00150">Varadarāja</name>.</summary>
                                 
                                 <msItem defective="false">
-                                    <locus from="13" to="26">Ff. 13-26 [ff.1-X in original
+                                    <locus from="13r" to="26r">Ff. 13r-26r [ff.1r-14r in original
                                         foliation]</locus>
                                     
                                     <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
@@ -229,18 +230,19 @@
                                     <title xml:lang="sa" key="work_00166">Girvāṇapadamañjarī</title>
                                     
                                     <rubric>
-                                        <locus from="13" to="13">F. 13 [f. X in original foliation]:</locus>
-                                        
+                                        <locus from="13v" to="13v">F. 13v [f. 1v in original foliation]:</locus>
+                                        śrī gaṇeśāya namaḥ
                                     </rubric>
                                     
                                     <incipit>
-                                        <locus from="13" to="13">F. 13 [f. X in original foliation]:</locus>
-                                       
+                                        <locus from="13v" to="13v">F. 13v [f. 1v in original foliation]:</locus>
+                                       aremayāsnānārthaṃ gamyate |
                                     </incipit>
                                     
                                     <colophon>
-                                        <locus from="26" to="26">F. 26 [f. X in original foliation]:</locus>
-                                        
+                                        <locus from="26" to="26">F. 26 [f. 14r in original foliation]:</locus>
+                                        arevāmanāśramayadyataṃ tatsarvaṃ bhuktaṃ | mayāsvāminaḥ | mama yaddas tu bhukṣaṇayogyaṃ deva mayā bhuktaṃ svāminaḥ || 
+                                        kṛtā var[a]dabhaṭṭena gīrvāṇapadaṃjārīkṛtaṃ || saṃvat 1857 śrī viśveśvarāyarānamaḥ ||
                                     </colophon>
                                     
                                     <textLang mainLang="sa">Sanskrit.</textLang>
@@ -258,9 +260,9 @@
                                         </p>
                                     </support>
 
-                                    <extent n=""> ff.</extent>
+                                    <extent n="14">14 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margins, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
@@ -280,14 +282,14 @@
                             </handDesc>
                             
                             <additions>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                                <p>Abbreviated marginal title, top-left and bottom-right margin, verso.</p>
                             </additions>
 
                         </physDesc>
 
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1857">saṃvat 1857</date> / <date calendar="Gregorian" when="1800">1800 CE.</date>
                             </origin>
                         </history>
 
@@ -336,108 +338,22 @@
                         </msIdentifier>
                         <msContents n="1">
                             <!--increment n attribute for ms containing multiple ms items-->
-                            <summary>A previously undescribed paper manuscript of the <title xml:lang="sa"
-                                key="work_00"></title>, composed by <name xml:lang="sa"
-                                    key="person_00"></name>.</summary>
+                            <summary>The manuscript was removed by the curator <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>.</summary>
 
-                            <msItem defective="false">
-                                <locus from="" to="">Ff. - [ff.  in original
-                                    foliation]</locus>
-
-                                <author key="person_00154">
-                                    <persName xml:lang="sa" type="standard">/persName>
-                                </author>
-
-                                <title xml:lang="sa" key="work_00169"></title>
+                            <msItem defective="unknown">
+                                <locus from="28" to="34">Ff. 28-34 excised.</locus>
                                 
-                                <rubric>
-                                    <locus from="34r" to="34r">F. 34r [f. 1r in original foliation]:</locus>
-                                    
-                                </rubric>
+                                <title xml:lang="sa" key="work_">Prākṛtasaṃskṛta</title>
                                 
-                                <colophon>
-                                    <locus from="43r" to="43r">F. 43r [f. 10r in original foliation]:</locus>
+                                <note>
+                                    Manuscript note in pen on <locus from="35r" to="35r">f. 35r</locus> reads:
+                                    "The work formerly in here called <title xml:lang="sa" key="work_">Prākṛtasaṃskṛta</title> was not on grammar and has been removed.”
+                                </note>
                                 
-                                </colophon>
-
-                                <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
 
                         </msContents>
-
-                        <physDesc>
-                            <objectDesc form="pothī">
-                                <supportDesc material="paper">
-                                    <support>Paper. <p>
-                                            <dimensions type="folio" scope="most" unit="cm">
-                                                <height quantity="12">12</height>
-                                                <width quantity="26">26</width>
-                                            </dimensions>
-                                        </p>
-                                    </support>
-
-                                    <extent n="10">10 ff.</extent>
-                                    
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
-                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
-                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
-                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
-                                        this foliation starts with the first flyleaf).</foliation>
-
-                                    <condition>
-                                        <p>Complete.</p>
-                                        <p>In good condition.</p>
-                                    </condition>
-                                </supportDesc>
-                            </objectDesc>
-
-                            <handDesc>
-                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
-                                </handNote>
-                            </handDesc>
-
-                            <additions>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
-                            </additions>
-                        </physDesc>
-
-                        <history>
-                            <origin>
-                                <origDate calendar="Vikrama" when="1900">saṃvat 1900</origDate> /
-                                    <origDate calendar="#Gregorian" when="1843">1843 CE.</origDate>
-                            </origin>
-                        </history>
-
-                        <additional>
-                            <adminInfo>
-                                <availability status="restricted">
-                                    <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
-                                </availability>
-                                <note/>
-                            </adminInfo>
-                            
-                            <!--<listBibl type="ms_descriptions">
-                                <head>Descriptions of the manuscript</head>
-                                
-                                <biblStruct type="manuscript" xml:id="X">
-                                    <monogr>
-                                        <title level="m">[unpublished manuscript]</title>
-                                        <author>
-                                            <forename/>
-                                            <surname/>
-                                        </author>
-                                        <imprint>
-                                            <pubPlace/>
-                                            <date/>
-                                        </imprint>
-                                    </monogr>
-                                </biblStruct>
-                            </listBibl>-->
-                        </additional>
                     </msPart>
 
                     <msPart>
@@ -447,30 +363,43 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="2">
-                            <summary>A paper manuscript of <title xml:lang="sa" key="work_00">Aniṭkārikāvyākhyāna</title> of <name xml:lang="sa" key="person_000">Vyāghrabhūti</name>.</summary>
+                            <summary>A composite paper manuscript of <title xml:lang="sa" key="work_00194">Aniṭkārikāvyākhyāna</title> of <name xml:lang="sa" key="person_000171">Vyāghrabhūti</name>, 
+                                with the last leaf being the complete <title xml:lang="sa" key="work_00193">Veṭkārikā</title>.</summary>
                                 
-                            <msItem defective="false">
-                                <locus from="45v" to="51v">Ff. 45v-51v [ff. 1v-7v in original
+                            <msItem n="1" defective="true">
+                                <locus from="36r" to="38v">Ff. 36r-38v [ff. 2r-3v in original
                                     foliation]</locus>
                                 
-                                <title xml:lang="sa" key="work_00170">Rākṣasakāvya</title>
+                                <title xml:lang="sa" key="work_00194">Aniṭkārikāvyākhyāna</title>
+                                
+                                <author key="person_00171">
+                                    <persName xml:lang="sa" type="standard">Vyāghrabhūti</persName>
+                                </author>
+                                
+                                <incipit>
+                                    <locus from="36r" to="36r">F. 36r [ff. 2r in original
+                                        foliation]</locus>
+                                    ragati vṛdhyoḥ || īṅavihāyasāṃgatau |
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="39r" to="39r">F. 39r [ff. 5r in original
+                                        foliation]</locus>
+                                    ity aniṭakārikāvyakhyānasaṃ[?]pataḥ samāpteti ||
+                                </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                             
-                            <msItem defective="false" class="commentary">
-                                <locus from="45r" to="51v">Ff. 45r-51v [ff. 1r-7v in original
+                            <msItem n="2" defective="false">
+                                <locus from="39r" to="39v">Ff. 39r-39v [ff. 5r-5v in original
                                     foliation]</locus>
                                 
-                                <author key="person_00155">
-                                    <persName xml:lang="sa" type="standard">Bālambhaṭṭa Pāyaguṇḍa</persName>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00170">Vyākhyāna</title>
+                                <title xml:lang="sa" key="work_00193">Veṭkārikā</title>
                                 
                                 <colophon>
-                                    <locus from="51v" to="51v">F. 51v [f. 7v in original foliation]:</locus>
-                                    iti pāyaṃgujopārayyavā lakṛ[??]dhiracitaṃ rākṣasakāvyavyāradhyānaṁ samāptaṁ saṃ° 1837 codhinpāṃ
+                                    <locus from="39v" to="39v">F. 39v [f. 5v in original foliation]:</locus>
+                                    iti veṭkārikāsamāsā || || śubhaṃ[bha]vatu || ||
                                 </colophon>
                                 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
@@ -483,23 +412,23 @@
                                 <supportDesc material="paper">
                                     <support>Paper. <p>
                                         <dimensions type="folio" scope="most" unit="cm">
-                                            <height quantity="12">12</height>
-                                            <width quantity="26">26</width>
+                                            <height quantity="11">11</height>
+                                            <width quantity="25">25</width>
                                         </dimensions>
                                     </p>
                                     </support>
                                     
-                                    <extent n="7">7 ff.</extent>
+                                    <extent n="4">4 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom-right margin, verso.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
                                     
                                     <condition>
-                                        <p>Complete.</p>
-                                        <p>A hole on bottom-left (recto) / top-left (verso) corner of all folios.</p>
+                                        <p>First folio is missing, with original foliation starting with 2.</p>
+                                        <p>In a good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
@@ -510,12 +439,15 @@
                                 </handNote>
                             </handDesc>
                             
+                            <additions>
+                                <note>Includes marginal notes and corrections in two different hands.</note>
+                            </additions>
+                            
                         </physDesc>
                         
                         <history>
                             <origin>
-                                <origDate calendar="Vikrama" when="1837">saṃvat 1837</origDate> /
-                                <origDate calendar="#Gregorian" when="1780">1780 CE.</origDate>
+                                <p>Not dated.</p>
                             </origin>
                         </history>
                         
@@ -530,19 +462,29 @@
                                 <note/>
                             </adminInfo>
                             
-                            <!--<listBibl type="ms_descriptions">
-                                <head>Descriptions of the manuscript</head>
+                            <listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
                                 
-                                <biblStruct type="manuscript">
+                                <biblStruct type="article">
+                                    <analytic>
+                                        <title level="m">A Handlist of the Vyākaraṇa Manuscripts in the Chandra Shum Shere Collection Preserved in the Bodleian Library.</title>
+                                        <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                                    </analytic>
                                     <monogr>
-                                        <title level="m">[unpublished manuscript]</title>
+                                        <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                        <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                        <title type="main">Vācaspatyam:</title>
+                                        <title type="sub">Pt. Vamanshastri Bhagwat Felicitation Volume.</title>
                                         <imprint>
-                                            <pubPlace/>
-                                            <date/>
+                                            <pubPlace>Pune</pubPlace>
+                                            <publisher>Vaidika Samshodhana Mandala</publisher>
+                                            <date>1994</date>
+                                            <biblScope>no. 240, p. 198; no. 23, p. 165.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
-                            </listBibl>-->
+                            </listBibl>
+                            
                         </additional>
                     </msPart>
 
@@ -552,53 +494,24 @@
                                 <idno type="part">MS. Chandra Shum Shere d. 244 (5)</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents n="2">
-                            <summary>A previously undescribed manuscript of two incomplete portions of <title key="work_00171">Sītārāmavihāra</title> by <name xml:lang="sa" key="person_00155">Lakṣmaṇa Somayājin</name>. 
-                                Incomplete, in two portions, each written in a different hand.</summary>
+                        <msContents n="1">
+                            <summary>A complete paper manuscript of the <title xml:lang="sa" key="work_00195">Liṅgānuśāsana</title> by <name xml:lang="sa" key="person_00172">Hemacandra</name>.</summary>
 
-                            <msItem n="1" defective="true">
-                                <locus from="53v" to="89v">Ff. 53v-89v [ff. 1v-38v in original
+                            <msItem n="1" defective="false">
+                                <locus from="41v" to="48r">Ff. 41v-48r [ff. 1v-8r in original
                                     foliation]</locus>
 
-                                <author key="person_00155">
-                                    <persName xml:lang="sa" type="standard">Lakṣmaṇa Somayājin</persName>
+                                <author key="person_00172">
+                                    <persName xml:lang="sa" type="standard">Hemacandra</persName>
                                 </author>
 
-                                <title xml:lang="sa" key="work_00171">Sītārāmavihāra</title>
+                                <title xml:lang="sa" key="work_00195">Liṅgānuśāsana</title>
                                 
-                                <rubric>
-                                    <locus from="53v" to="53v">F. 53v [f. 1v in original foliation]:</locus>
-                                    śrī gaṇeśāya namaḥ ||
-                                </rubric>
-                                
-                                <incipit>
-                                    <locus from="53v" to="53v">F. 53v [f. 1v in original foliation]:</locus>
-                                    asti praśasti khila loka bhuṣābi bhuṣita dvadaśayotanaiṣ [loss of text][...]
-                                </incipit>
+                                <colophon>
+                                    <locus from="41v" to="41v">F. 41v [f. 1v in original foliation]:</locus>
+                                    ityāvārya śrī hemacaṃdraviracitaṃ svopajñaliṃgānuṣāsanaṃ samāptam ||
+                                </colophon>
 
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItem>
-                            
-                            <msItem n="2" defective="true">
-                                <locus from="90r" to="99v">Ff. 90r-99v [ff. 82r-91v in original
-                                    foliation]</locus>
-                                
-                                <author key="person_00155">
-                                    <persName xml:lang="sa" type="standard">Lakṣmaṇa Somayājin</persName>
-                                </author>
-                                
-                                <title xml:lang="sa" key="work_00171">Sītārāmavihāra</title>
-                                
-                                <rubric>
-                                    <locus from="90r" to="90r">F. 90r [f. 82r in original foliation]:</locus>
-                                    śrī gaṇeśāya namaḥ ||
-                                </rubric>
-                                
-                                <incipit>
-                                    <locus from="90r" to="90r">F. 90r [f. 82r in original foliation]:</locus>
-                                    tatas tu tattainpanivāsinīnāṁ vilāsinīnāṁ saha nālasānāṁ |
-                                </incipit>
-                                
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
                         </msContents>
@@ -614,31 +527,26 @@
                                         </p>
                                     </support>
                                     
-                                    <extent n="47">47 ff.</extent>
+                                    <extent n="8">8 ff.</extent>
 
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Jainanāgarī numerals, bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>
 
                                     <condition>
-                                        <p>Many folios have damaged margins and considerable damage by worms.</p>
-                                        <p>Incomplete. In the first item, ff. 2, 20, 22, and 29 [original foliation] are missing. The original foliation runs until f. 27, which is followed by f. 25 again and continues to f. 28.</p>
-                                        <p>In the second item, there is a large correction in yellow pigment on <locus from="99r" to="99r">f. 99r</locus>, resulting in the loss of some <term xml:lang="sa">akṣara</term>s.</p>
+                                    <p>Complete.</p>   
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
 
                             <handDesc>
-                                <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
-                                    <desc>Devanāgarī in black ink. In the second part, <term xml:lang="sa">daṇḍa</term>s written in red. Highlighted in red powder.</desc>
+                                <handNote scope="sole" script="jainanāgarī" medium="black_ink_red_ink">
+                                    <desc>Jainanāgarī in black ink. Ruled in red ink. Highlighted in red powder.</desc>
                                 </handNote>
                             </handDesc>
-                            
-                            <additions>
-                                <p>Abbreviated marginal title, top left margin, verso.</p>
-                            </additions>
 
                         </physDesc>
 
@@ -658,25 +566,30 @@
                                 </availability>
                                 <note/>
                             </adminInfo>
-                            
-                            <!--<listBibl type="ms_descriptions">
-                                <head>Descriptions of the manuscript</head>
+                            <listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
                                 
-                                <biblStruct type="manuscript">
+                                <biblStruct type="article">
+                                    <analytic>
+                                        <title level="m">A Handlist of the Vyākaraṇa Manuscripts in the Chandra Shum Shere Collection Preserved in the Bodleian Library.</title>
+                                        <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                                    </analytic>
                                     <monogr>
-                                        <title level="m">[unpublished manuscript]</title>
-                                        <author>
-                                            <forename/>
-                                            <surname/>
-                                        </author>
+                                        <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                        <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                        <title type="main">Vācaspatyam:</title>
+                                        <title type="sub">Pt. Vamanshastri Bhagwat Felicitation Volume.</title>
                                         <imprint>
-                                            <pubPlace/>
-                                            <date/>
+                                            <pubPlace>Pune</pubPlace>
+                                            <publisher>Vaidika Samshodhana Mandala</publisher>
+                                            <date>1994</date>
+                                            <biblScope>no. 81, p. 174.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
                             </listBibl>
-                        --></additional>
+                            
+                            </additional>
                     </msPart>
 
                     <msPart>
@@ -686,23 +599,32 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="1">
-                            <summary>A previously undescribed incomplete paper manuscript of the <title xml:lang="sa" key="work_00172">Śabdaratnamālikā</title>.</summary>
+                            <summary>A complete paper manuscript of the <title xml:lang="sa" key="work_00">Laghuvṛtti</title> of <name xml:lang="sa" key="person_00">Manasārāma Śarman</name>.</summary>
 
-                            <msItem defective="true">
-                                <locus from="101r" to="107r">ff. 101r-107r [original
-                                    foliation incomplete]</locus>
+                            <msItem defective="false">
+                                <locus from="49v" to="71v">Ff. 49v-71v [ff. 1v-23v in original
+                                    foliation]</locus>
                                 
-                                <title xml:lang="sa" key="work_00172">Śabdaratnamālikā</title>
+                                <author key="person_00">
+                                    <persName xml:lang="sa" type="standard">Manasārāma Śarman</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_001">Laghuvṛtti</title>
                                 
                                 <rubric>
-                                    <locus from="101r" to="101r">f. 101r</locus>
-                                || atha kāvyopayogini śabd[ra]atna || || mālikā likhyate || śubhaṃ bhavatu ||
+                                    <locus from="49v" to="49v">f. 49v</locus>
+                               śrī gaṇeśāya namaḥ ||
                                 </rubric>
                                 
-                                <rubric>
-                                    <locus from="101v" to="101v">f. 101v</locus>
-                                    śrī gaṇeśāya namaḥ ||
-                                </rubric>
+                                <incipit>
+                                    <locus from="49v" to="49v">f. 49v</locus>                                
+                                gaṇeśaṃ girijākāṃ taṃ gopagopī janeśvaraṃ natvāphaṇīśaṃ vakṣyehaṃ vṛttiṃ sārasvatīṃ laghuṃ 1
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="71v" to="71v">f. 71v</locus>
+                                    || iti kvatpādaḥ || sarasvatī prasādāptasārasvarasamṛddhye laghuvṛttiḥ kvatā ceyaṃ manasārāma śarmanā || śubhaṃyāt saṃvat 1837 śā 1 ghra 2 [?]ā śu 4 bhṛgau sāyaṃ  bhū
+                                </colophon>
 
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItem>
@@ -713,38 +635,41 @@
                                 <supportDesc material="paper">
                                     <support>Paper.<p>
                                             <dimensions type="folio" scope="most" unit="cm">
-                                                <height quantity="12">12</height>
-                                                <width quantity="26">26</width>
+                                                <height quantity="11">11</height>
+                                                <width quantity="24">24</width>
                                             </dimensions>
                                         </p>
                                     </support>
 
-                                    <extent n="7">7 ff.</extent> 
+                                    <extent n="23">23 ff.</extent> 
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, mid-left and mid-right margin, verso. Not extant on all folios.</foliation>
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
                                     <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
                                         <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
                                             <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
                                         this foliation starts with the first flyleaf).</foliation>                                    
 
                                     <condition>
-                                        <p>Frail margins on a few folios. </p>
-                                        <p>Incomplete.</p>
+                                        <p>Complete. </p>
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                             </objectDesc>
 
                             <handDesc>
-                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                                    <desc>Devanāgarī in black and red ink. Highlighted in red powder.</desc>
                                 </handNote>
                             </handDesc>
+                            
+                            <additions>
+                                <p>Abbreviated marginal title on top left margin, verso.</p>
+                            </additions>
 
                         </physDesc>
-
                         <history>
                             <origin>
-                                <p>Not dated.</p>
+                                <date calendar="Vikrama" when="1837">saṃvat 1837</date> / <date calendar="Gregorian" when="1780">1780 CE.</date>
                             </origin>
                         </history>
 
@@ -760,23 +685,31 @@
                                 <note/>
                             </adminInfo>
                             
-                            <!--<listBibl type="ms_descriptions">
+                            <listBibl type="ms_descriptions">
                                 <head>Descriptions of the manuscripts</head>
-
-                                <biblStruct type="manuscript">
+                                
+                                <biblStruct type="article">
+                                    <analytic>
+                                        <title level="m">A Handlist of the Vyākaraṇa Manuscripts in
+                                            the Chandra Shum Shere Collection Preserved in the
+                                            Bodleian Library.</title>
+                                        <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                                    </analytic>
                                     <monogr>
-                                        <title level="m">[unpublished manuscript]</title>
-                                        <author>
-                                            <forename/>
-                                            <surname/>
-                                        </author>
+                                        <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                        <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                        <title type="main">Vācaspatyam:</title>
+                                        <title type="sub">Pt. Vamanshastri Bhagwat Felicitation
+                                            Volume.</title>
                                         <imprint>
-                                            <pubPlace/>
-                                            <date/>
+                                            <pubPlace>Pune</pubPlace>
+                                            <publisher>Vaidika Samshodhana Mandala</publisher>
+                                            <date>1994</date>
+                                            <biblScope>no. 122, p. 181.</biblScope>
                                         </imprint>
                                     </monogr>
                                 </biblStruct>
-                            </listBibl>-->
+                            </listBibl>
                         </additional>
                     </msPart>
 
@@ -814,7 +747,7 @@
                                 </incipit>
                                 
                                 <colophon>
-                                    <locus from="26" to="26">F. 26 [f. X in original foliation]:</locus>
+                                    <locus from="73" to="73">F.  [f. X in original foliation]:</locus>
                                     
                                 </colophon>
                                 
