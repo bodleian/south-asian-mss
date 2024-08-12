@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02399">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Wilson 484</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1012 (1–6)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Upaniṣads, 18th cent.? and A. D. 1745.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Six Upaniṣads</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="1">i</measure>
+                           + <measure type="leaf" quantity=" 64 "> 64 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>. In the original the MSS. have 3, 4, 15, 6, 5, 31 leaves.<dimensions type="binding" unit="cm">
+                           <height quantity="27.0">27.0</height>
+                           <width quantity="14.3">14.3</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">none is given for 1 or 2. That of 3, 4, and 6 is given on ff. 22, 28: Gaṃgātīraṃ samāsādya viṃdumādhavasaṃnidhau | Trivikramo ’likhat prītyai Madhvamādhavayor mudā ‖ This is from f. 22, save that it reads Trikramo, which is corrected by f. 28. That of 5 is given on f. 33: Madhvamādhavayoḥ prītyai Raghunātho ’likhat mudā ‖</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1745" source="#WinternitzKeith1905">A. D. 1745.</origDate>
+                  <p source="#WinternitzKeith1905">no date is given for 1 or 2. They are by one hand, and probably belong to the end of the 18th cent. Somewhat earlier, but not much, are probably 3, 4, 6, also by one hand. For 5 a date is given on f. 33: saṃvat 1801 <supplied>1745</supplied> samaye daśamyām āśvine kṛṣṇe puṣyārke siddhiyogake |</p></origin>
+                  <provenance source="#WinternitzKeith1905">it appears from notes on ff. 33, 64, that 5 and 6 (and probably therefore 3 and 4 at least also) were the property of Nārāyana.</provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_19797398">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n108/mode/1up">no. 1012 (1–6), pp. 77-78</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n108/mode/1up">no. 1012 (1–6), pp. 77-78</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 484(1) [fols 1v-3]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Īśā Upaniṣad.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 484(2) [fols 4v-7]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kena Upaniṣad.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 484(3) [fols 8v-22]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Māṇḍūkya Upaniṣad, with the commentary of Āāghavendra.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīvedavyāsyāya namaḥ | samastaguṇapūrṇāya doṣaharāya Viṣṇave | namaḥ śrīprāṇanāthāya viśvādicaturātmane ‖ 1 ‖</incipit><explicit source="#WinternitzKeith1905">iti Māmḍakopaniṣadarthānāṃ saṃgraho ’nvayaḥ Rāghavendrakṛtas tena priyataṃ Kamalāyatiḥ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 484(4) [fols 23v-28]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Īśā Upaniṣad, with Rāghavendra’s commentary.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 484(5) [fols 29v-33]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Talavakāropaniṣadbhāṣyaṭīkā of Vyāsatīrtha, pupil of Jayatīrtha, being a commentary on the Talavakāropaniṣadbhāṣya of Ānandatīrtha. The Bodl. catal., p. 385a, and Catalogus Catalogorum, p. 89b, call it a commentary on the Kaṭha Upaniṣad, which is incorrect.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīvedavyāsāya namaḥ | śrīvedapuruṣāya namaḥ | jaḍājaḍātmakaṃ viśvaṃ kṛtvādhiṣṭāya saṃharan | svabhāvāt krīḍate yas taṃ vaṃde śrīmadhvavallabhaṃ ‖ 1 ‖</incipit><explicit source="#WinternitzKeith1905">iti śrīmadānaṃdatīrthabhagavatpādācāryavira-citatalavakāropaniṣadbhāṣyaṭīkā Jeyatīrthapūjyacaraṇaśiṣyavyāsatīrthaviracitā samāpta |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 484(6) [fols 34v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kaṭhavallī Upaniṣad, with the commentary of Rāghavendra.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīvedavyāsāya namaḥ | Rāghaveṃdragurubhyo namaḥ | Hariḥ oṃ |</incipit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

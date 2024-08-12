@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02373">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Wilson 363</idno>
+                  <altIdentifier>
+                     <idno type="CSM">959</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Śatapatha Brāhmaṇa, Books I, VIII, IX, A. D. 1653, 1702, 1636.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Three separate MSS. bound up together; parts of the Śatapatha Brāhmaṇa in the Mādhyandina recension.</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 313 "> 313 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>. Each MS. in the original has its own foliation.<dimensions type="binding" unit="cm">
+                           <height quantity="26.4">26.4</height>
+                           <width quantity="14.9">14.9</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">ff. 130–139 of the original have been lost in part (1). There is a small lacuna at the beginning of part (2). On f. 1v some letters are illegible. There are small holes in ff. 26, 30. That in f. 114 has been mended with white paper.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">Scribes: for part (1) the scribe is given on f. 142v: adyeha śrīsūrygapurvvāstavyā ’bhyaṃtaranāgarajñātīya-jñāṃnīvaśasutratrivikramatathāvāsudevatathāharīhareṇa likhitaṃ | Mukuṃdajīpaṭhanārthaṃ | For part (2) the scribe is given on f. 238: likhitam idaṃ pustakaṃ Raṃganāthena | For part (3) the scribe’s patron is named on f. 313: adyeha Avimuktivārāṇasīsthāne śrīgauḍajñātīyadīkṣatadevajīsutahariharapaṭhanārthaṃ | The scribe was probably the same as that of MS. Wilson 365 (957), part (3).</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">A. D. 1653, 1702, 1636.</origDate>
+                  <p source="#WinternitzKeith1905">Dates: for part (1) the date is given on f. 142v: saṃvat 1709 (= a. d. 1653) varṣe bhādrapadamāse śuklapakṣe śanivāsare | For part (2) the date is given on f. 238: saṃvat 1758 (= a. d. 1702) varṣe jeṣṭaśudi | taddine | For part (3) the date is given on f. 313: saṃvat 1692 (= a. d. 1636) varṣe māghamāse śuklapakṣe dvādaśyāyāṃ tithau ravivāsare |</p></origin>
+                  <provenance source="#WinternitzKeith1905">for part (2), see f. 238v: ṭhāº-chamanāsvedaṃ pustakaṃ | for part (3), f. 313v: Puruṣottama |</provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_19797398">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n84/mode/1up">no. 959, pp. 53-54</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n84/mode/1up">no. 959, pp. 53-54</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

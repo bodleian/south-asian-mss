@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00000">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno></idno>
+            <idno type="msID"></idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection></collection>
+                  <idno type="shelfmark">MS. Wilson 375</idno>
+                  <altIdentifier>
+                     <idno type="CSM">855</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>
+                  Sāma-veda treatises, A.D. 1582 &amp; 18th cent.?
+                  
+               </head>
+               <physDesc>
+                  <p>Sixteen treatises, concerned with the Sāma-veda. Of these 1–14 are by the same scribe, while 15 and 16 are probably by a second, much later hand.</p><objectDesc form="pothi">
+                  <supportDesc>
+                     <support>paper</support>
+                     <extent>
+                        <measure quantity="2" type="laterEndleaf">ii</measure>
+                        + <measure quantity="104" type="leaf">104 </measure>
+                        + <measure quantity="2" type="laterEndleaf">ii</measure>
+                     <dimensions type="folio" unit="cm">
+                        <height quantity="26">26</height>
+                        <width quantity="15.6">15.6</width>
+                     </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc></physDesc>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                           description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                 Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n32/mode/1up"
+                                       >no. 855 (1–6), pp. 1-2</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                           <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                                 <ref
+                                    target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n32/mode/1up"
+                                    >no. 855 (1–6), pp. 1-2</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS Wilson 375 (1-14) - fols 1-85v</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem n="1"> 
+                        <locus>fols. 1v-13v</locus>
+                        <note> The Anukramaṇī of the Sāma-veda in the Naigeyaśākhā. </note>
+                        <title>Anukramaṇī</title>
+                     </msItem>
+                     <msItem n="2"> 
+                        <locus>fols. 14-19v</locus>
+                        <note> The Pañcavidhasūtra in two prapāṭhakas. </note>
+                        <title>Pañcavidhasūtra</title>
+                     </msItem>
+                     <msItem n="3"> 
+                        <locus>fols. 20v-32v</locus>
+                        <note>  The Kalpānupadasūtra in two prapāṭhakas.  </note>
+                        <title>Kalpānupadasūtra</title>
+                     </msItem>
+                     <msItem n="4"> 
+                        <locus>fols. 33-35v</locus>
+                        <note> The Saṃhitopaniṣad Brāhmaṇa, part of the Talavakāra Brāhmaṇa. </note>
+                        <title>Saṃhitopaniṣad Brāhmaṇa</title>
+                     </msItem>
+                     <msItem n="5"> 
+                        <locus>fols. 36v-54</locus>
+                        <note> The Kṣaudrasūtra in three prapāṭhakas. </note>
+                        <title>Kṣaudrasūtra</title>
+                     </msItem>
+                     <msItem n="6"> 
+                        <locus>fol. 55</locus>
+                        <note> The Avagrahaśaka, a pariśiṣṭa. It consists of two short aentences.</note>
+                        <title>Avagrahaśaka</title>
+                        <incipit>athāvagṛhyam aticaturakṣaraṃ padaṃ | vibhāgo ca |</incipit>
+                     </msItem>
+                     <msItem n="7"> 
+                        <locus>fols. 55-55v</locus>
+                        <note> The Ādhānavidhi, a pariśiṣṭa. It is about twice the size of 6. </note>
+                        <title>Ādhānavidhi</title>
+                     </msItem>
+                     <msItem n="8"> 
+                        <locus>fols. 56-56v </locus>
+                        <note> The Āvasathyādhāna, a pariśiṣṭa. </note>
+                        <title>Āvasathyādhāna</title>
+                        <incipit>ādhānaṃ tu pravakṣyāmi yathoktaṃ munibhāṣitaṃ | niḥśreyasārthino hy atra pravadaṃti manīṣiṇaḥ ǁ 1 ǁ</incipit>
+                     </msItem>
+                     <msItem n="9"> 
+                        <locus>fol. 57</locus>
+                        <note> The Anavagraha, a pariśiṣṭa. Merely a fragment, consisting of the end of a section marked 8, and sections 9, 10, of a piece entitled on f. 57</note>
+                        <title>Anavagraha</title>
+                     </msItem>
+                     <msItem n="10"> 
+                        <locus>fol. 57</locus>
+                        <note> The Sāmasaṃkhyā, a pariśiṣṭa. A short piece counting twenty sections, only fifteen of which are legible. </note>
+                        <title>Sāmasaṃkhyā</title>
+                        <incipit> atha tu chalā | rathaṃ hu gī dau pe ḍho ju ghū dū ǁ 1 ǁ </incipit>
+                        <explicit>iti sāmmasaṃkhyā ǁ 205 (?) ǁ jahachalā samāptaḥ | </explicit>
+                     </msItem>
+                     <msItem n="11"> 
+                        <locus>fols. 58v-67</locus>
+                        <note> The Amṛtāharaṇa, a pariśiṣṭa. </note>
+                        <title>Amṛtāharaṇa</title>
+                        <incipit>oṃ namaḥ śrisāmavedāya | yasyāṃḍā sphoṭaśabdād daśa diśo bhuvanakaṃpitāḥ saptalokāḥ pātāle pannagālaye vanagajasahitaṃ kachapaṃ bhakṣayitvā tu sukruddho vajratuṃḍaḥ surāsuravinirjitāstām prajāpatis taṃ vaṃde kaśyaye yo ‘tulahalaḥ pātu vo vainateyāḥ ǁ</incipit>
+                     </msItem>
+                     <msItem n="12"> 
+                        <locus>fols. 68-71</locus>
+                        <note> The Ṛktantravyākaraṇa, a pariśiṣṭa, attributed to Śakaṭāyana</note>
+                        <title>Ṛktantravyākaraṇa</title>
+                     </msItem>
+                     <msItem n="13"> 
+                        <locus>fols. 72v-77</locus>
+                        <note> The Stobhānusaṃhāra, a pariśiṣṭa. </note>
+                        <title>Stobhānusaṃhāra</title>
+                     </msItem>
+                     <msItem n="14"> 
+                        <locus>fols. 78v-85</locus>
+                        <note> The Gītakaṇḍikā, a pariśiṣṭa. </note>
+                        <title>Gītakaṇḍikā</title>
+                        <incipit>bṛhad Bhāradvājam Agniṃ dūtaṃ | </incipit>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     
+                     <origin>
+                        <origDate calendar="#gregorian" when="1582">1582</origDate>
+                        <note><locus>f. 19v: </locus>saṃvat 1638 <supplied>= A.D. 1582</supplied>varṣe śrāvaṇaśudi 4 bhome |</note>
+                        <note><locus>f. 55v: </locus>saṃvat 1638 varṣe śrāvaṇaśudi 2 ravau |</note>
+                        <note><locus>f. 56v: </locus>saṃvat 1638 varṣe śrāvaṇaśudi 3 some |</note>
+                        <note><locus>f. 56v: </locus>saṃvat 1638 varṣe śrāvaṇaśudi 3 some |</note>
+                        <note><locus>f. 67: </locus>saṃvat 1638 varṣe āṣāḍhavadi 14 guru |</note>
+                        <note><locus>f. 71: </locus>saṃvat 1638 varṣe śrāvaṇaśudi | sanau |</note>
+                        <note><locus>f. 77: </locus>saṃvat 1638 varṣe śrāvaṇaśudi 4 bhome |</note>
+                        <note><locus>f. 85: </locus>saṃvat 1638 varṣe ākhāḍhavadi 12 bhome |</note>
+                     </origin>
+                     <provenance>
+                        <persName>Pītāmbara</persName>
+                     </provenance>
+                     <provenance>
+                        <persName>Raghunātha</persName>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS Wilson 375 (15-16) - fols 86-104</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  <msItem n="15"> 
+                     <locus>fols. 86-88</locus>
+                     <msItem n="15a">
+                        <locus>fols. 86-86v</locus>
+                        <note>The Praṇata, a pariśiṣṭa.</note>
+                        <title>Praṇata</title>
+                     </msItem>
+                     <msItem n="15b">
+                     <locus>fols. 87-88</locus>
+                        <note>The Śrāvaṇavidhi, a pariśiṣṭa.</note>
+                        <title>Śrāvaṇavidhi</title>
+                        <incipit>athātaḥ sarveṣāṃ vratānāṃ śrāvaṇavidhiṃ vyākhyāsyāmaḥ</incipit>
+                        <explicit>iti śrāvaṇavidhi samāptaḥ |</explicit>
+                     </msItem>
+                     <msItem n="15c">
+                        <locus>fol. 88</locus>
+                        <note>The Mahānāmnī, a pariśiṣṭa on the Mahānāmnī verses. </note>
+                        <title>Mahānāmnī</title>
+                        <incipit>mahānāmnyas trayodaśa padāś caturdaśottamā tāsāṃ vivekaḥ pūrve pade dvipadā gāyatrī prathamā viṣṭārapaṅktiḥ, &amp;c. |</incipit>
+                     </msItem>
+                  </msItem>
+                  <msItem n="16"> 
+                     <locus>fols. 89-104</locus>
+                     <note> The Naigeyārcikānukrama, being an Anukramaṇī of the Sāma-veda, Naigeyaśākhā, of Ananta, son of Bhīma.</note>
+                     <title>Naigeyārcikānukrama</title>
+                  </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notBefore="1700" notAfter="1800" precision="low">probably the 18th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

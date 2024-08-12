@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02418">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Wilson 502</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1077 (1–3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Vedāṅgas, A. D. 1639, 17th cent.?, 1640.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="1">i</measure>
+                           + <measure type="leaf" quantity=" 75 "> 75 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>. The MSS. in the original are numbered separately.<dimensions type="binding" unit="cm">
+                           <height quantity="23.5">23.5</height>
+                           <width quantity="13.0">13.0</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">a page of 2 is lost. F. 10 has been torn and mended.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">none is given for 1, but Govindarāma, a later owner, wrote the metrical notes on f. 22v. That of 2 has been obliterated by yellow pigment, but it is still legible on f. 46: bhaṭanārāyaṇasutaviśrāmena likhitaṃ | Rāmeśvarapaṭhanārthaṃ | paropakārārthaṃ | Kaśyāṃ likhitaṃ | That of 3 is given on f. 75: adyeha śrīvṛddhanagaravāstavyaābhyaṃtaranāgarajñātiyaupā-yīvāputraüpātrīlocanaputrapautrānāṃ paṭhanārthaṃ | śrīavimuktavārāṇasyāṃ śrīviśveśvararājadhanyāṃ likhitaṃ asti śubhaṃ |</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">A. D. 1639, 17th cent.?, 1640.</origDate>
+                  <p source="#WinternitzKeith1905">for 1 the date is given on f. 23: saṃ. 1695 (= a. d. 1639) varṣe bhā. śu. 10 ravau | For 2 no date is given, but as Roth, l. c., says, it must be of much the same date as 1. For 3 the date is given on f. 75: svasti saṃvat 1696 (= a. d. 1640) varṣe māghavade 9 bhume |</p></origin>
+                  <provenance source="#WinternitzKeith1905">that of 1 is given on f. 23v: travāḍiṣaḍānanagoviṃdarāmasya idaṃ pustakaṃ | For the rest see below.</provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_19797398">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n134/mode/1up">no. 1077 (1–3), p. 103</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n134/mode/1up">no. 1077 (1–3), p. 103</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 502(1 (1)) [fols 1v-3v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Śikṣā, attributed to Pāṇini, in the Yajur recension.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 502(1 (2)) [fols 3v-6v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Jyotiṣa, attributed to Lagadha, in the Yajur recension.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 502(1 (3)) [fols 6v-11v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Chandas, attributed to Piṅgala, in the Yajur recension. Incomplete</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 502(1 (4)) [fols 11v-23]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Nighaṇṭu:</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 502(2) [fols 24-46]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Nighaṇṭu:</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 502(3) [fols 47v-75]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Kātyāyana’s Sarvānukramaṇī, and the Anuvākānukramaṇī.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

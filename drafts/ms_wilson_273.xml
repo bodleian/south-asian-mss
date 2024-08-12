@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02308">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Wilson 273</idno>
+                  <altIdentifier>
+                     <idno type="CSM">525, 522</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>
+               </head>
+               <physDesc>
+                  <objectDesc form="pothi">
+                  <supportDesc>
+                     <support>paper</support>
+                     <extent source="#Keith1909">
+                        <measure type="laterEndleaf" quantity="2">ii</measure>
+                        + <measure type="leaf" quantity=" 129 "> 129 </measure>
+                        + <measure type="laterEndleaf" quantity="2">ii</measure>. The two parts in the original foliation have 71 + 58 leaves.<dimensions type="folio" unit="cm">
+                        <height quantity="30.8">30.8</height>
+                        <width quantity="12.1">12.1</width>
+                     </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc></physDesc>
+               <history><acquisition source="#Keith1909">The collection of <persName key="person_19797398">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  
+                  <surrogates>
+                     
+                  </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n75/mode/1up">no. 525, p. 66</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n74/mode/1up">no. 522, p. 65</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=235">no. 525, pp. 219-220</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=235">no. 522, p. 219</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Wilson 273a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Mīmāṃsābhāṣyavivaraṇa, 17th cent.?</head>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem> 
+                        <title/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1600" notAfter="1699" when="1542">17th cent.?</origDate></origin>
+                  </history>
+                  <additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n75/mode/1up">no. 525, p. 66</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional>
+               </msPart>
+              
+
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 273b</idno></altIdentifier></msIdentifier><head>Mīmāṃsātantravārttika, A.D. 1542.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><physDesc><handDesc><handNote><p source="#Keith1909">f. 129v: liṣite Gaṃgādaśa kāesthā | and infra: Narahariṇā śodhitaṃ svapaṭhanakāle | He has made a fair number of erasures and corrections.</p></handNote></handDesc></physDesc><history><origin><origDate calendar="#gregorian" source="#Keith1909">A.D. 1542</origDate><p source="#Keith1909"><locus>f. 129v</locus>: savat 1598 <supplied>1542</supplied> samae śrāvaṇavadi pratīpada |</p><p source="#Keith1909">Further on this date is given: saṃvat 1686 (= A. D. 1630) āśvinaśuddhatṛtīyāyāṃ | This is not in the same hand as any of the other notices.</p></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n74/mode/1up">no. 522, p. 65</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
