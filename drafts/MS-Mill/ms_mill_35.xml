@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02709">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Mill 35</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1008 (1, 2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Ātharvaṇa Upaniṣads, A. D. 1837.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">1</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper, of European manufacture, water-marked ‘W. Warren, 1835.’</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 30 "> 30 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>. The originals have 14 and 16 leaves.<dimensions type="binding" unit="cm">
+                           <height quantity="33.7">33.7</height>
+                           <width quantity="21.0">21.0</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1837" source="#WinternitzKeith1905">A. D. 1837.</origDate>
+                  <p source="#WinternitzKeith1905">probably written just before presentation, i. e. end of a. d. 1836. The paper is of the year a. d. 1835.</p></origin>
+                  <provenance source="#WinternitzKeith1905">f. 15: ‘To the Rev. Dr. Mill with the respectful regards of T.W. Bombay, 1st Jan. 1837.’</provenance>
+                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_13088323">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n105/mode/1up">no. 1008 (1, 2), pp. 74-75</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n105/mode/1up">no. 1008 (1, 2), pp. 74-75</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>A collection of Ātharvaṇa Upaniṣads.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1a) [fols 1v-3]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kṛṣṇa Upaniṣad;</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">i&gt;śrīgaṇeśāya namaḥ | oṃ saccidānaṃdarūpāya Kṛṣṇāyā kliṣṭakārine | namo vedāṃtavedyāya gurave buddhisākṣiṇe ‖ munayo ha vai brahmāṇam ūcuḥ kaḥ paramo devaḥ kuto mṛtyur bibheti kasya vijñānenākhilaṃ bhāti kenedaṃ viśvaṃ saṃsaratīti | tad u hovāca brahmaṇaḥ śrīkṛṣṇo vai paramaṃ daivataṃ Govimdān mṛtyur bibheti | &amp;c.</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1b) [fols 3-5v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Gopālottaratāpanī Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1c) [fols 5v-6]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Vāsudeva Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1d) [fols 6v-8]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Gopīcandana Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1e) [fols 8-8v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Rāma Upaniṣad or Hanumad Upaniṣad, called in colophon Hanamatāukta,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1f) [fols 8v-9]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Rāma Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1g) [fols 9-9v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Yogarāja Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1h) [fols 9v-11]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Sundarītāpinī Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1i)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Mṛtyulāṅgala Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1j) [fols 11v-12v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kṛṣṇa Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(1k) [fols 12v-13]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Śrīkṛṣṇapuruṣottamasiddhānta Upaniṣad,</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 35(2) [fols 15v-30]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Muṇḍaka Upaniṣad, with the commentary, dīpikā, of Śaṅkarānanda, pupil of Ānandātman.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | muḍakaṃ muṃḍamārgasthaṃ brahmātmaikyāvabodhakaṃ Śaṃkaṛācāryamārgeṇaiva pade pade brahmavidyāyā atidurlabhatvaṃ darśayitum itihāsarūpeṇa śrutiḥ prathamato guruparaṃparām āha | brahmā brahmāṃḍajaḥ vidhātā caturānanaḥ devānāṃ agnyādīnāṃ madhye prathamaḥ pūrvaḥ saṃhabhūva samyag ahaṃmamābhi-mānapuraḥsaraṃ dehagrahaṇam akarot | brahmaṇo viśeṣaṇam āha | viśvasya kartā sarvasyotpādakaḥ kiṃ kartaivety āśaṃkhya nety āha | bhuvanasya goptā nikhilasyā lokasya rakṣakaḥ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">iti śrīmatparamahaṃsaparivrājakācāryānaṃdātmapūjya-pādaśiṣyasya Śaṃkarānaṃdabhagavataḥ krtau Muḍako-paniṣaddipikāyāṃ tṛtīyamuḍakaṃ samāptopaniṣat | śrīkṛṣṇārpaṇam astu | yad akṣarapadabhraṣṭaṃ mātrāhīnaṃ ca yad bhavet | tad sarvaṃ kṣamyatāṃ deva prasīda parameśvara ‖ 1 ‖</explicit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02611">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Mill 111</idno>
+                  <altIdentifier>
+                     <idno type="CSM">23, 29, 27, 34, 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>
+               </head>
+               <physDesc>
+                  <objectDesc form="pothi">
+                  <supportDesc>
+                     <support>paper</support>
+                     <extent source="#Keith1909">
+                        <measure type="laterEndleaf" quantity="3">iii</measure>
+                        + <measure type="leaf" quantity=" 229 "> 229 </measure>
+                        + <measure type="laterEndleaf" quantity="5">v</measure>. The five parts in the original foliation have 125+30 + 21 + 10 + 28 leaves. Arranged like a European book.<dimensions type="folio" unit="cm">
+                        <height quantity="10.2">10.2</height>
+                        <width quantity="16.2">16.2</width>
+                     </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc></physDesc>
+               <history><acquisition source="#Keith1909">The collections of <persName key="person_6270294">Alexander Walker</persName> was presented to the Bodleian Library by his son, William Walker, in 1845.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  
+                  <surrogates>
+                     
+                  </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=20">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 27, pp. 3-4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 36, p. 5</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 111a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Bhagavadgītā, &amp;c., 19th cent.?</head>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem> 
+                        <title/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin>
+                  </history>
+                  <additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional>
+               </msPart>
+              
+
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 111b</idno></altIdentifier></msIdentifier><head>Viṣṇusahasranāmakathana, 19th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 111c</idno></altIdentifier></msIdentifier><head>Bhīṣmastavarāja, 19th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 111d</idno></altIdentifier></msIdentifier><head>Vaiṣṇavī Anusmṛiti, 19th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 111e</idno></altIdentifier></msIdentifier><head>Gajendramokṣaṇa, 19th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

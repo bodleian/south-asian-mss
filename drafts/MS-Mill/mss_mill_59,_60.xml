@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02588">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,12 +41,12 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Fraser Sansk. 39</idno>
+                  <idno type="shelfmark">MSS. Mill 59, 60</idno>
                   <altIdentifier>
-                     <idno type="CSM">853</idno>
+                     <idno type="CSM">836, 837</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#Keith1909">Mahābhārata, Matsya Purāṇa, &amp;c., 16th cent.?</head>
+               <head source="#Keith1909">Bhāṭṭadīpikā, A. D. 1732–1734.</head>
                <msContents>
                   <summary>
                      
@@ -61,35 +61,35 @@
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
                         <support>Paper</support>
-                        <extent source="#Keith1909">
-                           <measure type="laterEndleaf" quantity="2">ii</measure>
-                           + <measure type="leaf" quantity=" 29 "> 29 </measure>
-                           + <measure type="laterEndleaf" quantity="1">i</measure>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
 
                         <dimensions type="binding" unit="cm">
-                           <height quantity="35.9">35.9</height>
-                           <width quantity="18.1">18.1</width>
+                           <height quantity="28.9">28.9</height>
+                           <width quantity="15.6">15.6</width>
                         </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc><p source="#Keith1909">all 59 seems to be by one hand except ff. 12–15, 146–180. Ff. 1–118 of 60 seem to be by another hand. Ff. 12–15 of 59 are quite new, but ff. 159, 160 (śodhapattras) are fairly old. The oldest hand is probably to be assigned to the beginning of the 18th cent.</p><p source="#Keith1909">The scribe of 60, ff. 119 sq., is given on</p><p source="#Keith1909">(1) f. 151: Ayācitopākhyaraghunāthasunurāmacaṃdreṇa navamādhyāyaśeṣo ’lekhi | That is, the ninth adhyāya from f. 33 in the original foliation onwards.</p><p source="#Keith1909">(2) f. 221v; Ayācitopākhyaraghunāthaº likhitam idaṃ svārthaṃ parāthaṃ ca | So f. 269v.</p><p source="#Keith1909">On f. 146 of 59 an owner is mentioned: Vidyādharanī pothī |</p></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1500" notAfter="1599">16th cent.?</origDate>
-                  </origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1732" notAfter="1734">1732–1734</origDate>
+                  <p source="#Keith1909">only ff. 119–269 of 60 are dated.</p><p source="#Keith1909">(1) F. 151: saṃvat 1789 <supplied>1733</supplied> phālgunavadicaturthyāṃ some |</p><p source="#Keith1909">(2) f. 221v; saṃvat 1790 <supplied>1734</supplied> rudhirodgārināmasaṃvatsare jyeṣṭhamāsi kṛṣṇapakṣe daśamyāṃ śanau |</p><p source="#Keith1909">(3) f. 269v: saṃvat 89 <supplied>1733</supplied> Pauṣe māsi kṛṣnapakṣe ṣaṣṭhyāṃ ravivāre |</p></origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#Keith1909">The collection of <persName key="person_117448526">James Fraser</persName> was transferred to the Bodleian Library from the Radcliffe Library in May 1872.</acquisition></history>
+                  <acquisition source="#Keith1909">The collections of <persName key="person_13088323">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n117/mode/1up">no. 853, p. 108</ref></biblScope></bibl></listBibl>
+                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n114/mode/1up">no. 836, 837, pp. 105-106</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -99,7 +99,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n117/mode/1up">no. 853, p. 108</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=376">no. 853, p. 360</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n114/mode/1up">no. 836, 837, pp. 105-106</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=371">no. 836, 837, p. 355</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>

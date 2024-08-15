@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02588">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02622">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,12 +41,12 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Fraser Sansk. 39</idno>
+                  <idno type="shelfmark">MS. Mill 79</idno>
                   <altIdentifier>
-                     <idno type="CSM">853</idno>
+                     <idno type="CSM">142</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#Keith1909">Mahābhārata, Matsya Purāṇa, &amp;c., 16th cent.?</head>
+               <head source="#Keith1909">Index to the Purāṇas, 19th cent.?</head>
                <msContents>
                   <summary>
                      
@@ -62,13 +62,13 @@
                      <supportDesc material="paper">
                         <support>Paper</support>
                         <extent source="#Keith1909">
-                           <measure type="laterEndleaf" quantity="2">ii</measure>
-                           + <measure type="leaf" quantity=" 29 "> 29 </measure>
-                           + <measure type="laterEndleaf" quantity="1">i</measure>
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 260 "> 260 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>
 
                         <dimensions type="binding" unit="cm">
-                           <height quantity="35.9">35.9</height>
-                           <width quantity="18.1">18.1</width>
+                           <height quantity="25.7">25.7</height>
+                           <width quantity="17.8">17.8</width>
                         </dimensions>
                         </extent>
                      </supportDesc>
@@ -78,18 +78,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1500" notAfter="1599">16th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
                   </origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#Keith1909">The collection of <persName key="person_117448526">James Fraser</persName> was transferred to the Bodleian Library from the Radcliffe Library in May 1872.</acquisition></history>
+                  <acquisition source="#Keith1909">The collections of <persName key="person_13088323">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n117/mode/1up">no. 853, p. 108</ref></biblScope></bibl></listBibl>
+                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n28/mode/1up">no. 142, p. 19</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -99,7 +99,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n117/mode/1up">no. 853, p. 108</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=376">no. 853, p. 360</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n28/mode/1up">no. 142, p. 19</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=100">no. 142, p. 84</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>
