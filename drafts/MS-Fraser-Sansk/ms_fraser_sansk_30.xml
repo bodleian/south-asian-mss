@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02522">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02583">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,12 +41,12 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. A. Walker 168</idno>
+                  <idno type="shelfmark">MS. Fraser Sansk. 30</idno>
                   <altIdentifier>
-                     <idno type="CSM">1596 (1–8)</idno>
+                     <idno type="CSM">847</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Śākuna, 17th cent.?</head>
+               <head source="#Keith1909">Ānobhadra, A. D. 1739?</head>
                <msContents>
                   <summary>
                      
@@ -60,34 +60,36 @@
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Paper.</support>
-                        <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="2">ii</measure>
-                           + <measure type="leaf" quantity=" 184 "> 184 </measure>
-                           + <measure type="laterEndleaf" quantity="2">ii</measure>.<dimensions type="binding" unit="cm">
-                           <height quantity="28.9">28.9</height>
-                           <width quantity="16.5">16.5</width>
+                        <support>Paper</support>
+                        <extent source="#Keith1909">
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 2 "> 2 </measure>
+                           + <measure type="laterEndleaf" quantity="3">iii</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="27.0">27.0</height>
+                           <width quantity="12.7">12.7</width>
                         </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Jainanāgarī"><desc>Jainanāgarī</desc></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600" notAfter="1699">17th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">probably the earlier part of the 17th cent.</p></origin>
+                     <origDate calendar="#gregorian" when="1739" source="#Keith1909">1739?</origDate>
+                  </origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_6270294">Alexander Walker</persName> was presented to the Bodleian Library by his son, William Walker, in 1845.</acquisition></history>
+                  <acquisition source="#Keith1909">The collection of <persName key="person_117448526">James Fraser</persName> was transferred to the Bodleian Library from the Radcliffe Library in May 1872.</acquisition></history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1596 (1–8), p. 314</ref></biblScope></bibl></listBibl>
+                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n116/mode/1up">no. 847, p. 107</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -97,10 +99,10 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1596 (1–8), p. 314</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n116/mode/1up">no. 847, p. 107</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=374">no. 847, pp. 358-359</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 168(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>Selections from the Jayacaryā of Narapati (composed in a. d. 1176 at Aṇahilapaṭṭana)</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">kṣetraḥ balipadaṃ vṛkṣaṃ maṃḍalaṃ śrutidaivataṃ | ādeśakaṃ ca jalpanti ṣaṭvidhaṃ śukanaṃ hudhāḥ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">iti śrīnarapatijayacāryāyāṃ śivārutaprakaraṇaṃ samāptaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 168(2) [fols 136-149v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Nine chapters of the Śākunasāroddhāra of Māṇikyasūri.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">upāsmahe parī jotitāṃbhayaravigrahaṃ yad udyotata bharavigrahaṃ yad udyotā jagat kṛtsnaṃ pratyakṣam iva vīkṣate ǁ 1 ǁ</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 168(3)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Bālāvabodha, in eleven sections, being a summary of the eighteenth chapter of the Śākuna or Śakunārṇava of Vasantarāja, which treats of the omens derived from the movements of dogs, their barking, &amp;c.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart></msDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       </teiHeader>

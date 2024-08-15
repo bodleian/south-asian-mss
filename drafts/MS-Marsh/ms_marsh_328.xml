@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02553">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Marsh 328</idno>
+                  <altIdentifier>
+                     <idno type="CSM">335, 326</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head> </head>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>paper</support>
+                        <extent source="#Keith1909">
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
+                              type="leaf" quantity=" 188 "> 188 </measure> + <measure
+                              type="laterEndleaf" quantity="4">iv</measure>. The three parts in the
+                           original foliation fill ff. 1–147, 147v–171v 172–188v. Arranged like a
+                           European book.<dimensions type="folio" unit="cm">
+                              <height quantity="26.7">26.7</height>
+                              <width quantity="15.6">15.6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition source="#Keith1909">The collections of <persName key="person_6270294"
+                        >Alexander Walker</persName> was presented to the Bodleian Library by his
+                     son, William Walker, in 1845.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+
+                  <surrogates> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
+                              Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
+                              I</title> (Oxford, 1909), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n52/mode/1up"
+                                 >no. 335, pp. 43-44</ref></biblScope>; <biblScope><ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n51/mode/1up"
+                                    >no. 326, p. 42</ref>; <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n103/mode/1up">no. 755, p. 94</ref></biblScope></bibl>
+                        <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=173"
+                                 >no. 335, p. 157</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=168"
+                                    >no. 326, p. 152</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=336">no. 755, pp. 320-321</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Marsh 328a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Pañcatantra, A. D. 1653.</head>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        <title/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" when="1653"
+                           >1653</origDate>
+                        <p source="#Keith1909">none is given for this part, but it is by the same
+                           hand as 326, 755.</p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n52/mode/1up"
+                                          >no. 335, pp. 43-44</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+
+
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Marsh 328b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Siṃhāsanadvātriṃśatputrikāvārttā, A. D. 1653.</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        <title/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" when="1653"
+                           >1653</origDate>
+                        <p source="#Keith1909"><locus>f. 171v</locus>: saṃvat 1709
+                              <supplied>1653</supplied> varṣe jyeṣṭhakṛṣṇaikādaśyāṃ śanāv idaṃ
+                           likhitaṃ | This looks like the date of the original.</p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n51/mode/1up"
+                                          >no. 326, p. 42</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Marsh 328c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Vaidyavallabha, A. D. 1653</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        <title/>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" when="1653"
+                           >1653</origDate>
+                        <p source="#Keith1909"><locus>f. 188v:</locus> saṃ 1709 <supplied>1653</supplied> Varṣe āṣāḍhaśuddhadvādaśyāṃ some likhitaṃ idaṃ</p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                    <ref
+                                       target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n103/mode/1up"
+                                       >no. 755, p. 94</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
