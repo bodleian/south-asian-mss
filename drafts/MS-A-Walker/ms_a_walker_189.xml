@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02428">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02496">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +41,16 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Wilson 544, 545</idno>
+                  <idno type="shelfmark">MS. A. Walker 189</idno>
                   <altIdentifier>
-                     <idno type="CSM">1198</idno>
+                     <idno type="CSM">518</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Translation of the Viṣṇu Purāṇa, between A. D. 1825 and 1830?</head>
+               <head source="#Keith1909">Anaṅgaraṅga, A.D. 1780.</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">An English translation of the Viṣṇu Purāṇa, made and copied for the late H</summary>
+                  <summary>
+                     
+                  </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
                   <msItem> 
                      <title/>
@@ -56,38 +58,36 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="pothī">
+                  <objectDesc form="codex">
                      <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Paper.</support>
-                        <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf"/>
-                           + <measure type="leaf"> </measure>
-                           + <measure type="laterEndleaf"/>
-
-                        <dimensions type="binding" unit="cm">
-                           <height quantity="33.0">33.0</height>
-                           <width quantity="21.6">21.6</width>
+                        <support>Paper</support>
+                        <extent source="#Keith1909">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 97 "> 97 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>. Arranged like a European book.<dimensions type="binding" unit="cm">
+                           <height quantity="18.1">18.1</height>
+                           <width quantity="20.3">20.3</width>
                         </dimensions>
                         </extent>
-                     <condition source="#WinternitzKeith1905">ff. 3–122 and 184–280 of 544, and ff. 3–148 and 280–447 of 545 are slightly damaged by insects. F. 15 of the first, and f. 33 of the second volume are torn.</condition></supportDesc>
+                     </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc><p source="#WinternitzKeith1905">on f. 85v of 544, we read, ‘Copied F.,’ on f. 178, ‘Copied by J. C. R.,’ the latter also on ff. 325 and 350v of 545. ‘J. C. R.’ are the initials of J. C. Roy, who copied parts of MSS. Wilson 541, 542 (1196).</p></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">A. D. 1825 and 1830?</origDate>
-                  <p source="#WinternitzKeith1905">see above, MSS. Wilson 541, 542 (1196).</p></origin>
+                     <origDate calendar="#gregorian" when="1780" source="#Keith1909">A.D. 1780</origDate>
+                  </origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_19797398">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+                  <acquisition source="#Keith1909">The collections of <persName key="person_6270294">Alexander Walker</persName> was presented to the Bodleian Library by his son, William Walker, in 1845.</acquisition></history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n189/mode/1up">no. 1198, pp. 158-159</ref></biblScope></bibl></listBibl>
+                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n73/mode/1up">no. 518, pp. 64-65</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -97,7 +97,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n189/mode/1up">no. 1198, pp. 158-159</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n73/mode/1up">no. 518, pp. 64-65</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=234">no. 518, p. 218</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>
