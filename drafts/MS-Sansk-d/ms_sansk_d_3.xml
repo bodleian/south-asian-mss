@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02935">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. d. 3</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1023</idno>
+                  </altIdentifier><altIdentifier type="former" source="#WinternitzKeith1905"><idno>MS. Bodl. Sanscr. 3.</idno></altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Śāṅkhāyana Śrauta Sūtra, A. D. 1668.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Śāṅkhāyana Śrauta Sūtra of the Ṛg-veda, adhyāyas 1–16 complete; the last two, which, however, are of different if not later origin, are missing</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="1">i</measure>
+                           + <measure type="leaf" quantity=" 158 "> 158 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>. The original has 73 + 85 leaves.<dimensions type="binding" unit="cm">
+                           <height quantity="27.3">27.3</height>
+                           <width quantity="14.0">14.0</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">Ff. 24v, 25, 26v, 36v, 37, 44v, 75v, 76v, 77, 78, 86v have lost some letters through abrasion.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">Scribe:(1) f. 73: vṛdhanagaravāstavyaṃābhyaṃ-tarajñātīsutāraśaṃkarasutasutārasurajisutā Avimuktivārāṇasyāṃ madhye Bāīyāṃkena dharmārtha likhitaṃ | śivārpaṇam astu | śrīvīśveśvaraprasādāt | (2) f. 158: vṛdhanagaravāstavyaṃābhyaṃtarajñātyasutārasaṃkarasutasuº sūrajīsutā dharmāartha likhitaṃ Bāīyāṃ | This name may of course be read Bārdayām. In any case read in the Bodl. catal., p. 405a, ‘filii’ for ‘filio.’</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1668" source="#WinternitzKeith1905">A. D. 1668.</origDate>
+                  <p source="#WinternitzKeith1905">that of part (1) is given on f. 73: svastisaṃvat 1724 <supplied>1668</supplied> varṣe āśvanamāse kṛṣṇapakṣe 6 tithau guruvāsare | That of part (2) on f. 158: svasti śrīsaṃvat 1724 varṣe pauṣaśude | tithau guruvāśare |</p></origin>
+                  <provenance source="#WinternitzKeith1905">on ff. 1, 74, appears this notice in a fairly old hand: travāḍigaṇeśanāthasyedaṃ pustakaṃ | dī | Keśavarāmasya paṭhanārthaṃ |</provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n113/mode/1up">no. 1023, p. 82</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n113/mode/1up">no. 1023, p. 82</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

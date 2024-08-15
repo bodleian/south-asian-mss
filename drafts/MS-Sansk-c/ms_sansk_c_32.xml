@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02866">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. c. 32</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1483 (1, 2)</idno>
+                  </altIdentifier><altIdentifier type="former" source="#WinternitzKeith1905"><idno>Caps. Or. D. 25.</idno></altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Mānava Dharmaśāstra with gloss by Sir William Jones, A.D. 1789–1792.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper, water-marked.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 153"> 153</measure><dimensions type="binding" unit="cm">
+                           <height quantity="25.7">25.7</height>
+                           <width quantity="37.8">37.8</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc><p source="#WinternitzKeith1905">the Sanskrit text was written by Lālā Mahatābarāya (śrīlālāmahatābarāyeṇa likhitaṃ). The rest is in Sir William Jones’ handwriting.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1789" notAfter="1792">A. D. 1789–1792.</origDate>
+                  <p source="#WinternitzKeith1905">a statement on f. 145: ‘finished 27 Nov. 1789’ gives probably the date at which the Sanskrit copy was finished. The date ‘21 Nov. 1789’ occurs at the end of adhyāya 11 (f. 137v). An entry at the end of adhyāya 1 (f. 6v) says: ‘Read for the last time 12 March 1790.’ In the margins of ff. 109v, 111, 111v, the dates occur: ‘24 Nov. 91,’ ‘1 Dec. 91,’ ‘1 Dec. 1791,’ hence the date on f. 120 marg. ‘ 22 Febr.’ must be meant for 22 Febr. 1792. The translation and notes seem, therefore, to have been made between 1790 and 1792. Sir W. Jones’ translation appeared in 1792.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up">no. 1483 (1, 2), pp. 275-276</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up">no. 1483 (1, 2), pp. 275-276</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. c. 32(1) [fols ii, iii, 145v, 146]</idno></altIdentifier></msIdentifier><head/><msContents><summary>sundry notes in English, with some Sanskrit quotations and calculations, by Sir William Jones.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. c. 32(2) [fols 1-145]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Mānava Dharmaśāstra, the Sanskrit text, with interlinear translations partly into Latin, partly into English, and marginal notes, by Sir William Jones.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

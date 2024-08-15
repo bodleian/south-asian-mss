@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02825">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. c. 66</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1274 (1–8)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Pañcatantra, A. D. 1760.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 145 "> 145 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="34.6">34.6</height>
+                           <width quantity="21.3">21.3</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">f. 2 is damaged, and part of the long marginal note is lost.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, 1 with Jaina characteristics. The diagrams on ff. 1v and 83, and the blank space in the centre of f. 27r, also show the Jaina hand.</desc><p source="#WinternitzKeith1905">2 was written by Rādhākṛṣṇa, in the town of Karnakundala, for Śaṅkararāma, Śambhūrāma, Ṣuśpālīrāma, and Savāīrāma (if these are names of different persons in the colophon: Karṇakuṇḍalapuryyāṃ vai Rādhākṛṣṇo vyalīlikhat ciraṃjīvasvātmajaśaṃkararāma-śaṃbhūrāmaṣuśpālīrāmasavāīrāmapaṭhanārthaṃ).</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1760" source="#WinternitzKeith1905">A. D. 1760.</origDate>
+                  <p source="#WinternitzKeith1905">2 is dated (f. 144v): mittī saṃvata 1806 <supplied>1750</supplied> vaiśākhe śuklapakṣe tṛtīyāśanivāśare | 1 is probably not quite so old.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 111).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n214/mode/1up">no. 1274 (1–8), pp. 183-184</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n214/mode/1up">no. 1274 (1–8), pp. 183-184</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. c. 66(1) [fols 1-103v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Pañcatantra, by Viṣṇuśarman, books I and II, and nearly the whole of book III.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">ǁ 60 ǁ oṃ namaḥ ǁ śaº śrīmati Ratnagurubhyo namaḥ ǁ ǁ baṃde Sarasvatīṃ nityaṃ bāgmanaḥkāyakarmmabhiḥ | vāksamudrā yayā naddho dustaras tridaśer api ǁ 1 ǁ Manave Vācaspataya Sukrāya Parāsarāya sasutāya ǁ Cāṇākyāya viduṣe namāstu sarvaśāstrakarttṛbhyaḥ ǁ 2 ǁ praṇamya vighnaharttāraṃ gaṇādhyakṣam Umāsutaṃ ǁ nītaśāstram idaṃ bakṣye kathāmārganibaṃdhanaṃ ǁ 3 ǁ tad yathānuśrūyata ǁ asti dakṣiṇātye janapada Mahilaropyaṃ nāma nagaraṃ | tatra sakalaśāstrakalpadrumaḥ pravaranṛpa-mukaṭamaṇimarīcicayacarccitacaraṇāḥ sakalakalāpāraṃ-gato Damaraśaktir nāma rāmarājā babhūva ǁ</incipit><explicit source="#WinternitzKeith1905">evaṃ śatrūn aniḥśeṣatāṃ nītvā bhūyo ’pi Meghavarṇas tam eva nyagrodḥapādapaṭuga jagāmaḥ | tataḥ | sihāsanasthau bhūtvā sabhāmaṃdhye pramuditaḥ | manāsthirajīvinam apṛchat | tāta |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. c. 66(2) [fols 104-144]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Pañcatantra, or Pañcākhyānaka, by Viṣṇuśarman, the second half of book III with books IV and V.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">dyā pādayaṃti ite mugdhāḥ śrute paramārthaṃ na jānaṃti yac ca kenacid uktaṃ ājair yaṣṭavyam iti tatra ajā vrīhavaṃ saptivārṣikā ucyate na jāyaṃta ity anvarthavalāt uktaṃ ca vṛkṣān chitvā | &amp;c.</incipit><explicit source="#WinternitzKeith1905">evam uktvā suvarṇasiddhas tam andra (?) jñāpya svagṛhaṃ prati nivṛttiḥ samāptaṃ cedam aparīkṣākāritaṃ nāma paṃcamaṃ taṃtraṃ yasyāyam ādyaḥ ślokaḥ kudṛṣṭaṃ kuparijñātaṃ kukṛṣṭaṃ kuparīkṣitaṃ tan nareṇa na karttavyaṃ nāpi teneha yat kṛtaṃ etatsamāptau samaptaṃ Paṃcataṃtrā ’paranāmakaṃ Paṃcākhyānakam iti nītiśāstrakaṃ kathānvitaṃ satkavisūktayuktaṃ śrīviṣṇuśārmā nṛpa nītiśāstraṃ cakāra yo neha paropakārasvargāya jāyeta vudhā vadaṃti ǁ 1 ǁ śrīsomamaṃtrivacanena viśīrṇavarṇaḥm ālokya śāstram akhilaṃ khalu Paṃcataṃtraṃ ǁ 2 ǁ śrīpūrṇabhadraguruṇā guruṇādareṇa saṃsodhitaṃ nṛpatinītivinecanāya pratyakṣaraṃ pratipadaprativākyaṃ pratikathaṃ pratiślokaṃ | śrīpurṇabhadraśūriś ca (?) śodhayām āsa śāstram idaṃ ǁ 3 ǁ yad yat kiṃcit kiṃcid api mayā neha samyak prayuktaṃ tat karttavyaṃ nipuṇadhiṣaṇaiḥ jñāṃtimaṃto hi saṃtaḥ śrīśrīcaṃdraprabhuparivṛtaḥ pātu māṃ pātakebhyo yasyādyā vibhramati bhuvane kīrttigaṃgā-pravāhaḥ [ǁ 4 ǁ] ya smārttaṃ vacaḥ kvacana yat samayopāyāgi proktaṃ samastaviduṣāṃ tad draṣaṇīyaṃ Somasya manmathavilāsaviśeṣakasya kiṃ nāma lāṃchanamṛgaḥ kurute na lakṣmīṃ ǁ 5 ǁ pratyaṃtaraṃ na punar asya maṇḍakrameṇa kutrāpi kiṃcana jagaty api niśrayo me kiṃ tvāghasaktavipadākṛtabījamuṣṭiḥ siktā mayā matijalena jagāma vṛddhiḥ ǁ 6 ǁ catvāri hi sahasrāṇi tatparaṃ ṣaṭ śatāni ca graṃthasyāsya mayā mānaṃ gaṇitaṃ ślokasaṃkhyayā ǁ 7 ǁ śaravāṇataraṇivarṣe ravikaravadi phālgune tṛtīyā jīrṇoddhāra ivāsau pratiṣṭhito ’yaṃ savikṛdhaiḥ ǁ 8 ǁ mūlapratilakṣamā na saṃti cha iti śrīpaṃcākhyānakaṃ nāma nītiśāstraṃ saṃpūrṇaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. c. 66(3) [fols 145]</idno></altIdentifier></msIdentifier><head/><msContents><summary>a fragment (eight lines only) of some work on Alaṃkāra, treating of pūrṇopamā and luptopamā.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīgurubhyo namaḥ | Goviṃdaṃ saccidānaṃdaṃ praṇamyābhīṣṭasiddhaye | alaṃkṛtpuṃbhiḥ sāṃdraś caṃdrālokaḥ prakīrttyate ǁ 1 ǁ</incipit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

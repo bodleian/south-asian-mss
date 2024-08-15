@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03038">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. d. 152</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1280</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Śaṅkarācārya’s Upadeśasāhasrī, with Mokṣasā-dhanopadeśavidhi, A. D. 1636.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Upadeśasāhasrī of Śaṅkarācārya (circa a. d. 788), a famous Vedāntic treatise.</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  <incipit source="#WinternitzKeith1905"><locus>[1v] </locus>caitanyaṃ sarvagaṃ sarvaṃ sarvabhūtaguhāśayaṃ | yat sarvaviṣayātītaṃ tasmai sarvavide namaḥ ǁ</incipit><explicit source="#WinternitzKeith1905"><locus>[21] </locus>ātmanaś cādvayatvaviṣayāṃ dvayasyāsatvārthāṃ ca sarvāṇy upaniṣadvākyāni vistarataḥ samīkṣitavyāni samīkṣitavyāni | cha | iti śrīmatparamahaṃsaparivrājakācāryaśrīgovindabhagavatpādapūjyaśiṣyasya Śaṃkarabhagavataḥ kṛtiḥ Sakalopaniṣatsāra Upadeśasāhasrī samāptā |</explicit></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 21 "> 21 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="30.2">30.2</height>
+                           <width quantity="14.6">14.6</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905"><locus>f. 21</locus>: śrīmadvārāṇasīkṣetre Viśveśacaraṇāntike svastiśrīmatparamahaṃsaparivrājakācāryaśrīrāma-bhadrāśramabhagavatpādapūjyaśiṣyeṇa Janārdanaśrameṇa svasvāmino ’rthaṃ granthaḥ svahastena likhitaḥ samāptaḥ |</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1636" source="#WinternitzKeith1905">A. D. 1636.</origDate>
+                  <p source="#WinternitzKeith1905"><locus>f. 21</locus>: saṃvat 1693 pārthivasaṃvatsare śake 1558 <supplied>1636</supplied> dhātāsaṃvatsaramārgaśīrṣaśuddha-ṣaṣṭībudhavāsare dhaniṣṭhānakṣatraśubhayoge | The year is dated by both cycles.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 227).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n217/mode/1up">no. 1280, pp. 186-187</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n217/mode/1up">no. 1280, pp. 186-187</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

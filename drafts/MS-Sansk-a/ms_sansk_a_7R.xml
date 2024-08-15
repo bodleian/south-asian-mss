@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02754">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. a. 7 (R)</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Aṣṭasāhasrikā Prajñāpāramitā, A. D. 1096.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Aṣṭasāhasrikā Prajñāpāramitā, being a
+                     recension of the Prajñāpāramitā in 8000 verses</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem>
+                     <title/>
+
+                     <incipit source="#WinternitzKeith1905"><locus>[1v] </locus>namo bhagavatyai
+                        āryaprajñaparamitāyai | nirvikalpe namas tubhyaṃ Prajñāpāramite ‘mite |
+                        &amp;c.</incipit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm">
+                        <support source="#WinternitzKeith1905">Palm-leaves, held together by two
+                           wooden boards and a string passing through two holes, one at either side
+                           of the central column. The whole is kept in the original cloth
+                           wrapper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="leaf" quantity="188">188</measure>, of which the last
+                           two are almost entirely blank.<dimensions type="binding" unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                        <desc>Devanāgarī in black ink.</desc>
+                        <p source="#WinternitzKeith1905"><locus>f. 186v</locus>: asti Magadhaviṣaye
+                           śrīnālandavasin (?) lekhaka Ahanakuṇḍena bhaṭṭārakaiḥ Prajñāpāramitā
+                           likhitā |</p>
+                     </handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1096" source="#WinternitzKeith1905">A. D.
+                        1096.</origDate>
+                     <p source="#WinternitzKeith1905"><locus>f. 186v</locus>:
+                        mahārājādhirājaparameśvarapava-mabhaṭṭārakaparamasaugata (?)
+                        -śrīmadrāmapāladevapra-varddhamānavijayarājye pancādaśame saṃvatsare
+                        vyabhilikhyamānapatrāhkenāpi saṃvat 15 (it looks like 315, but the other
+                        reading is better) | vaiśākhe dine kṛṣṇasaptamyāṃ | This gives us probably
+                        a. d. 1095 if the date of Rāmapāla’s accession is a. d. 1085</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1900 from Dr. A. F. R.
+                     Hoernle.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n281/mode/1up"
+                                       >no. 1428, p. 250</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n281/mode/1up"
+                                 >no. 1428, p. 250</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
