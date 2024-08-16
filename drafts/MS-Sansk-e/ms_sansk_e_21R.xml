@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03209">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03261">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +41,14 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Sansk. d. 216</idno>
+                  <idno type="shelfmark">MS. Sansk. e. 21 (R)</idno>
                   <altIdentifier>
-                     <idno type="CSM">1599</idno>
+                     <idno type="CSM">1445</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Vāgbhaṭa’s Aṣṭāṅgahṛdayasaṃhitā, 18th cent.?</head>
+               <head source="#WinternitzKeith1905">Tathāgatajñānastutigāthā, 12th cent.?</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Aṣṭāṅgahṛdayasaṃhitā of Vāgbhaṭa (sometimes Prākritized into Bāhaṭa), a comprehensive treatise on medicine</summary>
+                  <summary source="#WinternitzKeith1905">The Tathāgatajñānastutigāthā, a collection of verses on the excellencies of the Buddha</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
                   <msItem> 
                      <title/>
@@ -56,31 +56,31 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Paper. The leaves are arranged as in English books.</support>
+                  <objectDesc form="pothī">
+                     <supportDesc material="palm">
+                        <support source="#WinternitzKeith1905">Palm-leaves, held together by two boards, (one new), and a string passing through a hole somewhat towards the left.</support>
                         <extent>
                            <measure type="laterEndleaf"/>
                            + <measure type="leaf"> </measure>
                            + <measure type="laterEndleaf"/>
 
                         <dimensions type="binding" unit="cm">
-                           <height quantity="26.0">26.0</height>
-                           <width quantity="18.1">18.1</width>
+                           <height/>
+                           <width/>
                         </dimensions>
                         </extent>
-                     </supportDesc>
+                     <condition source="#WinternitzKeith1905">all the leaves have lost letters at the edges, especially f. 1. Ff. 6, 9 are nearly illegible, and the end is missing.</condition></supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śaradā.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Nepalese" source="#WinternitzKeith1905"><desc>Nepalese.</desc></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">perhaps about a. d. 1700.</p></origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1100" notAfter="1199">12th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">probably 12th cent., according to Dr. Hoernle. The numbers correspond very closely to those of the Cambridge MSS. 866, 1684, in Bendall, Buddh. Sansk. MSS., plate IV.</p></origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 340). Memorandum on original wrapper (f. ii), ‘K 28,’ i. e. Kaśmīr.</acquisition>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1900 from Dr. A. F. R. Hoernle.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -88,7 +88,7 @@
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1599, pp. 314-316</ref></biblScope></bibl></listBibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n287/mode/1up">no. 1445, p. 256</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -98,7 +98,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1599, pp. 314-316</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n287/mode/1up">no. 1445, p. 256</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>

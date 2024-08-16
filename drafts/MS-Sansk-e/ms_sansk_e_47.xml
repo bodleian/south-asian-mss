@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03209">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03250">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,46 +41,46 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Sansk. d. 216</idno>
+                  <idno type="shelfmark">MS. Sansk. e. 47</idno>
                   <altIdentifier>
-                     <idno type="CSM">1599</idno>
+                     <idno type="CSM">1226 (1, 2)</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Vāgbhaṭa’s Aṣṭāṅgahṛdayasaṃhitā, 18th cent.?</head>
+               <head source="#WinternitzKeith1905">Gajendramokṣaṇa and Saptaślokī, 18th cent.?</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Aṣṭāṅgahṛdayasaṃhitā of Vāgbhaṭa (sometimes Prākritized into Bāhaṭa), a comprehensive treatise on medicine</summary>
-                  <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
+                  <summary>
                      
-                  </msItem>
-               </msContents>
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1"> 
+                  <locus>[fols. 1-11v]</locus><note source="#WinternitzKeith1905">The Gajendramokṣaṇa from the Śantiparvan of the Mahābhārata.</note><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ śrīgurubhyo namaḥ oṃ asya śrīgajedramokṣalikhyaṃ ǁ Śatānika uvāca ǁ mayā hi deva devasya Viṣṇor amitatejasaḥ śrutvāḥ saṃbhūtayaḥ sarvādigaditasiavasuvrataḥ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">Gajendramokṣaṇaṃ puṇyaṃ sarvapāpapraṇāśanaṃ śrāvayet prātar utthāya dīrgham ā |</explicit></msItem>
+               <msItem n="2"><locus>[fols. 12-13]</locus><note source="#WinternitzKeith1905">The Saptaślokī, seven ślokas from the Bhāgavata Purāṇa (II, 9. 31–37) with a commentary.</note><incipit source="#WinternitzKeith1905">śrībhagavān uvāca | jñānaṃ paramaṃ guhyaṃ yad vijñānasamanvitāṃ | sarahasyaṃ tadaṃgaṃ ca gṛhāṇa gaditaṃ mayā | jñānaṃ śāsrotthaṃ vijñānam anubhavaḥ rahasyaṃ bhaktiḥ sugopyam api vikṣāmīty ādibhir deśāt tasyāṃgaṃ sādhanaṃ ǁ 1 ǁ</incipit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="pothī">
                      <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Paper. The leaves are arranged as in English books.</support>
-                        <extent>
-                           <measure type="laterEndleaf"/>
-                           + <measure type="leaf"> </measure>
-                           + <measure type="laterEndleaf"/>
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 13 "> 13 </measure>
+                           + <measure type="laterEndleaf" quantity="11">xi</measure>
 
                         <dimensions type="binding" unit="cm">
-                           <height quantity="26.0">26.0</height>
-                           <width quantity="18.1">18.1</width>
+                           <height quantity="18.4">18.4</height>
+                           <width quantity="11.7">11.7</width>
                         </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śaradā.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">perhaps about a. d. 1700.</p></origin>
+                  <p source="#WinternitzKeith1905">probably about a. d. 1800.</p></origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 340). Memorandum on original wrapper (f. ii), ‘K 28,’ i. e. Kaśmīr.</acquisition>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 31).</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -88,7 +88,7 @@
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1599, pp. 314-316</ref></biblScope></bibl></listBibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n197/mode/1up">no. 1226 (1, 2), pp. 166-167</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -98,7 +98,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1599, pp. 314-316</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n197/mode/1up">no. 1226 (1, 2), pp. 166-167</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>

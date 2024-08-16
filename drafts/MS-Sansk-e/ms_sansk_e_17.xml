@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03232">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. e. 17</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1079 (1–5)</idno>
+                  </altIdentifier><altIdentifier type="former" source="#WinternitzKeith1905"><idno>MS. Bodl. Sanscr. 17.</idno></altIdentifier>
+               </msIdentifier>
+               <head source="#WinternitzKeith1905">Vedāṅgas, A.D. 1738–1781.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Five Vedāṅgas</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1"> 
+                  <locus>[fols. 1-6]</locus><note source="#WinternitzKeith1905">The Pāṇinīya Siksā, in sixty stanzas.</note><incipit source="#WinternitzKeith1905">ǁ śrīgaṇeśāya namaḥ ǁ atha Sikṣāṃ pravakṣyāmi Pāṇinīyaṃ mataṃ yathā ǁ śāstrānupūrvaṃ tad vidyād yathoktaṃ lokavedayoḥ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">trinayanam abhimukhaniḥsṛtām imāṃ ya iha paṭhet prayataś ca sadā dvijaḥ ǁ sa bhavati dhanadhānyapaśuputrakīrttimān atuḷaṃ ca sukhaṃ samaśnute divīti divīti ǁ 60 ǁ ǁ iti Śikṣā samāptaḥ ǁ atha śikṣām ātmodāttaś ca hakāraṃ svarāṇāṃ yathā gityacospaṣṭodāttaṃ cāṣas tu śaṃkara ekādaśa ǁ</explicit></msItem>
+               <msItem n="2"><locus>[fols. 8-11]</locus><note source="#WinternitzKeith1905">The Jyotiṣa, in thirty-six stanzas, the Ṛg-veda recension, by Lagadha.</note><incipit source="#WinternitzKeith1905">ǁ śrīgaṇeśāya namaḥ ǁ paṃcasaṃvatsaramayaṃ yugādhyakṣaṃ Prajāpatiṃ ǁ dinartvayanamāsāṃgaṃ praṇamya śirasā śuciḥ ǁ 1 ǁ praṇamya śirasā kālam abhivādya Sarasvatīṃ ǁ kālajñanaṃ pravakṣyāmi Lagadhasya mahātmanaḥ ǁ 2 ǁ</incipit><explicit source="#WinternitzKeith1905">vedā hi yajñārtham abhipravṛttāḥ kālānupūrvā vihitāś ca yajñāḥ ǁ tasmād idaṃ kālavidhānaśāstraṃ yo Jyotiṣaṃ veda sa veda yajñān yo jyotiṣaṃ veda sa veda yajñān iti ǁ 36 ǁ ǁ paṃcasaṃvatsaraṃcprapadye te kāryāḥ kalā daśa ca yāḥ parva savitā viṣuvaṃ sapta ǁ iti Jyotiṣaṃ samāptaṃ ǁ</explicit></msItem><msItem n="3"><locus>[fols. 12-18]</locus><note source="#WinternitzKeith1905">The Chandas Sūtra, by Piṅgala, in eight adhyāyas.</note><incipit source="#WinternitzKeith1905">ǁ śrīgaṇeśāya namaḥ ǁ mayarasatajabhanalagasaṃmitaṃ bhramati vāṅmayaṃ jagati yasya ǁ sa jayati Piṃgalanāgaḥ Śivaprasādād viśuddhamatiḥ ǁ</incipit><explicit source="#WinternitzKeith1905">dvir dvyūnaṃ | tadaṃtānāṃ | eko neddhā | pare pūrṇaṃ pare pūrṇam iti ǁ 19 ǁ ǁ iti Chaṃdasy aṣṭamo ’dhyāyaḥ ǁ ǁ iti Piṃgalasūtraṃ samāptaṃ ǁ maya dvādaśa dhīḥ paṃcadaśa chaṃdaḥ ṣolaśa pādaḥ paroṣṇik prastārapaṃktir viṃśatir viṃśatir ekaviṃśatir devatādito ’ṣṭau catuḥśataṃ ṣaṣṭho viṃśatir viṃśatir yugaparāṃtikā trayodaśa vṛttaṃ gāvādau viṃśatir viṃśatir yavamatī trīṇi yatir viṃśatir vātormīm aṣṭādaśa praharṣinī viṃśatiḥ śārdūlavikrīḍitaṃ paṃcadaśātrānuktaṃ saptadaśāṣṭādaśa ǁ</explicit></msItem><msItem n="4"><locus>[fols. 19-27]</locus><note source="#WinternitzKeith1905">The Nighaṇṭu, in five adhyāyas, accented.</note><incipit source="#WinternitzKeith1905">ǁ śrīgaṇeśāya namaḥ ǁ ǁ oṃ ǁ gauḥ | gmā | jmā | kṣmā | kṣā | kṣamā | &amp;c.</incipit><explicit source="#WinternitzKeith1905">vasavaḥ | vājinaḥ | devapatnyo devapatnya ity ekatriṃśat padāni ǁ 6 ǁ agnir draviṇodā aśvo vāyuḥ śyeno ‘śvinau ṣaṭ ǁ ǁ iti Nighaṃṭe paṃcamo ’dhyāyaḥ ǁ ǁ iti Nighaṃṭaḥ samāptaḥ ǁ</explicit></msItem><msItem n="5"><locus>[fols. 29-153]</locus><note source="#WinternitzKeith1905">The uttaraṣaṭka of Yāska’s Nirukta, in eight adhyāyas. The verses are accented.</note><incipit source="#WinternitzKeith1905">ǁ śrīgaṇeśāya namaḥ ǁ śrīvedavyāsāya namaḥ ǁ oṃ ǁ ǁ athāto daivataṃ tad yāni nāmāni | prādhānyastutīnāṃ devatānāṃ | tad daivatam ity ācakṣate | &amp;c.</incipit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 156"> 156</measure><dimensions type="binding" unit="cm">
+                           <height quantity="22.2">22.2</height>
+                           <width quantity="12.4">12.4</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">1–4 written by Themṭe Jayarāma Bhaṭṭa; 5 by Themṭe Siddheśvara. Colophons:</p><p source="#WinternitzKeith1905">Theṃṭe ityupanāmnā Jayarāmabhaṭṭena likhitaṃ ‖ at the end of 1.</p><p source="#WinternitzKeith1905">Theṃṭe ityupaśarmabhaṭṭajayarāmasyedaṃ pustakaṃ ‖ at the end of 2–4.</p><p source="#WinternitzKeith1905">Theṃṭe ityupaśarmabhaṭṭasiddheśvarasyedaṃ pustakaṃ samāptaṃ ‖ at the end of 5.</p><p source="#WinternitzKeith1905">For further information as to Jayarāma, whose son was Siddhesvara and father Yādava, see the particulars given in the colophons to a MS. of the Aitareya Brāhmaṇa, bought from Quaritch by Max Müller in 1870, Wickremasinghe, J. R.A. S., 1902, pp. 628–629.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1738" notAfter="1781">A. D. 1738–1781.</origDate>
+                  <p source="#WinternitzKeith1905">the following dates are given:</p><p source="#WinternitzKeith1905">(1) śake 1665 <supplied>1743</supplied> rudhirodgārīsaṃvatsare kārttikaśuddha ekādasyāṃ |</p><p source="#WinternitzKeith1905">(3) śake 1665 rudhirodgārīsaṃvatsare |</p><p source="#WinternitzKeith1905">(4) śake 1660 <supplied>1738</supplied> kāḷayuktanāmasaṃvatsare āṣāḍhaśukladaśamīguruvāsare |</p><p source="#WinternitzKeith1905">(5) śake 1703 <supplied>1781</supplied> plavanāmasaṃvatsare āṣāḍhakṛṣṇasaptamyāṃ bhṛguvāsare taddinī |</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n136/mode/1up">no. 1079 (1–5), pp. 105-106</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n136/mode/1up">no. 1079 (1–5), pp. 105-106</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

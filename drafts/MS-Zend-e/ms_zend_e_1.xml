@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03209">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03300">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +41,14 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Sansk. d. 216</idno>
+                  <idno type="shelfmark">MS. Zend e. 1</idno>
                   <altIdentifier>
-                     <idno type="CSM">1599</idno>
+                     <idno type="CSM">1611</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Vāgbhaṭa’s Aṣṭāṅgahṛdayasaṃhitā, 18th cent.?</head>
+               <head source="#WinternitzKeith1905">Neryosaṅgh’s Translation of the Yasna, 15th cent.?</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Aṣṭāṅgahṛdayasaṃhitā of Vāgbhaṭa (sometimes Prākritized into Bāhaṭa), a comprehensive treatise on medicine</summary>
+                  <summary source="#WinternitzKeith1905">The Translation of the Yasna by Neryosaṅgh</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
                   <msItem> 
                      <title/>
@@ -56,31 +56,28 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="pothī">
                      <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Paper. The leaves are arranged as in English books.</support>
-                        <extent>
-                           <measure type="laterEndleaf"/>
-                           + <measure type="leaf"> </measure>
-                           + <measure type="laterEndleaf"/>
-
-                        <dimensions type="binding" unit="cm">
-                           <height quantity="26.0">26.0</height>
-                           <width quantity="18.1">18.1</width>
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="3">iii</measure>
+                           + <measure type="leaf" quantity=" 263 "> 263 </measure>
+                           + <measure type="laterEndleaf" quantity="15">xv</measure>. The bound MS. only contains 138 of these leaves, the rest being under glass.<dimensions type="binding" unit="cm">
+                           <height quantity="21.9">21.9</height>
+                           <width quantity="14.9">14.9</width>
                         </dimensions>
                         </extent>
-                     </supportDesc>
+                     <condition source="#WinternitzKeith1905">very many of the leaves have suffered from abrasion, and are very difficult to decipher. In several cases the edges are gone. Most of the leaves under glass are in very poor condition indeed. Yasna II, 3–8 is missing both in Avesta and Sanskrit, three pages being left blank.</condition></supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śaradā.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc><p source="#WinternitzKeith1905">there is a Pahlavi colophon on f. 260v by a later hand, and ff. 261–263 are supplied by yct another hand.</p></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">perhaps about a. d. 1700.</p></origin>
-                  <provenance>
-                  </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 340). Memorandum on original wrapper (f. ii), ‘K 28,’ i. e. Kaśmīr.</acquisition>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1400" notAfter="1499">15th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">Dr. Mills, l. c., says that it was ‘written soon after the death of Neryosaṅgh, whose important labours date from about 500 to 600 years ago.’</p></origin>
+                  <provenance source="#WinternitzKeith1905">the MS. was received in 1890, having been sent by Destoor Jamaspji Minocheherji Jamasp Asana, Hon. D.C.L., Oxon., to Dr. L. H. Mills, who asked him to present this as well as other MSS. to the Bodleian Library.</provenance>
+                  <acquisition/>
                </history>
                <additional>
                   <adminInfo>
@@ -88,7 +85,7 @@
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1599, pp. 314-316</ref></biblScope></bibl></listBibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n351/mode/1up">no. 1611, p. 320</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -98,7 +95,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n345/mode/1up">no. 1599, pp. 314-316</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n351/mode/1up">no. 1611, p. 320</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>
