@@ -22,7 +22,8 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -46,37 +47,64 @@
                      <idno type="CSM">203, 787, 183</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-               </head>
+               <head> </head>
                <physDesc>
                   <objectDesc form="pothi">
-                  <supportDesc>
-                     <support>paper</support>
-                     <extent source="#Keith1909">
-                        <measure type="laterEndleaf" quantity="2">ii</measure>
-                        + <measure type="leaf" quantity="171 ">171 </measure>
-                        + <measure type="laterEndleaf" quantity="2">ii</measure>. The three parts have 68 + 25 + 78 leaves. The original foliation of parts 2 and 3 is hopelessly confused.<dimensions type="folio" unit="cm">
-                        <height quantity="26.4">26.4</height>
-                        <width quantity="15.6">15.6</width>
-                     </dimensions>
-                     </extent>
-                  </supportDesc>
-               </objectDesc></physDesc>
-               <history><acquisition source="#Keith1909">The collections of <persName key="person_6270294">Alexander Walker</persName> was presented to the Bodleian Library by his son, William Walker, in 1845.</acquisition></history>
+                     <supportDesc>
+                        <support>paper</support>
+                        <extent source="#Keith1909">
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure
+                              type="leaf" quantity="171 ">171 </measure> + <measure
+                              type="laterEndleaf" quantity="2">ii</measure>. The three parts have 68
+                           + 25 + 78 leaves. The original foliation of parts 2 and 3 is hopelessly
+                              confused.<dimensions type="folio" unit="cm">
+                              <height quantity="26.4">26.4</height>
+                              <width quantity="15.6">15.6</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition source="#Keith1909">The collections of <persName key="person_6270294"
+                        >Alexander Walker</persName> was presented to the Bodleian Library by his
+                     son, William Walker, in 1845.</acquisition>
+               </history>
                <additional>
                   <adminInfo>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
                      </availability>
                   </adminInfo>
-                  
-                  <surrogates>
-                     
-                  </surrogates>
+
+                  <surrogates> </surrogates>
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n35/mode/1up">no. 203, p. 26</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n107/mode/1up">no. 787, p. 98</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n32/mode/1up">no. 183, p. 23</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=135">no. 203, p. 119</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=353">no. 787, p. 337</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=130">no. 183, pp. 114-115</ref></biblScope></bibl></listBibl>
+                        <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
+                              Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
+                              I</title> (Oxford, 1909), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n35/mode/1up"
+                                 >no. 203, p. 26</ref></biblScope>; <biblScope><ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n107/mode/1up"
+                                 >no. 787, p. 98</ref></biblScope>; <biblScope><ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n32/mode/1up"
+                                 >no. 183, p. 23</ref></biblScope></bibl>
+                        <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=135"
+                                 >no. 203, p. 119</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=353"
+                                 >no. 787, p. 337</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=130"
+                                 >no. 183, pp. 114-115</ref></biblScope></bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
                <msPart>
@@ -88,22 +116,113 @@
                   <head>Naiṣadhīyacarita, 17th and 18th cent.?</head>
                   <msContents>
                      <textLang mainLang="sa">Sanskrit</textLang>
-                     <msItem> 
-                        <title/>
-                     </msItem>
-                  </msContents><physDesc><handDesc><handNote><p source="#Keith1909">there is a note on f. 78v which applies only to the third hand: Aṃganābhidhapure nivasan śrīgauḍajātir abhivaṃdya maheśaṃ | cha | Durlabhaḥ kavipadāṃbujapāṃśur Naiṣadhīyam alikha chubhasargaṃ ǁ</p></handNote></handDesc></physDesc>
+                  </msContents>
+                  <physDesc>
+                     <handDesc>
+                        <handNote>
+                           <p source="#Keith1909">there is a note on f. 78v which applies only to
+                              the third hand: Aṃganābhidhapure nivasan śrīgauḍajātir abhivaṃdya
+                              maheśaṃ | cha | Durlabhaḥ kavipadāṃbujapāṃśur Naiṣadhīyam alikha
+                              chubhasargaṃ ǁ</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
                   <history>
                      <origin>
-                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1600" notAfter="1799">17th and 18th cent.?</origDate></origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1600"
+                           notAfter="1799">17th and 18th cent.?</origDate>
+                     </origin>
                   </history>
-                  <additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n35/mode/1up">no. 203, p. 26</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n35/mode/1up"
+                                          >no. 203, p. 26</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
                </msPart>
-              
 
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 210b</idno></altIdentifier></msIdentifier><head>Muhūrtamārtaṇda, 18th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n107/mode/1up">no. 787, p. 98</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 210c</idno></altIdentifier></msIdentifier><head>Mallinātha on the Raghuvaṃsa, A. D. 1622.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" when="1622">1622</origDate><p source="#Keith1909">on f. 171v given the date of ff. 164v–171v: saṃvat 1678 <supplied>1622</supplied> varṣe āsādha (māse kṛṣṇapakṣe 2 some adyeha: these words and all that follow have been damaged by the tearing of the foot of the page. The restoration here proposed is only probable) |</p></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n32/mode/1up">no. 183, p. 23</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart></msDesc>
+
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 210b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Muhūrtamārtaṇda, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700"
+                           notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n107/mode/1up"
+                                          >no. 787, p. 98</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 210c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Mallinātha on the Raghuvaṃsa, A. D. 1622.</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" when="1622"
+                           >1622</origDate>
+                        <p source="#Keith1909">on f. 171v given the date of ff. 164v–171v: saṃvat
+                           1678 <supplied>1622</supplied> varṣe āsādha (māse kṛṣṇapakṣe 2 some
+                           adyeha: these words and all that follow have been damaged by the tearing
+                           of the foot of the page. The restoration here proposed is only probable)
+                           |</p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n32/mode/1up"
+                                          >no. 183, p. 23</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-      </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <p><!--Body paragraph provided for validation and future transcription--></p>
