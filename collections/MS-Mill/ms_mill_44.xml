@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02626">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Mill 44</idno>
+                  <altIdentifier>
+                     <idno type="CSM">184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents n="1+1">
+                  <summary>
+                     A paper manuscript of books 1-7 of the <title xml:lang="sa" key="work_00204">Kumārasaṃbhava</title> of <name xml:lang="sa" key="person_00012">Kālidāsa</name>
+                     with the commentary <name xml:lang="sa" key="person_00180">Mallinātha</name>.
+                  </summary>
+                  
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+                  <msItem class="mūla">
+                    
+                     <locus from="1v" to="67r">Ff. 1v-67r</locus>
+                     
+                     <author key="person_00012">
+                        <persName xml:lang="sa" type="display">Kālidāsa</persName>
+                     </author>
+                     
+                     <title xml:lang="sa" key="work_00204">Kumārasaṃbhava</title>
+                     
+                     <incipit>
+                        <locus from="1v" to="1v">F. 1v</locus>
+                        asty utarasyāṃ diśi devatātmā himālayo nāma nagādhirājaḥ ||
+                     </incipit>
+                     
+                     <colophon>
+                        <locus from="67r" to="67r">F. 67r</locus>
+                        iti śrī kumārasaṃbhave mahākāvye kālidāsakṛtai saptama sargaḥ samāptam āgataḥ || <g>@</g> || <g>@</g> ||
+                        savata 1883 || miti bhādrasudī 5 ||
+                     </colophon>
+                  </msItem>
+                  
+                  <msItem class="commentary">
+                     <locus from="1v" to="67r">Ff. 1v-67r</locus>
+                     
+                     <author key="person_00180">
+                        <persName xml:lang="sa" type="display">Mallinātha</persName>
+                     </author>
+                     
+                     <title xml:lang="sa" key="work_00205">Kumāraṭikā
+                     <note>Title taken from the incipit.</note>
+                     </title>
+                     
+                     <rubric>
+                        <locus from="1v" to="1v">F. 1v</locus>
+                        oṃ śrī gaṇeśāya namaḥ ||
+                     </rubric>
+                     
+                     <incipit>
+                        <locus from="1v" to="1v">F. 1v</locus>
+                        atha kumāraṭikā likhyate || mātāpitṛbhyāṃ jagato namovāmārdha janaye ||
+                     </incipit>
+                     
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>Paper</support>
+                        <extent>
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity="67"> 67 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="33">33</height>
+                           <width quantity="16">16</width>
+                        </dimensions>
+                        </extent>
+                        
+                        <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right corner, verso.</foliation>
+                        
+                        <condition>
+                           <p>Complete books 1 through 7.</p>
+                           <p>In good condition.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                        <desc>Devanāgarī in black ink.</desc>
+                        <note>Highlights in red powder.</note>
+                     </handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     <p>Abbreviated marginal title on top-left and bottom-right margin.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1909">
+                        <p> Mid 19th-century brown <term type="material">marbled paper</term> binding over pasteboard, with shelfmark number and descriptions tooled in gold on the red <term type="material">leather</term>spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+                  
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate calendar="Vikrama" when="1883">savata [sic] 1883</origDate> / <origDate calendar="#gregorian" when="1827">A.D. 1827</origDate>
+                  <p>
+                     <locus from="67r" to="67r">f. 67r</locus>: savata 1883 <supplied>1827</supplied> miti bhādrasudī 5 |</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition>The collections of <persName key="person_00179" type="display">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+              
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, 
+                              <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n33/mode/1up">no. 184, p. 24</ref>
+                              </biblScope></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n33/mode/1up">no. 184, p. 24</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=131">no. 184, pp. 115-116</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-08-23">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

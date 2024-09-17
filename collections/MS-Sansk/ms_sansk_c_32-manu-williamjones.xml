@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02866">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. c. 32</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1483 (1, 2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno>Caps. Or. D. 25.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents n="4">
+                  <summary>A paper manuscript of the <title key="work_00025">Mānavadharmaśāstra</title> of <name key="person_00026">Manu</name>, 
+                     with interlinear Latin translation and various notes by <name key="person_00178">William Jones</name>.</summary>
+                  
+                  <msItem defective="unknown">
+                    <locus from="ii" to="iii">Ff. ii-iii</locus>
+                    
+                     <title type="desc">Various notes in English, Sanskrit, and Persian.</title>
+                    
+                     <author key="person_000178">
+                        <persName xml:lang="sa" type="display">William Jones</persName>
+                     </author>
+                     
+                     <textLang mainLang="en" otherLangs="sa fa">English with Sanskrit and Persian.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem class="mūla" defective="false">
+                     
+                     <locus from="1r" to="145r">Ff. 1r-145r</locus>
+                     
+                     <author key="person_00026">
+                        <persName xml:lang="sa" type="display">Manu</persName>
+                     </author>
+                     
+                     <title key="work_00025">Mānavadharmaśāstra</title>
+                     
+                     <rubric>
+                        <locus from="1r" to="1r">F. 1r</locus>:
+                        śrī gaṇādhipataye namaḥ śrī sarasvatyai namo namaḥ
+                     </rubric>
+                     
+                     <incipit>
+                        <locus from="1r" to="1r">F. 1r</locus>:
+                        svayaṃbhuve namaskṛtya brahmaṇemitatejase | manupraṇītānvividhāndharmānvaśyāmi śāśvatān || 1 ||
+                     </incipit>
+                     
+                     <colophon>
+                        <locus from="145r" to="145r">F. 145r</locus>:
+                        iti śrī mānavedharmmaśāstre bhṛgu proktāyāṃ saṃhitāyāṃ dvādaśodhyāyaḥ 12 śrīlālāmahatābarāyeṇa likhitaṃ śubham bhūyāt
+                     </colophon>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                 
+                  <msItem class="translation" defective="unknown">
+                    <locus from="1r" to="145r">Ff. 1r-145r</locus>
+                    
+                    <title type="desc">
+                       Interlinear translation in Latin, with occassional English and Persian words.
+                    </title>
+                    
+                    <note>
+                       Complete interlinear Latin translation continues until <locus from="1r" to="15r">f. 15r</locus>; after this only certain words are translated.
+                    </note>
+                    
+                    <author key="person_000178">
+                       <persName xml:lang="sa" type="display" role="trl">William Jones</persName>
+                    </author>
+                    
+                    <rubric>
+                       <locus from="1r" to="1r">F. 1r</locus>:
+                       Divo Semidcomm Domino Ganápati laus!  Dive Sareswatī laus! laus!
+                    </rubric>
+                    
+                    <incipit>
+                       <locus from="1r" to="1r">F. 1r</locus>:
+                       Per se existenti reverentia-data Brahmoe immense-splendido, á Menu composita divine varid jura officia edicam eterna.
+                    </incipit>
+                    
+                    <colophon>
+                       <locus from="145r" to="145r">F. 145r</locus>:
+                       finished 27 Nov. 1789. exerectia, in digestion the Sun, in procreation, BRAHMÁ.
+                    </colophon>
+                    
+                    <textLang mainLang="la" otherLangs="en fa">Latin with English and Persian.</textLang>
+                    
+                 </msItem>
+                  
+                  <msItem defective="unknown">
+                     <locus from="145v" to="146r">Ff. 145v-146r</locus>
+                     
+                     <title type="desc">Notes on the calculations of the length of a <term xml:lang="sa">yuga</term> in English and Sanskrit.</title>
+                     
+                     <author key="person_000178">
+                        <persName xml:lang="sa" type="display">William Jones</persName>
+                     </author>
+                     
+                     <textLang mainLang="en" otherLangs="sa">English with Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <p><material>Paper.
+                           <watermark>
+                              Three different watermarks:
+                              <term type="watermarkMotif">Strasburg lily</term>, <note type="variation">with initials LVG</note>;
+                              <term type="watermarkMotif">Letters</term>, <note type="variation">spelling the name <quote>I VILLEDARY</quote></note>;
+                                 and <term type="watermarkMotif">Letters</term>, <note type="variation">spelling the name <quote>C PATCH</quote></note>.
+                           </watermark>
+                           </material></p>
+                        </support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="3">iii</measure> + <measure
+                              type="leaf" quantity=" 153"> 153</measure>
+                           <dimensions type="binding"
+                              unit="cm">
+                              <height quantity="25">25</height>
+                              <width quantity="38">38</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals in black ink, top-left margin, verso.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                        <condition>
+                           <p>Complete.</p>
+                           <p>In good condition.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote n="1" scope="major" script="Devanāgarī" medium="black_ink_red_ink">
+                        <desc>Devanāgarī in black ink. <term xml:lang="sa">Adhyāya</term> headings and <term xml:lang="sa">daṇḍa</term>s in red ink.</desc>
+                        <desc>Scribe: 
+                                    <name type="person" role="scr" key="person_00182">
+                                       <persName xml:lang="sa" type="standard">Lālā Mahatābarāya
+                                       </persName>
+                                    </name>
+                                </desc>
+                     </handNote>
+                     <handNote n="2" scope="minor" medium="black_ink">
+                        <desc><name type="person" role="scr" key="person_00178">
+                           <persName xml:lang="en" type="display">William Jones
+                           </persName></name>'
+                        handwriting in black ink.</desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1792">
+                        <p> A late 18th or early 19th-century brown <term type="material">leather</term> binding over pasteboard, with shelfmark number tooled in gold on the spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1789"
+                        notAfter="1792">1789–1792 CE.</origDate>
+                     <note>
+                        A statement on <locus from="145r" to="145r">f. 145r</locus>: <quote>"finished <date>27 Nov. 1789</date>"</quote>
+                        gives probably the date at which the Sanskrit copy was finished. 
+                        The date <date>21 Nov. 1789</date> occurs at the end of <term xml:lang="sa">adhyāya</term> 11, <locus from="137v" to="137v">f. 137v</locus>. 
+                        An entry at the end of <term xml:lang="sa">adhyāya</term>1, <locus from="6v" to="6v">f. 6v</locus> says: <quote>"Read for the last time <date>12 March 1790</date>."</quote>
+                        In the margins of <locus>ff. 108r, 109v, 111r, and 111v</locus> the following dates occur: <date>18 Nov. 91</date>,<date>24 Nov. 91</date>, and <date>1 Dec.
+                           91,</date> hence the date <date>22 Febr</date> on <locus>f. 120</locus> must be meant
+                        for <date>22 Febr. 1792</date>. The translation and notes seem, therefore, to have been
+                           made between 1790 and 1792. <name key="person_00178">William Jones'</name> translation was published in <date>1792</date>.</note>
+                  </origin>
+                  
+                  <acquisition>
+                     Given in <date calendar="Gregorian">1833</date> by <name type="person" role="dnr" key="person_00183">
+                        <persName>Julius Hare</persName></name> and <name type="person" role="dnr" key="person_00184">
+                           <persName>Augustus Hare</persName></name> from <name key="person_00178">William Jones'</name> personal library. 
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up"
+                                       >no. 1483 (1, 2), pp.
+                              275-276</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up"
+                                 >no. 1483 (1, 2), pp. 275-276.</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               
+         </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-08-27">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

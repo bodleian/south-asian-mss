@@ -80,7 +80,7 @@
                     </msContents>
                     
                     <physDesc>
-                        <objectDesc form="pothi"> 
+                        <objectDesc form="pothī"> 
                             <supportDesc material="paper">
                                 <support>Paper.
                                     <p>
@@ -88,29 +88,22 @@
                                             <height quantity="17">17</height>
                                             <width quantity="39">39</width>
                                         </dimensions>
-                                        <!-- ALTERNATIVELY, if you give a range use the following pattern:-->
-                                        <!--<dimensions type="folio" scope="range" unit="cm">
-                                            <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                            <width atLeast="X" atMost="Y">ca. X-Y</width>
-                                        </dimensions>-->
-                                    </p>
+                                                                           </p>
                                 </support>
                                 
                                 <extent xml:id="folio" n="130"> 130 ff.</extent>
                                 
                                 <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top left and mid-right margin, verso.</foliation>
                                 
-                                <!--the following element contains free text; however, stick to the set phrases as far as possible!-->
                                 <condition>
-                                    Complete, in good condition.
+                                    <p>Complete.</p>
+                                    <p>In good condition.</p>
                                 </condition>
                             </supportDesc>
                             
                             <layoutDesc>
                                 <layout columns="1" writtenLines="14" type="commentary"  style="tripāṭha">
-                                    <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-->
-                                    
+                                                                       
                                     <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">mūla</term> cited in full.
                                     </note>
                                     
@@ -182,17 +175,13 @@
                     <history>
                         <origin>
                             <date calendar="Gregorian" notBefore="1800" notAfter="1885">Probably early 19th cent.</date>
-                            <!--<origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
-                        </origin>
+                           </origin>
                         <provenance>Presented by 
                             <name type="person" subtype="dnr" key="local_00126">
                                 <persName type="standard" xml:lang="en">Law, J. S.</persName>
                                 <persName type="display" xml:lang="en">Major J. S. Law</persName></name> in <date calendar="Gregorian" when="1885">August 1885</date>.
                         </provenance>
-                        <!--<acquisition>
-                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>-->
-                    </history>
+                         </history>
                     
                     <additional>
                         <adminInfo>
