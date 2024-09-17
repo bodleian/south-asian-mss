@@ -4690,6 +4690,51 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00220">
+                    <title type="uniform" xml:lang="sa">Udyogaparvan</title>
+                    <title type="display" xml:lang="sa">Udyogaparvan</title>
+                    <title type="variant" xml:lang="sa">Udyogaparva</title>
+                    <idno type="VIAF">181445914</idno>
+                    <idno type="local">00220</idno>
+                    <idno type="PANDIT">112267</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/181445914/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/112267/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00221">
+                    <title type="uniform" xml:lang="sa">Bhīṣmaparvan</title>
+                    <title type="display" xml:lang="sa">Bhīṣmaparvan</title>
+                    <idno type="VIAF"></idno>
+                    <idno type="local">00221</idno>
+                    <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
             </listBibl>
         </body>
     </text>

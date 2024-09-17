@@ -45,44 +45,154 @@
                   <altIdentifier>
                      <idno type="CSM">1275</idno>
                   </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno type="shelfmark">No. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno type="shelfmark">K 50</idno>
+                  </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Hitopadeśa, 17th cent.?</head>
-               <msContents>
-                  <summary source="#WinternitzKeith1905">Fragments of the Hitopadeśa</summary>
-                  <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
+               
+               <msContents n="2">
+                  <summary>A fragmentary birch-bark manuscript of the <title key="work_00132">Hitopadeśa</title>, written in Śāradā script.
+                   </summary>
+                                    
+                  <msItem n="1">
+                     
+                     <locus from="iii" to="iii">F. iii</locus>
+                     
+                     <title type="desc">A modern, hand-written catalogue card in German in black ink.</title>
+                     
+                     <textLang mainLang="de">German.</textLang>
                      
                   </msItem>
+                  
+                  <msItem n="2">
+                     
+                     <locus from="2" to="61">Ff. 2r-61v</locus>
+                     
+                     <title key="work_00132" type="main">Hitopadeśa</title>
+                                                           
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                     <msItem n="2.1">
+                        
+                        <locus from="2" to="2">F. 2</locus>
+                        
+                        <title type="sub">Prastāvanā</title>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.2">
+                        
+                        <locus from="5" to="22">Ff. 5-22</locus>
+                        
+                        <title type="sub">Mitralābha</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="5" to="5">F. 5r:</locus>
+                           jñānabhāraḥ kriyā […] ārātmake viśvāsaḥ kṛtaḥ tathāpy uktam
+                        </incipit>
+                        
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="22" to="22">F. 22:</locus>
+                           iti Hitopadeśe nītiśāstropadeśe mitralābho nāma prathamaḥ kathā
+                        </explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.3">
+                        
+                        <locus from="23" to="57">Ff. 23-57v</locus>
+                        
+                        <title type="sub">Vigraha</title>
+                                     
+                     </msItem>
+                     
+                     <msItem n="2.4">
+                        
+                        <locus from="60" to="61">Ff. 60-61</locus>
+                        
+                        <title type="sub">Sandhi</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="60" to="60">F. 60:</locus>
+                           stān matsyān ekaikaśo nītvābhakṣayat ǁ anantaraṃ kulīraḥ tam uvāca | 
+                        </incipit>
+                        
+                     </msItem>
+                     
+                  </msItem>
+                  
                </msContents>
+               
                <physDesc>
-                  <objectDesc form="pothī">
-                     <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Birch bark.</support>
-                        <extent source="#WinternitzKeith1905">
+                  <objectDesc form="codex">
+                     <supportDesc material="birch_bark">
+                        <support>Birch bark.</support>
+                        <extent>
                            <measure type="laterEndleaf" quantity="4">iv</measure>
-                           + <measure type="leaf" quantity=" 63"> 63</measure><dimensions type="binding" unit="cm">
+                           + <measure type="leaf" quantity=" 63"> 63</measure>
+                           
+                           <dimensions type="binding" unit="cm">
                            <height quantity="20.6">20.6</height>
                            <width quantity="19.1">19.1</width>
                         </dimensions>
+                           
                         </extent>
-                     <condition source="#WinternitzKeith1905">of ff. 2, 61 only fragments are left; ff. 5–21, 40, 41, 57 are seriously, and ff. 22–33, 39, 42 are slightly damaged.</condition></supportDesc>
-                  </objectDesc>
-                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śaradā.</desc></handNote></handDesc>
+                        
+                        <foliation n="1" style="digit">Arabic numerals in pencil, top-right corner, recto.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right corner, recto.</foliation>
+                        <foliation n="3" style="digit">Arabic numerals in pencil, mid-right corner, recto.</foliation>
+                        <foliation n="4" style="numeral" rend="Śāradā">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                        
+                     <condition>
+                        <p>Incomplete. Ff. <locus from="1" to="1">1</locus>,  <locus from="3" to="4"> 3-4</locus>, and <locus from="58" to="58">58</locus> missing.</p>
+                        <p>Ff. <locus from="2" to="2">2</locus> and <locus from="61" to="61">61</locus> are fragmentary.</p>
+                        <p>Ff. <locus from="5" to="33">5-33</locus>, <locus from="39" to="42">39-42</locus>, and <locus from="57" to="57">57</locus> are damaged. Conserved and stabilised.</p>
+                     </condition>
+                     </supportDesc>
+                    </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                        <desc>Śāradā in black ink.
+                        </desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     <p>Abbreviated marginal title on bottom-left margin, verso.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1909">
+                        <p> Late 19th-century or early 20th-century red <term type="material">textile</term> binding over pasteboard, with shelfmark and title tooled in gold on the spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+                                    
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600" notAfter="1699">17th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">probably first half of the 17th century.</p></origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600" notAfter="1699">17th cent.? CE.</origDate>
+                  <p> <q source="#WinternitzKeith1905">Probably first half of the 17th century.</q></p></origin>
+                  
                   <provenance>
+                     Former owner's shelfmark: <q type="shelfmark">No. 117</q> written in red ink on <locus from="iv" to="iv">f. iv</locus>.
+                     <p>Memorandum <q>K. 50</q> written in black ink on <locus from="iv" to="iv">f. iv</locus>.</p>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from Dr. Eugen Hultzsch (MS. 117). Memorandum on original wrapper (f. iv), ‘K 50.’</acquisition>
+                  
+                  <acquisition source="#WinternitzKeith1905">Bought in <date calendar="Gregorian">1887</date> from <name type="person" role="fmo" key="person_00177">
+                     <persName>Eugen Hultzsch</persName></name>.                     
+                  </acquisition>
+                  
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
                            <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n215/mode/1up">no. 1275, pp. 184-185</ref></biblScope></bibl></listBibl>
@@ -101,6 +211,12 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-09-17">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+      
       </teiHeader>
    <text>
       <body>
