@@ -4075,6 +4075,30 @@
                     </note>
                 </person>
                 
+                <person xml:id="person_00194">
+                    <persName type="standard" xml:lang="sa">Nārāyaṇa</persName>
+                    <persName type="display" xml:lang="sa">Nārāyaṇa</persName>
+                    <persName type="variant" xml:lang="sa">Sarvajña</persName>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00194</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!--<note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/5038292/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/97237/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>A commentator of the <title key="work_00220">Bhāratārthaprakāṣa</title>, the commentary on the <title key="work_00220">Udyogaparvan</title> of the <title key="work_00071">Mahābhārata</title>.</note>
+                </person>
+                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

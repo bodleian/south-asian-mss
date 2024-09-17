@@ -47,46 +47,127 @@
                   </altIdentifier>
                </msIdentifier>
                
-               <msContents>
-                  <summary>A paper manuscript of the 
-                     
+               <msContents n="1+1">
+                  <summary>A paper manuscript of the <title key="work_00220">Udyogaparvan</title> of the <title key="work_00071">Mahābhārata</title> 
+                     with the commentary of <name key="person_00194">Nārāyaṇa</name>, called <title xml:lang="sa" key="work_00222">Bhāratārthaprakāṣa</title>.
                   </summary>
-                  <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
+                  
+                  <msItemStruct n="2">
                      
-                  </msItem>
+                     <msItemStruct class="mūla" defective="false">
+                        
+                        <locus from="1v" to="309r">Ff. 1v-309r</locus>
+                        
+                        <title xml:lang="sa" key="work_00220">Udyogaparvan</title>
+                        
+                        <rubric>
+                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           śrī guru gopāla gaurī gaṇayavityaḥ ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           lakṣmībhartruḥ prasarpyatapadakamalabhuvaḥ
+                        </incipit>
+                        
+                        
+                   
+                        <textLang mainLang="sa">Sanskrit.</textLang>     
+                     
+                     </msItemStruct>
+                     
+                     <msItemStruct class="commentary" defective="false">
+                        
+                        <author>
+                           <name type="person" subtype="cmm" key="person_00194">
+                              <persName xml:lang="sa" type="display">Nārāyaṇa</persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key="work_00222">Bhāratārthaprakāṣa</title>
+                        
+                        
+                        <incipit>
+                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           nārāyaṇasya viśadāḥ sarvajñasyātra bhāratavyāsyāḥ | ākalayatrastu jano bhāratatatvārya sarvajñaḥ ||
+                        </incipit>
+                        
+                        
+                        <colophon>
+                           <locus from="308v" to="309r" >F. 1v:</locus>
+                           iti śrīmahābhārateṛtasādsprāṃsaṃhitāyāṃ vaiyāsikyāmuvogayarvasamālam iti ||
+                           avaparvaṇyamīnvatrātāḥ || rājñāṃdhataprasvā || 
+                        </colophon>
+                        
+                        <textLang mainLang="sa">Sanskrit.</textLang>
+                        
+                     </msItemStruct>
+                  </msItemStruct>
+                                         
+                               
                </msContents>
+               
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
-                        <support>Paper</support>
+                        <support>Paper.</support>
                         <extent source="#Keith1909">
-                           <measure type="laterEndleaf"/>
-                           + <measure type="leaf"> </measure>
-                           + <measure type="laterEndleaf"/>
+                           <measure type="laterEndleaf" n="2">ii</measure>
+                           + <measure type="leaf" n="309">309</measure>
+                           + <measure type="laterEndleaf" n="2">ii</measure>
 
                         <dimensions type="binding" unit="cm">
                            <height quantity="41.9">41.9</height>
                            <width quantity="22.9">22.9</width>
                         </dimensions>
                         </extent>
+                        
+                        
+                        <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals in black ink, top-left and bottom-right margin, verso.</foliation>
+                        <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, verso.</foliation>
+
+                        <condition>
+                           <p>Complete.</p>
+                           <p>In good condition.</p>
+                        </condition>
+                        
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc></handNote></handDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                        <desc>Devanāgarī in black ink. Vertical ruling in red ink.</desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     <p>Abbreviated marginal title on top-left and bottom-right margin.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1909">
+                        <p> Late 19th-century red <term type="material">textile</term> binding over pasteboard, with title tooled in gold on the spine. Number 131 tooled and painted in white on the spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+                  
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1899">18th and 19th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1899">Not dated. <q source="#Keith1909">18th and 19th cent.?</q></origDate>
                   </origin>
-                  <provenance>
-                  </provenance>
-                  <acquisition source="#Keith1909">The collections of <persName key="person_13088323">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+                  
+                  <acquisition source="#Keith1909">
+                     The collections of 
+                     <persName key="person_00179">William Hodge Mill</persName> were purchased by the Bodleian Library in <date>1849</date> and <date>1858</date>.
+                  </acquisition>
+               </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
                            <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n11/mode/1up">no. 14, 15, pp. 2-3</ref></biblScope></bibl></listBibl>
