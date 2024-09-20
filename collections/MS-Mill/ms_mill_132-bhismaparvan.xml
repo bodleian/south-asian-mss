@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02608">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03303">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,103 +41,135 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection/>
-                  <idno type="shelfmark">MS. Mill 131</idno>
+                  <idno type="shelfmark">MS. Mill 132</idno>
                   <altIdentifier>
-                     <idno type="CSM">14</idno>
+                     <idno type="CSM">15</idno>
                   </altIdentifier>
                </msIdentifier>
                
-               <msContents n="1+1">
-                  <summary>A paper manuscript of the <title key="work_00220">Udyogaparvan</title> of the <title key="work_00071">Mahābhārata</title> 
-                     with the commentary of <name key="person_00194">Nārāyaṇa</name>, called <title xml:lang="sa" key="work_00222">Bhāratārthaprakāṣa</title>.
+               <msContents n="2+1">
+                  <summary>A paper manuscript of the <title key="work_00221">Bhīṣmaparvan</title> of the <title key="work_00071">Mahābhārata</title> 
+                     with the commentary of <name key="person_00195">Arjunamiśra</name>, called <title xml:lang="sa" key="work_00223">Bhāratārthadīpikā</title>.
                   </summary>
                   
-                  <msItemStruct n="2">
+                  <msItem>
+                     <locus from="1r" to="1r">F. 1r</locus>
                      
-                     <msItemStruct class="mūla" defective="false">
+                     <title type="desc">A modern hand-written description of the item in black ink</title>
+                     
+                     <note>Paper note glued onto the original page.</note>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                     
+                  <msItem class="mūla" defective="false">
                         
-                        <locus from="1v" to="309r">Ff. 1v-309r</locus>
+                        <locus from="1v" to="311r">Ff. 1v-311r</locus>
                         
-                        <title xml:lang="sa" key="work_00220">Udyogaparvan</title>
+                        <title type="main" key="work_00071">Mahābhārata</title>
+                        
+                        <title xml:lang="sa" key="work_00221" type="sub">Bhīṣmaparvan</title>
                         
                         <rubric>
                            <locus from="1v" to="1v" >F. 1v:</locus>
-                           śrī guru gopāla gaurī gaṇayavityaḥ ||
+                           oṃ namaḥ śrī guru gauyāla gauḍī gaṇapatibhyaḥ ||
                         </rubric>
                         
                         <incipit>
                            <locus from="1v" to="1v" >F. 1v:</locus>
-                           lakṣmībhartruḥ prasarpyatapadakamalabhuvaḥ
+                        oṃ nārāyaṇāṃ namaskṛtya naraṃ vaivanarotramaṃ ||  
                         </incipit>
                         
-                        
-                   
                         <textLang mainLang="sa">Sanskrit.</textLang>     
+                        
+                     </msItem>
                      
-                     </msItemStruct>
-                     
-                     <msItemStruct class="commentary" defective="false">
+                     <msItem class="commentary" defective="false">
                         
                         <author>
-                           <name type="person" subtype="cmm" key="person_00194">
-                              <persName xml:lang="sa" type="display">Nārāyaṇa</persName>
+                           <name type="person" subtype="cmm" key="person_00195">
+                              <persName xml:lang="sa" type="display">Arjunamiśra</persName>
                            </name>
                         </author>
                         
-                        <title xml:lang="sa" key="work_00222">Bhāratārthaprakāṣa</title>
+                        <title xml:lang="sa" key="work_00223">Bhāratārthadīpikā</title>
                         
+                        <rubric>
+                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           oṃ namas tābhyāṃ nama ||  
+                        </rubric>
                         
                         <incipit>
                            <locus from="1v" to="1v" >F. 1v:</locus>
-                           nārāyaṇasya viśadāḥ sarvajñasyātra bhāratavyāsyāḥ | ākalayatrastu jano bhāratatatvārya sarvajñaḥ ||
+                         śrī kṛśṇācaraṇau natvā kṛṣṇadvaipāyanaṁ tataḥ | 
+                         saṃtoṣāya satāṃ bhīṣmaparva vyākhyāyate mayā || 
                         </incipit>
-                        
-                        
+                       
                         <colophon>
-                           <locus from="308v" to="309r" >F. 1v:</locus>
-                           iti śrīmahābhārateṛtasādsprāṃsaṃhitāyāṃ vaiyāsikyāmuvogayarvasamālam iti ||
-                           avaparvaṇyamīnvatrātāḥ || rājñāṃdhataprasvā || 
+                           <locus from="311r" to="311r" >F. 311r:</locus>
+                           || iti śrīmahābhārate bhīṣmaparvaṇi samāptam iti ||
+                           || vaṃśāvibhūṣitakarānnavanīradābhātyitāṃ barādaruṇabiṃbakalādharoṣṭāt ||
+                           pūrṣairusuṃdaramukhādarabiṃdanettān kṛṣṇāt paraṃkimayitatvam ahaṃ najāne ||2||
                         </colophon>
                         
                         <textLang mainLang="sa">Sanskrit.</textLang>
-                        
-                     </msItemStruct>
-                  </msItemStruct>
-                                         
-                               
+                     </msItem>
                </msContents>
                
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
-                        <support>Paper.</support>
+                        <support>Paper</support>
                         <extent source="#Keith1909">
                            <measure type="laterEndleaf" n="2">ii</measure>
-                           + <measure type="leaf" n="309">309</measure>
-                           + <measure type="laterEndleaf" n="2">ii</measure>
+                           + <measure type="leaf" n="311">311</measure>
+                           + <measure type="laterEndleaf" n="2">2</measure>
+                           
+                           
 
-                        <dimensions type="binding" unit="cm">
-                           <height quantity="41.9">41.9</height>
-                           <width quantity="22.9">22.9</width>
-                        </dimensions>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="42">42</height>
+                              <width quantity="21">21</width>
+                           </dimensions>
+                           
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="40">40</height>
+                              <width quantity="17">17</width>
+                           </dimensions>
+                           
                         </extent>
-                        
                         
                         <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals in black ink, top-left and bottom-right margin, verso.</foliation>
                         <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, verso.</foliation>
-
-                        <condition>
-                           <p>Complete.</p>
-                           <p>In good condition.</p>
-                        </condition>
                         
+                           <condition>
+                              <p>Complete.</p>
+                              <p>In good condition.</p>
+                           </condition>
+                           
+                           
                      </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout columns="1" type="commentary"  style="tripāṭha">
+                           
+                           <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">mūla</term> cited in full.
+                           </note>
+                           
+                        </layout>
+                     </layoutDesc>
+                     
                   </objectDesc>
+                  
+                  
                   
                   <handDesc>
                      <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
                         <desc>Devanāgarī in black ink. Vertical ruling in red ink.</desc>
+                        <desc> Highlighted in red powder.</desc>
                      </handNote>
+                     
                   </handDesc>
                   
                   <additions>
@@ -146,12 +178,12 @@
                   
                   <bindingDesc>
                      <binding notBefore="1909">
-                        <p> Late 19th-century red <term type="material">textile</term> binding over pasteboard, with title tooled in gold on the spine. Number 131 tooled and painted in white on the spine.
+                        <p> Late 19th-century red <term type="material">textile</term> binding over pasteboard, with title tooled in gold on the spine. Number 133 tooled and painted in white on the spine.
                            Cardboard cover box.</p>
                      </binding>
                   </bindingDesc>
                   
-
+                  
                </physDesc>
                <history>
                   <origin>
@@ -168,7 +200,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
-                           <listBibl>
+                        <listBibl>
                               <bibl><ref/></bibl>
                            <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n11/mode/1up">no. 14, 15, pp. 2-3</ref></biblScope></bibl></listBibl>
                         </source>
@@ -186,6 +218,12 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-09-20">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      
       </teiHeader>
    <text>
       <body>

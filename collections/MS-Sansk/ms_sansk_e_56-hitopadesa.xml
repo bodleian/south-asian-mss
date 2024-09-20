@@ -61,9 +61,9 @@
                      
                      <locus from="iii" to="iii">F. iii</locus>
                      
-                     <title type="desc">A modern, hand-written catalogue card in German in black ink.</title>
+                     <title type="desc">A modern, hand-written catalogue card in German and Sanskrit in black ink.</title>
                      
-                     <textLang mainLang="de">German.</textLang>
+                     <textLang mainLang="de" otherLangs="sa">German with Sanskrit.</textLang>
                      
                   </msItem>
                   
@@ -79,7 +79,7 @@
                         
                         <locus from="2" to="2">F. 2</locus>
                         
-                        <title type="sub">Prastāvanā</title>
+                        <title key="work_00132" type="sub">Prastāvanā</title>
                         
                      </msItem>
                      
@@ -87,7 +87,7 @@
                         
                         <locus from="5" to="22">Ff. 5-22</locus>
                         
-                        <title type="sub">Mitralābha</title>
+                        <title key="work_00132" type="sub">Mitralābha</title>
                         
                         <incipit source="#WinternitzKeith1905">
                            <locus from="5" to="5">F. 5r:</locus>
@@ -105,7 +105,7 @@
                         
                         <locus from="23" to="57">Ff. 23-57v</locus>
                         
-                        <title type="sub">Vigraha</title>
+                        <title key="work_00132" type="sub">Vigraha</title>
                                      
                      </msItem>
                      
@@ -113,7 +113,7 @@
                         
                         <locus from="60" to="61">Ff. 60-61</locus>
                         
-                        <title type="sub">Sandhi</title>
+                        <title key="work_00132" type="sub">Sandhi</title>
                         
                         <incipit source="#WinternitzKeith1905">
                            <locus from="60" to="60">F. 60:</locus>
@@ -135,8 +135,8 @@
                            + <measure type="leaf" quantity=" 63"> 63</measure>
                            
                            <dimensions type="binding" unit="cm">
-                           <height quantity="20.6">20.6</height>
-                           <width quantity="19.1">19.1</width>
+                           <height quantity="21">21</height>
+                           <width quantity="19">19</width>
                         </dimensions>
                            
                         </extent>
@@ -155,7 +155,7 @@
                     </objectDesc>
                   
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                     <handNote scope="sole" script="Śāradā" medium="black_ink">
                         <desc>Śāradā in black ink.
                         </desc>
                      </handNote>
