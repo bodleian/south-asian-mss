@@ -61,7 +61,8 @@
                 
                 <person xml:id="person_00002">
                     <persName type="standard" xml:lang="en">Johnston, E.H.</persName>
-                    <persName type="display" xml:lang="en">Prof E.H. Johnston</persName>
+                    <persName type="display" xml:lang="en">E.H. Johnston</persName>
+                    <persName type="variant" xml:lang="en">Prof E.H. Johnston</persName>
                     <idno type="VIAF">89804438</idno>
                     <idno type="local">00002</idno>
                     <note type="links">
@@ -144,7 +145,8 @@
                 
                 <person xml:id="person_00007">
                     <persName type="standard" xml:lang="sa">Chandra Shamsher Jang Bahadur Rana</persName>
-                    <persName type="display" xml:lang="sa">Chandra Shum Sher</persName>
+                    <persName type="display" xml:lang="sa">Mahārāja Chandra Shamsher Jang Bahadur Rana</persName>
+                    <persName type="variant" xml:lang="sa">Chandra Shum Sher</persName>
                     <idno type="VIAF">42700590</idno>
                     <idno type="local">00007</idno>
                     <note type="links">
@@ -4119,9 +4121,34 @@
                             </item>
                         </list>
                     </note>-->
-                    <note>The commentatorthe <title key="work_00071">Mahābhārata</title>.</note>
+                    <note>The commentator of the <title key="work_00071">Mahābhārata</title>.</note>
                 </person>
                 
+                
+                <person xml:id="person_00196">
+                    <persName type="standard" xml:lang="sa">Walker, Alexander</persName>
+                    <persName type="display" xml:lang="sa">Alexander Walker</persName>
+                    <idno type="VIAF">6270294</idno>
+                    <idno type="local">00196</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/6270294/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                               
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                     <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>

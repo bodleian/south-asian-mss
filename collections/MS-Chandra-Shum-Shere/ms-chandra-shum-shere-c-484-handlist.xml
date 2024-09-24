@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>[Name of cataloguer]</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Library</publisher>
+                <date calendar="#Gregorian">[Date when first made available]</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine>
+                            <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+                <idno></idno>
+                <idno type="msID"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno type="shelfmark">MS. Chandra Shum Shere c. 484</idno>
+                    </msIdentifier>
+                    
+                    <msContents n="1">
+                        
+                        <summary>
+                            An Index Catalogue of MSS. Chandra Shum Shere collection, begun by <persName key="person_00010" type="display">Thomas Gambier-Parry</persName> 
+                            and completed by <persName key="person_00002" type="display">E. H. Johnston</persName>. MSS listed by work, in alphabetical order. 
+                        </summary>
+                        
+                        <msItem defective="false">
+                            
+                            <locus from="2r" to="345r">Ff. 2r-345r</locus>
+                       
+                        <title type="desc">Index Catalogue of MSS. Chandra Shum Shere</title>
+                             
+                            <author key="person_00010">
+                                <persName xml:lang="en" type="display" subtype="aut">Thomas Gambier-Parry</persName>
+                            </author>
+                            
+                            <author key="person_00002">
+                                <persName xml:lang="en" type="display" subtype="aut">E. H. Johnston</persName>
+                            </author>
+                       
+                        <textLang mainLang="en" otherLangs="sa">Predominantly in English and Sanskrit.</textLang>
+                            
+                        </msItem>
+                                                
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>Ruled paper.</support>
+                                <extent>
+                                    <measure type="leaf" quantity="344">344 ff.</measure>
+                                    
+                                    <dimensions type="leaf" unit="cm">
+                                        <height quantity="33.5">33.5</height>
+                                        <width quantity="20.9">20.9</width>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation style="digit">Library foliation in Arabic numerals in pencil, top-right margin on recto and top-left margin on verso.</foliation>
+                                
+                            </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote n="1" medium="black_ink">Written predominantly by <persName key="person_00010" type="display">Thomas Gambier Parry</persName> in black ink.</handNote>
+                            <handNote n="2">Corrections and additions, especially towards the end of the manuscript, by <persName key="person_00002" type="display">E. H. Johnston</persName>. </handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="#gregorian" from="1909" to="1942">Compiled between 1909 and 1942.</origDate>
+                            <origPlace key="place_00012">Oxford</origPlace>.
+                        </origin>
+                        
+                        <acquisition>The MSS. Chandra Shum Shere collection was donated by <name type="person" role="dnr" key="person_00030">
+                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
+                                    Jang Bahadur Rana</persName></name> in <date
+                                    calendar="Gregorian" when="1909">1909</date>.
+                        </acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            
+                            <availability status="restricted">
+                                <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                            </availability>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2024-09-24">
+                <persName>Barbora Sojkova</persName> modified this entry.</change>
+        </revisionDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>

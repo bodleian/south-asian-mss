@@ -162,24 +162,7 @@
                     </note>
                     <note></note>
                 </place>
-                
-                <place xml:id="place_0000X">
-                    <placeName xml:lang="en" type="index">Gujarāt</placeName>
-                    <placeName xml:lang="sa" type="original">Gujarāt</placeName>
-                    <idno type="GETTY"></idno>
-                    <idno type="local">0000X</idno>
-                    <note type="links">
-                        <list type="links">
-                            <item>
-                                <ref target="http://vocab.getty.edu/page/tgn/0000000">
-                                    <title>GETTY</title>
-                                </ref>
-                            </item>
-                        </list>
-                    </note>
-                    <note></note>
-                </place>
-                
+                             
                 <place xml:id="place_00011">
                     <placeName xml:lang="sa" type="index">Alarkapura</placeName>
                     <placeName xml:lang="sa" type="original">Alarkapura</placeName>
@@ -195,6 +178,23 @@
                         </list>
                     </note>-->
                     <note>Village near Allahabad.</note>
+                </place>
+                
+                <place xml:id="place_00012">
+                    <placeName xml:lang="en" type="index">Oxford</placeName>
+                    <placeName xml:lang="sa" type="original">Oxford</placeName>
+                    <idno type="GETTY">7011931</idno>
+                    <idno type="local">00012</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://vocab.getty.edu/page/tgn/7011931">
+                                    <title>GETTY</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
                 </place>
                 
                 <!--<place>
