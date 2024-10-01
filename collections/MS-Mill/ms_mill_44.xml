@@ -169,6 +169,10 @@
                            </listBibl>
                         </source>
                      </recordHist>
+                     
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
                   </adminInfo>
                   
                   <listBibl type="WRAPPER">
@@ -176,6 +180,7 @@
                         <head>Printed descriptions:</head>
                      <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n33/mode/1up">no. 184, p. 24</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=131">no. 184, pp. 115-116</ref></biblScope></bibl></listBibl>
                   </listBibl>
+                  
                </additional>
             </msDesc>
          </sourceDesc>

@@ -4148,6 +4148,79 @@
                     <note></note>
                 </person>
                 
+                
+                <person xml:id="person_00197">
+                    <persName type="standard" xml:lang="sa">Aufrecht, Theodor</persName>
+                    <persName type="display" xml:lang="sa">Theodor Aufrecht</persName>
+                    <idno type="VIAF">63994971</idno>
+                    <idno type="local">00197</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/63994971/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00198">
+                    <persName type="standard" xml:lang="sa">Bhābhūrāmakī</persName>
+                    <persName type="display" xml:lang="sa">Bhābhūrāmakī</persName>
+                    <persName type="variant" xml:lang="sa">Bhābhūrāmakin</persName>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00198</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                   <!-- <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        <!--</list>
+                    </note>-->
+                    <note>The scribe of <idno type="shelfmark">MS Mill 112</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00199">
+                    <persName type="standard" xml:lang="sa">Ahanakuṇḍa</persName>
+                    <persName type="display" xml:lang="sa">Ahanakuṇḍa</persName>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00199</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!-- <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                    <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                    <!--</list>
+                    </note>-->
+                    <note>The scribe of <idno type="shelfmark">MS Sansk. a. 7</idno>.</note>
+                </person>
+                
+                
+                
                                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>

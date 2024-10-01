@@ -47,14 +47,14 @@
                   </altIdentifier>
                </msIdentifier>
              
-               <head>A manuscript consisting of five separately foliated manuscript works on Sanskrit Epics, bound together with miniatures.</head>
+               <head>A paper manuscript consisting of five separately foliated texts from the <title key="work_00071" xml:lang="sa">Mahābhārata</title> and the <title key="work_00179" xml:lang="sa">Pañcaratna</title>, bound together with six miniatures.</head>
                
            <physDesc>
             <objectDesc form="codex">
                <supportDesc>
                   <support>Paper.</support>
                  
-                  <extent source="#Keith1909">
+                  <extent>
                      <measure type="laterEndleaf" quantity="3">iii</measure>
                      + <measure type="leaf" quantity=" 229 "> 229 </measure>
                      + <measure type="laterEndleaf" quantity="5">v</measure>. 
@@ -100,15 +100,19 @@
             </objectDesc>
                   
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                     <handNote scope="major" script="Devanāgarī" medium="black_ink">
                         <desc>Devanāgarī in black and red ink. </desc>
+                        <desc>The scribe might be identical to the the scribe of <idno type="shelfmark">MS. Mill 112</idno>.</desc>
+                     </handNote>
+                     <handNote scope="minor" medium="black_ink">
+                        <desc><locus from="196" to="196">F. 196</locus> contains a manuscript note in black ink in modern hand, most likely of the cataloguer <persName key="person_00197">Theodor Aufrecht</persName>.</desc>
                      </handNote>
                   </handDesc>
               
               <additions>
                  <p>Marginal notes in a different hand.</p>
                  <p>Abbreviated marginal title on top-left margin, verso.</p>
-              </additions>
+                 </additions>
               
               <bindingDesc>
                  <binding notBefore="1900">
@@ -128,16 +132,27 @@
          
          <additional>
             <adminInfo>
+               <recordHist>
+                  <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                  <listBibl>
+                     <bibl><ref/></bibl>
+                     <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, 
+                          <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl>
+                     <bibl source="#Aufrecht1864">Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=20">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 27, pp. 3-4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 36, p. 5</ref></biblScope></bibl>
+                  </listBibl>
+                  </source>
+               </recordHist>
                <availability status="restricted">
                   <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
                </availability>
             </adminInfo>
             
-               <listBibl type="WRAPPER">
-               <listBibl type="PRINT">
-                  <head>Printed descriptions:</head>
-                  <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=20">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 27, pp. 3-4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 36, p. 5</ref></biblScope></bibl></listBibl>
-            </listBibl>
+            <listBibl type="WRAPPER">
+            <listBibl type="PRINT">
+               <head>Printed descriptions:</head>
+               <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl>
+               <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=20">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 27, pp. 3-4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 36, p. 5</ref></biblScope></bibl></listBibl>
+               </listBibl>
          </additional>
                                             
                <msPart>
@@ -319,7 +334,7 @@
                   <physDesc>
                      <objectDesc>
                      <supportDesc>
-                        <foliation><locus from="183" to="183b">F. 183b</locus> is incorrectly foliated, resulting in a correction.</foliation>
+                        <foliation><locus from="183" to="183b">F. 183</locus> is incorrectly used twice, resulting in a correction to 183b.</foliation>
                      </supportDesc>
                      </objectDesc>
                      
@@ -362,29 +377,50 @@
                   </msIdentifier>
               
                   
-                  <msContents>
+                  <msContents n="1">
                      
-                     <summary>A paper manuscript of the <title key="work_00226" xml:lang="sa">Vaiṣṇavī Anusmṛiti</title>.</summary>
-                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <summary>A paper manuscript of the <title key="work_00226" xml:lang="sa">Vaiṣṇavī Anusmṛti</title>.</summary>
+                    
                      
                      <msItem>
-                        <locus from="184" to="199">Ff. 184-199</locus>
-                        <title key="work_00226" xml:lang="sa">Vaiṣṇavī Anusmṛiti</title>
+                        <locus from="185r" to="199r">Ff. 185r-199r [f. 1r-(13v) in original foliation]</locus> 
+                        
+                        <note>
+                           <locus from="196" to="196">F. 196</locus>
+                           Blank folio. Containts a note <q>Nihil deest dei folium hint post foll. 183. transpositum est. T. A.</q>.
+                        </note>
+                        
+                        <title key="work_00226" xml:lang="sa">Vaiṣṇavī Anusmṛti</title>
+                        
+                        <rubric>
+                           <locus from="185r" to="185r">F. 185r [f. 1r in original foliation]:</locus>
+                           oṃ namo nārāyaṇaya ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="185r" to="185r">F. 185r [f. 1r in original foliation]:</locus>
+                           śatanīka uvāca ||
+                        </incipit>
+                        
+                        <colophon>
+                           <locus from="199r" to="199r">F. 199r [f. (13)v in original foliation]:</locus>
+                        iti śrī mahābhārate śatasahasrasaṃhitāyāṃ viṣṃudharmotare anusmṛtya samāptaḥ || rāma || rāma
+                        </colophon>
+                        
+                     
+                        <textLang mainLang="sa">Sanskrit</textLang>
                      </msItem>
                      
                   </msContents>
-                  
-                  <physDesc>
-                     <handDesc>
-                        <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                           <desc>Devanāgarī in black ink. </desc>
-                        </handNote>
-                     </handDesc>
-                     
-                     <decoDesc>
-                        <decoNote>Picture on f. 184</decoNote>
-                     </decoDesc>
-                  </physDesc>
+                     <physDesc>
+                        <decoDesc>
+                           <decoNote type="miniature">
+                              <locus from="200v" to="200v">F. 200v:</locus>
+                              Miniature depicting Viṣṇu with Garuḍa and a white elephant with a left front leg being eaten by a fish, and holding a lotus flower in the trunk. 
+                              Framed in a gold panel with pink lotus flowers and foliage.
+                           </decoNote>
+                        </decoDesc>
+                     </physDesc>
                   
                   <history>
                      <origin>
@@ -418,26 +454,30 @@
                      
                      
                      <msItem>
-                        <locus from="184" to="199"></locus>
+                        <locus from="202r" to="229r">Ff. 202r-229r [ff. 1r-28r in original foliation]</locus>
+                        
                         <title key="work_00227">Gajendramokṣaṇa</title>
+                        
+                        <rubric>
+                           <locus from="202r" to="202r">F. 202r [f. 1r in original foliation]:</locus>
+                           oṃ śrī kṛsmāya namaḥ ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="202r" to="202r">F. 202r [f. 1r in original foliation]:</locus>
+                           śatānīka uvāca ||
+                        </incipit>
+                        
+                        <colophon>
+                           <locus from="229r" to="229r">F. 229r [f. 28r in original foliation]:</locus>
+                           iti śrī mahābhārate śatasahasrasaṃhitāyāṃ vaiyāsivyāṃ śāṃtiparvaṇi gajeṃdra modhaṇaṃ samāptaṃ || rāma ||
+                           śubham astu lokhakapāvakayoḥ ||
+                        </colophon>
                         
                         <textLang mainLang="sa">Sanskrit</textLang>
                      </msItem>
                      
                   </msContents>
-                  
-                  <physDesc>
-                     <handDesc>
-                        <handNote scope="sole" script="Devanāgarī" medium="black_ink">
-                           <desc>Devanāgarī in black ink. </desc>
-                        </handNote>
-                     </handDesc>
-                     
-                     <decoDesc>
-                        <decoNote>Picture on f. 200</decoNote>
-                     </decoDesc>
-                  </physDesc>
-                  
                   <history>
                      <origin>
                         <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
@@ -462,6 +502,12 @@
                       
          </sourceDesc>            
       </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-08-27">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      
       </teiHeader>
    <text>
       <body>

@@ -35,6 +35,7 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -47,43 +48,92 @@
                      <idno type="CSM">1428</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head source="#WinternitzKeith1905">Aṣṭasāhasrikā Prajñāpāramitā, A. D. 1096.</head>
-               <msContents>
-                  <summary source="#WinternitzKeith1905">The Aṣṭasāhasrikā Prajñāpāramitā, being a
-                     recension of the Prajñāpāramitā in 8000 verses</summary>
-                  <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem>
-                     <title/>
 
-                     <incipit source="#WinternitzKeith1905"><locus>[1v] </locus>namo bhagavatyai
-                        āryaprajñaparamitāyai | nirvikalpe namas tubhyaṃ Prajñāpāramite ‘mite |
-                        &amp;c.</incipit>
+               <head source="#WinternitzKeith1905">Aṣṭasāhasrikā Prajñāpāramitā, A. D. 1096.</head>
+
+               <msContents n="1">
+                  <summary>A palm-leaf manuscript of the <title key="work_00239"
+                        >Aṣṭasāhasrikāprajñāpāramitāsūtra</title>.</summary>
+
+                  <msItem>
+
+                     <locus from="1" to="187">Ff. 1-187</locus>
+
+                     <title key="work_00239">Aṣṭasāhasrikāprajñāpāramitāsūtra</title>
+
+                     <incipit>
+                        <locus from="1v" to="1v">F. 1v</locus> namo bhagavatyai
+                        āryaprajñaparamitāyai | nirvikalpe namas tubhyaṃ Prajñāpāramite ‘mite | </incipit>
+
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+
                   </msItem>
+
                </msContents>
+
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothī">
                      <supportDesc material="palm">
-                        <support source="#WinternitzKeith1905">Palm-leaves, held together by two
-                           wooden boards and a string passing through two holes, one at either side
-                           of the central column. The whole is kept in the original cloth
-                           wrapper.</support>
+
+                        <support>Palm-leaf.</support>
+
                         <extent source="#WinternitzKeith1905">
-                           <measure type="leaf" quantity="188">188</measure>, of which the last
-                           two are almost entirely blank.<dimensions type="binding" unit="cm">
-                              <height/>
-                              <width/>
+                           <measure type="leaf" quantity="188">188</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height n="10.5">10.5</height>
+                              <width n="61.6">61.6</width>
+                           </dimensions>
+                           <dimensions type="leaf" unit="cm">
+                              <height n="7.7">7.7</height>
+                              <width n="22">22</width>
                            </dimensions>
                         </extent>
+
+                        <foliation n="1" style="numeral" rend="deva">Nepalese numerals, mid-right
+                           margin, verso.</foliation>
+
                      </supportDesc>
                   </objectDesc>
+
                   <handDesc>
-                     <handNote scope="sole" script="Nepalese">
-                        <desc>Nepalese.</desc>
-                        <p source="#WinternitzKeith1905"><locus>f. 186v</locus>: asti Magadhaviṣaye
-                           śrīnālandavasin (?) lekhaka Ahanakuṇḍena bhaṭṭārakaiḥ Prajñāpāramitā
-                           likhitā |</p>
+                     <handNote scope="sole" script="Kuṭila" medium="black_ink">
+                        <desc>Kuṭila in black ink.</desc>
+                        <desc>Scribe: 
+                           <name type="person" role="scr" key="person_0199">
+                              <persName xml:lang="sa" type="standard">Ahanakuṇḍa</persName>
+                           </name>
+                        </desc>
+                        <p source="#WinternitzKeith1905"><q><locus from="186" to="186">F. 186v</locus>: 
+                           asti Magadhaviṣaye śrīnālandavasin [?] lekhaka Ahanakuṇḍena bhaṭṭārakaiḥ Prajñāpāramitā
+                           likhitā |</q></p>
                      </handNote>
                   </handDesc>
+                  
+                  <decoDesc>
+                     
+                     <decoNote type="miniature">
+                        <desc>Miniature depicting the Buddha and 10 <term xml:lang="sa">bodhisattva</term>s on the <locus from="front cover" to="front cover">inner side of the front cover</locus>.
+                        </desc>
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        <desc>Miniature depicting the Buddha and monks on the <locus from="back cover" to="back cover">inner side of the back cover</locus>.
+                        </desc>
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        <desc>Miniature on<locus from="1v" to="1v">folio 1v</locus>, .............</desc>
+                     </decoNote>
+                     
+                     
+                  </decoDesc>
+                  
+                  
+                  <bindingDesc>
+                     <p>Two <material>wooden</material> boards, contemporary binding.</p>
+                     <p>Kept in the original cloth wrapper. </p>
+                     <p>Decoration on the <locus from="front cover" to="back cover">inner side of the front and back cover</locus>.</p>
+                  </bindingDesc>
 
                </physDesc>
                <history>
@@ -98,8 +148,8 @@
                         a. d. 1095 if the date of Rāmapāla’s accession is a. d. 1085</p>
                   </origin>
                   <provenance> </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1900 from Dr. A. F. R.
-                     Hoernle.</acquisition>
+                  <acquisition source="#WinternitzKeith1905">Bought in <date>1900</date> from Dr. A.
+                     F. R. Hoernle.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -111,7 +161,8 @@
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
                                     <ref
                                        target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n281/mode/1up"
-                                       >no. 1428, p. 250</ref></biblScope></bibl></listBibl>
+                                       >no. 1428, p. 250</ref></biblScope></bibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
