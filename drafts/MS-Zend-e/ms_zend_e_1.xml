@@ -42,6 +42,7 @@
                   <repository>Bodleian Library</repository>
                   <collection/>
                   <idno type="shelfmark">MS. Zend e. 1</idno>
+                  <idno type="ieArk">ark:29072/x08c97kr13hg</idno>
                   <altIdentifier>
                      <idno type="CSM">1611</idno>
                   </altIdentifier>
@@ -49,7 +50,7 @@
                <head source="#WinternitzKeith1905">Neryosaṅgh’s Translation of the Yasna, 15th cent.?</head>
                <msContents>
                   <summary source="#WinternitzKeith1905">The Translation of the Yasna by Neryosaṅgh</summary>
-                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <textLang mainLang="sa" otherLangs="fa ae">Sanskrit, Avestan and Persian</textLang>
                   
                </msContents>
                <physDesc>
@@ -66,7 +67,7 @@
                         </extent>
                      <condition source="#WinternitzKeith1905">very many of the leaves have suffered from abrasion, and are very difficult to decipher. In several cases the edges are gone. Most of the leaves under glass are in very poor condition indeed. Yasna II, 3–8 is missing both in Avesta and Sanskrit, three pages being left blank.</condition></supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc><p source="#WinternitzKeith1905">there is a Pahlavi colophon on f. 260v by a later hand, and ff. 261–263 are supplied by yct another hand.</p></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc><p source="#WinternitzKeith1905">there is a Pahlavi colophon on f. 260v by a later hand, and ff. 261–263 are supplied by yet another hand.</p></handNote></handDesc>
 
                </physDesc>
                <history>
