@@ -52,10 +52,7 @@
                      
                   </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -99,7 +96,7 @@
                      <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n121/mode/1up">no. 1044 (1, 2), pp. 90-91</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 509(1) [fols 1-186]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kātyāyanasūtrapaddhati, a brief manual of the matter contained in Kātyāyana’d Śrauta Sūtra.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 509(2) [fols 187v-241]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kātīyasūtravyākhyā of Yājñikadeva, son of Prajāpati, a commentary on Kātyāyana’s Śrauta Sūtra.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><explicit source="#WinternitzKeith1905">iti samrāṭsthapitamahāyājñikaśrīprajātisutamahāyājñika-śrīdevakṛte Kātyāyanasūtre paṃcadaśo ’dhyāyaḥ |</explicit></msItem></msContents></msPart></msDesc>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 509(1) [fols 1-186]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kātyāyanasūtrapaddhati, a brief manual of the matter contained in Kātyāyana’d Śrauta Sūtra.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 509(2) [fols 187v-241]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kātīyasūtravyākhyā of Yājñikadeva, son of Prajāpati, a commentary on Kātyāyana’s Śrauta Sūtra.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><explicit source="#WinternitzKeith1905">iti samrāṭsthapitamahāyājñikaśrīprajātisutamahāyājñika-śrīdevakṛte Kātyāyanasūtre paṃcadaśo ’dhyāyaḥ |</explicit></msItem></msContents></msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       </teiHeader>

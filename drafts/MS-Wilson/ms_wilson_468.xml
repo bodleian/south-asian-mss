@@ -52,10 +52,7 @@
                      
                   </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -102,7 +99,7 @@
                      <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n39/mode/1up">no. 865 (1, 2), pp. 8-9</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 468(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Pāvamāna, consisting of Ṛg-veda IX, 1–67, divided into four sections.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 468(2) [fols 37v-51v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The first praśna of the Mantrapraśna, i. e. the twenty-fifth and twenty-sixth paṭalas of the Āpastamba Śrauta Sūtra, giving the gṛhya mantras.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><explicit source="#WinternitzKeith1905">iti śrīmaṃtrapraśne kāṃḍe prathamaḥ praśnaḥ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 468(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Pāvamāna, consisting of Ṛg-veda IX, 1–67, divided into four sections.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 468(2) [fols 37v-51v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The first praśna of the Mantrapraśna, i. e. the twenty-fifth and twenty-sixth paṭalas of the Āpastamba Śrauta Sūtra, giving the gṛhya mantras.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><explicit source="#WinternitzKeith1905">iti śrīmaṃtrapraśne kāṃḍe prathamaḥ praśnaḥ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       </teiHeader>

@@ -50,10 +50,7 @@
                <msContents>
                   <summary source="#WinternitzKeith1905">The Sāma-veda in the Saṃhitā form, with accents, both ārcikas</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -97,7 +94,7 @@
                      <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n56/mode/1up">no. 900 (1, 2), p. 25</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 63(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Pūrvārcika, |</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 63(2) [fols 46v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Uttarārcika</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents></msPart></msDesc>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 63(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Pūrvārcika, |</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 63(2) [fols 46v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Uttarārcika</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       </teiHeader>

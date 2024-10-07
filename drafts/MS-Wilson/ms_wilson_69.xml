@@ -52,10 +52,7 @@
                      
                   </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -102,7 +99,7 @@
                      <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n38/mode/1up">no. 863 (1, 2), p. 7</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 69(1) [fols 1v-48v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The eleventh book of the Śatapatha Brāhmaṇa, the so-called aṣṭādhyāyī, without accents.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 69(2) [fols 49v-54v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kātyāyanasūtrapaddhati, BookXIII, treating of the great sattra, the gavāmayana, of Yājñikadeva. It is an abbreviation of Book XIII of the Kātyāyana Śrauta Sūtra and his commentary thereon.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | oṃ atha gavāmayanasya paddhatir likhyate |</incipit><explicit source="#WinternitzKeith1905">iti śrīyājñikadevakṛtāyāṃ Kātyāyanasūtrapaddhatau trayodaśo ’dhyāyaḥ | gavāmayanasaṃjñaṃ saṃvatsarasattraṃ samāptaṃ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 69(1) [fols 1v-48v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The eleventh book of the Śatapatha Brāhmaṇa, the so-called aṣṭādhyāyī, without accents.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 69(2) [fols 49v-54v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kātyāyanasūtrapaddhati, BookXIII, treating of the great sattra, the gavāmayana, of Yājñikadeva. It is an abbreviation of Book XIII of the Kātyāyana Śrauta Sūtra and his commentary thereon.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | oṃ atha gavāmayanasya paddhatir likhyate |</incipit><explicit source="#WinternitzKeith1905">iti śrīyājñikadevakṛtāyāṃ Kātyāyanasūtrapaddhatau trayodaśo ’dhyāyaḥ | gavāmayanasaṃjñaṃ saṃvatsarasattraṃ samāptaṃ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       </teiHeader>

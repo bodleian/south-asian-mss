@@ -52,10 +52,7 @@
                      
                   </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -102,7 +99,7 @@
                      <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n35/mode/1up">no. 858 (1–3), p. 4</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 385(1) [fols 1v-26v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Baudhāyanadarśapūrṇamāsaprāyaścitta, a supplement to the Śrauta Sūtra of Baudhāyana.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | atha Bodhāyanadarśapūrṇamāsayoḥ prāyaścitāni |</incipit><explicit source="#WinternitzKeith1905">iti Baudhāyanadarśapūrṇamāsaprāyaścittāni samāptaḥ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 385(2) [fols 27v-113]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Lāṭyāyana Śrauta Sūtra of the Sāma-veda.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 385(3) [fols 114-115]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Puṣpa Sūtra of the Sāma-veda.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 385(1) [fols 1v-26v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Baudhāyanadarśapūrṇamāsaprāyaścitta, a supplement to the Śrauta Sūtra of Baudhāyana.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | atha Bodhāyanadarśapūrṇamāsayoḥ prāyaścitāni |</incipit><explicit source="#WinternitzKeith1905">iti Baudhāyanadarśapūrṇamāsaprāyaścittāni samāptaḥ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 385(2) [fols 27v-113]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Lāṭyāyana Śrauta Sūtra of the Sāma-veda.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 385(3) [fols 114-115]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Puṣpa Sūtra of the Sāma-veda.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
          </sourceDesc>
       </fileDesc>
       </teiHeader>
