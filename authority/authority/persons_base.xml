@@ -2929,8 +2929,9 @@
                 </person>
                 <person xml:id="person_00131">
                     <persName type="standard">Ouseley, Gore, Sir, 1770-1844</persName>
-                    <persName type="display">Ouseley, Gore, Sir, 1770-1844</persName>
+                    <persName type="display">Sir Gore Ouseley</persName>
                     <persName type="variant">Ouseley, G., 1770-1844</persName>
+                    <persName type="variant">Sir Gore Ouseley, 1770-1844</persName>
                     <idno type="VIAF">44733962</idno>
                     <note type="links">
                         <list type="links">
@@ -4220,8 +4221,8 @@
                 </person>
                 
                 <person xml:id="person_00200">
-                    <persName type="standard" xml:lang="sa">Fraser, James</persName>
-                    <persName type="display" xml:lang="sa">James Fraser</persName>
+                    <persName type="standard" xml:lang="en">Fraser, James</persName>
+                    <persName type="display" xml:lang="en">James Fraser</persName>
                     <idno type="VIAF">117448526</idno>
                     <idno type="local">00200</idno>
                     <!--<idno type="PANDIT"></idno>-->
@@ -4243,9 +4244,9 @@
                 </person>
                 
                 <person xml:id="person_00201">
-                    <persName type="standard" xml:lang="sa">Wilson, Horace Hayman</persName>
-                    <persName type="display" xml:lang="sa">Horace Hayman Wilson</persName>]
-                    <persName type="variant" xml:lang="sa">H. H. Wilson</persName>
+                    <persName type="standard" xml:lang="en">Wilson, Horace Hayman</persName>
+                    <persName type="display" xml:lang="en">Horace Hayman Wilson</persName>
+                    <persName type="variant" xml:lang="en">H. H. Wilson</persName>
                     <idno type="VIAF">19797398</idno>
                     <idno type="local">00201</idno>
                     <!--<idno type="PANDIT"></idno>-->
@@ -4266,6 +4267,116 @@
                     <note></note>
                 </person>
                 
+                <person xml:id="person_00202">
+                    <persName type="standard" xml:lang="sa">Mānadeva</persName>
+                    <persName type="display" xml:lang="sa">Mānadeva</persName>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00202</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!-- <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                    <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                    <!--</list>
+                    </note>-->
+                </person>
+                
+                <person xml:id="person_00203">
+                    <persName type="standard" xml:lang="sa">Mānatuṅga</persName>
+                    <persName type="display" xml:lang="sa">Mānatuṅga</persName>
+                    <idno type="VIAF">290442696</idno>
+                    <idno type="local">00203</idno>
+                    <idno type="PANDIT">40834</idno>
+                     <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/290442696/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                    <item>
+                        <ref target="https://www.panditproject.org/entity/40834/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                    </list>
+                    </note>
+                </person>
+                
+                <person xml:id="person_00204">
+                    <persName type="standard" xml:lang="sa">Siddhasena Divākara</persName>
+                    <persName type="display" xml:lang="sa">Siddhasena Divākara</persName>
+                    <idno type="VIAF">108609471</idno>
+                    <idno type="local">00204</idno>
+                    <idno type="PANDIT">85172</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/108609471/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85172/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </person>
+                
+                
+                <person xml:id="person_00205">
+                    <persName type="standard" xml:lang="sa">Rāmacandra</persName>
+                    <persName type="display" xml:lang="sa">Rāmacandra</persName>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00205</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!-- <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                    <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                    <!--</list>
+                    </note>-->
+                </person>
+                
+                <person xml:id="person_00206">
+                    <persName type="standard" xml:lang="sa">Jayacandra</persName>
+                    <persName type="display" xml:lang="sa">Jayacandra</persName>
+                    <!--<idno type="VIAF"></idno>-->
+                    <idno type="local">00206</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <!-- <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                    <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                    <!--</list>
+                    </note>-->
+                </person>
                 
                                
                 <person xml:id="person_">

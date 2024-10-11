@@ -14,7 +14,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Mill/ms_mill_112.xml</String>
+                                    <String>collections/MS-Asiat-Misc/ms-asiat-misc-d-8.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -34,7 +34,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Sansk/ms_sansk_a_7R.xml</String>
+                                    <String>collections/MS-Mill/ms_mill_111.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -74,7 +74,47 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Mill/ms_mill_111.xml</String>
+                                    <String>collections/MS-Sansk/ms_sansk_a_7R.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>previewMS</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Fraser-Sansk/ms_fraser_sansk_41.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>previewMS</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Mill/ms_mill_112.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

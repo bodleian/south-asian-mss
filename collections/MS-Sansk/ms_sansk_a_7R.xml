@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02754">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. a. 7 (R)</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents n="1">
+                  
+                  <summary>A palm-leaf manuscript of the <title key="work_00239"
+                     >Aṣṭasāhasrikāprajñāpāramitāsūtra</title>.</summary>
+                  
+                  <msItem>
+                     
+                     <locus from="1" to="187">Ff. 1-187.</locus>
+                     
+                     <title key="work_00239">Aṣṭasāhasrikāprajñāpāramitāsūtra</title>
+                     
+                     <incipit>
+                        <locus from="1v" to="1v">F. 1v:</locus> namo bhagavatyai
+                        āryaprajñaparamitāyai | nirvikalpe namas tubhyaṃ prajñāpāramite ‘mite | </incipit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="palm">
+                        
+                        <support>Palm-leaf.</support>
+                        
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="leaf" quantity="188">188 ff.</measure>
+                           
+                           <dimensions type="binding" unit="cm">
+                              <height n="10.5">10.5</height>
+                              <width n="61.6">61.6</width>
+                           </dimensions>
+                           
+                           <dimensions type="leaf" unit="cm">
+                              <height n="7.7">7.7</height>
+                              <width n="22">22</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation n="1" style="numeral" rend="deva">Nepalese numerals, mid-right
+                           margin, verso.</foliation>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout columns="3">
+                           
+                           
+                           <note>Description of the <term xml:lang="sa">mūla</term> layout:
+                           </note>
+                           
+                           <p>
+                              6 lines per page in 3 columns. 2 string holes.
+                           </p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Kuṭila" medium="black_ink">
+                        <desc>Kuṭila in black ink.</desc>
+                        <desc>Scribe: 
+                           <name type="person" role="scr" key="person_0199">
+                              <persName xml:lang="sa" type="standard">Ahanakuṇḍa</persName>
+                           </name>
+                        </desc>
+                        <p source="#WinternitzKeith1905"><q><locus from="186" to="186">F. 186v</locus>: 
+                           asti magadhaviṣaye śrīnālandavasin [?] lekhaka ahanakuṇḍena bhaṭṭārakaiḥ prajñāpāramitā
+                           likhitā |</q></p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote type="miniature">
+                        <desc>Miniature depicting the Buddha and 10 <term xml:lang="sa">bodhisattva</term>s on the <locus>inner side of the front cover</locus>.
+                        </desc>
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        <desc>Miniature depicting the Buddha and monks on the <locus>inner side of the back cover</locus>.
+                        </desc>
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        <desc>Three miniatures on each page of <locus from="1v" to="2r">ff. 1v-2r</locus>, depicting the Buddha, monks, and various <term xml:lang="sa">bodhisattva</term>s.</desc>
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        <desc>Three miniatures on each page of  <locus from="92v" to="93r">ff. 92v-93r</locus>, depicting the Buddha, monks, and various <term xml:lang="sa">bodhisattva</term>s.</desc>
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        <desc>Three miniatures on each page of <locus from="185v" to="186r">ff. 185v-186r</locus>, depicting the Buddha, monks, and various <term xml:lang="sa">bodhisattva</term>s.</desc>
+                     </decoNote>
+                  </decoDesc>
+                  
+                  
+                  <bindingDesc>
+                     <p>Contemporary binding of two <material>wooden</material> boards, decorated on the inner side, and a string.</p>
+                     <p>Bundled in the original cloth wrapper.</p>
+                     <p>Kept in a cloth box.</p>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  
+                  <origin>
+                     <origDate calendar="#gregorian" when="1096" source="#WinternitzKeith1905">
+                        1096 CE</origDate> / <origDate calendar="#Vikrama" when="0015" source="#WinternitzKeith1905">
+                           saṃvat 15.</origDate>
+                     
+                     <p source="#WinternitzKeith1905">
+                        <q><locus from="186v" to="186v">F. 186v</locus>:
+                           mahārājādhirājaparameśvarapava-mabhaṭṭārakaparamasaugata [?]
+                           -śrīmadrāmapāladevapra-varddhamānavijayarājye pancādaśame saṃvatsare
+                           vyabhilikhyamānapatrāhkenāpi saṃvat 15 | vaiśākhe dine kṛṣṇasaptamyāṃ | </q>
+                     </p>
+                  </origin>
+                  
+                  <acquisition source="#WinternitzKeith1905">Bought in <date>1900</date> from from <name type="person" role="fmo" key="person_00096">
+                     <persName>A. F. R. Hoernle</persName></name>.</acquisition>
+               </history>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by <persName>Barbora Sojkova</persName>, based on the following sources: <listBibl>
+                           <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                              Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                 <ref
+                                    target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n281/mode/1up"
+                                    >no. 1428, p. 250</ref></biblScope></bibl>
+                        </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                           <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                                 <ref
+                                    target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n281/mode/1up"
+                                    >no. 1428, p. 250</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-10-04">
+            <persName>Barbora Sojkova</persName> modified this entry.
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
