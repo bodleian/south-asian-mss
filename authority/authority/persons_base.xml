@@ -4219,6 +4219,52 @@
                     <note>The scribe of <idno type="shelfmark">MS Sansk. a. 7</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00200">
+                    <persName type="standard" xml:lang="sa">Fraser, James</persName>
+                    <persName type="display" xml:lang="sa">James Fraser</persName>
+                    <idno type="VIAF">117448526</idno>
+                    <idno type="local">00200</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/117448526/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00201">
+                    <persName type="standard" xml:lang="sa">Wilson, Horace Hayman</persName>
+                    <persName type="display" xml:lang="sa">Horace Hayman Wilson</persName>]
+                    <persName type="variant" xml:lang="sa">H. H. Wilson</persName>
+                    <idno type="VIAF">19797398</idno>
+                    <idno type="local">00201</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/19797398/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
                 
                 
                                

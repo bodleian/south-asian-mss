@@ -49,21 +49,20 @@
                   </altIdentifier>
                </msIdentifier>
 
-               <head source="#WinternitzKeith1905">Aṣṭasāhasrikā Prajñāpāramitā, A. D. 1096.</head>
-
                <msContents n="1">
+                                
                   <summary>A palm-leaf manuscript of the <title key="work_00239"
                         >Aṣṭasāhasrikāprajñāpāramitāsūtra</title>.</summary>
 
                   <msItem>
 
-                     <locus from="1" to="187">Ff. 1-187</locus>
+                     <locus from="1" to="187">Ff. 1-187.</locus>
 
                      <title key="work_00239">Aṣṭasāhasrikāprajñāpāramitāsūtra</title>
 
                      <incipit>
-                        <locus from="1v" to="1v">F. 1v</locus> namo bhagavatyai
-                        āryaprajñaparamitāyai | nirvikalpe namas tubhyaṃ Prajñāpāramite ‘mite | </incipit>
+                        <locus from="1v" to="1v">F. 1v:</locus> namo bhagavatyai
+                        āryaprajñaparamitāyai | nirvikalpe namas tubhyaṃ prajñāpāramite ‘mite | </incipit>
 
                      <textLang mainLang="sa">Sanskrit.</textLang>
 
@@ -78,11 +77,13 @@
                         <support>Palm-leaf.</support>
 
                         <extent source="#WinternitzKeith1905">
-                           <measure type="leaf" quantity="188">188</measure>
+                           <measure type="leaf" quantity="188">188 ff.</measure>
+                           
                            <dimensions type="binding" unit="cm">
                               <height n="10.5">10.5</height>
                               <width n="61.6">61.6</width>
                            </dimensions>
+                           
                            <dimensions type="leaf" unit="cm">
                               <height n="7.7">7.7</height>
                               <width n="22">22</width>
@@ -93,6 +94,19 @@
                            margin, verso.</foliation>
 
                      </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout columns="3">
+                           
+                     
+                           <note>Description of the <term xml:lang="sa">mūla</term> layout:
+                           </note>
+                           
+                           <p>
+                              6 lines per page in 3 columns. 2 string holes.
+                           </p>
+                         </layout>
+                     </layoutDesc>
                   </objectDesc>
 
                   <handDesc>
@@ -104,58 +118,66 @@
                            </name>
                         </desc>
                         <p source="#WinternitzKeith1905"><q><locus from="186" to="186">F. 186v</locus>: 
-                           asti Magadhaviṣaye śrīnālandavasin [?] lekhaka Ahanakuṇḍena bhaṭṭārakaiḥ Prajñāpāramitā
+                           asti magadhaviṣaye śrīnālandavasin [?] lekhaka ahanakuṇḍena bhaṭṭārakaiḥ prajñāpāramitā
                            likhitā |</q></p>
                      </handNote>
                   </handDesc>
                   
                   <decoDesc>
-                     
                      <decoNote type="miniature">
-                        <desc>Miniature depicting the Buddha and 10 <term xml:lang="sa">bodhisattva</term>s on the <locus from="front cover" to="front cover">inner side of the front cover</locus>.
+                        <desc>Miniature depicting the Buddha and 10 <term xml:lang="sa">bodhisattva</term>s on the <locus>inner side of the front cover</locus>.
                         </desc>
                      </decoNote>
                      
                      <decoNote type="miniature">
-                        <desc>Miniature depicting the Buddha and monks on the <locus from="back cover" to="back cover">inner side of the back cover</locus>.
+                        <desc>Miniature depicting the Buddha and monks on the <locus>inner side of the back cover</locus>.
                         </desc>
                      </decoNote>
                      
                      <decoNote type="miniature">
-                        <desc>Miniature on<locus from="1v" to="1v">folio 1v</locus>, .............</desc>
+                        <desc>Three miniatures on each page of <locus from="1v" to="2r">ff. 1v-2r</locus>, depicting the Buddha, monks, and various <term xml:lang="sa">bodhisattva</term>s.</desc>
                      </decoNote>
                      
+                     <decoNote type="miniature">
+                        <desc>Three miniatures on each page of  <locus from="92v" to="93r">ff. 92v-93r</locus>, depicting the Buddha, monks, and various <term xml:lang="sa">bodhisattva</term>s.</desc>
+                     </decoNote>
                      
-                  </decoDesc>
+                     <decoNote type="miniature">
+                        <desc>Three miniatures on each page of <locus from="185v" to="186r">ff. 185v-186r</locus>, depicting the Buddha, monks, and various <term xml:lang="sa">bodhisattva</term>s.</desc>
+                     </decoNote>
+                 </decoDesc>
                   
                   
                   <bindingDesc>
-                     <p>Two <material>wooden</material> boards, contemporary binding.</p>
-                     <p>Kept in the original cloth wrapper. </p>
-                     <p>Decoration on the <locus from="front cover" to="back cover">inner side of the front and back cover</locus>.</p>
-                  </bindingDesc>
+                     <p>Contemporary binding of two <material>wooden</material> boards, decorated on the inner side, and a string.</p>
+                     <p>Bundled in the original cloth wrapper.</p>
+                     <p>Kept in a cloth box.</p>
+                    </bindingDesc>
 
                </physDesc>
                <history>
+                  
                   <origin>
-                     <origDate calendar="#gregorian" when="1096" source="#WinternitzKeith1905">A. D.
-                        1096.</origDate>
-                     <p source="#WinternitzKeith1905"><locus>f. 186v</locus>:
-                        mahārājādhirājaparameśvarapava-mabhaṭṭārakaparamasaugata (?)
+                     <origDate calendar="#gregorian" when="1096" source="#WinternitzKeith1905">
+                        1096 CE</origDate> / <origDate calendar="#Vikrama" when="0015" source="#WinternitzKeith1905">
+                           saṃvat 15.</origDate>
+                     
+                     <p source="#WinternitzKeith1905">
+                        <q><locus from="186v" to="186v">F. 186v</locus>:
+                        mahārājādhirājaparameśvarapava-mabhaṭṭārakaparamasaugata [?]
                         -śrīmadrāmapāladevapra-varddhamānavijayarājye pancādaśame saṃvatsare
-                        vyabhilikhyamānapatrāhkenāpi saṃvat 15 (it looks like 315, but the other
-                        reading is better) | vaiśākhe dine kṛṣṇasaptamyāṃ | This gives us probably
-                        a. d. 1095 if the date of Rāmapāla’s accession is a. d. 1085</p>
+                        vyabhilikhyamānapatrāhkenāpi saṃvat 15 | vaiśākhe dine kṛṣṇasaptamyāṃ | </q>
+                     </p>
                   </origin>
-                  <provenance> </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in <date>1900</date> from Dr. A.
-                     F. R. Hoernle.</acquisition>
+                  
+                  <acquisition source="#WinternitzKeith1905">Bought in <date>1900</date> from from <name type="person" role="fmo" key="person_00096">
+                     <persName>A. F. R. Hoernle</persName></name>.</acquisition>
                </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
-                              description</ref> abbreviated from the following sources: <listBibl>
+                        <source>Description by <persName>Barbora Sojkova</persName>, based on the following sources: <listBibl>
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
@@ -189,6 +211,13 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      
+      <revisionDesc>
+                  <change when="2024-10-04">
+            <persName>Barbora Sojkova</persName> modified this entry.
+         </change>
+      </revisionDesc>
+      
    </teiHeader>
    <text>
       <body>

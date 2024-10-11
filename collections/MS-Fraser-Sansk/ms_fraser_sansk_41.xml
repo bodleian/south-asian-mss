@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02554">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Fraser Sansk. 41</idno>
+                  <altIdentifier>
+                     <idno type="CSM">801</idno>
+                  </altIdentifier><altIdentifier type="former" source="#Keith1909"><idno>MS. Sansk. g. 2 (R)</idno></altIdentifier>
+               </msIdentifier>
+             
+               <msContents n="1">
+                  
+                  <summary>
+                     An illuminated paper scroll of the <title key="work_00020" xml:lang="sa">Bhagavadgītā</title>.   
+                  </summary>
+                                                                      
+                  <msItem> 
+                     
+                     <title key="work_00020" xml:lang="sa">Bhagavadgītā</title>
+                     
+                     <rubric xml:lang="sa" source="#Keith1909">
+                        namo bhagavate |
+                     </rubric>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="scroll">
+                     <supportDesc material="paper">
+                        <support>Paper.</support>
+                        <extent>
+                           
+                        <dimensions type="roll" unit="cm">
+                           <height n="249">249</height>
+                           <width n="2.6">2.6</width>
+                        </dimensions>
+                           
+                        </extent>
+                        
+                        <condition>
+                           <p>Complete.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                        <desc>Devanāgarī in black ink.</desc>
+                        <q source="#Keith1909">[The MS.] is written in a most painful minute hand.</q>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote type="headpiece">
+                        An illuminated headpiece decorated with red flowers and green foliage.
+                     </decoNote>
+                     
+                     <decoNote type="border">
+                        An illuminated border on both sides of the scroll. 
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        A miniature of four-armed Gaṇeśa seated on a lotus flower. Framed by a red border, and set within an illuminated headpiece decorated with red flowers and green foliage.</decoNote>
+                     
+                     <decoNote type="miniature">
+                        A miniature of four-headed and four-armed Brahma, seated on a lotus flower. Framed by a red border, and set within an illuminated headpiece decorated with red flowers and green foliage.</decoNote>
+                     
+                     <decoNote type="miniature">
+                        A miniature of four-armed Viṣṇu embracing Lakṣmī, both seated on a lotus flower. Framed by a red border, and set within an illuminated headpiece decorated with red flowers and green foliage.
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        A miniature of Śiva, facing Pārvatī, both seated.Framed by a red border, and set within an illuminated headpiece decorated with red flowers and green foliage.
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        A miniature of Durgā with twelve hands, seated on a tiger. Framed by a red border, and set within an illuminated headpiece decorated with red flowers and green foliage.
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        A miniature of Kṛṣṇa and Arjuna on a chariot drawn by two white horses. Framed by a red border, and set within an illuminated headpiece decorated with red flowers and green foliage.
+                     </decoNote>
+                     
+                     <decoNote type="miniature">
+                        Set within the text are smaller miniatures without a decorative border, depicting various themes:
+                        Durgā with twelve hands, seated on a lotus flower; Kṛṣṇa and Arjuna on a chariot drawn by two white horses; Viṣṇu as <term xml:lang="sa">vāraha</term>;
+                        Viṣṇu as <term xml:lang="sa">matsya</term>; and various seated divine and royal figures.
+                     </decoNote>
+                     
+                     </decoDesc>
+                  
+                  <bindingDesc>
+                     <p>Kept in a glass case inside a wooden box.</p>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent. CE.</origDate>
+                  <p>
+                     <q source="#Keith1909">There is nothing to aid in determining the date. Possibly it may belong to the end of the 18th cent. At any rate it cannot be much—if at all—older, and may be later.</q>
+                  </p>
+                  </origin>
+                  
+                 <acquisition>The collection of <persName key="person_00200" type="display">James Fraser</persName> was transferred to the Bodleian Library from the Radcliffe Library in <date>May 1872</date>.</acquisition></history>
+             
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                       <source>Description by <persName>Barbora Sojkova</persName>, based on the following sources: 
+                              <listBibl>
+                             <bibl><ref/></bibl>
+                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n109/mode/1up">no. 801, p. 100</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n109/mode/1up">no. 801, p. 100</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=361">no. 801, p. 345</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-10-08">
+            <persName>Barbora Sojkova</persName> modified this entry.
+         </change>
+      </revisionDesc>
+      
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
