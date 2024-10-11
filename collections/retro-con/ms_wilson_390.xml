@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02448">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sanskrit, Wilson Collection</collection>
+                  <idno type="shelfmark">MS. Wilson 390</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1360 (1–7)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Gautamapṛcchā, &amp;c., A. D. 1701, &amp;c.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 75 "> 75 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>. In the original each MS. has a separate foliation.<dimensions type="binding" unit="cm">
+                           <height quantity="26.7">26.7</height>
+                           <width quantity="14.0">14.0</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style.</desc><p source="#WinternitzKeith1905">Scribes: for that of 1 see f. 31v: śrīrayamallajīta-śiṣyapūjyakaśrīmanoharajītaśiṣya lipīkṛtaṃ munijagarāma ātmāarthe | śubhaṃ bhavatu kalyāṇaṃ astu śrīr astu | śrīdilīnagre śrīḥ | The name is very curious. Is he the same as the Jagarāma (so the MS.) who composed a Śatacaṇḍīvidhānapaddhati (Weber, Catal., II, 1193, end)? If so, the date of the latter work can be determined.</p><p source="#WinternitzKeith1905">For that of 2 see f. 41v: Padmasāgareṇālekhi ci ºdayāsāgaraciº mahā-- pāṭhāya |</p><p source="#WinternitzKeith1905">No name is given for 3.</p><p source="#WinternitzKeith1905">For 4, the name of the man for whom it was written is given, on f. 64, as Āṇaṃdasāgara (muº Āṇaṃdasāgarakṛte) |</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1701" source="#WinternitzKeith1905">A. D. 1701, &amp;c.</origDate>
+                  <p source="#WinternitzKeith1905"><locus>for that of 1, see f. 31v</locus>: saṃº <supplied>1701</supplied> varṣe posavadi 9 dine iṃduvāsare liº |</p><p source="#WinternitzKeith1905">For that of 2, see f. 41v: saṃvat 1785 <supplied>1729</supplied> vaisāṣasuditrayodaśyāṃ tithau |</p><p source="#WinternitzKeith1905">3 is undated, but it clearly must belong to the end of the 15th or beginning of the 16th century.</p><p source="#WinternitzKeith1905">4 is dated, on f. 64: saṃvat 1658 <supplied>1602</supplied> varṣe śrāvaṇavadi 1 dine laṣitaṃ | After the 1 a figure which looks like a 4 has been deleted.</p><p source="#WinternitzKeith1905">7 is of about the middle of the 18th century.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n245/mode/1up">no. 1360 (1–7), pp. 214-215</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n245/mode/1up">no. 1360 (1–7), pp. 214-215</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+               <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 390(1) [fols 1-31v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Gautamapṛoohā, a Jaina work in 64 Prākrit āryās, with on elaborate commentary by Mativardhana, who cites at considerable length illustrative stories to enforce the teaching of the verses.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">aiṃ nama | vīraṃ jinaṃ praṇamyādau balānāṃ suṣabodhakaṃ śrīmadgotamapṛcchayaḥ kriyate vṛttim adbhūtāṃ ǁ 1 ǁ</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 390(2) [fols 32-41v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Navatattva, a Prākrit poem, in 30 āryās, treating of the nine tattvas enumerated in the first verse, together with the Sanskrit commentary of Sādhuratnasūri.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">jayati śrīmahāvīraḥ śreyaḥśrīśreṇisaṃśrayaḥ | samyag jīvāditatvānām avabodhanibaṃdhanaṃ ǁ 1 ǁ Navatatva-sūtrasya parimitaparimāṃṇasya prabhūtatarārthasyā-tīvagaṃbhīrasya mugdhajanāvabodhāya vicāraḥ kiṃcid ucyate |</incipit><explicit source="#WinternitzKeith1905">aṃtar muhūrttamātram api kālaṃ yaiḥ śamyaktvaṃ spaṣṭaṃ bhavati teṣām apy ardho api gatārddho ’rddhapudgalāvarttarūpaḥ saṃsāro bhavati āsātanā ladulānām api nādhikasaṃsāraḥ syāt | śuddhasamyaktvarādhanena kecana tenaiva bhavena sidhyaṃti kecana tṛtīye saptāṣṭabhavān nātikrāmaṃti kiṃ tu siddhatvaṃ śīghraṃ prāpnuvaṃti | Navatatvavivararaṇaṃ bālābavodharūpaṃ śrīsādhuratnasūribhiḥ -- taṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 390(3) [fols 42v-60]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Navatattvabālāvabodha, being a commentary on the Navatattva, by Somasundara, of the Tapā family.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">namaḥ śrījinapravacanāya | Navatattvagāthābālāvabodho likhyate |</incipit><explicit source="#WinternitzKeith1905">iti Navatatvabālāvabodhaḥ sarvabhavyajīvahitārthaṃ śrītapāgacchānāyakaprabhusomasuṃdarasūripādair viracitaḥ | śrī |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 390(4) [fols 61-64]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Navatattva, text in 49 verses, not 30 as above, with an interlinear gloss in Sanskrit extending only over f. 61, and with Sanskrit notes on the various topics.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">jīvatattvaṃ | ajīvatattvaṃ 2 puṇyatattvaṃ 3 pāpatattvaṃ 4 āśravatattvaṃ 5 saṃvaratattvaṃ 6 nijjarātattvaṃ 7 baṃdhatattvaṃ 8 mokṣatattvaṃ 9 tathā etāni nava tattvāni bhavaṃti |</incipit><explicit source="#WinternitzKeith1905">iti śrīnavatatvaprakaraṇaṃ samattaṃ | śrī |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 390(5, 6) [fols 64-72v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Śrāvakavrata, and Karmagranthaprathamavicāra, described on f. 72v as Pārasnāthastavanam, are in Hindī.</summary><textLang mainLang="sa" otherLangs="hi">Sanskrit and Hindī.</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 390(7) [fols 73-75]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Kriyāsthānakavicāra, a Prākrit treatise on the subject of Aṅga II, 2, 2, with an interlinear commentary in bhāṣā, and a few glosses in Sanskrit</summary><textLang mainLang="sa" otherLangs="hi">Sanskrit and Hindī.</textLang></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

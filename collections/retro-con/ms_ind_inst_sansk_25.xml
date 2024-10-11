@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03425">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sanskrit, Indian Institute Library</collection>
+                  <idno type="shelfmark">MS. Ind. Inst. Sansk. 25</idno>
+                  <altIdentifier>
+                     <idno type="IndInst">15</idno>
+                  </altIdentifier>
+               </msIdentifier><head>NOTE: This record has yet to be fully checked.</head>
+               <head source="#Keith1903">Nīlakaṇṭha’s Śrāddhamayūkha, A. D. 1758.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#Keith1903"> Indian paper.</support>
+                        <extent source="#Keith1903">
+                        <measure type="leaf" quantity="86">86</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="29.8">29.8</height>
+                           <width quantity="15.2">15.2</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#Keith1903"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1758" source="#Keith1903">1758.</origDate>
+                  <p source="#Keith1903"> f. 86: saṃvat 1809 (= A. D. 1753) varṣe phālgunakṛṣṇadvaśyāṃ 12 guruuvāsare |</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#Keith1903">Purchased in 1886 (no. 4).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#Keith1903">Keith, <title>Catalogue of Sanskrit and Prākrit MSS in the Indian Institute Library</title>, <biblScope> <ref target="https://archive.org/details/KeithsCatalogueOfTheSanskritAndPrakritMss.InTheIndianInstitute/page/n11/mode/1up">no. 15, p. 8</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1903"> Arthur Berriedale Keith, <title>A Catalogue of the Sanskrit and Prākrit MSS. in the Indian Institute Library Oxford</title> (Oxford, 1903), <biblScope> <ref target="https://archive.org/details/KeithsCatalogueOfTheSanskritAndPrakritMss.InTheIndianInstitute/page/n11/mode/1up">no. 15, p. 8</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

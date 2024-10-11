@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03264">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. e. 85</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1477 (1–9)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Mahāsarasvatīsūkta, &amp;c., 19th cent.?</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Nine separate pieces, which, however, all bear on the same subject, the worship of a Tantric deity</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1"> 
+                     
+                  <locus>[fols. 11v-4v]</locus><note source="#WinternitzKeith1905">The Mahāsarasvatīsūkta, consists of thirty-four verses</note><incipit source="#WinternitzKeith1905">apārasaṃsārasamudramadhye nimajjato me śaraṇaṃ kim asti | guroḥ kṛpālo kṛpayā vadaitad viśveśapādāṃbujadīrghanauka ǁ 1 ǁ</incipit></msItem>
+               <msItem n="2"><locus>[fols. 4v-6v]</locus><note source="#WinternitzKeith1905">The Mahālakṣmīsūkta, consists of twenty verses</note><incipit source="#WinternitzKeith1905">śrī ṣṇovāca | mama nayaṃti munayaḥ prakṛtipurāṇaṃ vidyoti yāṃ śrutirahasyavido gṛṇaṃti tām arddhapallavitasaṃkarūpamudrāṃ devīm ananyaśaraṇaḥ śaraṇāṃ prapadye ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">iti vi ktā hā kṣml ktaḥ |</explicit></msItem><msItem n="3"><locus>[fols. 6v-7v]</locus><note source="#WinternitzKeith1905">The Mahākālīsūkta, consists of fifteen verses:</note><incipit source="#WinternitzKeith1905">Śiva uvāca | suṃdarī tripurā kāmā bhavārii sādhakaḥ priyā | amohā satyavacanā vimohā mohanāśi | amṛtesi ca kalyāṇī kāruṇyā kamalā kalā kalātītā komalāṃtaśuṣkaraṇī viśvanāyikā ǁ 2 ǁ</incipit><explicit source="#WinternitzKeith1905">iti srīśivoktamahākālūsūktaṃ |</explicit></msItem><msItem n="4"><locus>[fols. 7v-15]</locus><note source="#WinternitzKeith1905">The Mahāvidyāmantra in prose</note><incipit source="#WinternitzKeith1905">śrīrāmajī | uttama sarvavidyānāṃ sarvabhūtavaśaṃkarī | sarvasiddhikarī vidyā mahāsārasvatī pradām | oṃ asya śrīmahāvidyāmaṃtrasya Aghora ṛṣiḥ | paramātmā Rudro devatā anuṣṭub chaṃdaḥ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">śubham astu |</explicit></msItem><msItem n="5"><locus>[fols. 15-17v]</locus><note source="#WinternitzKeith1905">The Tripurasundarīkavaca, consists of forty-five verses</note><incipit source="#WinternitzKeith1905">śrīgaṇeśā srīpurāyai namaḥ | śṛṇu Tripurasuṃdaryyā rahasyaṃ kāmanāvahaṃ | jagaccintāmaṇir nāma kavacaṃ maṃtravigrahaṃ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">iti Rudrayāmale Tripurasuṃdarīkavacaṃ |</explicit></msItem><msItem n="6"><locus>[fols. 18-21v]</locus><note source="#WinternitzKeith1905">The Bāladevīpaṭala, consists of sixty verses</note><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | atha vātapaṭala likhyatai | Kailāsasikharāsīnaṃ devadevaṃ jogadguruṃ | uvāca Pārvatī devī sarveśvaraṃ sadāśivaṃ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">iti Rudrayāmale Iśvarapārvatīśvarasaṃvāde triº pūº paṭº |</explicit></msItem><msItem n="7"><locus>[fols. 21v-24v]</locus><note source="#WinternitzKeith1905">The Laghustotra, consists of twenty-two most elaborate and ornate verses. It ends:</note><explicit source="#WinternitzKeith1905">iti śrīlabdhācāryaviracitaṃ Laghustotraṃ |</explicit></msItem><msItem n="8"><locus>[fols. 25-27v]</locus><note source="#WinternitzKeith1905">The Bālahṛdaya, consists of thirty-nine verses from the Jālasaṃvaramahātantra, an otherwise unknown work. It ends:</note><explicit source="#WinternitzKeith1905">iti śrījālasaṃvaramahātaṃtre Bālāhṛdayaṃ saṃpūrṇaṃ |</explicit></msItem><msItem n="9"><note source="#WinternitzKeith1905">The Nāmāṣṭakasahasraka consists of 219 verses, enumerating the names of Devī and dwelling on the good results of studying the work. The title given above comes from verse 204.</note><incipit source="#WinternitzKeith1905">oṃ purā Kailāsaśikhare nānārainopacitrite | devadevaṃ mahādevaṃ samāsīnaṃ jagadguruṃ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">etasya paṭhanād devi dharaṇād vā viśeṣataḥ | satyaṃ ca sādhakaḥ satyaṃ sākṣi devaḥ sadāśivaḥ ǁ 219 ǁ</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="21.0">21.0</height>
+                           <width quantity="10.5">10.5</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1800" notAfter="1899">19th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">probably about a. d. 1840.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n304/mode/1up">no. 1477 (1–9), p. 273</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n304/mode/1up">no. 1477 (1–9), p. 273</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

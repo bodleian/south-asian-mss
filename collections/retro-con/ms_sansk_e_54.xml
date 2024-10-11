@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03236">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. e. 54</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1097 (1–7)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Bālarāmāyaṇa, Uttararāmacarita, Mādhavānalakā-makandalākathā, Nalacampū, &amp;c., 17th cent.?</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Birch bark (except ff. v and 407, which are on paper).</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="5">v</measure>
+                           + <measure type="leaf" quantity=" 407 "> 407 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="19.1">19.1</height>
+                           <width quantity="17.1">17.1</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">the MS. has suffered much; seriously damaged are ff. v, 1–26, 37–73, 214, 233, 264, 406; slightly damaged are ff. 29–36, 74–104, 174, 175, 196.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600" notAfter="1699">17th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">it is not clear whether saṃ. 63 on f. 406v, l. 11, is meant for the date of the MS. If so, it would be a. d. 1687, a very likely date for this MS., though it may belong to the earlier part of the 17th century.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MSS. 100, 95, 112, 64). Memorandum on f. 1: ‘K 15–18.’</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n147/mode/1up">no. 1097 (1–7), pp. 116-117</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n147/mode/1up">no. 1097 (1–7), pp. 116-117</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(1) [fols v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>a fragment of Paṇḍit Madhusūdana’s Janmapatrī,&#13;
+The leaf is 21¼ x 6¾ in., written on paper in Devanāgarī.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ śrīsūryādibhyo gaganacarebhyo namo namaḥ om ity antar nadati niyataṃ yaḥ</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(2) [fols 1-206]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Bālarāmāyaṇa, a drama in ten acts, by Rājaśekhara. About one half of the first act (nine leaves at the beginning) is missing.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">Janakaḥ ǁ yan mīmāṃsayataḥ śru.… brahmaṇo viśvāmitramahāsunara.… The first act ends on f. 8v.</incipit><explicit source="#WinternitzKeith1905">iti śrīmahākavirājaśekhara-viracite Bālarāmāyaṇe Rāghavābhyudayo nāma daśamo ’ṅkaḥ ǁ yo jyāyaḥ kavirājaśabdam avahat kṛtsne ’pi bhūmaṇḍale srotasvinya ivāsvadhīnadhigatā yasyojjvalāḥ kīrtayaḥ | tasyeyaṃ bhuvi Rājaśekharakaveḥ kalāmṛtodgāriṇī kalpāntaṃ kavirājapaṅkajavane haṃśīyatāṃ Bhāratī ǁ ǁ samāptaṃ cedaṃ Bālarāmāyaṇākhyaṃ nāṭakaṃ ǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(3) [fols 206v-267]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Uttararāmacarita, a drama in seven acts, by Bhavabhūti, with numerous glossea both in the margins and between the lines.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ svasti ǁ śrīgaṇeśāya namaḥ ǁ ǁ śreyo ’stu oṃ idaṃ kavibhyaḥ pūrvebhyo namo vaḥkaṃ śāsmahe (with a gloss: pra…?) | vandema hi satāṃ vācam asya tām ātmanaḥ kalāṃ ǁ</incipit><explicit source="#WinternitzKeith1905">śabdabrahmavidaḥ kaveḥ pariṇataprajñasya vāṇīm api ǁ ǁ iti parikramya niṣkrāntāḥ sarve ǁ ǁ ity Uttararāmacarite mahānāṭake saptamo ’ṅkaḥ samāptaḥ ǁ samāptaṃ cottararāmacaritābhidhaṃ mahānāṭakaṃ ǁ ǁ kṛtir iyaṃ mahākaver Lakṣmaṇakāśyapasya Bhavabhūter iti śubhaṃ ǁ …</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(4) [fols 267v-283v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Mādhavānalakāmakandalākathā, a love story.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ svasti ǁ namo Gaṇeśāya ǁ praṇaumi parayā bhaktyā haṃsayānāṃ Sarasvatīm | yasyāḥ prasādam āsādya kariṣyāmi kathām imāṃ ǁ asti saṃsāratilakabhūtā Puṣpāvatī nāma nagarī ǁ</incipit><explicit source="#WinternitzKeith1905">ratnākaraḥ kiṃ kurute padārthair Vindhyācalaḥ kiṃ karibhiḥ karoti | śrīkhaṇḍakhaṇḍair Malayācalo vā paropakārāya satāṃ vibhūtiḥ ǁ iti Mādhavānalakāmakandalākathā samāptā ǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(5) [fols 283v-405]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Nalacampū (or Damayantīkathā), in seven ucchvāsas, or ullāsas, by Trivikrama Bhaṭṭa.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ jayati girisutāyāḥ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">iti vivicara cakṣuṣo mṛgākṣi rajanir iyaṃ ca na yāti naiti nidrā | praharati madano ’pi duḥkhitānāṃ bata bahuśobhimukhībhavanty apāyāḥ ǁ ǁ iti śrītrivikramabhaṭṭaviracitāyāṃ Nalacampvāṃ saptama ucchvāsaḥ samāptaḥ ǁ ǁǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(6) [fols 405v-406v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>the Śivarātrinirṇaya (?), a fragment (?).</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ atha śivarātrinirṇayaṃ trayodaśyas tage (?) marye (?) catasṛṣv eva rātriṣu | &amp;c.</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. e. 54(7) [fols 407]</idno></altIdentifier></msIdentifier><head/><msContents><summary>a fragment of some (lexicographical or grammatical) treatise on prepositions and particles.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">adhiḥ samuccaye praśne tathā pakṣāntare ’pi ca punaḥ sahārthayoḥ śaśvatsākṣāt pratyakṣatulyayoḥ ǁ 2 ǁ</incipit><explicit source="#WinternitzKeith1905">vārtā (?) sambādhyayoḥ kila ǁ 2 ǁ</explicit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

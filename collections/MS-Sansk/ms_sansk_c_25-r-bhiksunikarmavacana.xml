@@ -36,7 +36,7 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection type="sanskrit" subtype="Hoernle">Sanskrit, Hoernle Collection</collection>
-                        <idno type="shelfmark">MS Sansk. c. 25(R)</idno><idno type="ieArk">ark:29072/x0qf85nb07t5</idno><idno type="crArk">ark:29072/x0qb98mf24h9</idno>
+                        <idno type="shelfmark">MS Sansk. c. 25 (R)</idno><idno type="ieArk">ark:29072/x0qf85nb07t5</idno><idno type="crArk">ark:29072/x0qb98mf24h9</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.258</idno>
                             <note><country>United Kingdom</country>
@@ -190,6 +190,7 @@
                     <additional>
                         
                         <adminInfo>
+                            <recordHist><source>Description created by <persName>Camillo Formigatti</persName> and revised by <persName>Barbora Sojkova</persName>, based on observation of the manuscript.</source></recordHist>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
                                     a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>).</p>

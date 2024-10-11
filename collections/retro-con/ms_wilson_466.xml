@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02323">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sanskrit, Wilson Collection</collection>
+                  <idno type="shelfmark">MS. Wilson 466</idno>
+                  <altIdentifier>
+                     <idno type="CSM">857 (1–20)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Pariśiṣṭas of the Sāma-veda, 19th cent.?</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Twenty pariśiṣṭas of the Sāma-veda</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1"> 
+                     
+                  <locus>[fols. 1v-7]</locus><note source="#WinternitzKeith1905">Sāmagānāṃ Chandas, a compilation on metre, in eight sections.</note><explicit source="#WinternitzKeith1905">chaṃdovid eva vipras tu dharmatas tadguṇāśritaḥ | chaṃdasām eti sālokyam amṛtatvaṃ ca gacchatīty āha bhagavān Gārgyo Gārgya ǁ 4 ǁ iti Sāmagānāṃ chaṃdaḥ samāptaṃ</explicit></msItem>
+               <msItem n="2"><locus>[fols. 7v-9]</locus><note source="#WinternitzKeith1905">Kratusaṃgraha, a treatise on sacrifice.</note><incipit source="#WinternitzKeith1905">śrigaṇeśāya namaḥ | athāgniṣṭomasaṃsthena jyotiṣṭomena yo yajet</incipit><explicit source="#WinternitzKeith1905">iti Kratusaṃgrahapariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="3"><locus>[fols. 9-11]</locus><note source="#WinternitzKeith1905">Viniyogasaṃgraha, in thirty-three verses.</note><incipit source="#WinternitzKeith1905">oṃ namaḥ Sāmavedāya | atha viniyogasaṃgrahaḥ | brāhmaṇaprathamādhyāye maṃtrāṇāṃ vinigojanaṃ | atrādau vṛta udgātā mahad ityādikaṃ japet ǁ 1 ǁ</incipit></msItem><msItem n="4"><locus>[fols. 11-13]</locus><note source="#WinternitzKeith1905">Somotpatti</note><incipit source="#WinternitzKeith1905">Agnihotraṃ hutāsīnam Gārgyavṛddhaṃ mahāmuniṃ | vinayenopasaṃkramya Bhāguriḥ paripṛcchati ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">iti Somotpattiḥ samāptā |</explicit></msItem><msItem n="5"><locus>[fols. 13-34]</locus><note source="#WinternitzKeith1905">Naigeyānām ṛkṣu ārṣaṃ and daivatam, being Anukramaṇis of the rṣi and deity of the Sāmans.</note></msItem><msItem n="6"><locus>[fols. 34-35v]</locus><note source="#WinternitzKeith1905">Vṛṣotsargapariśiṣṭa, treating of the ceremonies to be observed at the liberation of a bull.</note><incipit source="#WinternitzKeith1905">Kārttikyāmayane caiva phālgunyām aṣṭakāsu ca | āṣāḍhyāṃ viṣuce caiva pauṣe aśvayugasya ca ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">iti ha smāha Kātyāyanaḥ Kātyāyanaḥ | 3 | śloka | 23 | iti Vṛṣotsargapariṣṭaṃ śiṣṭaṃ | samāptaṃ |</explicit></msItem><msItem n="7"><locus>[fols. 35v-36]</locus><note source="#WinternitzKeith1905">Upacāra, in six verses.</note><incipit source="#WinternitzKeith1905">vāmadakṣiṇayoḥ pāṇyoḥ pādor janvoḥ kaṭidvaye | nabhau hṛdi gale hāhvor mukhe ’kṣṇo mūrddhani ṣoḍaśī ǁ 1ǁ</incipit><explicit source="#WinternitzKeith1905">ity Upacārapariśiṣṭaṃ taṃ |</explicit></msItem><msItem n="8"><locus>[fols. 36-37]</locus><note source="#WinternitzKeith1905">Snānavidhi,</note><explicit source="#WinternitzKeith1905">iti Snānavidhiḥ samāptaḥ |</explicit></msItem><msItem n="9"><locus>[fols. 37-38]</locus><note source="#WinternitzKeith1905">Prauṣṭhapada, an account of the sacrifice in that month.</note><incipit source="#WinternitzKeith1905">prauṣṭhapadaśuklapakṣe hastenācāryaḥ saśiṣyaḥ prāṅmukha udaṅmukho vā grāmān niṣkramya yathāvidhi bhuvy udake snātvā kauśāt sapta ṛṣīṃ sthale ’vasthāpya gaṃdhamālyādibhiḥ saṃpūjya nābhidadhna udake ’vasthāya saśiṣya oṃkāro mahāvyāhṛtayo gāyatrī brahmāvedād, &amp;c. |</incipit><explicit source="#WinternitzKeith1905">iti Prauṣṭhapada samāptaḥ |</explicit></msItem><msItem n="10"><locus>[fols. 38v-46]</locus><note source="#WinternitzKeith1905">Śrautaprāyaścitta, penances for errors in Śrauta rites.</note><incipit source="#WinternitzKeith1905">sāmavedāya | prāyaścittāni vakṣye ’yam kratuvaiguṇyaśāṃte |</incipit></msItem><msItem n="11"><locus>[fols. 46-47v]</locus><note source="#WinternitzKeith1905">Śrautahoma, a brief account of the homa offering according to Śauta rites.</note><explicit source="#WinternitzKeith1905">iti Śrautahomapariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="12"><locus>[fols. 47v-48v]</locus><note source="#WinternitzKeith1905">Pakṣahomasamasyavidhāna</note><incipit source="#WinternitzKeith1905">atha yadi pakṣahomān samasya kuryāt pratipaddivase sāyamām ārabhya caturdaśyāḥ sāyaṃ, &amp;c</incipit><explicit source="#WinternitzKeith1905">iti Pakṣahomasamasyavidhanāṃ samāptaṃ |</explicit></msItem><msItem n="13"><locus>[fols. 48v-49]</locus><note source="#WinternitzKeith1905">Aupavasathika;</note><incipit source="#WinternitzKeith1905">upāvṛttas tu pāpebhyo yasya vāso guṇaiḥ saha | upavāsaḥ sa vijñeyaḥ sarvabhogavivarjjitaḥ ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">ity Aupayasathikaṃ pariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="14"><locus>[fols. 49-50]</locus><note source="#WinternitzKeith1905">Smārtahoma, an account of the homa offering according to gṛhya rites.</note><incipit source="#WinternitzKeith1905">atha gṛhye ’gnau | atha paścād Agner bhūmau nyaṃcau pāṇī pratiṣṭāpyedaṃ bhūmer bhajā iti vasvaṃtaṃ |</incipit><explicit source="#WinternitzKeith1905">iti Smārttahomapariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="15"><locus>[fols. 50-50v]</locus><note source="#WinternitzKeith1905">The Homadravyaparimāṇa.</note><incipit source="#WinternitzKeith1905">dravaṃ stuveṇa hotavyaṃ pāṇinā kaṭhinaṃ haviḥ | karṣamātraṃghṛtaṃ home śukrimānnaṃ payaḥ smṛtaṃ |</incipit><explicit source="#WinternitzKeith1905">iti Homadravyaparimāṇapariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="16"><locus>[fols. 50v-51]</locus><note source="#WinternitzKeith1905">Smārtahoma, a metrical pariśiṣṭa, of similar contents to 14.</note><incipit source="#WinternitzKeith1905">dravyādidevatā vakṣye dānasaṃpūrṇasiddhaye | abhayaṃ śarvadaivatyam bhūmir vai vighnadevatā ǁ 1ǁ</incipit><explicit source="#WinternitzKeith1905">Smārttahomasya pariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="17"><locus>[fols. 51v-52]</locus><note source="#WinternitzKeith1905">Pravāsa;</note><incipit source="#WinternitzKeith1905">pravasata uddharaṇa |</incipit><explicit source="#WinternitzKeith1905">iti Pravāsapariśiṣṭaṃ samāptaṃ |</explicit></msItem><msItem n="18"><locus>[fols. 52-52v]</locus><note source="#WinternitzKeith1905">Annaprāśana;</note><incipit source="#WinternitzKeith1905">athāṃnaprāśanaṃ | ṣaṣṭe māsi puṇye ’hni kumārasyāṃnaprāśanaṃ |</incipit><explicit source="#WinternitzKeith1905">ity Aṃnaprāśanaṃ |</explicit></msItem><msItem n="19"><locus>[fols. 52v-53v]</locus><note source="#WinternitzKeith1905">Ādhānakārikā, identical with the āvasathyādhānavidhi of MS. Wilson 375 (8).</note><explicit source="#WinternitzKeith1905">ity Ādhānakārikā samāptā | śrīrādhāmodanmohano jayatitarāṃ |</explicit></msItem><msItem n="20"><locus>[fols. 54-54]</locus><note source="#WinternitzKeith1905">Adhānavidhi;</note><incipit source="#WinternitzKeith1905">śrigaṇeśāya namaḥ | ādhānavidhiṃ vyākhyāsyamas |</incipit><explicit source="#WinternitzKeith1905">ity Ādhānapariśiṣṭaṃ samāptaṃ | śubhaṃ bhavatu |</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="1">i</measure>
+                           + <measure type="leaf" quantity=" 54 "> 54 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="24.1">24.1</height>
+                           <width quantity="12.7">12.7</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1800" notAfter="1899">19th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">probably about the beginning of the 19th century.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n33/mode/1up">no. 857 (1–20), pp. 2-4</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n33/mode/1up">no. 857 (1–20), pp. 2-4</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

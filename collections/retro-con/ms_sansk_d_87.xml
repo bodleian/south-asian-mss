@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02994">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MS. Sansk. d. 87</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1162 (1–5)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Śobhākareśvaramitra’s Alaṅkāraratnākara, &amp;c., A.D. 1676 (?).</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Birch bark, except ff. 61, 62, 66, 73, 77–79b, 149, 151, 162, 163, which are on white and reddish paper, the latter being of the colour of birch bark.</support>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="22.2">22.2</height>
+                           <width quantity="24.4">24.4</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">of ff. 42–44 only fragments are left; ff. 74, 75, 98, 99, 116, 117, 133, 158, 159 are seriously damaged.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śāradā.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1676" source="#WinternitzKeith1905">A. D. 1676 (?).</origDate>
+                  <p source="#WinternitzKeith1905">at the end of the first fragment, f. 49, the date saṃ 52 pauśuti 11 gurau is given. If we compare the date of MS. Sansk. d. 65, viz. saṃvat 24 = śaka 1570 = a. d. 1648, saṃ 52 would seem to correspond to a. d. 1676.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MSS. 93, 170). Memorandum on original outer leaf (f. 44), ‘K 36–38.’</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n173/mode/1up">no. 1162 (1–5), pp. 142-143</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n173/mode/1up">no. 1162 (1–5), pp. 142-143</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 87(1) [fols 42-49]</idno></altIdentifier></msIdentifier><head/><msContents><summary>A fragment of the seventh act of Kālidāsa’s Abhijñānaśakuntala</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 87(2) [fols 49v-156]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Alaṅkāraratnākara, by Śobhākareśvaramitra, the son of Trayīśvaramitra</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ svasti ǁ oṃ namas Sarasvatyai | āmukhaikārthapadaṃ punaruktābhāsam | āmukhe ekārthe vastuto ’bhinnārthe pade yatra iat kāvyaṃ punaruktābhāsaṃ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">pradarśitavyāptikā viśeṣoktiḥ paripohakṛd ity eva jyāyaḥ ǁ ǁ samāpto ’yam Alaṅkāraratnākaraḥ ǁ ǁ iti rmahopādhyāyapaṇḍitabhaṭṭaśrītrayīśvaramittraputrasya tatra bhavataḥ paṇḍitabhaṭṭaśrīśobhākareśvaramittrasya ǁ iti śubham śrīr astu aśuddhatvam ādarśadoṣāt śrīgaṇeśāya namaḥ oṃ namas Sarasvatyai |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 87(3) [fols 157v-158]</idno></altIdentifier></msIdentifier><head/><msContents><summary>A fragment of Vātsyāyana’s Kāmasūtra, with a commentary</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">saṃyoge yoṣitāṃ puṃsā kaṇḍutir apanudyate .. bhimāna … sṛṣṭa. kham ity abhidhīyate ǁ</incipit><explicit source="#WinternitzKeith1905">nakhadaśanacchedyam iti madhyakapolamaṇḍalaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 87(4) [fols 158v-159v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>A fragment of some treatise on logic</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 87(5) [fols 160v-163]</idno></altIdentifier></msIdentifier><head/><msContents><summary>A fragment of some treatise on poetics (Alaṃkārodāharaṇa?)</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

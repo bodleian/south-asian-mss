@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02803">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">MSS. Sansk. c. 21, 22</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1169</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former" source="#WinternitzKeith1905">
+                     <idno>MSS. Bodl. Sanscr. 36, 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former"><idno>MSS. Bodl. Sanscr. 21, 22</idno></altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Padma Purāṇa, A. D. 1777, 1789–1791.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Some sections of the Padma Purāṇa, in two
+                     volumes</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent>
+                           <measure type="laterEndleaf"/> + <measure type="leaf"> </measure> +
+                              <measure type="laterEndleaf"/>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="37.5">37.5</height>
+                              <width quantity="20.0">20.0</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
+                        source="#WinternitzKeith1905">
+                        <desc>Devanāgarī.</desc>
+                        <p source="#WinternitzKeith1905">Travāḍi Mathurānātha (?). Compare the
+                           following colophons:</p>
+                        <p source="#WinternitzKeith1905">(1) liº
+                           vrāhmaṇaudīcyasahasraṭoḍānisaṃpradāya avaskaṃ mahatā Devanātha vā Travāḍī
+                           Mutharānātha lekhakapāṭhayo śubhaṃ ǁ</p>
+                        <p source="#WinternitzKeith1905">(2) likhyataṃ vrāhmasaṃbhu
+                           Oḍapurāmadhyavastu subhaṃ mastu ǁ</p>
+                        <p source="#WinternitzKeith1905">(3) līkhataṃ Travāḍi Mathurānātha
+                           udicyasahasralekhakapāṭhakayo śubhaṃ ǁ</p>
+                        <p source="#WinternitzKeith1905">(4) lekhaka Travāḍī Mutharānātha ǁ</p>
+                        <p source="#WinternitzKeith1905">(5) likhataṃ udicyasaṃpradāṭoḍānījāni
+                           śrīrāmeṇa pustakaṃ paṃḍatajī śrīlālājīkasya |</p>
+                        <p source="#WinternitzKeith1905">(7) pustakaṃ likhitva Naṃdagrāmamadhye
+                           jñāti udicyasaṃpradāṭoḍānījānī śrīrāmaṇa likhīṃ tvā pustakaṃ
+                           Kriyākhaṃḍenaḥ ǁ</p>
+                     </handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1777"
+                        notAfter="1800">1777, 1789–1791.</origDate>
+                     <p source="#WinternitzKeith1905">the following dates are found in the
+                        colophons:</p>
+                     <p source="#WinternitzKeith1905">(1) varṣe āṣāḍhavadī 1 ǁ saṃvat 1846
+                           <supplied>1790</supplied> ǁ</p>
+                     <p source="#WinternitzKeith1905">(2) mitibhādravā śuklapakṣe tithau 1 ǁ saṃvat
+                        1847 <supplied>1791</supplied> ǁ</p>
+                     <p source="#WinternitzKeith1905">(3) saṃvat 1845 <supplied>1789</supplied> ǁ
+                        mitiphālgunasudī 5 ǁ</p>
+                     <p source="#WinternitzKeith1905">(4) varṣe kārttikavadi 5 saṃvat 1846
+                           <supplied>1790</supplied> ǁ (5) saṃvat 1846 ǁ varṣe mītī āśvanasudiṃ 1
+                        ravivāreṇa likhitaṃ ǁ</p>
+                     <p source="#WinternitzKeith1905">(6) saṃvata 1833 ke śāke 1689 āśvine masi
+                        kṛṣṇapakṣe dvitīyāyāṃ pustakaṃ samāptaṃ ǁ Saṃvat 1833 being a. d. 1777, śāke
+                        1689 <supplied>1767</supplied> must be a mistake for 1699, though the
+                        figures 1689 are quite clear.</p>
+                     <p source="#WinternitzKeith1905">(7) saṃvat ǁ 18 ǁ 46 ǁ
+                           <supplied>1790</supplied> varṣe miti āśvasudī 13 gurudine 11</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n177/mode/1up"
+                                       >no. 1169, pp. 146-148</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n177/mode/1up"
+                                 >no. 1169, pp. 146-148</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

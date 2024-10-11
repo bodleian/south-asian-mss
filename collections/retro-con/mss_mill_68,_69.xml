@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02705">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sanskrit, Mill Collection</collection>
+                  <idno type="shelfmark">MSS. Mill 68, 69</idno>
+                  <altIdentifier>
+                     <idno type="CSM">996</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Sureśvara’s Bṛhadāraṇyakabhāṣyavārttika, 17th cent.? and A. D. 1835.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Bṛhadāraṇyakabhāṣyavārttika of Sureśvarācārya, pupil of Śaṅkarācārya, being a paraphrase of Śaṅkara’s bhāṣya on the Bṛhadāraṇyaka Upaniṣad in ślokas, complete</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     <title/>
+                     
+                  <incipit source="#WinternitzKeith1905"><locus>[276v] </locus>samāptaḥ saptamo ’dhyāyaḥ prāptāv ata ucyate | aṣṭamaḥ khilakāṃḍe’smin pūrvakāṃḍeśv anuktitaḥ ‖</incipit><explicit source="#WinternitzKeith1905"><locus>[298] </locus>iti dvādaśasāhasrīvārtikāmṛtam īrītaṃ | Kāṇvāraṇyakabhāṣyasya Sāṃkarasya samāsataḥ ‖ cha |</explicit></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="27.9">27.9</height>
+                           <width quantity="16.5">16.5</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">ff. 292–307 of 68; ff. 1–7, 39–82 of 69 have been torn and are mended with paper.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">no name is given for those of parts 1 or 3. For part 2 we have on f. 231 of 68: laṣītaṃ Vīśvanātha | On f. 9 of 69: likhitaṃ Rājarāgena mahācaṃcakarūpiṇā | pustaṃ śastaṃ samastaṃ hi caturthādhyāyasāṃjñakaṃ ‖ 1 ‖ These two notices perhaps refer to the same man, as apparently the handwriting of both the parts done is identical, or perhaps Viśvanātha is the patron.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1835" source="#WinternitzKeith1905">A. D. 1835.</origDate>
+                  <p source="#WinternitzKeith1905">no date is given for part 2, probably it was written about a. d. 1700. The other parts must be of the same date. That of part 1 is given on f. 298 of 69: śrīsaṃvat 1891 <supplied>1835</supplied> jeṣṭasudi 15 vāraśani |</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_00179">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n99/mode/1up">no. 996, p. 68</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n99/mode/1up">no. 996, p. 68</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
