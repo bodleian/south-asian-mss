@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00211">
@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -39,12 +38,12 @@
                         <collection type="main">Oriental Manuscripts</collection>
                         <collection type="sanskrit" subtype="max-mueller">Sanskrit, Max Müller Memorial Fund</collection>
                         <idno type="shelfmark">MS. Max Müller Memorial d. 4-5</idno>
-                        <altIdentifier type="internal">
-                            <idno type="or_long_shelfmark"></idno>
+                        <idno type="ieArk">ark:29072/x0mw22v596vw</idno><idno type="crArk">ark:29072/x0ms35t913j6</idno><altIdentifier type="internal">
+                            <idno type="or_long_shelfmark"/>
                         <note><country>United Kingdom</country>
                                 <region type="county">Oxfordshire</region>
                                 <settlement>Oxford</settlement>
-                                <orgName></orgName></note>
+                                <orgName/></note>
                         </altIdentifier>
                         </msIdentifier>
                                                              
@@ -85,7 +84,7 @@
                                                         
                             <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 3.</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <colophon xml:lang="sa"><locus from="79r" to="79r">f. 79r</locus>: 
                                 saṃvat 1811 tāraṇanāma saṃvatsare āśvīnakṛṣṇa guruvāsara ekādaśyāṃ [...] ||
@@ -98,7 +97,7 @@
                            
                             <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 4.</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <colophon xml:lang="sa"><locus from="92r" to="92r">f. 92r</locus>: 
                                 saṃvat 1811 tāraṇanāma saṃvatsare māghaśukla saptamī ravau tad dine kāśyaṃ likhitam ||
@@ -111,7 +110,7 @@
                             
                       <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 5.</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <colophon xml:lang="sa"><locus from="86r" to="86r">f. 86r</locus>: 
                                 saṃvat 1812 pārthīva saṃvatsare vaiśākha kṛṣṇa 30 bhṛguvāra tad dine kāśyaṃ likhitaṃ ||
@@ -124,7 +123,7 @@
                                                    
                             <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 6.</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <colophon xml:lang="sa"><locus from="86r" to="86r">f. 86r</locus>: 
                                 saṃvat 1814 sarvajīta saṃvatsare || phālgunaśukla aṣṭamī bhṛguvāsara tad dine likhitaṃ ||
@@ -138,7 +137,7 @@
                                                      
                             <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 7.</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <colophon xml:lang="sa"><locus from="86r" to="86r">f. 86r</locus>: 
                                 saṃvat 1815 sarvadhārīnāma saṃvatsare māghakṛṣṇa amāvāsyā ravivāra tad dine kāśyāṃ viśveśvara saṃnidhau likhitam ||
@@ -150,7 +149,7 @@
                                                                                
                             <title xml:lang="sa" key="work_00142">Ṛgvedapadapāṭha, <term>Aṣṭaka</term> 8.</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <colophon xml:lang="sa"><locus from="91r" to="91r">f. 91r</locus>: 
                                 saṃvat 1821 manmatha saṃvatsare pauṣaśuddha pratipadā ravivāra||
@@ -162,7 +161,7 @@
                                                                               
                             <title xml:lang="sa" key="work_00156">Śanistotra</title>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                             
                             <incipit xml:lang="sa"><locus from="22r" to="22r">f. 22r:</locus> 
                                 śrī | śanistotra prārambhaḥ | koṇāṃtakorudrayamodababhrukṛṣṇaḥ śanipiṅgala mandasaurī |
@@ -237,9 +236,7 @@
                             <recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -511,7 +508,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>
@@ -639,9 +636,7 @@
                 <persName>Barbora Sojkova modified this entry.</persName>
             </change>
             <change when="2023-03-17">
-                <persName>Barbora Sojkova modified this entry according to the <ref
-                    target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-                    >https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                <persName>Barbora Sojkova modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>
             <change when="2023-03-15">
                 <persName>Barbora Sojkova created this entry.</persName>

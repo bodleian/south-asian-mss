@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00302">
@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -38,7 +37,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, Chandra Shum Shere Collection</collection>
                     <idno type="shelfmark">MS. Chandra Shum Shere d. 827</idno>
-                    <!-- If listed in CSM, add this number here 
+                    <idno type="ieArk">ark:29072/x0k35694978q</idno><idno type="crArk">ark:29072/x0k0698813zp</idno><!-- If listed in CSM, add this number here 
                     <altIdentifier>
                         <idno type="CSM"></idno>
                     </altIdentifier> -->
@@ -101,7 +100,7 @@
                                 herev || hegajana || hesāṁva 
                             </colophon>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                                                                        
                     </msContents>
@@ -157,9 +156,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -233,7 +230,7 @@
                                 bhūpālapālaya kṛpālaya dīnabhaṃdho 1
                             </colophon>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                         
                     </msContents>
@@ -284,9 +281,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -352,7 +347,7 @@
                                 poṣa śukla catudaśyāṁ bhaume || taddinīmodye ity upāmakanāśayaṇa jyotiṣya sanunādaṃdi rājena lirivataṁhanirī[...] śrīharihara || jāvavaṇamadhye
                             </colophon>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                         
                     </msContents>
@@ -405,9 +400,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -688,7 +681,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>

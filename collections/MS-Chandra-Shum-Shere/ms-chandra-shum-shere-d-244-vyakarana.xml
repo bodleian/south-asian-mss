@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00305">
@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                                >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -40,13 +39,12 @@
                             Shere Collection</collection>
                         <!--check this! -->
                         <idno type="shelfmark">MS. Chandra Shum Shere d. 244</idno>
-                        <!-- If listed in CSM, add this number here 
+                        <idno type="ieArk">ark:29072/x0jq085k641n</idno><idno type="crArk">ark:29072/x0jm214p80qj</idno><!-- If listed in CSM, add this number here 
                     <altIdentifier>
                         <idno type="CSM"></idno>
                     </altIdentifier> -->
                     </msIdentifier>
-                    <head>A composite manuscript containing twelve manuscript works on <term
-                            xml:lang="sa">kāvya</term>, bound together upon their arrival in the Bodleian
+                    <head>A composite manuscript containing twelve manuscript works on <term xml:lang="sa">kāvya</term>, bound together upon their arrival in the Bodleian
                         Library.</head>
                     
                     <physDesc>
@@ -63,8 +61,7 @@
                                 <persName type="standard" xml:lang="ne">Shum Shere,
                                     Chandra</persName>
                                 <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
-                                    Jang Bahadur Rana </persName></name> in <date
-                                calendar="Gregorian" when="1909">1909</date>. </acquisition>
+                                    Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>. </acquisition>
                     </history>
                     <additional><adminInfo><recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist></adminInfo></additional>
                     <msPart>
@@ -75,9 +72,7 @@
                         </msIdentifier>
                         <msContents n="1">
                             <!--increment n attribute for ms containing multiple ms items-->
-                            <summary>A paper manuscript of the <title xml:lang="sa"
-                                key="work_00160">Saṃskṛtamañjarī</title>, composed by <name xml:lang="sa"
-                                    key="person_00170">Raghunātha Bhaṭṭa</name>.</summary>
+                            <summary>A paper manuscript of the <title xml:lang="sa" key="work_00160">Saṃskṛtamañjarī</title>, composed by <name xml:lang="sa" key="person_00170">Raghunātha Bhaṭṭa</name>.</summary>
 
                             <msItem defective="unknown">
                                 <locus from="3v" to="12v">Ff. 3r-12v [ff. 1r-10v in original
@@ -168,9 +163,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -212,9 +205,7 @@
                         </msIdentifier>
                         <msContents n="1">
                           
-                            <summary>A complete paper manuscript of the <title xml:lang="sa"
-                                key="work_00166">Girvāṇapadamañjarī</title> of <name xml:lang="sa"
-                                    key="person_00150">Varadarāja</name>.</summary>
+                            <summary>A complete paper manuscript of the <title xml:lang="sa" key="work_00166">Girvāṇapadamañjarī</title> of <name xml:lang="sa" key="person_00150">Varadarāja</name>.</summary>
                                 
                                 <msItem defective="false">
                                     <locus from="13r" to="26r">Ff. 13r-26r [ff.1r-14r in original
@@ -296,9 +287,7 @@
     <adminInfo>
         <availability status="restricted">
             <p>Entry to read in the Library is permitted only on presentation of
-                a valid reader's card, for admissions procedures contact <ref
-                    target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                    >Bodleian Libraries' Admissions Office</ref>.</p>
+                a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
         </availability>
         <note/>
     </adminInfo>
@@ -456,9 +445,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -561,9 +548,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -679,9 +664,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -721,9 +704,7 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents n="1">
-                            <summary>A paper manuscript of the <title xml:lang="sa"
-                                key="work_00166">Girvāṇapadamañjarī</title> of <name xml:lang="sa"
-                                    key="person_00150">Varadarāja</name>.</summary>
+                            <summary>A paper manuscript of the <title xml:lang="sa" key="work_00166">Girvāṇapadamañjarī</title> of <name xml:lang="sa" key="person_00150">Varadarāja</name>.</summary>
                             
                             <msItem defective="false">
                                 <locus from="73r" to="83v">Ff. 73r-83v [ff. 1r-12v in original
@@ -806,9 +787,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -949,9 +928,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -1139,9 +1116,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -1259,9 +1234,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -1308,7 +1281,7 @@
                                     foliation]</locus>
                                 
                                 <author key="person_00175">
-                                    <persName xml:lang="sa" type="standard">Acala Upādhyāya</persName>>
+                                    <persName xml:lang="sa" type="standard">Acala Upādhyāya</persName>&gt;
                                 </author>
                                 
                                 <title xml:lang="sa" key="work_00199">Vākyavāda</title>
@@ -1411,9 +1384,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -1543,9 +1514,7 @@
                             <adminInfo>
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
-                                        a valid reader's card, for admissions procedures contact <ref
-                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
                                 <note/>
                             </adminInfo>
@@ -1956,8 +1925,7 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761"
-                                >Manuscripts, Sanskrit</ref>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
                         <!--<item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>

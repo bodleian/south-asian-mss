@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Mill Collection</collection>
                   <idno type="shelfmark">MS. Mill 131</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0r207tp62sh</idno><idno type="crArk">ark:29072/x0qz20ss79gs</idno><altIdentifier>
                      <idno type="CSM">14</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -75,12 +75,12 @@
                         <title xml:lang="sa" key="work_00220" type="sub">Udyogaparvan</title>
                         
                         <rubric>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                            śrī guru gopāla gaurī gaṇapatityaḥ ||
                         </rubric>
                         
                         <incipit>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                            lakṣmībhartruḥ prasarpyatapadakamalabhuvaḥ kepiromānārāyaṇaṃ namastuyua naravaivanarottamaṃ ||
                         </incipit>
                         
@@ -100,7 +100,7 @@
                         
                         
                         <incipit>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                            nārāyaṇasya viśadāḥ sarvajñasyātra bhāratavyākhyāḥ | 
                            ākalayannastu jano bhāratatatvārthasarvajñaḥ ||
                            gurupadaśasaśuddhapāṭhavyākhyānusārataḥ |
@@ -109,7 +109,7 @@
                         
                         
                         <colophon>
-                           <locus from="308v" to="309r" >F. 308v-309r:</locus>
+                           <locus from="308v" to="309r">F. 308v-309r:</locus>
                            iti śrīmahābhārateṛtasādasprāṃsaṃhitāyāṃ vaiyāsikyāmuvogaparvasamālam iti ||
                            avaparvaṇyamīnvatrātāḥ || rājñāṃdhataprasvā || [...] || śrī rāmāyanaḥ || ||
                         </colophon>
@@ -154,7 +154,7 @@
                      </supportDesc>
                      
                      <layoutDesc>
-                        <layout columns="1" type="commentary"  style="tripāṭha">
+                        <layout columns="1" type="commentary" style="tripāṭha">
                            
                            <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">mūla</term> cited in full.
                            </note>

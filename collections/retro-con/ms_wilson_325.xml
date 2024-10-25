@@ -42,7 +42,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Wilson Collection</collection>
                   <idno type="shelfmark">MS. Wilson 325</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0xg94hp4538</idno><idno type="crArk">ark:29072/x0xd07gs61sg</idno><altIdentifier>
                      <idno type="CSM">520</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -75,7 +75,7 @@
                   <origin>
                      <origDate calendar="#gregorian" when="1525" source="#Keith1909">1525</origDate>
                   <p source="#Keith1909">Date:</p><p source="#Keith1909">(1) For B see 523, ff. 1–59, beginning of 16th cent.</p><p source="#Keith1909">(2) For A see 523, ff. 60–112, about A. D. 1525, by Viṣṇuśarman.</p></origin>
-                  <provenance source="#Keith1909"></provenance>
+                  <provenance source="#Keith1909"/>
                   <acquisition source="#Keith1909">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
                <additional>
                   <adminInfo>

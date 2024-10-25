@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Wilson Collection</collection>
                   <idno type="shelfmark">MS. Wilson 3</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0s4655g79f6</idno><idno type="crArk">ark:29072/x0s1784k964b</idno><altIdentifier>
                      <idno type="CSM">972</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -76,8 +76,7 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
-                        source="#WinternitzKeith1905">
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905">
                         <desc>Devanāgarī.</desc>
                         <p source="#WinternitzKeith1905">Weber, l. c., p. xi, note, writes: ‘Three
                            scribes are to be discerned in the three copies 2–4 of the Bodl. Wils.
@@ -99,8 +98,7 @@
                         Wilson in or shortly after the latter year.</p>
                   </origin>
                   <provenance> </provenance>
-                  <acquisition source="#WinternitzKeith1905">The collection of <persName
-                        key="person_00201">Horace Hayman Wilson</persName> was purchased by the
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the
                      Bodleian Library in 1842.</acquisition>
                </history>
                <additional>
@@ -111,15 +109,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n88/mode/1up"
-                                       >no. 972, pp. 57-58</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n88/mode/1up">no. 972, pp. 57-58</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -131,9 +126,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n88/mode/1up"
-                                 >no. 972, pp. 57-58</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n88/mode/1up">no. 972, pp. 57-58</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

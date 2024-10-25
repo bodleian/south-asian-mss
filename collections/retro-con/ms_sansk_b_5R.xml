@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. b. 5 (R)</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0ff365614w7</idno><idno type="crArk">ark:29072/x0fb494931kc</idno><altIdentifier>
                      <idno type="CSM">1227 (1–4)</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -84,8 +84,7 @@
                         <support source="#WinternitzKeith1905">Palm-leaves, held together by a
                            string passing through a central hole.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="leaf" quantity="17">17</measure>. odd leaves.<dimensions
-                              type="binding" unit="cm">
+                           <measure type="leaf" quantity="17">17</measure>. odd leaves.<dimensions type="binding" unit="cm">
                               <height>36.8</height>
                               <width>4.44</width>
                            </dimensions>
@@ -101,8 +100,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1400"
-                        notAfter="1499">15th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1400" notAfter="1499">15th cent.?</origDate>
                      <p source="#WinternitzKeith1905">about 15th or 16th century.</p>
                   </origin>
                   <provenance> </provenance>
@@ -116,15 +114,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n198/mode/1up"
-                                       >no. 1227 (1–4), p. 167</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n198/mode/1up">no. 1227 (1–4), p. 167</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -136,9 +131,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n198/mode/1up"
-                                 >no. 1227 (1–4), p. 167</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n198/mode/1up">no. 1227 (1–4), p. 167</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

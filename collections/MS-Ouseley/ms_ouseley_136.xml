@@ -44,7 +44,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Ouseley Collection</collection>
                   <idno type="shelfmark">MS. Ouseley 136</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rn301162nm</idno><idno type="crArk">ark:29072/x0rj430479bw</idno><altIdentifier>
                      <idno type="CSM">1387 (1–15)</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -52,8 +52,7 @@
                <msContents n="14">
                   <summary> A collection of fourteen <term xml:lang="sa">Jaina</term>
                      <term xml:lang="sa">stotra</term>s written in Sanskrit and Prākrit on paper.
-                     Includes a collection of portraits of twenty four <term xml:lang="sa"
-                        >Jina</term>s. </summary>
+                     Includes a collection of portraits of twenty four <term xml:lang="sa">Jina</term>s. </summary>
 
                   <msItem n="1">
 
@@ -234,8 +233,7 @@
                         <persName key="person_00206" type="display">Jayacandra</persName>
                      </author>
                      
-                     <incipit source="#WinternitzKeith1905"
-                        >rucitaruciracaṃdranāgeṃdraleṣeṃdramartyeṃdrasadbhaktisaṃsaktanāmnī
+                     <incipit source="#WinternitzKeith1905">rucitaruciracaṃdranāgeṃdraleṣeṃdramartyeṃdrasadbhaktisaṃsaktanāmnī
                         bhavanmaulinīleṃdrasaṃjātarociśrīyālirujāṃ saṃkulaṃ nirmmalaṃ yasya te
                         bhaktasatprāṇisammodakiṃjalkaśāraṃ padabjaṃ bhavāpārasaṃsāratāpāpṛhaṃ taṃ
                         stuve ’haṃ sadā śrījinaṃ śobhanaṃ ǁ 1 ǁ</incipit>
@@ -277,9 +275,7 @@
                      <supportDesc material="paper">
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure
-                              type="leaf" quantity=" 56 "> 56 </measure> + <measure
-                              type="laterEndleaf" quantity="2">ii</measure>
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 56 "> 56 </measure> + <measure type="laterEndleaf" quantity="2">ii</measure>
                           
                            <dimensions type="binding" unit="cm">
                               <height quantity="16.5">16.5</height>
@@ -306,8 +302,7 @@
                      
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink"
-                           ><desc>Devanāgarī, with some Jaina characteristics, in black and red ink.</desc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink"><desc>Devanāgarī, with some Jaina characteristics, in black and red ink.</desc>
                         <p> 
                            <q source="#WinternitzKeith1905">All the pieces were evidently written by
                               one hand. His name is given on <locus from="54v" to="54v">f. 54v</locus>: liṣatam ṛṣaharṣa (?) caṃdreṇa
@@ -336,8 +331,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700"
-                        notAfter="1799">18th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
                      <p><q source="#WinternitzKeith1905">None of the pieces are dated, but the end of
                         the 18th century is the most likely period.</q></p>
                   </origin>
@@ -354,17 +348,14 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n258/mode/1up"
-                                       >no. 1387 (1–15), pp. 227-228</ref></biblScope></bibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n258/mode/1up">no. 1387 (1–15), pp. 227-228</ref></biblScope></bibl>
                            </listBibl>
                         </source>
                      </recordHist>
 
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -376,9 +367,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n258/mode/1up"
-                                 >no. 1387 (1–15), pp. 227-228</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n258/mode/1up">no. 1387 (1–15), pp. 227-228</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

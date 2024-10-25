@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. c. 17</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0qr46r112z8</idno><idno type="crArk">ark:29072/x0qn59q429nj</idno><altIdentifier>
                      <idno type="CSM">1090</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -85,8 +85,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="0400"
-                        notAfter="0499">5th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="0400" notAfter="0499">5th cent.?</origDate>
                      <p source="#WinternitzKeith1905">the MS. may with fair probability be placed
                         about the middle of the 5th century. See Hoernle’s discussion of the matter
                         in the J. A. S. B., LX, 81 sq., which result is accepted by Bühler,
@@ -110,15 +109,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n141/mode/1up"
-                                       >no. 1090, pp. 110-111</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n141/mode/1up">no. 1090, pp. 110-111</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -130,9 +126,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n141/mode/1up"
-                                 >no. 1090, pp. 110-111</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n141/mode/1up">no. 1090, pp. 110-111</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

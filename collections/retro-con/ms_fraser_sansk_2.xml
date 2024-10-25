@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Fraser Collection</collection>
                   <idno type="shelfmark">MS. Fraser Sansk. 2</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0pc289j46jg</idno><idno type="crArk">ark:29072/x0p8418n637q</idno><altIdentifier>
                      <idno type="CSM">809, 810</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -57,12 +57,9 @@
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
                         <support>Paper</support>
-                        <extent> Vol I: <measure type="laterEndleaf">ii</measure> + <measure
-                              type="leaf">189 </measure> + <measure type="laterEndleaf"
-                                 >ii</measure>. In the original foliation 40+ 16, 63–196 (f. 152 lost).
+                        <extent> Vol I: <measure type="laterEndleaf">ii</measure> + <measure type="leaf">189 </measure> + <measure type="laterEndleaf">ii</measure>. In the original foliation 40+ 16, 63–196 (f. 152 lost).
                            Vol II: <measure type="laterEndleaf">ii</measure> +
-                              <measure type="leaf"> 190-374</measure> + <measure type="laterEndleaf"
-                                 >ii</measure>. In the original foliation 255–361, 56 + 22.
+                              <measure type="leaf"> 190-374</measure> + <measure type="laterEndleaf">ii</measure>. In the original foliation 255–361, 56 + 22.
                            <dimensions type="binding" unit="cm">
                               <height quantity="34.3">34.3</height>
                               <width quantity="16.8">16.8</width>
@@ -109,8 +106,7 @@
                         budhe |</p>
                   </origin>
                   <provenance> </provenance>
-                  <acquisition source="#Keith1909">The collection of <persName
-                        key="person_00200">James Fraser</persName> was transferred to the
+                  <acquisition source="#Keith1909">The collection of <persName key="person_00200">James Fraser</persName> was transferred to the
                      Bodleian Library from the Radcliffe Library in May 1872.</acquisition>
                </history>
                <additional>
@@ -120,16 +116,13 @@
                               description</ref> abbreviated from the following sources: <listBibl>
                               <bibl><ref/></bibl>
                               <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                    <ref
-                                       target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n110/mode/1up"
-                                       >no. 809, 810, pp.
+                                    <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n110/mode/1up">no. 809, 810, pp.
                               101-102</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -141,13 +134,9 @@
                         <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
                               Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
                               I</title> (Oxford, 1909), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n110/mode/1up"
-                                 >no. 809, 810, pp. 101-102</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n110/mode/1up">no. 809, 810, pp. 101-102</ref></biblScope></bibl>
                         <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
-                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=364"
-                                 >no. 809, 810, pp. 348-349</ref></biblScope></bibl>
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=364">no. 809, 810, pp. 348-349</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

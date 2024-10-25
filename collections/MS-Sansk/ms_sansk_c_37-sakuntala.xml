@@ -44,7 +44,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. c. 37</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sn009x95rd</idno><idno type="crArk">ark:29072/x0sj139212fz</idno><altIdentifier>
                      <idno type="CSM">1244 (1–4)</idno>
                   </altIdentifier>
                   <altIdentifier type="former">
@@ -185,9 +185,7 @@
                         </support>
                         
                         <extent>
-                           <measure type="laterEndleaf" quantity="9">ix</measure> + <measure
-                              type="leaf" quantity=" 167 "> 167 </measure> + <measure
-                              type="laterEndleaf" quantity="21">xxi</measure>
+                           <measure type="laterEndleaf" quantity="9">ix</measure> + <measure type="leaf" quantity=" 167 "> 167 </measure> + <measure type="laterEndleaf" quantity="21">xxi</measure>
                            <dimensions type="binding" unit="cm">
                               <height quantity="34">34</height>
                               <width quantity="21">21</width>
@@ -259,16 +257,13 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up"
-                                       >no. 1244 (1–4), p. 174</ref></biblScope></bibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up">no. 1244 (1–4), p. 174</ref></biblScope></bibl>
                         </listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -280,9 +275,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up"
-                                 >no. 1244 (1–4), p. 174</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up">no. 1244 (1–4), p. 174</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

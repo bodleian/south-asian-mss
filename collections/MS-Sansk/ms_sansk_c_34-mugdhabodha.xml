@@ -44,7 +44,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. c. 34</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sf26852947</idno><idno type="crArk">ark:29072/x0sb397845t1</idno><altIdentifier>
                      <idno type="CSM">1144 (1–3)</idno>
                   </altIdentifier>
                   <altIdentifier type="former">
@@ -157,9 +157,7 @@
                            </watermark>
                         </support>
                         <extent>
-                           <measure type="laterEndleaf" quantity="13">xiii</measure> + <measure
-                              type="leaf" quantity=" 114"> 114</measure><dimensions type="binding"
-                              unit="cm">
+                           <measure type="laterEndleaf" quantity="13">xiii</measure> + <measure type="leaf" quantity=" 114"> 114</measure><dimensions type="binding" unit="cm">
                               <height quantity="24">24</height>
                               <width quantity="38">38</width>
                            </dimensions>
@@ -203,8 +201,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" notBefore="1787"
-                        notAfter="1790">1787–1790 AD.</origDate>
+                     <origDate calendar="#gregorian" notBefore="1787" notAfter="1790">1787–1790 AD.</origDate>
                      <p><q source="#WinternitzKeith1905">The initials of Sir William Jones, with the
                         date <date>1 May, 1787,</date> and <date>2 May, 1787</date> are found at the bottom of <locus from="v" to="v">f. v</locus>.
                         In the margin of <locus from="17v" to="17v">f. 17v</locus>, there is an entry, <q>Left off 11 Oct, 1790.</q>.</q></p>
@@ -225,17 +222,14 @@
                         <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n165/mode/1up"
-                                       >no. 1144 (1–3), pp.
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n165/mode/1up">no. 1144 (1–3), pp.
                               134-135</ref></biblScope></bibl>
                               </listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -247,9 +241,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n165/mode/1up"
-                                 >no. 1144 (1–3), pp. 134-135</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n165/mode/1up">no. 1144 (1–3), pp. 134-135</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

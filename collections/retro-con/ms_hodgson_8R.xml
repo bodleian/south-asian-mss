@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Hodgson Collection</collection>
                   <idno type="shelfmark">MS. Hodgson 8 (R)</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0vh53wv78pr</idno><idno type="crArk">ark:29072/x0vd66vz95cw</idno><altIdentifier>
                      <idno type="CSM">1447 (1–8)</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -85,8 +85,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1100"
-                        notAfter="1199">12th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1100" notAfter="1199">12th cent.?</origDate>
                      <p source="#WinternitzKeith1905">Date and Character: the three parts belong to
                         different centuries. Only at the end of 2 a date is found, viz.: ǁ śubha ǁ
                         saṃvata 765 bhādapadamāsaśuklapakṣa | &amp;c. Samvat 765 of the Newārī era
@@ -119,16 +118,13 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n288/mode/1up"
-                                       >no. 1447 (1–8), pp.
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n288/mode/1up">no. 1447 (1–8), pp.
                               257-258</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -140,9 +136,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n288/mode/1up"
-                                 >no. 1447 (1–8), pp. 257-258</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n288/mode/1up">no. 1447 (1–8), pp. 257-258</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>
@@ -249,8 +243,7 @@
                         <title/>
                         <incipit source="#WinternitzKeith1905">āgatoṣṇīṣavijayā nāma dhāraṇī dhāraya
                            ǁ &amp;c.</incipit>
-                        <explicit source="#WinternitzKeith1905"
-                           >sarvvatathāgatahṛdayādhiṣṭhānādhiṣṭhito | sarvvatathāgatāś ca māṃ
+                        <explicit source="#WinternitzKeith1905">sarvvatathāgatahṛdayādhiṣṭhānādhiṣṭhito | sarvvatathāgatāś ca māṃ
                            samāśvāsayantu ǁ oṃ vudhya 2 śidhya 2 vodhaya 2 vivodhaya 2 mocaya 2
                            vimocaya 2 sodhaya 2 visodhaya 2 samantā na mocaya 2 samantar asmi
                            parisuddho | sarvvatathāgatahṛdayādhiṣṭhānādhiṣṭhito ǁ om o 2 m ahām om

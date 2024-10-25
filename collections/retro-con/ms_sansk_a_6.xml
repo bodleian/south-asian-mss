@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. a. 6</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0bv73c148t8</idno><idno type="crArk">ark:29072/x0br86b465hd</idno><altIdentifier>
                      <idno type="CSM">1422 (1–3)</idno>
                   </altIdentifier>
                   <altIdentifier type="former" source="#WinternitzKeith1905">
@@ -63,9 +63,7 @@
                         <support source="#WinternitzKeith1905">ff. 2–4, Japanese transparent paper;
                            the rest, English paper.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
-                              type="leaf" quantity=" 5 "> 5 </measure> + <measure
-                              type="laterEndleaf" quantity="21">xxi</measure>
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure type="leaf" quantity=" 5 "> 5 </measure> + <measure type="laterEndleaf" quantity="21">xxi</measure>
                            <dimensions type="binding" unit="cm">
                               <height quantity="51.4">51.4</height>
                               <width quantity="19.7">19.7</width>
@@ -99,15 +97,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n278/mode/1up"
-                                       >no. 1422 (1–3), p. 247</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n278/mode/1up">no. 1422 (1–3), p. 247</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -119,9 +114,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n278/mode/1up"
-                                 >no. 1422 (1–3), p. 247</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n278/mode/1up">no. 1422 (1–3), p. 247</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

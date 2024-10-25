@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Mill Collection</collection>
                   <idno type="shelfmark">MS. Mill 132</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0r781wg29d5</idno><idno type="crArk">ark:29072/x0r494vk4639</idno><altIdentifier>
                      <idno type="CSM">15</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -73,12 +73,12 @@
                         <title xml:lang="sa" key="work_00221" type="sub">Bhīṣmaparvan</title>
                         
                         <rubric>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                            oṃ namaḥ śrī guru gauyāla gauḍī gaṇapatibhyaḥ ||
                         </rubric>
                         
                         <incipit>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                         oṃ nārāyaṇāṃ namaskṛtya naraṃ vaivanarotramaṃ ||  
                         </incipit>
                         
@@ -97,18 +97,18 @@
                         <title xml:lang="sa" key="work_00223">Bhāratārthadīpikā</title>
                         
                         <rubric>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                            oṃ namas tābhyāṃ nama ||  
                         </rubric>
                         
                         <incipit>
-                           <locus from="1v" to="1v" >F. 1v:</locus>
+                           <locus from="1v" to="1v">F. 1v:</locus>
                          śrī kṛśṇācaraṇau natvā kṛṣṇadvaipāyanaṁ tataḥ | 
                          saṃtoṣāya satāṃ bhīṣmaparva vyākhyāyate mayā || 
                         </incipit>
                        
                         <colophon>
-                           <locus from="311r" to="311r" >F. 311r:</locus>
+                           <locus from="311r" to="311r">F. 311r:</locus>
                            || iti śrīmahābhārate bhīṣmaparvaṇi samāptam iti ||
                            || vaṃśāvibhūṣitakarānnavanīradābhātyitāṃ barādaruṇabiṃbakalādharoṣṭāt ||
                            pūrṣairusuṃdaramukhādarabiṃdanettān kṛṣṇāt paraṃkimayitatvam ahaṃ najāne ||2||
@@ -151,7 +151,7 @@
                      </supportDesc>
                      
                      <layoutDesc>
-                        <layout columns="1" type="commentary"  style="tripāṭha">
+                        <layout columns="1" type="commentary" style="tripāṭha">
                            
                            <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">mūla</term> cited in full.
                            </note>

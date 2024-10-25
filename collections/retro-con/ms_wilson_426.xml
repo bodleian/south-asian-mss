@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Wilson Collection</collection>
                   <idno type="shelfmark">MS. Wilson 426</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0hh63sw64km</idno><idno type="crArk">ark:29072/x0hd76s08180</idno><altIdentifier>
                      <idno type="CSM">551, 357, 539, 737, 725, 574, 234, 341, 317, 1028</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -53,9 +53,7 @@
                      <supportDesc>
                         <support>paper</support>
                         <extent source="#Keith1909">
-                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure
-                              type="leaf" quantity=" 108 "> 108 </measure> + <measure
-                              type="laterEndleaf" quantity="2">ii</measure>. The ten parts in the
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 108 "> 108 </measure> + <measure type="laterEndleaf" quantity="2">ii</measure>. The ten parts in the
                            original foliation have 10 + 13 + 5 (numbered 1, 2, 1–3) + 7 + 13 + 17 +
                            3 + 2 + 3 + (1–3, 2–35) leaves.<dimensions type="folio" unit="cm">
                               <height quantity="31.1">31.1</height>
@@ -66,16 +64,14 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <acquisition source="#Keith1909">The collection of <persName key="person_00201"
-                        >Horace Hayman Wilson</persName> was purchased by the Bodleian Library in
+                  <acquisition source="#Keith1909">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in
                      1842.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -89,51 +85,13 @@
                         <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
                               Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
                               I</title> (Oxford, 1909), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n78/mode/1up"
-                                 >no. 551, p. 69</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n55/mode/1up"
-                                 >no. 357, p. 46</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n77/mode/1up"
-                                 >no. 539, p. 68</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n101/mode/1up"
-                                 >no. 737, p. 92</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n100/mode/1up"
-                                 >no. 725, p. 91</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n81/mode/1up"
-                                 >no. 574, p. 72</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n39/mode/1up"
-                                 >no. 234, p. 30</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n53/mode/1up"
-                                 >no. 341, p. 44</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n50/mode/1up"
-                                 >no. 317, p. 41</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n78/mode/1up">no. 551, p. 69</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n55/mode/1up">no. 357, p. 46</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n77/mode/1up">no. 539, p. 68</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n101/mode/1up">no. 737, p. 92</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n100/mode/1up">no. 725, p. 91</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n81/mode/1up">no. 574, p. 72</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n39/mode/1up">no. 234, p. 30</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n53/mode/1up">no. 341, p. 44</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n50/mode/1up">no. 317, p. 41</ref></biblScope></bibl>
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n115/mode/1up"
-                                 >no. 1028, p. 84</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n115/mode/1up">no. 1028, p. 84</ref></biblScope></bibl>
                         <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
-                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=241"
-                                 >no. 551, pp. 225-226</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=179"
-                                 >no. 357, p. 163</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=238"
-                                 >no. 539, p. 222</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=320"
-                                 >no. 737, pp. 304-305</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=316"
-                                 >no. 725, p. 300</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=254"
-                                 >no. 574, p. 238</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=145"
-                                 >no. 234, pp. 129-130</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=173"
-                                 >no. 341, pp. 157-158</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=163"
-                                 >no. 317, pp. 147-148</ref></biblScope></bibl>
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=241">no. 551, pp. 225-226</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=179">no. 357, p. 163</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=238">no. 539, p. 222</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=320">no. 737, pp. 304-305</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=316">no. 725, p. 300</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=254">no. 574, p. 238</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=145">no. 234, pp. 129-130</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=173">no. 341, pp. 157-158</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=163">no. 317, pp. 147-148</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>
@@ -159,9 +117,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n78/mode/1up"
-                                          >no. 551, p. 69</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n78/mode/1up">no. 551, p. 69</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -185,8 +141,7 @@
                   </msContents>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700"
-                           notAfter="1799">18th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -195,9 +150,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n77/mode/1up"
-                                          >no. 539, p. 68</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n77/mode/1up">no. 539, p. 68</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -235,9 +188,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n101/mode/1up"
-                                          >no. 737, p. 92</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n101/mode/1up">no. 737, p. 92</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -266,8 +217,7 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800"
-                           notAfter="1899">19th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -276,9 +226,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n100/mode/1up"
-                                          >no. 725, p. 91</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n100/mode/1up">no. 725, p. 91</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -299,8 +247,7 @@
                   </msContents>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800"
-                           notAfter="1899">19th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -309,9 +256,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n81/mode/1up"
-                                          >no. 574, p. 72</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n81/mode/1up">no. 574, p. 72</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -343,9 +288,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n39/mode/1up"
-                                          >no. 234, p. 30</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n39/mode/1up">no. 234, p. 30</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -366,8 +309,7 @@
                   </msContents>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700"
-                           notAfter="1799">18th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -376,9 +318,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n53/mode/1up"
-                                          >no. 341, p. 44</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n53/mode/1up">no. 341, p. 44</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -399,8 +339,7 @@
                   </msContents>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800"
-                           notAfter="1899">19th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -409,9 +348,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n50/mode/1up"
-                                          >no. 317, p. 41</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n50/mode/1up">no. 317, p. 41</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -433,8 +370,7 @@
                   </msContents>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#WinternitzKeith1905"
-                           notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -444,9 +380,7 @@
                               <listBibl>
                                  <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                        Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                       <ref
-                                          target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n115/mode/1up"
-                                          >no. 1028, p. 84</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n115/mode/1up">no. 1028, p. 84</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -469,8 +403,7 @@
                   </msContents>
                   <history>
                      <origin>
-                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700"
-                           notAfter="1799">18th cent.?</origDate>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
                      </origin>
                   </history>
                   <additional>
@@ -479,9 +412,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n55/mode/1up"
-                                          >no. 357, p. 46</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n55/mode/1up">no. 357, p. 46</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>

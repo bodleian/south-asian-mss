@@ -42,7 +42,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Wilson Collection</collection>
                   <idno type="shelfmark">MS. Wilson 505</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0z029p461pr</idno><idno type="crArk">ark:29072/x0xw42n778c1</idno><altIdentifier>
                      <idno type="CSM">918 (1, 2)</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -75,7 +75,7 @@
                   <origin>
                      <origDate calendar="#gregorian" when="1566" source="#WinternitzKeith1905">A. D. 1566.</origDate>
                   <p source="#WinternitzKeith1905"><locus>f. 180v</locus>: saṃvat 1622 <supplied>1566</supplied> varṣe bhādrapadamāse kṛṣṇe pakṣe tṛtīyāyāṃ puṇyatithau budhadine aśvinīnakṣatre vyāghātanāmni yoge vaṇijakaraṇe meṣarāśisthite caṃdre evamādipuṇyāhe sati |</p></origin>
-                  <provenance source="#WinternitzKeith1905"></provenance>
+                  <provenance source="#WinternitzKeith1905"/>
                   <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
                <additional>
                   <adminInfo>

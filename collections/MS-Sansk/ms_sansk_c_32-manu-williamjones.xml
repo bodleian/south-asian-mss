@@ -44,7 +44,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. c. 32</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0s7526c62h8</idno><idno type="crArk">ark:29072/x0s4655g796j</idno><altIdentifier>
                      <idno type="CSM">1483 (1, 2)</idno>
                   </altIdentifier>
                   <altIdentifier type="former">
@@ -160,10 +160,8 @@
                            </material></p>
                         </support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="3">iii</measure> + <measure
-                              type="leaf" quantity=" 153"> 153</measure>
-                           <dimensions type="binding"
-                              unit="cm">
+                           <measure type="laterEndleaf" quantity="3">iii</measure> + <measure type="leaf" quantity=" 153"> 153</measure>
+                           <dimensions type="binding" unit="cm">
                               <height quantity="25">25</height>
                               <width quantity="38">38</width>
                            </dimensions>
@@ -207,8 +205,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1789"
-                        notAfter="1792">1789–1792 CE.</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1789" notAfter="1792">1789–1792 CE.</origDate>
                      <note>
                         A statement on <locus from="145r" to="145r">f. 145r</locus>: <quote>"finished <date>27 Nov. 1789</date>"</quote>
                         gives probably the date at which the Sanskrit copy was finished. 
@@ -234,16 +231,13 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up"
-                                       >no. 1483 (1, 2), pp.
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up">no. 1483 (1, 2), pp.
                               275-276</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -255,9 +249,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up"
-                                 >no. 1483 (1, 2), pp. 275-276.</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n306/mode/1up">no. 1483 (1, 2), pp. 275-276.</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

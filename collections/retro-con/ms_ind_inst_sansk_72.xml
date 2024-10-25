@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Indian Institute Library</collection>
                   <idno type="shelfmark">MS. Ind. Inst. Sansk. 72</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0cr56n198k2</idno><idno type="crArk">ark:29072/x0cn69m5158c</idno><altIdentifier>
                      <idno type="IndInst">27 (1–3)</idno>
                   </altIdentifier>
                </msIdentifier><head>NOTE: This record has yet to be fully checked.</head>
@@ -52,7 +52,7 @@
                   <summary> </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
                   <msItem n="1">
-                     <author>>Dīnanātha</author>
+                     <author>&gt;Dīnanātha</author>
                      <title>Nārāyaṇamunistotra</title>
                      <incipit><locus>f. 1r: </locus>śrisvāmine namo namaḥ | dharmmasya bālaṃ madanasya kālaṃ sanmārggapālaṃ hatalobḥajālaṃ | kaleḥ karālaṃ sudhiyaṃ rasālaṃ Nārāyaṇaṃ bhaktisutaṃ namāmi ‖ 1 ‖ </incipit>
                      <explicit><locus>f. 3r: </locus>iti Dīnānāthabhaṭṭaviracitaṃ. śrīnārāyaṇamunistotraṃ saṃpūraṇam |</explicit>
@@ -90,8 +90,7 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
-                        source="#Keith1903">
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#Keith1903">
                         <desc>Devanāgarī.</desc>
                         <p source="#Keith1903"><locus>f. 166</locus>: lekhaka Nīlakaṃṭhānaṃdamuṇi
                            |</p>
@@ -101,8 +100,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" when="1831" source="#Keith1903"
-                        >1831.</origDate>
+                     <origDate calendar="#gregorian" when="1831" source="#Keith1903">1831.</origDate>
                      <p source="#Keith1903"> f. 166: saṃvat 1887 <supplied>1831</supplied> varṣe āṣāḍhaśukla ‖
                         guruvāsare śrīdurgapattane Śikṣāpattrṭīkā saṃpūrṇā |</p>
                   </origin>
@@ -117,15 +115,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#Keith1903">Keith, <title>Catalogue of Sanskrit and
                                     Prākrit MSS in the Indian Institute Library</title>, <biblScope>
-                                    <ref
-                                       target="https://archive.org/details/KeithsCatalogueOfTheSanskritAndPrakritMss.InTheIndianInstitute/page/n18/mode/1up"
-                                       >no. 27 (1–3), pp. 15-16</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/KeithsCatalogueOfTheSanskritAndPrakritMss.InTheIndianInstitute/page/n18/mode/1up">no. 27 (1–3), pp. 15-16</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -137,9 +132,7 @@
                         <bibl xml:id="Keith1903"> Arthur Berriedale Keith, <title>A Catalogue of the
                               Sanskrit and Prākrit MSS. in the Indian Institute Library
                               Oxford</title> (Oxford, 1903), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/KeithsCatalogueOfTheSanskritAndPrakritMss.InTheIndianInstitute/page/n18/mode/1up"
-                                 >no. 27 (1–3), pp. 15-16</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/KeithsCatalogueOfTheSanskritAndPrakritMss.InTheIndianInstitute/page/n18/mode/1up">no. 27 (1–3), pp. 15-16</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

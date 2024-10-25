@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00301">
@@ -20,8 +20,7 @@
                         <street>Broad Street</street>
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
-                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections"
-                            >Bodleian Library </ref></addrLine>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
                         <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
@@ -38,7 +37,7 @@
                     <repository>Bodleian Library</repository>
                     <collection type="sanskrit" subtype="miscellaneous">Sanskrit, Chandra Shum Shere Collection</collection><!--check this! -->
                     <idno type="shelfmark">MS. Chandra Shum Shere d. 235</idno>
-                    <!-- If listed in CSM, add this number here 
+                    <idno type="ieArk">ark:29072/x0j9602130s8</idno><idno type="crArk">ark:29072/x0j6731447gj</idno><!-- If listed in CSM, add this number here 
                     <altIdentifier>
                         <idno type="CSM"></idno>
                     </altIdentifier> -->
@@ -89,7 +88,7 @@
                             śrīgaṇeśāya namaḥ ||
                         </rubric>
                         
-                        <textLang mainLang="sa" >Sanskrit.</textLang>
+                        <textLang mainLang="sa">Sanskrit.</textLang>
                     </msItem>
                     
                         <msItem n="2" defective="unknown">
@@ -107,7 +106,7 @@
                            māgha śukla pratipadā kula vāsara || saṁvat 1882 ||
                             </colophon>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                         
                         </msContents>
@@ -162,9 +161,7 @@
                        <adminInfo>
                            <availability status="restricted">
                                <p>Entry to read in the Library is permitted only on presentation of
-                                   a valid reader's card, for admissions procedures contact <ref
-                                       target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                       >Bodleian Libraries' Admissions Office</ref>.</p>
+                                   a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                            </availability>
                            <note/>
                        </adminInfo>
@@ -267,9 +264,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -340,7 +335,7 @@
                                 saṃdhyā pradeśe saṃdhyāyāṃ saṃdhyā karmasu parvasu || japa manyatra kuvīta punaḥ Saṁdhdhyāṃ samācaret || ||1|| ||
                             </colophon>
                             
-                            <textLang mainLang="sa" >Sanskrit.</textLang>
+                            <textLang mainLang="sa">Sanskrit.</textLang>
                         </msItem>
                         
                     </msContents>
@@ -391,9 +386,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -497,9 +490,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -608,9 +599,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -715,7 +704,7 @@
                 
                 <history>
                     <origin>
-                        <origDate calendar="Vikrama" when="1951">saṃvat 1951</origDate> / <origDate calendar="#Gregorian" when="1894">1894 CE.</origDate>>
+                        <origDate calendar="Vikrama" when="1951">saṃvat 1951</origDate> / <origDate calendar="#Gregorian" when="1894">1894 CE.</origDate>&gt;
                     </origin>
                 </history>
                 
@@ -723,9 +712,7 @@
                     <adminInfo>
                         <availability status="restricted">
                             <p>Entry to read in the Library is permitted only on presentation of
-                                a valid reader's card, for admissions procedures contact <ref
-                                    target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                    >Bodleian Libraries' Admissions Office</ref>.</p>
+                                a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                         </availability>
                         <note/>
                     </adminInfo>
@@ -841,9 +828,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -986,9 +971,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -1101,9 +1084,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -1215,9 +1196,7 @@
                         <adminInfo>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
-                                    a valid reader's card, for admissions procedures contact <ref
-                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
-                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
@@ -1495,7 +1474,7 @@
                                 <catDesc>Cosmology</catDesc>
                             </category>
                             <category xml:id="karma">
-                                <catDesc></catDesc>
+                                <catDesc/>
                             </category>
                             <category xml:id="ethics">
                                 <catDesc>General teaching on ethics and particular ethical topics</catDesc>

@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. f. 10</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0p2676v96sp</idno><idno type="crArk">ark:29072/x0nz806013g7</idno><altIdentifier>
                      <idno type="CSM">1469 (1–5)</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -92,9 +92,7 @@
                      <supportDesc material="paper">
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="3">iii</measure> + <measure
-                              type="leaf" quantity=" 24 "> 24 </measure> + <measure
-                              type="laterEndleaf" quantity="1">i</measure>. In the original 3 + 1 +
+                           <measure type="laterEndleaf" quantity="3">iii</measure> + <measure type="leaf" quantity=" 24 "> 24 </measure> + <measure type="laterEndleaf" quantity="1">i</measure>. In the original 3 + 1 +
                            1 + 18, but these are incorrect.<dimensions type="binding" unit="cm">
                               <height quantity="16.8">16.8</height>
                               <width quantity="13.3">13.3</width>
@@ -103,8 +101,7 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
-                        source="#WinternitzKeith1905">
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905">
                         <desc>Devanāgarī.</desc>
                         <p source="#WinternitzKeith1905">F. 3v: liṣitam Ajodhyānāthatputrakālikādāsa
                            | F.5v: Ajodhyānāthatatputrakālikādāsa |F.24v: Gauḍabrāhmaṇa liṣītaṃ
@@ -132,16 +129,13 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n301/mode/1up"
-                                       >no. 1469 (1–5), pp.
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n301/mode/1up">no. 1469 (1–5), pp.
                               270-271</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -153,9 +147,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n301/mode/1up"
-                                 >no. 1469 (1–5), pp. 270-271</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n301/mode/1up">no. 1469 (1–5), pp. 270-271</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

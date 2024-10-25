@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Wilson Collection</collection>
                   <idno type="shelfmark">MS. Wilson 153</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x00c483m1829</idno><idno type="crArk">ark:29072/x008612q34r6</idno><altIdentifier>
                      <idno type="CSM">673, 706, 703</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -53,9 +53,7 @@
                      <supportDesc>
                         <support source="#Keith1909">yellow country paper.</support>
                         <extent source="#Keith1909">
-                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure
-                              type="leaf" quantity=" 179 "> 179 </measure> + <measure
-                              type="laterEndleaf" quantity="2">ii</measure>. The three parts in the
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 179 "> 179 </measure> + <measure type="laterEndleaf" quantity="2">ii</measure>. The three parts in the
                            original foliation have 82 (really 92, ff. 50–59 being repeated) + 10 +
                            77 leaves.<dimensions type="folio" unit="cm">
                               <height quantity="38.7">38.7</height>
@@ -66,16 +64,14 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <acquisition source="#Keith1909">The collection of <persName key="person_00201"
-                        >Horace Hayman Wilson</persName> was purchased by the Bodleian Library in
+                  <acquisition source="#Keith1909">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in
                      1842.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -89,21 +85,9 @@
                         <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
                               Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
                               I</title> (Oxford, 1909), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n93/mode/1up"
-                                 >no. 673, p. 84</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up"
-                                 >no. 706, p. 88</ref></biblScope>; <biblScope><ref
-                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up"
-                                 >no. 703, p. 88</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n93/mode/1up">no. 673, p. 84</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up">no. 706, p. 88</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up">no. 703, p. 88</ref></biblScope></bibl>
                         <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
-                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=304"
-                                 >no. 673, p. 288</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=309"
-                                 >no. 706, p. 293</ref></biblScope>; <biblScope><ref
-                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=309"
-                                 >no. 703, p. 293</ref></biblScope></bibl>
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=304">no. 673, p. 288</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=309">no. 706, p. 293</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=309">no. 703, p. 293</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>
@@ -137,9 +121,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n93/mode/1up"
-                                          >no. 673, p. 84</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n93/mode/1up">no. 673, p. 84</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -180,9 +162,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up"
-                                          >no. 706, p. 88</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up">no. 706, p. 88</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>
@@ -213,9 +193,7 @@
                            <source>
                               <listBibl>
                                  <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
-                                       <ref
-                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up"
-                                          >no. 703, p. 88</ref></biblScope></bibl>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n97/mode/1up">no. 703, p. 88</ref></biblScope></bibl>
                               </listBibl>
                            </source>
                         </recordHist>

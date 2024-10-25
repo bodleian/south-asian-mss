@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Or. Polygl. f. 1</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x08g84mn49c0</idno><idno type="crArk">ark:29072/x08c97kr6624</idno><altIdentifier>
                      <idno type="CSM">1621</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -75,8 +75,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1851"
-                        notAfter="1853">A. D. 1851–1853.</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1851" notAfter="1853">A. D. 1851–1853.</origDate>
                   </origin>
                   <provenance> </provenance>
                   <acquisition>Presented by the Rev. <persName key="person_00023">S. C. Malan</persName> in 1859.</acquisition>
@@ -89,15 +88,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n355/mode/1up"
-                                       >no. 1621, p. 324</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n355/mode/1up">no. 1621, p. 324</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -109,9 +105,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n355/mode/1up"
-                                 >no. 1621, p. 324</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n355/mode/1up">no. 1621, p. 324</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

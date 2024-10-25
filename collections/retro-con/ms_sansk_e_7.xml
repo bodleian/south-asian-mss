@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, miscellaneous</collection>
                   <idno type="shelfmark">MS. Sansk. e. 7</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x0hq37vp314p</idno><idno type="crArk">ark:29072/x0hm50ts47tq</idno><altIdentifier>
                      <idno type="CSM">1024 (1, 2)</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -83,9 +83,7 @@
                      <supportDesc material="paper">
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
-                              type="leaf" quantity=" 80 "> 80 </measure> + <measure
-                              type="laterEndleaf" quantity="1">i</measure>
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure type="leaf" quantity=" 80 "> 80 </measure> + <measure type="laterEndleaf" quantity="1">i</measure>
                            <dimensions type="binding" unit="cm">
                               <height quantity="21.6">21.6</height>
                               <width quantity="11.7">11.7</width>
@@ -94,8 +92,7 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
-                        source="#WinternitzKeith1905">
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905">
                         <desc>Devanāgarī.</desc>
                      </handNote>
                   </handDesc>
@@ -103,8 +100,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700"
-                        notAfter="1799">18th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
                      <p source="#WinternitzKeith1905">probably middle of 18th century.</p>
                   </origin>
                   <provenance> A former owner was Govindarāma. Entry on <locus>f. 1:</locus> ‖ di |
@@ -121,16 +117,13 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n113/mode/1up"
-                                       >no. 1024 (1, 2), pp.
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n113/mode/1up">no. 1024 (1, 2), pp.
                               82-83</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -142,9 +135,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n113/mode/1up"
-                                 >no. 1024 (1, 2), pp. 82-83</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n113/mode/1up">no. 1024 (1, 2), pp. 82-83</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03304">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title/>
                 <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -30,8 +30,8 @@
                         </addrLine>
                     </address>
                 </pubPlace>
-                <idno></idno>
-                <idno type="msID"></idno>
+                <idno/>
+                <idno type="msID"/>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
@@ -41,9 +41,9 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno type="shelfmark">MS. Chandra Shum Shere c. 484</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0j38607645p</idno><idno type="crArk">ark:29072/x0j098zb80v8</idno></msIdentifier>
                     
                     <msContents n="1">
                         
@@ -104,8 +104,7 @@
                         
                         <acquisition>The MSS. Chandra Shum Shere collection was donated by <name type="person" role="dnr" key="person_00030">
                                 <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
-                                    Jang Bahadur Rana</persName></name> in <date
-                                    calendar="Gregorian" when="1909">1909</date>.
+                                    Jang Bahadur Rana</persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
                         </acquisition>
                     </history>
                     

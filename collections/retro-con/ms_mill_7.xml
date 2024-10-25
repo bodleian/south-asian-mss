@@ -43,7 +43,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>Sanskrit, Mill Collection</collection>
                   <idno type="shelfmark">MS. Mill 7</idno>
-                  <altIdentifier>
+                  <idno type="ieArk">ark:29072/x03b591b177q</idno><idno type="crArk">ark:29072/x037720f33xm</idno><altIdentifier>
                      <idno type="CSM">982</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
@@ -61,9 +61,7 @@
                         <support source="#WinternitzKeith1905">Paper, rough, yellow, native country
                            made.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
-                              type="leaf" quantity=" 139 "> 139 </measure> + <measure
-                              type="laterEndleaf" quantity="1">i</measure>
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure type="leaf" quantity=" 139 "> 139 </measure> + <measure type="laterEndleaf" quantity="1">i</measure>
                            <dimensions type="binding" unit="cm">
                               <height quantity="40.3">40.3</height>
                               <width quantity="13.3">13.3</width>
@@ -80,14 +78,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700"
-                        notAfter="1899">18th or 19th cent.?</origDate>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1899">18th or 19th cent.?</origDate>
                      <p source="#WinternitzKeith1905">probably end of 18th or beginning of 19th
                         century.</p>
                   </origin>
                   <provenance> </provenance>
-                  <acquisition source="#WinternitzKeith1905">The collections of <persName
-                        key="person_00179">William Hodge Mill</persName> were purchased by the
+                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_00179">William Hodge Mill</persName> were purchased by the
                      Bodleian Library in 1849 and 1858.</acquisition>
                </history>
                <additional>
@@ -98,15 +94,12 @@
                               <bibl><ref/></bibl>
                               <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
                                     Catalogue of Sanskrit manuscripts</title>,<biblScope>
-                                    <ref
-                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n93/mode/1up"
-                                       >no. 982, p. 62</ref></biblScope></bibl></listBibl>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n93/mode/1up">no. 982, p. 62</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -118,9 +111,7 @@
                         <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
                            Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
                               Library</title> (Oxford, 1905), <biblScope>
-                              <ref
-                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n93/mode/1up"
-                                 >no. 982, p. 62</ref></biblScope></bibl>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n93/mode/1up">no. 982, p. 62</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>
