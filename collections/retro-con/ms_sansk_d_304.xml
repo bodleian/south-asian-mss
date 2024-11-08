@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03119">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03103">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,17 +40,20 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>Sanskrit, miscellaneous</collection>
-                  <idno type="shelfmark">MS. Sansk. d. 801</idno>
-                  <idno type="ieArk">ark:29072/x01v53jz67pd</idno><idno type="crArk">ark:29072/x01r66j284cs</idno><altIdentifier>
-                     <idno type="CSM">1396</idno>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 304</idno>
+                  <idno type="ieArk">ark:29072/x02801pj00xx</idno><idno type="crArk">ark:29072/x02514nn17m6</idno><altIdentifier>
+                     <idno type="CSM">1369</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
-               <head source="#WinternitzKeith1905">Bhāvadevasūri’s Pārśvanāthacaritra, A. D. 1595.</head>
+               <head source="#WinternitzKeith1905">Piṇḍaviśuddhiprakaraṇāvacūrṇi, 17th or 18th cent.?</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Pārśvanāthacaritra, a legendary account of the Jina Pārśvanātha by Bhāvadevasūri, pupil of Jinadevasūri, written in a. d. 1356</summary>
+                  <summary source="#WinternitzKeith1905">The Piṇḍaviśuddhiprakaraṇāvacūrṇi, a commentary on the Piṇḍaviśuddhiprakarana of Jinavallabhagaṇi</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  
+                  <msItem> 
+                     <title/>
+                     
+                  <incipit source="#WinternitzKeith1905"><locus>[1] </locus>deviḥ | śobhanaṃ vihitam anuṣṭhānaṃ yeṣāṃ te suvihitās teṣām upakāriṇāṃ piṃḍo ’tra samayasaṃjñayā caturvidho ’śanādyāhāras tasya vividhā śodhir udgamādidoṣarahitā yā nirmalatā tadarthābhidhāyinī śāstrapaddhatir api piṃḍaviśodhir ity ucyate | atha jīvānāṃ śivasukhabādhi piṃḍadoṣabhaṇanenaiva prastāvayann āha ǁ 1 jīvāº |</incipit><explicit source="#WinternitzKeith1905"><locus>[5v] </locus>102 icceº | ity etat pūrvoktaṃ Jinavallabhākhyena gaṇinā | udvyūḍhabhagavatyaṃgādiyogena yat piṃḍaniryuktito mūlagraṃthāt kiṃcit svarūpamātraṃ piṃḍavidhānajñānakṛte āhāravidhiparijñānahetoḥ | keṣāṃ bhavyānāṃ yogyānāṃ sarveṣām api sādhuśrāddhādīnāṃ | vuttaṃtiprakaraṇarūpatayā viracyoktaṃ | kiṃviśiṣṭena sūtraniyuktamugdhamatinā | siddhāṃtavyāpāritānipuṇamatinā | auddhatyaparihārārtham idam uktaṃ | kayoktaṃ bhaktyā pravacanabahumānena | śaktyā ca svabuddhyanusāreṇa | tat sarvaṃ maduktaṃ | bhavyaṃ yathā bhavaty evaṃ | amavaṃkurā adveṣiṇaḥ | śrutadharā yathārthāgamavedino bodhayaṃtu svaśiṣyān | jñāpayaṃtu | śodhayaṃtu ca | utsūtrāpanayanena nirdoṣaṃ kurvaṃtu | iti yogaḥ ǁ 103 ǁ iti suvihitaśiromaṇiśrīśrījinavallabhagaṇiviracitapiṃḍavi-śuddhiprakaraṇṇāvacūrṇṇiḥ | cha | śrī | cha | śu (bha) ṃ bhavatu |</explicit></msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -58,24 +61,26 @@
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
                            <measure type="laterEndleaf" quantity="3">iii</measure>
-                           + <measure type="leaf" quantity=" 137 "> 137 </measure>
-                           + <measure type="laterEndleaf" quantity="2">ii</measure>. Really 135, as ff. 2, 3 are missing.<dimensions type="binding" unit="cm">
-                           <height quantity="27.6">27.6</height>
-                           <width quantity="11.7">11.7</width>
+                           + <measure type="leaf" quantity=" 5 "> 5 </measure>
+                           + <measure type="laterEndleaf" quantity="41">xli</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="27.3">27.3</height>
+                           <width quantity="12.1">12.1</width>
                         </dimensions>
                         </extent>
-                     <condition source="#WinternitzKeith1905">ff. 2, 3 are missing, verses 22–105 of sarga 1 being thus lost.</condition></supportDesc>
+                     </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style, very small, 24 lines a page.</desc></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" when="1595" source="#WinternitzKeith1905">A. D. 1595.</origDate>
-                  <p source="#WinternitzKeith1905"><locus>f. 137</locus>: saṃvat 1651 <supplied>1595</supplied> varṣe phāguṇaśudi 15 śukravāre liṣitaṃ | śrīpārśvanāthaprasādāt |</p></origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">17th or 18th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">the middle or beginning of the 17th century.</p></origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 450).</acquisition>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 453).</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -83,7 +88,7 @@
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n264/mode/1up">no. 1396, pp. 233-234</ref></biblScope></bibl></listBibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n249/mode/1up">no. 1369, pp. 218-219</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -93,7 +98,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n264/mode/1up">no. 1396, pp. 233-234</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n249/mode/1up">no. 1369, pp. 218-219</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>

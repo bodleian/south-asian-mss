@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03134">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03119">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,20 +40,17 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>Sanskrit, miscellaneous</collection>
-                  <idno type="shelfmark">MS. Sansk. d. 826</idno>
-                  <idno type="ieArk">ark:29072/x037720f3413</idno><idno type="crArk">ark:29072/x03484zj50qp</idno><altIdentifier>
-                     <idno type="CSM">1417</idno>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 301</idno>
+                  <idno type="ieArk">ark:29072/x01v53jz67pd</idno><idno type="crArk">ark:29072/x01r66j284cs</idno><altIdentifier>
+                     <idno type="CSM">1396</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
-               <head source="#WinternitzKeith1905">Samyaktvakaumudīcaritra, A. D. 1753.</head>
+               <head source="#WinternitzKeith1905">Bhāvadevasūri’s Pārśvanāthacaritra, A. D. 1595.</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Samyaktvakaumudīcaritra, a collection of Jaina tales in support of the Jaina tenets, especially as against Buddhism</summary>
+                  <summary source="#WinternitzKeith1905">The Pārśvanāthacaritra, a legendary account of the Jina Pārśvanātha by Bhāvadevasūri, pupil of Jinadevasūri, written in a. d. 1356</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  <incipit source="#WinternitzKeith1905"><locus>[1] </locus>śrīgaṇeśāya namaḥ | śrīgurubhyo namaḥ | atha śrīsamyaktvakaumudīkathā likhyate | śrīvarddhamānam ānamya | jinaṃ devaṃ jagadguruṃ | vakṣye ‘haṃ Kaumudī nṛṇāṃ | samyaktvaguṇahetave ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905"><locus>[40] </locus>śreṣṭinā Caureṇa sāṃtapuraḥsaparivāreṇa dīkṣā gṛhītā | anekaśāstrasiddhāṃtāni paṭhitvā ugratapaṃ kṛtvā ke ’pi mokṣaṃ ke ’pi devaloke jagmuḥ śrīśreṇiko narake gataḥ | samyaktvatatvapratipādikām imāṃ | kathāṃ nipīya śravaṇāmṛtopamāṃ | bhavyaṃtu bhavyā jinadharmanirmalāḥ | yathā syur iṣṭārthasamṛddhayo ’khilāḥ ǁ 1 ǁ iti śrīsamyaktvakaumudicaritraṃ saṃpūrṇṇaṃ |</explicit></msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -61,26 +58,24 @@
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
                            <measure type="laterEndleaf" quantity="3">iii</measure>
-                           + <measure type="leaf" quantity=" 40 "> 40 </measure>
-                           + <measure type="laterEndleaf" quantity="30">xxx</measure>
-
-                        <dimensions type="binding" unit="cm">
-                           <height quantity="27.0">27.0</height>
-                           <width quantity="12.1">12.1</width>
+                           + <measure type="leaf" quantity=" 137 "> 137 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>. Really 135, as ff. 2, 3 are missing.<dimensions type="binding" unit="cm">
+                           <height quantity="27.6">27.6</height>
+                           <width quantity="11.7">11.7</width>
                         </dimensions>
                         </extent>
-                     </supportDesc>
+                     <condition source="#WinternitzKeith1905">ff. 2, 3 are missing, verses 22–105 of sarga 1 being thus lost.</condition></supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, some Jaina characteristics.</desc><p source="#WinternitzKeith1905"><locus>f. 40</locus>: likhitaṃ pūjyasthaviramahāṃtaśrī 6 śrībhīmasenajittachiṣyapūº-jiiaºsrī 5 moṭājittadaṃtevāsinā ṛṣiṇā Mahānaṃdena likhitā śrīprahlādanapure |</p></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style.</desc></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" when="1753" source="#WinternitzKeith1905">A. D. 1753.</origDate>
-                  <p source="#WinternitzKeith1905"><locus>f. 40</locus>: saṃvat 1820 varṣe śāº 1675 <supplied>1753</supplied> prº kārttikavadi 5 paṃcamītithau bhaumavāsare livīcakre |</p></origin>
+                     <origDate calendar="#gregorian" when="1595" source="#WinternitzKeith1905">A. D. 1595.</origDate>
+                  <p source="#WinternitzKeith1905"><locus>f. 137</locus>: saṃvat 1651 <supplied>1595</supplied> varṣe phāguṇaśudi 15 śukravāre liṣitaṃ | śrīpārśvanāthaprasādāt |</p></origin>
                   <provenance>
                   </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 476).</acquisition>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 450).</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -88,7 +83,7 @@
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n276/mode/1up">no. 1417, p. 245</ref></biblScope></bibl></listBibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n264/mode/1up">no. 1396, pp. 233-234</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -98,7 +93,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n276/mode/1up">no. 1417, p. 245</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n264/mode/1up">no. 1396, pp. 233-234</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>

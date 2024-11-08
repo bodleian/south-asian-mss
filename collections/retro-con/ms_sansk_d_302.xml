@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03102">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03120">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,20 +40,17 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>Sanskrit, miscellaneous</collection>
-                  <idno type="shelfmark">MS. Sansk. d. 824</idno>
-                  <idno type="ieArk">ark:29072/x03197xn67dz</idno><idno type="crArk">ark:29072/x02z10wr843h</idno><altIdentifier>
-                     <idno type="CSM">1368</idno>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 302</idno>
+                  <idno type="ieArk">ark:29072/x02227mr349b</idno><idno type="crArk">ark:29072/x01z40kv510g</idno><altIdentifier>
+                     <idno type="CSM">1397</idno>
                   </altIdentifier>
                </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
-               <head source="#WinternitzKeith1905">Saṃgrahaṇyavaoūrṇi, 18th cent.?</head>
+               <head source="#WinternitzKeith1905">Sakalakīrti’s Pārśvanāthacaritra, A. D. 1741.</head>
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Saṃgrahaṇyavacūrṇi</summary>
+                  <summary source="#WinternitzKeith1905">The Pārśvanāthacaritra, a legendary history of the tīrthaṃkara Pārśvanātha, written in ślokas in the kāvya style, by Sakalakīrti, who flourished about a. d. 1464</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
-                     <title/>
-                     
-                  <incipit source="#WinternitzKeith1905"><locus>[1v] </locus>arhaṃ | namiumº | ādau śāstrakāro ’bhīṣṭadevatānamaskāram āha | sa ca śāstrānurūpaḥ saṃyogaucityavān | śāstraṃ caturdhālpākṣaramahārthā--| idaṃ ca śāstraṃ adyenodvarttate | tato namaskāram api ’lpākṣaramahārtham āha | natvārhadādīn ādiḥ siddhādayaḥ | catvāro ’pi jñeyāḥ | tiṣṭhaṃti nārakādibhave śṛṃkhalābaddhā iva jaṃtavo yayā karmmavariṇatyā sā sthitir āyur jīvitam ity ekārthāḥ | bhavaṃti varttaṃte devādaya eṣv iti bhavanāni ālayāḥ | avagāhaṃte ’vatiṣṭhaṃte jivā ’syām ity avagāhanā śarīraṃ | caśabdād varṇṇacihnādikaṃ cavākya ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905"><locus>[23] </locus>iti Saṃgrahaṇisūtra-kāraśrīśrīcaṃdrasūrisiṣyaśrīdevabhadrasūrikṛtavṛttyanu-sāreṇa Saṃgrahaṇe vacūrṇṇi saṃpūrṇṇā |</explicit></msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
@@ -61,26 +58,25 @@
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
                            <measure type="laterEndleaf" quantity="3">iii</measure>
-                           + <measure type="leaf" quantity=" 23 "> 23 </measure>
-                           + <measure type="laterEndleaf" quantity="70">lxx</measure>
+                           + <measure type="leaf" quantity=" 165 "> 165 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>
 
                         <dimensions type="binding" unit="cm">
-                           <height quantity="27.0">27.0</height>
-                           <width quantity="12.1">12.1</width>
+                           <height/>
+                           <width/>
                         </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" source="#WinternitzKeith1905"><desc>Devanāgarī, Jaina style.</desc><p source="#WinternitzKeith1905"><locus>f. 165v</locus>: śrīpratāpapure paṃḍitadayālajī likhitāmam idaṃ pustakaṃ śubhaṃ bhavatu |</p></handNote></handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">about the middle of the 18th cent.</p></origin>
-                  <provenance>
-                  </provenance>
-                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 474).</acquisition>
+                     <origDate calendar="#gregorian" when="1741" source="#WinternitzKeith1905">A. D. 1741.</origDate>
+                  <p source="#WinternitzKeith1905"><locus>f. 105v</locus>: saṃvat 1797 <supplied>1741</supplied> varṣe mārgaśirṣamāse śuklapakṣe tīthau 6 guruvāsare |</p></origin>
+                  <provenance source="#WinternitzKeith1905">on f. 165v is written in a later hand: pustakaṃ pamº-śivajīrāmaṭoḍāhālāko ciraṃjīvīnemicaṃdapaṭhanārthaṃ |</provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 451).</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -88,7 +84,7 @@
                         <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n249/mode/1up">no. 1368, p. 218</ref></biblScope></bibl></listBibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n265/mode/1up">no. 1397, p. 234</ref></biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -98,7 +94,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n249/mode/1up">no. 1368, p. 218</ref></biblScope></bibl></listBibl>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n265/mode/1up">no. 1397, p. 234</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>
