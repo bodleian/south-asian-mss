@@ -184,14 +184,20 @@
                         </history>
 
                         <additional>
-                            <adminInfo><recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist></adminInfo>
-                            <adminInfo>
+                            <adminInfo><recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist>
+                           
                                 <availability status="restricted">
                                     <p>Entry to read in the Library is permitted only on presentation of
                                         a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                                 </availability>
-                                <note/>
                             </adminInfo>
+                            <surrogates>
+                                <bibl type="digital-facsimile" subtype="full">
+                                    <ref target="https://digital.bodleian.ox.ac.uk/objects/548d5a04-d94d-42d4-9623-b33f913a1fd4/">
+                                        <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                                </bibl>
+                            </surrogates>
+                            
                             
                             <listBibl type="ms_descriptions">
                                 <head>Descriptions of the manuscripts</head>

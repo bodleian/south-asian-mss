@@ -62,7 +62,14 @@
                                 <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
                                     Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>. </acquisition>
                     </history>
-                    <additional><adminInfo><recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist></adminInfo></additional>
+                    <additional><adminInfo><recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist></adminInfo>
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/3513c694-6d12-468f-bf7d-5e483e62bca8/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
+                    </additional>
                     <msPart>
                         <msIdentifier>
                             <altIdentifier>
