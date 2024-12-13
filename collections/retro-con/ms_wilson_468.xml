@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
             <respStmt>
                <resp>Cataloguer</resp>
                <persName>[Name of cataloguer]</persName>
@@ -22,7 +23,8 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -41,67 +43,130 @@
                   <repository>Bodleian Library</repository>
                   <collection>MSS. Wilson</collection>
                   <idno type="shelfmark">MS. Wilson 468</idno>
-                  <idno type="ieArk">ark:29072/x0q811kj96kd</idno><idno type="crArk">ark:29072/x0q524jp138q</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0q811kj96kd</idno>
+                  <idno type="crArk">ark:29072/x0q524jp138q</idno>
+                  <altIdentifier>
                      <idno type="CSM">865 (1, 2)</idno>
                   </altIdentifier>
-               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
-               <head source="#WinternitzKeith1905">Pāvamāna, Mantrapraśna, 18th cent.? and 19th cent.?</head>
+               </msIdentifier>
+               <head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Pāvamāna, Mantrapraśna, 18th cent.? and 19th
+                  cent.?</head>
                <msContents>
-                  <summary>
-                     
-                  </summary>
+                  <summary> </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  
+
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="1">i</measure>
-                           + <measure type="leaf" quantity=" 51 "> 51 </measure>
-                           + <measure type="laterEndleaf" quantity="1">i</measure>
-
-                        <dimensions type="binding" unit="cm">
-                           <height quantity="22.5">22.5</height>
-                           <width quantity="12.4">12.4</width>
-                        </dimensions>
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
+                              type="leaf" quantity=" 51 "> 51 </measure> + <measure
+                              type="laterEndleaf" quantity="1">i</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="22.5">22.5</height>
+                              <width quantity="12.4">12.4</width>
+                           </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">the owner and scribe of 1 are given on f. 1: idaṃ pustakaṃ likhitaṃ Ratnākarajī tārelakṣmaṇabhaṭṭāce putra |</p><p source="#WinternitzKeith1905">idaṃ pustakaṃ likhitaṃ Bālājī paṃtaṭhopledhudrājapaṃtāce putra |</p><p source="#WinternitzKeith1905">Above this appears: Ratnākarasya likhitaṃ |</p><p source="#WinternitzKeith1905">Bālājīpaṃḍitasya likhitaṃ |</p></handNote></handDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
+                        source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p
+                           source="#WinternitzKeith1905">the owner and scribe of 1 are given on f.
+                           1: idaṃ pustakaṃ likhitaṃ Ratnākarajī tārelakṣmaṇabhaṭṭāce putra |</p><p
+                           source="#WinternitzKeith1905">idaṃ pustakaṃ likhitaṃ Bālājī
+                           paṃtaṭhopledhudrājapaṃtāce putra |</p><p source="#WinternitzKeith1905"
+                           >Above this appears: Ratnākarasya likhitaṃ |</p><p
+                           source="#WinternitzKeith1905">Bālājīpaṃḍitasya likhitaṃ |</p></handNote>
+                  </handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">18th cent.? and 19th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">1 seems to have been written about 1750 a. d. 2 is quite modern. Wintemitz, l. c., says 18th cent. If so, it must be the end of the century.</p></origin>
-                  <provenance>
-                  </provenance>
-                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">18th cent.? and
+                        19th cent.?</origDate>
+                     <p source="#WinternitzKeith1905">1 seems to have been written about 1750 a. d.
+                        2 is quite modern. Wintemitz, l. c., says 18th cent. If so, it must be the
+                        end of the century.</p></origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName
+                        key="person_00201">Horace Hayman Wilson</persName> was purchased by the
+                     Bodleian Library in 1842.</acquisition>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
-                           <listBibl>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n39/mode/1up">no. 865 (1, 2), pp. 8-9</ref></biblScope></bibl></listBibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n39/mode/1up"
+                                       >no. 865 (1, 2), pp. 8-9</ref></biblScope></bibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
                      </availability>
                   </adminInfo>
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n39/mode/1up">no. 865 (1, 2), pp. 8-9</ref></biblScope></bibl></listBibl>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n39/mode/1up"
+                                 >no. 865 (1, 2), pp. 8-9</ref></biblScope></bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 468(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Pāvamāna, consisting of Ṛg-veda IX, 1–67, divided into four sections.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 468(2) [fols 37v-51v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The first praśna of the Mantrapraśna, i. e. the twenty-fifth and twenty-sixth paṭalas of the Āpastamba Śrauta Sūtra, giving the gṛhya mantras.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><explicit source="#WinternitzKeith1905">iti śrīmaṃtrapraśne kāṃḍe prathamaḥ praśnaḥ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Wilson 468(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>The Pāvamāna, consisting of Ṛg-veda IX, 1–67, divided into four
+                        sections.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Wilson 468(2) [fols 37v-51v]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>The first praśna of the Mantrapraśna, i. e. the twenty-fifth and
+                        twenty-sixth paṭalas of the Āpastamba Śrauta Sūtra, giving the gṛhya
+                        mantras.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        <title/>
+                        <explicit source="#WinternitzKeith1905">iti śrīmaṃtrapraśne kāṃḍe prathamaḥ
+                           praśnaḥ |</explicit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-      </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <p><!--Body paragraph provided for validation and future transcription--></p>

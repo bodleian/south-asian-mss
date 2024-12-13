@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
             <respStmt>
                <resp>Cataloguer</resp>
                <persName>[Name of cataloguer]</persName>
@@ -22,7 +23,8 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -41,67 +43,127 @@
                   <repository>Bodleian Library</repository>
                   <collection>MSS. Wilson</collection>
                   <idno type="shelfmark">MS. Wilson 478</idno>
-                  <idno type="ieArk">ark:29072/x0sf268529d8</idno><idno type="crArk">ark:29072/x0sb3978463d</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sf268529d8</idno>
+                  <idno type="crArk">ark:29072/x0sb3978463d</idno>
+                  <altIdentifier>
                      <idno type="CSM">867 (1–3)</idno>
                   </altIdentifier>
-               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked.</head>
-               <head source="#WinternitzKeith1905">Aṣṭakāpūrvaka Śrāddha, Tribhāṣyaratna, 18th &amp; 17th cent.?</head>
+               </msIdentifier>
+               <head type="unchecked">NOTE: This record has yet to be fully checked.</head>
+               <head source="#WinternitzKeith1905">Aṣṭakāpūrvaka Śrāddha, Tribhāṣyaratna, 18th &amp;
+                  17th cent.?</head>
                <msContents>
-                  <summary>
-                     
-                  </summary>
+                  <summary> </summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
-                  
+
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
                         <support source="#WinternitzKeith1905">Paper.</support>
                         <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="1">i</measure>
-                           + <measure type="leaf" quantity=" 116 "> 116 </measure>
-                           + <measure type="laterEndleaf" quantity="1">i</measure>
-
-                        <dimensions type="binding" unit="cm">
-                           <height quantity="23.8">23.8</height>
-                           <width quantity="15.2">15.2</width>
-                        </dimensions>
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
+                              type="leaf" quantity=" 116 "> 116 </measure> + <measure
+                              type="laterEndleaf" quantity="1">i</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="23.8">23.8</height>
+                              <width quantity="15.2">15.2</width>
+                           </dimensions>
                         </extent>
-                     <condition source="#WinternitzKeith1905">ff. 1–10 or ff. 1–12 of 3 are lost.</condition></supportDesc>
+                        <condition source="#WinternitzKeith1905">ff. 1–10 or ff. 1–12 of 3 are
+                           lost.</condition>
+                     </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink"
+                        source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote>
+                  </handDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">18th &amp; 17th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">1 is modern in appearance and cannot be much earlier than 1800 a. d.</p><p source="#WinternitzKeith1905">3 looks older and may be earlier than 1700 a. d.</p></origin>
-                  <provenance>
-                  </provenance>
-                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">18th &amp; 17th
+                        cent.?</origDate>
+                     <p source="#WinternitzKeith1905">1 is modern in appearance and cannot be much
+                        earlier than 1800 a. d.</p><p source="#WinternitzKeith1905">3 looks older
+                        and may be earlier than 1700 a. d.</p></origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName
+                        key="person_00201">Horace Hayman Wilson</persName> was purchased by the
+                     Bodleian Library in 1842.</acquisition>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
-                           <listBibl>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n40/mode/1up">no. 867 (1–3), pp. 9-10</ref></biblScope></bibl></listBibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n40/mode/1up"
+                                       >no. 867 (1–3), pp. 9-10</ref></biblScope></bibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
                      </availability>
                   </adminInfo>
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n40/mode/1up">no. 867 (1–3), pp. 9-10</ref></biblScope></bibl></listBibl>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n40/mode/1up"
+                                 >no. 867 (1–3), pp. 9-10</ref></biblScope></bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
-            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 478(1) [fols 1v-37v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Aṣṭakāpūrvaka Srāddha, a treatise upon śrāddhas, more especially the important āṣṭakā śrāddhas.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><title/><incipit source="#WinternitzKeith1905">oṃ namaḥ | oṃ devinām ekeṃdrāgnī varuṇāny āgnāyīnāṃ dyāvāpṛthivyau |</incipit><explicit source="#WinternitzKeith1905">iti aṣṭakāpūrvakaṃ śrāddhaṃ samāptaṃ | śubham astu sarvajagatāṃ |</explicit></msItem></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 478(3)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Tribhāṣyaratna, a commentary on the Taittirīyaprātiśākhya.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin/></history><additional><adminInfo><recordHist><source><listBibl/></source></recordHist></adminInfo></additional></msPart></msDesc>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Wilson 478(1) [fols 1v-37v]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>The Aṣṭakāpūrvaka Srāddha, a treatise upon śrāddhas, more especially
+                        the important āṣṭakā śrāddhas.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        <title/>
+                        <incipit source="#WinternitzKeith1905">oṃ namaḥ | oṃ devinām ekeṃdrāgnī
+                           varuṇāny āgnāyīnāṃ dyāvāpṛthivyau |</incipit>
+                        <explicit source="#WinternitzKeith1905">iti aṣṭakāpūrvakaṃ śrāddhaṃ samāptaṃ
+                           | śubham astu sarvajagatāṃ |</explicit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Wilson 478(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>The Tribhāṣyaratna, a commentary on the
+                        Taittirīyaprātiśākhya.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+               </msPart>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-      </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <p><!--Body paragraph provided for validation and future transcription--></p>
