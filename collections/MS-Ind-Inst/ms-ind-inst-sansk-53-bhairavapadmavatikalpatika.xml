@@ -35,7 +35,7 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
+                        <collection>MSS. Ind. Inst. Sansk.</collection>
                     	<idno type="shelfmark">Ms. Ind. Inst. Sansk. 53</idno><idno type="ieArk">ark:29072/x0n870zq750n</idno><idno type="crArk">ark:29072/x0n583xt91pf</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
@@ -249,7 +249,12 @@
                             </availability>
                             <note/>
                         </adminInfo>
-                        
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/5b7448ab-40cb-4b30-9574-adb034f169de/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                         <listBibl type="ms_descriptions">
                             
                             <head>Descriptions of the manuscript</head>

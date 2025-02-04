@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02285">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_wilson_393</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Wilson</collection>
+                  <idno type="shelfmark">MS. Wilson 393</idno>
+                  <idno type="ieArk">ark:29072/x0b5644s65th</idno><idno type="crArk">ark:29072/x0b2773w82hn</idno><altIdentifier>
+                     <idno type="CSM">316, 430, 450, 432, 446, 448</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head>
+               </head>
+               <physDesc>
+                  <objectDesc form="pothi">
+                  <supportDesc>
+                     <support source="#Keith1909">paper water-marked ‘S. &amp; C. Wise.’</support>
+                     <extent source="#Keith1909">
+                        <measure type="laterEndleaf" quantity="1">i</measure>
+                        + <measure type="leaf" quantity=" 42 "> 42 </measure>
+                        + <measure type="laterEndleaf" quantity="1">i</measure>. Originally foliated in two main parts having (4 + 11)+ 27 (5 parts) leaves. Arranged like a European book.<dimensions type="folio" unit="cm">
+                        <height quantity="33.0">33.0</height>
+                        <width quantity="23.2">23.2</width>
+                     </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc></physDesc>
+               <history><acquisition source="#Keith1909">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  
+                  <surrogates>
+                     
+                  </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n50/mode/1up">no. 316, p. 41</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n63/mode/1up">no. 430, p. 54</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n65/mode/1up">no. 450, p. 56</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n64/mode/1up">no. 432, p. 55</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n65/mode/1up">no. 446, p. 56</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n65/mode/1up">no. 448, p. 56</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=163">no. 316, p. 147</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=205">no. 430, p. 189</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=210">no. 450, p. 194</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=205">no. 432, p. 189</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=210">no. 446, p. 194</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=210">no. 448, p. 194</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Wilson 393a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Rājataraṅgiṇī and Rājāvalīpatākā, 19th cent.?</head>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <history>
+                     <origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate><p source="#Keith1909">paper water-marked 1810.</p></origin>
+                  </history>
+                  <additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n50/mode/1up">no. 316, p. 41</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional>
+               </msPart>
+              
+
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 393b</idno></altIdentifier></msIdentifier><head>Śabdabhedaprakāśa, after A. D. 1820.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1820">after 1820</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n63/mode/1up">no. 430, p. 54</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 393c</idno></altIdentifier></msIdentifier><head>Dvirūpakośa, after A. D. 1810.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1810">after 1810</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n65/mode/1up">no. 450, p. 56</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 393d</idno></altIdentifier></msIdentifier><head>Ekākṣarakośa, after A. D. 1810.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1810">after 1810</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n64/mode/1up">no. 432, p. 55</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 393e</idno></altIdentifier></msIdentifier><head>Nānārthadhvanimañjarī, 19th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n65/mode/1up">no. 446, p. 56</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 393f</idno></altIdentifier></msIdentifier><head>Dvirūpakośa, after A. D. 1810.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1810">after 1810</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n65/mode/1up">no. 448, p. 56</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

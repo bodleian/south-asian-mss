@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03015">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_d_65</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 65</idno>
+                  <idno type="ieArk">ark:29072/x0x920fw78d3</idno><idno type="crArk">ark:29072/x0x633f0953g</idno><altIdentifier>
+                     <idno type="CSM">1234 (1, 2)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Jonarāja’s Commentaries on Bhāravi’s Kirātārjunīya and Maṅkhaka’s Śrīkaṇṭhaoarita, A. D. 1648.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Birch bark.</support>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="30.8">30.8</height>
+                           <width quantity="27.9">27.9</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">of ff. 4, 16–33, 202–203, and 218–219, only fragments are left. Ff. 5, 6, 12–15, 41, 119, 160, 180, 200, 201, 204, 221–223, 260 are damaged (one or two lines lost). The leaves are protected by transparent paper, and some words are lost or injured on ff. 7–11, 45, 120, 140–142, 181, 182, 188, 189, 206–217, 224–237, 279, 280, 300, 322, 336, 341–343.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śaradā.</desc><p source="#WinternitzKeith1905">Dāmodaraka, who signs in the same way as in MS. Sansk. c. 54 (1180).</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1648" source="#WinternitzKeith1905">A. D. 1648.</origDate>
+                  <p source="#WinternitzKeith1905">saṃvat 24 kārtikavati trayodaśyāṃ budhe ǁ ǁ śrīśākah 1570<supplied>1648</supplied>| See Hultzsch, Z.D.M.G., XL, 9.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n200/mode/1up">no. 1234 (1, 2), pp. 169-170</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n200/mode/1up">no. 1234 (1, 2), pp. 169-170</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 65(1) [fols 4-157]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Bhāravi’s Kirātārjunīya, together with the commentary by Jonarāja</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><explicit source="#WinternitzKeith1905">tathā svadhāmnā lokānāṃ satyādīnām upariṣṭhāt kṛtāvasthitiḥ tathā lakṣmyā sarvābhibhāvukayā śrīyā dīptaṃ prakāśamānam iti bhadraṃ ǁ 47 ǁ ǁ iti śrīnonarājasūnupaṇḍitabhaṭṭajonarājakṛtāyāṃ Kirātārjumyatīkāyām aṣṭādaśas sargaḥ ǁ ǁ samāptam idaṃ śrīkirātārjunīyaṃ nāma mahākāvyaṃ ǁ kṛtir mahākaver Bhāraveḥ ǁ ǁ śrīgaṇeśāya namaḥ ǁ śubham astu sarvajagatāṃ ǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 65(2) [fols 157v-361]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Maṅkhaka’s Śrīkaṇṭhacarita, together with the commentary by Jonarāja</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

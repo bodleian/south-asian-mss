@@ -35,8 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="sanskrit" subtype="Gmelin">Sanskrit, Gmelin Collection</collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 134(R)</idno><idno type="ieArk">ark:29072/x0f4752h09r4</idno><idno type="crArk">ark:29072/x0f1881m26f8</idno>
+                        <collection>MSS. Ind. Inst. Sansk.</collection>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 134 (R)</idno><idno type="ieArk">ark:29072/x0f4752h09r4</idno><idno type="crArk">ark:29072/x0f1881m26f8</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.106</idno>
                             <note><country>United Kingdom</country>
@@ -47,7 +47,7 @@
                     </msIdentifier>
                     
                     <msContents n="1">
-                        <summary> A palm-leaf manuscript in Bengali script of the <title xml:lang="sa">Mānavadharmaśāstra</title> with numerous marginal annotations. 
+                        <summary> A palm-leaf manuscript in Bengali script of the <title xml:lang="sa" key="work_00025">Mānavadharmaśāstra</title> with numerous marginal annotations. 
                         </summary>
                         
                         <msItem n="1" defective="unknown">
@@ -90,7 +90,7 @@
                     
                     <physDesc>
                         <objectDesc form="tālapatra"> 
-                            <supportDesc material="palm_leaf">
+                            <supportDesc material="palm">
                                 <support>Palm leaf.
                                     <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">

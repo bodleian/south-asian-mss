@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02796">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. c.</collection>
+                  <idno type="shelfmark">MS. Sansk. c. 34</idno>
+                  <idno type="ieArk">ark:29072/x0sf26852947</idno><idno type="crArk">ark:29072/x0sb397845t1</idno><altIdentifier>
+                     <idno type="CSM">1144 (1–3)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno>Caps. Or. D. 26.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+              
+               <msContents n="5">
+                  <summary>A paper manuscript of the <title key="work_00022">Mugdhabodha</title> of <name key="person_00025">Vopadeva</name>, 
+                     with interlinear Latin translation and various notes by <name key="person_00178">William Jones</name>.</summary>
+                 
+                  <msItem defective="unknown">
+                     <locus from="iv" to="vi">Ff. iv-xiii:</locus>
+                     
+                     <title type="desc">Various notes and quotations in English, Sanskrit, and Latin in William Jones' hand.</title>
+                     
+                     <author key="person_00178">
+                        <persName xml:lang="sa" type="display">William Jones</persName>
+                     </author>
+                     
+                     <textLang mainLang="en" otherLangs="sa la">English with Sanskrit and Latin.</textLang>
+                  </msItem>
+                  
+                  <msItem>
+                     
+                     <locus from="1r" to="102v">Ff. 1r-102v:</locus>
+                     
+                     <title key="work_00022">Mugdhabodha</title>
+                     
+                     <author key="person_00025">
+                        <persName xml:lang="sa" type="display">Vopadeva</persName>
+                     </author>
+                     
+                     <rubric xml:lang="sa">
+                        <locus from="1" to="1">F. 1r:</locus>
+                        śrī namo  ganādhipataye
+                     </rubric>
+                     
+                     <incipit xml:lang="sa">
+                        <locus from="1" to="1">F. 1r:</locus>
+                     mukuṃdaṃ saccidānaṃdaṃ praṇipatya praṇīyate | mugdhabodhaṃvyākaraṇaṃ paropakṛtaye mayā || 1   
+                     </incipit>
+                     
+                     <colophon xml:lang="sa">
+                        <locus from="102" to="102">F. 102v:</locus>
+                     iti ācāryyacṛḍāmaṇi śrī vopadeva viracitaṃ mugdhabodhavyākaraṇaṃ saṃpūrṇaṃ | mahatābarāyenalikhitam śubhaṃ bhūyāt śrīrastu cha
+                     </colophon>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem class="translation" defective="unknown">
+                     <locus from="1r" to="120r">Ff. 1r-102r</locus>
+                     
+                     <title key="work_00022" type="desc">
+                        Interlinear translation of Mugdhabodha in Latin, with occassional English and Sanskrit notes.
+                     </title>
+                     
+                     <author key="person_00178">
+                        <persName xml:lang="sa" type="display" role="trl">William Jones</persName>
+                     </author>
+                     
+                     <rubric xml:lang="sa">
+                        <locus from="1" to="1">F. 1r:</locus>
+                        Mughabódha: or the Beauty of Knowledge or The Recovery of one Entransed.
+                        An excellent Grammar, comprehensive, methodical and concise.
+                        The version was written hastily, when the translator was a mere beginner, and must not be relied on.
+                     </rubric>
+                     
+                     <incipit xml:lang="la">
+                        <locus from="1" to="1">F. 1r:</locus>
+                       Vishnum Mucundum semper scientem felicem venerando ostenditur compositur Mugdhabódha Grammatica alionum - beneficii - engo á me.
+                     </incipit>
+                     <textLang mainLang="la" otherLangs="sa en">Latin with Sanskrit and English notes.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem defective="unknown">
+                     <locus from="103r" to="110v">Ff. 103r-110v:</locus>
+                     
+                     <title type="desc">Various notes and quotations in English, Sanskrit, Greek, and Latin in William Jones' hand.</title>
+                     
+                     <author key="person_00178">
+                        <persName xml:lang="sa" type="display">William Jones</persName>
+                     </author>
+                     
+                     <textLang mainLang="en" otherLangs="sa grc la">English with Sanskrit, Greek, and Latin.</textLang>
+                  </msItem>
+                  
+                  <msItem defective="true">
+                     <locus from="114" to="114">F. 114:</locus>
+                     
+                     <title type="desc">Paper fragment with a list of Indic numerals.</title>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+              
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>Paper.
+                           <watermark>
+                              Three different watermarks:
+                              <term type="watermarkMotif">Fleur-de-lis</term>, <note type="variation">with a coat of arms; below monogram <q>GR</q></note>;
+                              <term type="watermarkMotif">fleur-de-lis</term>, <note type="variation">in a crowned shield, below monogram <q>GR</q></note>;
+                              <term type="watermarkMotif">Name</term>, <note type="variation"><quote>J WHATMAN</quote></note>;
+                              and <term type="watermarkMotif">Name</term>, <note type="variation"><quote>I TAYLOR</quote></note>.
+                           </watermark>
+                        </support>
+                        <extent>
+                           <measure type="laterEndleaf" quantity="13">xiii</measure> + <measure type="leaf" quantity=" 114"> 114</measure><dimensions type="binding" unit="cm">
+                              <height quantity="24">24</height>
+                              <width quantity="38">38</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals in black and red ink, top-left margin, verso.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                        <condition>
+                           <p>Complete.</p>
+                           <p>Textblock is in good condition. Binding is unstable, with considerable worm damage on the pasteboard.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote n="1" scope="major" script="Devanāgarī" medium="black_ink_red_ink">
+                        <desc>Devanāgarī in black and red ink. Section headings and <term xml:lang="sa">daṇḍa</term>s in red ink.</desc>
+                        <desc>Scribe: 
+                           <name type="person" role="scr" key="person_00182">
+                              <persName xml:lang="sa" type="standard">Lālā Mahatābarāya
+                              </persName>
+                           </name>
+                        </desc>
+                     </handNote>
+                     <handNote n="2" scope="minor" medium="black_ink">
+                        <desc><name type="person" role="scr" key="person_00178">
+                           <persName xml:lang="en" type="display">William Jones
+                           </persName></name>'
+                           handwriting in black ink.</desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1790">
+                        <p> A late 18th or early 19th-century brown <term type="material">leather</term> binding over pasteboard, with floaral frame tooled in gold on the covers and shelfmark number on the spine.
+                           Cardboard cover box.</p>
+                        </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notBefore="1787" notAfter="1790">1787–1790 AD.</origDate>
+                     <p><q source="#WinternitzKeith1905">The initials of Sir William Jones, with the
+                        date <date>1 May, 1787,</date> and <date>2 May, 1787</date> are found at the bottom of <locus from="v" to="v">f. v</locus>.
+                        In the margin of <locus from="17v" to="17v">f. 17v</locus>, there is an entry, <q>Left off 11 Oct, 1790.</q>.</q></p>
+                  </origin>
+                  
+                  <acquisition>
+                     Given in <date calendar="Gregorian">1833</date> by <name type="person" role="dnr" key="person_00183">
+                        <persName>Julius Hare</persName></name> and <name type="person" role="dnr" key="person_00184">
+                           <persName>Augustus Hare</persName></name> from <name key="person_00178">William Jones'</name> personal library. 
+                  </acquisition>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                           <listBibl>
+                        <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n165/mode/1up">no. 1144 (1–3), pp.
+                              134-135</ref></biblScope></bibl>
+                              </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n165/mode/1up">no. 1144 (1–3), pp. 134-135</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-09-17">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

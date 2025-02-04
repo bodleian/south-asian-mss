@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02611">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Mill</collection>
+                  <idno type="shelfmark">MS. Mill 111</idno>
+                  <idno type="ieArk">ark:29072/x0qn59q429jd</idno><idno type="crArk">ark:29072/x0qj72p7467n</idno><altIdentifier>
+                     <idno type="CSM">23, 29, 27, 34, 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+             
+               <head>A paper manuscript consisting of five separately foliated texts from the <title key="work_00071" xml:lang="sa">Mahābhārata</title> and the <title key="work_00179" xml:lang="sa">Pañcaratna</title>, bound together with six miniatures.</head>
+               
+           <physDesc>
+            <objectDesc form="codex">
+               <supportDesc>
+                  <support>Paper.</support>
+                 
+                  <extent>
+                     <measure type="laterEndleaf" quantity="3">iii</measure>
+                     + <measure type="leaf" quantity=" 229 "> 229 </measure>
+                     + <measure type="laterEndleaf" quantity="5">v</measure>. 
+                     
+                     <dimensions type="binding" unit="cm">
+                        <height quantity="10.2">10.2</height>
+                        <width quantity="17">17</width>
+                     </dimensions>
+                     
+                     <dimensions type="folio" unit="cm">
+                        <height quantity="9.5">9.5</height>
+                        <width quantity="15">15</width>
+                     </dimensions>
+                     
+                  </extent>
+                  
+                  <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, mid-left margin, verso.</foliation>
+                  <foliation n="2" style="digit">Arabic numerals in pencil, top-left corner, verso.</foliation>
+                  
+                  <condition>
+                     <p>Complete.</p>
+                     <p>In good condition.</p>
+                  </condition>
+                  
+               </supportDesc>
+               
+               <layoutDesc>
+                  <layout columns="1" ruledLines="6" writtenLines="6">
+                     
+                     <p>
+                        6 lines per page, approximately 20 <term xml:lang="sa">akṣara</term>s per line.
+                     </p>
+                     
+                     <p>Details on frame:
+                        <dimensions type="written_area" unit="cm">
+                           <height quantity="6.5">6.5</height>
+                           <width quantity="12">12</width>
+                        </dimensions>
+                      <note>Framed with a ruled border in black, red, and yellow pigment. Initial page of each manuscript is framed with an additional but identical border.</note>
+                     </p>
+                  </layout>
+               </layoutDesc>
+            </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                        <desc>Devanāgarī in black and red ink. </desc>
+                        <desc>The scribe might be identical to the the scribe of <idno type="shelfmark">MS. Mill 112</idno>.</desc>
+                     </handNote>
+                     <handNote scope="minor" medium="black_ink">
+                        <desc><locus from="196" to="196">F. 196</locus> contains a manuscript note in black ink in modern hand, most likely of the cataloguer <persName key="person_00197">Theodor Aufrecht</persName>.</desc>
+                     </handNote>
+                  </handDesc>
+              
+              <additions>
+                 <p>Marginal notes in a different hand.</p>
+                 <p>Abbreviated marginal title on top-left margin, verso.</p>
+                 </additions>
+              
+              <bindingDesc>
+                 <binding notBefore="1900">
+                    <p>Late 19th century or early 20th-century brown <term type="material">leather</term> binding over pasteboard, with title tooled in gold on the spine. Shelfmark number painted in white pigment on the spine. 
+                       Cardboard cover box.</p>
+                 </binding>
+              </bindingDesc>
+              
+         </physDesc>
+         
+         <history>
+            <acquisition>
+               The collections of 
+               <persName key="person_00179">William Hodge Mill</persName> were purchased by the Bodleian Library in <date>1849</date> and <date>1858</date>.
+            </acquisition>
+         </history>
+         
+         <additional>
+            <adminInfo>
+               <recordHist>
+                  <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                  <listBibl>
+                     <bibl><ref/></bibl>
+                     <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, 
+                          <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl>
+                     <bibl source="#Aufrecht1864">Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=20">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 27, pp. 3-4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 36, p. 5</ref></biblScope></bibl>
+                  </listBibl>
+                  </source>
+               </recordHist>
+               <availability status="restricted">
+                  <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+               </availability>
+            </adminInfo>
+            
+            <listBibl type="WRAPPER">
+            <listBibl type="PRINT">
+               <head>Printed descriptions:</head>
+               <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref></biblScope></bibl>
+               <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 23, p. 3</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=20">no. 29, p. 4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=19">no. 27, pp. 3-4</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 34, p. 5</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=21">no. 36, p. 5</ref></biblScope></bibl></listBibl>
+               </listBibl>
+         </additional>
+                                            
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 111a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                
+                  <msContents n="1">
+                     <summary>A paper manuscript of the <title key="work_00020" xml:lang="sa">Bhagavadgītā</title>, with miniatures.</summary>
+                    
+                    <msItem> 
+                       
+                       <locus from="1v" to="129r">Ff. 1v-129r [ff. 1-125r in original foliation]</locus>
+                        
+                       <title key="work_00020" xml:lang="sa">Bhagavadgītā</title>
+                       
+                       <rubric>
+                          <locus from="1" to="1">F. 1v:</locus>
+                          oṃ namo bhgavate vāsudevāya ||
+                       </rubric>
+                       
+                       <incipit>
+                          <locus from="1" to="1">F. 1v:</locus>
+                          oṃ asya śrī bhagavadgītā mālāmaṃccasya ||
+                       </incipit>
+                       
+                       <colophon>
+                          <locus from="129r" to="129r">F. 129r [f. 125r in original foliation]:</locus>
+                          iti śrī mahābhārate śatasahasra saṃhitāyāṃ bhīṣmaparvaṇi iti śrī bhagavadgītāsūpaniṣatavrasnya 
+                          vidyāṃyāyogaśastre śrī kasmārnanasaṃvādemona saṃtyāsayogonāma aṣṭādaśodhyāyaḥ || 18
+                       </colophon>
+                    
+                       <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <decoDesc>
+                        
+                        <decoNote type="miniature">
+                           <locus from="10v" to="10v">F. 10v:</locus>
+                           Miniature depicting Kṛṣṇa and Arjuna on a chariot.
+                           Framed in a panel with red, yellow, and pink flowers and foliage.
+                        </decoNote>
+                        
+                        <decoNote type="miniature">
+                           <locus from="79v" to="79v">F. 79v:</locus>
+                           Miniature depicting Kṛṣṇa, showing all his forms to Arjuna.
+                           Framed in a pink and yellow panel with pink lotus flowers .
+                        </decoNote>
+                        
+                        <decoNote type="miniature">
+                           <locus from="130v" to="130v">F. 130v:</locus>
+                           Miniature depicting Viṣṇu lying on a serpent, with Lakṣmī massaging his feet, and Brahmā sitting on a lotus growing from Viṣṇu's navel.
+                        Framed in a yellow panel with pink and green lotus flowers.
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+                 
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate></origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n12/mode/1up">no. 23, p. 3</ref>
+                                 </biblScope>
+                                 </bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 111b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                 
+                <msContents n="1">
+                   <summary>A paper manuscript of <title key="work_00224" xml:lang="sa">Viṣṇusahasranāmakathana</title>.</summary>
+                     
+                     <msItem>
+                        <locus from="132r" to="161v">Ff. 132r-161v [ff. 1-30 in original foliation]</locus>
+                        
+                        <title key="work_00224" xml:lang="sa">Viṣṇusahasranāmakathana</title>
+                        
+                        <rubric>
+                           <locus from="132r" to="132r">F. 132r:</locus>
+                           oṃ śrī rāmāyanamaḥ |
+                        </rubric>                     
+                        
+                        <incipit>
+                           <locus from="132r" to="132r">F. 132r:</locus>
+                           oṃ yasya smaraṇamotreṇajanma saṁsārabaṃdhanāt ||
+                        </incipit>  
+                        
+                        <colophon>
+                           <locus from="161v" to="161v">F. 161v:</locus>
+                           iti śrī mahābhārate śatasahasra saṁhitāyāṃ vaiyāsiṃkā | śāṃtiparvāṇi utamānuśāsane dānadharmeṣu śrīvismonāma sahasaṃsamāptaṃ ||
+                           rāma rāma śubham ||
+                        </colophon>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                   
+                  </msContents>
+                     
+                     <physDesc>
+                     <decoDesc>
+                        <decoNote type="miniature">
+                           <locus from="162v" to="162v">F. 162v:</locus>
+                           Miniature depicting the four-armed Viṣṇu holding the conch, <term xml:lang="sa">cakra</term>, lotus, and club, standing in front of Bhīṣma, pierced by many arrows, and Arjuna drawing a bow.
+                           Framed in a pink panel with pink and green lotus flowers.
+                        </decoNote>   
+                     </decoDesc>
+                     </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, 
+                        <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 29, p. 4</ref>
+                        </biblScope>
+                                 </bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo></additional>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 111c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                                  
+                  <msContents n="1">
+                     <summary>A paper manuscript of the <title key="work_00225" xml:lang="sa">Bhīṣmastavarāja</title>.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                     <msItem>
+                        <locus from="164r" to="183b">Ff. 164r-183bv [f. 1-21 in original foliation]</locus>
+                        <title key="work_00225" xml:lang="sa">Bhīṣmastavarāja</title>
+                        
+                        <rubric>
+                           <locus from="164r" to="164r">Ff. 164r:</locus>
+                           oṃ namo nārāyaṇāya ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="164r" to="164r">Ff. 164r:</locus>
+                           janamejaya uvāca ||
+                        </incipit>
+                     </msItem>
+                     
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                     <supportDesc>
+                        <foliation><locus from="183" to="183b">F. 183</locus> is incorrectly used twice, resulting in a correction to 183b.</foliation>
+                     </supportDesc>
+                     </objectDesc>
+                     
+                     <decoDesc>
+                     <decoNote type="miniature">
+                        <locus from="184v" to="184v">F. 184v:</locus>
+                        Miniature depicting seated Arjuna and another warrior. 
+                        Framed in a beige panel with blue star-shaped flowers and foliage.
+                     </decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
+                     </origin>
+                  </history>
+                  
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n13/mode/1up">no. 27, p. 4</ref>
+                                 </biblScope>
+                                 </bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 111d</idno>
+               </altIdentifier>
+                  </msIdentifier>
+              
+                  
+                  <msContents n="1">
+                     
+                     <summary>A paper manuscript of the <title key="work_00226" xml:lang="sa">Vaiṣṇavī Anusmṛti</title>.</summary>
+                    
+                     
+                     <msItem>
+                        <locus from="185r" to="199r">Ff. 185r-199r [f. 1r-(13v) in original foliation]</locus> 
+                        
+                        <note>
+                           <locus from="196" to="196">F. 196</locus>
+                           Blank folio. Containts a note <q>Nihil deest dei folium hint post foll. 183. transpositum est. T. A.</q>.
+                        </note>
+                        
+                        <title key="work_00226" xml:lang="sa">Vaiṣṇavī Anusmṛti</title>
+                        
+                        <rubric>
+                           <locus from="185r" to="185r">F. 185r [f. 1r in original foliation]:</locus>
+                           oṃ namo nārāyaṇaya ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="185r" to="185r">F. 185r [f. 1r in original foliation]:</locus>
+                           śatanīka uvāca ||
+                        </incipit>
+                        
+                        <colophon>
+                           <locus from="199r" to="199r">F. 199r [f. (13)v in original foliation]:</locus>
+                        iti śrī mahābhārate śatasahasrasaṃhitāyāṃ viṣṃudharmotare anusmṛtya samāptaḥ || rāma || rāma
+                        </colophon>
+                        
+                     
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                     
+                  </msContents>
+                     <physDesc>
+                        <decoDesc>
+                           <decoNote type="miniature">
+                              <locus from="200v" to="200v">F. 200v:</locus>
+                              Miniature depicting Viṣṇu with Garuḍa and a white elephant with a left front leg being eaten by a fish, and holding a lotus flower in the trunk. 
+                              Framed in a gold panel with pink lotus flowers and foliage.
+                           </decoNote>
+                        </decoDesc>
+                     </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 34, p. 5</ref>
+                                 </biblScope>
+                                 </bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 111e</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>A paper manuscript of <title key="work_00227">Gajendramokṣaṇa</title>.</summary>
+                     
+                     
+                     <msItem>
+                        <locus from="202r" to="229r">Ff. 202r-229r [ff. 1r-28r in original foliation]</locus>
+                        
+                        <title key="work_00227">Gajendramokṣaṇa</title>
+                        
+                        <rubric>
+                           <locus from="202r" to="202r">F. 202r [f. 1r in original foliation]:</locus>
+                           oṃ śrī kṛsmāya namaḥ ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="202r" to="202r">F. 202r [f. 1r in original foliation]:</locus>
+                           śatānīka uvāca ||
+                        </incipit>
+                        
+                        <colophon>
+                           <locus from="229r" to="229r">F. 229r [f. 28r in original foliation]:</locus>
+                           iti śrī mahābhārate śatasahasrasaṃhitāyāṃ vaiyāsivyāṃ śāṃtiparvaṇi gajeṃdra modhaṇaṃ samāptaṃ || rāma ||
+                           śubham astu lokhakapāvakayoḥ ||
+                        </colophon>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                     
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800" notAfter="1899">19th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, 
+                                    <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n14/mode/1up">no. 36, p. 5</ref>
+                                    </biblScope>
+                                 </bibl></listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+               
+                      
+         </sourceDesc>            
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-08-27">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

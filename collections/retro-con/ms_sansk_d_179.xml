@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03064">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_d_179</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 179</idno>
+                  <idno type="ieArk">ark:29072/x0vd66vz95g1</idno><idno type="crArk">ark:29072/x0v979v3125k</idno><altIdentifier>
+                     <idno type="CSM">1315 (1, 2)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Jagadīśa’s Śabdaśaktiprakāśikā, 19th &amp; 17th cent.?</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 155 "> 155 </measure>
+                           + <measure type="laterEndleaf" quantity="1">i</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="26.4">26.4</height>
+                           <width quantity="14.9">14.9</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">ff. 2–9 of 2 are lost, and presumably 1 was intended to supply this loss.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">19th &amp; 17th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">perhaps 1 is of the early part of the 19th century, and 2 of the middle of the 17th century, but they may be more modern.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MSS. 274a, 274b).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n229/mode/1up">no. 1315 (1, 2), p. 198</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n229/mode/1up">no. 1315 (1, 2), p. 198</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 179(1) [fols 1v-19]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Śabdaśaktiprakāśikā of Jagadīśa, a Nyāya logical work on language.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Tarkaṃ taṃtraṃ ca viduṣā viduṣāṃ toṣakārikā | kriyate Jagadiśena Sabdaśaktiprakāśikā ǁ 1 ǁ</incipit><explicit source="#WinternitzKeith1905">dharmikakāryatājñānajanyatvaṃ prasādhyagavānayanagocaratajjñānaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 179(2)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Śabdaśaktiprakāśikā. The MS. is nearly complete</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><explicit source="#WinternitzKeith1905">iti śrīmahāpādhyāyaśrī-jagadīśatarkālaṃkārabhaṭṭācāryakṛtaśaṣṭaśaktiprakāśikā samāptā | śrīmahālakṣmyai namaḥ |</explicit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

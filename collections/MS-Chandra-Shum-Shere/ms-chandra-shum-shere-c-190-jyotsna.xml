@@ -35,8 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="sanskrit" subtype="Chandra_Shum_Shere">Sanskrit, Chandra Shum Shere Collection</collection>
-                        <idno type="shelfmark">MS Chandra Shum Shere c.190</idno><idno type="ieArk">ark:29072/x0t722h840gh</idno><idno type="crArk">ark:29072/x0t435gc575s</idno>
+                        <collection>MSS. Chandra Shum Shere c.</collection>
+                        <idno type="shelfmark">MS. Chandra Shum Shere c.190</idno><idno type="ieArk">ark:29072/x0t722h840gh</idno><idno type="crArk">ark:29072/x0t435gc575s</idno>
                         <altIdentifier type="internal">
                             <idno type="Chandra_Shum_Shere_Āśutoṣa">105</idno>
                             <note><country>United Kingdom</country>
@@ -264,7 +264,12 @@
                             </availability>
                             <note/>
                         </adminInfo>
-                        
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/7cea151d-be08-449d-aed5-0f5f8ce6e42a/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             

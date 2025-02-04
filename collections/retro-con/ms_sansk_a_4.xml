@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02752">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_a_4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. a.</collection>
+                  <idno type="shelfmark">MS. Sansk. a. 4</idno>
+                  <idno type="ieArk">ark:29072/x0bg257g15k9</idno><idno type="crArk">ark:29072/x0bc386k328f</idno><altIdentifier>
+                     <idno type="CSM">1420 (1, 2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former" source="#WinternitzKeith1905">
+                     <idno>MS. Sansk. d. 27.</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Facsimile of the Kigenzi Palm-leaf MS., A. D.
+                  1880.</head>
+               <msContents>
+                  <summary> </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">f. 1, Japanese transparent paper; the
+                           rest, ordinary Engliah paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 2 "> 2 </measure> + <measure type="laterEndleaf" quantity="21">xxi</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="51.4">51.4</height>
+                              <width quantity="16.5">16.5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1880" source="#WinternitzKeith1905">A. D.
+                        1880.</origDate>
+                     <p source="#WinternitzKeith1905">Date and Scribe: the facsimile was made from
+                        the original by K. Kanematsu and Y. ōta, in April, 1880. The original MS. is
+                        said to have been brought from China to Japan by Kishio Daishi in 858.</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n277/mode/1up">no. 1420 (1, 2), p. 246</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n277/mode/1up">no. 1420 (1, 2), p. 246</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. a. 4(1) [fol 1]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>A facsimile of the palm-leaf MS. of the monastery of Kigenzi, at
+                        Ōsaka, in the province of Settsu, Japan. It contains a fragment (one leaf,
+                        four lines on each side), treating of hell</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        
+                        <incipit source="#WinternitzKeith1905">ame (or ami?) s sālmalīvavaḥ nadī
+                           vaitaraṇī me (?) thā pūrveṇa evaṃ dakṣiṇena paścimottareṇa me (?)
+                           thāvitīr mahānarakasya evaṃ yāvat saṃjīvasya tenāha pratyekaddho (or ṣo?)
+                           ta sotsaṃdā iti catuskaṃdhā iti caturdvārā iti āha avīcer mahānarakasya |
+                           &amp;c.</incipit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. a. 4(2) [fol 2]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>A transcript of the above facsimile in Devanāgarī characters, by
+                        Bunyiu Nanjio.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

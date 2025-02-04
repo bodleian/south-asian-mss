@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02817">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. c.</collection>
+                  <idno type="shelfmark">MS. Sansk. c. 37</idno>
+                  <idno type="ieArk">ark:29072/x0sn009x95rd</idno><idno type="crArk">ark:29072/x0sj139212fz</idno><altIdentifier>
+                     <idno type="CSM">1244 (1–4)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno>Caps. Or. D. 27.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+              
+               <msContents n="5">
+                  
+                  <summary> A paper manuscript of <name xml:lang="sa" key="person_00012">Kālidāsa</name>’s <title xml:lang="sa" key="work_00012">Abhijñānaśakuntala</title>,
+                     with an interlinear Latin translation, complete English translation, and various notes by <name key="person_00178">William
+                     Jones</name>.</summary>
+                  
+                  <msItem defective="unknown">
+                     <locus from="i" to="ix">F. i-ix:</locus>
+                     
+                     <title type="desc">Various notes in English, Sanskrit, and Greek in William Jones' hand.</title>
+                     
+                     <author key="person_00178">
+                        <persName xml:lang="sa" type="display">William Jones</persName>
+                     </author>
+                     
+                     <textLang mainLang="en" otherLangs="sa grc">English with Sanskrit and Greek.</textLang>
+                  </msItem>
+                  
+                  <msItem class="mūla" defective="false">
+                     
+                     <locus from="1" to="109">Ff. 1r-109r:</locus>
+                     
+                     <title xml:lang="sa" key="work_00012">Abhijñānaśakuntala</title>
+                     
+                     <author key="person_00012">
+                        <persName xml:lang="sa" type="display">Kālidāsa</persName>
+                     </author>
+                     
+                     <rubric>
+                        <locus from="1" to="1">F. 1r:</locus>
+                     śrī gaṇeśāya namaḥ
+                     </rubric>
+                     
+                     <incipit>
+                        <locus from="1" to="1">F. 1r:</locus>
+                        yā sṛṣṭiḥ sraṣṭur ādyā vahati vidhihutaṁ yā havir yā ca hotrī adve kālaṃ vidhattaḥ śrutiviṣyaguṇā yā sthitā vyāpya viśvaṃ |
+                     </incipit>
+                     
+                     <colophon>
+                        <locus from="109" to="109">F. 109r:</locus>
+                    iti kavirāja śrī kālidāsaviracitābhijñānaśakuṃtalākhyanādakaḥ saptamoṃkaḥ || samāpto yaṁ graṃthaḥ || śubham astu ||
+                     </colophon>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem class="translation" defective="unknown">
+                     <locus from="1r" to="109r">Ff. 1r-109r</locus>
+                     
+                     <title type="desc">
+                        Interlinear translation in Latin, with occassional English and Sanskrit notes.
+                     </title>
+                     
+                     <author key="person_00178">
+                        <persName xml:lang="sa" type="display" role="trl">William Jones</persName>
+                     </author>
+                     
+                     <rubric>
+                        <locus from="1" to="1">F. 1r:</locus>
+                        The Fatal Ring, or Sacontalám an Indian Drama.
+                        Divo JANO laus!
+                     </rubric>
+                     
+                     <incipit xml:lang="la">
+                        <locus from="1" to="1">F. 1r:</locus>
+                        Aqua creatio Creations prima,
+                     </incipit>
+                     
+                     <textLang mainLang="la" otherLangs="sa en">Latin with Sanskrit and English notes.</textLang>
+                     
+                  </msItem>
+                  
+                     <msItem class="translation" defective="unknown">
+                        <locus from="1r" to="167r">Ff. 110r-167r</locus>
+                        
+                        <title type="desc">
+                          The complete English translation.
+                        </title>
+                        
+                        <author key="person_00178">
+                           <persName xml:lang="sa" type="display" role="trl">William Jones</persName>
+                        </author>
+                        
+                        <rubric xml:lang="en">
+                           <locus from="110r" to="110r">F. 110r:</locus>
+                           SACONTALÁ, or THE FATAL RING: an INDIAN DRAMA written by CÁLIDÁSA in the first Century before CHRIST, and translated from the original Sanscrit and Pracrit by
+                        </rubric>
+                        
+                        <incipit xml:lang="en">
+                           <locus from="110v" to="110v">F. 110v:</locus>
+                           The Persons of the Drama. Dushmanta, Emperor of India.
+                        </incipit>
+                        
+                        <colophon>
+                           <locus from="166v" to="166v">F. 166v:</locus>
+                           This translation was finished at my gardens on the Ganges <date>17 Aug. 1788.</date> W. Jones
+                        </colophon>
+                        
+                        <textLang mainLang="en">English.</textLang>
+                  </msItem>
+                  
+                  <msItem>
+                     <locus from="167r" to="167r">F. 167r:</locus>
+                     
+                  <title type="desc">
+                     A Sanskrit verse omitted in the main text (p. 57), with English translation. 
+                  </title>  
+                     
+                     <author key="person_00178">
+                        <persName xml:lang="sa" type="display" role="trl">William Jones</persName>
+                     </author>
+                     
+                  <textLang mainLang="sa" otherLangs="en">Sanskrit with English.</textLang>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <p><material>Paper.
+                              <watermark>
+                                 Three different watermarks:
+                                 <term type="watermarkMotif">Posthorn</term>, <note type="variation">in crowned shield; below monogram <q>GR</q> and a bell</note>;
+                                 <term type="watermarkMotif">Monogram</term>, <note type="variation"><quote>WJ</quote></note>;
+                                 and <term type="watermarkMotif">Figure of a woman</term>, <note type="variation">sitting on a chariot, holding a three-petalled flower in her right hand and a spear in her left, within three concentric ovals surmounted by a crown.</note>.
+                              </watermark>
+                           </material></p>
+                        </support>
+                        
+                        <extent>
+                           <measure type="laterEndleaf" quantity="9">ix</measure> + <measure type="leaf" quantity=" 167 "> 167 </measure> + <measure type="laterEndleaf" quantity="21">xxi</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="34">34</height>
+                              <width quantity="21">21</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals in black and red ink, top-middle margin, verso.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                        
+                        <condition>
+                           <p>Complete.</p>
+                           <p>In good condition.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote n="1" scope="major" script="Devanāgarī" medium="black_ink_red_ink">
+                        <desc>Devanāgarī in black ink. <term xml:lang="sa">Adhyāya</term> headings and <term xml:lang="sa">daṇḍa</term>s in red ink.</desc>
+                        <p>
+                           <desc>Scribe: 
+                           <q source="#WinternitzKeith1905">As the Sanskrit text is written in the same
+                              beautiful handwriting as the texts in <idno type="shelfmark">MSS. Sansk. c. 32 and c. 34</idno>,
+                              it must have been written by the same <name type="person" role="scr" key="person_00182">
+                              <persName xml:lang="sa" type="standard">Lālā Mahatābarāya
+                              </persName>.</name></q>
+                        </desc>
+                        </p>
+                     </handNote>
+                     
+                     <handNote n="2" scope="minor" medium="black_ink">
+                        <desc><name type="person" role="scr" key="person_00178">
+                           <persName xml:lang="en" type="display">William Jones
+                           </persName></name>'
+                           handwriting in black ink.</desc>
+                     </handNote>
+                  </handDesc>
+
+                  <bindingDesc>
+                     <binding notBefore="1792">
+                        <p> A late 18th or early 19th-century brown <term type="material">leather</term> binding over pasteboard, with shelfmark number tooled in gold on the spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1788">
+                        1788 CE.</origDate>
+                     <q source="#WinternitzKeith1905">The text was probably written in the same year
+                        in which the English translation was finished, i. e. 1788.</q>
+                  </origin>
+                  
+                  <acquisition>
+                     Given in <date calendar="Gregorian">1833</date> by <name type="person" role="dnr" key="person_00183">
+                        <persName>Julius Hare</persName></name> and <name type="person" role="dnr" key="person_00184">
+                           <persName>Augustus Hare</persName></name> from <name key="person_00178">William Jones'</name> personal library. 
+                  </acquisition>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                     <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                        <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up">no. 1244 (1–4), p. 174</ref></biblScope></bibl>
+                        </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl type="digital-facsimile" subtype="full">
+                        <ref target="https://digital.bodleian.ox.ac.uk/objects/b0ec245d-9d66-4f88-872c-626c56c81a49/">
+                           <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                     </bibl>
+                  </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up">no. 1244 (1–4), p. 174</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-08-27">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

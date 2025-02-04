@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02991">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_d_126</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 126</idno>
+                  <idno type="ieArk">ark:29072/x0gx41mj64kf</idno><idno type="crArk">ark:29072/x0gt54kn818k</idno><altIdentifier>
+                     <idno type="CSM">1157 (1, 2)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Jayadratha’s Alaṃkārodāharaṇa, &amp;c., A. D. 1668.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper (of the colour of birch bark).</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 35"> 35</measure><dimensions type="binding" unit="cm">
+                           <height quantity="24.1">24.1</height>
+                           <width quantity="17.8">17.8</width>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">ff. 1, 2, 19–22, 28, 29, 31, 32 are slightly damaged, and have been repaired.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Śāradā" source="#WinternitzKeith1905"><desc>Śāradā.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1668" source="#WinternitzKeith1905">A. D. 1668.</origDate>
+                  <p source="#WinternitzKeith1905">saṃ 44 phā vati 5 gurau | This corresponds, according to the Saptarṣi era, to a. d. 1668.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1887 from <persName key="person_00177">Dr. Eugen Hultzsch</persName> (MS. 171). Memorandum on original wrapper (f. ii), ‘K 52.’</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n171/mode/1up">no. 1157 (1, 2), p. 140</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n171/mode/1up">no. 1157 (1, 2), p. 140</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 126(1) [fols 1-32]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Alaṃkārodāharaṇa, a collection of examples illustrating Rājānaka Ruyyaka’s Alaṃkārasarvasva, and based on Jayaratha’s Alaṃkāravimarśinī, by Jayadratha.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">svasty astu ǁ prajābhyaḥ ǁ śrīguruvaracara-ṇakamalaparāya puṃjebhyo namaḥ ǁ ǁ… ṣālaṅkārodāharaṇaṃ likl yate ǁ oṃ namaskṛtya parāṃ vācaṃm alikhad bālasammataṃ | ko ’py alaṅkārasūtrāṇām udāharaṇamātrakaṃ ǁ ihārthapaunaruktyaṃ śabdapaunaruktyaṃ śabdārthapaunaruktyaṃ ceti trayaḥ paunaruktyaprakārāḥ ǁ ǁ tatrārthapaunaruktyaṃ prarūḍhaṃ doṣaḥ ǁ yathā ǁ hariṇanayanāṃ sāraṅgākṣīṃ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">pratijñāmātram evaitad ity upckṣyaṃ vicakṣaṇaiḥ | Alaṅkāravimarśinyāṃ yuktir uktacarātra yat ǁ Saṅgakam uddiśya nijaṃ saty api bālye śrutārthinaṃ pautraṃ ǁ alikhan nikhilālaṅkṛtisiddhāntaṃ Jayarathaḥ sphuṭā (rtha, added sec. m.) padam ǁ paripūrṇam idam Alankārodāharaṇaṃ ǁ kṛtir vipaścidvaraśrījayadrathasya ǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 126(2) [fols 32-33]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Multiple disconnected fragments</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

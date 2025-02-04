@@ -1,0 +1,1125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03023">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 88</idno>
+                  <idno type="ieArk">ark:29072/x0t148fh290w</idno><idno type="crArk">ark:29072/x0sx61dm45pp</idno><altIdentifier>
+                     <idno type="CSM">1247 (1–15)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno type="shelfmark">No. 99, 102, 108, 105, 94, 101, 109, 98, 107, 106, 91, 110, 97, 103</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno type="shelfmark">K No. 1-14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <head>A composite paper manuscript containing fourteen <term xml:lang="sa">Nāṭaka</term>s, written probably by the same hand and bound contemporarily.</head>
+               
+               <physDesc>
+                  
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>Paper.</support>
+                        
+                        <extent>
+                           
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="24">24</height>
+                              <width quantity="18">18</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <condition>
+                           Conserved, but in a fragile condition.
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Śāradā" medium="black_ink">
+                        <desc>Śaradā in black ink.
+                        </desc>
+                        <p>
+                        <desc>Scribe: 
+                           <name type="person" role="scr" key="local_00192">
+                              <persName xml:lang="sa" type="standard">Rājānalasaka</persName>
+                           </name>
+                        </desc>
+                        </p>
+                        <p><q source="#WinternitzKeith1905">Rājānalasaka, who gives his name in the colophons of no. 3, 7, 9, and 11. 
+                           With the exception of no. 2, and probably no. 14, the other Nāṭakas are clearly written by the same hand.</q>
+                        </p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <binding notAfter="1905">
+                        <p>Contemporary soft <term type="material">leather</term> binding in stamped red <term type="material">leather</term>, with a Persian-style flap and a <term type="material">textile</term> ribbon.
+                           Unidentified Persian additions in black ink on the front board. Bodleian Library shelfmark and description tooled in gold on the spine. Cardboard cover box.</p>
+                           <p>Repairs in darker red leather.
+                           In unstable condition.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1693" notAfter="1694">1693–1694 CE.</origDate>
+                     <p><q source="#WinternitzKeith1905">The bulk of the MS. must have been written in the (Saptarṣi) saṃvat years 69 and 70 <supplied>1694 CE</supplied>. This appears from the dates given in the colophons of nos. 3, 7, and 9. F. 164: saṃ 69 caitra vati tṛtīyāyāṃ likhitaṃ | F. 461v: saṃ 70 ?? cuti 1 śukre likhitaṃ mayā | F. 514. saṃvat 70 vai śuti caturdaśyāṃ bhaumavāsare likhitaṃ mayā Rājānalasakena |</q></p>
+                  </origin>                   
+                  
+                  <provenance>
+                     Former owner's shelfmark: <q type="shelfmark">Nos. 9, 102, 108, 105, 94, 101, 109, 98, 107, 106, 91, 110, 97, 103</q> written in red ink on the original wrapper, now inset on <locus from="1r" to="1r">f. 1r</locus>.
+                     <p>Memorandum <q>Śrīnagar, K. No.1–14.</q> written in pencil on the original wrapper, now inset on <locus from="1r" to="1r">f. 1r</locus>.</p>
+                  </provenance>
+                  
+                  <acquisition source="#WinternitzKeith1905">Bought in <date calendar="Gregorian">1887</date> from <name type="person" role="fmo" key="person_00177">
+                     <persName>Eugen Hultzsch</persName></name>.                     
+                  </acquisition>
+               </history>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up">no. 1247 (1–15), pp. 174-176</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n205/mode/1up">no. 1247 (1–15), pp. 174-176</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+                             
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="1">
+                                   
+                  <msItem defective="unknown">
+                     <locus from="1v" to="46r">Ff. 1v-46r</locus>  
+                   
+                     <title key="work_00207" xml:lang="sa">Prabodhacandrodaya</title>
+                     
+                     <author key="person_00186">
+                        <persName xml:lang="sa" type="display">Kṛṣṇamiśrācārya</persName>
+                       </author>
+                     
+                     <rubric source="#WinternitzKeith1905">
+                        <locus from="1v" to="1v">F. 1v:</locus>
+                        oṃ svasti ||  prajānyaḥ || śrīgaṇeśāya namaḥ ||
+                     </rubric>
+                     
+                     <incipit source="#WinternitzKeith1905">
+                        <locus from="1v" to="1v">F. 1v:</locus>
+                        oṃ madhyāhnārkamarīcikāso iva payaḥ pūro prajñānataḥ |
+                     </incipit>
+                     
+                     <colophon source="#WinternitzKeith1905">
+                        <locus from="46r" to="46r">F. 46r:</locus>
+                        iti niṣkrāntāḥ sarve | jīvanmuktir nāma ṣaṣṭho 'ṅkaḥ ||| samāptam idaṃ prabodhacandrodayaṃ nāma nāṭakaṃ || kṛtiḥ śrīkṛṣṇamiśrācāryapādānāṃ | śubham astu sarvatra |
+                     </colophon>
+                     
+                     <textLang mainLang="sa" otherLangs="pra">Sanskrit with Prakrit.</textLang>
+                  </msItem>
+                  </msContents>
+                     
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              
+                              <extent n="46">46 ff.</extent>
+                              
+                              <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                              <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                              
+                              <condition>
+                                 F. 1 damaged, with the loss of some <term xml:lang="sa">akṣara</term>s.
+                              <p>Original foliation lost on some folios.</p>
+                              </condition>
+                           </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                           <handNote scope="sole" script="Śāradā" medium="black_ink">
+                              <desc>Śaradā in black ink.
+                              </desc>
+                           </handNote>
+                        </handDesc>
+                        
+                        <additions>
+                           <p>Abbreviated marginal title on bottom-left margin.</p>
+                           <p>Marginal notes in the same hand.</p>
+                           <p>Interlinear Sanskrit translations of Prakrit passages in the same hand.</p>
+                           <p>Erasures in yellow paste.</p>
+                        </additions>
+                     
+                     </physDesc>
+                  
+               </msPart>
+                     
+               <msPart>
+                        <msIdentifier>
+                           <altIdentifier>
+                              <idno type="part">MS. Sansk. d. 88 (2)</idno>
+                           </altIdentifier>
+                        </msIdentifier>
+               <msContents n="1">
+                  
+                  <msItem defective="unknown">
+                     <locus from="47r" to="97r">Ff. 47r-97r [ff. 1r-51r in original foliation]</locus>  
+                     
+                     <title key="work_00208">Hanumannāṭaka</title>
+                     
+                     <author key="person_00187">
+                        <persName xml:lang="sa" type="display">Dāmodara Miśra</persName>
+                     </author>
+                     
+                     <rubric xml:lang="sa">
+                        <locus from="47r" to="47r">F. 47r [f. 1r in original foliation]:</locus>
+                       oṃ śrīrāmāya salakṣmaṇāya sasītāya sahanumate namaḥ | śubham astu |
+                    </rubric>
+                       
+                     <incipit xml:lang="sa" source="#WinternitzKeith1905">
+                        <locus from="47r" to="47r">F. 47r [f. 1r in original foliation]:</locus>
+                          bhadraṃ oṃ kalyāṇānāṃ nidhānaṃ kalimalamathanaṃ jīvanaṃ sajjanānāṃ […] eyaṃ yac ca divyaṃ sapadi parapadaprāptaye prasthitasya | I
+                       </incipit>
+                     
+                     <explicit xml:lang="sa" source="#WinternitzKeith1905">
+                        <locus from="97r" to="97r">F. 97r [f. 51r in original foliation]:</locus>
+                        caturdaśabhir evāṅkair bhuva [nān] i caturdaśa | śrīrānianāṭakaṃ dhatte kevalaṃ brahmanirmalam | 
+                        racitam Anilaputreṇātha Vālmīkinābdhau nihitam amṛtabuddhyā prāṅ Mahānāṭakaṃ yat | Sumatinṛpatibhojenoddhṛtaṃ tat krameṇa grathitam avatu viśvaṃ Miśradāmodareṇa 
+                        |||| iti Hanumannāṭake śrīrāmavijayo nāma caturdaśo 'ṅkaḥ | samāptam idaṃ Mahānāṭakaṃ |</explicit>
+                     
+                  <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msItem>
+               </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="50">50 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>
+                              <locus from="57" to="57">F. 57r</locus> is heavily damaged, and <locus from="47" to="48">ff. 47-8</locus> partially damaged, with loss of many <term xml:lang="sa">akṣaras</term>.
+                              <p>Original foliation lost on some folios.</p>
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>Marginal corrections in the same hand.</p>
+                        <p>Erasures in yellow paste.</p>
+                         </additions>
+                     
+                  </physDesc>
+               </msPart>
+                  
+                  <msPart>
+                     <msIdentifier>
+                        <altIdentifier>
+                           <idno type="part">MS. Sansk. d. 88 (3)</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <msContents n="1">
+                        
+                  <msItem defective="unknown">
+                     <locus from="98v" to="164">Ff. 98v-164r [ff. 1v-67r in original foliation]</locus>
+                     
+                     <title key="work_00209">Vidagdhamādhava</title>
+                     
+                     <author key="person_00001">
+                        <persName xml:lang="sa" type="display">Rūpagosvamin</persName>
+                     </author>
+                     
+                     <explicit source="#WinternitzKeith1905">
+                        <locus from="164r" to="164r">F. 164r [f. 67r in original foliation]:</locus>
+                        iti niṣkrāntās sarve | gaurītīrthavihāro nāma saptamo 'ṅkaḥ |
+                        samāptam idaṃ vidagdhamādhavabhidhānaṃ nāṭakaṃ | rādhāvilāsavītāṅkaṃ catuṣṣaṣṭikalādhanaṃ vidagdhamādhavaṃ sāśu śīlayantu vicakṣaṇāḥ |
+                        nandasinduravaṇāndusāṃdhye saṃvatasre gate | vidaydhamādhavaṃ nāma nāṭakaṃ Gokale kṛtaṃ | śrīmanmahākavirūpaviracitaṃ nāṭakam idaṃ | subhaṃ bhavatu |
+                     </explicit>
+                                          
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msItem>
+                     </msContents>
+                     
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              <support>Soft paper of red hue.</support>
+                              
+                              <extent n="67">67 ff.</extent>
+                              
+                              <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                              <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                              
+                              <condition>
+                                 <locus from="98" to="100">Ff. 98-100</locus>in a very fragile condition.
+                                 <locus from="104" to="133">Ff. 104-133</locus>in stabilised condition without loss of much text, but with a fragile support. Some worm damage.</condition>
+                           </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                           <handNote scope="sole" script="Śāradā" medium="black_ink">
+                              <desc>Śaradā in black ink.
+                              </desc>
+                              <p>
+                                 <desc>Scribe: 
+                                    <name type="person" role="scr" key="local_00192">
+                                       <persName xml:lang="sa" type="standard">Rājānalasaka</persName>
+                                    </name>
+                                 </desc>
+                              </p>
+                           </handNote>
+                        </handDesc>
+                        
+                        <additions>
+                           <p>Abbreviated marginal title on bottom-left margin.</p>
+                        </additions>
+                        
+                     </physDesc>
+                  </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (4-5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="2">
+                     
+                     <summary>A paper manuscript of two dramas, the <title xml:lang="sa" key="work_00210">Mālatīmādhava</title> of <name key="person_00188">Bhavabhūti</name>,
+                        and the <title key="work_00012" xml:lang="sa">Abhijñānaśakuntala</title> of <name key="person_00012">Kālidāsa</name>.
+                     Previously catalogued as two separate manuscripts, but written by the same hand on the same paper stock with continuous foliation.
+                     </summary>
+                  
+                  <msItem defective="unknown">
+                     
+                     <locus from="165v" to="216r">Ff. 165v-216r [ff. 1v-53r in original foliation]</locus>
+                     
+                     <title xml:lang="sa" key="work_00210">Mālatīmādhava</title>
+                     
+                     <author key="person_00188">
+                        <persName xml:lang="sa" type="display">Bhavabhūti</persName>
+                     </author>
+                                                            
+                     <rubric source="#WinternitzKeith1905">
+                        <locus from="165v" to="165v">F. 165v [f. 1v in original foliation]:</locus>
+                        oṃ śrīgaṇeśaya namaḥ
+                     </rubric>
+                     
+                     <incipit source="#WinternitzKeith1905">
+                        <locus from="165v" to="165v">F. 165v [f. 1v in original foliation]:</locus>
+                        oṃ cūḍāpīḍakapālasaṅkulamilanmandākinīvārayo vidyutkāśalalāṭalocanaśikhijyotir vimiśratviṣaḥ |
+                     </incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">
+                        <locus from="216r" to="216r">F. 216r [f. 53r in original foliation]:</locus>
+                        kāma evam etat iti niṣkrāntās sarve daśamo 'ṅkaḥ |
+                        samāptaṃ cedaṃ mālatimādhavaṃ nāma nāṭakaṃ |
+                        kṛtir mahākaver vividhabudhacakramrājitapāda-dvayāmbhojasya śrībhaṭṭabhavabhūler iti bhadraṃ |
+                     </explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                     
+                     <msItem defective="unknown">
+                        <locus from="216r" to="279r"> Ff. 216r-279r [ff. 53r-114r in original foliation]</locus>
+                        
+                        <title key="work_00012" xml:lang="sa">Abhijñānaśakuntala</title>
+                        
+                        <author key="person_00012">
+                           <persName xml:lang="sa" type="display">Kālidāsa</persName>
+                        </author>
+                        
+                        <rubric source="#WinternitzKeith1905">
+                           <locus from="216r" to="216r">F. 216r [f. 53r in original foliation]:</locus>
+                           śrīsarasvatyai namaḥ |
+                        </rubric>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="216r" to="216r">F. 216r [f. 53r in original foliation]:</locus>
+                           yā sraṣṭus sṛṣṭir ādyā pibati vidhihutaṃ
+                        </incipit>
+                        
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="279r" to="279r">F. 279r [f. 114r in original foliation]:</locus>
+                           punarbhavaṃ parigatabhaktir ātmabhūḥ | iti niṣkrāntās sarve || saptamo 'ṅkaḥ |||
+                           samāptaṃ cedam Abhijñānaśakuntalānāma nāṭakaṃ ||| kṛtir mahākaveḥ Kālidāsasyeti śivaṃ |
+                        </explicit>
+                        
+                        <textLang mainLang="sa" otherLangs="pra">Sanskrit with Prakrit.</textLang>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="114">114 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stabilised condition.
+                              <p><locus from="225" to="225">F. 225</locus> left blank.</p>
+                              <p source="#WinternitzKeith1905"><locus from="224" to="226">Ff. 224 and 226</locus> both wrongly foliated as 61 and wrongly bound. <locus>F. 224</locus> ought to follow <locus>f.226</locus>.</p>
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>An interlinear Sanskrit translation of the Prakrit passages given on <locus from="216" to="223">ff. 216-223</locus>.</p>
+                        <p>Some interlinear notes in different hand on <locus from="227" to="239">ff. 227-239</locus>.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+               </msPart>
+                   
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="1">
+                     
+                  <msItem defective="unknown">
+                     <locus from="280v" to="405v">Ff. 280v-405v [ff. 1v-127v in original foliation]</locus>
+                     
+                     <title xml:lang="sa" key="work_00212">Bālarāmāyaṇa</title>
+                     
+                     <author key="person_00034">
+                        <persName xml:lang="sa" type="display">Rājaśekhara</persName>
+                     </author>
+                     
+                     <rubric source="#WinternitzKeith1905" xml:lang="sa">
+                        <locus from="280v" to="280v">F. 280v [f. 1v in original foliation]:</locus>
+                        oṃ svasti | śrīsarasvatyai namaḥ | 
+                     </rubric>
+                     
+                     <incipit source="#WinternitzKeith1905" xml:lang="sa">
+                        <locus from="280v" to="280v">F. 280v [f. 1v in original foliation]:</locus>
+                        śrīśāradāyai namaḥ śreyase | pramatter yaḥ pātraṃ tilakayati yas sūktiracanāṃ ya ādyas svādūnāṃ śruticulakalehyena madhunā |
+                        </incipit>
+                     
+                     <textLang mainLang="sa" otherLangs="pra">Sanskrit with Prakrit.</textLang>
+                  
+                  </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>Soft paper of red hue.</support>
+                           
+                           <extent n="127">127 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stabilised condition.
+                              <p><locus from="309" to="309">F. 309</locus> left blank, <q source="#WinternitzKeith1905">but nothing is missing</q>.</p>
+                           <p>Original foliation is missing on <locus from="310" to="335">ff. 310-335</locus> [ff. 30-55 in original foliation].</p>
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <decoDesc>
+                        <decoNote type="drawing">Doodle in black ink on <locus from="405v" to="405v">f. 405v</locus></decoNote>
+                     </decoDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>Interlinear Sanskrit translations of Prakrit passages throughout.</p>
+                        <p>Marginal notes in the same hand on <locus from="310" to="313">ff. 310-313</locus>.</p>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (7)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="1">
+                  
+                  <msItem defective="unknown">
+                     <locus from="407r" to="461v">Ff. 407r-461v [ff. 1v-54v in original foliation]</locus>
+                     
+                     <title xml:lang="sa" key="work_00213">Veṇīsaṃhāra</title>
+                     
+                     <author key="person_00189">
+                        <persName xml:lang="sa" type="variant">Mṛgarājalakṣman Bhaṭṭa Nārāyaṇa</persName>
+                     </author>
+                     
+                     <incipit source="#WinternitzKeith1905" xml:lang="sa">
+                        <locus from="407r" to="407r">F. 407v [f. 1v in original foliation]:</locus>
+                        oṃ kālin-dījalakālakāliyakulakrīḍāvināśaiśinā ruṣṭhāriṣṭhakaṭho-rakaṇṭhavalanāviśliṣṭhakaṇṭhasrajā
+                        rohatkeśikiśoradan-tapadavīkṛṣnena puṣṇātu vo doṣṇā durdaradaityadar-padalanadvāreṇa dāmodaraḥ |
+                     </incipit>
+                     
+                     <explicit source="#WinternitzKeith1905" xml:lang="sa">
+                        <locus from="461v" to="461v">F. 461v [f. 54v in original foliation]:</locus>
+                        kāvyālāpasubhāṣitavyasaninas te rājahaṃsā gatā goṣṭhyas tāḥ kṣayam āgatā guṇalavaślāghāpravādaḥ sa tān sālaṅkārarasoktivakramadhurāyās satkavīnāṃ giras tāsāṃ prājñāmṛte guṇāntaravidaḥ ke mlecchitānām iva | 
+                        iti niṣkrāntās sarve | ṣaṣṭho 'ṅkaḥ ||
+                        samāptaṃ cedaṃ Veṇīsaṃhāraṃ nāma nāṭakaṃ | kṛti kaver mṛgarājalakṣmaṇo nārāyaṇasya |
+                     </explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="54">54 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stabilised condition.
+                              <p>Lacuna on <locus from="423" to="423">f. 423</locus>.</p>
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                           <p>
+                              <desc>Scribe: 
+                                 <name type="person" role="scr" key="local_00192">
+                                    <persName xml:lang="sa" type="standard">Rājānalasaka</persName>
+                                 </name>
+                              </desc>
+                           </p>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>Marginal note in red ink on <locus from="407" to="407">f. 407</locus>.</p>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (8)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="2">
+                     
+                     <msItem defective="true">
+                        
+                        <locus from="462r" to="462r">F. 462r</locus>
+                        
+                        <title type="desc">An unidentified fragment of a Śārada text, used to repair the manuscript</title>
+                        
+                        <textLang mainLang="sa">Sanskrit.</textLang>
+                        
+                     </msItem>
+                  
+                  <msItem defective="unknown">
+                     <locus from="462v" to="478v">Ff. 462v-478v [ff. 1v-(17)v in original foliation]</locus>
+                     
+                     <title xml:lang="sa" type="display" key="work_00214">Bālabhārata</title>
+                     <note>Also known as <title xml:lang="sa" type="variant" key="work_00214">Pracaṇḍapāṇḍava</title>.</note>
+               
+                     <author key="person_00034">
+                        <persName xml:lang="sa" type="display">Rājaśekhara</persName>
+                     </author>
+                     
+                     <rubric source="#WinternitzKeith1905">
+                        <locus from="462v" to="462v">F. 462v:</locus>
+                        oṃ svasti | śrīgaṇeśāya namaḥ || oṃ namaḥ Sarasvatyai || oṃ namaś Śivāya |
+                     </rubric>
+                     
+                     <explicit source="#WinternitzKeith1905">
+                        <locus from="478v" to="478v">F. 478v:</locus>
+                        maukharyeṇa | iti niṣkrāntāḥ sarve || dvitīyo 'ṅkaḥ || kṛtir mahākave Rājaśekharasya |
+                     </explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="17">17 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>In stabilised condition, with some support repairs on <locus from="462" to="467">f. 462-7</locus>.
+                              <p>A loss of <term xml:lang="sa">akṣara</term>s on <locus from="462" to="463">f. 462-3</locus>.</p>
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>Interlinear Sanskrit translations of Prakrit passages.</p>
+                        <p>Some marginal notes in at least two hands.</p>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (9-10)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="2">
+                     
+                     <summary>A paper manuscript of two dramas, the <title xml:lang="sa" key="work_00215">Vikramorvaśī</title> of <name key="person_00012">Kālidāsa</name>
+                        and the <title xml:lang="sa" key="work_00217">Ratnāvalī</title> of <name key="person_00190">Harṣa</name>.
+                        Previously catalogued as two separate manuscripts, but written by the same hand on the same paper stock with continuous foliation.
+                     </summary>
+                     
+                  
+                  <msItem defective="unknown">
+                     <locus from="479v" to="514r">Ff. 479v-514r [ff. 1v-36r in original foliation]</locus>
+                     
+                     <title xml:lang="sa" key="work_00215">Vikramorvaśī</title>
+                     
+                     <author key="person_00012">
+                        <persName xml:lang="sa" type="display">Kālidāsa</persName>
+                     </author>
+                                                              
+                     <rubric source="#WinternitzKeith1905">
+                        <locus from="479v" to="479v">F. 479v [f. 1v in original foliation]:</locus>
+                        oṃ svasti | śrīgaṇeśāya namaḥ śrīśāradāyai namaḥ |
+                     </rubric>
+                     
+                     <incipit source="#WinternitzKeith1905">
+                        <locus from="479v" to="479v">F. 479v [f. 1v in original foliation]:</locus>
+                        vedānteṣu | 
+                     </incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">
+                        <locus from="514r" to="514r">F. 514r [f. 36r in original foliation]:</locus>
+                        sarvas taratu durgāṇi | 
+                     </explicit>
+                     
+                     <textLang mainLang="sa" otherLangs="pra">Sanskrit and Prakrit.</textLang>
+                     
+                     
+                  </msItem>
+                     
+                     <msItem defective="unknown">
+                        <locus from="514v" to="548v">Ff. 514v-548v [ff. 36v-70r in original foliation]</locus>
+                        
+                        <title xml:lang="sa" key="work_00215">Ratnāvalī</title>
+                        
+                        <author key="person_00190">
+                           <persName xml:lang="sa" type="display">Harṣa</persName>
+                        </author>
+                        
+                        <rubric source="#WinternitzKeith1905">
+                           <locus from="514v" to="514v">F. 514v [f. 36v in original foliation]:</locus>
+                           oṃ namo vighnahantre |
+                        </rubric> 
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="514v" to="514v">F. 514v [f. 36v in original foliation]:</locus>
+                           oṃ pādāgrasthitayā |
+                        </incipit> 
+                        
+                        <explicit>
+                           <locus from="548v" to="548v">F. 548v [f. 70v in original foliation]:</locus>
+                           ākalpantaṃ ca sasyā bhavatu samucitaṃ saṃgataṃ sajjanānāṃ nirviśleṣavaka [?] śaṃ piśunajanavacovarja [?] nād vajralepaḥ | 
+                           iti niṣkrāntās sarve gataś caturtho 'ṅkaḥ | iti śrīharṣaviracitā Ratnāvalī nāma nāṭikā samāptā | śubhaṃ bhavatu jagatāṃ | 
+                        </explicit>
+                        
+                        <textLang mainLang="sa" otherLangs="pra">Sanskrit and Prakrit.</textLang>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="70">70 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>
+                             In stabilised condition. 
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                           <p>
+                              <desc>Scribe: 
+                                 <name type="person" role="scr" key="local_00192">
+                                    <persName xml:lang="sa" type="standard">Rājānalasaka</persName>
+                                 </name>
+                              </desc>
+                           </p>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>Interlinear Sanskrit translations of Prakrit passages on  <locus from="479v" to="527r">ff. 479v-527r</locus>.</p>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (11)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="2">
+                     
+                     <msItem defective="unknown">
+                        <locus from="549v" to="653v">Ff. 549v-653v [ff. 1v-106v in original foliation]</locus>
+                        
+                        <title key="work_00216" xml:lang="sa">Anargharāghava</title>
+                        
+                        <author key="person_00191">
+                           <persName xml:lang="sa" type="display">Murāri</persName>
+                        </author>
+                        
+                        <rubric source="#WinternitzKeith1905">
+                           <locus from="549v" to="549v">F. 549v [f. 1v in original foliation]:</locus>
+                           oṃ svasti | śrīgaṇeśāya namaḥ śrīgurave namaḥ 
+                        </rubric>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="549v" to="549v">F. 549v [f. 1v in original foliation]:</locus>
+                           oṃ niṣpratyūham upāsmahe |
+                        </incipit>
+                        
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="653v" to="653v">F. 653v [f. 106v in original foliation]:</locus>
+                           samunmīlatsūktistavakamakarandaiḥ | [...] guṇadoṣau racayatu 
+                           iti niṣkrāntās sarve | anargharāghave śrīrāmarājyābhiṣeko nāma saptamo 'ṅkaḥ | 
+                           samāptam idam Anargharāghavaṃ nāma nāṭakaṃ |
+                        </explicit>
+                        
+                        <textLang mainLang="sa" otherLangs="pra">Sanskrit and Prakrit.</textLang>
+                     
+                     </msItem>
+                     
+                     <msItem>
+                        
+                        <locus from="654r" to="654v">Ff. 654</locus>
+                        
+                        <title type="desc">Five verses in praise of the poet <name key="person_00191">Murāri</name>.</title>
+                    
+                    <author key="person_00000">
+                       <persName>Unknown author</persName>
+                    </author>
+                        
+                        <textLang mainLang="sa">Sanskrit.</textLang>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="107">107 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                           
+                           <condition>
+                              Repaired, in stabilised condition.
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                           <p>
+                              <desc>Scribe: 
+                                 <name type="person" role="scr" key="local_00192">
+                                    <persName xml:lang="sa" type="standard">Rājānalasaka</persName>
+                                 </name>
+                              </desc>
+                           </p>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title on bottom-left margin.</p>
+                        <p>Interlinear Sanskrit translations of Prakrit passages.</p>
+                        <p>Marginal notes in various hands on <locus from="549r" to="558v"/>.</p>
+                        <p>Occasional erasures in yellow paste.</p>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+                  
+                  <msPart>
+                     <msIdentifier>
+                        <altIdentifier>
+                           <idno type="part">MS. Sansk. d. 88 (12)</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     
+                     <msContents n="1">
+                        
+                        <msItem>
+                           <locus from="655v" to="670r">Ff. 655v-670 [ff. 1v-(16r) in original foliation]</locus>
+                           
+                           <title key="work_00218">Kṛṣṇabhakticandrikāvidhāna</title>
+                           
+                           <author key="person_00193">
+                              <persName xml:lang="sa" type="display">Ānandadeva</persName>
+                              <note>,the son of <name>Āpadeva</name>.</note>
+                           </author>
+                           
+                           <rubric source="#WinternitzKeith1905">
+                              <locus from="655v" to="655v">F. 655v [f. 1v in original foliation]:</locus>
+                             oṃ svasti | śrīgaṇeśāya namaḥ | śrīgurubhyo namaḥ | 
+                           </rubric>
+                           
+                           <incipit source="#WinternitzKeith1905">
+                              <locus from="655v" to="655v">F. 655v [f. 1v in original foliation]:</locus>
+                             Sarasvatyai namaḥ ko 'pi sa gopakumāraḥ sphurati samāje vrajastrīṇāṃ navajaladhara iva madhye taḍitāṃ paritaḥ sphurantīnāṃ |
+                           </incipit>
+                           
+                           <explicit source="#WinternitzKeith1905">
+                              <locus from="670r" to="670r">F. 670r[f. (16r) in original foliation]:</locus>
+                              iti śrīmatāpadevasūnunā ’nandadevena kṛtaṃ śrīkṛṣṇabhakticandrikāvidhānaṃ nāma nāṭakaṃ samāptam iti bhadraṃ | 
+                              śrīkṛṣṇajayakṛṣṇajayajayakṛṣṇeti mantramauliṃ dhyayet | 
+                              nīlotpalānandakarīkavīnām Ānandadevena kṛtā Murāreḥ | 
+                              sānandadhanā paritovalakṣaṃ bhaktyā yaśodāsuta candrikeyaṃ |
+                           </explicit>
+                           
+                           <textLang mainLang="sa">Sanskrit</textLang>
+                           
+                        </msItem>
+                     </msContents>
+                     
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              
+                              <extent n="16">16 ff.</extent>
+                              
+                              <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                              <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                              
+                              <condition>In stabilised condition.</condition>
+                           </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                           <handNote scope="sole" script="Śāradā" medium="black_ink">
+                              <desc>Śaradā in black ink.
+                              </desc>
+                           </handNote>
+                        </handDesc>
+                        
+                        <additions>
+                           <p>Abbreviated marginal title on bottom-left margin.</p>
+                           <p>A long marginal note on <locus from="660v" to="660v">f. 660v</locus>, and shorter marginalia throughout.</p>
+                           <p>Erasures in yellow paste.</p>
+                        </additions>
+                        
+                     </physDesc>
+                  </msPart>
+               
+                  <msPart>
+                     <msIdentifier>
+                        <altIdentifier><idno type="part">MS. Sansk. d. 88 (13)</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <msContents n="1">
+                        
+                        <msItem>
+                           <locus from="671v" to="717v">Ff. 671v-717v [ff. 1v-47v in original foliation]</locus>
+                           
+                           <title key="work_00219">Nāgānanda</title>
+                           
+                           <author key="person_00190">
+                              <persName xml:lang="sa" type="display">Harṣa</persName>
+                           </author>
+                           
+                           <rubric source="#WinternitzKeith1905">
+                              <locus from="671v" to="671v">F. 671v [f. 1v in original foliation]:</locus>
+                              oṃ svasti | śrīgaṇeśāya namaḥ 
+                           </rubric>
+                           
+                           <incipit source="#WinternitzKeith1905">
+                              <locus from="671v" to="671v">F. 671v [f. 1v in original foliation]:</locus>
+                          śreyo 'stu |
+                          oṃ dhyānavyājam upetya cintayasi kam unmīlya cakṣuḥ kṣaṇaṃ paśyānaṅgaśarāturaṃ janam amuṃ trātāpi no rakṣasi |
+                           </incipit>
+                           
+                           <explicit source="#WinternitzKeith1905">
+                              <locus from="717v" to="717v">F. 717v [f. 47v in original foliation]:</locus>
+                              ºpramodāḥ prajāḥ | iti niṣkrāntāḥ sarve | pañcamo ’ṅkaḥ |||
+                              samāptaṃ cedaṃ Nāgānandanaṃ nāma nāṭakaṃ || kṛtiś śrīharṣadevasya |
+                           </explicit>
+                           
+                           <textLang mainLang="sa">Sanskrit</textLang>
+                           
+                        </msItem>
+                     </msContents>
+                     
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              
+                              <extent n="47">47 ff.</extent>
+                              
+                              <foliation n="1" style="numeral">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                              <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                              
+                              <condition>In stabilised condition.</condition>
+                           </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                           <handNote scope="sole" script="Śāradā" medium="black_ink">
+                              <desc>Śaradā in black ink.
+                              </desc>
+                           </handNote>
+                        </handDesc>
+                        
+                        <additions>
+                           <p>Abbreviated marginal title on bottom-left margin.</p>
+                           <p>Interlinear Sanskrit translations of Prakrit passages on <locus from="712" to="716">ff. 712-716</locus>.</p>
+                           <p>Occassional marginal notes.</p>
+                        </additions>
+                        
+                     </physDesc>
+                  </msPart>
+               
+                  <msPart>
+                     <msIdentifier>
+                        <altIdentifier>
+                           <idno type="part">MS. Sansk. d. 88 (14)</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <msContents n="1">
+                        
+                        <msItem defective="true">
+                           <locus from="718v" to="737v">Ff. 718v-737v </locus>
+                           
+                           <title key="work_00208">Hanumannāṭaka</title>
+                           
+                           <author key="person_00187">
+                              <persName xml:lang="sa" type="display">Dāmodara Miśra</persName>
+                           </author>
+                           
+                           <incipit source="#WinternitzKeith1905">oṃ namaḥ sarasvatyai | | śrīrāmāya namaḥ | śrīgaṇeśāya namaḥ | (so far Devanāgarī) śrīgaṇeśāya namaḥ | oṃ namaḥ śrīrāmacandrāya | | | oṃ kalyāṇānāṃ nidhānaṃ kalimalamathanaṃ pāvanaṃ pāvanānāṃ pātheyaṃ yanmumukṣoḥ sapadi parapadaprāptaye prasthitasya |</incipit>
+                           <explicit source="#WinternitzKeith1905">iti śrīhanumadviracite mahānāṭake Sītāviyogo Rāmapañcamo 'ṅkaḥ |</explicit>
+                        
+                           <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        </msItem>
+                        
+                     </msContents>
+                     
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              
+                              <extent n="20">20 ff.</extent>
+                              
+                              
+                              <foliation n="1" style="digit">Arabic numerals in pencil, top-left margin, verso.</foliation>
+                              <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                              
+                              <condition>
+                                 Repaired and in stabilised condition. Loss of <term xml:lang="sa">akṣara</term>s on <locus from="726" to="727"> ff. 726-727</locus>.
+                                 <p>Original foliation missing.</p>
+                              </condition>
+                           </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                           <handNote scope="sole" script="Śāradā" medium="black_ink">
+                              <desc>Śaradā in black ink.
+                              </desc>
+                              <note>Different hand than the rest of the manuscript.</note>
+                           </handNote>
+                        </handDesc>
+                        
+                        <additions>
+                           <p>Some interlinear and marginal notes throughout.</p>
+                        </additions>
+                        
+                     </physDesc>
+                  </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. d. 88 (15)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents n="1">
+                     
+                     <msItem defective="true">
+                        <locus from="739r" to="739r">F. 739</locus>
+                        
+                        <title type="desc">Fragments of text in Śārada script 
+                           <q source="#WinternitzKeith1905">, containing only a few syllables of which nothing can be made (probably bits of waste paper originally used as lining by the native binder.</q>
+                        </title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           
+                           <extent n="1">1 ff.</extent>
+                        
+                        </supportDesc>
+                     </objectDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Śāradā" medium="black_ink">
+                           <desc>Śaradā in black ink.
+                           </desc>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+               </msPart>
+               
+            
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-09-13">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+   
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

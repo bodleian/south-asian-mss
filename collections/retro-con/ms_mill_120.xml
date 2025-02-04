@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02711">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_mill_120</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Mill</collection>
+                  <idno type="shelfmark">MS. Mill 120</idno>
+                  <idno type="ieArk">ark:29072/x0q811kj96c4</idno><idno type="crArk">ark:29072/x0q524jp132f</idno><altIdentifier>
+                     <idno type="CSM">1014 (1–4)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Commentaries on Upaniṣads, 18th cent.?</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Four commentaries on Upaniṣads, written by different hands.</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 126 "> 126 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>. In the original each piece has its own foliation, 40 + 22 + 48 + 15 leaves.<dimensions type="binding" unit="cm">
+                           <height quantity="27.6">27.6</height>
+                           <width quantity="15.2">15.2</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">no name is given for the writers of 1 and 3. For 2 see f. 63v: jagatyām ativikhyātayaśosūnur ya tena vai | Kaṭhabhāṣyaṃm alekhīdaṃ Rāmakṛṣṇena dharmataḥ ‖ 2 ‖ In a later hand is written the name of an owner: śrīrāghavānaṃdasvāmināṃ | For 4 see f. 120v: likhitaṃ śrīmādhavarāmānaṃdasarasvatīpūjya-pādaśiṣyasya Śivānaṃdena | If this means, as the Bodl. catal., l. c., saya, Ś. pupil of M., the construction is extraordinary.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">Date:1 has none, but is probably of the 18th cent. 2 is dated on f. 63v: bāṇāṃkaśarabhūśāke pramāthīnāmavatsare | māsīṣe śitapakṣe tv amāvāsyām ahni 2 caṃdre ǁ 1 ǁ The latter words are a correction. The Bodl. catal., p. 395b, takes the date to be śāke 1595 (= a. d. 1673). 3 is dated on f. 111v: saṃvat 1674 (= a. d. 1618) samaye bhādrasudi 2 sukravāsare | 4 is dated on f. 126v: saṃvat 1733 (= a. d. 1677) nā poṣaśudi 2 some |</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_00179">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n110/mode/1up">no. 1014 (1–4), p. 79</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n110/mode/1up">no. 1014 (1–4), p. 79</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 120(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Aitareyopaniṣadbhāṣya of Śaṅkaracārya, being a commentary on the Aitareya Upaniṣad. In this MS. the commentary extends to three adhyāyas, ending on ff. 18v, 24, 39, and part of the 4th, the text breaking off abruptly on f. 40v.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 120(2)</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Kāṭhakopaniṣadbhāṣya of Śaṅkarācārya, being a commentary on the Kaṭhavallī Upaniṣad, complete.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 120(3) [fols 64v-111v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Taittirīyopaniṣadbhāṣya of Śaṅkarācārya, being a commentary on the Taittirīya Upaniṣad.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 120(4) [fols 112v-120v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Commentary of Śaṅkarācārya on the Māṇḍūkya Upaniṣad and Gauḍapāda’s Kārikās thereon, complete.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><explicit source="#WinternitzKeith1905">iti śrīgoviṃdabhagavatpūjyapādaśiṣyasya pāramahaṃsaparivrājakācāryasya Saṃkarabhagavataḥ kṛtāv Āgamaśāstravīvaraṇe prathamaprakaraṇaṃ Māṃḍukyākhyānaṃ samāptaṃ |</explicit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

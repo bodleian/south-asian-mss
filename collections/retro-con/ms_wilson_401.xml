@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02398">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_wilson_401</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Wilson</collection>
+                  <idno type="shelfmark">MS. Wilson 401</idno>
+                  <idno type="ieArk">ark:29072/x0cc08hg65jc</idno><idno type="crArk">ark:29072/x0c821gk827m</idno><altIdentifier>
+                     <idno type="CSM">1011 (1–3)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Śaṅkara’s Commentaries on the Kena and Chāndogya Upaniṣads, Viśveśvaratīrtha’s Commentary on Ānandatīrtha’s Commentary on the Aitareya Āraṇyaka, 18th, 17th, 16th cent.?</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 191 "> 191 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>. Each MS. in the original has its own foliation.<dimensions type="binding" unit="cm">
+                           <height quantity="25.7">25.7</height>
+                           <width quantity="14.3">14.3</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">18th, 17th, 16th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">Date:1 probably about a. d. 1750; 2 probably about a. d. 1650; 3 is probably at least as old as a. d. 1600.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collection of <persName key="person_00201">Horace Hayman Wilson</persName> was purchased by the Bodleian Library in 1842.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n108/mode/1up">no. 1011 (1–3), p. 77</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n108/mode/1up">no. 1011 (1–3), p. 77</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 401(1) [fols 1v-11v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Śaṅkara’s Commentary on the Kena Upaniṣad</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><explicit source="#WinternitzKeith1905">Talavakāropaniṣatkṣudragaṇe vākyavivaraṇaṃ samāptaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 401(2) [fols 12v-130v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Śaṅkara’s Commentary on the Chāndogya Upaniṣad.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Wilson 401(3) [fols 131-191v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>Viśveśvaratīrtha’s Commentary on Ānandatīrtha’s Commentary on Śaṅkara’s Commentary on the second and third Āraṇyakas of the Aitareya Āraṇyaka, not as the Bodl. catal., p. 310, on Śaṅkara’s commentary on the Aitareya Upaniṣad. In verse 3 of the introduction, f. 131, he says: Aitareyopaniṣado vyākurmo bhāṣyam uttamaṃ | śrīmadānaṃdatīrthāryān natvā tatprītikāmukāḥ ‖ 3 ‖</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

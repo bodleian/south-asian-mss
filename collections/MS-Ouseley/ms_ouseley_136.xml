@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02735">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Ouseley</collection>
+                  <idno type="shelfmark">MS. Ouseley 136</idno>
+                  <idno type="ieArk">ark:29072/x0rn301162nm</idno><idno type="crArk">ark:29072/x0rj430479bw</idno><altIdentifier>
+                     <idno type="CSM">1387 (1–15)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+
+               <msContents n="14">
+                  <summary> A collection of fourteen <term xml:lang="sa">Jaina</term>
+                     <term xml:lang="sa">stotra</term>s written in Sanskrit and Prākrit on paper.
+                     Includes a collection of portraits of twenty four <term xml:lang="sa">Jina</term>s. </summary>
+
+                  <msItem n="1">
+
+                     <locus from="2" to="2">F. 2.</locus>
+
+                     <title key="work_00240">Upasargaharastotra</title>
+                     <note>Name Upasarggaharaº in the MS.</note>
+
+                     <textLang mainLang="pra">Prākrit.</textLang>
+
+                  </msItem>
+
+                  <msItem n="2">
+                     <locus from="2" to="3">Ff. 2-3.</locus>
+
+                     <title key="work_00241">Śrītajayapaṃhutastotra</title>
+
+                     <note>Stanzas 14–16 are missing.</note>
+
+                     <author xml:lang="sa">
+                        <persName key="person_00202" type="display">Mānadeva</persName>
+                     </author>
+
+                     <textLang mainLang="pra">Prākrit.</textLang>
+                  </msItem>
+
+                  <msItem n="3">
+                     <locus from="3" to="5">Ff. 3-5.</locus>
+                     
+                     <title key="work_00242">Bhayaharastotra</title>
+                     
+                     <author xml:lang="sa">
+                        <persName key="person_00203" type="display">Mānatuṅga</persName>
+                     </author>
+                     
+                     <textLang mainLang="pra">Prākrit.</textLang>
+                  </msItem>
+
+                  <msItem n="4">
+                     <locus from="5" to="9">Ff. 5-9.</locus>
+                     
+                     <title key="work_00243">Śrīajitaśāntijinastavana</title>
+                     
+                     <textLang mainLang="pra">Prākrit.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem n="5">
+                     <locus from="9" to="12">Ff. 9-12.</locus>
+                     
+                     <title key="work_00244">Bhaktāmarastotra</title>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem n="6">
+                     <locus from="13" to="15">Ff. 13-15.</locus>
+                     
+                     <title type="desc">A praise of Śānti, which practically
+                        consists in desiring that all the world should have śānti.</title>
+                    
+                     <note source="#WinternitzKeith1905"> No author’s name
+                        or title is given, and probably it was written by the scribe of the MS.
+                        himself.</note>
+                     <explicit source="#WinternitzKeith1905">upasargā kṣayaṃ yāṃti | bidyaṃte
+                        vighnaval layaṃ | anaprasannatām eti pūjyamāne jine svare ǁ 4 ǁ iti śrīśāṃ
+                        |</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem n="7">
+                     <locus from="16" to="21">Ff. 16-21.</locus>
+                     
+                     <title key="work_00245">Kalyāṇamandirastotra</title>
+                     
+                     <author xml:lang="sa">
+                        <persName key="person_00204" type="display">Siddhasena Divākara</persName>
+                     </author>
+                                          
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem n="8">
+                     <locus from="21" to="23">Ff. 21-23.</locus>
+                     <title key="work_00246">Śrīpārśvanāthastuti.</title>
+                     
+                     <incipit source="#WinternitzKeith1905" xml:lang="sa">
+                        kiṃ karpūramayaṃ sudhārasamayaṃ kiṃ
+                        caṃdrarocirmayaṃ | kiṃ lāvaṇyamayaṃ mahāmaṇimayaṃ kāruṇyakevalīmayaṃ |
+                        viśvānaṃdamayaṃ mahodayamayaṃ śaubhāmayaṃ cinmayaṃ | śukladhyānamayaṃ vapur
+                        jinapater bhavālaṃbanaṃ ǁ 1 ǁ
+                     </incipit>
+                     
+                     <explicit source="#WinternitzKeith1905" xml:lang="sa">iti śrīcitāmaṇapārśvanāthastotraṃ
+                        saṃpūrṇaṃ |</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem n="9">
+                     <locus from="23r" to="23v">F. 23.</locus>
+                     <title type="desc">A short <term xml:lang="sa">stotra</term> of Pārśvanātha.</title>
+                     
+                     <incipit source="#WinternitzKeith1905">sphūradevanāgeṃdravṛṃdāramālā-|
+                        maraṃdacchaṭādhautapādāravṛṃdaṃ | parānaṃdasaṃdarvalakṣmīśanāthaṃ | stuve
+                        devaciṃtāmaṇipārśvanāthaṃ ǁ 1 ǁ tamorāsivitrāsanivāsiresaṃ | hataḥkleśaleśaṃ
+                        śrīyāṃ saṃnivesaṃ | kramālīnapadmāvatiprāṃṇanāthaṃ | stuve devaciṃtāmaniṃ
+                        Pārśvanāthaṃ ǁ 2 ǁ</incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">iti śrīpārśvanāthastotraṃ | saṃpūrṇaṃ |
+                        śrī |</explicit>
+                 
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem n="10">
+                     <locus from="48" to="48">F. 48.</locus>
+                     <title type="desc">A <term xml:lang="sa">stotra</term> of the Jinendras.</title>
+                        
+                     <incipit source="#WinternitzKeith1905">śrīgurubhyo namaḥ | darśanaṃ devadevasya
+                        | darśanaṃ pāpanāśanaṃ | darśanaṃ svargāsaupānaṃ | darśanaṃ mokṣasādhanaṃ ǁ
+                        1 ǁ darśanena jineṃdrāṇāṃ | sādhūnāṃ vaṃdanena ca | na tiṣṭhatī ciraṃ pāpaṃ
+                        chidrahaste yathodakaṃ ǁ 2 ǁ</incipit>
+                        
+                     <explicit source="#WinternitzKeith1905">adya me kṣālitaṃ gātra | netre ca
+                        vimalīkṛte | snāto ’haṃ punyatīrtheṣu | jineṃdra tava darśanāt ǁ 6
+                        ǁ</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem n="11">
+                     <locus from="49" to="50">Ff. 49-50.</locus>
+                     <title key="work_00247">Caityavandanā</title>
+                     
+                     <incipit source="#WinternitzKeith1905">śrīgurubhyo namaḥ | atha Caityavaṃdanā
+                        liṣyate | sadbhaktyā devaloke raviśasībhuvane vyaṃtarāṇāṃ nikāye |
+                        nakṣatrānāṃ nivāse grahagaṇapaṭale tārakāṇāṃ vimāne | pātāle (?) pannageṃdre
+                        sphūṭamaṇikariṇe dhvastasāṃdrāṃdhakāre | śrīmattīrthaṃkarāṇāṃ pratidivasam
+                        ahaṃ tatra caityāni vaṃde ǁ 1 ǁ</incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">iti śrīcaityavaṃdanā saṃpūrṇa
+                        |</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  <msItem n="12">
+                     <locus from="50" to="51">Ff. 50-51.</locus>
+                     
+                     <title key="work_00248">Śrīparameṣṭhīstotra</title>
+                     
+                     <author xml:lang="sa">
+                        <persName key="person_00205" type="display">Rāmacandra</persName>
+                     </author>
+                     
+           
+                     <incipit source="#WinternitzKeith1905">sakaladevamānavapatisahitaṃ
+                        vigatarodhabodhabalasahitaṃ | atisahītoditamahisākalitaṃ naumi jinaṃ
+                        yaugamatiphalitaṃ |</incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">śrīhīrānaṃdacaṃdrapāvasiṣyeṇa
+                        rāmacaṃdreṇa bhaktyā śrīparameṣṭīnityaṃ stavaṃ gocaraṃ rūta | iti
+                        śrīparameṣṭīstotraṃ |</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  <msItem n="13">
+                     <locus from="51" to="54v">Ff. 51-54v.</locus>
+                     
+                     <title type="desc">A stotra</title>
+                    
+                     <author xml:lang="sa">
+                        <persName key="person_00206" type="display">Jayacandra</persName>
+                     </author>
+                     
+                     <incipit source="#WinternitzKeith1905">rucitaruciracaṃdranāgeṃdraleṣeṃdramartyeṃdrasadbhaktisaṃsaktanāmnī
+                        bhavanmaulinīleṃdrasaṃjātarociśrīyālirujāṃ saṃkulaṃ nirmmalaṃ yasya te
+                        bhaktasatprāṇisammodakiṃjalkaśāraṃ padabjaṃ bhavāpārasaṃsāratāpāpṛhaṃ taṃ
+                        stuve ’haṃ sadā śrījinaṃ śobhanaṃ ǁ 1 ǁ</incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">iti śrīpaṃcajineṃdradaṃdakastuti
+                        śrīpārśvacaṃdrasūreṃ-drasiṣyaśrīsemaracaṃdrasūreṃdratatśiṣyaśrīrājacaṃdra-sūreṃdrasiṣyeṇa
+                        śrījayacaṃdreṇa kṛtaṃ idaṃ stotraṃ saṃpūrṇaṃ |</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem n="14">
+                     <locus from="55" to="56v">Ff. 55-56v.</locus>
+                     
+                     <title key="work_00249">Paramātmānandastotra</title>
+                
+                     <rubric>
+                        śrīgurubhyo namaḥ |
+                     </rubric>
+                     
+                     <incipit source="#WinternitzKeith1905">
+                        paramānaṃdasaṃyuktaṃ
+                        | nirvikāraṃ nirāmayaṃ | dhyānahīnā na pasyaṃti | nijadehe vivasthitaṃ ǁ 1 ǁ
+                        anaṃtasuṣlasaṃpannaṃ | jñānāmṛtapayodharāṃ | anaṃtavīryasaṃpannaṃ | darśanaṃ
+                        paramātmanaḥ ǁ 2 ǁ</incipit>
+                     
+                     <explicit source="#WinternitzKeith1905">kāṣṭamadhye yathā vahni saktirūpeṇa
+                        tiṣṭhati | ayam ātmā śarīreṣu yo jānāti sa paṃḍitaḥ ǁ 25 ǁ iti
+                        paramātmaṃdastotraṃ samāptaṃ | śrīḥ | oṃ nama siddhaṃ | sadāyoga
+                        |</explicit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 56 "> 56 </measure> + <measure type="laterEndleaf" quantity="2">ii</measure>
+                          
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="16.5">16.5</height>
+                              <width quantity="18.4">18.4</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation style="digit">Arabic numerals in pencil, top-right corner, recto.</foliation>
+                        
+                        <condition source="#WinternitzKeith1905">
+                           <p>Complete.</p>
+                           <p>The first three lines of each page
+                           have been damaged by water. They had stuck together, and the separation
+                           has made many letters quite illegible.</p>
+                        </condition>
+                    
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="13">
+                           <note>Bounded on either side by three red lines.</note>
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink"><desc>Devanāgarī, with some Jaina characteristics, in black and red ink.</desc>
+                        <p> 
+                           <q source="#WinternitzKeith1905">All the pieces were evidently written by
+                              one hand. His name is given on <locus from="54v" to="54v">f. 54v</locus>: liṣatam ṛṣaharṣa (?) caṃdreṇa
+                           śrīpaṭṭaṇāṃmadhye bhātṛnihālacaṃdrayutena maṃgalaṃ bhuyāt
+                           sāhajīśrīsuṣadevapaṭhanārthaṃ |</q>
+                        </p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote>
+                        <locus from="24" to="47">Ff. 24-47:</locus>
+                        Portraits, of the usual conventional type,
+                           of twenty-four Jinas: Ādinātha, Ajitanātha, Saṃbhavanātha, Abhinaṃdananātha,
+                           Sumatinātha, Padmaprabha, Supārśvanātha, Caṃdraprabha, Suvidhanātha,
+                           Sītalanātha, Sreyāṃsanātha, Vāsavapūjya, Vimalanātha, Anaṃtanātha,
+                           Dharmanātha, Śaṃtinātha, Kuṃthānātha, Arahanātha, Mallinātha, Munisuvrata,
+                           Naminātha, Neminātha, Pārsvanātha, Mahāvīra, each with a laṃchana. The
+                           latter are better drawn, but the spelling of their names is as inaccurate as
+                           in the case of the Jinas. On the back of each portrait is written the name
+                           of the subject in Persian characters, on the front in Sanskrit, with the
+                           name of the laṃchana.
+                     </decoNote>
+                  </decoDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     <p><q source="#WinternitzKeith1905">None of the pieces are dated, but the end of
+                        the 18th century is the most likely period.</q></p>
+                  </origin>
+                  
+                  <acquisition>The collection of <persName key="person_00131" type="display">Sir Gore
+                     Ouseley</persName> was purchased by the Bodleian in <date>1858</date>.</acquisition>
+               </history>
+              
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by <persName>Barbora Sojkova</persName>, based on the
+                           following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n258/mode/1up">no. 1387 (1–15), pp. 227-228</ref></biblScope></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n258/mode/1up">no. 1387 (1–15), pp. 227-228</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2024-10-11">
+            <persName>Barbora Sojkova</persName> modified this entry. </change>
+      </revisionDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

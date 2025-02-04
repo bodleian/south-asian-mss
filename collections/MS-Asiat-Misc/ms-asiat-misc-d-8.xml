@@ -21,7 +21,7 @@
                         <settlement>Oxford</settlement>
                         <postCode>OX1 3BG</postCode>
                         <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
-                        <addrLine><email>camillo.formigatti@bodleian.ox.ac.uk</email></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
                     </address>
                 </pubPlace>
                 <idno>Sanskrit</idno>
@@ -35,8 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS Asiat. Misc. d. 8</idno><idno type="ieArk">ark:29072/x0mg74qm08gv</idno><idno type="crArk">ark:29072/x0mc87pq2550</idno>
+                        <collection>MSS. Asiat. Misc.</collection>
+                        <idno type="shelfmark">MS. Asiat. Misc. d. 8</idno><idno type="ieArk">ark:29072/x0mg74qm08gv</idno><idno type="crArk">ark:29072/x0mc87pq2550</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
                             <note><country>United Kingdom</country>
@@ -50,9 +50,9 @@
                     <msContents>
                         <summary>A trilingual manuscript of the <title xml:lang="san">Mañjuśrīnāmasaṅgīti</title> 
                             (Recitation of the Names of Mañjuśrī), a Tantric work popular in Central Asian Buddhism. It consists of verses
-                            associated with Mañjuśrī, the Bodhisattva of Wisdom. The main text is the Tibetan translation of the Sanskrit, written in 
+                            associated with <name>Mañjuśrī</name>, the Bodhisattva of Wisdom. The main text is the Tibetan translation of the Sanskrit, written in 
                             <term xml:lang="xct">dbu can</term> script, with the Mongolian translation dangling underneath it and the
-                            Sanskrit text, most probably added later, written in hooked <term xml:lang="sa">nepālākṣarā</term>
+                            Sanskrit text, most probably added later, written in hooked <term xml:lang="sa">Nepālākṣarā</term>
                             script in red ink.</summary>
                         
                         <msItem n="1" defective="false">
@@ -68,33 +68,31 @@
                                     | bod skad du | <space/> 'phags pa 'jam dpal gyi mtshan dang yang dag par brjod pa |
                             </rubric>
                             
-                            <incipit xml:lang="xct"><locus from="1r" to="1r">[1r2]</locus>
+                            <incipit xml:lang="xct">
+                                <locus from="1r" to="1r">[1r2]</locus>
                                 || de nas dpal ldan rdo rje chang | <space/> | 
                                 <locus from="1v" to="1v">[1v1]</locus>
                                 'dul dka' 'dul ba rnams kyim chog | <space/> | dpa' bo 'jig rten gsum las rgyal | <space/> | rdo rje dbang [1v3] 
                                 <damage>[-1-]</damage> gsang ba'i rgyal |
                             </incipit>
                             
-                            
-                            
-                            
-                            <!--<explicit xml:lang="sa" type="section">
-                                <locus from="32v" to="32v"></locus> 
+                            <explicit xml:lang="sa" type="section">
+                                <locus from="32v" to="32v">[32v]</locus> 
                                     gambhīrodāravaipulyo mahārthajagadathakṛt_ buddhānāṃ viṣayo hy eṣaḥ 
                                     sa[32v3 = 25v3]myaksaṃbuddhabhāṣitaḥ || 5 ||| upasaṃhāragāthā pañcā ||^^^||
-                            </explicit>-->
+                            </explicit>
                             
-                            <!--<finalRubric xml:lang="sa" type="section">
-                                <locus from="" to=""></locus> 
+                            <finalRubric xml:lang="sa" type="section">
+                                <locus from="32v" to="32v">[32v = 25v]</locus> 
                                     <sic>āya</sic>māyājālāt_
                                     ṣoḍaśa[32v4 = 25v4]sāhasrikāt mahāyogataṃtrāntaḥ
                                     pātisamādhijalāpa||^^^||talād_ bhagavat_śākyamuni[32v5 = 25v5]tathāgato 
                                     bhāṣitā bhagavato mañjuśrījñāna<sic>satosya</sic>
                                     <sic>paramānāmasaṃgītī</sic> parisamāptā ||^^^^^^||
-                            </finalRubric>-->
+                            </finalRubric>
                             
-                            <colophon xml:lang="sa">
-                            </colophon>
+                         <!--   <colophon xml:lang="sa">
+                            </colophon>-->
                             
                             <textLang mainLang="xct" otherLangs="cmg sa">Tibetan, Mongolian, Sanskrit.</textLang>
                         </msItem>
@@ -118,50 +116,13 @@
                                 <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, top right margin, verso.</foliation>
                                 <foliation n="3" style="digit">Arabic numerals, middle right margin, recto.</foliation> 
  
-<!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+
                                 <condition>
                                     Complete, in good condition.
                                 </condition>
                             </supportDesc>
                             
-                            <!--<layoutDesc>
-                                <layout columns="1" ruledLines="X" type="commentary" subtype="tripāṭha">
-                                    
-                                    <!-\-the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-\->
-                                    
-                                    <note>Description of the commentary layout: <term xml:lang="sa">pratīka</term>, 
-                                        <term xml:lang="sa">tripāṭha</term>, <term xml:lang="sa">pañcapāṭha</term>, running.
-                                    </note>
-                                    
-                                    <p>
-                                        XX lines per page, approximately XX <term xml:lang="sa">akṣara</term>s per line.
-                                        <dimensions type="akṣara" n="X" unit="mm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>
-                                    </p>
-                                    
-                                    <p>Details on frame, marginal lines, ruling and the like.
-                                        <dimensions type="written_area" unit="cm">
-                                            <height quantity="X"></height>
-                                            <width atLeast="X" atMost="X"></width>
-                                        </dimensions>
-                                        <dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height quantity="X">X</height>
-                                        </dimensions>
-                                    </p>
-                                    
-                                    <p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
-                                        </dimensions>
-                                    </p>
-                                </layout>
-                            </layoutDesc>-->
+                            
                         </objectDesc>
                         
                         <handDesc>
@@ -171,17 +132,13 @@
                             <handNote scope="minor" script="Mongolian" medium="black_ink">
                                 <desc>Mongolian in black ink. </desc>
                             </handNote>
-                            <handNote scope="minor" script="Hooked_Nepālakṣarā" medium="red_ink">
+                            <handNote scope="minor" script="Nepālākṣara" medium="red_ink">
                                 <desc>Hooked Nepālakṣarā in red ink. </desc>
                             </handNote>
                             
                         </handDesc>
                         
-                        <!--<decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
+                        
                         <additions>
                             <list>
                                 <head>Marginalia</head>
@@ -194,29 +151,39 @@
                                     atha vajradharaḥ śrīmān_ durdāntadamakaḥ paraḥ | <space/> trilokavijayavīro <space/> guhya[1v3]karāṭ_ kuliśeśvaraḥ || </item>
                             </list>
                         </additions>
+                        
                         <bindingDesc>
-                            <p><material>Leather cover</material>, bound as a Western book.</p>
+                            <p><material>Leather</material> cover, bound as a Western book.</p>
                         </bindingDesc>
                     </physDesc>
                     
                     <history>
                         <origin>
                             <date calendar="Gregorian" notBefore="1701" notAfter="1900">18th-19th century.</date>
-                            <!--<origPlace xml:lang="eng" key="1000132">Nepal.</origPlace>-->
                         </origin>
-                        <provenance>[Found in Department<date calendar="Gregorian" when="1976">1976</date>].
+                        <provenance>[Found in Department <date calendar="Gregorian" when="1976">1976</date>].
                         </provenance>
-<!--                        <acquisition><date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>University Library stamp</stamp>).</date></acquisition>-->
+
                     </history>
                     
                     <additional>
                         <adminInfo>
+                                    <recordHist>
+                                        <source>Description by Camillo Formigatti, based on observation of the manuscript.
+                                        </source>
+                                    </recordHist>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
                                     a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
                             </availability>
                             <note/>
                         </adminInfo>
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/5a99602c-6f08-40e9-8388-0de95292f362/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                         
                         <!--<listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
@@ -500,6 +467,8 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-10-11">
+                <persName>Barbora Sojkova</persName> modified this entry.</change>
             <change when="2021-09-16">
                 <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
             </change>

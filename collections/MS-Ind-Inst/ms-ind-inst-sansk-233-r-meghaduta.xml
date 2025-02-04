@@ -35,10 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="sanskrit" subtype="evans-wentz">Sanskrit, Evans-Wentz
-                            Collection
-                        </collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 233(R)</idno><idno type="ieArk">ark:29072/x0jq085k08x1</idno><idno type="crArk">ark:29072/x0jm214p25m8</idno>
+                        <collection>MSS. Ind. Inst. Sansk.</collection>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 233 (R)</idno><idno type="ieArk">ark:29072/x0jq085k08x1</idno><idno type="crArk">ark:29072/x0jm214p25m8</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.C.361</idno>
                             <note><country>United Kingdom</country>
@@ -52,7 +50,7 @@
                         <!--increment n attribute for ms containing multiple ms items-->
                         <summary>A Bengali paper manuscript of <name type="person" subtype="aut" key="person_00012">
                                 <persName xml:lang="sa" type="standard">Kālidāsa</persName>
-                            </name>'s <title xml:lang="sa">Meghadūta</title> with numerous
+                        </name>'s <title xml:lang="sa" key="work_00009">Meghadūta</title> with numerous
                             annotations in the margins.</summary>
 
                         <msItem n="1" defective="true">
@@ -104,7 +102,7 @@
                                     </p>
                                 </support>
 
-                                <extent xml:id="folio" n="X"> X ff.</extent>
+                                <extent xml:id="folio" n="21"> 21 ff.</extent>
 
                                 <foliation n="1" style="numeral" rend="beng">Bengali numerals, mid-right margin, verso.</foliation>
 
@@ -140,10 +138,10 @@
 
                         <handDesc>
                             <handNote scope="major" script="Bengali" medium="blackink">
-                                <desc>Bengali  in black ink.</desc>
+                                <desc>Bengali-Assamese  in black ink.</desc>
                             </handNote>
                             <handNote scope="minor" script="Bengali" medium="redink">
-                                <desc>Bengali in red ink (second set of annotations).</desc>
+                                <desc>Bengali-Assamese in red ink (second set of annotations).</desc>
                             </handNote>
                             </handDesc>
 
@@ -196,6 +194,13 @@
                             <note/>
                         </adminInfo>
 
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/51c2f013-a219-465d-aaa1-6ff30e00c617/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
+                        
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             
@@ -208,21 +213,6 @@
                                     </author>
                                     <imprint>
                                         <pubPlace/>
-                                        <date/>
-                                    </imprint>
-                                </monogr>
-                            </biblStruct>
-                            
-                            <biblStruct type="book" xml:id="XX">
-                                <monogr>
-                                    <title/>
-                                    <author>
-                                        <forename/>
-                                        <surname/>
-                                    </author>
-                                    <imprint>
-                                        <pubPlace/>
-                                        <publisher/>
                                         <date/>
                                     </imprint>
                                 </monogr>

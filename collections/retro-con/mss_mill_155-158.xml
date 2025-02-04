@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02668">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">mss_mill_155-158</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Mill</collection>
+                  <idno type="shelfmark">MSS. Mill 155–158</idno>
+                  <idno type="ieArk">ark:29072/x0wm117n952p</idno><idno type="crArk">ark:29072/x0wh246s11rn</idno><altIdentifier>
+                     <idno type="CSM">879</idno>
+                  </altIdentifier><altIdentifier type="former" source="#WinternitzKeith1905"><idno>MSS. Bodl. Sanscr. 27–29.</idno></altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Ṛg-veda, Padapāṭha, about A. D. 1670.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Pada text of the Ṛg-veda, accentuated, complete in eight aṣṭakas</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height/>
+                           <width/>
+                        </dimensions>
+                        </extent>
+                     <condition source="#WinternitzKeith1905">the MS. has been repaired by transparent and other paper in many places. In 155, ff. 203 and 204, in 156, ff. 8 and 9, in 157, ff. 14, 110, 137, and in 158, ff. 95 and 96, some words of the text have become illegible or are lost.</condition></supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">Max Müller, l. c., concludes from the handwriting of the MS. and from the half-legible colophon at the end of aṣṭaka VII, that it was written by Damodara Sadāśiva. To judge from the colophon at the end of aṣṭaka I (idaṃ pustakaṃ Vāde-Lakṣmaṇabhaṭṭasya) the MS. was written for Vāde Lakṣmaṇa.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1670" source="#WinternitzKeith1905">A. D. 1670.</origDate>
+                  <p source="#WinternitzKeith1905">the first aṣṭaka is dated saṃvat 1727, śake 1592 = a. d. 1670. The fourth aṣṭaka also bears the date saṃvat 1727. The second aṣṭaka is dated saṃvat 1728 = a. d. 1672. At the end of aṣṭaka VII Max Müller (l. c.) reads the date saṃvat 1672 = a. d. 1616. The modern portion of the eighth aṣṭaka is dated saṃvat 1857, śake 1722 = a. d. 1800.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_00179">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n46/mode/1up">no. 879, p. 15</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n46/mode/1up">no. 879, p. 15</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

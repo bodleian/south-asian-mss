@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02739">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">mss_hodgson_4-5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Hodgson</collection>
+                  <idno type="shelfmark">MSS. Hodgson 4, 5</idno>
+                  <idno type="ieArk">ark:29072/x0hx11xf97jz</idno><idno type="crArk">ark:29072/x0ht24wk1478</idno><altIdentifier>
+                     <idno type="CSM">1426</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Aṣṭasāhasrikā Prajñāpāramitā, A.D. 1830.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Aṣṭasāhasrikā Prajñāpāramitā, in thirty-two parivartas</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     
+                     
+                  <incipit source="#WinternitzKeith1905">1 oṃ namo bhagavatyai āryyaprajñāpāramitāyai ǁ nivikalpe namas tubhyaṃ Prajñāpāramite ’mite | yā tvaṃ sarvvān avadyāṃgi niravadyai nirīkṣase ǁ &amp;;c.</incipit><explicit source="#WinternitzKeith1905">idam avocat bhagavān āttamanas te ca Maitreyapramukhā vodhisatvo mahāsatvā āyuṣmāś ca Subhūtir āyuṣmāṃś ca Śāriputra āyuṣmāś cānaṃdaḥ Śakraś ca devānām indraḥ sadevamānuṣāsuragandharvaś ca loko bhagavato bhāṣitam abhyanandann iti ǁ ǁ āryyāṣṭasāhasrikāyāṃ Prajñāpārāmitāyāṃ parindanāparivarivartto nāma dvātriṃśattamaḥ ǁ 39 ǁ ǁ samāptā ceyaṃ bhagavaty āryyāṣṭasahasrikā Prajñāpāramitā sarvvatathāgatajananī sarvvavodhisatvapratyekavuddhaśrāvakāṇāṃ mātā dhamudrā dharmmotkā dharmmanābhi dharmmabherī dharmmanetrī dharmmaratnanidhānam akṣayo dharmmakośo dharmmābhityādbhutadarśananakṣatramālā dharmatāparamasarvvasukhahetur iti ǁ sadevamānuṣāsuragandharvvaś ca lokavanditā Prajñāpāramitā samyag udgṛhya dhārayitvā paryyavāpya vācayitvā pravatyaināṃ viharantu sadārthina iti ǁ ǁ</explicit></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper, mostly yellow.</support>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="45.1">45.1</height>
+                           <width quantity="19.1">19.1</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Nepalese" source="#WinternitzKeith1905"><desc>Nepalese.</desc><p source="#WinternitzKeith1905">dānapatiśuvarṇṇapanārimahānagarayā sāntighatasthānayā maitrīpūramahāvihārayā karuṇāpūra sa Cānāḍā ǁ śrīvajrācāryyasarvvārthasidhipramukhaṃ bhāryyā Suvarṇṇalakṣnmī tasya putra śrījagadānanda tasya bhāryyā Cakralākṣmī tasya putra Ratnānanda Karuṇānanda ǁ &amp;c.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1830" source="#WinternitzKeith1905">A. D. 1830.</origDate>
+                  <p source="#WinternitzKeith1905">śubhasaṃvat 950 <supplied>1830</supplied> sti vaiśāṣamāsakṛṣṇapakṣapaṃcamyāṃ titthau ǁ tatrāṣādhaṇakṣatra śubhajoge jathā karttṛ muhutre guruvāra saravṛkharāsigate sapitri makrarāsigate caṃdramasi ǁ</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Presented to the Bodleian Library by <persName key="person_00207">Brian Houghton Hodgson</persName> in 1837.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n279/mode/1up">no. 1426, pp. 248-249</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n279/mode/1up">no. 1426, pp. 248-249</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

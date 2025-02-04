@@ -1,0 +1,1984 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00303">
+
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
+                <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+                <principal>Gillian Evison</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bodleian Libraries</publisher>
+                <date calendar="Gregorian">[Date when first made available]</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>Department of Special Collections</addrLine>
+                        <addrLine>Bodleian Library</addrLine>
+                        <street>Broad Street</street>
+                        <settlement>Oxford</settlement>
+                        <postCode>OX1 3BG</postCode>
+                        <addrLine><ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library </ref></addrLine>
+                        <addrLine><email>specialcollections.enquiries@bodleian.ox.ac.uk</email></addrLine>
+                    </address>
+                </pubPlace>
+                <idno>Sanskrit</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc xml:id="Sanskrit" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Oxfordshire</region>
+                        <settlement>Oxford</settlement>
+                        <institution>Oxford University</institution>
+                        <repository>Bodleian Library</repository>
+                        <collection>MSS. Chandra Shum Shere d.</collection>
+                        <!--check this! -->
+                        <idno type="shelfmark">MS. Chandra Shum Shere d. 433</idno>
+                        <idno type="ieArk">ark:29072/x0jw827c30nt</idno><idno type="crArk">ark:29072/x0js956g47b3</idno><!-- If listed in CSM, add this number here 
+                    <altIdentifier>
+                        <idno type="CSM"></idno>
+                    </altIdentifier> -->
+                    </msIdentifier>
+                    <head>A composite manuscript containing twelve manuscript works on <term xml:lang="sa">kāvya</term>, bound together upon their arrival in the Bodleian
+                        Library.</head>
+                    
+                    <physDesc>
+                        <bindingDesc>
+                         <binding notBefore="1909">
+                             <p> Early 20th-century brown <term type="material">textile</term> binding over pasteboard, with shelfmark and description tooled in gold on the spine.
+                             Cardboard cover box.</p>
+                         </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                                <persName type="standard" xml:lang="ne">Shum Shere,
+                                    Chandra</persName>
+                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
+                                    Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>. </acquisition>
+                    </history>
+                    <additional><adminInfo><recordHist><source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist></adminInfo>
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/3513c694-6d12-468f-bf7d-5e483e62bca8/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
+                    </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (1)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1">
+                            <!--increment n attribute for ms containing multiple ms items-->
+                            <summary>A paper manuscript of the <title xml:lang="sa" key="work_00167">Kavirahasya</title> in 272 verses, composed by <name xml:lang="sa" key="person_00153">Halāyudha</name>.</summary>
+
+                            <msItem defective="unknown">
+                                <locus from="3v" to="16v">Ff. 3r-16r [ff. 1r-14r in original
+                                    foliation]</locus>
+
+                                <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
+                                <author key="person_00153">
+                                    <persName xml:lang="sa" type="standard">Halāyudha</persName>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00167">Kavirahasya</title>
+                                
+                                <rubric>
+                                    <locus from="3v" to="3v">F. 3v [f. 1v in original foliation]:</locus>
+                                    śrīgaṇeṣāya namaḥ || śrī pāṇinīkātyāyanapataṃjalibhyo namaḥ |
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="3v" to="3v">F. 3v [f. 1v in original foliation]:</locus>
+                                    jayaṃti murajitpādanakhadīdhitidīpikā | mohāṃdhakāravidhvaṃsānmuktimārgaṃpradarkṣikāḥ |
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="16r" to="16r">F. 16r [f. 14r in original foliation]:</locus>
+                                    iti samāptam avāpta guṇodayaṃ kavirahasyam idaṃ rasikapriyaṃ || sadamidhānanidhānahalāyudhadijavarasyaṣṭutiḥ sukṛtātmanaḥ 273
+                                </colophon>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="9">9</height>
+                                                <width quantity="25">25</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent xml:id="folio" n="14">14 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+
+                                    <condition>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink. Several folios highlighted in red powder and ruled in red ink.</desc>
+                                      </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                            </additions>
+
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                        </history>
+
+                        <additional>
+                            
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+
+                                <biblStruct type="article">
+                                    <analytic>
+                                        <title level="m">A Handlist of the Vyākaraṇa Manuscripts in
+                                            the Chandra Shum Shere Collection Preserved in the
+                                            Bodleian Library.</title>
+                                        <author><forename>D.</forename><surname>Wujastyk</surname></author>
+                                    </analytic>
+                                    <monogr>
+                                        <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                                        <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                                        <title type="main">Vācaspatyam:</title>
+                                        <title type="sub">Pt. Vamanshastri Bhagwat Felicitation
+                                            Volume.</title>
+                                        <imprint>
+                                            <pubPlace>Pune</pubPlace>
+                                            <publisher>Vaidika Samshodhana Mandala</publisher>
+                                            <date>1994</date>
+                                            <biblScope>no. 76, p. 173.</biblScope>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>
+                        </additional>
+
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (2)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1">
+                          
+                            <summary>A paper manuscript of the <title xml:lang="sa" key="work_00167">Kavirahasya</title>, composed by <name xml:lang="sa" key="person_00153">Halāyudha</name>.</summary>
+                                
+                                <msItem defective="false">
+                                    <locus from="18r" to="32">Ff. 18r-32 [ff.1r-15r in original
+                                        foliation]</locus>
+                                    
+                                    <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
+                                    <author key="person_00153">
+                                        <persName xml:lang="sa" type="standard">Halāyudha</persName>
+                                    </author>
+                                    
+                                    <title xml:lang="sa" key="work_00167">Kavirahasya</title>
+                                    
+                                    <rubric>
+                                        <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                        śrīrāmacaṃdraya namaḥ
+                                    </rubric>
+                                    
+                                    <incipit>
+                                        <locus from="18r" to="18r">F. 18r [f. 1r in original foliation]:</locus>
+                                        jayaṃti murajitpādanakhadīdhitidīpikāḥ | mohāṃdhakāravidhvaṃsānpnohaktimārgaprakāśikāḥ |
+                                    </incipit>
+                                    
+                                    <colophon>
+                                        <locus from="32r" to="32r">F. 32r [f. 15r in original foliation]:</locus>
+                                        iti samāptim avāpaguṇodayaṃ kavirahasyam idaṁ rasikapriyam sadabhidhānanidhānahalāyudhadvijavarasya kṛtis tu kṛtātmanaḥ 73
+                                        iti śrī kavirahasyaṁ samāptiḥ 1
+                                    </colophon>
+                                    
+                                    <textLang mainLang="sa">Sanskrit.</textLang>
+                                </msItem>
+                            </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="26">26</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent n="15">15 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-leftmargin, verso. Occassionally erroneous.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+
+                                    <condition>
+                                        <p>Complete.</p>
+                                        <p>In good condition. F. 31 is water damaged, with loss of some <term xml:lang="sa">akṣara</term>s.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                            </additions>
+
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                        </history>
+
+<additional>
+    <adminInfo>
+        <availability status="restricted">
+            <p>Entry to read in the Library is permitted only on presentation of
+                a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+        </availability>
+        <note/>
+    </adminInfo>
+    
+    <listBibl type="ms_descriptions">
+        <head>Descriptions of the manuscripts</head>
+        
+        <biblStruct type="article">
+            <analytic>
+                <title level="m">A Handlist of the Vyākaraṇa Manuscripts in the Chandra Shum Shere Collection Preserved in the Bodleian Library.</title>
+                <author><forename>D.</forename><surname>Wujastyk</surname></author>
+            </analytic>
+            <monogr>
+                <editor><forename>Saroja</forename><surname>Bhate</surname></editor>
+                <editor><forename>Madhav</forename><surname>Deshpande</surname></editor>
+                <title type="main">Vācaspatyam:</title>
+                <title type="sub">Pt. Vamanshastri Bhagwat Felicitation Volume.</title>
+                <imprint>
+                    <pubPlace>Pune</pubPlace>
+                    <publisher>Vaidika Samshodhana Mandala</publisher>
+                    <date>1994</date>
+                    <biblScope>no. 77, p. 173.</biblScope>
+                </imprint>
+            </monogr>
+        </biblStruct>
+    </listBibl>
+</additional>
+                        
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (3)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1">
+                            <!--increment n attribute for ms containing multiple ms items-->
+                            <summary>A previously undescribed paper manuscript of the <title xml:lang="sa" key="work_00169">Bhāminīvilāsa</title>, composed by <name xml:lang="sa" key="person_00154">Jagannātha Paṇḍitarāja</name>.</summary>
+
+                            <msItem defective="false">
+                                <locus from="34r" to="43r">Ff. 34r-43r [ff. 1r-10r in original
+                                    foliation]</locus>
+
+                                <author key="person_00154">
+                                    <persName xml:lang="sa" type="standard">Jagannātha Paṇḍitarāja</persName>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00169">Bhāminīvilāsa</title>
+                                
+                                <rubric>
+                                    <locus from="34r" to="34r">F. 34r [f. 1r in original foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ ||
+                                </rubric>
+                                
+                                <colophon>
+                                    <locus from="43r" to="43r">F. 43r [f. 10r in original foliation]:</locus>
+                                iti śrīmaj jagannāthapaṃḍitta vircitebhāminīvilāseśāṃtaścaturthovilāsaḥ samāptaḥ ||
+                                saṃvat 1900 pauṣakṛ[?]ma 9 bhṛguvāsare tad dine idaṃ pustakaṁ samāptoyāṁ || śrī kāśīviśveśvarā namaḥ
+                                śrī annapūrṇādevyai namaḥ || cha || cha
+                                </colophon>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="26">26</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent n="10">10 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+
+                                    <condition>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+
+                            <additions>
+                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                            </additions>
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <origDate calendar="Vikrama" when="1900">saṃvat 1900</origDate> /
+                                    <origDate calendar="#Gregorian" when="1843">1843 CE.</origDate>
+                            </origin>
+                        </history>
+
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscript</head>
+                                
+                                <biblStruct type="manuscript" xml:id="X">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (4)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1+1">
+                            <summary>A previously unpublished paper manuscript of <title xml:lang="sa" key="work_00170">Rākṣasakāvya</title>, sometimes attributed
+                                to <name xml:lang="sa" key="person_00012">Kālidāsa</name>, with <term xml:lang="sa">vyākhyāna</term> by <name xml:lang="sa" key="person_00155">Bālambhaṭṭa Pāyaguṇḍa</name>.</summary>
+
+                            <msItem defective="false" class="mūla">
+                                <locus from="45v" to="51v">Ff. 45v-51v [ff. 1v-7v in original
+                                    foliation]</locus>
+                                
+                                <title xml:lang="sa" key="work_00170">Rākṣasakāvya</title>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                            <msItem defective="false" class="commentary">
+                                <locus from="45r" to="51v">Ff. 45r-51v [ff. 1r-7v in original
+                                    foliation]</locus>
+                                
+                                <author key="person_00155">
+                                    <persName xml:lang="sa" type="standard">Bālambhaṭṭa Pāyaguṇḍa</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_00170">Vyākhyāna</title>
+                                
+                                <colophon>
+                                    <locus from="51v" to="51v">F. 51v [f. 7v in original foliation]:</locus>
+                                    iti pāyaṃgujopārayyavā lakṛ[??]dhiracitaṃ rākṣasakāvyavyāradhyānaṁ samāptaṁ saṃ° 1837 codhinpāṃ
+                                </colophon>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                        <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="12">12</height>
+                                            <width quantity="26">26</width>
+                                        </dimensions>
+                                    </p>
+                                    </support>
+                                    
+                                    <extent n="7">7 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+                                    
+                                    <condition>
+                                        <p>Complete.</p>
+                                        <p>A hole on bottom-left (recto) / top-left (verso) corner of all folios.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <origDate calendar="Vikrama" when="1837">saṃvat 1837</origDate> /
+                                <origDate calendar="#Gregorian" when="1780">1780 CE.</origDate>
+                            </origin>
+                        </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscript</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (5)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="2">
+                            <summary>A previously undescribed manuscript of two incomplete portions of <title key="work_00171">Sītārāmavihāra</title> by <name xml:lang="sa" key="person_00155">Lakṣmaṇa Somayājin</name>. 
+                                Incomplete, in two portions, each written in a different hand.</summary>
+
+                            <msItem n="1" defective="true">
+                                <locus from="53v" to="89v">Ff. 53v-89v [ff. 1v-38v in original
+                                    foliation]</locus>
+
+                                <author key="person_00155">
+                                    <persName xml:lang="sa" type="standard">Lakṣmaṇa Somayājin</persName>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00171">Sītārāmavihāra</title>
+                                
+                                <rubric>
+                                    <locus from="53v" to="53v">F. 53v [f. 1v in original foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ ||
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="53v" to="53v">F. 53v [f. 1v in original foliation]:</locus>
+                                    asti praśasti khila loka bhuṣābi bhuṣita dvadaśayotanaiṣ [loss of text][...]
+                                </incipit>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                            <msItem n="2" defective="true">
+                                <locus from="90r" to="99v">Ff. 90r-99v [ff. 82r-91v in original
+                                    foliation]</locus>
+                                
+                                <author key="person_00155">
+                                    <persName xml:lang="sa" type="standard">Lakṣmaṇa Somayājin</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_00171">Sītārāmavihāra</title>
+                                
+                                <rubric>
+                                    <locus from="90r" to="90r">F. 90r [f. 82r in original foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ ||
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="90r" to="90r">F. 90r [f. 82r in original foliation]:</locus>
+                                    tatas tu tattainpanivāsinīnāṁ vilāsinīnāṁ saha nālasānāṁ |
+                                </incipit>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="11">11</height>
+                                                <width quantity="24">24</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    
+                                    <extent n="47">47 ff.</extent>
+
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+
+                                    <condition>
+                                        <p>Many folios have damaged margins and considerable damage by worms.</p>
+                                        <p>Incomplete. In the first item, ff. 2, 20, 22, and 29 [original foliation] are missing. The original foliation runs until f. 27, which is followed by f. 25 again and continues to f. 28.</p>
+                                        <p>In the second item, there is a large correction in yellow pigment on <locus from="99r" to="99r">f. 99r</locus>, resulting in the loss of some <term xml:lang="sa">akṣara</term>s.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                                    <desc>Devanāgarī in black ink. In the second part, <term xml:lang="sa">daṇḍa</term>s written in red. Highlighted in red powder.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                                <p>Abbreviated marginal title, top left margin, verso.</p>
+                            </additions>
+
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                        </history>
+
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscript</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>
+                        --></additional>
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (6)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1">
+                            <summary>A previously undescribed incomplete paper manuscript of the <title xml:lang="sa" key="work_00172">Śabdaratnamālikā</title>.</summary>
+
+                            <msItem defective="true">
+                                <locus from="101r" to="107r">ff. 101r-107r [original
+                                    foliation incomplete]</locus>
+                                
+                                <title xml:lang="sa" key="work_00172">Śabdaratnamālikā</title>
+                                
+                                <rubric>
+                                    <locus from="101r" to="101r">f. 101r</locus>
+                                || atha kāvyopayogini śabd[ra]atna || || mālikā likhyate || śubhaṃ bhavatu ||
+                                </rubric>
+                                
+                                <rubric>
+                                    <locus from="101v" to="101v">f. 101v</locus>
+                                    śrī gaṇeśāya namaḥ ||
+                                </rubric>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper.<p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="26">26</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent n="7">7 ff.</extent> 
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, mid-left and mid-right margin, verso. Not extant on all folios.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>                                    
+
+                                    <condition>
+                                        <p>Frail margins on a few folios. </p>
+                                        <p>Incomplete.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                        </history>
+
+                        <additional>
+                            
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (7)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1+1">
+                            <summary>A previously uncatalogued paper manuscript of <title xml:lang="sa" key="work_00173">Rādhāvinodakāvya</title> 
+                                of <name xml:lang="sa" key="person_00157">Rāmacandra Kavi</name>, including the <title xml:lang="sa" key="work_00174">Rādhāvinodakāvyaṭīkā</title>.</summary>
+
+                            <msItem class="mūla" defective="false">
+                                <locus from="109r" to="118r">ff. 109r-118r [ff. 1r-10r in original
+                                    foliation]</locus>
+
+                                <author key="person_00157">
+                                    <persName xml:lang="sa" type="standard">Rāmacandra Kavi</persName>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00173">Rādhāvinodakāvya</title>
+                                
+                                <incipit>
+                                    <locus from="109r" to="109r">F. 109r [f. 1r in original foliation]:</locus>
+                                mālīnovanamālīmālīnovanālī mālīnovanamālīmālīnovatumālī 1
+                                </incipit>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                            <msItem class="commentary" defective="false">
+                                <locus from="109r" to="118r">ff. 109r-118r [ff. 1r-10r in original
+                                    foliation)</locus>
+                                
+                                <author key="person_00157">
+                                    <persName xml:lang="sa" type="standard">Rāmacandra Kavi</persName>
+                                </author>
+                                
+                                <title xml:lang="sa" key="work_00174">Rādhāvinodakāvyaṭīkā</title>
+                                
+                                <rubric>
+                                    <locus from="109r" to="109r">F. 109r [f. 1r in original foliation]:</locus>
+                                   śrī rādhākṛsmāya namaḥ ||
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="109r" to="109r">F. 109r [f. 1r in original foliation]:</locus>
+                                   pitavacanam avaśyam eva pālyaṃ jagatī janānī tīśāsituṃ vanāṃ taṃ gatimatikaruṇā sārducintaṃ radhupatim ekam upāsmhosadāraṃ 1 
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="118r" to="118r">F. 118r [f. 10r in original foliation]:</locus>
+                                   iti śrī rāmacaṃdrakaviracitaṃ rādhāvinodākhyaṃkāvyaṁ tasyeyaṁ ṭīkā samāptā || 1 ||
+                                </colophon>
+                                
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="24">24</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    
+                                    <extent n="10"> 10 ff.</extent>
+                                    
+                                    <condition>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
+                                    </condition>
+                                    
+                                </supportDesc>
+                                    
+                                    <layoutDesc>
+                                        <layout columns="1" writtenLines="11" type="commentary" style="tripāṭha">
+                                            
+                                            <note>Commentary layout: <term xml:lang="sa">tripāṭha</term>; <term xml:lang="sa">mūla</term> cited in full.</note>
+                                        </layout>
+                                    </layoutDesc>
+                                
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                        </history>
+
+                        <additional>
+
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                        
+                    </msPart>
+
+<msPart>
+    <msIdentifier>
+        <altIdentifier>
+            <idno type="part">MS. Chandra Shum Shere d. 433 (8)</idno>
+        </altIdentifier>
+    </msIdentifier>
+    <msContents n="1+1">
+        
+        <summary>A previously uncatalogued paper manuscript of <title xml:lang="sa" key="work_00173">Rādhāvinodakāvya</title> 
+            of <name xml:lang="sa" key="person_00157">Rāmacandra Kavi</name>, including the <title xml:lang="sa" key="work_00174">Rādhāvinodakāvyaṭīkā</title>.</summary>
+        
+        <msItem n="1" class="mūla" defective="false">
+            <locus from="120v" to="128v">ff. 120v-128v [ff. 1v-9v in original
+                foliation)</locus>
+            
+            <author key="person_00157">
+                <persName xml:lang="sa" type="standard">Rāmacandra Kavi</persName>
+            </author>
+            
+            <title xml:lang="sa" key="work_00173">Rādhāvinodakāvya</title>
+            
+            <incipit>
+                <locus from="120v" to="120v">F. 120v [f. 1v in original foliation]:</locus>
+                mālīnovanamālīmālīno 'vanamālī || mālīnovanamālīmālīnovatumālī || 1 ||
+            </incipit>
+            
+            <textLang mainLang="sa">Sanskrit.</textLang>
+        </msItem>
+        
+        <msItem n="2" class="commentary" defective="false">
+            <locus from="120v" to="128v">ff. 120v-128v [ff. 1v-9v in original
+                foliation]</locus>
+            
+            <author key="person_00157">
+                <persName xml:lang="sa" type="standard">Rāmacandra Kavi</persName>
+            </author>
+            
+            <title xml:lang="sa" key="work_00174">Rādhāvinodakāvyaṭīkā</title>
+            
+            <rubric>
+                <locus from="120v" to="120v">F. 120v [f. 1v in original foliation]:</locus>
+                śrī gaṇeśāya namaḥ ||
+            </rubric>
+            
+            <incipit>
+                <locus from="120v" to="120v">F. 120v [f. 1v in original foliation]:</locus>
+                piṭuvacanam avaśyam eva pālyaṃ jagati janānī tīśāsituṃ vanāṃ te || gatimatikaraṇā rasār ducintaṃ radhupatim ekam upāsmahesadāraṃ || 1 ||
+            </incipit>
+            
+            <colophon>
+                <locus from="128v" to="128v">F. 128v [f. 9v in original foliation]:</locus>
+                iti śrī rāmacaṃdrakavikṛtaṃ rādhāvinodakāvyaṁ savyāravyātaṃ samāsaṃ ||
+            </colophon>
+            
+            
+            <textLang mainLang="sa">Sanskrit.</textLang>
+        </msItem>
+        
+    </msContents>
+    
+    <physDesc>
+        <objectDesc form="pothī">
+            <supportDesc material="paper">
+                <support>Paper. <locus from="127r" to="127v">F. 127 [f. 8 in original foliation] written on heavier, yellow paper.,</locus>
+                    <p>
+                    <dimensions type="folio" scope="most" unit="cm">
+                        <height quantity="12">12</height>
+                        <width quantity="26">26</width>
+                    </dimensions>
+                </p>
+                </support>
+                
+                <extent n="10">10 ff.</extent>
+
+
+                <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso. Not extant on all folios.</foliation>
+                <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                    <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                        <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                    this foliation starts with the first flyleaf).</foliation>  
+                
+                <condition>
+                    <p>Complete.</p>
+                    <p>In good condition.</p>
+                </condition>
+                
+            </supportDesc>
+            
+            <layoutDesc>
+                <layout columns="1" writtenLines="12" type="commentary" style="tripāṭha">
+                    
+                    <note>Commentary layout: <term xml:lang="sa">tripāṭha</term>; <term xml:lang="sa">mūla</term> cited in full.</note>
+                </layout>
+            </layoutDesc>
+            
+        </objectDesc>
+        
+        <handDesc>
+            <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                <desc>Devanāgarī in black ink.</desc>
+            </handNote>
+        </handDesc>
+        
+        <additions>
+            <p>Abbreviated marginal title, top left and bottom right margins, verso.</p>
+        </additions>
+        
+    </physDesc>
+    
+    <history>
+        <origin>
+            <p>Not dated.</p>
+        </origin>
+    </history>
+    
+    <additional>
+        
+        <adminInfo>
+            <availability status="restricted">
+                <p>Entry to read in the Library is permitted only on presentation of
+                    a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+            </availability>
+            <note/>
+        </adminInfo>
+        
+       <!-- <listBibl type="ms_descriptions">
+            <head>Descriptions of the manuscripts</head>
+            
+            <biblStruct type="manuscript">
+                <monogr>
+                    <title level="m">[unpublished manuscript]</title>
+                    <author>
+                        <forename/>
+                        <surname/>
+                    </author>
+                    <imprint>
+                        <pubPlace/>
+                        <date/>
+                    </imprint>
+                </monogr>
+            </biblStruct>
+        </listBibl>-->
+    </additional>
+    
+</msPart>
+
+    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (9)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1">
+                            <summary>A previously uncatalogued paper manuscript of the <title xml:lang="sa" key="work_00175">Rāmavilāsa</title> of <name xml:lang="sa" key="person_00158">Viśvanātha Rānaḍa</name>, with notes and glosses.</summary>
+
+                            <msItem n="1" defective="true">
+                                <locus from="130v" to="166r">Ff. 130v-166r [ff. 1v-X in original
+                                    foliation]</locus>
+
+                                <author key="person_00158">
+                                    <persName xml:lang="sa" type="standard">Viśvanātha Rānaḍa</persName>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00175">Rāmavilāsa
+                                </title>
+                                
+                                <rubric>
+                                    <locus from="130v" to="130v">F. 130v [f. 1v in original foliation]:</locus>
+                                śrī gaṇeśāya namaḥ ||
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="130v" to="130v">F. 130v [f. 1v in original foliation]:</locus>
+                                    yacchiṣpair acitā jayaṃti jagati graṃthā hite
+                                </incipit>
+                                
+                                <colophon>
+                                    <locus from="130v" to="130v">F. 130v [f. 1v in original foliation]:</locus>
+                                    || || śrī bhavānī śaṃkarābhyāṃ namaḥ || || samāptaṃ rāmavilāsakāvyaṃ || || śubham astu ||  || cha || || ||
+                                </colophon>
+                                
+                                <note>
+                                    The colophon is written in a different hand, ink, and its foliation reads 31 [expected 41].
+                                </note>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="26">26</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent n="36">36 ff.</extent>
+                                    
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso. Not extant on all folios.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+
+                                    <condition>
+                                        <p>In good condition.</p>
+                                        <p><locus from="147r" to="147r">F. 147r [f. 23r in original foliation]</locus> left blank.</p>
+                                        <p>Missing ff. 4-6 and 18-19 [original foliation]. Last folio, <locus from="165r" to="165v">f. 165r</locus>, is written in a different hand and its original foliation reads 31.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="brown_ink">
+                                    <desc>Devanāgarī in brown ink. Corrections in yellow pigment.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                               <p>Abbreviated marginal title, top left and bottom right margins, verso.</p>
+                               <p>Marginal corrections and interlinear glosses in the same hand.</p>
+                            </additions>
+
+                        </physDesc>
+        
+        
+
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+
+                        </history>
+        
+        <additional>
+            
+            <adminInfo>
+                <availability status="restricted">
+                    <p>Entry to read in the Library is permitted only on presentation of
+                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                </availability>
+                <note/>
+            </adminInfo>
+            
+            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+        </additional>
+
+                        
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (10)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="1">
+                            <summary>A previously uncatalogued complete paper manuscript of <name xml:lang="sa" key="person_00008">Bhartṛhari</name>'s
+                                <title xml:lang="sa" key="work_00176">Śṛṅgāraśataka</title>,
+                                a part of the <title xml:lang="sa" key="work_00177">Śatakatraya</title>, with a commentary.</summary>
+
+                            <msItem defective="false" class="mūla">
+                                <locus from="167v" to="196r">Ff. 167v-196r [ff. 1v-30r in original
+                                    foliation]</locus>
+
+                                <author key="person_00008">
+                                    <persName xml:lang="sa" type="standard">Bhartṛhari</persName>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00176">Śṛṅgāraśataka</title>
+                                
+                                <rubric>
+                                    <locus from="167v" to="167v">F. 167v [f. 1v in original foliation]:</locus>        
+                                    || oṃ || śrīgaṇeśāya namaḥ || || atha śṛṃgāraśatakaṃ ||
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="167v" to="167v">F. 167v [f. 1v in original foliation]:</locus>        
+                                    || || śaṃbhuḥ svataṃbhuharayo hariṇekṣaṇānāṃ yenakriyaṃta satataṃ gṛhakarmadāsāḥ
+                                </incipit>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                            
+                            <msItem defective="false" class="commentary">
+                                
+                                <locus from="167v" to="196r">Ff. 167v-196r [ff. 1v-30r in original
+                                    foliation]</locus>
+                                
+                                <title xml:lang="sa" key="work_00000">An unidentified commentary to the Śṛṅgāraśataka</title>
+                                
+                                <colophon>
+                                    <locus from="196r" to="196r">Ff. 196r [f. 30r in original
+                                    foliation]:</locus>
+                                idaṃ śṛṃgāraśata[ka]ṃ bhartṛhatiṇā kṛtaṁ tat kāmavudhyānakṛṃtaṃā[?]āveva āraṃbhesamastabhāvauḥ khalu
+                                vaṃdhanaṃ striya ity uktaṃ madhyati duḥkhai kahetur mahikaścid asti ity ādīni vacanāni sthalesthitāni
+                                 nāsāṁ kāminīnāṃ praśaṃsākām abhitrīyanesālikatāprāte sarvaṃ vivekadṛṣṭvā ninditam iti śrī bhartṛhariṇā viravina śṛṃgāraśatakaṃ samāptaṃ || cha || cha 
+                                </colophon>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+
+                            </msItem>
+                                
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="11">11</height>
+                                                <width quantity="26">26</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent n="30">30 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso. Not extant on all folios.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+
+                                    <condition>
+                                        <p>Complete.</p>
+                                        <p>In good condition.</p>
+                                    </condition>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="12" type="commentary" style="tripāṭha">
+                                        <note>Commentary layout: <term xml:lang="sa">tripāṭha</term>; <term xml:lang="sa">mūla</term> cited in full.</note>
+                                    </layout>
+                                </layoutDesc>
+                                
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink. Highlighted in red ink. Vertical margins lined in red ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                                <p>Abbreviated marginal title, top left and bottom right margins, verso.</p>
+                                <p>Marginal corrections and interlinear glosses in a different hand.</p>
+                            </additions>
+
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+
+                        </history>
+
+                        <additional>
+                            
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                        
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (11)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="2">
+                            <summary>A previously uncatalogued incomplete paper manuscript of the <title xml:lang="sa" key="work_00178">Rāmacarita</title>. 
+                                On the <locus from="198r" to="198v">recto of the first folio</locus>, it includes an inidentified passage and diagrams in a different hand, written in a Bengali script. </summary>
+                            
+                            <msItem n="1" defective="unknown">
+                                <locus from="198r" to="198r">F. 198r [f. 1r in original
+                                    foliation]</locus>
+                                
+                                <title xml:lang="sa" key="work_00000">An unidentified passage and diagrams, written in Bengali script</title>
+                               
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                                
+                            <msItem n="2" defective="true">
+                                <locus from="198v" to="214v">ff. 198v-214v [ff. 1v-17v in original
+                                    foliation]</locus>
+                                
+                                <title xml:lang="sa" key="work_00178">Rāmacarita</title>
+                                
+                                <rubric>
+                                    <locus from="198v" to="198v">F. 198v [f. 1v in original
+                                        foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ ||
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="198v" to="198v">F. 198v [f. 1v in original
+                                        foliation]</locus>
+                                    praṇiyanta girāṃ devī manugamya mahākaviṃ | vaśtiṃ vatarām[sya] katha pāsi samāsataḥ || 
+                                    api rāmasya caritaṃ tad yaṃ vaktum ichati | titīrṣur iva saṃsārasāgaraṃ duṣkṛtī janaḥ ||
+                                </incipit>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                                
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                        <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="11">11</height>
+                                            <width quantity="24">24</width>
+                                        </dimensions>
+                                    </p>
+                                    </support>
+                                    
+                                    <extent n="17">17 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, mid-left and mid-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+                                    
+                                    
+                                    <condition>
+                                        <p>In good condition.</p>
+                                        <p>Incomplete manuscript.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                                <p>Marginal corrections in a different hand.</p>
+                            </additions>
+                            
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                            
+                        </history>
+                        
+                        <additional>
+                            
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                        
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="part">MS. Chandra Shum Shere d. 433 (12)</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents n="3">
+                            <summary>A previously uncatalogued incomplete paper manuscript of three anonymous <term xml:lang="sa">subhāṣita</term> poems, the <title xml:lang="sa" key="work_00179">Pañcaratna</title>, <title xml:lang="sa" key="work_00180">Ṣaḍratna</title>,
+                                and the <title xml:lang="sa" key="work_00181">Navaratna</title>.</summary>
+                            
+                            <msItem n="1" defective="true">
+                                <locus from="216v" to="216v">F. 216v [f. 1v in original
+                                    foliation]</locus>
+                                
+                                <title xml:lang="sa" key="work_00179">Pañcaratna</title>
+                                
+                                <rubric>
+                                    <locus from="216v" to="216v">F. 216v [f. 1v in original
+                                        foliation]:</locus>
+                                    śrī gaṇeśāya namaḥ
+                                </rubric>
+                                
+                                <incipit>
+                                    <locus from="216v" to="216v">F. 216v [f. 1v in original
+                                        foliation]</locus>
+                                    pañcaratnaṃ nāgaḥ potas tathā vaighaṃ kṣāntiḥ śākyaṃ yathā kramaṃ pañcaratnam idaṃ proktaṃ vidṛṣāmapi durlabhaṃ ||
+                                </incipit>
+                                
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                                
+                                <msItem n="2" defective="true">
+                                    <locus from="217v" to="217v">F. 217v [f. 1v in original
+                                        foliation]</locus>
+                                    
+                                    <title xml:lang="sa" key="work_00180">Ṣaḍratna</title>
+                                    
+                                    <rubric>
+                                        <locus from="217v" to="217v">F. 217v [f. 1v in original
+                                            foliation]:</locus>
+                                        śrī gaṇeśāya namaḥ
+                                    </rubric>
+                                    
+                                    <incipit>
+                                        <locus from="217v" to="217v">F. 217v [f. 1v in original
+                                            foliation]:</locus>
+                                       śāstraṃ korthaṃs tathā mūrkhe dānaṃ durmantriṇāṃ tathā lobhopya stī[ti]vijayaṃ kramāt ṣaḍratnamīritaṃ
+                                        </incipit>
+                                    
+                                    <textLang mainLang="sa">Sanskrit.</textLang>
+                                </msItem>
+                                
+                                <msItem n="3" defective="true">
+                                    <locus from="218r" to="219v">Ff. 218r-219v [ff. 2r-3v in original
+                                        foliation]:</locus>
+                                    
+                                    <title xml:lang="sa" key="work_00181">Navaratna</title>
+                                    
+                                    <incipit>
+                                        <locus from="218r" to="218r">F. 218r [f. 2r in original
+                                            foliation]:</locus>
+                                        arthī lāghavamucchito nipatanaṃ kāmāturo lāñchanaṃ
+                                    </incipit>
+                                    
+                                    <colophon>
+                                        <locus from="219v" to="219v">F. 219v [f. 3v in original
+                                            foliation]:</locus>
+                                        iti śrī navaratnaṃ samāptaṃ || <g>@</g><g>@</g><g>@</g>||
+                                    </colophon>
+                                    
+                                    <textLang mainLang="sa">Sanskrit.</textLang>
+                                </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. 
+                                        <p><locus from="216r" to="216v">F. 216</locus> and <locus from="219r" to="219v">219</locus> are written on thick, yellow paper.</p>
+                                        <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="9">9</height>
+                                            <width quantity="26">26</width>
+                                        </dimensions>
+                                    </p>
+                                    </support>
+                                    
+                                    <extent n="4">4 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Arabic numerals in pencil, bottom-right corner, recto (added by 
+                                        <name type="person" role="dnr" key="person_00010"><persName type="standard" xml:lang="eng">Gambier-Parry, Thomas </persName>
+                                            <persName type="display" xml:lang="eng">Thomas Gambier-Parry</persName></name>); 
+                                        this foliation starts with the first flyleaf).</foliation>
+                                    
+                                    
+                                    <condition>
+                                        <p>In good condition.</p>
+                                        <p>Missing leaves. The <title xml:lang="sa" key="work_00179">Pañcaratna</title> is missing three verses. The <title xml:lang="sa" key="work_00180">Ṣaḍratna</title> is missing 4 verses,
+                                            and the <title xml:lang="sa" key="work_00181">Navaratna</title> is missing f. 1 with the first verse.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            <additions>
+                                <p>Abbreviated marginal title, top left and bottom right margins, verso.</p>
+                            </additions>
+                            
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <p>Not dated.</p>
+                            </origin>
+                            
+                        </history>
+                        
+                        <additional>
+                            
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                            
+                            <!--<listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscripts</head>
+                                
+                                <biblStruct type="manuscript">
+                                    <monogr>
+                                        <title level="m">[unpublished manuscript]</title>
+                                        <author>
+                                            <forename/>
+                                            <surname/>
+                                        </author>
+                                        <imprint>
+                                            <pubPlace/>
+                                            <date/>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </listBibl>-->
+                        </additional>
+                        
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+
+                <taxonomy xml:id="local_subjects">
+                    <category xml:id="vaidika">
+                        <catDesc>Vaidika</catDesc>
+                        <category xml:id="saṃhitā">
+                            <catDesc>Saṃhitā</catDesc>
+                        </category>
+                        <category xml:id="brāhmaṇa">
+                            <catDesc>Brāhmaṇa</catDesc>
+                        </category>
+                        <category xml:id="āraṇyaka">
+                            <catDesc>Āraṇyaka</catDesc>
+                        </category>
+                        <category xml:id="upaniṣad">
+                            <catDesc>Upaniṣad</catDesc>
+                        </category>
+                        <category xml:id="śrautasūtra">
+                            <catDesc>Śrautasūtra</catDesc>
+                        </category>
+                        <category xml:id="gṛhyasūtra">
+                            <catDesc>Gṛhyasūtra</catDesc>
+                        </category>
+                        <category xml:id="vedalakṣaṇa">
+                            <catDesc>Vedalakṣaṇa</catDesc>
+                            <category xml:id="śikṣā">
+                                <catDesc>Śikṣā</catDesc>
+                            </category>
+                            <category xml:id="pariśiṣṭa">
+                                <catDesc>Pariśiṣṭa</catDesc>
+                            </category>
+                            <category xml:id="anukramaṇikā">
+                                <catDesc>Anukramaṇikā</catDesc>
+                            </category>
+                            <category xml:id="prātiśākhya">
+                                <catDesc>Prātiśākhya</catDesc>
+                            </category>
+                        </category>
+                    </category>
+
+                    <category xml:id="itihāsa">
+                        <catDesc>Itihāsa</catDesc>
+                        <category xml:id="mahābhārata">
+                            <catDesc>Mahābhārata</catDesc>
+                        </category>
+                        <category xml:id="rāmāyaṇa">
+                            <catDesc>Rāmāyaṇa</catDesc>
+                        </category>
+                        <category xml:id="vaṃśāvalī">
+                            <catDesc>Vaṃśāvalī</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="purāṇa">
+                        <catDesc>Purāṇa</catDesc>
+                        <category xml:id="māhātmya">
+                            <catDesc>Māhātmya</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="stotra">
+                        <catDesc>Stotra</catDesc>
+                    </category>
+
+                    <category xml:id="karmakāṇḍa">
+                        <catDesc>Karmakāṇḍa</catDesc>
+                    </category>
+
+                    <category xml:id="bhakti">
+                        <catDesc>Bhakti</catDesc>
+                        <category xml:id="gītā">
+                            <catDesc>Gītā</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="tantra">
+                        <catDesc>Tantra</catDesc>
+                    </category>
+
+                    <category xml:id="śāstra">
+                        <catDesc>Śāstra</catDesc>
+                        <category xml:id="artha">
+                            <catDesc>Artha</catDesc>
+                        </category>
+                        <category xml:id="kāma">
+                            <catDesc>Kāma</catDesc>
+                        </category>
+                        <category xml:id="dharma">
+                            <catDesc>Dharma</catDesc>
+                            <category xml:id="dharmanibandha">
+                                <catDesc>Dharmanibandha</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="vyākaraṇa">
+                            <catDesc>Vyākaraṇa</catDesc>
+                            <category xml:id="pāṇinīya">
+                                <catDesc>Pāṇinīya</catDesc>
+                            </category>
+                            <category xml:id="cāndra">
+                                <catDesc>Cāndra</catDesc>
+                            </category>
+                            <category xml:id="sārasvata">
+                                <catDesc>Sārasvata</catDesc>
+                            </category>
+                            <category xml:id="kātantra">
+                                <catDesc>Kātantra</catDesc>
+                            </category>
+                            <category xml:id="haima">
+                                <catDesc>Haima</catDesc>
+                            </category>
+                            <category xml:id="vopadeva">
+                                <catDesc>Vopadeva</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="kośa">
+                            <catDesc>Kośa</catDesc>
+                        </category>
+                        <category xml:id="jyotiṣa">
+                            <catDesc>Jyotiṣa</catDesc>
+                        </category>
+                        <category xml:id="nīti">
+                            <catDesc>Nīti</catDesc>
+                        </category>
+                        <category xml:id="dhanur">
+                            <catDesc>Dhanur</catDesc>
+                        </category>
+                        <category xml:id="nyāya">
+                            <catDesc>Nyāya</catDesc>
+                            <category xml:id="prācīnanyāya">
+                                <catDesc>Prācīnanyāya</catDesc>
+                            </category>
+                            <category xml:id="navyanyāya">
+                                <catDesc>Navyanyāya</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="vaiśeṣika">
+                            <catDesc>Vaiśeṣika</catDesc>
+                        </category>
+                        <category xml:id="yoga">
+                            <catDesc>Yoga</catDesc>
+                        </category>
+                        <category xml:id="sāṃkhya">
+                            <catDesc>Sāṃkhya</catDesc>
+                        </category>
+                        <category xml:id="mīmāṃsā">
+                            <catDesc>Mīmāṃsā</catDesc>
+                        </category>
+                        <category xml:id="vedānta">
+                            <catDesc>Vedānta</catDesc>
+                        </category>
+                        <category xml:id="āyurveda">
+                            <catDesc>Āyurveda</catDesc>
+                        </category>
+                        <category xml:id="rasāyaṇa">
+                            <catDesc>Rasāyaṇa</catDesc>
+                        </category>
+                        <category xml:id="alaṃkāra">
+                            <catDesc>Alaṃkāra</catDesc>
+                        </category>
+                        <category xml:id="chandas">
+                            <catDesc>Chandas</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="subhāṣita">
+                        <catDesc>Subhāṣita</catDesc>
+                    </category>
+
+                    <category xml:id="kāvya">
+                        <catDesc>Kāvya</catDesc>
+                        <category xml:id="mahākāvya">
+                            <catDesc>Mahākāvya</catDesc>
+                        </category>
+                        <category xml:id="laghukāvya">
+                            <catDesc>Laghukāvya</catDesc>
+                        </category>
+                        <category xml:id="kathā">
+                            <catDesc>Kathā</catDesc>
+                        </category>
+                        <category xml:id="campū">
+                            <catDesc>Campū</catDesc>
+                        </category>
+                        <category xml:id="sandeśakāvya">
+                            <catDesc>Sandeśakāvya</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="nāṭya">
+                        <catDesc>Nāṭya</catDesc>
+                        <category xml:id="nāṭaka">
+                            <catDesc>Nāṭaka</catDesc>
+                        </category>
+                        <category xml:id="nāṭikā">
+                            <catDesc>Nāṭikā</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="vaiṣṇava">
+                        <catDesc>Vaiṣṇava</catDesc>
+                    </category>
+
+                    <category xml:id="śaiva">
+                        <catDesc>Śaiva</catDesc>
+                        <category xml:id="śaivasiddhānta">
+                            <catDesc>Śaivasiddhānta</catDesc>
+                            <category xml:id="trika">
+                                <catDesc>Trika</catDesc>
+                            </category>
+                        </category>
+                    </category>
+
+                    <category xml:id="śākta">
+                        <catDesc>Śākta</catDesc>
+                    </category>
+
+                    <category xml:id="saurya">
+                        <catDesc>Saurya</catDesc>
+                    </category>
+
+                    <category xml:id="jaina">
+                        <catDesc>Jaina</catDesc>
+                        <category xml:id="śvetāmbara">
+                            <catDesc>Śvetāmbara</catDesc>
+                            <category xml:id="aṅga">
+                                <catDesc>Aṅga</catDesc>
+                            </category>
+                            <category xml:id="upāṅga">
+                                <catDesc>Upāṅga</catDesc>
+                            </category>
+                            <category xml:id="chedasūtra">
+                                <catDesc>Chedasūtra</catDesc>
+                            </category>
+                            <category xml:id="mūlasūtra">
+                                <catDesc>Mūlasūtra</catDesc>
+                            </category>
+                            <category xml:id="nandisūtra">
+                                <catDesc>Nandisūtra</catDesc>
+                            </category>
+                            <category xml:id="anuyogadvāra">
+                                <catDesc>Anuyogadvāra</catDesc>
+                            </category>
+                            <category xml:id="prakīrṇaka">
+                                <catDesc>Prakīrṇaka</catDesc>
+                            </category>
+                            <category xml:id="āvaśyaka">
+                                <catDesc>Āvaśyaka</catDesc>
+                            </category>
+                            <category xml:id="monastic_discipline">
+                                <catDesc>Monastic discipline</catDesc>
+                            </category>
+                            <category xml:id="cosmology">
+                                <catDesc>Cosmology</catDesc>
+                            </category>
+                            <category xml:id="karma">
+                                <catDesc/>
+                            </category>
+                            <category xml:id="ethics">
+                                <catDesc>General teaching on ethics and particular ethical
+                                    topics</catDesc>
+                            </category>
+                            <category xml:id="polemic_works">
+                                <catDesc>Polemic works</catDesc>
+                            </category>
+                            <category xml:id="philosophy">
+                                <catDesc>Philosophy</catDesc>
+                            </category>
+                            <category xml:id="narrative_śvetāmbara">
+                                <catDesc>Narrative literature relating to the Jinas, early Jain
+                                    teachers, and individual characters</catDesc>
+                            </category>
+                            <category xml:id="Semi-historical_texts">
+                                <catDesc>Semi-historical texts</catDesc>
+                            </category>
+                            <category xml:id="stories">
+                                <catDesc>Collections of stories</catDesc>
+                            </category>
+                            <category xml:id="tīrtha">
+                                <catDesc>Tīrtha literature</catDesc>
+                            </category>
+                            <category xml:id="vrata_śvetāmbar">
+                                <catDesc>Vrata and rituals</catDesc>
+                            </category>
+                            <category xml:id="paṭṭāvalī">
+                                <catDesc>Paṭṭāvalīs</catDesc>
+                            </category>
+                            <category xml:id="lists_śvetāmbara">
+                                <catDesc>Lists and tables</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="digambara">
+                            <catDesc>Digambara</catDesc>
+                            <category xml:id="canonical">
+                                <catDesc>Canonical scriptures</catDesc>
+                            </category>
+                            <category xml:id="dogmatics">
+                                <catDesc>Dogmatics and ethics</catDesc>
+                            </category>
+                            <category xml:id="narrative_digambara">
+                                <catDesc>Narrative literature</catDesc>
+                            </category>
+                            <category xml:id="vrata_digambara">
+                                <catDesc>Vrata and ritual works</catDesc>
+                            </category>
+                            <category xml:id="lists_digambara">
+                                <catDesc>Lists and tables</catDesc>
+                            </category>
+                        </category>
+                    </category>
+
+                    <category xml:id="bauddha">
+                        <catDesc>Bauddha</catDesc>
+                        <category xml:id="vinaya">
+                            <catDesc>Vinaya</catDesc>
+                        </category>
+                        <category xml:id="abhidharma">
+                            <catDesc>Abhidharma</catDesc>
+                        </category>
+                        <category xml:id="theravāda">
+                            <catDesc>Theravāda</catDesc>
+                        </category>
+                        <category xml:id="mahāyāna">
+                            <catDesc>Mahāyāna</catDesc>
+                            <category xml:id="sūtra">
+                                <catDesc>Sūtra</catDesc>
+                            </category>
+                            <category xml:id="navadharma">
+                                <catDesc>Navadharma</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="vajrayāna">
+                            <catDesc>Vajrayāna</catDesc>
+                        </category>
+                        <category xml:id="dhāraṇī">
+                            <catDesc>Dhāraṇī</catDesc>
+                        </category>
+                        <category xml:id="avadāna_jātaka">
+                            <catDesc>Avadānas and Jātakas</catDesc>
+                        </category>
+                        <category xml:id="pramāṇa">
+                            <catDesc>Pramāṇa</catDesc>
+                        </category>
+                        <category xml:id="lekha">
+                            <catDesc>Lekha</catDesc>
+                        </category>
+                    </category>
+
+                    <category xml:id="sikh">
+                        <catDesc>Sikh</catDesc>
+                    </category>
+
+                    <category xml:id="avesta">
+                        <catDesc>Avesta</catDesc>
+                    </category>
+                </taxonomy>
+
+                <taxonomy xml:id="local_texts">
+                    <category xml:id="mūla"> </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
+                        </item>
+                        <!--<item>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
+                        </item>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
+                        </item>-->
+                    </list>
+                </keywords>
+                <keywords scheme="local">
+                    <list>
+                        <item corresp="#vyākaraṇa">Vyākaraṇa</item>
+                        <item corresp="#kāvya">Kāvya</item>
+                        <item corresp="#subhāṣitā">Subhāṣitā</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2024-05-24">
+                <persName>Barbora Sojkova</persName> created this entry. </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div> </div>
+        </body>
+    </text>
+</TEI>

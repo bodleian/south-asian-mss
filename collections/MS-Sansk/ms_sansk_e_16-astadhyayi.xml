@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03239">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. e.</collection>
+                  <idno type="shelfmark">MS. Sansk. e. 16</idno>
+                  <idno type="ieArk">ark:29072/x0t722h895m9</idno><idno type="crArk">ark:29072/x0t435gd129m</idno><altIdentifier>
+                     <idno type="CSM">1118</idno>
+                  </altIdentifier><altIdentifier type="former"><idno>MS. Bodl. Sanscr. 16.</idno></altIdentifier>
+               </msIdentifier>
+               
+              
+               <msContents>
+                  <summary>A complete paper manuscript of <name xml:lang="sa" key="person_00141">Pāṇini</name>'s <title xml:lang="sa" key="work_00206">Aṣṭādhyāyī</title>.</summary>
+                  
+                  <msItem> 
+                     
+                     <locus from="1v" to="115v">Ff. 1v-115v</locus>
+                     
+                     <author key="person_00141">
+                        <persName xml:lang="sa" type="display">Pāṇini</persName>
+                     </author>
+                     
+                     <title xml:lang="sa" key="work_00206">Aṣṭādhyāyī</title>
+                     
+                  <rubric>
+                     <locus from="1v" to="1v">F. 1v:</locus>
+                     śrīgaṇeśāya namaḥ ||
+                  </rubric>
+                     
+                  <incipit>
+                     <locus from="1v" to="1v">F. 1v:</locus>
+                     yenākṣarasamāmnāyam adhigamya Maheśvarāt || kṛtsnaṃ vyākaraṇaṃ proktaṃ tasmai Pāṇinaye namaḥ ||
+                     yena dhautā giraḥ puṃsāṃ vimalaiḥ śabdavāribhiḥ || tamaś cājñānajaṃ bhinnaṃ tasmai Pāṇinaye namaḥ |||| 
+                     a i uṇ |
+                  </incipit>
+                  
+                  <colophon>
+                     <locus from="115v" to="115v">F. 115v:</locus>
+                     śake sa° 1702 śarvarīnāmasaṃvatsare pauṣaśuddhatrayodaśyāṃ iṃduvāsare
+                     taddinītheṃṭe ity upaśarmabhaṭ jayarāmabhaṭsyasutena dājībhaṭena likhitaṃ śubhaṃ bhavatu ||
+                     || tailādrakṣejalādrakṣedrakṣetsītalabaṃdhanāt ||
+                     sūrkha haste nadā tavyaṁ evaṁ vadati pustakaṁ || cha cha cha ||
+                     śrimārtaṃḍabhairavārpaemaskta || śrīvlacharpaemaskta ||
+                  </colophon>
+                  
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 117"> 117</measure>
+                           
+                           <dimensions type="binding" unit="cm">
+                           <height quantity="21.0">21.0</height>
+                           <width quantity="12">12</width>
+                        </dimensions>
+                           
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="19">19</height>
+                              <width quantity="10">10</width>
+                           </dimensions>
+                        </extent>
+                        
+                        
+                        <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals in black ink, top-left and bottom-right margin, verso.</foliation>
+                        <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom-right margin, recto.</foliation>
+                        
+                        <condition>
+                           <p>Complete.</p>
+                           <p>In good condition.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Devanāgarī" medium="black_ink_red_ink">
+                        <desc>Devanāgarī in black ink. <term xml:lang="sa">Daṇḍa</term>s and vertical ruling in red ink. Highlighted in red powder.
+                        </desc>
+                        <p>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00185">
+                                 <persName xml:lang="sa" type="standard">Dājībhaṭṭa</persName>.
+                                 </name>
+                              <note>Son of Themṭe Jayarāmabhaṭṭa, <q xml:lang="sa">ity upaśarmabhaṭ jayarāmabhaṭsyasutena dājībhaṭena likhitaṃ</q>.</note>         
+                           </desc>
+                        </p>
+                       </handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote type="miniature">
+                        <desc>Floral motif in red ink on <locus from="1r" to="1r">f. 1r</locus>.
+                         </desc>
+                        <p>
+                           <desc>
+                              Scribal doodles in red ink in the margins on <locus from="70v" to="70v">ff. 70v</locus> and <locus from="100v" to="100v">100v</locus>.
+                           </desc>
+                        </p>
+                     </decoNote>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p>Abbreviated marginal title on top-left margin, verso.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1905">
+                        <p> Late 19th-century brown <term type="material">textile</term> binding over pasteboard, with shelfmark and description tooled in gold on the spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+                
+             </physDesc>
+               <history>
+                  <origin>
+                     <date calendar="Vikrama" when="1702"> 1702</date> / <date calendar="#gregorian" when="1780"> 1780 CE</date>
+                  <p><q>śake saº 1702  śarvarīnāmasaṃvatsare pauṣaśuddhatrayodaśyāṃ iṃduvāsare |
+                  </q></p>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n155/mode/1up">no. 1118, p. 124</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n155/mode/1up">no. 1118, p. 124</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-08-27">
+            <persName>Barbora Sojkova</persName> created this entry.</change>
+      </revisionDesc>
+      
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

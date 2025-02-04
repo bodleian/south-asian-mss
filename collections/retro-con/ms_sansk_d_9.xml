@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03145">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_d_9</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 9</idno>
+                  <idno type="ieArk">ark:29072/x04t64gp670p</idno><idno type="crArk">ark:29072/x04q77fs83pg</idno><altIdentifier>
+                     <idno type="CSM">1459</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Parārahasya Tantra, 18th cent.?</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Parārahasya, or Parācintāmaṇi, or Saubhāgyacintāmaṇi, in twenty paṭalas</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem> 
+                     
+                     
+                  <incipit source="#WinternitzKeith1905">oṃ śrīgaṇeśāya namaḥ ǁ śrīdevy uvāca ǁ oṃ bhagavan deva deveśa taṃtramaṃtrāvdhipāraga | tvatprasādān mayā taṃtro Rudrayāmala īśvari ǁ viśvahaṃso jagad devī yāmalā ḍāmarā śrutā ǁ āgamasya śrutaḥ Siṃdhulaharī ca samuccayāḥ ǁ tathāpi saṃśayo deva na yāto me parāmanoḥ ǁ punas tvayāśu nirṇītaṃ śrītrikūṭārahasyakaṃ sarvasvākhyas taṃtranāthas Tripurālilakābhidhaḥ ǁ Ṣoḍaśihṛdayākhyo ’pi taṃtrarājo mayā śrutāḥ ǁ Śyāmihṛdayanāmāpi Kālītaṃtras tvayā smṛtāḥ ǁ Asitāsahitākhyātās tathā Bhairavataṃtrakaḥ ǁ Muṃḍamālābhidhas tatra śruto me saṃśayo gataḥ ǁ tvayaiva punar īśāna sūcitaṃ pāradaivataṃ ǁ Parārahasyakaṃ divyaṃ parāpararahasyakaṃ | śruto yair na mahādevi Parāciṃtāmaṇiḥ paraḥ ǁ taṃtreśvaraḥ kutas teṣāṃ saṃśayo yāti māṃtrikaḥ | taṃtreśvaraṃ tam adya tvaṃ parāciṃtāmaṇiparaṃ ǁ vada vāgvādimsiddhyai tatsaṃśayanivṛttaye ǁ śrībhairavaḥ oṃ maṃtraikasāraṃ bhavasiṃdhupāraṃ manovihāraṃ tripuraikahāraṃ ǁ Saubhāgyaciṃtāmaṇināmadhyeyaṃ taṃtraṃ pravakṣyāmi Parārahasyakaṃ h Parāciṃtāmaṇiṃ nāma śṛṇu taṃtraṃ maheśvari ǁ saubhāgyamaṃtrasarvasvaṃ rahasyaṃ pāradaivataṃ ǁ</incipit><explicit source="#WinternitzKeith1905">śrībhairava uvāca | ayaṃ taṃtreśvaro devi Parāciṃtāmaṇiḥ smṛtaḥ | pūjyo vrahmādidevānāṃ rahasyaṃ sarvadehināṃ | aṣṭasiddhipradaḥ taṃtraḥ sarvopadravanāśakaḥ | sarvamāṃgalamāṃgalyaṃ sarvaiśvaryaikakāranaṃ sarvavrahmamayaṃ taṃtro vedavidyāmayāḥ paraḥ | gopyo guhyatamo guhyo gopanīyo mumukṣubhiḥ ǁ ǁ iti śrīparārahasye Saubhāgyaciṃtāmaṇau tattvastotrākhyānaṃ nāma viṃśatitamaḥ paṭalaḥ ǁ ǁ 20 ǁ ǁ śubham astu sarvajagatām ǁ</explicit></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 37 "> 37 </measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="22.9">22.9</height>
+                           <width quantity="14.9">14.9</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">probably the first half of the 18th century.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1886 through Dr. G. Thibaut of Benares.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n297/mode/1up">no. 1459, p. 266</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n297/mode/1up">no. 1459, p. 266</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

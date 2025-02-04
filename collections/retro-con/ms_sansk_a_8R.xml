@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02760">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_a_8R</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. a.</collection>
+                  <idno type="shelfmark">MS. sansk. a. 8 (R)</idno>
+                  <idno type="ieArk">ark:29072/x0c247dt15fz</idno><idno type="crArk">ark:29072/x0bz60cx3243</idno><altIdentifier>
+                     <idno type="CSM">1448</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Pañcarakṣā, 11th cent.?</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">The Pañcarakṣā, a collection of Buddhist
+                     charms</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1">
+                     
+
+                     <note source="#WinternitzKeith1905">The Mahāsāhasrapramardanī</note>
+                     <incipit source="#WinternitzKeith1905">namo bhagavatyai
+                        āryyasahasrapramardanyai | evaṃ mayā śrutaṃ bhagavān Rājagṛhe viharati sma
+                        Gṛdhrakuṭāparvate dakṣiṇe pārśve | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">āryamahāsāhasrapramardanī nāma
+                        mahāyānasūtraṃ parisamāptaḥ | namo vuddhayā namo dharmāya namo saṅghāya
+                        |</explicit>
+                  </msItem>
+                  <msItem n="2">
+                     <note source="#WinternitzKeith1905">The Mahāmāyūrī</note>
+                     <incipit source="#WinternitzKeith1905">namaḥ sarvavuddhavodhisattvebhyo
+                        ’rhadbhyaḥ samyakṣamvuddhebhyo ’tītānāgatapratyutpannebhyaḥ</incipit>
+                     <explicit source="#WinternitzKeith1905">asyā Mahāmāyūryā vidyārājñyā ayaṃ
+                        pracāraḥ |</explicit>
+                  </msItem>
+                  <msItem n="3">
+                     <note source="#WinternitzKeith1905">The Mahāśītavatī</note>
+                     <incipit source="#WinternitzKeith1905">namo bhagavatyai Mahāśītavatyai | evaṃ
+                        mayā śrutam bhagavān Rājagṛhe viharati sma | Sitavane mahāśmaśāne |
+                        ibhikāyatane (so apparently) pratyuddeśe | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">āryamahāśitavatl nāma daṇḍadhāraṇī
+                        vidyārājñī parisamāpta |</explicit>
+                  </msItem>
+                  <msItem n="4">
+                     <note source="#WinternitzKeith1905">The Mahāpratisarā</note>
+                     <incipit source="#WinternitzKeith1905">namaḥ sarvavuddhavodhisattvebhyaḥ
+                        |</incipit>
+                     <explicit source="#WinternitzKeith1905">āryamahāpratisarā mahāvidyārājñī
+                        parisamāpta | namo vuddhāya | namo dharmāya | namo dharmāya |</explicit>
+                  </msItem>
+                  <msItem n="5">
+                     <note source="#WinternitzKeith1905">The Mahāmantrānusāriṇī</note>
+                     <incipit source="#WinternitzKeith1905">namaḥ sarvavuddhavodhisattvānāṃ | evaṃ
+                        mayā śrutaṃ | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">mahātantra | Mahāmantrānusāriṇī
+                        mahāvidyārājñī samāptam iti | ye dharma heluprabhāvā hetu teṣāṃ tathāgato |
+                        &amp;c.</explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">In the older part palm-leaves, in the
+                           new part paper, yellow on recto, red on verso, held together by two
+                           pieces of cardboard and a string passing through two holes.</support>
+                        <extent>
+                           <measure type="leaf" quantity="92"> 92 </measure> +
+                              <measure type="laterEndleaf" quantity="1">i</measure>
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="52.7">52.7</height>
+                              <width quantity="3.5">204</width>
+                           </dimensions>
+                        </extent>
+                        <condition>The MS. has been mutilated, but the missing portions have been supplied by a later hand, viz. ff. 1–15 (= present ff. 1–16), 64, 65, 87–89 (= present ff. 86–89). Part of the original f. 87 is still preserved; the MS. is fairly accurate.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Nepalese">
+                        <desc>Nepalese for both old and new. The new is evidently an imitation of the old, and is not very successful.</desc>
+                     </handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1000" notAfter="1099">11th cent.?</origDate>
+                     <p source="#WinternitzKeith1905">Dr. Hoernle assigns it to the 11th cent. It
+                        may be a good deal later (14th cent.?). The new part is quite modern.</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1900 from <persName key="person_00096">Dr. A. F. R. Hoernle</persName>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n290/mode/1up">no. 1448, p. 259</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n290/mode/1up">no. 1448, p. 259</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

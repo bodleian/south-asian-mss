@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02484">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_a_walker_208</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. A. Walker</collection>
+                  <idno type="shelfmark">MS. A. Walker 208</idno>
+                  <idno type="ieArk">ark:29072/x0jd472x144h</idno><idno type="crArk">ark:29072/x0j9602130tn</idno><altIdentifier>
+                     <idno type="CSM">209, 775, 353, 92</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head>
+               </head>
+               <physDesc>
+                  <objectDesc form="pothi">
+                  <supportDesc>
+                     <support>paper</support>
+                     <extent source="#Keith1909">
+                        <measure type="laterEndleaf" quantity="2">ii</measure>
+                        + <measure type="leaf" quantity=" 139 "> 139 </measure>
+                        + <measure type="laterEndleaf" quantity="2">ii</measure>. The five parts in the original foliation have 58 (57, as f. 2 is lost) + 7 + 24 + 12 + 35 leaves.<dimensions type="folio" unit="cm">
+                        <height quantity="27.3">27.3</height>
+                        <width quantity="15.2">15.2</width>
+                     </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc></physDesc>
+               <history><acquisition source="#Keith1909">The collections of <persName key="person_00196">Alexander Walker</persName> was presented to the Bodleian Library by his son, William Walker, in 1845.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  
+                  <surrogates>
+                     
+                  </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n36/mode/1up">no. 209, p. 27</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n106/mode/1up">no. 775, p. 97</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n54/mode/1up">no. 353, p. 45</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n21/mode/1up">no. 92, p. 12</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=136">no. 209, p. 120</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=345">no. 775, p. 329</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=176">no. 353, pp. 160-161</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=53">no. 92, pp. 37-38</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 208a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Damayantīkathā, 15th cent.?</head>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents><physDesc><handDesc><handNote><p source="#Keith1909"><locus>f. 57v</locus>: Tapāpakṣe śrisomasuṃdaraśiṣyamukhyapaṃḍitasirovataṃsapūjyārādhyapaṃ o (4 akṣaras deleted by a later hand) gaṇiśiṣyeṇa (4 akṣaras deleted) munikṛte likhito ‘yaṃ graṃthaḥ śrimati Ahammadāvādanagare | As Somasundara was sūri in A. D. 1400, a śiṣya of his śiṣya would have lived about A. D. 1450 at latest.</p></handNote></handDesc></physDesc>
+                  <history>
+                     <origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1400" notAfter="1499">15th cent.?</origDate><p source="#Keith1909">either not given or lost, but certainly as old as the 16th, and probably the 15th century.</p></origin>
+                  </history>
+                  <additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n36/mode/1up">no. 209, p. 27</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional>
+               </msPart>
+              
+
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 208b</idno></altIdentifier></msIdentifier><head>Candrārkī, 18th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n106/mode/1up">no. 775, p. 97</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 208c</idno></altIdentifier></msIdentifier><head>Jñāpakasamuccaya, 17th cent.?</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1600" notAfter="1699">17th cent.?</origDate></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n54/mode/1up">no. 353, p. 45</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. A. Walker 208d</idno></altIdentifier></msIdentifier><head>Harilīlāviveka, A. D. 1766.</head><msContents><summary/><textLang mainLang="sa">Sanskrit</textLang></msContents><history><origin><origDate calendar="#gregorian" source="#Keith1909" when="1766">1766</origDate><p source="#Keith1909"><locus>f. 139</locus>: saṃvata 1822 <supplied>1766</supplied> varṣa pradviya – – – – | Apparently the date of the exemplar.</p></origin></history><additional><adminInfo><recordHist><source><listBibl><bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n21/mode/1up">no. 92, p. 12</ref></biblScope></bibl></listBibl></source></recordHist></adminInfo></additional></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

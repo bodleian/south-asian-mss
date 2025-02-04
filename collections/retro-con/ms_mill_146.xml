@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02692">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_mill_146</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Mill</collection>
+                  <idno type="shelfmark">MS. Mill 146</idno>
+                  <idno type="ieArk">ark:29072/x0s1784k95z3</idno><idno type="crArk">ark:29072/x0rx913q12nd</idno><altIdentifier>
+                     <idno type="CSM">951 (1–3)</idno>
+                  </altIdentifier><altIdentifier type="former" source="#WinternitzKeith1905"><idno>(1) MS. Bodl. Sanscr. 41; (2) MS. Bodl. Sanscr. 20.</idno></altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Tāṇḍya and Ārṣeya Brāhmaṇas, A. D. 1761.</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 225"> 225</measure><dimensions type="binding" unit="cm">
+                           <height quantity="29.5">29.5</height>
+                           <width quantity="14.0">14.0</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">Tripāṭhī Dhaneśvara of Benares.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1761" source="#WinternitzKeith1905">A. D. 1761.</origDate>
+                  <p source="#WinternitzKeith1905">saṃvat 1817 (= A. D. 1761) mārgaśīrṣamāse śuklapakṣe |</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">The collections of <persName key="person_00179">William Hodge Mill</persName> were purchased by the Bodleian Library in 1849 and 1858.</acquisition></history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n75/mode/1up">no. 951 (1–3), p. 44</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n75/mode/1up">no. 951 (1–3), p. 44</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 146(1)</idno></altIdentifier></msIdentifier><head/><msContents><summary>MS. note on the Sāma-veda, probably by Mill, ff. i, ii.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 146(2) [fols 1-209v]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Tāṇḍya Brāhmaṇa of the Sāma-veda, twenty-five prapāṭhakas, ff. 1–209. It ends on f. 209v: tad etad viśvasṛjāṃ sahasrasaṃvatsaram etena vai viśvasṛjaḥ sarvām ṛddhim ārdhnuvant sarvām ṛddhim ṛdhnuvanti ya etad upayanti ǁ 18 ǁ iti pañcaviṃśaḥ prapāṭhakaḥ ǁ 25 ǁ There is another copy of this work by the same hand in MS. Wilson 373 (947).</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><explicit source="#WinternitzKeith1905">tad etad viśvasṛjāṃ sahasrasaṃvatsaram etena vai viśvasṛjaḥ sarvām ṛddhim ārdhnuvant sarvām ṛddhim ṛdhnuvanti ya etad upayanti ǁ 18 ǁ iti pañcaviṃśaḥ prapāṭhakaḥ ǁ 25 ǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Mill 146(3) [fols 210-224]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Ārṣeya Brāhmaṇa of the Sāma-veda, three prapāṭhakas, ff. 210–224.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | oṃ namaḥ sāmavedāya | atha khalv ayam ārṣaḥ pradeśo bhavaty ṛṣīṇāṃ nāmadheyagotropadhāraṇaṃ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">simā vā mahṇyā (or maṭṇyā?) vā śakvaryo vā śakvaryo vā ǁ 29 ǁ ity Ārṣeyabrāhmaṇasya tṛtīyaḥ prapāṭhakaḥ |</explicit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

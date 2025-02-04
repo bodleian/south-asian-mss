@@ -35,7 +35,7 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                    	<collection type="sanskrit" subtype="monier-williams">Sanskrit, Monier-Williams Collection</collection>
+                        <collection>MSS. Ind. Inst. Sansk.</collection>
                     	<idno type="shelfmark">MS. Ind. Inst. Sansk. 45</idno><idno type="ieArk">ark:29072/x0mp48sc754w</idno><idno type="crArk">ark:29072/x0mk61rg91ts</idno>
                         <!--<altIdentifier type="internal">
                             <idno type="or_long_shelfmark"></idno>
@@ -291,7 +291,12 @@
                             </availability>
                             <note/>
                         </adminInfo>
-                        
+                        <surrogates>
+                            <bibl type="digital-facsimile" subtype="full">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/bf6601a1-88a0-44c6-9041-6b4b167e97e3/">
+                                    <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                            </bibl>
+                        </surrogates>
                         <listBibl type="ms_descriptions">
                             <head>Descriptions of the manuscript</head>
                             

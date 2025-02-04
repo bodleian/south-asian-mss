@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03257">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. e.</collection>
+                  <idno type="shelfmark">MS. Sansk. e. 56</idno>
+                  <idno type="ieArk">ark:29072/x0td96k2627q</idno><idno type="crArk">ark:29072/x0tb09j578x2</idno><altIdentifier>
+                     <idno type="CSM">1275</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno type="shelfmark">No. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno type="shelfmark">K 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents n="2">
+                  <summary>A fragmentary birch-bark manuscript of the <title key="work_00132">Hitopadeśa</title>, written in Śāradā script.
+                   </summary>
+                                    
+                  <msItem n="1">
+                     
+                     <locus from="iii" to="iii">F. iii</locus>
+                     
+                     <title type="desc">A modern, hand-written catalogue card in German and Sanskrit in black ink.</title>
+                     
+                     <textLang mainLang="de" otherLangs="sa">German with Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+                  <msItem n="2">
+                     
+                     <locus from="2" to="61">Ff. 2r-61v</locus>
+                     
+                     <title key="work_00132" type="main">Hitopadeśa</title>
+                                                           
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                     <msItem n="2.1">
+                        
+                        <locus from="2" to="2">F. 2</locus>
+                        
+                        <title key="work_00132" type="sub">Prastāvanā</title>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.2">
+                        
+                        <locus from="5" to="22">Ff. 5-22</locus>
+                        
+                        <title key="work_00132" type="sub">Mitralābha</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="5" to="5">F. 5r:</locus>
+                           jñānabhāraḥ kriyā […] ārātmake viśvāsaḥ kṛtaḥ tathāpy uktam
+                        </incipit>
+                        
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="22" to="22">F. 22:</locus>
+                           iti Hitopadeśe nītiśāstropadeśe mitralābho nāma prathamaḥ kathā
+                        </explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.3">
+                        
+                        <locus from="23" to="57">Ff. 23-57v</locus>
+                        
+                        <title key="work_00132" type="sub">Vigraha</title>
+                                     
+                     </msItem>
+                     
+                     <msItem n="2.4">
+                        
+                        <locus from="60" to="61">Ff. 60-61</locus>
+                        
+                        <title key="work_00132" type="sub">Sandhi</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="60" to="60">F. 60:</locus>
+                           stān matsyān ekaikaśo nītvābhakṣayat ǁ anantaraṃ kulīraḥ tam uvāca | 
+                        </incipit>
+                        
+                     </msItem>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="birch_bark">
+                        <support>Birch bark.</support>
+                        <extent>
+                           <measure type="laterEndleaf" quantity="4">iv</measure>
+                           + <measure type="leaf" quantity=" 63"> 63</measure>
+                           
+                           <dimensions type="binding" unit="cm">
+                           <height quantity="21">21</height>
+                           <width quantity="19">19</width>
+                        </dimensions>
+                           
+                        </extent>
+                        
+                        <foliation n="1" style="digit">Arabic numerals in pencil, top-right corner, recto.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right corner, recto.</foliation>
+                        <foliation n="3" style="digit">Arabic numerals in pencil, mid-right corner, recto.</foliation>
+                        <foliation n="4" style="numeral" rend="Śāradā">Śāradā numerals in black ink, bottom-left margin, verso.</foliation>
+                        
+                     <condition>
+                        <p>Incomplete. Ff. <locus from="1" to="1">1</locus>,  <locus from="3" to="4"> 3-4</locus>, and <locus from="58" to="58">58</locus> missing.</p>
+                        <p>Ff. <locus from="2" to="2">2</locus> and <locus from="61" to="61">61</locus> are fragmentary.</p>
+                        <p>Ff. <locus from="5" to="33">5-33</locus>, <locus from="39" to="42">39-42</locus>, and <locus from="57" to="57">57</locus> are damaged. Conserved and stabilised.</p>
+                     </condition>
+                     </supportDesc>
+                    </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Śāradā" medium="black_ink">
+                        <desc>Śāradā in black ink.
+                        </desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     <p>Abbreviated marginal title on bottom-left margin, verso.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding notBefore="1909">
+                        <p> Late 19th-century or early 20th-century red <term type="material">textile</term> binding over pasteboard, with shelfmark and title tooled in gold on the spine.
+                           Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+                                    
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600" notAfter="1699">17th cent.? CE.</origDate>
+                  <p> <q source="#WinternitzKeith1905">Probably first half of the 17th century.</q></p></origin>
+                  
+                  <provenance>
+                     Former owner's shelfmark: <q type="shelfmark">No. 117</q> written in red ink on <locus from="iv" to="iv">f. iv</locus>.
+                     <p>Memorandum <q>K. 50</q> written in black ink on <locus from="iv" to="iv">f. iv</locus>.</p>
+                  </provenance>
+                  
+                  <acquisition source="#WinternitzKeith1905">Bought in <date calendar="Gregorian">1887</date> from <name type="person" role="fmo" key="person_00177">
+                     <persName>Eugen Hultzsch</persName></name>.                     
+                  </acquisition>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n215/mode/1up">no. 1275, pp. 184-185</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n215/mode/1up">no. 1275, pp. 184-185</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <revisionDesc>
+         <change when="2024-09-17">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+      
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

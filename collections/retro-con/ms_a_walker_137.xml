@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02505">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_a_walker_137</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. A. Walker</collection>
+                  <idno type="shelfmark">MS. A. Walker 137</idno>
+                  <idno type="ieArk">ark:29072/x04x51hk504h</idno><idno type="crArk">ark:29072/x04t64gp66tf</idno><altIdentifier>
+                     <idno type="CSM">768, 598, 597, 369, 760, 749, 758, 757</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head> </head>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc>
+                        <support>paper</support>
+                        <extent source="#Keith1909">
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 215 "> 215 </measure> + <measure type="laterEndleaf" quantity="2">ii</measure>. The nine parts in the
+                           original foliation have 30 (+ 1 blank) + 16 (+ 1 blank) + 43 + 20 (really
+                           15, as ff. 1, 5, 10,11,15 are lost) + 11 + 21 (really two parts, ff. 1–5,
+                           5v–21) + 39 + 38 leaves.<dimensions type="folio" unit="cm">
+                              <height quantity="25.4">25.4</height>
+                              <width quantity="14.9">14.9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition source="#Keith1909">The collections of <persName key="person_00196">Alexander Walker</persName> was presented to the Bodleian Library by his
+                     son, William Walker, in 1845.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+
+                  <surrogates> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
+                              Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
+                              I</title> (Oxford, 1909), <biblScope>
+                              <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n105/mode/1up">no. 768, p. 96</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n84/mode/1up">no. 598, p. 75</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n84/mode/1up">no. 597, p. 75</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n56/mode/1up">no. 369, p. 47</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n104/mode/1up">no. 760, p. 95</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n102/mode/1up">no. 749, p. 93</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n104/mode/1up">no. 758, p. 95</ref></biblScope>; <biblScope><ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n103/mode/1up">no. 757, pp. 94-95</ref></biblScope></bibl>
+                        <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=342">no. 768, pp. 326-327</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=260">no. 598, p. 244</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=260">no. 597, p. 244</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=182">no. 369, p. 166</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=338">no. 760, pp. 322-323</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=333">no. 749, p. 317</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=337">no. 758, p. 321</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=337">no. 757, p. 321</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Vṛkṣāyurveda, 18th cent.?</head>
+                  <msContents>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n105/mode/1up">no. 768, p. 96</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+
+
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Uttarapakṣavāda (Anumānacintāmaṇi), A.D. 1770.</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" when="1770">A.D.
+                           1770</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n84/mode/1up">no. 598, p. 75</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Prāmāṇyavādarahasya, chap. i, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n84/mode/1up">no. 597, p. 75</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137d</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Madhyasiddhāntakaumudī, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n56/mode/1up">no. 369, p. 47</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137e</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Dhāturatnamālā, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <physDesc>
+                     <handDesc>
+                        <handNote>
+                           <p source="#Keith1909">perhaps 749, 757, 758, 760 are by one hand.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n104/mode/1up">no. 760, p. 95</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137f</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Śārṅgadharasaṃhitā (parts) and Kālajñāna, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <physDesc>
+                     <handDesc>
+                        <handNote>
+                           <p source="#Keith1909">cf. 760.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n102/mode/1up">no. 749, p. 93</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137g</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Saṃnipātakalikā, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <physDesc>
+                     <handDesc>
+                        <handNote>
+                           <p source="#Keith1909">cf. 760.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n104/mode/1up">no. 758, p. 95</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137h</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>Śataślokī with Candrakalā, 18th cent.?</head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+                  <physDesc>
+                     <handDesc>
+                        <handNote>
+                           <p source="#Keith1909"><locus>f. 177v</locus>: bhataśrī 5
+                              vidyādharasutabhāṃṇaīkena likhitā | Cf. 760.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent.?</origDate>
+                        <p source="#Keith1909">probably about A. D. 1750.</p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n103/mode/1up">no. 757, pp. 94-95</ref></biblScope></bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. A. Walker 137i</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>RÂMACANDRA: Râmavinoda </head>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="hi">Hindi</textLang>
+                  </msContents>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

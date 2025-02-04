@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02742">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_hodgson_6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Hodgson</collection>
+                  <idno type="shelfmark">MS. Hodgson 6</idno>
+                  <idno type="ieArk">ark:29072/x0v405s945f1</idno><idno type="crArk">ark:29072/x0v118rd6245</idno><altIdentifier>
+                     <idno type="CSM">1449 (1–140)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">A Collection of Dhāraṇīs, Stotras, and Avadānas,
+                  A.D. 1819.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">A collection of 140 Dhāraṇīs, Stotras, and
+                     Avadānas,</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1">
+                     <locus>[fols. 1-8]</locus>
+                     <note source="#WinternitzKeith1905">the Amoghapāśa Dhāraṇī.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namaḥ śrīvuddhadharmmasaṃghebhyaḥ ǁ
+                        oṃ nama śrīlokanāthāyaḥ ǁ Amoghapāsāya bhagavate namaḥ ǁ evaṃ mayā śrutam
+                        ekasmiṃ samaye bhagavān Potarakaparvvate viharati sma ǁ
+                        &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">āryyāmoghapāsanāma hṛdayaṃ
+                        mahāyānasūtraṃ samāpta ǁ</explicit>
+                  </msItem>
+                  <msItem n="2, 3">
+                     <note source="#WinternitzKeith1905">Mañjuśrīpratijñā Dh., and Siddhinikā
+                        Dh.</note>
+                  </msItem>
+                  <msItem n="4-8">
+                     <note source="#WinternitzKeith1905">Vairocana Dh., Akṣobhya Dh., Ratnasambhava
+                        Dh., Amitābha (or Amṛtābha) Dh., and Amoghasiddhi Dh.</note>
+                  </msItem>
+                  <msItem n="9">
+                     <note source="#WinternitzKeith1905">Ṣaḍakṣari Dh.</note>
+                  </msItem>
+                  <msItem n="10, 11">
+                     <note source="#WinternitzKeith1905">Avalokiteśvara Dh., and
+                        Sahasra-bhūjalokeśvara Dh.</note>
+                  </msItem>
+                  <msItem n="12, 13">
+                     <note source="#WinternitzKeith1905">Jātismara Dh., and Sarvamaṅgala Dh.</note>
+                  </msItem>
+                  <msItem n="14-16">
+                     <note source="#WinternitzKeith1905">Sahasravarttā Dh., Tārā Dh., and Mokṣapada
+                        Dh.</note>
+                  </msItem>
+                  <msItem n="17, 18">
+                     <note source="#WinternitzKeith1905">two Jātismara Dhāraṇīs.</note>
+                  </msItem>
+                  <msItem n="19">
+                     <note source="#WinternitzKeith1905">Durgatipariśvadhana (read ºśodhana)
+                        Dh.</note>
+                  </msItem>
+                  <msItem n="20">
+                     <note source="#WinternitzKeith1905">Vajravidāraṇahṛdayamantra Dh.</note>
+                  </msItem>
+                  <msItem n="21">
+                     <note source="#WinternitzKeith1905">Mahāmāyāvijayavāhini Dh.</note>
+                  </msItem>
+                  <msItem n="22">
+                     <note source="#WinternitzKeith1905">Jambalajalendra Dh.</note>
+                  </msItem>
+                  <msItem n="23">
+                     <note source="#WinternitzKeith1905">Aikajatā, or Ekajatā Dh.</note>
+                  </msItem>
+                  <msItem n="24-27">
+                     <note source="#WinternitzKeith1905">Dhvajāmgrakeyūrī Dh.,
+                        Atitānāgatapratyutpanna Dh., Bhaikharya Dh., and Gāthādvaya Dh.</note>
+                  </msItem>
+                  <msItem n="28">
+                     <note source="#WinternitzKeith1905">In the margin: Saṇiścarāstakadhāraṇi. In
+                        the table of contents: saniścarāstakadhāº.</note>
+                  </msItem>
+                  <msItem n="29">
+                     <locus>[fols. 21v-20v]</locus>
+                     <note source="#WinternitzKeith1905">the Pratyaṅgirā Dhāraṇī.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo bhagavate
+                        āryyamahāpratyaṃgirāyaiḥ ǁ evaṃ mayā śrutam ekasmiṃ samaya bhagavān deveṣu
+                        trāyatriṃsekhu viharati sma | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">ǁ āryyasarvvatathāgatoṣṇīkhaśitātapatrā
+                        nāmāparājitā mahāpratyaṃgirā vidyārājñī parisamāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="30">
+                     <locus>[fols. 26v-31v]</locus>
+                     <note source="#WinternitzKeith1905">the Nāmasaṃgīti, in 167 ślokas.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo Mañjunāthāya ǁ atha Vajradhara
+                        śrīmān duddātadamakaparaḥ tailokyavijayi vīlo guhyalā kuhyalā kuliseśvara ǁ
+                        1 ǁ</incipit>
+                     <explicit source="#WinternitzKeith1905">gamhīrodāravaipulyaḥ
+                        mahārthajagadarthakṛt ǁ vuddhānāṃ vikhayo hyekhaḥ saṃmyaksaṃvuddhabhākhita ǁ
+                        167 ǁ upasaṃhāragāthā paṃca ǁ ǁ āryyamāyājālāṣoḍasasāhaśrīkāḥ
+                        mahājogatantrāntapātiḥ samadhijālapatalā bhagavanta tathāgataḥ ǁ
+                        śrīsākyamuṇibhākhita bhagavato Mañjuśrījñānasatvasya paramārthānāmasaṃgīti
+                        samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="31">
+                     <note source="#WinternitzKeith1905">Abhayamkarī Dh.</note>
+                  </msItem>
+                  <msItem n="32">
+                     <note source="#WinternitzKeith1905">(Vasundhārā Dh.).</note>
+                  </msItem>
+                  <msItem n="33">
+                     <note source="#WinternitzKeith1905">Vajravīdāraṇī Dh.</note>
+                  </msItem>
+                  <msItem n="34">
+                     <note source="#WinternitzKeith1905">Gaṇapatihṛdaya Dh.</note>
+                  </msItem>
+                  <msItem n="35, 36">
+                     <note source="#WinternitzKeith1905">Uṣṇīṣavijaya Dh., and Parṇaśavarī
+                        Dh..</note>
+                  </msItem>
+                  <msItem n="37">
+                     <note source="#WinternitzKeith1905">Mārīcī Dh.</note>
+                  </msItem>
+                  <msItem n="38">
+                     <note source="#WinternitzKeith1905">Grahamātṛkā Dh.</note>
+                  </msItem>
+                  <msItem n="39">
+                     <note source="#WinternitzKeith1905">Bhadracarimahāyānapraṇidhānaratnarāja, or
+                        Bhadracarīpraṇidhānarāja, or Bhadracarī Dh.</note>
+                  </msItem>
+                  <msItem n="40">
+                     <note source="#WinternitzKeith1905">Ekajatābhaṭṭārikāmātrāstavastotra, or
+                        Ekajatā Dh. (eight verses).</note>
+                  </msItem>
+                  <msItem n="41">
+                     <note source="#WinternitzKeith1905">iti śrībhadrakalpāvadānoddhṛtaṃ
+                        navagrahakṛtaṃ śrīśākyamuṇistotraṃ samāptaḥ ǁ A stotra in ten verses, from
+                        the Bhadrakalpa Avadāna.</note>
+                  </msItem>
+                  <msItem n="42">
+                     <note source="#WinternitzKeith1905">A stotra extract from the Svayambhū
+                        Purāṇa.</note>
+                  </msItem>
+                  <msItem n="43">
+                     <note source="#WinternitzKeith1905">āryyamahāpratisarāya nāma dhāraṇī samāptaḥ
+                        ǁ</note>
+                  </msItem>
+                  <msItem n="44">
+                     <note source="#WinternitzKeith1905">āryyamahāsāhasrapramadanī dvitīyamaṃtro
+                        dhāº saº ǁ</note>
+                  </msItem>
+                  <msItem n="45">
+                     <note source="#WinternitzKeith1905">āryyamahāmāyūrīvidyārājñī tritiyamaṃtro
+                        dhāº saº ǁ</note>
+                  </msItem>
+                  <msItem n="46">
+                     <note source="#WinternitzKeith1905">āryyamahāsītavatī nāma dhāranī
+                        caturthamantradhāranī samāptaḥ ǁ</note>
+                  </msItem>
+                  <msItem n="47">
+                     <note source="#WinternitzKeith1905">iti śrīāryyamantrānusādhanīpaṃcamamaṃtro
+                        dhāº saº ǁ The last five Dhāraṇīs (ff. 43–49) are extracts from the
+                        Pañcarakṣā, see above no. 1447.</note>
+                  </msItem>
+                  <msItem n="48">
+                     <note source="#WinternitzKeith1905">iti śrī 3 mahākālāstavavajravīranāmastotraṃ
+                        samāptaḥ ǁ</note>
+                  </msItem>
+                  <msItem n="49">
+                     <note source="#WinternitzKeith1905">Kālacakra Dh. (with a curious mystic
+                        drawing or diagram on f. 50v).</note>
+                  </msItem>
+                  <msItem n="50">
+                     <note source="#WinternitzKeith1905">Mahāmegha Dh.</note>
+                  </msItem>
+                  <msItem n="51">
+                     <note source="#WinternitzKeith1905">Varṣāpaṇa Dh.</note>
+                  </msItem>
+                  <msItem n="52">
+                     <locus>[fols. 56-59v]</locus>
+                     <note source="#WinternitzKeith1905">the Sragdharāstotra, by Sarvajñamitra, in
+                        thirty-seven sections</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namaḥ śrī 3 āryyatārāyaiḥ ǁ vālārkkā
+                        lokatāmra pravalasurasirāś cārucuḍāmaṇiśrīsampatsaṃpatkarāgāḥ
+                        naticiraracitāḥ raktakavyaktabhaktiḥ ǁ &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">iti Sarvvajñamitra viracitaṃḥ
+                        āryyatārābharttārikāyāḥ Śragadhārāstuti saṃpūrṇṇa samāptāḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="53">
+                     <locus>[fols. 59v-61v]</locus>
+                     <note source="#WinternitzKeith1905">the Tārāśatanāma Dh., or
+                        Nāmāṣṭottaraśataka, or Tārāṣṭottaraśatanāmastotra.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo śrī 3 ekajatiāryyatārāyaiḥ ǁ
+                        śrīmaṭ potarake ramve nānādhātuvirājite | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">sadā virahito vuddhaiḥ jatra
+                        jatrotpapadyate ǁ o ǁ iti āryatārābharṭārikāyāḥ nāmāstottarasatakaṃ
+                        vuddhabhākhitaṃ samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="54">
+                     <note source="#WinternitzKeith1905">iti āryyamahākālatantranamantrapatala
+                        samāptaḥ ‖ (Mahākālatantra Dh.).</note>
+                  </msItem>
+                  <msItem n="55">
+                     <note source="#WinternitzKeith1905">Tārā Ekaviṃśatistotra.</note>
+                  </msItem>
+                  <msItem n="56">
+                     <locus>[fols. 64-73v]</locus>
+                     <note source="#WinternitzKeith1905">the Lokeśvaraśataka, by Vajradatta.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo lokanāthāyaḥ ǁ ǁ
+                        bhāsvanmānikyabhāsvoḥ makutabhṛtinamaṃ nākanāthottaṅgaḥ |
+                        &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">kavir api janmani janmani bhaktacaraṇe
+                        | valokitesvarasya | prakṛtiśaraṇagotaradhīḥ parahitagurukāryyaṃṣya mahāṅge
+                        patalikaḥ śrīvajradattaviracitaṃ | śrī 3 Lokeśvarasatakaṃ samāptaḥ
+                        ǁ</explicit>
+                  </msItem>
+                  <msItem n="57">
+                     <note source="#WinternitzKeith1905">Śitarāstotra.</note>
+                  </msItem>
+                  <msItem n="59">
+                     <note source="#WinternitzKeith1905">āryyaprajñāpāramitāhṛdayadhāraṇi
+                        pañcaviṃsatikāḥ nāmadhāraṇi samaptaḥ ǁ</note>
+                  </msItem>
+                  <msItem n="60">
+                     <note source="#WinternitzKeith1905">Vajravārāhī Dh.</note>
+                  </msItem>
+                  <msItem n="61">
+                     <note source="#WinternitzKeith1905">Ṣaḍakṣarī Dh.</note>
+                  </msItem>
+                  <msItem n="62">
+                     <note source="#WinternitzKeith1905">Nīra- or Nīla-Sarasvatī Dhāraṇī.</note>
+                  </msItem>
+                  <msItem n="63">
+                     <note source="#WinternitzKeith1905">Trayodaśātmakastuti, or Heruka Dh.</note>
+                  </msItem>
+                  <msItem n="64">
+                     <note source="#WinternitzKeith1905">Herukavajradākatantra Dh., or Vajradāka
+                        Dh.</note>
+                  </msItem>
+                  <msItem n="65">
+                     <note source="#WinternitzKeith1905">Vajrasatvakavaoa Dh.</note>
+                  </msItem>
+                  <msItem n="66">
+                     <note source="#WinternitzKeith1905">The title is given as Pīthāstaka Dh. in the
+                        margin and in the table of contents.</note>
+                  </msItem>
+                  <msItem n="67">
+                     <locus>[fols. 81v-82v]</locus>
+                     <note source="#WinternitzKeith1905">the Saptabuddhastotra, from the Sugata
+                        Avadāna, nine verses.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo śrīvajrasatvāyaḥ ǁ oṃ nama śrī 3
+                        saptavuddhebhyaḥ ǁ utpanno vandhumatyāṃ nṛpativalakule yo Vipaśvīti nāmnā |
+                        yaśpāṣītisahasrā | taramaraṇaguro | rāyur āsi gatānāṃ | yenāvāptaṃ |
+                        &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">saklapāśān muniya iva varāḥ
+                        nivṛtisaṃprayātuḥ ǁ 9 ǁ iti śrīsugatāvadānoktasaptavuddhastuti samāptaḥ
+                        ǁ</explicit>
+                  </msItem>
+                  <msItem n="68">
+                     <locus>[fols. 82v-86]</locus>
+                     <note source="#WinternitzKeith1905">the Ugratārā Dh.</note>
+                     <incipit source="#WinternitzKeith1905">1 oṃ namo bhagavate Ugratārāyaiḥ ǁ namaḥ
+                        śrāvakapratyekavuddhaḥ vodhisatvaḥ krodharājavuddhadharmmasaṃghebhyaḥ |
+                        &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">vajrajogiṇi ekajatāḥ Urggatārādhāraṇi
+                        samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="69">
+                     <note source="#WinternitzKeith1905">Yogāmbara Dh., and Aṣṭadākinī Dh.</note>
+                  </msItem>
+                  <msItem n="70, 71">
+                     <note source="#WinternitzKeith1905">Vajrayoginī Dh., by Gautama Ṛṣi.</note>
+                  </msItem>
+                  <msItem n="72">
+                     <note source="#WinternitzKeith1905">Saṃvaramārāmantra Dh.</note>
+                  </msItem>
+                  <msItem n="73">
+                     <note source="#WinternitzKeith1905">Vajradākinī, or Vajravīrāsaṇī Dh.</note>
+                  </msItem>
+                  <msItem n="74">
+                     <locus>[fols. 88-93]</locus>
+                     <note source="#WinternitzKeith1905">Aparimitāyu Mahāyānasūtra, or Aparimitā
+                        Dhāraṇī.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namaḥ śrī 3 vuddhadharmmasaṅghebhyaḥ
+                        ǁ oṃ evaṃ mayā śrutam ekasmiṃ samaye bhagavān Srāvastyaṃ viharati sma ǁ ...
+                        tatra khalu bhagavān uparisthāyā disi aparimitaguṇasaṃcayā nāma lokadhātuḥ |
+                        &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">āryyaaparamitāyu nāma mahāyānasūtraṃ
+                        ratnarājaṃ samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="75">
+                     <note source="#WinternitzKeith1905">Vasundhārāhṛdaya Dh.</note>
+                  </msItem>
+                  <msItem n="76, 77">
+                     <note source="#WinternitzKeith1905">Yogāmbarakalparāja Tantra, or
+                        Yogāmbarakalpa Dh., and Grahamātṛkāhṛdaya Dh.</note>
+                  </msItem>
+                  <msItem n="78">
+                     <note source="#WinternitzKeith1905">Nāmasaṃgatihṛdaya Dh.</note>
+                  </msItem>
+                  <msItem n="79">
+                     <note source="#WinternitzKeith1905">Cakrasaṃvarasya tantrāntapatalahṛdaya, or
+                        Cakrasamvara Dh.</note>
+                  </msItem>
+                  <msItem n="80, 81">
+                     <note source="#WinternitzKeith1905">Alapañcana Dh., and Vajrakrodharāja
+                        Tantra.</note>
+                  </msItem>
+                  <msItem n="82, 83">
+                     <note source="#WinternitzKeith1905">Lokeśvara Dh., Sarvapāpadahana Dh., and
+                        Puṇyavivardhana (or Pūrṇaº?) Dh.</note>
+                  </msItem>
+                  <msItem n="84">
+                     <locus>[fols. 96v-107]</locus>
+                     <note source="#WinternitzKeith1905">the shortest redaction of the Svayambhū
+                        Purāṇa, in eight parivartas.</note>
+                     <incipit source="#WinternitzKeith1905">1 oṃ nama śrīdharmmadhātave ǁ
+                        natvārkavandhujagadīkavandhu ǁ svayaṃbhubhakkārakanādidevaṃ |
+                        jarārujāmṛtyahayaikadakṣaṃ vakṣe kadudesamahastamastaṃ ǁ Nepāle
+                        jagadikhyātya Geśṛṃgo nāma parvvateḥ bhedo ti ca juge satyaḥ
+                        nāmasyajugodayaṃ | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">iti
+                        śrīsvayambhuḥpurāṇacaityabhaṭṭārakoddeśe mahāprabhāvarṇṇano
+                        nāmāṣṭamaparirttaḥ samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="85">
+                     <note source="#WinternitzKeith1905">Dvādaśasaniścara Dh</note>
+                  </msItem>
+                  <msItem n="86">
+                     <note source="#WinternitzKeith1905">Bhṛkutitārā Dh.</note>
+                  </msItem>
+                  <msItem n="87">
+                     <note source="#WinternitzKeith1905">Sarasvatī, or Suvarṇaprabhā-Sarasvatī
+                        Stotra.</note>
+                  </msItem>
+                  <msItem n="88">
+                     <note source="#WinternitzKeith1905">Hanumantahṛdaya Dh.</note>
+                  </msItem>
+                  <msItem n="89">
+                     <note source="#WinternitzKeith1905">Karavīra Dh.</note>
+                  </msItem>
+                  <msItem n="90">
+                     <note source="#WinternitzKeith1905">Candramahāroṣaṇa Dh.</note>
+                  </msItem>
+                  <msItem n="91">
+                     <note source="#WinternitzKeith1905">Jakṣāstaka Dh.</note>
+                  </msItem>
+                  <msItem n="92">
+                     <note source="#WinternitzKeith1905">Guhyasvarimantra Dh., or Guhyasvarinairātmā
+                        Dh.</note>
+                  </msItem>
+                  <msItem n="93">
+                     <locus>[fols. 111-116v]</locus>
+                     <note source="#WinternitzKeith1905">the Durgatipariśodhana Dh., or the first
+                        part of the Sarvadurgatipariśodhana.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ nama śrīvajrasatvāyaḥ ǁ oṃ namo
+                        bhagavate sarvvadurggatipariśvadhanarājasya ǁ oṃ vajrādhiṣṭhānasamayahūṃ ǁ
+                        &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">oṃ hūṃ vaṃ ho phaṭ oṃ vajrābhiṣiṃ
+                        camitiḥ ǁ ǁ idaṃm avocat bhagavān … abhyanandann itiḥ ǁ ǁ
+                        āryyasarvvadurggatipariśvadha-narājasya tathāgatā yā ’rhanta
+                        saṃmyaksamvuddhasya kalpadeśaya samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="94">
+                     <note source="#WinternitzKeith1905">Daśakrodha Dh.</note>
+                  </msItem>
+                  <msItem n="95">
+                     <note source="#WinternitzKeith1905">Ṣaḍbhūjamāhākālasādhana Dh.</note>
+                  </msItem>
+                  <msItem n="117">
+                     <note source="#WinternitzKeith1905">the Śṛṅgabherikathā, from the Citraviṃśati
+                        Avadāna</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo ratnatrayāyaḥ ǁ ākāsā
+                        nirmmarībhūtāḥ niṣpapañcaguṇāśrayaḥ ǁ pañcaskaṃdhātmakaṃ śāntaṃ | tasmai
+                        bhūpātmane namaḥ ǁ o ǁ evaṃ mayā śrutam ekasmiṃ samaya bhagavān Rājagṛhe
+                        viharati sma ǁ &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">aparimita surasaṃghaiḥ devakaṃṇyā
+                        bhikṣukkaiḥ jinavalaśutatulyaḥ puryyamāno nṛpodyaiḥ ǁ paṇimayaśubhageheḥ
+                        tiṣṭhati staṃbhaśobhe ǁ pathati dharaṇacāpiḥ śrāvayas tu sa dharmma ǁ o ǁ
+                        iti citraviṃśatyāvaneḥ saṃcchiptacaityavrataśṛṃṅgabherīkathā samāptaḥ
+                        ǁ</explicit>
+                  </msItem>
+                  <msItem n="97">
+                     <locus>[fols. 127v-135v]</locus>
+                     <note source="#WinternitzKeith1905">the Aśvaghoṣa Avadāna.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namo bhagavate āryyaśñvaśuṃddhārāyaiḥ
+                        ǁ vaśuṃddhārā sadā natvā dāridrānavatāraṇiḥ deśayāmi manuṣyārthaḥ
+                        sarvvadukhapramocani ǁ pūrvvaśrīvaśudhārādevī vratasūtraṃ prakāsetaṃḥ ǁ
+                        kathā pravakṣāmi śrūyatāṃ | &amp;c.</incipit>
+                     <explicit source="#WinternitzKeith1905">śukhena tiṣṭhatiḥ ǁ ǁ iti
+                        śrīvaśudhārāvratapūrvvamatyamandalāgatakathā parisamāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="98">
+                     <note source="#WinternitzKeith1905">Vajrayoginī Dh.</note>
+                  </msItem>
+                  <msItem n="99–101">
+                     <note source="#WinternitzKeith1905">Pratyaṅgirāmantra Dh., Mahākālahṛdaya Dh.,
+                        and Candradvādaśa Dh.</note>
+                  </msItem>
+                  <msItem n="102-104">
+                     <note source="#WinternitzKeith1905">Prajñāpāramitā Dh., Gandhavyūha Dh., and
+                        Samādhirāja Dh.</note>
+                  </msItem>
+                  <msItem n="105">
+                     <note source="#WinternitzKeith1905">Suvarṇaprabhā Dh.</note>
+                  </msItem>
+                  <msItem n="106">
+                     <note source="#WinternitzKeith1905">Laṅkāvatāra Dh.</note>
+                  </msItem>
+                  <msItem n="107">
+                     <note source="#WinternitzKeith1905">(Lalitavistara Dh.).</note>
+                  </msItem>
+                  <msItem n="108">
+                     <note source="#WinternitzKeith1905">Tathāgataguhyaka Dh.</note>
+                  </msItem>
+                  <msItem n="109">
+                     <note source="#WinternitzKeith1905">(Daśabhūmikā Dh.).</note>
+                  </msItem>
+                  <msItem n="111">
+                     <note source="#WinternitzKeith1905">Mañjughoṣa Dh.</note>
+                  </msItem>
+                  <msItem n="112">
+                     <note source="#WinternitzKeith1905">Sarvajñatākāra Dh.</note>
+                  </msItem>
+                  <msItem n="113, 114.">
+                     <note source="#WinternitzKeith1905">Saṭpāramitāhṛdaya Dh., and
+                        Gaganākṣepavajrayoginī Dh.</note>
+                  </msItem>
+                  <msItem n="115, 116.">
+                     <note source="#WinternitzKeith1905">Rakkayamārī Dh., and Prasannatārā
+                        Dh.</note>
+                  </msItem>
+                  <msItem n="117-119">
+                     <note source="#WinternitzKeith1905">Mahābhairava Dh., Siddhivighneśvara Dh.,
+                        and Gaṇeśaṣoḍaśa Dh. (or Sodaśagaṇeśa Dh.).</note>
+                  </msItem>
+                  <msItem n="120, 121">
+                     <note source="#WinternitzKeith1905">Kālacakranivardha Dh., and Vajraśṛṅkhalā,
+                        or Śṛṅkhalā Dh.</note>
+                  </msItem>
+                  <msItem n="122">
+                     <note source="#WinternitzKeith1905">Sapanevidyā (Sapnevidyā?) Dh.</note>
+                  </msItem>
+                  <msItem n="123">
+                     <note source="#WinternitzKeith1905">Ṣaṇmuṣi Dh.</note>
+                  </msItem>
+                  <msItem n="124">
+                     <note source="#WinternitzKeith1905">Sūryadvādaśa (or Dvādaśasūrya, or
+                        Adityadvādaśa) Dh.</note>
+                  </msItem>
+                  <msItem n="125">
+                     <note source="#WinternitzKeith1905">Navagrahamantravinyāsa Dh.</note>
+                  </msItem>
+                  <msItem n="126">
+                     <note source="#WinternitzKeith1905">Rāhuvyagrahaśānti Dh.</note>
+                  </msItem>
+                  <msItem n="127">
+                     <note source="#WinternitzKeith1905">Ketugrahaśānti. Dh.</note>
+                  </msItem>
+                  <msItem n="128">
+                     <note source="#WinternitzKeith1905">Vajradākiṇihṛdaya Dh.</note>
+                  </msItem>
+                  <msItem n="129">
+                     <locus>[fols. 161-163v]</locus>
+                     <note source="#WinternitzKeith1905">the Tattvajñānasaṃsiddhi, in five
+                        chapters</note>
+                     <explicit source="#WinternitzKeith1905">iti Tatvajñānasaṃsiddhau pūjāvidhi ǁ 1
+                        ǁ; iti Taº bhāvanāvidhi ǁ 2 ǁ; iti Taº syasanasaḥ niṣpānagrahavidhiḥ ǁ 3 ǁ;
+                        iti Taº mantrādhāraṇa vidhiḥ ǁ; and Tatvajñānasaṃsiddhināmasvādhisthānakrama
+                        iti jo samāptaḥ ǁ</explicit>
+                  </msItem>
+                  <msItem n="130">
+                     <note source="#WinternitzKeith1905">Uṣṇīṣacakravartti Dh.</note>
+                  </msItem>
+                  <msItem n="131, 132">
+                     <note source="#WinternitzKeith1905">Viśvamātā Dh., and Māricī Dh.</note>
+                  </msItem>
+                  <msItem n="133-135">
+                     <note source="#WinternitzKeith1905">Jāṅgulī Dh., Vajrahūṃkārabhairava,’ or
+                        Hūṃkārabhairava Dh., and Maitreya Dh.</note>
+                  </msItem>
+                  <msItem n="136">
+                     <note source="#WinternitzKeith1905">(Mahāsaṃvara Dh.).</note>
+                  </msItem>
+                  <msItem n="137, 138">
+                     <note source="#WinternitzKeith1905">Bhūtadāmvarasamkṣipta Dh., and Carocikā, or
+                        Vajracarooikā Dh.</note>
+                  </msItem>
+                  <msItem n="139">
+                     <locus>[fols. 166v-174]</locus>
+                     <note source="#WinternitzKeith1905">the Vasundhārā Dhāraṇī.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namaḥ bhagavate
+                        āryyaśrīvasuṃdhārāyaiḥ ǁ evaṃ mayā śrutam ekasmiṃ samaya bhagavān ǁ
+                        Kauśādimahānagaryyāṃ viharati sma ǁ… tatra khalu bhagavān
+                        Kausāvyāmahānagaryyāṃ Sucandro nāma vṛhaspati prativasaṃti sma ǁ
+                        &amp;c.</incipit>
+                  </msItem>
+                  <msItem n="140">
+                     <locus>[fols. 174-192]</locus>
+                     <note source="#WinternitzKeith1905">the Kapiśa Avadāna, in ten adhyāyas.</note>
+                     <incipit source="#WinternitzKeith1905">oṃ nama śrīsarvvajñāyaḥ ǁ
+                        kaṃdaṃrppadarppaśamanaṃ pranipatya mudhnāḥ soddhodanīsuranarāccitapādapīṭha
+                        śrutvā guro sugatasūtraṃ satatvavijñaṃ sūtraṃ tadarthasamanusmaraṇaṃ kariṣya
+                        ǁ &amp;c.</incipit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">thick yellow paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure type="leaf" quantity=" 197"> 197</measure><dimensions type="binding" unit="cm">
+                              <height quantity="43.2">43.2</height>
+                              <width quantity="18.7">18.7</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Newārī">
+                        <desc>Newārī</desc>
+                     </handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1819" source="#WinternitzKeith1905">A. D.
+                        1819.</origDate>
+                     <p source="#WinternitzKeith1905">śubhasaṃ 939 sti vaiśākhaśu 11 śubhaṃ, i. e.
+                        Newārī saṃvat 939 or a. d. 1819.</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">Presented to the Bodleian Library by
+                        <persName key="person_00207">Brian Houghton Hodgson</persName> in
+                     1837.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n290/mode/1up">no. 1449 (1–140), pp.
+                              259-262</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n290/mode/1up">no. 1449 (1–140), pp. 259-262</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

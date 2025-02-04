@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02780">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_c_1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. c.</collection>
+                  <idno type="shelfmark">MS. Sansk. c. 1</idno>
+                  <idno type="ieArk">ark:29072/x0g158bj14rw</idno><idno type="crArk">ark:29072/x0fx719n31f1</idno><altIdentifier>
+                     <idno type="CSM">1006 (1–70)</idno>
+                  </altIdentifier><altIdentifier type="former" source="#WinternitzKeith1905"><idno>MS. Bodl. Sanscr. 1.</idno></altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Upaniṣads, about A. D. 1848.</head>
+               <msContents>
+                  <summary source="#WinternitzKeith1905">Seventy Upaniṣads, all of which also occur in the collection of ‘Upaniṣads known to the Āndhrika Paṇḍits, and procured by Sir Walter Elliot, in Telingana, in the years 1850–1851</summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1">                      
+                  <locus>[fols. 1-12]</locus><note source="#WinternitzKeith1905">the Kauṣītaki Upaniṣad,</note></msItem>
+               <msItem n="2"><locus>[fols. 13-30]</locus><note source="#WinternitzKeith1905">the Gopālapūrvatāpanīya,</note></msItem><msItem n="3"><locus>[fols. 33-43]</locus><note source="#WinternitzKeith1905">the Gopālottaratāpanīya,</note></msItem><msItem n="4"><locus>[fols. 45-68]</locus><note source="#WinternitzKeith1905">the Tripurātapana,</note></msItem><msItem n="5"><locus>[fols. 69-71]</locus><note source="#WinternitzKeith1905">the Tripura,</note></msItem><msItem n="6"><locus>[fols. 73-74]</locus><note source="#WinternitzKeith1905">the  Skanda,</note></msItem><msItem n="7"><locus>[fols. 77-97]</locus><note source="#WinternitzKeith1905">the  Darśana,</note></msItem><msItem n="8"><locus>[fols. 99-101]</locus><note source="#WinternitzKeith1905">the  Vajrasūcikā,</note></msItem><msItem n="9"><locus>[fols. 103-106]</locus><note source="#WinternitzKeith1905">the  Ātmabodha,</note></msItem><msItem n="10"><locus>[fols. 107-110]</locus><note source="#WinternitzKeith1905">the  Amṛtanāda,</note></msItem><msItem n="11"><locus>[fols. 111-132]</locus><note source="#WinternitzKeith1905">the  Paiṅgala,</note></msItem><msItem n="12"><locus>[fols. 133-137]</locus><note source="#WinternitzKeith1905">the  Nirālamba,</note></msItem><msItem n="13"><locus>[fols. 141-155]</locus><note source="#WinternitzKeith1905">the  Citi (= Taitt.Ār.III),</note></msItem><msItem n="14"><locus>[fols. 156-210]</locus><note source="#WinternitzKeith1905">the  Taittirīya,</note></msItem><msItem n="15"><locus>[fols. 213-221]</locus><note source="#WinternitzKeith1905">the  Adhyātma,</note></msItem><msItem n="16"><locus>[fols. 223-228]</locus><note source="#WinternitzKeith1905">the  Advaitārka,</note></msItem><msItem n="17"><locus>[fols. 229-235]</locus><note source="#WinternitzKeith1905">the  Akṣamālikā,</note></msItem><msItem n="18"><locus>[fols. 237-243]</locus><note source="#WinternitzKeith1905">the  Akṣi,</note></msItem><msItem n="19"><locus>[fols. 245-280]</locus><note source="#WinternitzKeith1905">the  Annāpūrṇa,</note></msItem><msItem n="20"><locus>[fols. 281-292]</locus><note source="#WinternitzKeith1905">the  Avadhūta,</note></msItem><msItem n="21"><locus>[fols. 293-294]</locus><note source="#WinternitzKeith1905">the  Bahvṛca,</note></msItem><msItem n="22"><locus>[fols. 295-308]</locus><note source="#WinternitzKeith1905">the  Bhasmajābāla,</note></msItem><msItem n="23"><locus>[fols. 309-312]</locus><note source="#WinternitzKeith1905">the  Bhāvanā,</note></msItem><msItem n="24"><locus>[fols. 313-314]</locus><note source="#WinternitzKeith1905">the  Bhikṣuka,</note></msItem><msItem n="25"><locus>[fols. 315-334]</locus><note source="#WinternitzKeith1905">the  Bṛhajjābāla,</note></msItem><msItem n="26"><locus>[fols. 335-338]</locus><note source="#WinternitzKeith1905">the  Dakṣiṇāmūrti,</note></msItem><msItem n="27"><locus>[fols. 339-343]</locus><note source="#WinternitzKeith1905">the  Dattātreya,</note></msItem><msItem n="28"><locus>[fols. 345-348]</locus><note source="#WinternitzKeith1905">the  Devī,</note></msItem><msItem n="29"><locus>[fols. 349-350]</locus><note source="#WinternitzKeith1905">the  Ekākṣara,</note></msItem><msItem n="30"><locus>[fols. 351-353]</locus><note source="#WinternitzKeith1905">the  Gaṇapati,</note></msItem><msItem n="31"><locus>[fols. 355-358]</locus><note source="#WinternitzKeith1905">the  Hayagrīva,</note></msItem><msItem n="32"><locus>[fols. 359-361]</locus><note source="#WinternitzKeith1905">the  Jābāla,</note></msItem><msItem n="33"><locus>[fols. 363-364]</locus><note source="#WinternitzKeith1905">the  Kalisaṃtaraṇa,</note></msItem><msItem n="34"><locus>[fols. 365-370]</locus><note source="#WinternitzKeith1905">the  Kaṭha,</note></msItem><msItem n="35"><locus>[fols. 371-373]</locus><note source="#WinternitzKeith1905">the  Kṛṣṇa,</note></msItem><msItem n="36"><locus>[fols. 375-378]</locus><note source="#WinternitzKeith1905">the  Kuṇḍinaka,</note></msItem><msItem n="37"><locus>[fols. 379-434]</locus><note source="#WinternitzKeith1905">the  Mahāvākya,</note></msItem><msItem n="38"><locus>[fols. 435-436]</locus><note source="#WinternitzKeith1905">the  Mahāvākya,</note></msItem><msItem n="39"><locus>[fols. 437-444]</locus><note source="#WinternitzKeith1905">the  Maitrāyaṇīya,</note></msItem><msItem n="40"><locus>[fols. 445-455]</locus><note source="#WinternitzKeith1905">the  Maṇḍalabrāhmaṇa,</note></msItem><msItem n="41"><locus>[fols. 457-458]</locus><note source="#WinternitzKeith1905">the  Mantrikā,</note></msItem><msItem n="42"><locus>[fols. 459-463]</locus><note source="#WinternitzKeith1905">the  Mudgala,</note></msItem><msItem n="43"><locus>[fols. 465-480]</locus><note source="#WinternitzKeith1905">the  Muktikā,</note></msItem><msItem n="44"><locus>[fols. 481-528]</locus><note source="#WinternitzKeith1905">the  Nāradaparivrajaka,</note></msItem><msItem n="45"><locus>[fols. 529-531]</locus><note source="#WinternitzKeith1905">the  Nirvāṇa,</note></msItem><msItem n="46"><locus>[fols. 533-538]</locus><note source="#WinternitzKeith1905">the  Parabrahma,</note></msItem><msItem n="47"><locus>[fols. 539-542]</locus><note source="#WinternitzKeith1905">the  Pañcabrahma,</note></msItem><msItem n="48"><locus>[fols. 543-545]</locus><note source="#WinternitzKeith1905">the  Paramahamsa,</note></msItem><msItem n="49"><locus>[fols. 547-553]</locus><note source="#WinternitzKeith1905">the  Rahasya,</note></msItem><msItem n="50"><locus>[fols. 555-573]</locus><note source="#WinternitzKeith1905">the  Rāmarahasya,</note></msItem><msItem n="51"><locus>[fols. 575-578]</locus><note source="#WinternitzKeith1905">the  Śrīrudrahṛdaya,</note></msItem><msItem n="52"><locus>[fols. 579-585]</locus><note source="#WinternitzKeith1905">the  Rudrajābāla,</note></msItem><msItem n="53"><locus>[fols. 587-609]</locus><note source="#WinternitzKeith1905">the  Śāṇḍilya,</note></msItem><msItem n="54"><locus>[fols. 611-615]</locus><note source="#WinternitzKeith1905">the  Śarabha,</note></msItem><msItem n="55"><locus>[fols. 617-623]</locus><note source="#WinternitzKeith1905">the  Sarasvatīrahasya, ib., no. 125.</note></msItem><msItem n="56"><locus>[fols. 625-627]</locus><note source="#WinternitzKeith1905">the  Śārīraka,</note></msItem><msItem n="57"><locus>[fols. 629-634]</locus><note source="#WinternitzKeith1905">the  Śāṭyāyanīya,</note></msItem><msItem n="58"><locus>[fols. 635-637]</locus><note source="#WinternitzKeith1905">the  Sāvitri,</note></msItem><msItem n="59"><locus>[fols. 639-644]</locus><note source="#WinternitzKeith1905">the  Sītā,</note></msItem><msItem n="60"><locus>[fols. 645-649]</locus><note source="#WinternitzKeith1905">the  Saubhāgyalakṣaṇa,</note></msItem><msItem n="61"><locus>[fols. 651-669]</locus><note source="#WinternitzKeith1905">the  Subālā,</note></msItem><msItem n="62"><locus>[fols. 671-674]</locus><note source="#WinternitzKeith1905">the  Sūrya,</note></msItem><msItem n="63"><locus>[fols. 675-678]</locus><note source="#WinternitzKeith1905">the  Tārasāra,</note></msItem><msItem n="64"><locus>[fols. 679-696]</locus><note source="#WinternitzKeith1905">the  Triśikhibrāhmaṇa,</note></msItem><msItem n="65"><locus>[fols. 697-699]</locus><note source="#WinternitzKeith1905">the  Turīyātītāvadhūta,</note></msItem><msItem n="66"><locus>[fols. 701-726]</locus><note source="#WinternitzKeith1905">the  Varāha,</note></msItem><msItem n="67"><locus>[fols. 727-730]</locus><note source="#WinternitzKeith1905">the  Vāsudeva,</note></msItem><msItem n="68"><locus>[fols. 731-735]</locus><note source="#WinternitzKeith1905">the  Yājñavalkya,</note></msItem><msItem n="69"><locus>[fols. 737-748]</locus><note source="#WinternitzKeith1905">the  Yogacūḍāmaṇi,</note></msItem><msItem n="70"><locus>[fols. 749-764]</locus><note source="#WinternitzKeith1905">the  Yogakuṇḍalī,</note></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper of European manufacture, water-marked ‘E. Shaw &amp; Son, Calthrop Mill, 1848.’</support>
+                        <extent>
+                           <measure type="laterEndleaf"/>
+                           + <measure type="leaf"> </measure>
+                           + <measure type="laterEndleaf"/>
+
+                        <dimensions type="binding" unit="cm">
+                           <height quantity="20.3">20.3</height>
+                           <width quantity="21.6">21.6</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Telugu" source="#WinternitzKeith1905"><desc>Telugu.</desc></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" when="1848" source="#WinternitzKeith1905">A. D. 1848.</origDate>
+                  <p source="#WinternitzKeith1905">as noted above, the paper is dated 1848, which must be approximately the date of the MS.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1861.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n103/mode/1up">no. 1006 (1–70), pp. 72-73</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n103/mode/1up">no. 1006 (1–70), pp. 72-73</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

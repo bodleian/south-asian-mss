@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02761">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_b_29</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. b.</collection>
+                  <idno type="shelfmark">MS. Sansk. b. 29</idno>
+                  <idno type="ieArk">ark:29072/x0d217qq48j0</idno><idno type="crArk">ark:29072/x0cz30pt6574</idno><altIdentifier>
+                     <idno type="CSM">1131 (1–4)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former" source="#WinternitzKeith1905">
+                     <idno>Sansk. 29.</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Kātantra with Durgasiṃha’s Commentary,
+                  &amp;c., 16th or 17th cent.?</head>
+               <msContents>
+                  <summary> </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper, imitating palm-leaves in shape
+                           and colour, with central hole like the Bengālī palm-leaf MSS., the leaves
+                           being held together by two boards.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="leaf" quantity="148">148</measure>
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="44.5">44.5</height>
+                              <width quantity="8.9">8.9</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Bengālī" source="#WinternitzKeith1905">
+                        <desc>Bengālī.</desc>
+                        <p source="#WinternitzKeith1905">His patron was Rāmakiśoraśarman; see f.
+                           132: oṃ śrīgurave namaḥ | śrīrāmakiśortiśarmmaṇaḥ pustakam idaṃ.</p>
+                     </handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1500" notAfter="1699">16th or 17th
+                        cent.?</origDate>
+                     <p source="#WinternitzKeith1905">The MS. appears to be very old, and it is more
+                        likely to belong to the 16th than to the 17th century.</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1880 from
+                     Quaritch.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n160/mode/1up">no. 1131 (1–4), p. 129</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n160/mode/1up">no. 1131 (1–4), p. 129</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. b. 29(1) [fols 1-132]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>the Kātantra, with the commentary of Durgasiṃha, the fourth part,
+                        treating of the Kṛt suffixes.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        
+                        <incipit source="#WinternitzKeith1905">oṃ namas tāriṇyai ǁ vṛkṣādivad amī
+                           rūḍhāḥ kṛtinā na kṛtāḥ kṛtaḥ | Kātyāyanena te sṛṣṭā vivuddhiprativuddhaye
+                           ǁ siddhir ijvad nṇānuvandhe ǁ ñānuvandhe ṇānuvandhe ca kṛti pare dhātor
+                           icīva kāryyasya siddhir atidiśyate | &amp;c.</incipit>
+                        <explicit source="#WinternitzKeith1905">avarṇṇād ūṭo vṛddhiḥ ǁ … dhāvu
+                           dhautaḥ dhautavān ava ūtiḥ paṭasyotiḥ paṭotiḥ janānavatīti janauḥ janāvau
+                           ūṭa iti kiṃ adyoḍhā soḍhā | aur iti siddhe vṛddhigrahaṇaṃ maṅgalārthaṃ ǁ
+                           ǁ iti Daurgasiṃhyāṃ vṛttau kṛtsu ṣaṣṭhaḥ pādaḥ samāptaḥ ǁ</explicit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. b. 29(2) [fols 134-136]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>the text of the Kātantra, 4, vi.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        
+                        <incipit source="#WinternitzKeith1905">alaṃkhalvoḥ pratiṣedhayoḥ ktvā vā
+                           |</incipit>
+                        <explicit source="#WinternitzKeith1905">avarṇṇād ūto vṛddhiḥ ǁ iti kṛtsu
+                           ṣaṣṭhaḥ pādaḥ samāptaḥ ǁ</explicit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. b. 29(3) [fols 137v-139v]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>fragment of the Ṛtusaṃhāra, by Kālidāsa, from I, 1–25.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        
+                        <incipit source="#WinternitzKeith1905">oṃ namaḥ Kāmadevāya ǁ viśeṣasūryyaḥ
+                           spṛhanīyacandramāḥ sadāvagāhakṣatavārisancayaḥ |</incipit>
+                        <explicit source="#WinternitzKeith1905">dhvanati pavanaviddhaḥ parvvatānān
+                           darīṣu sphuṭati paṭuninādaḥ śuskavaṃsasthalīṣu | prasarati tṛṇamadhye
+                           lavdhavṛddhiḥ kṣaṇena glapayati ǁ</explicit>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Sansk. b. 29(4) [fols 137r, 140-148]</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>Odd fragments of works, which it has not been possible to
+                        identify.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                  </msContents>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

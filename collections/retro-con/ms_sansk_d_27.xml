@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02946">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_d_27</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. d.</collection>
+                  <idno type="shelfmark">MS. Sansk. d. 27</idno>
+                  <idno type="ieArk">ark:29072/x0c821gk824g</idno><idno type="crArk">ark:29072/x0c534fp98td</idno><altIdentifier>
+                     <idno type="CSM">1094 (1–12)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Gadādhara’s Sāmānyanirukti, and Minor Law-books (Hārītasmṛti, &amp;c.), 18th or 19th cent.?</head>
+               <msContents>
+                  <summary>
+                     
+                  </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support source="#WinternitzKeith1905">Paper.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity=" 150"> 150</measure><dimensions type="binding" unit="cm">
+                           <height quantity="29.8">29.8</height>
+                           <width quantity="13.7">13.7</width>
+                        </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink" source="#WinternitzKeith1905"><desc>Devanāgarī.</desc><p source="#WinternitzKeith1905">1 was written by Viṣṇubhaṭṭa Bāpaṭa.</p></handNote></handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905">18th or 19th cent.?</origDate>
+                  <p source="#WinternitzKeith1905">both 1 and 2–12 seem to be scarcely older than a. d. 1800.</p></origin>
+                  <provenance>
+                  </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in Oct. 1892 from Quaritch’s Rough List 128 (no. 488).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n144/mode/1up">no. 1094 (1–12), pp. 113-115</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n144/mode/1up">no. 1094 (1–12), pp. 113-115</ref></biblScope></bibl></listBibl>
+                  </listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(1) [fols 1-33]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Sāmānyanirukti, by Gadādhara</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Sarasvatyai namaḥ | Bālakṛṣṇagurave namaḥ | hetvābhāsanirūpaṇe prasaṃgasyāpi saṃgatitvaṃ saṃbhavati ǁ vyāptipakṣadharmatā viśiṣṭahetunirūpaṇe vyāptipakṣadharmatā virodhitadvirahavato duṣṭahetoḥ smaraṇād atas tad atpradaśanena mūlasya nyūnatāṃ parijihīrṣuḥ | &amp;c.</incipit><explicit source="#WinternitzKeith1905">atrāyaṃ doṣa ity ādau svaviṣayakaniścayāvyavahi-tottarānumitiniṣṭhatā dṛśo bhayā bhāvādhikaraṇatā prayojakādhikaraṇatvatā prayojakādhikaraṇatātvavyā-pakavirodhiviṣayatā prayojyatākadharma eva doṣapadārtha iti dik ǁ ǁ iti Gadādharī Sāmānyaniruktiḥ samāptā</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(2) [fols 34-39]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Hārītasmṛti</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Hārītenaivam ākhyātaṃ lokānāṃ hitakāmyayā | prāyaścittaṃ cikitsārthaṃ me tat prāhur manīṣiṇaḥ |</incipit><explicit source="#WinternitzKeith1905">pitṛprasādād bhuṃjaṃte dhanāni nidhanāni ca sthāvaraṃ na bhujyeta prasāde sati paitṛke | sthāvaraṃ dvipadaṃ caiva yady api svayam arjitaṃ asaṃbhūya sutān sarvāṃn na dānaṃ na ca vikrayaḥ | iti śrīhārītapraṇītaṃ Dharmaśāstraṃ samāptaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(3) [fols 40-44]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Viṣṇusmṛti</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Viṣṇum ekāgram āsīnaṃ śrutismṛtividāṃ varaṃ | paprachur munayaḥ sarve Kajāyagrāmavāsinaḥ ǁ kṛtayuge hy apakṣīṇe lupto dharmaḥ sanātanaḥ | tena caiśvara mohena dharmo na pratimārgitaḥ ǁ</incipit><explicit source="#WinternitzKeith1905">āśramās tu trayaḥ proktā vaiśyarājanyayos tathā | pārivrajyāśramaprīti brāhmaṇasyaiva coditā ǁ āśramāṇām ayaṃ dharmo mayā proktaḥ sanātanaḥ | yad atrāviditaṃ kiṃcit tad anyebhyo gamiṣyatha ǁ iti śrīviṣṇuproktaṃ Dharmaśāstraṃ samāptaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(4) [fols 45-50]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Atrismṛti, in nine adhyāyas</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | hutvāgnihotram āsīnam Atriṃ vedavidāṃ varaṃ | prachaṃti jātasaṃdehā ṛṣayaḥ saṃsitavratāḥ ǁ bhagavan kena dānena japyena tapasaiva ca | mucyaṃte pātakair yuktās tan no brūhi mahāmune ǁ</incipit><explicit source="#WinternitzKeith1905">pratyāhāras tathā dhyānaṃ prāṇāyāmo ’tha dhāraṇā | tarkaś caiva samādhiś ca ṣaḍaṃgo yoga ucyate ǁ yas tv idaṃ paṭhate śāstraṃ viprebhyaś ca prayachati | mucyate sarvapāpebhyo braṃhmalokaṃ sa gachati ǁ ity Ātrīye Dharmaśāstre navamo ’dhyāyaḥ ǁ 9 ǁ</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(5) [fols 51-95]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Yājñavalkyasmṛti, in three adhyāyas</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | yogīśvaraṃ Yājñyavalkyaṃ saṃpūjya munayo ’bruvan | varṇāśrametarāṇāṃ no brūhi dharmān aśeṣataḥ | Mithilāsthaḥ sa yogīṃdraḥ kṣaṇam dhyātvā ’bruvan munīn | yasmin deśe mṛgaḥ kṛṣṇaḥ tasmin dharmān nibodhatata ǁ 2 ǁ</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(6) [fols 96-103]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Śātātapasmṛti</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Śātātapasya maharṣe Dharmaśāstraṃ vyākhyāsyāmaḥ | brāhmaṇaṃ hatvā tasya śiraḥkapālam ādaya tīrthāṃtaraṃ saṃcared ātmanaḥ | pāpakīrttanaṃ kurvan dvādaśāhdair viśudhyati | &amp;c.</incipit><explicit source="#WinternitzKeith1905">achidram iti yad vākyaṃ vadaṃti kṣitidevatāḥ | praṇamya śirasā grāhyam agniṣṭomaphalaiḥ saha ǁ Satātapam iti khyātaṃ dharmaśāstrottamottamaṃ | etat jñātvā dvijaḥ samyak yāti braṃhma sanātanaṃ ǁ iti śrīśātātapamaharṣiproktaṃ Dharmaśāstraṃ saṃpūrṇaṃ samāptā |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(7) [fols 104-107]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Vṛddha Śātātapasmṛti</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">oṃ namaḥ śrīgaṇeśāya namaḥ | Vṛddhasātā-tapaproktaṃ smṛtītaṃtraviniścayaṃ | saṃkṣepeṇa pravakṣyāmi yāvad arthopalabdhaye ǁ 1 ǁ nadītīreṣu goṣṭeṣa puṇyeṣv āyataneṣu ca | tatra gatvā śucau deśe braṃhma kūrcaṃ samācaret ǁ 2 ǁ palāśaṃ padma patraṃ vā tāmraṃ vātha hiraṇmayaṃ tatra bhuṃkte vratī nityaṃ tat pātraṃ samudāhṛtaṃ ǁ 3 ǁ</incipit><explicit source="#WinternitzKeith1905">śvaḥ kāryam adya kuvati pūrvāhne cāparāhnikaṃ | na hi pratīkṣatīkṣate mṛtyuḥ kṛtaṃ cāsya bhavārūtaṃ ǁ 70 ǁ ya strīṇāṃ na tyajed roge rattarottāralolubhiḥ | puro dīrghāṃ padanyāsai sthāyāṃ sāyaṃtanām iva ǁ 71 ǁ suchaṃdadhanajātena śākenāpi pramucyate iti budhvā samastādyaiḥ kaḥ kuryād asamaṃjasaṃ ǁ 72 ǁ iti Vṛddhaśātātapaḥ smṛtiḥ saṃpūrṇa samāpta |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(8) [fols 108-117]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Prajāpatismṛti, in 197 ślokas, a treatise on śrāddhas.</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | pitur vākyāthakārī ca rūriḥ pramlocayā saha | namasyovāca deveśaṃ Braṃhmāṇaṃ jagataḥ patiṃ ǁ 1 ǁ Brahman vidhe viraṃceti dhātaḥ śaṃbho prajāyate | tvatprasādād imaṃ dharmaṃ jagrāha pitṛvākyataḥ ǁ 2 ǁ anayā saha tīrtheṣu mayā śrāddhāny anekaśaḥ | kṛtāni pitṛtuṣṭyarthaṃ dhanārthaṃ putrakāmyayā ǁ 3 ǁ</incipit><explicit source="#WinternitzKeith1905">pārvaṇāni mayoktāni viparītāni tāni te | atharvaṇās tarpayaṃti tadvedoktamataṃ yathā ǁ 93 ǁ atithiṃ śrāddharakṣārthaṃm aṃte Viṣṇuṃ svarūpiṇaṃ | niveśaye Viṣṇusamaṃ brāhmaṇaṃ vedapāragaṃ ǁ 94 ǁ kavyavālādayo yamī vidyaṃte yaś ca pūrvajāḥ | sarveṣām eva varṇānāṃ śrāddhe tṛpyaṃti devatāḥ ǁ 95 ǁ sākṣāt Viṣṇuḥ dharmarājaḥ śrāddhadevaś ca kathyate | viśve devā pitṛtithisarvaṃ Viṣṇur iti sphuṭaṃ ǁ 96 ǁ pūrvajās tuṣṭim āyāṃti sarvadātā bhoktā na saṃśayaḥ | iti śrīprajāpatiḥ smṛtiḥ samāptā |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(9) [fols 118-128]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Vedavyāsasmṛti, or the Dharmaśāstra of Vyāsa, in four adhyāyas</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Vārāṇasyāṃ sukhāṣīnaṃ Vedavyāsaṃ taponidhiḥ | paprachur munayo nyetya dharmān varṇavyavasthitān ǁ sa pṛṣṭaḥ smṛtimān smṛtvā smṛti-vedārthagarbhitāṃ | uvācātha prasannātmā munayaḥ śuyatāṃ iti ǁ Adhyāya 1 (brahmacāryadhikāraḥ)</incipit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(10) [fols 129-132]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Bṛhaspatismṛti</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | iṣṭvā kratuśataṃ rājā samāptavaradakṣiṇaṃ | bhagavaṃtaṃ guruśreṣṭaṃ paryapṛcha Bṛhaspatiḥ ǁ 1 ǁ bhagavan kena dānena sarvataḥ sukham edhate | yad akṣayamahārthaṃ ca tato brūhi mahātapa ǁ</incipit><explicit source="#WinternitzKeith1905">adhitya sarvavedān vai sadyo duḥkhāt pramucyate | pāvanaṃ carate dharmaṃ svargaloke mahīyate ǁ Bṛhaspatimataṃ puṇyaṃ ye paṭhaṃti dvijātayaḥ | catvāri teṣāṃ varddhaṃte āyur vidyā yaśo balaṃ ǁ iti śrībṛhaspatipraṇītaṃ Dharmaśāstraṃ saṃpūrṇaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(11) [fols 133-136]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Śaṅkhasmṛti, in 73 ślokas</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | iṣṭāpūrttau tu karttavyau brāhmaṇena viśeṣataḥ | iṣṭena labhate svargaṃ mokṣaṃ pūrttenāvadaṃti ǁ 1 ǁ ekāham api Kauṃteya bhūmistham udakaṃ kuru | kulāni tārayet sapta yatra gaur vitṛṣā bhavet ǁ 2 ǁ bhūmidānena ye lokā godānena ca kīrttitāḥ | tān lokān prayayur marttyāḥ pādapānāṃ praropaṇe ǁ 3 ǁ</incipit><explicit source="#WinternitzKeith1905">divā kapitthachāyāsu rātrau dadhiśamīṣu ca | dhātrīphaleṣu saptamyāṃ alakṣmīr vasate sadā ǁ 70 ǁ sūrpavātanakhāgrāṃtakeśabaṃ-dhaghaṭodakaṃ | mārjanīreṇusaṃsparśe haṃti puṇyaṃ divākṛtaṃ ǁ 71 ǁ arddhavāsas tu yaḥ kuryāj japahomakriyādvijaḥ | tat sarvaṃ rākṣasaṃ vidyād bahir jānucayakṛtaṃ ǁ 72 ǁ yatra yatra ca saṃkīrṇa paśyaty ātmany asaṃśayaṃ | tatra tatra tilair homo gāyatryā varttanaṃ tathā ǁ 73 ǁ iti Śaṃkhakṛtaṃ Dharmaśāstraṃ saṃpūrṇaṃ |</explicit></msItem></msContents></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS. Sansk. d. 27(12) [fols 137-147]</idno></altIdentifier></msIdentifier><head/><msContents><summary>The Samvartasmṛti</summary><textLang mainLang="sa">Sanskrit</textLang><msItem><incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ | Saṃvarttam ekam āsīnaṃ sarvavedāṃtapāragaṃ | ṛṣayas tum upāgamya paprachu dharmakāṃkṣiṇaḥ ǁ bhagavan śrotum ichāmo dvijānāṃ braṃhmasādhanaṃ | yathāvat dharmam ācakṣva śubhāśubhaṃ vivecanaṃ ǁ</incipit><explicit source="#WinternitzKeith1905">maṃḍalaṃ brāhmaṇaṃ rūdrāḥ śukāklāś ca vṛhad yathā | vāmadevyaṃ vṛhat sāma sarvapāpaiḥ pramucyate ǁ dharmaśāstram idaṃ puṇyaṃ Saṃvarttena tu bhāṣitaṃ | adhitya brāhmaṇo gachet braṃhmaṇaḥ padma śāśvataṃ ǁ cāṃdrāyaṇaṃ tu sarveṣāṃ pāpānāṃ pāvanaṃ varaṃ | kṛtvā śuddhim avāpnoti paramaṃ sthānam eva ca ǁ iti śrīsaṃvarttapraṇitaṃ Dharmaśāstraṃ samāptaṃ |</explicit></msItem></msContents></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -35,8 +35,8 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection>
-                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 133(R)</idno><idno type="ieArk">ark:29072/x0dz010q434t</idno><idno type="crArk">ark:29072/x0dv13zt59tj</idno>
+                        <collection>MSS. Ind. Inst. Sansk.</collection>
+                        <idno type="shelfmark">MS. Ind. Inst. Sansk. 133 (R)</idno><idno type="ieArk">ark:29072/x0dz010q434t</idno><idno type="crArk">ark:29072/x0dv13zt59tj</idno>
                         <altIdentifier type="internal">
                             <idno type="or_long_shelfmark">Or.long.D.75</idno>
                             <note><country>United Kingdom</country>
@@ -130,7 +130,7 @@
                     
                     <physDesc>
                         <objectDesc form="tālapatra"> 
-                            <supportDesc material="palm_leaf">
+                            <supportDesc material="palm">
                                 <support>Palm leaf.
                                     <!--<p>
                                         <dimensions type="folio" scope="most" unit="cm">

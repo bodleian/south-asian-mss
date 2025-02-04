@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02766">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_b_5R</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. b.</collection>
+                  <idno type="shelfmark">MS. Sansk. b. 5 (R)</idno>
+                  <idno type="ieArk">ark:29072/x0ff365614w7</idno><idno type="crArk">ark:29072/x0fb494931kc</idno><altIdentifier>
+                     <idno type="CSM">1227 (1–4)</idno>
+                  </altIdentifier>
+               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <head source="#WinternitzKeith1905">Mahābhārata and Viṣṇu Purāṇa Fragments, 15th
+                  cent.?</head>
+               <msContents>
+                  <summary> </summary>
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  <msItem n="1">
+                     
+
+                     <note source="#WinternitzKeith1905">A fragment of the Mahābhārat</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namaḥ Śivāya | Vaiśampāyana uvāca |
+                        śaratalpagataṃ Bhīṣmaṃ vṛddhaṃ śakapitāmahaṃ | mūrddhnā praṇamya dharmmato
+                        papracchedaṃ Yudhiṣṭhiraḥ ǁ Yudhiṣṭhira uvāca | bhagavan śrotum icchāmi |
+                        &amp;c.</incipit>
+                  </msItem>
+                  <msItem n="2">
+                     <note source="#WinternitzKeith1905">Part of a dialogue between Bhīṣma, Vatsa,
+                        and Vadanā.</note>
+                  </msItem>
+                  <msItem n="3">
+                     <note source="#WinternitzKeith1905">Fragments, probably of the Viṣṇu
+                        Purāṇa</note>
+                     <incipit source="#WinternitzKeith1905">oṃ namaḥ śrīkṛṣṇāya | Nārāyaṇaṃ
+                        namaskṛtya narañ caiva narottamaṃ | devīṃ Sarasvatīn caiva tato jayam
+                        udirayet ǁ evaṃ saṃstuyamānas tu bhagavān kamalekṣaṇaḥ | ujjahāra |
+                        &amp;c. </incipit>
+                  </msItem>
+                  <msItem n="4">
+                     <note source="#WinternitzKeith1905">Fragment of a dialogue between Śiva and
+                        Pārvatī from a Śivaic Purāṇa or Tantra.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="palm">
+                        <support source="#WinternitzKeith1905">Palm-leaves, held together by a
+                           string passing through a central hole.</support>
+                        <extent source="#WinternitzKeith1905">
+                           <measure type="leaf" quantity="17">17</measure>. odd leaves.<dimensions type="binding" unit="cm">
+                              <height>36.8</height>
+                              <width>4.44</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Bengālī" source="#WinternitzKeith1905">
+                        <desc>Bengālī.</desc>
+                     </handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1400" notAfter="1499">15th cent.?</origDate>
+                     <p source="#WinternitzKeith1905">about 15th or 16th century.</p>
+                  </origin>
+                  <provenance> </provenance>
+                  <acquisition source="#WinternitzKeith1905">Bought in 1900 from <persName key="person_00096">Dr. A. F. R. Hoernle</persName>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n198/mode/1up">no. 1227 (1–4), p. 167</ref></biblScope></bibl></listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n198/mode/1up">no. 1227 (1–4), p. 167</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
