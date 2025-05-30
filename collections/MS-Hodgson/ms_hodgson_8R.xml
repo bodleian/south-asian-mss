@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02741">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_hodgson_8R</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Hodgson</collection>
+                  <idno type="shelfmark">MS. Hodgson 8 (R)</idno>
+                  <idno type="ieArk">ark:29072/x0vh53wv78pr</idno><idno type="crArk">ark:29072/x0vd66vz95cw</idno><altIdentifier>
+                     <idno type="CSM">1447 (1–8)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <head><title xml:lang="sa" key="work_00250">Pañcarakṣā</title>, 12th cent.?</head>
+               <msContents>
+                  
+                  <summary>A palm-leaf manuscript in three parts. The main part is a collection of the "five great dhāraṇīs", called <title xml:lang="sa" key="work_00250">Pañcarakṣā</title> ("Five Protections"). 
+                     Further, the manuscript includes two fragments of other dhāraṇīs, written in different hands.</summary>
+                  
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="palm">
+                        <support>Palm leaf, with one hole on the left of the centre of the leaf, held together by two wooden boards. 
+                           Marking the different manuscript parts, a piece of white decorative string is tied through the string-hole and around the bottom-centre of <locus from="75r" to="75v">f. 75</locus> and around the top-centre of <locus from="123r" to="123">f. 123</locus>.
+                        <p>
+                           <dimensions type="folio" scope="most" unit="cm">
+                              <height>6</height>
+                              <width>27</width>
+                           </dimensions>
+                        </p>
+                        </support>
+                  
+                        <extent xml:id="folio" n="139">139 ff.</extent>
+                         
+                        
+                        <foliation n="1" style="numeral">Original foliation in Pāla numerals, centre-left margin, verso. </foliation>
+                        <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top margin above the string hole, recto.</foliation>
+                        
+                        <condition source="#WinternitzKeith1905">
+                           Part of the last line of f. 1 is lost. Sometimes the writing is so obliterated as to be almost illegible, 
+                           e. g. ff. 14<hi rend="superscript">v</hi>, 15, 49<hi rend="superscript">v</hi>, 50, 70<hi rend="superscript">v</hi>, 71, 109<hi rend="superscript">v</hi>, 110, 133, and 134. 
+                           In ff. 30–33 the text has been slightly damaged by insects. F. 63 is broken, but nothing is lost.</condition>
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                     <layout columns="1" writtenLines="6">
+                     One column divided by the string hole left of the centre of the leaf. Six lines on a page.
+                     </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Nepalese" medium="blackink">
+                        <desc>Nepalese in black ink, written in three hands.</desc>
+                        <note>
+                           <q source="#WinternitzKeith1905">The peculiar Nepalese writing with hooked tops in 2 and 3, first appears according to <bibl>Bendall, Buddh. Sansk. MSS., p. 23</bibl>, in the <date>twelfth century</date>, and never after the <date>fifteenth century</date>.</q>
+                        </note>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote type="miniature">Five figures of Buddhas are painted on the inside of the wooden binding board, and five figures
+                        of Śaktis on the inside of the second. Both the Buddhas and the Śaktis are in five different colours.</decoNote>
+                  </decoDesc>
+                  
+                  <bindingDesc>
+                     <binding notAfter="2000">
+                     <p>
+                       Originally held together by two painted <term type="material">wooden</term> boards and tied with a string.
+                       Kept in a <term type="material">cloth</term>-covered library box.
+                     </p>
+                     </binding>
+                  </bindingDesc>
+                
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1100" notAfter="1199">12th cent.?</origDate>
+                     <note>
+                     <q source="#WinternitzKeith1905">
+                        Date and Character: The three parts belong to different centuries.</q>
+                     </note>
+                     
+                  </origin>
+                 
+                  <acquisition source="#WinternitzKeith1905">Presented to the Bodleian Library by
+                        <persName key="person_00207">Brian Houghton Hodgson</persName> in
+                     <date>1837</date>.</acquisition>
+               </history>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                       <source>Description by <persName>Barbora Sojkova</persName>, based on observation of the manuscript and existing descriptions.</source></recordHist>
+                           <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability></adminInfo>
+                    
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n288/mode/1up">no. 1447 (1–8), pp. 257-258</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Hodgson 8 (R) (1) </idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents n="5">
+                     
+                     <summary source="#WinternitzKeith1905">
+                        The Pañcarakṣā, the five collections of charms for warding off evils of all kinds.</summary>
+                     
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                     <msItem n="1">
+                        <locus from="1v" to="36v">Ff. 1<hi rend="superscript">v</hi>-36<hi rend="superscript">v</hi></locus>
+                        <title xml:lang="sa" key="work_00251">Mahāpratisarā</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           
+                           <locus from="1v" to="1v">Fol. 1<hi rend="superscript">v</hi>:</locus>
+                           oṃ namaḥ sarvavuddhavodhisatvebhyaḥ |
+                           namo vuddhāya | namo dharmāya | namaḥ saṅghāya ǁ evam mayā śrutam ekasmin
+                           samaye bhagavān mahāvajraśikharakūṭāgāra viharati sma ǁ
+                           mahāvajrasamādhibhūmipratiṣṭhāne mahākalpavṛkṣasamalaṃkṛte
+                           mahāvajrapuṣkiriṇīratnapad-maprabhodbhāsitamahāvajravālikāsaṃskṛtabhūmibhāga-mahāvajramaṇḍalamāte
+                           Śakrasya devānām indrasya bhavane
+                           mahāvajrasiṃhāsanakoṭīniyutaśatasahasravirājite | &amp;c.</incipit>
+                        
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="36v" to="36v">Fol. 36<hi rend="superscript">v</hi>:</locus>
+                           mahāpratisarāyā mahāvidyā rājñi
+                           rakṣāvidhānakalpā vidyādharasyāya samāptaṃ ǁ</explicit>
+                     </msItem>
+                 
+          
+                     <msItem n="2">
+                        <locus from="36v" to="75r">Ff. 36<hi rend="superscript">v</hi>-75<hi rend="superscript">r</hi></locus>
+                        
+                        <title xml:lang="sa" key="work_00253">Mahāsāhasrapramardanī</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="36v" to="36v">F. 36<hi rend="superscript">v</hi>:</locus>
+                           ǁ namo bhagavate vīta ǁ ǁ rāgāya ǁ
+                           evam mayā śrutam ekasmi samaye bhagavān rājagṛha viharati sma ǁ gṛdhra ǁ
+                           ǁ kūṭe parvvate dakṣiṇe pārśve vuddhagocare vṛkṣe prabhāse vanaṣaṇḍe |
+                           &amp;c.</incipit>
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="75r" to="75r">F. 75<hi rend="superscript">r</hi>:</locus>
+                           ǁ idam avocad bhagavān ārta (?) manās te ca bhikṣavo bhagavato bhāṣitam abhyanandann iti ǁ ǁ
+                           mahāsāhasrapramardanī nāma ǁ ǁ mahāyānasūtraṃ samāptaṃ ǁ</explicit>
+                     </msItem>
+                     
+                 <msItem n="3">
+                    <locus from="75r" to="123v">Ff. 75<hi rend="superscript">r</hi>-123<hi rend="superscript">v</hi></locus>
+                   
+                    <title xml:lang="sa" key="work_00252">Mahāmāyūrī</title>
+                   
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="75r" to="75r">F. 75<hi rend="superscript">r</hi>:</locus>
+                           namo vuddhā | namo dharmāya namaḥ
+                           saṃghāya ǁ namaḥ ǁ ǁ saptānāṃ samyaksaṃvuddhānāṃ saśrāvakasaṃghānān namo
+                           'rhatāṃ namaḥ pra ǁ ǁ tyekavuddhānāṃ namo maitreyapramukhānāṃ
+                           sarvvavodhisatvānāṃ mahāsatvānān namo 'nāgāminān namaḥ sakṛdāgāminān
+                           namaḥ śrotāpannānān namaḥ samyakpratipannānān teṣān namas kṛtvā imām
+                           mahāmāyūrīṃ vidyārajñīṃ prayājayāmi ǁ &amp;c.</incipit>
+                    
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="123v" to="123v">F. 123<hi rend="superscript">v</hi>:</locus>
+                           ǁ mahāmāyūrī vidyārājñī kalpa samāptāḥ
+                           ǁ </explicit>
+                     </msItem>
+                     
+                 <msItem n="4">
+                    <locus from="123v" to="126v">F. 123<hi rend="superscript">v</hi>-126<hi rend="superscript">v</hi></locus>
+                    
+                    <title xml:lang="sa" key="work_00255">Mahāśītavatī</title>
+                    
+                    <incipit source="#WinternitzKeith1905">
+                           <locus from="123v" to="123v">F. 123<hi rend="superscript">v</hi>:</locus>
+                           ǁ o namaḥ sarvavuddhavodhisatvebhyaḥ
+                           ǁ evam mayā śrutam ekasmin samaye bhagavān rājagṛhe viharati sma |
+                           śītavane mahāśma ǁ ǁ śāne ijjhi(?)kāyatane pratyudde(?)śe
+                           tattrāyuṣmān rhulo 'tīva vihethate | &amp;c.</incipit>
+                    
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="126v" to="126v">F. 126<hi rend="superscript">v</hi>:</locus>
+                           idam avocad bhagavān āyuṣmān rāhulo
+                           bhagavato bhāṣitam abhyanandann iti ǁ o ǁ āryamahāṣītavatī
+                           mahādaṇḍadhāraṇī vidyārājnī samāptāḥ ǁ</explicit>
+                     </msItem>
+                     
+                     <msItem n="5">
+                        <locus from="126v" to="132br">Ff. 126<hi rend="superscript">v</hi>-132b<hi rend="superscript">r</hi></locus>
+                       
+                        <title xml:lang="sa" key="work_00254">Mahāmantrānusāriṇī</title>
+                        
+                        <incipit source="#WinternitzKeith1905">
+                           <locus from="126v" to="126v">F. 126<hi rend="superscript">v</hi>:</locus>
+                           o namo bhagavatyai
+                           āryamahāmantrānusāriṇyai ǁ evam mayā śrutam ekasmin samaye bhagavān
+                           vaiśālyāṃ viharati markkaṭahradatīre kū ǁ ǁ ṭāgāraśālāyāṃ tatra bhagavān
+                           āyuṣmanta ānandam āmantrayate sma | &amp;c.</incipit>
+                        <explicit source="#WinternitzKeith1905">
+                           <locus from="132br" to="132br">F. 132b<hi rend="superscript">r</hi>:</locus>
+                           iti vuddhānāṃ vuddhānubhāvena
+                           devabhāvānāṃ ca devānubhāvena mahatī iti vyupaśrāmyanteti ǁ o ǁ idam
+                           avocad bhagavān ārtta (?) manās te ca bhikṣavas te ca vodhisatvā […]
+                           bhagavato bhāṣitam abhyanandann iti ǁ o ǁ āryamahāmaṃtrānusāriṇī
+                           mahāvidyārājñī samāptati ǁ o ǁ</explicit>
+                        
+                        <note>The following has been added by a more modern hand:
+                       <q>āryyamahāpratisarā āryyamahāsāhasaṃpramardanī || āryyamahāmāyūrī || āryyamahāśītavati | āryyamahāmantrānusādhanī ||
+                       etānī paṃcarakṣā--nī sa---.</q>
+                        </note>
+                       
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <origDate calendar="Gregorian" notAfter="1200">12th century CE.</origDate>
+                        <note><q source="#WinternitzKeith1905">
+                           The bulk of the MS. (1) is undated. There may have been a date on f. 132b<hi rend="superscript">v</hi>, but, if so, it has been effaced and something
+                           else has been written over it. From palaeographical evidence there is little doubt that the MS. belongs to the twelfth century. On comparing the
+                           facsimiles of Cambridge MSS. given by <bibl>Bendall, l. c.,</bibl> we find that plate II, 3 (dated a. d. 1167) and plate III, 1 (dated a. d. 1191) come nearest in
+                           style and character to this MS. The first facsimile in the <bibl>Catalogue of the Hodgson MSS. in the J.R.A.S., VIII,</bibl> of MS. 21 (dated a. d. 1166) is also
+                           very similar to this MS. A comparison of the table of letters given by Bendall, again, shows that the hooked characters of the twelfth century MSS.
+                           (especially those of the Cambridge MSS. dated a. d. 1165 and 1179) agree best with those of this MS. The most characteristic letters are l, kh, th,
+                           dh.</q></note>
+                     </origin>
+                  </history>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Hodgson 8 (R) (2)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                  
+                     <msItem>
+                        <locus from="132bv" to="134v">Ff. 132b<hi rend="superscript">v</hi>-134<hi rend="superscript">v</hi></locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment.</title>
+                        
+                        <note source="#WinternitzKeith1905">A fragment of which little can be made out, most of it being
+                           obliterated.</note>
+                    
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <handDesc>
+                        <handNote source="#WinternitzKeith1905">The character of these two and a half leaves is the modern
+                           Newārī.</handNote>
+                     </handDesc>
+                  </physDesc>
+                  
+                  <history>
+                     <origin>                       
+                           <origDate calendar="Newari" when="0765">saṃvata 765</origDate> / <date calendar="Gregorian" when="1645">1645 CE.</date>
+                           <p><q>Only at the end of 2 a date is found, viz.: <q>ǁ śubha ǁ
+                              saṃvata 765 bhādapadamāsaśuklapakṣa | &amp;c.</q> 
+                           Samvat 765 of the Newārī era is a. d. 1645.</q></p>
+                     </origin>
+                  </history>
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Hodgson 8 (R) (3) </idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head/>
+                  <msContents>
+                     <summary>A fragment of the <title key="work_00256">Uṣṇīṣavijayā Dhāraṇī</title>.</summary>
+                     
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                     <msItem>
+                        <locus from="135r" to="137v">Ff. 135<hi rend="superscript">r</hi>-137<hi rend="superscript">v</hi> [ff. 2-4 in original foliation]</locus>
+                        
+                        <title xml:lang="sa" key="work_00256">Uṣṇīṣavijayā Dhāraṇī</title>
+                        
+                        <incipit source="#WinternitzKeith1905">āgatoṣṇīṣavijayā nāma dhāraṇī dhāraya
+                           ǁ &amp;c.</incipit>
+                        <explicit source="#WinternitzKeith1905">sarvvatathāgatahṛdayādhiṣṭhānādhiṣṭhito | sarvvatathāgatāś ca māṃ
+                           samāśvāsayantu ǁ oṃ vudhya 2 śidhya 2 vodhaya 2 vivodhaya 2 mocaya 2
+                           vimocaya 2 sodhaya 2 visodhaya 2 samantā na mocaya 2 samantar asmi
+                           parisuddho | sarvvatathāgatahṛdayādhiṣṭhānādhiṣṭhito ǁ om o 2 m ahām om
+                           ahāṃ o mantraya o svāhā ǁ ǁ āryoṣṇīṣavijayā nāma dhāraṇī parisamāptā
+                           ǁ</explicit>
+                     </msItem>
+                     
+                  </msContents>
+                  
+                 <physDesc>
+                    <objectDesc>
+                       <supportDesc>
+                          <support>
+                             <dimensions type="folio" scope="most" unit="cm">
+                                <height>4</height>
+                                <width>23</width>
+                             </dimensions>
+                          </support>
+                       </supportDesc>
+                    </objectDesc>
+                    
+                    <handDesc>
+                       <handNote source="#WinternitzKeith1905">
+                          The last part of the MS. (3) most resembles, in its characters, the facsimile of a MS. dated a.d. 1385 in <bibl>plate III, 2 of Bendall's Buddh. Sansk. MSS.</bibl> 
+                          Especially characteristic are the more modern characters for r, th, and dh.</handNote>
+                    </handDesc>
+                 </physDesc>
+               </msPart>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
