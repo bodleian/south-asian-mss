@@ -2239,7 +2239,7 @@
                             </item>
                         </list>
                     </note>-->
-                    <note>Daughter of <name type="person" role="dnr" key="person_00099"><persName type="standard" xml:lang="eng">Strange, T.</persName><persName type="display" xml:lang="eng">Sir T. Strange</persName></name>, and a wife of <persName key="person_00208" type="display">Edmund Ffoulkes</persName>.</note>
+                    <note>Daughter of <name type="person" role="dnr" key="person_00099"><persName type="standard" xml:lang="eng">Strange, T.</persName><persName type="display" xml:lang="eng">Sir T. Strange</persName></name>, and a wife of <persName key="person_00208" type="display">Edmund Ffoulkes</persName>..</note>
                 </person>
                 
                 <person xml:id="person_00101">
@@ -4393,30 +4393,6 @@
                     </note>
                     <note></note>
                 </person>
-             
-                            
-                <person xml:id="person_00208">
-                    <persName type="standard" xml:lang="sa">Ffoulkes, Edmund</persName>
-                    <persName type="display" xml:lang="sa">Edmund Ffoulkes</persName>
-                    <idno type="VIAF">4001848</idno>
-                    <idno type="local">00208</idno>
-                      <idno type="PANDIT"></idno>
-                    <note type="links">
-                        <list type="links">
-                            <item>
-                                <ref target="https://viaf.org/viaf/4001848/">
-                                    <title>VIAF</title>
-                                </ref>
-                            </item>
-                            <!--<item>
-                                <ref target="https://www.panditproject.org/entity/00000/person">
-                                    <title>PANDIT</title>
-                                </ref>
-                            </item>-->
-                        </list>
-                    </note>                    
-                </person>
-                
                                
                 <person xml:id="person_">
                     <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
