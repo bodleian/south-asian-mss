@@ -8,7 +8,7 @@
             <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
             <respStmt>
                <resp>Cataloguer</resp>
-               <persName>[Name of cataloguer]</persName>
+               <persName>Barbora Sojkova</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -44,44 +44,98 @@
                   <idno type="ieArk">ark:29072/x09g54xj82gw</idno><idno type="crArk">ark:29072/x09c67wn9955</idno><altIdentifier>
                      <idno type="CSM">1166</idno>
                   </altIdentifier>
-               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
-               <head source="#WinternitzKeith1905">Vālmīki’s Rāmāyaṇa, 17th or 18th cent.?</head>
-               <msContents>
-                  <summary source="#WinternitzKeith1905">The Rāmāyaṇa, in seven kāṇḍas, by Vālmīki</summary>
+               </msIdentifier>
+               
+               <head source="#WinternitzKeith1905"><persName key="person_00020">Vālmīki</persName>’s <title key="work_00014">Rāmāyaṇa</title>, 17th or 18th cent.?</head>
+               
+               <msContents n="2">
+                  
+                  <summary>A palm leaf manuscript of the <title key="work_00014">Rāmāyaṇa</title>, in seven <term xml:lang="sa">kāṇḍas</term>, by <persName key="person_00020">Vālmīki</persName>, written in Telugu script.</summary>
                   <textLang mainLang="sa">Sanskrit.</textLang>
+                 
                   <msItem> 
                      
+                     <title key="work_00014">Rāmāyaṇa</title>
                      
-                  <incipit source="#WinternitzKeith1905">śrīrāmacaṃdrāya namaḥ ǁ śuklāṃbaradharaṃ Viṣṇuṃ śaśivarṇaṃ caturbhujaṃ prasannavadanaṃ dhyāyet sarvavighnopaśāṃtaye ǁ kalyāṇādbhutagātrāya kāmitārthapradāyine | śrīmadveṃkaṭanāthāya śrīnvāsāyamā (?) ǁ Rāmāya Rāmabhadrāya Rāmacaṃdrāyavedhase | Raghunāthāya nāthāya Sītāyāḥ pataye namaḥ ǁ kūjaṃtaṃ Rāma Rāmeti madhuraṃ madhurākṣaraṃ | āruhya kavitāśākhāṃ vaṃde Vālmikikokilaṃ | &amp;c.</incipit></msItem>
+                     <author key="person_00020">
+                        <persName xml:lang="sa" type="display">Vālmīki</persName>
+                     </author>
+                                        
+                  <incipit source="#WinternitzKeith1905" xml:lang="sa">śrīrāmacaṃdrāya namaḥ ǁ 
+                     śuklāṃbaradharaṃ Viṣṇuṃ śaśivarṇaṃ caturbhujaṃ prasannavadanaṃ dhyāyet sarvavighnopaśāṃtaye ǁ 
+                     kalyāṇādbhutagātrāya kāmitārthapradāyine | śrīmadveṃkaṭanāthāya śrīnvāsāyamā (?) ǁ 
+                     Rāmāya Rāmabhadrāya Rāmacaṃdrāyavedhase | Raghunāthāya nāthāya Sītāyāḥ pataye namaḥ ǁ 
+                     kūjaṃtaṃ Rāma Rāmeti madhuraṃ madhurākṣaraṃ | āruhya kavitāśākhāṃ vaṃde Vālmikikokilaṃ | &amp;c.
+                  </incipit>
+                     
+                     <colophon source="#WinternitzKeith1905" xml:lang="sa">
+                     <locus from="222v">F. 222<hi rend="superscript">v</hi></locus>
+                        etad ākhyānam āyuṣyaṃ paṭhan Rāmāyaṇaṃ naraḥ | saputrapautras sagaṇāḥ pretya svarge mahīyyate ǁ 
+                        Ayodhyāpi purī raṃmyā śūnyā carṣigaṇān bahūn | ṛṣabhaṃ prāpya rājānaṃ nivāsam upayāsyati ǁ etad ākhyānam āyuṣyaṃ saṣaṭkāṃḍaṃ sahottaraṃ | 
+                        kartā pracetasaḥ putraḥ tad brahmānumate muniḥ ǁ ity ārṣe […] śrīmaduttarakāṃḍe śrīrāmacaṃdrasvargārṣaṇaṃ nāma ṣoḍaśottaraśatatamas sargaḥ ǁ 
+                        śrīrāmacaṃdrārpaṇam astu ǁ karakṛtam aparādhaṃ kṣaṃtum arhaṃti saṃtaḥ ǁ śrīkṛṣṇārpaṇam astu ǁ
+                  </colophon>
+                 
+                  </msItem>
+                  
+                  <msItem>
+                     <note><q source="#WinternitzKeith1905">To the MS. belong a leaf-cutter with ivory handle, 6¾ in. long, an iron stilus pointed like a needle, 8¾ in. long, and a sheath, 6 in. long, fitted to hold the leaf-cutter and stilus: all three of beautiful antique work-manship.</q></note>
+                  </msItem>
+                 
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="palm">
-                        <support source="#WinternitzKeith1905">Palm-leaves, gilt edged, held together by two ivory-covered plates of stone (instead of the usual boards), and a green silk cord going through one of the two holes in the leaves.</support>
+                        <support source="#WinternitzKeith1905">Palm-leaves, gilt edged. </support>
                         <extent source="#WinternitzKeith1905">
+                           
                            <measure type="laterEndleaf" quantity="2">ii</measure>
                            + <measure type="leaf" quantity="226">1 + 225</measure><dimensions type="binding" unit="cm">
-                           <height quantity="52.1">52.1</height>
-                           <width quantity="6.7">6.7</width>
+                          
+                              <height quantity="53">53</height>
+                           <width quantity="7">7</width>
                         </dimensions>
                         </extent>
+                        
+                        <foliation n="1" style="numeral">Telugu numerals, top-left corner, recto.</foliation>
+                        <foliation n="2" style="digit">Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                        <condition>Complete.
+                        <p>In good condition.</p>
+                        </condition>
+                        
                      </supportDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="Telugu"><desc>Telugu, very small.</desc></handNote></handDesc>
+                  
+                  <handDesc>
+                     <handNote scope="sole" script="Telugu">
+                        <desc>Telugu, very small.</desc></handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <p>The palm leaf manuscript is held together by two ivory-covered wooden boards, and a green silk cord going through one of the two holes in the leaves.
+                     The ivory boards are ornamented with thirty-two neatly executed drawings, illustrating the story of the Rāmāyaṇa.</p>   
+                     <p>Stored in a purpose-made, textile-covered cardboard library box.</p>
+                  </bindingDesc>
+                
 
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600" notAfter="1750">17th or 18th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">the MS. appears to be fairly old, perhaps of the 17th century.</p></origin>
+                  <p><q source="#WinternitzKeith1905">The MS. appears to be fairly old, perhaps of the 17th century.</q></p></origin>
+                  
                   <provenance>
+                     Given in <date calendar="#gregorian">1864</date> by <persName role="dnr" key="person_00100">Mrs. Edmund Ffoulkes</persName>, daughter of <persName key="person_00099">Sir Thomas Strange</persName>, who brought the MS. from India.
                   </provenance>
+                  
                   <acquisition/>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
                            <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n175/mode/1up">no. 1166, pp. 144-145</ref></biblScope></bibl></listBibl>
@@ -100,6 +154,10 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2025-05-30">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
       </teiHeader>
    <text>
       <body>
