@@ -5515,6 +5515,51 @@
                             </list>
                </bibl>
                 
+                <bibl xml:id="work_00257">
+                    <title type="uniform" xml:lang="sa">Mṛcchakaṭikam</title>
+                    <title type="display" xml:lang="sa">Mṛcchakaṭikam</title>
+                    <title type="variant" xml:lang="sa">Mṛcchakaṭikā</title>
+                    <title type="variant" xml:lang="sa">Mṛcchakakaṭikā</title>                   
+                    <idno type="VIAF">176605717</idno>
+                    <idno type="local">00257</idno>
+                    <idno type="PANDIT">109141</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/176605717/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                    <item>
+                                <ref target="https://www.panditproject.org/entity/109141/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                            </list>
+                </bibl>
+                
+                <bibl xml:id="work_00258">
+                    <title type="uniform" xml:lang="sa">Mahānāṭaka</title>
+                    <title type="display" xml:lang="sa">Mahānāṭaka</title>
+                    <title type="variant" xml:lang="sa">Hanumannāṭaka</title>
+                    <idno type="VIAF">184345750 </idno>
+                    <idno type="local">00258</idno>
+                   <!-- <idno type="PANDIT"></idno>
+-->                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/184345750/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                </bibl>
+                
             </listBibl>
         </body>
     </text>
