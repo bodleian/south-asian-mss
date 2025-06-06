@@ -49,7 +49,7 @@
                      <idno type="CSM">250, 294</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>A composite manuscript containing two <term xml:lang="sa">nāṭakas</term>: the <title key="work_00257" type="variant">Mṛcchakaṭikā</title> and the <title>Mahānāṭaka</title></head>
+               <head>A composite manuscript containing two <term xml:lang="sa">nāṭakas</term>: a commentary to the <title key="work_00257" type="variant">Mṛcchakaṭikā</title> and the <title key="work_00258">Hanumannāṭaka</title></head>
                
                <physDesc>
                   <objectDesc form="pothī">
@@ -61,8 +61,8 @@
                               type="laterEndleaf" quantity="2">ii</measure>. 
                            The two parts have 136 + 63 leaves.                           
                            <dimensions type="folio" unit="cm">
-                              <height quantity="33">33</height>
-                              <width quantity="14">14</width>
+                              <height quantity="14">14</height>
+                              <width quantity="33">33</width>
                            </dimensions>
                         </extent>
                         
@@ -131,30 +131,37 @@
                         <idno type="part">MS. Wilson 167a</idno>
                      </altIdentifier>
                   </msIdentifier>
-                  <head source="#Keith1909">Mṛcchakaṭikā, A.D. 1822.</head>
+                  <head><title key="work_00259">Mṛcchakaṭiprakaraṇa</title>, a commentary to the <title key="work_00257">Mṛcchakaṭikā</title>.</head>
                  
                   <msContents>
                      <msItem>
                         <locus from="1v" to="137v">Ff. 1<hi rend="superscript">v</hi>-137<hi rend="superscript">v</hi>.</locus>
-                        <title key="work_00257" type="display">Mṛcchakaṭikam</title>
-                        <author key="person_00208">
-                           <persName xml:lang="sa" type="display">Śūdraka</persName>
+                        
+                        <title key="work_00259">Mṛcchakaṭiprakaraṇa</title>
+                        
+                        <author key="person_00210">
+                           <persName xml:lang="sa">Lalladīkṣita</persName>
                         </author>
+                           
+                           <note>A commentary to <title key="work_00257" type="variant">Mṛcchakaṭikā</title> written by <persName key="person_00208" xml:lang="sa" type="display">Śūdraka</persName>.</note>
                         
                         <rubric xml:lang="sa">
                            <locus from="1v" to="1v">F. 1<hi rend="superscript">v</hi>.</locus>
                            śrī mahāgaṇapataye namaḥ</rubric>
+                              
                         <incipit xml:lang="sa">
                            <locus from="1v" to="1v">F. 1<hi rend="superscript">v</hi>.</locus>
-                           bāṃdhavakaropanāmāsa mahārāṣṭro gururvūdelānāṃ śāstrekāvye 'dhītī gaurīcaṇāraviṃ darolaṃbaḥ 1
+                           bāṃdhavakaropanāmā sa mahārāṣṭro guruṃrvūdelānāṃ śāstre kāvye 'dhītī gaurīcaṇāraviṃdarolaṃbaḥ 1
+                           mṛcchakaṭiprakaraṇe prākṛtaratnākarormisaṃcaraṇe setuṃ karoti vivṛtiṃ dīkṣitalallābhidhaḥ svakṛtiṃ 2
                         </incipit>
                         
-                        <explicit>
+                        <colophon>
                            <locus from="136v" to="136v">F. 136<hi rend="superscript">v</hi>.</locus>
-                           iti śrīmṛcchakaṭiprakaraṇavyākhyāyāṃ suvarṇā 'traṃ karaṇākhyāyaṃ saṃhāronāmadaśamoṃ  'kaḥ samāpti 'mamajñat saṃpṭarṇaṃ cedaṃ mṛcchakaṭikaprakaraṇavivaraṇaṃ savarṇālaṃkaraṇaṃnāma
+                           iti śrīmṛcchakaṭiprakaraṇavyākhyāyāṃ suvarṇā 'traṃ karaṇākhyāyaṃ saṃhāronāmadaśamoṃ 'kaḥ samāpti 'mamajñat saṃpṭarṇaṃ cedaṃ mṛcchakaṭikaprakaraṇavivaraṇaṃ savarṇālaṃkaraṇaṃnāma
                            śubhaṃ bhūyāt savat [sic] 1878 miti āsvinakṛṣṇa 10
-                        </explicit>
-                     <textLang mainLang="sa">Sanskrit</textLang>
+                        </colophon>
+                     
+                              <textLang mainLang="sa">Sanskrit</textLang>
                         
                      </msItem>
                      
@@ -177,7 +184,7 @@
 
                   <history>
                      <origin>
-                        <origDate calendar="Vikrama" when="1878">saṃvat 1878</origDate> / <origDate calendar="#gregorian"  when="1822">1822</origDate>
+                        <origDate calendar="Vikrama" when="1878">saṃvat 1878</origDate> / <origDate calendar="#gregorian"  when="1822">1822 CE</origDate>
                         <p><q source="#Keith1909"><locus>F. 136<hi rend="superscript">v</hi></locus>: savat 1878
                               <supplied>1822</supplied> miti āsvinakṛṣṇa 10 (apparently corrected from āsvīna) |</q></p>
                      </origin>
@@ -201,20 +208,32 @@
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
-                        <idno type="part">MS. Wilson 167a.1</idno>
+                        <idno type="part">MS. Wilson 167a, 1</idno>
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
+                     <summary>Manuscript note in pen reading "Commentary on the Mrichchakati", together with the title in Devanāgarī, written on a single paper leaf inserted between the two manuscript parts.</summary>
+                     
                   <msItem>
                      <locus from="137r" to="137v">F. 137<hi rend="superscript">v</hi>.</locus>
                   
                   
                   <textLang mainLang="en" otherLangs="sa">English with Sanskrit.</textLang>
                   <title type="desc">Library note.</title>
-                     <note>Manuscript note in pen reading "Commentary on the Mrichchakati", together with the title in Devanāgarī.</note>
+                  
                  
                   </msItem>
                   </msContents>
+
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                     <dimensions type="folio" unit="cm">
+                        <height quantity="12">12</height>
+                        <width quantity="28">28</width>
+                  </dimensions>
+                    </support></supportDesc> </objectDesc></physDesc>
                   <additional>
                      <adminInfo>
                         <recordHist>
@@ -229,10 +248,57 @@
                         <idno type="part">MS. Wilson 167b</idno>
                      </altIdentifier>
                   </msIdentifier>
-                  <head>Mahānāṭaka, 18th cent.?</head>
+                  <head>Hanumannāṭaka, 18th cent.?</head>
                   <msContents>
-                 <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                     <msItem>
+                        <locus from="1v" to="63r">Ff. 1<hi rend="superscript">v</hi>-63<hi rend="superscript">r</hi> [ff. 138<hi rend="superscript">v</hi>-200<hi rend="superscript">r</hi> in library foliation].</locus>
+                        
+                        <title key="work_00258" xml:lang="sa">Hanumannāṭaka</title>
+                        
+                        <note><persName key="person_00209">Keith</persName> labels this MS as <title key="work_00258" type="variant">Mahānāṭaka</title>, but the colophon reads <q xml:lang="sa">hanumannāṭake</q>.</note>
+                        
+                        <rubric xml:lang="sa">
+                           <locus from="1v" to="1v">F. 1<hi rend="superscript">v</hi> [f. 138<hi rend="superscript">v</hi> in library foliation].</locus>
+                           || śrī gaṇeśāya namaḥ || || śrī sarasvatyai namaḥ ||
+                        </rubric>
+                        
+                        <incipit xml:lang="sa">
+                           <locus from="1v" to="1v">F. 1<hi rend="superscript">v</hi> [f. 138<hi rend="superscript">v</hi> in library foliation].</locus>
+                           || kalpāṇānāṃ nidhānaṃ kalimalamathanaṃ pācanaṃ pāvanānāṃ pātheyaṃ yanmumukṣoḥ sapadiparapadaprāptaye prasthitasya ||
+                        </incipit>
+                        
+                        <colophon xml:lang="sa">
+                           <locus from="63r" to="63r">F. 63<hi rend="superscript">r</hi> [f. 200<hi rend="superscript">r</hi> in library foliation].</locus>
+                           iti śrīhanumannāṭake caturdṛśoṃ kaḥ rāmavijayo nāma ||                                                      
+                        </colophon>
+                        
+                        <finalRubric>
+                           <locus from="63r" to="63r">F. 63<hi rend="superscript">r</hi> [f. 200<hi rend="superscript">r</hi> in library foliation].</locus>
+                           || śrīr astu ||
+                        </finalRubric>
+                        
+                        <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                     </msItem>
+                 
                   </msContents>
+                  
+                  <physDesc>
+                     
+                     <handDesc>
+                        <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink. </desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions>
+                        <p>Abbreviated marginal title, top-left and bottom-right margins, verso.</p>
+                        <p>Occassionally marginal corrections in the same hand.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
                   <history>
                      <origin><origDate calendar="#gregorian" source="#Keith1909" notBefore="1700"
                            notAfter="1799">18th cent.?</origDate></origin>
