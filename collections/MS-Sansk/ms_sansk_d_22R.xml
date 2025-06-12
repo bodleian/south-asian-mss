@@ -5,10 +5,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
             <respStmt>
                <resp>Cataloguer</resp>
-               <persName>[Name of cataloguer]</persName>
+               <persName>Barbora Sojkova</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -22,7 +23,8 @@
                   <settlement>Oxford</settlement>
                   <postCode>OX1 3BG</postCode>
                   <addrLine>
-                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
                   </addrLine>
                   <addrLine>
                      <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
@@ -41,66 +43,148 @@
                   <repository>Bodleian Library</repository>
                   <collection>MSS. Sansk. d.</collection>
                   <idno type="shelfmark">MS. Sansk. d. 22 (R)</idno>
-                  <idno type="ieArk">ark:29072/x079407z49q9</idno><idno type="crArk">ark:29072/x076537266dp</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x079407z49q9</idno>
+                  <idno type="crArk">ark:29072/x076537266dp</idno>
+                  <altIdentifier>
                      <idno type="CSM">1224</idno>
                   </altIdentifier>
-               </msIdentifier><head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               </msIdentifier>
+               
                <head source="#WinternitzKeith1905">Śeṣadharma from the Harivaṃśa, 18th cent.?</head>
+               
                <msContents>
-                  <summary source="#WinternitzKeith1905">The Śeṣadharma from the Harivamśa, or Āścaryaparvan, of the Mahābhārata, incomplete</summary>
-                  <textLang mainLang="sa">Sanskrit.</textLang>
-                  <msItem> 
+                  <summary>An incomplete palm leaf manuscript of the <title key="work_00260">Śeṣadharma</title> from the <title key="work_00261">Harivamśa</title>, 
+                     or Āścaryaparvan, of the <title key="work_00071">Mahābhārata</title>, written in Grantha script.</summary>
+                 
+                  <textLang mainLang="sa">Sanskrit.</textLang>   
+                  
+                  <msItem>
+                     <locus from="1r" to="105v">Ff. 1<hi rend="superscript">r</hi>-105<hi rend="superscript">v</hi></locus>
                      
+                     <title key="work_00260">Śeṣadharma</title>
                      
-                  <incipit source="#WinternitzKeith1905">Hariḥ mārggāṇi narakāṃbhodheḥ pāpināṃ durigāmināṃ [|] pathi bhogañ ca yānāni mārgāṇi svarggagāmināṃ [|] etān dharmmān mahābhāgo dharmmaputras sahānujaḥ [|] Draupadyā saha dharmmātmā Yādavendrāt praśuśruve | devatānām ṛṣīṇāñ ca dvijānāṃ yajñagāmināṃ | maddhye dharmmān praśuśrāva Kṛṣṇe vadati dharmmavit | Janamejayajayaḥ | kadā provāca bhagavān kasmin dedeśe yadūttamaḥ | etad ācakṣva viprendra Kṛṣṇavākyāmṛtaṃ hi me | vaiśanvāya namaḥ | rājyabhraṣṭo mahātejāḥ dharmmaputras sahānujaḥ [|] Pāñcālyā saha dharmmātmā Kāmyakaṃ vanam āviśat | duḥkhite samanuprāpte dharmmaputre mahāvanaṃ [|] etat jñātvā Yaduśreṣṭho hy antaryyāmī jagatppatiḥ [|] patnīnāṃ śatasāhasraiḥ kāñcanāḍyer (read ºnāḍhyair?) mahārathaiḥ [|] niyutaiḥ pātakasaṃyuktaiḥ kiṃkiṇībhāmaśobhitaiḥ [|] saptahis saptasāhasrair aśvaiḥ Kāśmīrajair yutaḥ [|] nīlajīmütasaṃkāśair mmattadviradakoṭibhiḥ [|] sainyais tu saṃvṛtantrīmān sārvamuktipratāpavān [|] āyayau Hastinapuraṃ Vidureṇa samāgataḥ | &amp;c.</incipit></msItem>
+                     <note><q source="#WinternitzKeith1905">In the margin of f. 1 the title is given as Śeṣadharmam Upapurāṇam.</q></note>
+
+                     <incipit source="#WinternitzKeith1905">
+                        <locus from="1">F. 1:</locus>
+                        hariḥ mārggāṇi narakāṃbhodheḥ pāpināṃ durigāmināṃ [|] pathi bhogañ ca yānāni mārgāṇi svarggagāmināṃ [|] etān
+                        dharmmān mahābhāgo dharmmaputras sahānujaḥ [|] Draupadyā saha dharmmātmā
+                        Yādavendrāt praśuśruve | devatānām ṛṣīṇāñ ca dvijānāṃ yajñagāmināṃ | maddhye
+                        dharmmān praśuśrāva Kṛṣṇe vadati dharmmavit | Janamejayajayaḥ | kadā provāca
+                        bhagavān kasmin dedeśe yadūttamaḥ | etad ācakṣva viprendra Kṛṣṇavākyāmṛtaṃ
+                        hi me | vaiśanvāya namaḥ | rājyabhraṣṭo mahātejāḥ dharmmaputras sahānujaḥ
+                        [|] Pāñcālyā saha dharmmātmā Kāmyakaṃ vanam āviśat | duḥkhite samanuprāpte
+                        dharmmaputre mahāvanaṃ [|] etat jñātvā Yaduśreṣṭho hy antaryyāmī jagatppatiḥ
+                        [|] patnīnāṃ śatasāhasraiḥ kāñcanāḍyer (read ºnāḍhyair?) mahārathaiḥ [|]
+                        niyutaiḥ pātakasaṃyuktaiḥ kiṃkiṇībhāmaśobhitaiḥ [|] saptahis saptasāhasrair
+                        aśvaiḥ Kāśmīrajair yutaḥ [|] nīlajīmütasaṃkāśair mmattadviradakoṭibhiḥ [|]
+                        sainyais tu saṃvṛtantrīmān sārvamuktipratāpavān [|] āyayau Hastinapuraṃ
+                        Vidureṇa samāgataḥ | &amp;c.</incipit>   
+                     
+                     <explicit source="#WinternitzKeith1905">
+                        <locus from="105">F. 105:</locus>
+                        dharmmajñānāṃ gatiṃ vakṣye tava prītyai mahīpate [|] nibodhitāṃ surair jjuṣṭāṃ sukhāṃ tatra ca śāśvatīṃ [|] 
+                        sadharmmaṃ ye naraśreṣṭhāḥ dānaśīlā subuddhayaḥ [|] atīva sukhasanpannāḥ prayānti Yamamandiraṃ [|] 
+                        annadā ye naraśreṣṭha bhuñjantaḥ svādu yānti vai [|] niradā ye ca sukhi (?) naḥ pibanti kṣiram uttamam [|] 
+                        bu (or dvṛ ?) tado madhudaś cai [va?] kṣīradaś ca narottama [|] madhupānaṃ prakurvantaḥ prayānti Yamamandiraṃ [|] 
+                        śākadaḥ pāyasaṃ bhunjan dīpadā prajvalan diśaḥ [|] vastrado ’nuvaśād mū (?) ladivyāṃbaradharo yayau [|] 
+                        alaṃkāraṃ priyā yānti pūjyamānaḥ sadāmaraiḥ [|] godānaniratā yānti sarvakāmasamanvitāḥ [|] 
+                        bhūmido gṛhadaś caiva vimāne sarvasaṃpadā [|] atyarogan na sa kīrṇṇaḥ krīḍan yāti Yamālayaṃ [|] 
+                        hayado gajadaś caiva yānadaś ca nṛcottama [|] Yamālayaṃ vimānena yāti bhogasamanvitaḥ |
+                     </explicit>
+                     
+                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="palm">
-                        <support source="#WinternitzKeith1905">Palm-leaves, held together by two boards and a string passing through two holes.</support>
-                        <extent source="#WinternitzKeith1905">
-                           <measure type="laterEndleaf" quantity="1">i</measure>
-                           + <measure type="leaf" quantity="106">106</measure><dimensions type="binding" unit="cm">
-                           <height/>
-                           <width/>
-                        </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-                  <handDesc><handNote scope="sole" script="Devanāgarī" medium="black_ink"><desc>Devanāgarī in black ink.</desc></handNote></handDesc>
+                        <support source="#WinternitzKeith1905">Palm-leaves, held together by two
+                           boards and a string passing through two holes.</support>
+                        <extent>
+                           
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure
+                              type="leaf" quantity="106">106</measure>
+                           
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="4">4</height>
+                              <width quantity="25">25</width>
+                           </dimensions>
+                          </extent>
+                                                                    
+                        <foliation n="1" style="numeral">Grantha numerals, middle-left margin, recto.</foliation>
+                        <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                      <condition>In good condition, text incomplete.</condition>
+                        
+                     </supportDesc>  
+                    </objectDesc>
+                  
+                 <layoutDesc>
+                    <layout columns="1" writtenLines="9">8 or 9 lines on the page.
+                    <p>2 string holes per page.</p>
+                    </layout>
+                    
+                 </layoutDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Grantha">
+                        <desc>Grantha script.</desc></handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <p>Held together by two plain wooden boards with two string holes. On the upper board is a library note in pencil which reads: 
+                        <q><hi rend="underline">Not Tamil</hi>. Sanskrit. <hi rend="underline">Grantha character</hi>.</q> Paper label with handwritten shelfmark on the back board.</p>
+                     <p>New string kept loosely in the storage box.</p>
+                     <p>Stored in a red textile-covered cardboard library box with golden-tooled title and shelfmark on the spine.</p>
+                  </bindingDesc>
 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1700" notAfter="1799">18th cent.?</origDate>
-                  <p source="#WinternitzKeith1905">apparently modern, probably 18th century.</p></origin>
-                  <provenance>
-                  </provenance>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notAfter="1799">Not dated.</origDate>                     
+                     <p>According to Winternitz and Keith, the MS is: <q source="#WinternitzKeith1905">apparently modern, probably 18th century.</q></p></origin>
+                  <provenance> </provenance>
                   <acquisition/>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the following sources:
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
                            <listBibl>
                               <bibl><ref/></bibl>
-                           <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title> Catalogue of Sanskrit manuscripts</title>,<biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n196/mode/1up">no. 1224, pp. 165-166</ref></biblScope></bibl></listBibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n196/mode/1up"
+                                       >no. 1224, pp. 165-166</ref></biblScope></bibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
                      </availability>
                   </adminInfo>
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian Library</title> (Oxford, 1905), <biblScope> <ref target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n196/mode/1up">no. 1224, pp. 165-166</ref></biblScope></bibl></listBibl>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n196/mode/1up"
+                                 >no. 1224, pp. 165-166</ref></biblScope></bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <p><!--Body paragraph provided for validation and future transcription--></p>
