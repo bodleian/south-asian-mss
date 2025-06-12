@@ -117,20 +117,22 @@
                         
                       <condition>In good condition, text incomplete.</condition>
                         
-                     </supportDesc>  
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                     <layout columns="1" writtenLines="9">
+                        8 or 9 lines on the page.
+                        <p>2 string holes per page.</p>
+                     </layout>                    
+                  </layoutDesc> 
+                     
                     </objectDesc>
-                  
-                 <layoutDesc>
-                    <layout columns="1" writtenLines="9">8 or 9 lines on the page.
-                    <p>2 string holes per page.</p>
-                    </layout>
-                    
-                 </layoutDesc>
+                                                    
                   <handDesc>
                      <handNote scope="sole" script="Grantha">
                         <desc>Grantha script.</desc></handNote>
                   </handDesc>
-                  
+                                                     
                   <bindingDesc>
                      <p>Held together by two plain wooden boards with two string holes. On the upper board is a library note in pencil which reads: 
                         <q><hi rend="underline">Not Tamil</hi>. Sanskrit. <hi rend="underline">Grantha character</hi>.</q> Paper label with handwritten shelfmark on the back board.</p>
