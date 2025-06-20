@@ -14,7 +14,107 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-391-mrcchakataka.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Sansk/ms_sansk_d_160.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Sansk/ms_sansk_a_1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-e-98(1)-hathapradipika.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>collections/MS-Ind-Misc/ms-ind-misc-23.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-235-vyakarana.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -74,47 +174,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-391-mrcchakataka.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>preview</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>collections/MS-Sansk/ms_sansk_b_28.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>preview</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>collections/MS-Sansk/ms_sansk_a_1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

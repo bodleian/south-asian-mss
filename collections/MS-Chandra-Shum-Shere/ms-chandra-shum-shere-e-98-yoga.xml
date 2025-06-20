@@ -37,16 +37,85 @@
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
                         <collection>MSS. Chandra Shum Shere e.</collection>
-                        <idno type="shelfmark">MS. Chandra Shum Shere e.98 (1)</idno>
-                        <idno type="ieArk">ark:29072/x0b8515n93rr</idno>
-                        <idno type="crArk">ark:29072/x0b5644s10f2</idno>
-                        <altIdentifier type="internal">
-                            <idno type="Chandra_Shum_Shere_Āśutoṣa">2436</idno>
+                        <idno type="shelfmark">MS. Chandra Shum Shere e.98</idno>
                         <note anchored="true"><country>United Kingdom</country>
                             <region type="county">Oxfordshire</region>
                             <settlement>Oxford</settlement>
-                            <orgName/></note></altIdentifier>
+                            <orgName/></note>
                     </msIdentifier>
+
+                    <head>A composite manuscript containing two manuscript works on <term
+                            xml:lang="sa">yoga</term>, bound together in the Bodleian
+                        Library.</head>
+
+                    <physDesc>
+                        <bindingDesc>
+                            <binding notBefore="1909">
+                                <p> Early 20th-century brown <term type="material">textile</term>
+                                    binding over pasteboard, with shelfmark and description tooled
+                                    in gold on the spine. Cardboard cover box.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                                <persName type="standard" xml:lang="ne">Shum Shere,
+                                    Chandra</persName>
+                                <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
+                                    Jang Bahadur Rana </persName></name> in <date
+                                calendar="Gregorian" when="1909">1909</date>. </acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description by <persName>Barbora Sojkova</persName>, based
+                                    on observation of the manuscript and existing descriptions by
+                                    Camillo Formigatti.</source>
+                            </recordHist>
+                            <availability status="restricted">
+                                <p>Entry to read in the Library is permitted only on presentation of
+                                    a valid reader's card, for admissions procedures contact <ref
+                                        target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                        >Bodleian Libraries' Admissions Office</ref>.</p>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+
+                        <listBibl type="ms_descriptions">
+                            <head>Descriptions of the manuscript:</head>
+
+                            <biblStruct>
+                                <monogr>
+                                    <title level="m">Index Catalogue of MSS. Chandra Shum Shere by
+                                        T. Gambier Parry. Revised and Completed by E. H. Johnston
+                                        [unpublished handlist]</title>
+                                    <author><forename>T.</forename><surname>Gambier
+                                        Parry</surname></author>
+                                    <author><forename>E.
+                                        H.</forename><surname>Johnston</surname></author>
+                                    <imprint>
+                                        <pubPlace>Oxford</pubPlace>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno type="shelfmark">MS. Chandra Shum Shere e.98 (1)</idno>
+                            </altIdentifier>
+                            <altIdentifier>
+                                <idno type="ieArk">ark:29072/x0b8515n93rr</idno>
+                                <idno type="crArk">ark:29072/x0b5644s10f2</idno>
+                            </altIdentifier>
+                            <altIdentifier type="internal">
+                                <idno type="Chandra_Shum_Shere_Āśutoṣa">2436</idno>
+                            </altIdentifier>
+                        </msIdentifier>
 
                         <msContents n="1">
                             <summary> A paper manuscript of <name type="person" role="aut"
@@ -203,7 +272,256 @@
                             <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
                         </acquisition>-->
                         </history>
-           
+                    </msPart>
+
+                    <msPart>
+                       
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="shelfmark">MS. Chandra Shum Shere e.98 (2)</idno></altIdentifier>
+                                <altIdentifier>
+                                    <idno type="ieArk">ark:29072/x0bg257f60ck</idno>
+                                    <idno type="crArk">ark:29072/x0bc386j772v</idno>
+                                </altIdentifier>
+                                <altIdentifier type="internal">
+                                    <idno type="Chandra_Shum_Shere_Āśutoṣa">2532</idno>
+                                </altIdentifier>
+                            </msIdentifier>
+                        
+                        <msContents n="1">
+                            <summary>A paper manuscript of <name type="person" key="person_00043"
+                                        ><persName xml:lang="sa" type="standard"
+                                        >Patañjali</persName></name>'s <title xml:lang="sa"
+                                    key="work_00047">Yogasūtra</title>. </summary>
+
+                            <msItem n="1" defective="true">
+
+                                <author>
+                                    <name type="person" key="person_00043">
+                                        <persName xml:lang="sa" type="standard">Patañjali</persName>
+                                    </name>
+                                </author>
+
+                                <title xml:lang="sa" key="work_00047">Yogasūtra</title>
+
+                                <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> ||
+                                    śrīrāmakṛṣṇaprasaṃno yaṃ śrīr astu || śrīviṭṭhalāya namaḥ ||
+                                    atha yogasūtrāṇi likhyaṃte || </rubric>
+
+                                <incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> atha
+                                    yogānuśāsanaṃ 1 </incipit>
+
+                                <explicit xml:lang="sa" type="section"><locus from="11v" to="11v"
+                                        >[11v]</locus> sarvajñātṛtvaṃ </explicit>
+
+                                <incipit xml:lang="sa" type="section"><locus from="13r" to="13r"
+                                        >[13r]</locus> lavyavahitānāṃm apy ānaṃtaryasmṛti </incipit>
+
+                                <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"/>
+                                </finalRubric>
+
+                                <explicit xml:lang="sa"><locus from="14v" to="14v">[14v]</locus>
+                                    citiśaktir iti 34 </explicit>
+
+                                <finalRubric xml:lang="sa"><locus from="14v" to="14v">[14v]</locus>
+                                    iti yogasūtrādhyāye <sic>kaivalyapādaḥś ca turthaḥ</sic> 4 </finalRubric>
+
+                                <colophon xml:lang="sa"><locus from="14v" to="14v">[14v]</locus>
+                                    sūtre prathamapāda 52 dvī° 55 tri° 55° catu° 34 evaṃ 196 śake
+                                    1708 parābhavasaṃvatsare bhādrapadavadya 14
+                                        <sic>dvitīyapraharī</sic> samāpto yaṃ satyaṃ śrīr astu </colophon>
+
+                                <textLang mainLang="sa">Sanskrit.</textLang>
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="pothī">
+                                <supportDesc material="paper">
+                                    <support>Paper. <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="11">11</height>
+                                                <width quantity="19">19</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+
+                                    <extent xml:id="folio" n="13">13 ff. (folio 12
+                                        missing).</extent>
+
+                                    <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
+                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
+                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->
+
+                                    <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+                                    <condition> Incomplete, in good condition. </condition>
+                                </supportDesc>
+
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="6 7" type="mūla">
+                                        <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
+                                    otherwise use the @writtenLines-->
+                                        <!--<note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
+                                    </note>-->
+                                        <p> 6-7 lines per
+                                            page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
+                                            <!--<dimensions type="akṣara" n="X" unit="mm">
+                                            <height quantity="X">X</height>
+                                            <width quantity="X">X</width>
+                                            <dim type="aspect_ratio" quantity="X">X</dim>
+                                        </dimensions>-->
+                                        </p>
+                                        <p>Final rubrics and colophon highlighted in red; deletions
+                                            in yellow.
+                                            <!--<dimensions type="written_area" unit="cm">
+                                            <height quantity="X"></height>
+                                            <width atLeast="X" atMost="X"></width>
+                                        </dimensions>
+                                        <dimensions type="interlinear_space" scope="most" unit="mm">
+                                            <height quantity="X">X</height>
+                                        </dimensions>-->
+                                        </p>
+                                        <!--<p>Details about the string hole(s).
+                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
+                                            <height quantity="X">X</height>
+                                            <width quantity="X">X</width>
+                                            <depth quantity="X">X</depth>
+                                        </dimensions>
+                                    </p>-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                    <!--<desc>Scribe: 
+                                    <name type="person" role="scr" key="local_">
+                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
+                                    </name>
+                                </desc>-->
+                                </handNote>
+                            </handDesc>
+
+                            <!--<decoDesc>
+                            <decoNote type="miniature">
+                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
+                            </decoNote>
+                        </decoDesc>-->
+
+                            <additions>
+                                <list>
+                                    <head>Marginalia</head>
+                                    <item>
+                                        <marginalia type="titles">Running marginal title <term
+                                                xml:lang="sa">yo°</term> on the left margin, <term
+                                                xml:lang="sa">sū°</term> on the right
+                                            margin.</marginalia>
+                                    </item>
+                                </list>
+                            </additions>
+
+                            <bindingDesc>
+                                <p><material>Cardboard cover</material>, library binding.</p>
+                                <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
+                            </bindingDesc>
+                        </physDesc>
+
+                        <history>
+                            <origin>
+                                <date calendar="Śāka" when="1708">1708 Śāka</date> / <date
+                                    calendar="Gregorian" when="1786-09-21">21 September 1786.</date>
+                                <!--                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
+                            </origin>
+                            <provenance>Donated by <name type="person" role="dnr" key="person_00030">
+                                    <persName type="standard" xml:lang="ne">Shum Shere,
+                                        Chandra</persName>
+                                    <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher
+                                        Jang Bahadur Rana </persName></name> in <date
+                                    calendar="Gregorian" when="1909">1909</date>. </provenance>
+                            <!--<acquisition>
+                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
+                        </acquisition>-->
+                        </history>
+
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on
+                                        presentation of a valid reader's card, for admissions
+                                        procedures contact <ref
+                                            target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find"
+                                            >Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+
+                            <listBibl type="ms_descriptions">
+                                <head>Descriptions of the manuscript</head>
+
+                                <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                                    <biblStruct type="manuscript" xml:id="Gambier_Parry"
+                                        corresp="http://zotero.org/users/5493666/items/KU4TYAUH">
+                                        <monogr>
+                                            <title level="m">Index Catalogue of MSS. Chandra Shum
+                                                Shere by T. Gambier Parry. Revised and Completed by
+                                                E. H. Johnston [unpublished handlist]</title>
+                                            <author><forename>T.</forename><surname>Gambier
+                                                  Parry</surname></author>
+                                            <author><forename>E.
+                                                  H.</forename><surname>Johnston</surname></author>
+                                            <imprint>
+                                                <pubPlace>Oxford</pubPlace>
+                                                <date/>
+                                            </imprint>
+                                        </monogr>
+                                    </biblStruct>
+                                </listBibl>
+
+                                <!--<biblStruct type="book" xml:id="XX">
+                                <monogr>
+                                    <title/>
+                                    <author>
+                                        <forename/>
+                                        <surname/>
+                                    </author>
+                                    <imprint>
+                                        <pubPlace/>
+                                        <publisher/>
+                                        <date/>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>-->
+                            </listBibl>
+
+                            <!--<listBibl type="manuscripts">
+                            <head>Manuscripts</head>
+                            <bibl>
+                                <orgName>NGMCP</orgName>: <ref type="extant_mss" target=""> XX
+                                    listed manuscripts</ref>
+                                <ref type="extant_mss" target=""> X catalogued manuscripts</ref>
+                            </bibl>
+                            <bibl>
+                                <placeName>Oxford</placeName>, <orgName>Bodleian
+                                Libraries</orgName>: <ref type="extant_mss" target="">MS. XXX</ref>,
+                                    <ref type="extant_mss" target="">MS. XXX</ref>. </bibl>
+                        </listBibl>-->
+
+                            <!--<listBibl>
+                            <head>Edition(s)</head>
+                            <ref type="biblio" target="Name_19XX"/>
+                            <biblStruct/>
+                            <biblStruct/>
+                        </listBibl>-->
+                            <!--<listBibl>
+                            <head>Secondary Literature</head>
+                            <ref type="biblio" target="Name_19XX"/>
+                            <biblStruct/>
+                            <biblStruct/>
+                        </listBibl>-->
+                        </additional>
+                    </msPart>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>

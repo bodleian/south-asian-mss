@@ -374,6 +374,7 @@
                 
                 <bibl xml:id="work_00020">
                     <title type="uniform" xml:lang="sa">Bhagavadgītā</title>
+                    <title type="display" xml:lang="sa">Bhagavadgītā</title>
                     <title type="variant" xml:lang="sa">Gītā</title>
                     <idno type="VIAF">174582282</idno>
                     <idno type="local">00020</idno>
@@ -5592,7 +5593,7 @@
                 
                 <bibl xml:id="work_00260">
                     <title type="uniform" xml:lang="sa">Śeṣadharma</title>
-                    <title type="variant" xml:lang="sa">Śeṣadharma</title>
+                    <title type="display" xml:lang="sa">Śeṣadharma</title>
                     <idno type="VIAF">121145003288961300481</idno>
                     <idno type="local">00260</idno>
                     <!-- <idno type="PANDIT"></idno>
@@ -5615,7 +5616,7 @@
                 
                 <bibl xml:id="work_00261">
                     <title type="uniform" xml:lang="sa">Harivaṃśa</title>
-                    <title type="variant" xml:lang="sa">Harivaṃśa</title>
+                    <title type="display" xml:lang="sa">Harivaṃśa</title>
                     <idno type="VIAF">6744149198342474940004</idno>
                     <idno type="local">00261</idno>
                      <idno type="PANDIT">112278</idno>
@@ -5635,6 +5636,30 @@
                     </note>
                     <note>A part of the <title key="work_00071">Mahābhārata</title>.</note>
                 </bibl>
+                
+                <bibl xml:id="work_00262">
+                    <title type="uniform" xml:lang="sa">Bhagavadgītābhāṣya</title>
+                    <title type="display" xml:lang="sa">Bhagavadgītābhāṣya</title>
+                    <idno type="VIAF">177437478</idno>
+                    <idno type="local">00262</idno>
+                    <idno type="PANDIT">88637</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/177437478/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/88637/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note>A commentary to the <title key="work_00020">Bhagavadgītā</title>.</note>
+                </bibl>
+                
                 
             </listBibl>
         </body>
