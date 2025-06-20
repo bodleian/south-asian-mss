@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00000">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_003545">
     
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>South Asian Manuscripts at the Bodleian Libraries</title><funder>We Are Our History</funder>
+                <title>South Asian Manuscripts at the Bodleian Libraries</title>
+                <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
                 <respStmt>
                     <resp>Cataloguer</resp>
                     <persName>Barbora Sojkova</persName>
@@ -39,98 +40,88 @@
                     <institution>Oxford University</institution>
                     <repository>Bodleian Library</repository>
                     <collection type="main">Oriental Manuscripts</collection>
-                    <collection type="sanskrit" subtype="miscellaneous">Sanskrit, miscellaneous</collection><!--check this! -->
-                    <idno type="shelfmark">MS Sansk.</idno>
-                    <!-- If listed in CSM, add this number here 
+                    <collection type="sanskrit" subtype="miscellaneous">MSS. Ind. Inst. Misc.</collection>
+                    <idno type="shelfmark">MS Ind. Inst. Misc. 23</idno>
                     <altIdentifier>
-                        <idno type="CSM"></idno>
-                    </altIdentifier> -->
+                        <idno type="shelfmark">Arch. O. a. 9</idno>
+                    </altIdentifier> 
                  </msIdentifier>
+                
                 <msContents n="1">
-                    <!--increment n attribute for ms containing multiple ms items-->
-                    <summary></summary>
+               
+                    <summary>A single folio with a <term xml:lang="sa">citrakāvya</term> or <term xml:lang="sa">paṭacitra</term> in Odia script in the form of Kṛṣṇa and Rādha. 
+                        Painted on a verso of administrative paper with printed, unfilled table with headings in Odia script.</summary>
                     
-                    <msItem n="1" defective="unknown">
-                        <locus from="Xr" to="Xv">ff. XrY-XvY</locus>
+                    <msItem n="1">
+                       
                         
-                        <!-- If by tradition unknowable, delete this author element. If unknown, use unknown -->
-                        <author key="person_">
-                            <persName xml:lang="sa" type="standard">[insert here the uniform name of the author]</persName>
-                            
-                        </author>
-                        
-                        <title xml:lang="sa">[insert here the uniform title of the work]</title>
+                        <title type="desc" key="work_00000">An unidentified <term xml:lang="sa">citrakāvya</term>.</title>
                         
                         <textLang mainLang="sa" >Sanskrit.</textLang>
                     </msItem>
                 </msContents>
                 
                 <physDesc>
-                        <objectDesc form="X"> 
-                            <supportDesc material="X">
-                                <support>[Insert here the description of the material, using one of the following set phrases: 
-                                    Palm leaf, Nepalese paper, Nepalese multi-layered paper, 
-                                    Nepalese multi-layered black paper, Birch bark, Paper.]
+                        <objectDesc form="sheet"> 
+                            <supportDesc material="paper">
+                                <support>Paper.
+                                    <note>Brown administrative paper with printed, unfilled table with headings in Odia script on the recto.</note>
+                                    <p>
+                                        <dimensions type="folio" scope="most" unit="cm">
+                                            <height quantity="50">50</height>
+                                            <width quantity="32">32</width>
+                                        </dimensions>
+                                    </p>
                                 </support>
                                 
-                                <extent xml:id="folio" n="X"> 
-                                    <measure type="Endleaf" quantity="2">X</measure>
-                                    + <measure type="leaf" quantity="153 ">X </measure>
-                                    + <measure type="Endleaf" quantity="2">X</measure>.
+                                <extent xml:id="folio" n="1">1 f.</extent>
                                 
-                                <dimensions type="binding" scope="most" unit="cm">
-                                    <height quantity="3"> 3</height>
-                                    <width quantity="6"> 6</width>
-                                </dimensions>
-                                <!--                                        ALTERNATIVELY, if you give a range use the following pattern:
-                                <dimensions type="folio" scope="range" unit="cm">
-                                    <height atLeast="X" atMost="Y">ca. X-Y</height>
-                                    <width atLeast="X" atMost="Y">ca. X-Y</width>
-                                </dimensions>-->
-                                </extent> 
+                                                           
                                 <condition>
-                                    <p>[Extant leaves]</p>
-                                    <p>[Damaged/missing leaves]</p>
+                                    <p>Frail top and bottom margins, without loss of any <term xml:lang="sa">akṣaras</term>. Missing areas backed up with brown conservation paper.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         
                         <handDesc>
-                            <handNote scope="sole" script="X" medium="X" scribeRef="X">
-                                <desc>X in X ink.</desc>
-                                <desc>
-                                    Scribe: 
-                                        <persName xml:lang="sa" type="standard" key="local_">[scribe's name]</persName>
-                                </desc>
-                                <p></p>
-                            </handNote>
+                            <handNote scope="sole" script="Odia" medium="black_ink">
+                                <desc>Odia script in black ink.</desc>
+                               </handNote>
                         </handDesc>
                         
-                        <!-- delete decoDesc element if not appropriate --><decoDesc>
+                        <decoDesc>
                             <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
+                                <desc>A large painting of Kṛṣṇa playing a flute to Rādha on a floral background. The outlines are created from lines of Odia script, and details are painted in yellow, black, and red pigment.</desc>
                             </decoNote>
                         </decoDesc>
+                    
+                    <bindingDesc>
+                        <binding notBefore="1950">
+                            <p> Mounted on a white archive cardboard. Stored in a standard grey library cardboard cover box.</p>
+                        </binding>
+                    </bindingDesc>
+                    
                     </physDesc>
                     
                     <history>
                         <origin>
-                            <origDate calendar="#Nepāla" when="0914">914 Nepāla</origDate> / <origDate calendar="#Gregorian" when="1784">1794 CE.</origDate>
+                            <origDate calendar="Gregorian" notAfter="1883">Not dated. Likely 19th century, <hi rend="italic">terminus ante quem</hi> 1883.</origDate> 
                             
-                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>
-                            <p>In colophon: <date>saṃvat 1850 <supplied>1794 CE.</supplied> miti vaiśākhaśudī 15 |</date></p>
+                            <origPlace xml:lang="eng" key="place_00007">Odisha.</origPlace>
+                           
                         </origin>
-                        <provenance>Bought by 
-                            <name type="person" subtype="dnr" key="local_00000">
-                                <persName type="standard" xml:lang="lat">Sempronius, Titius
-                                    Caius</persName><persName type="display" xml:lang="lat">Titius
-                                        Caius Sempronius</persName></name> in <date
-                                            calendar="Gregorian" from="1873" to="1876">1873-6</date>.
-                        </provenance>
+                        <acquisition>Given by 
+                            <name type="person" subtype="dnr" key="person_00015">
+                                <persName type="display" xml:lang="lat">M. Monier-Williams</persName></name> in <date
+                                            calendar="Gregorian" from="1883" to="1883">1883</date>.
+                        </acquisition>
                     </history>
                     
                     <additional>
                         <adminInfo>
+                            <recordHist>
+                                <source>Description by Barbora Sojkova, based on observation of the manuscript.</source>
+                            </recordHist>
                             <availability status="restricted">
                                 <p>Entry to read in the Library is permitted only on presentation of
                                     a valid reader's card, for admissions procedures contact <ref
@@ -139,6 +130,13 @@
                             </availability>
                             <note/>
                         </adminInfo>
+                        <listBibl>
+                            <head>Previously published in:</head>
+                            <bibl>Camillo Formigatti,
+                                <title>A Sanskrit Treasury: A Compendium of Literature from the Clay Sanskrit Library</title>
+                                (Oxford: Bodleian Library, 2019).
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -496,12 +494,6 @@
                         <item>
                             <ref target="http://id.loc.gov/authorities/subjects/sh85080761">Manuscripts, Sanskrit</ref>
                         </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh87004934.html">Manuscripts, Prakrit</ref>
-                        </item>
-                        <item>
-                            <ref target="http://id.loc.gov/authorities/subjects/sh85080774.html">Manuscripts, Tamil</ref>
-                        </item>
                     </list>
                 </keywords>
                 <keywords scheme="local">
@@ -514,7 +506,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-03-02">
+            <change when="2025-06-20">
                 <persName>Barbora Sojkova</persName> created this entry.
             </change>
         </revisionDesc>
