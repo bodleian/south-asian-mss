@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03289">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>Barbora Sojkova</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_f_15</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. f.</collection>
+                  <idno type="shelfmark">MS. Sansk. f. 15</idno>
+                  <idno type="ieArk">ark:29072/x0pv63g0638d</idno>
+                  <idno type="crArk">ark:29072/x0pr76f379zb</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1271</idno>
+                  </altIdentifier>
+               </msIdentifier>
+              
+               <head source="#WinternitzKeith1905">Cāṇakya Rājanītiśāstra, 17th or 18th cent.?</head>
+               
+               <msContents n="2">
+                  <summary source="#WinternitzKeith1905">A paper manuscript of the <title key="work_00263">Cāṇakya Rājanītiśāstra</title>, in eight <term xml:lang="sa">adhyāyas</term>, written in Śāradā script.</summary>
+                  
+                  <msItem n="1" defective="unknown">
+                     <locus from="iv">F. iv<hi rend="superscript">v</hi>.</locus>
+                     <title type="desc">Unidentified stanza treating the syllable <term xml:lang="sa">oṃ</term>.</title>
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  <msItem n="2" defective="true">
+                     
+                  
+                     <locus from="2r" to="115r">F. 2<hi rend="superscript">r</hi>-115<hi rend="superscript">r</hi> (ff. 2<hi rend="superscript">r</hi>-108<hi rend="superscript">v</hi> and 110<hi rend="superscript">v</hi>-116<hi rend="superscript">r</hi> in original foliation).</locus>   
+                  
+                     <title key="work_00263">Cāṇakya Rājanītiśāstra</title>
+                     
+                     <explicit xml:lang="sa">
+                        <locus from="114v" to="115r">Ff. 114<hi rend="superscript">v</hi>-115<hi rend="superscript">r</hi>:</locus>
+                        pitā vivekaḥ svamatir janitrī svasāpy ahiṃsā dayitā dayaiva ǁ dharmaḥ sahāyas tanayā sukīrtiḥ sūnuḥ satāṃ dīnajanopakāraḥ ǁ 143 ǁ 
+                        cāṇikyamāṇikyam idaṃ kaṇṭhe bibhrati ye budhāḥ ǁ grathitaṃ bhojarājena bhuvi taiḥ kiṃ na prāpyate ǁ 144 ǁ 
+                     </explicit>
+                     
+                     <colophon xml:lang="sa">
+                        <locus from="115r" to="115r">F. 115<hi rend="superscript">r</hi>:</locus>
+                        iti śrīcāṇikye rājanīātiśāstre ’ṣṭamo ’dhyāyaḥ ǁ ǁ ǁ samāptaṃ cedaṃ rājanītiśāstraṃ samāptaṃ ǁ ǁ
+                     </colophon>
+                  
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                  </msItem>
+                  
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>Paper.</support>
+                        <extent>
+                           <measure type="laterEndleaf">iv</measure> + <measure type="leaf">116</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="9">9</height>
+                              <width quantity="14.5">14.5</width>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation n="1" style="numeral" xml:id="original">Śāradā numerals, bottom-left corner, verso.</foliation>
+                        <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right corner, recto.</foliation>
+                        <foliation n="3" style="digit">Erroneous secondary library foliation Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                        <condition>
+                        Ff. 1 and 109 are missing.  
+                        <p>Ff. 68–70, 108, 110 are slightly damaged.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6">6 lines on a folio.
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Śāradā" medium="black_ink_red_ink">
+                        <desc>Śaradā script in black ink. <term xml:lang="sa">Daṇḍas</term> and occassional <term xml:lang="sa">akṣaras</term> in red ink.
+                        Corrections in yellow paste.
+                        </desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     Occassional marginal notes in a different hand.
+                     <p>Abbreviated marginal title above the original foliation, bottom-left corner of the margin, verso.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding notAfter="1950">
+                        <p>Early 20th-century red <term type="material">textile</term> binding over pasteboard, with shelfmark and description tooled in gold on the spine. The original paper wrapper with manuscript notes in pen bound as front end leaves.
+                           Kept in a <term type="material">cardboard</term> library box.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#WinternitzKeith1905" notBefore="1600"
+                        notAfter="1799">17th or 18th cent.?</origDate>
+                     <p><q source="#WinternitzKeith1905">17th or 18th century.</q></p></origin>
+                  
+                  <acquisition source="#WinternitzKeith1905">Bought in <date>1887</date> from <persName
+                        key="person_00177" role="fmo">Dr. Eugen Hultzsch</persName>.
+                     <p>Manuscript memorandum on original wrapper (f. ii) in red and black ink: <q><idno type="former">No. 81</idno>. <idno type="former">K 26.</idno> Chaṇikya. </q>
+                     </p></acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source><ref target="https://south-asian.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the following sources: <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n214/mode/1up"
+                                       >no. 1271, p. 183</ref></biblScope></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n214/mode/1up"
+                                 >no. 1271, p. 183</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-06-27">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

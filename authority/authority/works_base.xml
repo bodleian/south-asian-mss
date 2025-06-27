@@ -5660,6 +5660,28 @@
                     <note>A commentary to the <title key="work_00020">Bhagavadgītā</title>.</note>
                 </bibl>
                 
+                <bibl xml:id="work_00263">
+                    <title type="uniform" xml:lang="sa">Cāṇakya Rājanītiśāstra</title>
+                    <title type="display" xml:lang="sa">Cāṇakya Rājanītiśāstra</title>
+                    <title type="variant" xml:lang="sa">Cāṇakyanītiśāstra</title>
+                    <idno type="VIAF">179041680</idno>
+                    <idno type="local">00263</idno>
+                    <!--<idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/179041680/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
                 
             </listBibl>
         </body>

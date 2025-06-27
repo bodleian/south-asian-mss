@@ -14,7 +14,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-391-mrcchakataka.xml</String>
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-e-98-yoga.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -35,6 +35,46 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>collections/MS-Sansk/ms_sansk_d_160.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Sansk/ms_sansk_f_15.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-391-mrcchakataka.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
