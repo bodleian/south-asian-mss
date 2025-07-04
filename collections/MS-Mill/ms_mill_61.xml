@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02645">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>Barbora Sojkova</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_mill_61</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Mill</collection>
+                  <idno type="shelfmark">MS. Mill 61</idno>
+                  <idno type="ieArk">ark:29072/x02514nn17h2</idno>
+                  <idno type="crArk">ark:29072/x02227mr3466</idno>
+                  <altIdentifier>
+                     <idno type="CSM">570, 561</idno>
+                  </altIdentifier>
+               </msIdentifier>
+
+               <head>A composite paper manuscript containing two manuscript works on philosophy.</head>
+
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>Paper.</support>
+                        
+                        <extent>
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure
+                              type="leaf" quantity="98">98 </measure> + <measure
+                              type="laterEndleaf" quantity="2">ii</measure>.
+                           The two parts in the original foliation have 45 + 54 (really 53, f. 1 being lost) leaves.
+                           
+                           <dimensions type="folio" unit="cm">
+                              <height quantity="11">11</height>
+                              <width quantity="28">28</width>
+                           </dimensions>
+                           
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="15">15</height>
+                              <width quantity="30">30</width>
+                           </dimensions>
+                           
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding notBefore="1900">
+                        <p> Late 19th-century red-brown <term type="material">textile</term>
+                           binding over pasteboard, with description tooled in gold and the shelfmark <q type="pressmark">61</q> on the spine. Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <acquisition> The collections of <persName key="person_00179" role="fmo">William Hodge
+                        Mill</persName> were purchased by the Bodleian Library in <date>1849</date>
+                     and <date>1858</date>. </acquisition>
+               </history>
+
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by <persName>Barbora Sojkova</persName>, based
+                           on observation of the manuscript and existing descriptions:
+                           <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
+                                    Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
+                                    I</title> (Oxford, 1909), <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n80/mode/1up"
+                                          >no. 570, pp. 71-72</ref></biblScope>; <biblScope><ref
+                                                target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n79/mode/1up"
+                                                >no. 561, p. 70</ref></biblScope></bibl>
+                              <bibl source="#Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
+                                    complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
+                                          target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=253"
+                                          >no. 570, pp. 237-238</ref></biblScope>; <biblScope><ref
+                                                target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=245"
+                                                >no. 561, pp. 229-232</ref></biblScope></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+
+                  <surrogates> </surrogates>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
+                              Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
+                              I</title> (Oxford, 1909), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n80/mode/1up"
+                                 >no. 570, pp. 71-72</ref></biblScope>; <biblScope><ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n79/mode/1up"
+                                 >no. 561, p. 70</ref></biblScope></bibl>
+                        <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=253"
+                                 >no. 570, pp. 237-238</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=245"
+                                 >no. 561, pp. 229-232</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+
+
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 61a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>A paper manuscript of the <title key="work_00029" xml:lang="sa">Sāṃkhyatattvakaumudī</title>, 1677 CE.</head>
+                  <msContents n="1">
+                      
+                     <msItem>
+                        
+                        <locus from="1v" to="45v">F. 1<hi rend="superscript">v</hi>-45<hi rend="superscript">v</hi>.</locus>
+                         
+                         <author key="person_00031">
+                            <persName xml:lang="sa" type="display">Vācaspati Miśra</persName>
+                         </author>
+                        
+                        <title key="work_00029" xml:lang="sa">Sāṃkhyatattvakaumudī</title>
+                        
+                        <rubric>
+                           <locus from="1v" to="1v">F. 1<hi rend="superscript">v</hi>:</locus>
+                           oṃ namaḥ ||
+                        </rubric>
+                        
+                        <incipit>
+                           <locus from="1v" to="1v">F. 1<hi rend="superscript">v</hi>:</locus>
+                           ajāmekāṃ lohitaśuklakṛṣṇāṃ vahvīḥ prajāḥ sujamānāṃ namāmaḥ ||
+                        </incipit>
+                        
+                        <finalRubric>
+                           <locus from="45v" to="45v">F. 45<hi rend="superscript">v</hi>:</locus>
+                           || iti śrī vācaspatimiśraviracitā sāṃkhyatattvakaumudīsamāptā || saṃvat 1733 varṣe bhādrakṛṣṇajanmāṣṭamyāṃ | vinayasuṃdarasyādvādinā syādvādāṃgaṃ vicāryya sāṃkhyatatvakaumudī
+                           likhita | anekāṃtasamuditā tamohantrī syāt | 
+                        </finalRubric>
+                         
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                      </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent n="45">45 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Original foliation in Jainanāgarī numerals, bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, verso.</foliation>
+                     
+                     <condition>Complete.
+                     <p>In good condition. Occassional smudging of ink and woodworm damage, but no loss of <term xml:lang="sa">akṣaras</term>.</p>
+                     </condition>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="8">10 lines on a folio.
+                              <p>The written area is framed on each side by two marginal lines in red ink.</p>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     
+                     <handDesc>
+                        <handNote scope="major" script="Jainanāgarī" medium="black_ink_red_ink">
+                           <desc>
+                              Jainanāgarī in black ink; colophon written in red ink. Deletions in white paste.
+                           </desc>
+                            <p><desc>Scribe: 
+                              <persName role="scr" key="local_00215" xml:lang="sa">
+                                 Vinayasuṃdara.
+                              </persName>
+                          <q><locus>F. 45<hi rend="superscript">v</hi></locus>:
+                              Vinayasuṃdarasyādvādinā syādvādāṃgaṃ vicāryya Sāṃkhyatatvakaumudī
+                              likhita | anekāṃtasamuditā tamohantrī syāt |</q>
+                              </desc></p>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions> 
+                       Marginal and interlinear corrections in a different hand.
+                     </additions>
+                     
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1733">saṃvat 1733</origDate> / <origDate calendar="#gregorian" when="1677">1677 CE.</origDate>
+                        <p><locus>F. 45<hi rend="superscript">v</hi></locus>: 
+                           <q>saṃvat 1733 varṣe bhādrakṛṣṇajanmāṣtaṃyāṃ |</q></p></origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source><listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n80/mode/1up"
+                                          >no. 570, pp. 71-72.</ref></biblScope></bibl>
+                              </listBibl></source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+
+
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS. Mill 61b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <head>An incomplete paper manuscript of the <title key="work_00051">Rājamārtaṇḍa</title>, the commentary to the <title key="work_00047">Yogasūtra</title>, from 1678 CE.</head>
+                  
+                  <msContents>
+                     <msItem>
+                        <locus from="46r" to="98v">Ff. 46<hi rend="superscript">r</hi>-98<hi rend="superscript">v</hi> (ff. 2<hi rend="superscript">r</hi>-54<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author key="person_00047">
+                           <persName xml:lang="sa" type="display">Bhoja</persName>
+                        </author>
+                        
+                        <title key="work_00051">Rājamārtaṇḍa</title>
+                        <note>The colophon calls the work <q>Pātañjalayogaśāstravṛtti</q>.</note>
+                        
+                        <incipit xml:lang="sa">
+                           <locus from="46r" to="46r">F. 46<hi rend="superscript">r</hi> (f. 2<hi rend="superscript">r</hi> in original folition):</locus>
+                           ryenatad anuśāsanaṃ yogasyānuśāsanaṃ yogānuśāsanaṃ || tadāśāstraparisamāpte radhiktaṃ vodhavyasutyarthaḥ ||
+                        </incipit>
+                        
+                        <colophon>
+                           <locus from="98v" to="98v">F. 98<hi rend="superscript">v</hi> (f. 54<hi rend="superscript">v</hi> in original foliation):</locus>
+                           iti śrīdhāreśvarabiracitāyāṃ pātaṃjalayogaśāstravṛttau kaivalyapādaḥś caturthaḥ samāptaḥ || saṃvat 1734 caitrakṛṣṇapakṣa 3 bhṛguvāsare |                      
+                        </colophon>
+                        
+                        <finalRubric>
+                           <locus from="98v" to="98v">F. 98<hi rend="superscript">v</hi> (f. 54<hi rend="superscript">v</hi> in original foliation):</locus>
+                           <sic>pātaṃjiliyogaśāstr</sic>
+                        </finalRubric>
+                        
+                        <textLang mainLang="sa">Sanskrit.</textLang>
+                     </msItem>
+                  
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent n="53">53 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Original foliation in Devanāgarī numerals, bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, verso.</foliation>
+                           
+                           <condition>Incomplete, original f. 1 missing.  
+                              <p>In good condition.</p>
+                           </condition>
+                        </supportDesc>
+                     
+                                          
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="8">10 lines on a folio.
+                              <p>The written area is framed on each side by two marginal lines in red ink up between folios <locus from="46" to="49">46-49</locus> and <locus from="58" to="92">58-92</locus>; remaining folios are without a frame.</p>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>
+                              Devanāgarī in black ink. <term xml:lang="sa">Mūla</term> passages highlighted in red. Deletions in white paste.
+                           </desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <additions> 
+                        Marginal and interlinear corrections in at least two other hands.
+                     </additions>
+                     
+                  </physDesc>
+                     
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1733">saṃvat 1734</origDate> / <origDate calendar="#gregorian" source="#Keith1909" when="1678">1678 CE</origDate>
+                        <p><locus>F. 98<hi rend="superscript">v</hi></locus>:
+                              <q>saṃvat 1734 caitrakṛṣṇapakṣa 3 bhṛguvāsare |</q></p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source><listBibl>
+                                 <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                       <ref
+                                          target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n79/mode/1up"
+                                          >no. 561, p. 70</ref></biblScope></bibl>
+                              </listBibl></source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-06-27">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

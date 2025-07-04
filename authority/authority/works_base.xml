@@ -554,24 +554,27 @@
                 </bibl>
                 
                 <bibl xml:id="work_00029">
-                    <title type="uniform" xml:lang="sa">Sāṅkhyatattvakaumudī</title>
+                        <title type="uniform" xml:lang="sa">Sāṃkhyatattvakaumudī</title>
+                        <title type="display" xml:lang="sa">Sāṃkhyatattvakaumudī</title>
+                        <title type="variant" xml:lang="sa">Sāṃkhya-tattva-kaumudī</title>
+                        <title type="variant" xml:lang="sa">Sāṅkhyatattvakaumudī</title>
                     <idno type="VIAF">298240333</idno>
-                    <idno type="local">00029</idno>
-<!--                    <idno type="PANDIT"></idno>-->
-                    <note type="links">
-                        <list type="links">
-                            <item>
-                                <ref target="http://viaf.org/viaf/298240333">
-                                    <title>VIAF</title>
-                                </ref>
-                            </item>
-                            <!--<item>
-                                <ref target="https://www.panditproject.org/entity/000000/work">
-                                    <title>PANDIT</title>
-                                </ref>
-                            </item>-->
-                        </list>
-                    </note>
+                        <idno type="local">00029</idno>
+                        <idno type="PANDIT">89039</idno>
+                        <note type="links">
+                            <list type="links">
+                                <item>
+                                    <ref target="https://viaf.org/viaf/298240333/">
+                                        <title>VIAF</title>
+                                    </ref>
+                                </item>
+                                <item>
+                                    <ref target="https://www.panditproject.org/entity/89039/work">
+                                        <title>PANDIT</title>
+                                    </ref>
+                                </item>
+                            </list>
+                        </note>
                 </bibl>
                 
                 <bibl xml:id="work_00030">
@@ -5682,6 +5685,30 @@
                         </list>
                     </note>
                 </bibl>
+                
+                <bibl xml:id="work_00264">
+                    <title type="uniform" xml:lang="sa">Kathāsaritsāgara</title>
+                    <title type="display" xml:lang="sa">Kathāsaritsāgara</title>
+                    <idno type="VIAF">191638771</idno>
+                    <idno type="local">00264</idno>
+                    <idno type="PANDIT">114001</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/191638771/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/114001/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                
                 
             </listBibl>
         </body>
