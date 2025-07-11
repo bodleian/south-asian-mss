@@ -5708,7 +5708,49 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00265">
+                    <title type="uniform" xml:lang="sa">Gorakṣaśataka</title>
+                    <title type="display" xml:lang="sa">Gorakṣaśataka</title>
+                    <idno type="VIAF">312457302</idno>
+                    <idno type="local">00265</idno>
+                    <idno type="PANDIT">89577</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/312457302/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/89577/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
                 
+                <bibl xml:id="work_00266">
+                    <title type="uniform" xml:lang="sa">Vairāgyaprakaraṇa</title>
+                    <title type="display" xml:lang="sa">Vairāgyaprakaraṇa</title>
+                   <!-- <idno type="VIAF"></idno>-->
+                    <idno type="local">00266</idno>
+                    <idno type="PANDIT">101927</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!--item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            --><item>
+                                <ref target="https://www.panditproject.org/entity/101927/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
                 
             </listBibl>
         </body>
