@@ -506,14 +506,120 @@
                             </altIdentifier>
                         </msIdentifier>
                         
-                        <msContents n="1">
-                            <summary>A paper manuscript of </summary>
-
-                            <msItem>
-                                <textLang mainLang="sa">Sanskrit.</textLang>
-                            </msItem>
-
+                        <msContents n="1+1">
+                            <summary>A paper manuscript of <title xml:lang="sa" key="work_00267">Saptabhūmikā</title> with a <term xml:lang="sa">tripāṭha</term> commentary.</summary>
+                                
+                                <msItem n="1" class="mūla" defective="unknown">
+                                <locus from="113v" to="118v">Ff. 113<hi rend="superscript">v</hi>-118<hi rend="superscript">v</hi> (ff. 1-6 in original foliation).</locus>
+                                  
+                                        <title xml:lang="sa" key="work_00267">Saptabhūmikā</title>
+                                        
+                                        
+                                        <incipit xml:lang="sa">
+                                            <locus from="113v" to="113v">F. 113<hi rend="superscript">v</hi> (f. 1<hi rend="superscript">v</hi> in original foliation):</locus> 
+                                            śrī rāma uvāca kīdṛśyo bhagavan yogabhūmikāḥ saprasiddhidāḥ samāsenetibuddhi saṃvrtatvavidāṃvara 1
+                                        </incipit>
+                                        
+                                        <explicit xml:lang="sa">
+                                            <locus from="118r" to="118r">F. 118<hi rend="superscript">r</hi> (f. 6<hi rend="superscript">r</hi> in original foliation):</locus> 
+                                            21 iti saptabhūmikā ||
+                                        </explicit>
+                                        
+                                        <textLang mainLang="sa">Sanskrit.</textLang>
+                                        
+                                    </msItem>
+                                        
+                                        
+                                    <msItem n="2" class="commentary" defective="unknown">
+                                            
+                                        <locus from="113v" to="118v">Ff. 113<hi rend="superscript">v</hi>-118<hi rend="superscript">v</hi> (ff. 1-6 in original foliation).</locus>
+                                        
+                                        <title xml:lang="sa" key="work_00267">Saptabhūmikā</title>
+                                        
+                                        <rubric xml:lang="sa">
+                                                <locus from="113v" to="113v">F. 113<hi rend="superscript">v</hi> (f. 1<hi rend="superscript">v</hi> in original foliation):</locus> 
+                                                || śrī gaṇeśāya namaḥ || 
+                                        </rubric>
+                                            
+                                            <incipit xml:lang="sa">
+                                                <locus from="113v" to="113v">F. 113<hi rend="superscript">v</hi>(f. 1<hi rend="superscript">v</hi> in original foliation):</locus> 
+                                                śrī rāma uvāca || jñānabhūmiprabhodānām upohvātena varṇyate ajñānabhūmikāsaptavidhāyadvā prasaṃgataḥ sanāsena saṃgraheṇa iti śavdo lakṣaṇabhedānāṃ tadṛpayogyathaṃttirāṇāṃ capraśnasya dyotanāya 1
+                                            </incipit>
+                                            
+                                            <explicit xml:lang="sa">
+                                            <locus from="118r" to="118r">F. 118<hi rend="superscript">r</hi> (f. 6<hi rend="superscript">r</hi> in original foliation):</locus> 
+                                             iti saptabhūmikā ||
+                                            </explicit>
+                                            
+                                          <textLang mainLang="sa">Sanskrit.</textLang>
+                                    </msItem>
                         </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī"> 
+                                <supportDesc material="paper">
+                                    <support>Paper.
+                                        <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="27">27</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    
+                                    
+                                    <extent n="6">6 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Original foliation in devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                                    
+                                    <condition>
+                                        In good condition.
+                                        <p>Complete.</p>
+                                    </condition>   
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <layout columns="1" type="commentary" style="tripāṭha">
+                                        
+                                        <note>Description of the commentary layout: <term xml:lang="sa">tripāṭha</term>, with the <term xml:lang="sa">mūla</term> cited in full.
+                                            3-5 lines of the <term xml:lang="sa">mūla</term> per page.
+                                        </note>
+                                        
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            
+                            <additions>
+                                <p>On f. 113<hi rend="superscript">r</hi>, in a later hand: <q xml:lang="sa">saptabhūmikā</q>.</p>
+                                <p>On f. 118<hi rend="superscript">v</hi>, a part of the commentary for verses 18 and 19, with a few mistakes. Written upside down.</p>
+                             </additions>
+                        </physDesc>
+                        
+                        
+                        <history>
+                            <origin>
+                                <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                            </origin>
+                        </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                        </additional> 
+                        
                     </msPart>
                     
                     <msPart>
@@ -527,13 +633,89 @@
                         </msIdentifier>
                         
                         <msContents n="1">
-                            <summary>A paper manuscript of </summary>
+                            <summary>A paper manuscript of the <title key="work_00268" xml:lang="sa">Vairāgyajñānavarṇana</title>.</summary>
                             
                             <msItem>
+                                
+                                <locus from="120r" to="123r">Ff. 120<hi rend="superscript">r</hi>-123<hi rend="superscript">v</hi> (ff. 2-5 in original foliation).</locus>
+                                
+                                <title key="work_00268" xml:lang="sa">Vairāgyajñānavarṇana</title>
+                                
+                                <incipit>
+                                    <locus from="120r" to="120r">F. 120<hi rend="superscript">r</hi> (f. 2 in original foliation):</locus>
+                                    nanu ādhavahelararthitāmṛtetiṣṭhati māmanāgapi || 5 || 
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus from="123v" to="123v">F. 123<hi rend="superscript">v</hi> (f. 5 in original foliation):</locus>
+                                    iti śrī vairāgyajñānavarṇanaṃ saṃāpatovadhāryamityaṃvistaraṇe || śrīrasta ||
+                                </explicit>
+                                
                                 <textLang mainLang="sa">Sanskrit.</textLang>
+                                
                             </msItem>
                             
                         </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī"> 
+                                <supportDesc material="paper">
+                                    <support>Paper.
+                                        <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="25">25</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    
+                                    
+                                    <extent n="4">4 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Original foliation in devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                                    
+                                    <condition>
+                                        In good condition.
+                                        <p>Original f. 1 missing.</p>
+                                    </condition>   
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="15">
+                                     Up to 15 lines per page. 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink. Highlighted in red powder.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            
+                            <additions>
+                                <p>Title abbreviation <q xml:lang="sa">vai°</q> in top-left margin.</p>
+                                <p>On f. 123<hi rend="superscript">v</hi>, additional notes and marginalia in at least two different hands.</p>
+                            </additions>
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                            </origin>
+                        </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                        </additional>
                     </msPart>
                     
                     <msPart>
@@ -555,12 +737,13 @@
                             <summary> A paper manuscript of the <title xml:lang="sa" key="work_00048">Gūḍhārthadyotikā</title>, 
                                 <name type="person" role="aut" key="person_00044"><persName xml:lang="sa" role="aut" type="standard">Nārāyaṇa Tīrtha</persName></name>'s commentary
                                 on <name type="person" key="person_00043"><persName xml:lang="sa" type="standard">Patañjali</persName></name>'s 
-                                <title xml:lang="sa" key="work_00047">Yogasūtra</title>. <term xml:lang="sa">Pāda</term> 1, often differs from the edition.
+                                <title xml:lang="sa" key="work_00047">Yogasūtra</title>. <term xml:lang="sa">Pāda</term> 1 often differs from the edition.
                             </summary>
-                            
-                            <msItemStruct n="2">
-                                <msItemStruct class="mūla" defective="true">
-                                    <author>
+                          
+                                
+                                <msItem n="1" class="mūla" defective="true">
+                                    
+                                     <author>
                                         <name type="person" key="person_00043">
                                             <persName xml:lang="sa" type="standard">Patañjali</persName>
                                         </name>
@@ -568,41 +751,13 @@
                                     
                                     <title xml:lang="sa" key="work_00047">Yogasūtra</title>
                                     
-                                    <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    || śrīrāmakṛṣṇaprasaṃno yaṃ śrīr astu || śrīviṭṭhalāya namaḥ || atha yogasūtrāṇi likhyaṃte ||
-                                </rubric>
-                                
-                                <incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> 
-                                    atha yogānuśāsanaṃ 1
-                                </incipit>
-                                
-                                <explicit xml:lang="sa" type="section"><locus from="11v" to="11v">[11v]</locus> 
-                                    sarvajñātṛtvaṃ
-                                </explicit>
-                                
-                                <incipit xml:lang="sa" type="section"><locus from="13r" to="13r">[13r]</locus> 
-                                    lavyavahitānāṃm apy ānaṃtaryasmṛti
-                                </incipit>
-                                
-                                <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
-                                </finalRubric>
-                                
-                                <explicit xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    citiśaktir iti 34
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    iti yogasūtrādhyāye <sic>kaivalyapādaḥś ca turthaḥ</sic> 4
-                                </finalRubric>
-                                
-                                <colophon xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    sūtre prathamapāda 52 dvī° 55 tri° 55° catu° 34 evaṃ 196 śake 1708 parābhavasaṃvatsare bhādrapadavadya 14 <sic>dvitīyapraharī</sic> samāpto yaṃ satyaṃ śrīr astu
-                                </colophon>-->
-                                    
                                     <textLang mainLang="sa">Sanskrit.</textLang>
-                                </msItemStruct>
+                                </msItem>
                                 
-                                <msItemStruct class="commentary" defective="true">
+                                <msItem n="2" class="commentary" defective="true">
+                                    
+                                    <locus from="125v" to="148v">Ff. 125<hi rend="superscript">v</hi>-148<hi rend="superscript">v</hi> (ff. 1, 15, and 13-34 in original foliation).</locus>
+                                    
                                     <author>
                                         <name type="person" subtype="aut" key="person_00044">
                                             <persName xml:lang="sa" type="standard">Nārāyaṇa Tīrtha</persName>
@@ -611,48 +766,65 @@
                                     
                                     <title xml:lang="sa" key="work_00048">Gūḍhārthadyotikā</title>
                                     
-                                    <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    <rubric xml:lang="sa">
+                                        <locus from="125v" to="125v">F. 125<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
+                                        
                                         śrīgaṇeśāya namaḥ || śrīgurubhyo namaḥ || śrīparamātmane namaḥ || ||
                                     </rubric>
                                     
-                                    <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    <incipit xml:lang="sa">
+                                        <locus from="125v" to="125v">F. 125<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
                                         satyaṃ jñānam
                                     </incipit>
                                     
-                                    <explicit xml:lang="sa" type="section"><locus from="1v" to="1v">[1v]</locus> 
+                                    <explicit xml:lang="sa" type="section">
+                                        <locus from="125v" to="125v">F. 125<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
                                         nididhyāsanaṃ tv ekatā
                                     </explicit>
                                     
-                                    <incipit xml:lang="sa" type="section"><locus from="2r" to="2r">[2r1 = 13r1]</locus> 
-                                        tatra lakṣaṇam uktvā sārvajñyarūpaṃ viśeṣam āha tatra [...] sarvajñabījaṃ ||
-                                        sarvajñeti bhāvapradhāno nirdeśaḥ [...] <locus from="2v" to="2v">[2v3 = 13v3]</locus>
-                                        sa pūrveṣām [...] chedāt || sa īśvaraḥ pūrveṣām api [...] guruḥ pitā aṃtaryāmi viṣayājñānopadeṣṭā ca yo vrahmāṇaṃ vidadhāti
+                                    <incipit xml:lang="sa" type="section">
+                                        <locus from="126r" to="126r">F. 126<hi rend="superscript">r</hi> (f. 15 in original foliation):</locus>
+                                        tor yad evātiśayi niratiśayaṃ tad etad aiśvaryaṃ syād iti yojanā
+                                        (svā)tiśayatve satyaiśvaryam eva bhavati apratihate chatvasyaivābhāvāt ato yad eva
+                                        niratiśayi tad eva mukhyam aiśvaryam ity arthaḥ upasaṃharati tasmād iti
+                                        <note>[unidentified commentary on Vyāsa’s Bhāṣya, 1, 24]</note>
                                     </incipit>
                                     
-                                    <explicit xml:lang="sa"><locus from="24r" to="24r">[24r8 = 34r8]</locus> 
-                                        kevalo bhavati || <lb/>[24r9 = 34r9] 51 ||
+                                    <explicit xml:lang="sa" type="section">
+                                        <locus from="126v" to="126v">F. 126<hi rend="superscript">v</hi> (f. 15 in original foliation):</locus>
+                                        mithyātvādīnāṃ cānaṃgīkāreṇa sāmānyāsaṃbhavāt tasmād atreṣṭāpattiḥ
+                                        keṣāṃcit svavadhāya kṛtyāya yathā tatheti saṃkṣepaḥ || 24 ||
                                     </explicit>
                                     
-                                    <finalRubric xml:lang="sa"><locus from="24r" to="24r">[24r9 = 34r9]</locus> 
-                                        iti śrīparamahaṃsaparivrājakācāryyavaryyaśrīrāmagoviṃdatīrthapūjyapādaśiṣyaśrīnārāyaṇatīr
-                                        thaviracitāyāṃ pātaṃjalasūtravṛttau gūḍhārthadyotikāyāṃ yogasiddhāṃtacaṃdrikāyāṃ
-                                        samādhipādaḥ prathamaḥ samāptaḥ ||
+                                    <incipit xml:lang="sa" type="section">
+                                        <locus from="127r" to="127r">F. 127<hi rend="superscript">r</hi> (f. 13 in original foliation):</locus>
+                                        tatra lakṣaṇam uktvā sārvajñyarūpaṃ viśeṣam āha tatra <sic>niratiśayaṃ</sic> sarvajñabījaṃ ||
+                                        sarvajñeti bhāvapradhāno nirdeśaḥ [...]
+                                    </incipit>
+                                    
+                                    <explicit type="section" xml:lang="sa">
+                                        <locus from="127v" to="127v">F. 127<hi rend="superscript">v</hi> (f. 13 in original foliation):</locus>
+                                        sa pūrveṣām <sic>api guruḥ kālenānava</sic> chedāt || sa īśvaraḥ pūrveṣām api [...] guruḥ pitā aṃtaryāmi viṣayājñānopadeṣṭā ca yo vrahmāṇaṃ vidadhāti
+                                    </explicit>
+                                    
+                                    <explicit xml:lang="sa">
+                                        <locus from="148r" to="148r">F. 148<hi rend="superscript">r</hi> (f. 34 in original foliation):</locus>
+                                        kevalo bhavati || 51 ||
+                                    </explicit>
+                                    
+                                    <finalRubric xml:lang="sa">
+                                        <locus from="148r" to="148r">F. 148<hi rend="superscript">r</hi> (f. 34 in original foliation):</locus>
+                                        iti śrīparamahaṃsaparivrājakācāryyavaryyaśrīrāmagoviṃdatīrthapūjyapādaśiṣyaśrīnārāyaṇatīrthaviracitāyāṃ 
+                                        pātaṃjalasūtravṛttau gūḍhārthadyotikāyāṃ yogasiddhāṃtacaṃdrikāyāṃ samādhipādaḥ prathamaḥ samāptaḥ ||
                                     </finalRubric>
                                     
-                                    <colophon xml:lang="sa"><locus from="24r" to="24r">[24r11 = 34r11]</locus> 
-                                        || uktaḥ samādhir atrāvāṃtaraphalasaṃyutaḥ samyak_ ,, prāyo viśakalitā api ye gaditāḥ phalaṃ caiṣāṃ ||
+                                    <colophon xml:lang="sa">
+                                        <locus from="148r" to="148r">F. 148<hi rend="superscript">r</hi> (f. 34 in original foliation):</locus>
+                                        || uktaḥ samādhir atrāvāṃtaraphalasaṃyutaḥ samyak_ " prāyo viśakalitā api ye gaditāḥ phalaṃ caiṣāṃ ||
                                     </colophon>
                                     
-                                    <!--Lf. 126 begins: tor yad evātiśayi niratiśayaṃ tad etad aiśvaryaṃ syād iti yojanā
-                                (svā)tiśayatve satyaiśvaryam eva bhavati apratihate chatvasyaivābhāvāt ato yad eva
-                                niratiśayi tad eva mukhyam aiśvaryam ity arthaḥ upasaṃharati tasmād iti [unidentified
-                                commentary on Vyāsa’s Bhāṣya, 1, 24]
-                                Lf. 126v ends: mithyātvādīnāṃ cānaṃgīkāreṇa sāmānyāsaṃbhavāt tasmād atreṣṭāpattiḥ
-                                keṣāṃcit svavadhāya kṛtyāya yathā tatheti saṃkṣepaḥ || 24 ||-->
-                                    
                                     <textLang mainLang="sa">Sanskrit.</textLang>
-                                </msItemStruct>
-                            </msItemStruct>
+                                </msItem>
                         </msContents>
                         
                         <physDesc>
@@ -661,59 +833,35 @@
                                     <support>Paper.
                                         <p>
                                             <dimensions type="folio" scope="most" unit="cm">
-                                                <height quantity="11">11</height>
+                                                <height quantity="10">10</height>
                                                 <width quantity="26">26</width>
                                             </dimensions>
                                         </p>
                                     </support>
                                     
-                                    <extent xml:id="folio" n="4">24 ff.</extent>
+                                    <extent n="24">24 ff.</extent>
                                     
-                                    <foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
-                                    <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
-                                    <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>  
+                                    <foliation n="1" style="numeral" rend="deva">Original Devanāgarī numerals, top-left margin, verso.</foliation>
+                                    <foliation n="2" style="letter" rend="deva">Additional Devanāgarī numerals, top-left margin, verso.</foliation>
+                                    <foliation n="3" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
                                     
-                                    <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
                                     <condition>
-                                        Incomplete, in good condition; extant folios: ff. 1, a folio in the same hand, numbered 15 by a later hand which also numbered ff. 13-34 as16-37, 
-                                        ff. 13-34. <locus from="1r" to="1v">Folio 1</locus> in a different hand with corrections in the main hand.
+                                        In good condition.
+                                       <p>Incomplete, extant folios: ff. 1, a folio in the same hand, numbered 15 by a later hand (which also numbered ff. 13-34 as 16-37), and
+                                        ff. 13-34. F. 1 in a different hand with corrections in the main hand.</p>
                                     </condition>
                                 </supportDesc>
                                 
                                 <layoutDesc>
                                     <layout columns="1" writtenLines="12" type="commentary" style="running">
-                                        <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-->
                                         
-                                        <note>Commentary layout: running; <term xml:lang="sa">mūla</term> cited in full, <term xml:lang="sa">sūtra</term>s and keywords smeared in red.
+                                        <note>Commentary layout: running, with the <term xml:lang="sa">mūla</term> cited in full and <term xml:lang="sa">sūtra</term>s and keywords smeared in red.
                                         </note>
                                         
-                                        <p>
-                                            12 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
-                                            <!--<dimensions type="akṣara" n="X" unit="mm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>-->
-                                        </p>
+                                        <p>Up to 12 lines per page.</p>
                                         
-                                        <p>Double marginal frame lines in black ink; deletions in yellow.
-                                            <!--<dimensions type="written_area" unit="cm">
-                                            <height quantity="X"></height>
-                                            <width atLeast="X" atMost="X"></width>
-                                        </dimensions>
-                                        <dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height quantity="X">X</height>
-                                        </dimensions>-->
-                                        </p>
-                                        
-                                        <!--<p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
-                                        </dimensions>
-                                    </p>-->
+                                        <p>Double marginal frame lines in black ink; deletions in yellow.</p>
+                                       
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -721,58 +869,35 @@
                             <handDesc>
                                 <handNote scope="major" script="Devanāgarī" medium="black_ink">
                                     <desc>Devanāgarī in black ink.</desc>
-                                    <!--<desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
-                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
-                                    </name>
-                                </desc>-->
                                 </handNote>
                                 <handNote scope="minor" script="Devanāgarī" medium="black_ink">
-                                    <desc>Devanāgarī in black ink.</desc>
-                                    <!--<desc>Scribe: 
-                                    <name type="person" subtype="scr" key="local_">
-                                        <persName xml:lang="sa" type="standard">[scribe's name]</persName>
-                                    </name>
-                                </desc>-->
+                                    <desc>Devanāgarī in black ink, written in a smaller, denser hand.</desc>
                                 </handNote>
                             </handDesc>
                             
-                            <!--<decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
                             
                             <additions>
-                                On <locus from="34v" to="34v">folio 34v</locus>, in a later hand: <quote xml:lang="sa">yogasiddhāṃtacaṃdrikā-, 1 | 15-37</quote>.
-                                <list>
-                                    <head>Marginalia</head>
-                                    <item>
-                                        <marginalia type="corrections">Marginal corrections in the main hand.</marginalia>
-                                    </item>
-                                </list>
+                                On <locus from="148v" to="148v">f. 148<hi rend="superscript">v</hi> (f. 34<hi rend="superscript">v</hi> in original foliation)</locus>, in a later hand: <q xml:lang="sa">yogasiddhāṃtacaṃdrikā-, 1 | 15-37</q>.
+                               <p>Marginal corrections in the main hand.</p>
                             </additions>
                             
-                            <bindingDesc>
-                                <p><material>Cardboard cover</material>, library binding.</p>
-                                <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
-                            </bindingDesc>
                         </physDesc>
                         
                         <history>
                             <origin>
-                                <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
-                                <!--                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
+                                <origDate calendar="Gregorian" notBefore="1800" notAfter="1899">Not dated, ca. 19th century.</origDate>
                             </origin>
-                            <provenance>Donated by 
-                                <name type="person" role="dnr" key="person_00030">
-                                    <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
-                                    <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
-                            </provenance>
-                            <!--<acquisition>
-                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>-->
                         </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                        </additional> 
                     </msPart>
                     
                     <msPart>
@@ -786,8 +911,100 @@
                         </msIdentifier>
                         
                         <msContents n="1">
-                            <summary>A paper manuscript of </summary>
+                            
+                            <summary>A paper manuscript of <title key="work_00269" xml:lang="sa">Gorakṣasaṃhitā</title>.</summary>
+                        <msItem>
+                            <locus from="150v" to="178r">Ff. 150<hi rend="superscript">v</hi>-178<hi rend="superscript">r</hi> (ff. 1-29 in original foliation).</locus>
+                            
+                            <title key="work_00269" xml:lang="sa">Gorakṣasaṃhitā</title>
+                            
+                            <rubric>
+                                <locus from="150v" to="150v">F. 150<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
+                                śrī gaṇeśāya namaḥ ||
+                            </rubric>
+                            
+                            <incipit>
+                                <locus from="150v" to="150v">F. 150<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
+                              śaktir uvāca || divyauṣadhyastuyāḥ proktāsarvajasyanivaṃdhanair sorasāyanecaiva katināmmastukīdṛśaḥ
+                            </incipit>
+                            
+                            <explicit>
+                                <locus from="178r" to="178r">F. 178<hi rend="superscript">r</hi> (f. 29 in original foliation):</locus>
+                                sādhanavidhiḥ paṭalaḥ 9 ||
+                            </explicit>
+                          
+                            <colophon>
+                                <locus from="178r" to="178r">F. 178<hi rend="superscript">r</hi> (f. 29 in original foliation):</locus>
+                            samāptaḥ sabhayamstāmāsotamā mādhamāsekīmunayajṇe 2 <sic>saṃmata</sic> 1936 sāla || 
+                            </colophon>    
+                            
+                            <textLang mainLang="sa">Sanskrit.</textLang>
+                            
+                        </msItem>
+                            
                         </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="pothī"> 
+                                <supportDesc material="paper">
+                                    <support>Paper.
+                                        <p>
+                                            <dimensions type="folio" scope="most" unit="cm">
+                                                <height quantity="12">12</height>
+                                                <width quantity="28">28</width>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    
+                                    <extent n="29">29 ff.</extent>
+                                    
+                                    <foliation n="1" style="numeral" rend="deva">Original Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                                    
+                                    <condition>
+                                        In good condition.
+                                        <p>Complete.</p>
+                                    </condition>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="9">
+                                     9 lines per page.
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote scope="sole" script="Devanāgarī" medium="black_ink">
+                                    <desc>Devanāgarī in black ink.</desc>
+                                </handNote>
+                            </handDesc>
+                            
+                            
+                            <additions>
+                                On f. 150<hi rend="superscript">v</hi>, in a later hand: <q xml:lang="sa">gorakṣasaṃhitā</q>.
+                                <p>Occassional arginal corrections in the main hand.</p>
+                                <p>Title abbreviation <q xml:lang="sa">go°</q> and <q xml:lang="sa">sam°</q> on the top-left and bottom-right margin.</p>
+                            </additions>
+                            
+                        </physDesc>
+                        
+                        <history>
+                            <origin>
+                                <origDate calendar="Vikrama" when="1936">saṃvat 1936</origDate> / <origDate calendar="#gregorian" when="1879">1879 CE</origDate>.
+                            </origin>
+                        </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                        </additional> 
+                        
                     </msPart>
                     
                     <msPart>
@@ -806,42 +1023,43 @@
                         <msContents n="1">
                             <summary> A paper manuscript of <name type="person" role="aut" key="person_00076"><persName xml:lang="sa" role="aut" type="standard">Svātmārāma</persName></name>'s 
                                 <title xml:lang="sa" key="work_00069">Haṭhapradīpikā</title>. <term xml:lang="sa">Upadeśa</term>s 1-4. Verse order different from that of the edition.
-                                Copied by <name type="person" role="aut" key="person_00077"><persName xml:lang="sa" role="scr" type="standard">Ṭhākuradāsa Harṣa</persName></name>, 
-                                son of <name type="person" role="aut" key="person_00078"><persName xml:lang="sa" role="scr" type="standard">Puṣkara</persName></name>, on Tuesday 10 February 1789 for his own study 
-                                (same as Ṭhākuradāsaharṣa, son of Puṣkara who copied d.317(4) in 1788, see ChSS II).
-                                Belonged to <name type="person" role="aut" key="person_00049"><persName xml:lang="sa" role="own" type="standard">Bālamukunda</persName></name>.
+                                
                             </summary>
                             
                             <msItem n="1" defective="false">
                                 
+                                <locus from="180v" to="211v">Ff. 180<hi rend="superscript">v</hi>-211<hi rend="superscript">v</hi> (ff. 1-32 in original foliation).</locus>
+                                
                                 <author>
-                                    <name type="person" key="person_00076">
+                                    <name type="person" key="person_00076" role="aut">
                                         <persName xml:lang="sa" type="standard">Svātmārāma</persName>
                                     </name>
                                 </author>
                                 
                                 <title xml:lang="sa" key="work_00069">Haṭhapradīpikā</title>
                                 
-                                <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    śrīganeśāya namaḥ śrī ādināthāya
+                                <rubric xml:lang="sa">
+                                    <locus from="180v" to="180v">F. 180<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
+                                    śrīganeśāya namaḥ
                                 </rubric>
                                 
-                                <!--<incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> 
-                                atha yogānuśāsanaṃ 1
-                            </incipit>-->
+                                <incipit>
+                                    <locus from="180v" to="180v">F. 180<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
+                                    śrīādināthāya namostu tasmai yenopadiṣṭā haṭhayogavidyā virājate pronnatarājayogamāroḍhum ichor adhirohiṇīva 1
+                                </incipit>
                                 
-                                <!--<finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
-                            </finalRubric>-->
-                                
-                                <explicit xml:lang="sa"><locus from="32v" to="32v">[32v]</locus> 
+                                <explicit xml:lang="sa">
+                                  <locus>F. 211<hi rend="superscript">v</hi> (f. 32 in original foliation):</locus>
                                     viṃḍudhāraṇāt 59
                                 </explicit>
                                 
-                                <finalRubric xml:lang="sa"><locus from="32v" to="32v">[32v]</locus> 
+                                <finalRubric xml:lang="sa">
+                                    <locus>F. 211<hi rend="superscript">v</hi> (f. 32 in original foliation):</locus>
                                     iti śrīhaṭhapradīpikāyāṃ caturthopadeśaḥ 4
                                 </finalRubric>
                                 
-                                <colophon xml:lang="sa"><locus from="32v" to="32v">[32v]</locus> 
+                                <colophon xml:lang="sa">     
+                                    <locus>F. 211<hi rend="superscript">v</hi> (f. 32 in original foliation):</locus>
                                     saṃvat 1845 māghyāṃ bhaume lipīkṛtaṃ ṭhākuradāsapuṣkariṇā harṣeṇa svapaṭhanārthaṃ śubhaṃ bhūyāt śrīr astu
                                 </colophon>
                                 
@@ -862,51 +1080,20 @@
                                     
                                     <extent xml:id="folio" n="32">32 ff.</extent>
                                     
-                                    <!--<foliation n="1" style="letter" rend="deva">Letter numerals, mid-left margin, verso.</foliation>
-                                <foliation n="2" style="numeral" rend="deva">Devanāgarī numerals, mid-right margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>--> 
                                     
-                                    <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
-                                    <condition>
-                                        Complete, in good condition.
+                                    <foliation n="1" style="numeral" rend="deva">Original Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                                    
+                                  <condition>
+                                        Complete.
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                                 
                                 <layoutDesc>
-                                    <layout columns="1" writtenLines="9" type="mūla">
-                                        
-                                        <!--the @ruledLines must be used only in those cases when there is actually a ruling, 
-                                    otherwise use the @writtenLines-->
-                                        
-                                        <!--<note>Description of the <term xml:lang="sa">mūla</term> layout: <term xml:lang="sa">pratīka</term>s in red ink / highlighted with red powder.
-                                    </note>-->
-                                        
-                                        <p>
-                                            9 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
-                                            <!--<dimensions type="akṣara" n="X" unit="mm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>-->
-                                        </p>
-                                        
-                                        <p>Verse numbers, keywords and final rubrics highlighted in red on <locus from="8v" to="18r">ff. 8v-18r</locus>.
-                                            <!--<dimensions type="written_area" unit="cm">
-                                            <height quantity="X"></height>
-                                            <width atLeast="X" atMost="X"></width>
-                                        </dimensions>
-                                        <dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height quantity="X">X</height>
-                                        </dimensions>-->
-                                        </p>
-                                        
-                                        <!--<p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
-                                        </dimensions>
-                                    </p>-->
+                                    <layout columns="1" writtenLines="9">
+                                   <p>9 lines per page.</p>
+                                        <p>Verse numbers, keywords and final rubrics highlighted in red on <locus from="8v" to="18r">ff. 8<hi rend="superscript">v</hi>-18<hi rend="superscript">r</hi></locus>.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -917,46 +1104,37 @@
                                     <desc>Scribe: 
                                         <name type="person" role="scr" key="person_00077">
                                             <persName xml:lang="sa" type="standard">Ṭhākuradāsa Harṣa</persName>
-                                        </name>
+                                        </name>, son of <persName key="person_00078" xml:lang="sa" role="scr" type="standard">Puṣkara</persName>, on <date>Tuesday 10 February 1789</date> for his own study 
+                                            (same as Ṭhākuradāsaharṣa, son of Puṣkara who copied <idno type="shelfmark">MS Chandra Shum Shere d.317(4)</idno> in <date>1788</date>).
                                     </desc>
                                 </handNote>
                             </handDesc>
-                            
-                            <!--<decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
-                            
+                          
                             <additions>
-                                On <locus from="1r" to="1r">folio 1r</locus>, in a later hand (in red ink): <quote xml:lang="sa">vālamukuṃdasyedaṃ. haṭhapradīpikā 32</quote>.
-                                <list>
-                                    <head>Marginalia</head>
-                                    <item>
-                                        <marginalia type="titles">Running marginal title )<term xml:lang="sa">haṭhayoga, ha° ṭha pra° yo°, ha° pra yo° dī</term>, etc.)</marginalia>
-                                    </item>
-                                </list>
+                                On <locus from="1r" to="1r">folio 1<hi rend="superscript">r</hi></locus>, in a later hand, in red ink: <q xml:lang="sa">vālamukuṃdasyedaṃ. haṭhapradīpikā 32</q>.
+                                <p>Running marginal title <term xml:lang="sa">haṭhayoga, ha° ṭha pra° yo°, ha° pra yo° dī</term>, etc. on top-left margin</p>
                             </additions>
-                            
-                            <bindingDesc>
-                                <p><material>Cardboard cover</material>, library binding.</p>
-                                <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
-                            </bindingDesc>
+                       
                         </physDesc>
                         <history>
                             <origin>
                                 <date calendar="Vikrama" when="1845">1845 Vikrama</date> / <date calendar="Gregorian" when="1789-02-10">Tuesday 10 February 1789</date>.
-                                <!--                            <origPlace xml:lang="eng" key="local_0000X">Nepal.</origPlace>-->
+                               
                             </origin>
-                            <provenance>Donated by 
-                                <name type="person" role="dnr" key="person_00030">
-                                    <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
-                                    <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
+                            <provenance>
+                                Belonged to <persName key="person_00049" xml:lang="sa" role="own" type="standard">Bālamukunda</persName>.
                             </provenance>
-                            <!--<acquisition>
-                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>-->
-                        </history>
+                       </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                        </additional> 
                     </msPart>
                     
                     <msPart>
@@ -972,16 +1150,16 @@
                                 <idno type="Chandra_Shum_Shere_Āśutoṣa">4243</idno>
                             </altIdentifier>
                         </msIdentifier>
+                        
                         <msContents n="1+1">
                             
-                            <summary> A paper manuscript of <name type="person" role="aut" key="person_00047"><persName xml:lang="sa" role="aut" type="standard">Bhoja</persName></name>'s 
-                                <title xml:lang="sa" key="work_00051">Rājamārtaṇḍa</title>, 
-                                a commentary on <name type="person" key="person_00043"><persName xml:lang="sa" type="standard">Patañjali</persName></name>'s 
-                                <title xml:lang="sa" key="work_00047">Yogasūtra</title>. <term xml:lang="sa">Pāda 1</term>, incomplete.
+                            <summary> A paper manuscript of <persName key="person_00047" xml:lang="sa" role="aut" type="standard">Bhoja</persName>'s 
+                                <title xml:lang="sa" key="work_00051">Rājamārtaṇḍa</title>, a commentary on <persName key="person_00043" xml:lang="sa" type="standard" role="aut">Patañjali</persName>'s 
+                                <title xml:lang="sa" key="work_00047">Yogasūtra</title>. <term xml:lang="sa">Pāda</term> 1, incomplete.
                             </summary>
                             
-                            <msItemStruct n="2">
-                                <msItemStruct class="mūla" defective="true">
+                            <msItem n="1" class="mūla" defective="true">
+                                
                                     <author>
                                         <name type="person" key="person_00043">
                                             <persName xml:lang="sa" type="standard">Patañjali</persName>
@@ -989,42 +1167,14 @@
                                     </author>
                                     
                                     <title xml:lang="sa" key="work_00047">Yogasūtra</title>
-                                    
-                                    <!--<rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
-                                    || śrīrāmakṛṣṇaprasaṃno yaṃ śrīr astu || śrīviṭṭhalāya namaḥ || atha yogasūtrāṇi likhyaṃte ||
-                                </rubric>
-                                
-                                <incipit xml:lang="sa"><locus from="1v1" to="1v1">[1v1]</locus> 
-                                    atha yogānuśāsanaṃ 1
-                                </incipit>
-                                
-                                <explicit xml:lang="sa" type="section"><locus from="11v" to="11v">[11v]</locus> 
-                                    sarvajñātṛtvaṃ
-                                </explicit>
-                                
-                                <incipit xml:lang="sa" type="section"><locus from="13r" to="13r">[13r]</locus> 
-                                    lavyavahitānāṃm apy ānaṃtaryasmṛti
-                                </incipit>
-                                
-                                <finalRubric type="section" xml:lang="sa"><locus from="3r" to="3r"></locus> 
-                                </finalRubric>
-                                
-                                <explicit xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    citiśaktir iti 34
-                                </explicit>
-                                
-                                <finalRubric xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    iti yogasūtrādhyāye <sic>kaivalyapādaḥś ca turthaḥ</sic> 4
-                                </finalRubric>
-                                
-                                <colophon xml:lang="sa"><locus from="14v" to="14v">[14v]</locus> 
-                                    sūtre prathamapāda 52 dvī° 55 tri° 55° catu° 34 evaṃ 196 śake 1708 parābhavasaṃvatsare bhādrapadavadya 14 <sic>dvitīyapraharī</sic> samāpto yaṃ satyaṃ śrīr astu
-                                </colophon>-->
-                                    
+                                   
                                     <textLang mainLang="sa">Sanskrit.</textLang>
-                                </msItemStruct>
+                            </msItem>
                                 
-                                <msItemStruct class="commentary" defective="true">
+                                <msItem n="2" class="commentary" defective="true">
+                                    
+                                    <locus from="213v" to="219v">Ff. 213<hi rend="superscript">v</hi>-219<hi rend="superscript">v</hi> (ff. 1-7 in original foliation).</locus>
+                                    
                                     <author>
                                         <name type="person" subtype="aut" key="person_00047">
                                             <persName xml:lang="sa" type="standard">Bhoja</persName>
@@ -1033,22 +1183,24 @@
                                     
                                     <title xml:lang="sa" key="work_00051">Rājamārtaṇḍa</title>
                                     
-                                    <rubric xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    <rubric xml:lang="sa">
+                                        <locus from="213v" to="213v">F. 213<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
                                         oṃ || 
                                     </rubric>
                                     
-                                    <incipit xml:lang="sa"><locus from="1v" to="1v">[1v1]</locus> 
+                                    <incipit xml:lang="sa">
+                                        <locus from="213v" to="213v">F. 213<hi rend="superscript">v</hi> (f. 1 in original foliation):</locus>
                                         praṇamya nāganāyakātapatradhāriṇaṃ harim |
                                         kṛtiṃ pataṃjaler imāṃ karomi yogimodinīm | 1 | dehārdhayogaḥ
                                     </incipit>
                                     
                                     <explicit xml:lang="sa"><locus from="7v" to="7v">[7v]</locus> 
-                                        ity eṣām upadeśaḥ
+                                        ity eṣām upadeśaḥ | sopa
                                     </explicit>
                                     
                                     <textLang mainLang="sa">Sanskrit.</textLang>
-                                </msItemStruct>
-                            </msItemStruct>
+                                </msItem>
+                            
                         </msContents>
                         <physDesc>
                             <objectDesc form="pothī"> 
@@ -1062,49 +1214,25 @@
                                         </p>
                                     </support>
                                     
-                                    <extent xml:id="folio" n="7">7 ff.</extent>
+                                    <extent n="7">7 ff.</extent>
                                     
-                                    <!--<foliation n="1" style="numeral" rend="deva">Devanāgarī numerals, top-left margin, verso.</foliation>
-                                <foliation n="2" style="letter" rend="deva">Devanāgarī numerals (additional), top-left margin, verso.</foliation>
-                                <foliation n="3" style="digit">Arabic numerals, top right margin, verso.</foliation>-->  
+                                    <foliation n="1" style="numeral" rend="deva">Original Devanāgarī numerals, bottom-right margin, verso.</foliation>
+                                    <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
                                     
-                                    <!--                                the following element contains free text; however, stick to the set phrases as far as possible!-->
+                                
                                     <condition>
-                                        Incomplete, in good condition.
+                                        Incomplete. 
+                                        <p>In good condition.</p>
                                     </condition>
                                 </supportDesc>
                                 
                                 <layoutDesc>
                                     <layout columns="1" writtenLines="9 11" type="commentary" style="running">
                                         
-                                        <note>Commentary layout: running.</note>
+                                        <note>Commentary layout: running. Key passages highlighted in red powder.</note>
                                         
-                                        <p>
-                                            9-11 lines per page<!--, approximately XX <term xml:lang="sa">akṣara</term>s per line-->.
-                                            <!--<dimensions type="akṣara" n="X" unit="mm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <dim type="aspect_ratio" quantity="X">X</dim>
-                                        </dimensions>-->
-                                        </p>
+                                        <p>9-11 lines per page.</p>
                                         
-                                        <!--<p>Deletions in yellow.
-                                        <dimensions type="written_area" unit="cm">
-                                            <height quantity="X"></height>
-                                            <width atLeast="X" atMost="X"></width>
-                                        </dimensions>
-                                        <dimensions type="interlinear_space" scope="most" unit="mm">
-                                            <height quantity="X">X</height>
-                                        </dimensions>
-                                    </p>-->
-                                        
-                                        <!--<p>Details about the string hole(s).
-                                        <dimensions type="string_hole" rend="true" quantity="2" scope="most" unit="cm">
-                                            <height quantity="X">X</height>
-                                            <width quantity="X">X</width>
-                                            <depth quantity="X">X</depth>
-                                        </dimensions>
-                                    </p>-->
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -1115,42 +1243,30 @@
                                 </handNote>
                             </handDesc>
                             
-                            <!--<decoDesc>
-                            <decoNote type="miniature">
-                                <desc>On <locus from="1v" to="1v">folio 1v</locus>, .............</desc>
-                            </decoNote>
-                        </decoDesc>-->
                             
                             <additions>
-                                <p>On <locus from="1r" to="1r">folio 1</locus>, in a modern hand (in red ink): <quote xml:lang="sa">yogamodinī° yogasūtravyākhyā phu° 8</quote>.
+                                <p>On <locus from="1r" to="1r">f. 1<hi rend="superscript">r</hi></locus>, in a modern hand (in red ink): <q xml:lang="sa">yogamodinī° yogasūtravyākhyā phu° 8</q>.
                                 </p>
-                                <list>
-                                    <head>Marginalia</head>
-                                    <item>
-                                        <marginalia type="annotations">Numerous marginal and interlinear notes and corrections in the same hand, some in red ink.
-                                        </marginalia>
-                                    </item>
-                                </list>
+                                <p>Numerous marginal and interlinear notes and corrections in the same hand, some in red ink.</p>
                             </additions>
-                            
-                            <bindingDesc>
-                                <p><material>Cardboard cover</material>, library binding.</p>
-                                <!--<p>On the <locus from="back cover" to="back cover">outer side of the back cover</locus>, whatnot.</p>-->
-                            </bindingDesc>
+                         
                         </physDesc>
                         <history>
                             <origin>
-                                <date calendar="Gregorian" notBefore="1800" notAfter="1899">19th century.</date>
+                                <date calendar="Gregorian" notBefore="1800" notAfter="1899">Not dated, ca. 19th century.</date>
                             </origin>
-                            <provenance>Donated by 
-                                <name type="person" role="dnr" key="person_00030">
-                                    <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
-                                    <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
-                            </provenance>
-                            <!--<acquisition>
-                            <date calendar="Gregorian" when="1873-07-21">XX July XXXX (<stamp>Bodleian Library stamp</stamp>).</date>
-                        </acquisition>-->
+                           
                         </history>
+                        
+                        <additional>
+                            <adminInfo>
+                                <availability status="restricted">
+                                    <p>Entry to read in the Library is permitted only on presentation of
+                                        a valid reader's card, for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/using/getting-a-readers-card/find">Bodleian Libraries' Admissions Office</ref>.</p>
+                                </availability>
+                                <note/>
+                            </adminInfo>
+                        </additional> 
                     </msPart>
                 </msDesc>
             </sourceDesc>
@@ -1523,8 +1639,10 @@
         </profileDesc>
         
         <revisionDesc>
+            <change when="2025-07-18">
+                Barbora Sojkova modified this entry.</change>
             <change when="2021-11-09">
-                <persName>Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref></persName>
+                Camillo Formigatti modified this entry according to the <ref target="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng">https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng</ref>
             </change>
             <change when="2021-11-09">
                 <persName>Camillo Formigatti</persName> created this entry, based on the unpublished catalogue entry by <persName>Gérard Colas</persName>.

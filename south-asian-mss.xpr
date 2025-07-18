@@ -34,7 +34,27 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Mill/ms_mill_61.xml</String>
+                                    <String>collections/MS-Ind-Inst/ms-ind-inst-sansk-4-chandogyopanisad.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Sansk/ms_sansk_d_88-nataka.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -55,6 +75,26 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-e-98-yoga.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collections/MS-Mill/ms_mill_61.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
