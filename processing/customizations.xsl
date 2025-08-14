@@ -140,7 +140,8 @@
         </span>
     </xsl:template>
     
-
+    <!-- only display one type of name, and prefer display over standard -->
+    <xsl:template match="persName[@type='standard'][following-sibling::persName[@type='display']]"/>
     
 
     
