@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title/>
-            
+
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
@@ -27,7 +27,7 @@
                   </addrLine>
                </address>
             </pubPlace>
-            
+
             <idno type="msID"/>
          </publicationStmt>
          <sourceDesc>
@@ -40,7 +40,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>MSS. Chandra Shum Shere d.</collection>
                   <idno type="shelfmark">MS. Chandra Shum Shere d. 772</idno>
-               </msIdentifier> <head type="unchecked">NOTE: This record has yet to be fully checked. </head><physDesc>
+               </msIdentifier>
+               <head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <physDesc>
                   <objectDesc form="pothī">
                      <supportDesc material="paper">
                         <support>paper</support>
@@ -51,7 +53,8 @@
                   <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
                         <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
                         <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang
-                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909"
+                        >1909</date>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -62,7 +65,8 @@
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -75,7 +79,29 @@
                               Sanskrit and other Indian manuscripts of the Chandra Shum Shere
                               collection in the Bodleian Library, Part I: Jyotiḥśāstra </title>,
                               <editor>Jonathan Katz</editor>, (Oxford, 1984), <biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=59">no. 112, p. 35</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=47">no. 66, pp. 23-24</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=155">no. 504, p. 131</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100">no. 274, p. 76</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100">no. 275, p. 76</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77">no. 188, p. 53</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=101">no. 282, p. 77</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=117">no. 352, p. 93</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=50">no. 76, p. 26</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=103">no. 291, pp. 79-80</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=150">no. 482, pp. 126-127</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=59"
+                                 >no. 112, p. 35</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=47"
+                                 >no. 66, pp. 23-24</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=155"
+                                 >no. 504, p. 131</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100"
+                                 >no. 274, p. 76</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100"
+                                 >no. 275, p. 76</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77"
+                                 >no. 188, p. 53</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=101"
+                                 >no. 282, p. 77</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=117"
+                                 >no. 352, p. 93</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=50"
+                                 >no. 76, p. 26</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=103"
+                                 >no. 291, pp. 79-80</ref></biblScope>; <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=150"
+                                 >no. 482, pp. 126-127</ref></biblScope></bibl>
                      </listBibl>
                      <listBibl type="OTHER">
                         <head>Other descriptions:</head>
@@ -108,7 +134,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>5 fols. (of which fols. 4-5 are missing)</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -120,7 +150,8 @@
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 55r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 55r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -140,7 +171,9 @@
                            <support>Paper</support>
                            <extent><measure n="51" type="leaf">51 fols</measure></extent>
                         </supportDesc>
-                        <layoutDesc><layout writtenLines="9">9 lines</layout></layoutDesc>
+                        <layoutDesc>
+                           <layout writtenLines="9">9 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -152,9 +185,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=59">no. 112, p. 35</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=59"
+                                 >no. 112, p. 35</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 157r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 157r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -197,7 +233,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>6 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -209,9 +249,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=155">no. 504, p. 131</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=155"
+                                 >no. 504, p. 131</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 25r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 25r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -229,7 +272,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>6 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>10 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -241,7 +288,8 @@
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 319r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 319r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -260,7 +308,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>14 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>13 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -272,9 +324,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100">no. 274, p. 76</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100"
+                                 >no. 274, p. 76</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 77r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 77r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -292,7 +347,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>5 fols. (of which fol. 1 is missing)</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>13 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -304,11 +363,15 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100">no. 275, p. 76</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=100"
+                                 >no. 275, p. 76</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 77r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 77r</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 77r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 77r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -327,7 +390,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>8 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>12 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -351,7 +418,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>6 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>6 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -363,9 +434,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77">no. 188, p. 53</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77"
+                                 >no. 188, p. 53</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 264r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 264r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -383,7 +457,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>13 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>11 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Jaina Devanagari</handNote>
@@ -395,9 +473,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=101">no. 282, p. 77</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=101"
+                                 >no. 282, p. 77</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 84r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 84r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -415,7 +496,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>8 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>13 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -427,9 +512,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=117">no. 352, p. 93</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=117"
+                                 >no. 352, p. 93</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 96r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 96r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -447,7 +535,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>3 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>12 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -459,9 +551,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=50">no. 76, p. 26</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=50"
+                                 >no. 76, p. 26</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 72r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 72r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -480,7 +575,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>5 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>12 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -492,7 +591,9 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=103">no. 291, pp. 79-80</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=103"
+                                 >no. 291, pp. 79-80</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -510,7 +611,11 @@
                      <objectDesc>
                         <supportDesc material="paper">
                            <support>Paper</support>
+                           <extent>17 fols</extent>
                         </supportDesc>
+                        <layoutDesc>
+                           <layout>11 lines</layout>
+                        </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote>Devanagari</handNote>
@@ -522,9 +627,12 @@
                   <additional>
                      <listBibl>
                         <bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope>
-                              <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=150">no. 482, pp. 126-127</ref></biblScope></bibl>
+                              <ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=150"
+                                 >no. 482, pp. 126-127</ref></biblScope></bibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 249r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
+                                 target="">fol. 249r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
