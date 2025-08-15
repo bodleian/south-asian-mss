@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_05124">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere d.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere d. 706</idno>
+               </msIdentifier> <head type="unchecked">NOTE: This record has yet to be fully checked. </head><physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>paper</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by 
+                     <name type="person" role="dnr" key="person_00030">
+                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Summary description abbreviated from the Bodleian Libraries' unpublished card catalogue for otherwise-undescribed manuscripts, available in the Charles Wendell David Reading Room.
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="css_2">John Brockington, <title>A descriptive catalogue of the Sanskrit and other Indian manuscripts of the Chandra Shum Shere collection in the Bodleian Library, Part II: Epics and Purāṇas</title>, <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=273">no. 743, p. 257</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=276">no. 759, pp. 260-261</ref></biblScope></bibl><bibl xml:id="css_3">K. Parameswara Aithal, <title>A descriptive catalogue of the Sanskrit and other Indian manuscripts of the Chandra Shum Shere collection in the Bodleian Library, Part III: Stotras</title>, <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=157">no. 369, p. 135</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=52">no. 65, p. 30</ref></biblScope></bibl></listBibl>
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                  <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 267r</ref></biblScope>; <biblScope><ref target="">fol. 120r</ref></biblScope>; <biblScope><ref target="">fol. 156r</ref></biblScope>; <biblScope><ref target="">fol. 30r</ref></biblScope>; <biblScope><ref target="">fol. 237r</ref></biblScope>; <biblScope><ref target="">fol. 259r</ref></biblScope>; <biblScope><ref target="">fol. 57r</ref></biblScope>; <biblScope><ref target="">fol. 43r</ref></biblScope>; <biblScope><ref target="">fol. 183r</ref></biblScope>; <biblScope><ref target="">fol. 232r</ref></biblScope>; <biblScope><ref target="">fol. 310r</ref></biblScope>; <biblScope><ref target="">fol. 296r</ref></biblScope></bibl></listBibl></listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(1)</idno></altIdentifier></msIdentifier> <msContents><summary>SAṄKARAPADDHATI. Incomplete</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 267r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(2)</idno></altIdentifier></msIdentifier> <msContents><summary>NĀRADAGĪTĀ</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=273">no. 743, p. 257</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 120r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(3)</idno></altIdentifier></msIdentifier> <msContents><summary>BĀLAPŪTANAVIDHĀNA, from the Skanda Purāṇa and elsewhere. Incomplete.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=276">no. 759, pp. 260-261</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 156r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(4)</idno></altIdentifier></msIdentifier> <msContents><summary>ULŪKAKALPA</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 30r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(5)</idno></altIdentifier></msIdentifier> <msContents><summary>VANDĀKALPA</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 237r</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 259r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(6)</idno></altIdentifier></msIdentifier> <msContents><summary>JAGANNĀTHA PAṆḌITARĀJA: Gaṅgālaharī, with tika.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1862</origDate></origin></history><additional><listBibl><bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=157">no. 369, p. 135</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 57r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(7)</idno></altIdentifier></msIdentifier> <msContents><summary>SAHASRĀRJUNAKAVACA. Unfinished.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(8)</idno></altIdentifier></msIdentifier> <msContents><summary>KĀLIKĀSAPARYĀ</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 43r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(9)</idno></altIdentifier></msIdentifier> <msContents><summary>MANTRAPĀRĀTAṆA, from the Jñānārṇava Tantra.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1791</origDate></origin></history><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 183r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(10)</idno></altIdentifier></msIdentifier> <msContents><summary>ŚĪVASARVASVA: Lakṣapārthivapūjāvidhi.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 232r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(11)</idno></altIdentifier></msIdentifier> <msContents><summary>BĀLADEVĪPAṬALA&lt; from the Rudrayāmala Tantra.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(12)</idno></altIdentifier></msIdentifier> <msContents><summary>SAṄKARA ĀCĀRYA: Mātṛkapuṣpamālā</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=52">no. 65, p. 30</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(13)</idno></altIdentifier></msIdentifier> <msContents><summary>SAṄKARA ĀCĀRYA: Nityācārapaddhati. Defective.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(14)</idno></altIdentifier></msIdentifier> <msContents><summary>RĀMCANDRA ĀGAMĪ: Subhagārcāratna. Defective.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 310r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.706(15)</idno></altIdentifier></msIdentifier> <msContents><summary>SANTĀNAGOPĀLAVIDHI, from the Gautamīya Tantra.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1866</origDate></origin></history><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 296r</ref></biblScope></bibl></listBibl></additional></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

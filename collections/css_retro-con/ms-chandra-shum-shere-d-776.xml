@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_05192">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere d.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere d. 776</idno>
+               </msIdentifier> <head type="unchecked">NOTE: This record has yet to be fully checked. </head><physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>paper</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by 
+                     <name type="person" role="dnr" key="person_00030">
+                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Summary description abbreviated from the Bodleian Libraries' unpublished card catalogue for otherwise-undescribed manuscripts, available in the Charles Wendell David Reading Room.
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                     <bibl xml:id="css_1">David Pingree, <title>A descriptive catalogue of the Sanskrit and other Indian manuscripts of the Chandra Shum Shere collection in the Bodleian Library, Part I: Jyotiḥśāstra </title>, <editor>Jonathan Katz</editor>, (Oxford, 1984), <biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77">no. 196, pp. 53-54</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77">no. 194, p. 53</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=111">no. 322, p. 87</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=116">no. 350, p. 92</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=96">no. 261, p. 72</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=98">no. 267, p. 74</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=48">no. 67, p. 24</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=120">no. 367, p. 96</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=30">no. 13, p. 6</ref></biblScope></bibl></listBibl>
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                  <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 133r</ref></biblScope>; <biblScope><ref target="">fol. 72r</ref></biblScope>; <biblScope><ref target="">fol. 85r</ref></biblScope>; <biblScope><ref target="">fol. 84r</ref></biblScope>; <biblScope><ref target="">fol. 231r</ref></biblScope>; <biblScope><ref target="">fol. 222r</ref></biblScope>; <biblScope><ref target="">fol. 73r</ref></biblScope>; <biblScope><ref target="">fol. 325r</ref></biblScope></bibl></listBibl></listBibl>
+               </additional>
+            <msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(1)</idno></altIdentifier></msIdentifier> <msContents><summary>PRAJĀPATI DĀŚA: Pañcasvarā, with Pañcaśarā by Appayya Dīkṣita (Pañcasvarāvivṛtti)</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77">no. 196, pp. 53-54</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 133r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(2)</idno></altIdentifier></msIdentifier> <msContents><summary>PRAJĀPATI DĀSA: Pañcasvarānirṇaya, with a comm. on his own work.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1872</origDate></origin></history><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=77">no. 194, p. 53</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 72r</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 133r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(3)</idno></altIdentifier></msIdentifier> <msContents><summary>GAURĪJĀTAKA</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1852</origDate></origin></history><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=111">no. 322, p. 87</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(4)</idno></altIdentifier></msIdentifier> <msContents><summary>KEŚAVA DAIVAJÑA: Jātakapaddhati.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=116">no. 350, p. 92</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 85r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(5)</idno></altIdentifier></msIdentifier> <msContents><summary>KEŚAVA DAIVAJÑA: Jātakapaddhati, with a ṭīkā by the author.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1676</origDate></origin></history><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=96">no. 261, p. 72</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 84r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(6)</idno></altIdentifier></msIdentifier> <msContents><summary>KĀŚĪNĀTHA: Lagnacandrikāa</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1816</origDate></origin></history><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=98">no. 267, p. 74</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 231r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(7)</idno></altIdentifier></msIdentifier> <msContents><summary>RĀMACANDRA son of Ananta Daivajña: Rāmavinodaya</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><history><origin><origDate>1703</origDate></origin></history><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=48">no. 67, p. 24</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 222r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(8)</idno></altIdentifier></msIdentifier> <msContents><summary>GAṆEŚA DAIVAJÑA son of Keśava Daivajña: Grahalāghava.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 73r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(9)</idno></altIdentifier></msIdentifier> <msContents><summary>HILLĀJA</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=120">no. 367, p. 96</ref></biblScope></bibl><bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 325r</ref></biblScope></bibl></listBibl></additional></msPart><msPart><msIdentifier><altIdentifier><idno type="part">MS.Chandra Shum Shere d.776(10)</idno></altIdentifier></msIdentifier> <msContents><summary>BHĀSKARA ĀCĀRYA: Golādhyāya, with Vāsana bhāṣya, notes by the author. 4th chapter of Siddhānta Śiromaṇi. Unfinished.</summary><textLang mainLang="sa">Sanskrit</textLang></msContents><physDesc><objectDesc><supportDesc material="paper"><support>Paper</support></supportDesc></objectDesc><handDesc><handNote>Devanagari</handNote></handDesc></physDesc><additional><listBibl><bibl source="#css_1">Pingree, <title>Jyotiḥśāstra </title>,<biblScope> <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.b4224920&amp;seq=30">no. 13, p. 6</ref></biblScope></bibl></listBibl></additional></msPart></msDesc>
+         </sourceDesc>
+      </fileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
