@@ -14,6 +14,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-457-yoga.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>preview</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-c-191.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -34,7 +54,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-d-457-yoga.xml</String>
+                                    <String>collections/MS-Chandra-Shum-Shere/ms-chandra-shum-shere-c-191(2)-yogabija.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
