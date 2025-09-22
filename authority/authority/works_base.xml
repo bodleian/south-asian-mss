@@ -5825,7 +5825,7 @@
                     <idno type="local">00270</idno>
                   <!--  <idno type="PANDIT"></idno>-->
                     <note type="links">
-                        <list type="links">
+                    <!--    <list type="links">-->
                             <!--<item>
                                 <ref target="https://viaf.org/viaf//">
                                     <title>VIAF</title>
@@ -5836,9 +5836,34 @@
                                     <title>PANDIT</title>
                                 </ref>
                             </item>-->
-                        </list>
+                        <!--</list>-->
                     </note>
                 </bibl>
+                
+                <bibl xml:id="work_00271">
+                    <title type="uniform" xml:lang="sa">Chāndogyabhāṣya</title>
+                    <title type="display" xml:lang="sa">Chāndogyabhāṣya</title>
+                    <title type="variant" xml:lang="sa">Chāndogyopaniṣadbhāṣya</title>
+                     <idno type="VIAF">179880348</idno>
+                    <idno type="local">00270</idno>
+                    <idno type="PANDIT">88643</idno>
+                    <note type="links">
+                  <list type="links">
+                       <item>
+                           <ref target="https://viaf.org/viaf/179880348/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                    <item>
+                        <ref target="https://www.panditproject.org/entity/88643/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                     </list>
+                    </note>
+                    <note>A commentary to the <title xml:lang="sa" key="work_00065">Chāndogyopaniṣad</title> by <persName xml:lang="sa" key="person_00213" subtype="aut" type="standard">Śaṅkara</persName>.</note>
+                </bibl>
+                
                 
             </listBibl>
         </body>

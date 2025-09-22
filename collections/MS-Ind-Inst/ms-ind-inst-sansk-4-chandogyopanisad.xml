@@ -42,8 +42,8 @@
                     <msContents n="1+1">
                         
                         <summary>A paper manuscript of the <title xml:lang="sa" key="work_00065">Chāndogyopaniṣad</title> 
-                            with the <title xml:lang="sa" key="work_00064">Chāndogyopaniṣadbhāṣya</title>,
-                            a commentary by <name type="person" subtype="aut" key="person_00139"><persName xml:lang="sa" type="standard">Śaṅkara</persName></name>.
+                            with the <title xml:lang="sa" key="work_00271">Chāndogyopaniṣadbhāṣya</title>,
+                            a commentary by <persName xml:lang="sa" key="person_00213" subtype="aut" type="standard">Śaṅkara</persName>.
                             Complete in eight <term xml:lang="sa">prapāṭhakas</term> which are here, as often, reckoned as 3-10 of the <title xml:lang="sa" key="work_00140">Chāndogya Brāhmaṇa</title>.                              
                         </summary>
                         
@@ -58,12 +58,12 @@
                             
                             <msItemStruct class="commentary" defective="false">
                                 <author>
-                                    <name type="person" subtype="aut" key="person_00139">
+                                    <name type="person" subtype="aut" key="person_00213">
                                         <persName xml:lang="sa" type="standard">Śaṅkara</persName>
                                     </name>
                                 </author>
                                 
-                                <title xml:lang="sa" key="work_00064">Chāndogyopaniṣadbhāṣya</title>
+                                <title xml:lang="sa" key="work_00271" type="variant">Chāndogyopaniṣadbhāṣya</title>
                                                                                         
                                 <textLang mainLang="sa">Sanskrit.</textLang>
                             </msItemStruct>
