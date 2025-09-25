@@ -53,8 +53,7 @@
                   <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
                         <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
                         <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang
-                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909"
-                        >1909</date>.</acquisition>
+                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -65,8 +64,7 @@
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
-                           reader's card (for admissions procedures contact <ref
-                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
                               Admissions</ref>). Contact
                               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
                            further information on the availability of this manuscript.</p>
@@ -78,10 +76,10 @@
                         <head>Other descriptions:</head>
                         <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston,
                               <title>Index Catalogue of MSS. Chandra Shum Shere</title>,
-                                 <biblScope><ref target="">fol. 176r</ref></biblScope>;
-                                 <biblScope><ref target="">fol. 91r</ref></biblScope>;
-                                 <biblScope><ref target="">fol. 299r</ref></biblScope>;
-                                 <biblScope><ref target="">fol. 247r</ref></biblScope></bibl>
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ffff3ef3-981a-4762-bf91-8717ebaccc76/">fol. 176</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ef5f74ab-a113-443e-9287-0eb9ae2ea4a8/">fol. 91</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/21e08166-b80d-4f70-8cd9-79fb8b0ad2e9/">fol. 299</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/8f528e6f-6246-4a86-9114-9193c4d52dd3/">fol. 247</ref></biblScope></bibl>
                      </listBibl>
                   </listBibl>
                </additional>
@@ -113,8 +111,7 @@
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
-                                 target="">fol. 176r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 176r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -145,8 +142,7 @@
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
-                                 target="">fol. 91r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 91r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -178,8 +174,7 @@
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
-                                 target="">fol. 299r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 299r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -210,8 +205,7 @@
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
-                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref
-                                 target="">fol. 247r</ref></biblScope></bibl>
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="">fol. 247r</ref></biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
