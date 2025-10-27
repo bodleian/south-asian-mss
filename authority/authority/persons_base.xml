@@ -2239,7 +2239,7 @@
                             </item>
                         </list>
                     </note>-->
-                    <note>Daughter of <name type="person" role="dnr" key="person_00099"><persName type="standard" xml:lang="eng">Strange, T.</persName><persName type="display" xml:lang="eng">Sir T. Strange</persName></name>.</note>
+                    <note>Daughter of <name type="person" role="dnr" key="person_00099"><persName type="standard" xml:lang="eng">Strange, T.</persName><persName type="display" xml:lang="eng">Sir T. Strange</persName></name>, and a wife of <persName key="person_00208" type="display">Edmund Ffoulkes</persName>..</note>
                 </person>
                 
                 <person xml:id="person_00101">
@@ -4394,12 +4394,58 @@
                     <note></note>
                 </person>
                                
-                <person xml:id="person_">
-                    <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
-                    <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
-                    <idno type="VIAF">00000000</idno>
-                    <idno type="local">00000</idno>
-                    <idno type="PANDIT">96393</idno>
+                <person xml:id="person_00208">
+                    <persName type="standard" xml:lang="sa">Śūdraka</persName>
+                    <persName type="display" xml:lang="sa">Śūdraka</persName>
+                    <idno type="VIAF">27146095</idno>
+                    <idno type="local">00208</idno>
+                    <idno type="PANDIT">109140</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/27146095/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/109140/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00209">
+                    <persName type="standard" xml:lang="en">Keith, Arthur Berriedale</persName>
+                    <persName type="display" xml:lang="en">Arthur Berriedale Keith</persName>
+                    <idno type="VIAF">17293531</idno>
+                    <idno type="local">00209</idno>
+                   <!-- <idno type="PANDIT"></idno>
+                   --> <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/17293531/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00210">
+                    <persName type="standard" xml:lang="sa">Lalladīkṣita</persName>
+                    <persName type="display" xml:lang="sa">Lalladīkṣita</persName>
+                   <!-- <idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00210</idno>
+                   <!-- <idno type="PANDIT"></idno>
                     <note type="links">
                         <list type="links">
                             <item>
@@ -4414,7 +4460,133 @@
                             </item>
                         </list>
                     </note>
+                    <note></note>-->
+                </person>
+                
+                <person xml:id="person_00211">
+                    <persName type="standard" xml:lang="sa">Kṛṣṇa</persName>
+                    <persName type="display" xml:lang="sa">Kṛṣṇa</persName>
+                    <!-- <idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00211</idno>
+                    <!-- <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note>A pupil of Rāmacandra and the scribe of <idno type="shelfmark">MS Sansk.b.28</idno>.</note>
+                </person>
+                
+                <person xml:id="person_00212">
+                    <persName type="standard" xml:lang="en">Lewis, George, Reverend</persName>
+                    <persName type="display" xml:lang="en">Revd George Lewis</persName>
+                    <!-- <idno type="VIAF">00000000</idno>-->
+                    <idno type="local">00212</idno>
+                    <!-- <idno type="PANDIT"></idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/00000000/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/00000/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>-->
+                    <note><date>1663–1729</date>, a chaplain to the East India Company in Madras.</note>
+                </person>
+                
+                <person xml:id="person_00213">
+                    <persName type="standard" xml:lang="sa">Śaṅkarācārya</persName>
+                    <persName type="display" xml:lang="sa">Śaṅkarācārya</persName>
+                    <persName type="variant" xml:lang="sa">Śaṅkara</persName>
+                    <persName type="variant" xml:lang="sa">Śaṃkara</persName>
+                    <persName type="variant" xml:lang="sa">Śaṃkarācārya</persName>
+                    <idno type="VIAF">54116823</idno>
+                    <idno type="local">00213</idno>
+                    <idno type="PANDIT">85218</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/54116823/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85218/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
                     <note></note>
+                </person>
+                
+                <person xml:id="person_00214">
+                    <persName type="standard" xml:lang="sa">Somadeva</persName>
+                    <persName type="display" xml:lang="sa">Somadeva</persName>
+                    <persName type="variant" xml:lang="sa">Somadeva Bhaṭṭa</persName>
+                    <idno type="VIAF">47767454</idno>
+                    <idno type="local">00214</idno>
+                    <idno type="PANDIT">113998</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/47767454/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/113998/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00215">
+                    <persName type="standard" xml:lang="sa">Vinayasuṃdara</persName>
+                    <persName type="display" xml:lang="sa">Vinayasuṃdara</persName>
+                    <idno type="local">00215</idno>
+                    <note>A Jaina scribe of <idno type="shelfmark">MS Mill 61</idno>.</note>
+                </person>
+                
+                <person xml:id="person_">
+                <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
+                <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
+                <idno type="VIAF">00000000</idno>
+                <idno type="local">00000</idno>
+                <idno type="PANDIT">96393</idno>
+                <note type="links">
+                    <list type="links">
+                        <item>
+                            <ref target="https://viaf.org/viaf/00000000/">
+                                <title>VIAF</title>
+                            </ref>
+                        </item>
+                        <item>
+                            <ref target="https://www.panditproject.org/entity/00000/person">
+                                <title>PANDIT</title>
+                            </ref>
+                        </item>
+                    </list>
+                </note>
+                <note></note>
                 </person>
                 
             </listPerson>

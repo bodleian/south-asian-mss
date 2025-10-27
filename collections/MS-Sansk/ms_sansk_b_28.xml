@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02763">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>Barbora Sojkova</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_sansk_b_28</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Sansk. b.</collection>
+                  <idno type="shelfmark">MS. Sansk. b. 28</idno>
+                  <idno type="ieArk">ark:29072/x0cv43nx81xx</idno>
+                  <idno type="crArk">ark:29072/x0cr56n198mf</idno>
+                  <altIdentifier>
+                     <idno type="CSM">1167</idno>
+                  </altIdentifier>
+               </msIdentifier>
+         
+               <head>Vālmīki’s Rāmāyaṇa</head>
+               
+               <msContents>
+                  <summary>A palm leaf manuscript of the <title key="work_00014">Rāmāyaṇa</title>, <term xml:lang="sa">kāṇḍas</term> 1-6, by <persName key="person_00020">Vālmīki</persName>, written in Grantha script.</summary>
+                  
+               
+                  <msItem>
+                     
+                     <title key="work_00014">Rāmāyaṇa</title>
+                     
+                     <author key="person_00020">
+                        <persName xml:lang="sa" type="display">Vālmīki</persName>
+                     </author>
+                    
+                      <rubric>
+                      śrīsītārāmābhyān namaḥ |
+                     </rubric>
+                     
+                     <incipit source="#WinternitzKeith1905"> yasya – rada — ntrādyāḥ pāriṣadyāḥ parāś śataṃ | vighnan nighnanti satataṃ viṣvakṣenan tam
+                        āśraye | Rāmāya Rāmabhadrāya Rāmacandrāya vedhase | Raghunāthāya nāthāya
+                        Sītāyāḥ pataye namaḥ ----------- kūjantaṃ Rāma Rāmeti madhuram madhurākṣaram
+                        | āruhya kavitāśākhāṃ vande Vālmīkikokilaṃ | Valmīker mmunisiṃhasya
+                        kavitāvanacāriṇaḥ | śṛṇvan Rāmakathānādaṃ ko na yāti parāṃ gatiṃ ǁ 10 ǁ
+                        piban satataṃ Rāmacaritāmṛtasāgaram | atṛptas tammunistandaprācetasam
+                        akalmaṣaṃ | … śṛṇvan Rāmāyaṇam bhaktyā yaḥ pādaṃ padam eva vā | sa yāti
+                        brahmaṇa sthānam brahmaṇā pūjyate sadā | Vālmīkigirisaṃvṛtā Rāmasāgaragāminī
+                        | punāti bhuvanam --Rāmāyaṇamahānadī | … paraṃ vyākhyāntam Bharatādibhiḥ
+                        parivṛtaṃRāmaṃ bhaje śyāmalaṃ ǁ śubham astu ǁ oṃ ǁ tapasvāddhyāyaniradan
+                        tapasvī vāgvidāṃ varaṃ | &amp;c. 
+                        F. 3: ity ārṣe śrīrāmāyaṇe ādikāvye
+                        śrīmatbālakāṇḍe śrīnāradavākye śrīsaṃkṣepo nāma prathamas sargaḥ ǁ</incipit>
+                     
+                     <textLang mainLang="sa">Sanskrit.</textLang>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="palm">
+                        <support source="#WinternitzKeith1905">Palm-leaves, kept together by two wooden
+                           boards.</support>
+                        <extent>
+                           <measure type="laterEndleaf" quantity="1">i</measure> + <measure type="leaf" quantity="358">358</measure> +
+                              <measure type="laterEndleaf" quantity="1">i</measure>
+                           
+                           <dimensions type="folio" unit="cm">
+                              <height quantity="3">3</height>
+                              <width quantity="46">46</width>
+                           </dimensions>
+                           
+                        </extent>
+                        
+                        <foliation n="1" style="digit">Arabic numerals in pencil, top-right margin, recto.</foliation>
+                        
+                        <condition source="#WinternitzKeith1905">A corner of f. 301, and a large
+                           piece of f. 348, are lost; f. 356 is damaged. The top and bottom lines
+                           are very frequently discoloured and damaged by breaks, as on ff. 1–14,
+                           30, 45, 95, 120–124, 137, &amp;c.</condition>
+                        
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="Grantha">
+                        <desc>Grantha.</desc>
+                        <desc>Scribe: 
+                                    <name type="person" subtype="scr" key="local_00211">
+                                       <persName xml:lang="sa" type="standard">Kṛṣna</persName>
+                                    </name>
+                                </desc>
+                        
+                        <p><q source="#WinternitzKeith1905">Kṛṣna, pupil of Rāmacandra, who writes:
+                           śrīrāmacandrapādābjaṣaṭpadibhṛtacetasā | Rāmāyaṇam idaṃ śrīmatkṛṣṇena
+                           likhitam mudā ǁ … śrīmaty Ayoddhyānagare sabhāyāṃ siṃhāsane
+                           mantragaṇābhiṣiktaḥ | Saumitrisitāhanumatsametaḥ śrīkāmacandraḥ śrīyam
+                           ātanotu ǁ</q></p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <p>The manuscript is held together by two dark <term type="material">wood</term>, undecorated boards. 
+                     A new string with a wooden rod at the end is kept loosely in the box.</p>   
+                     <p>Kept in a textile-covered cardboard library box, including a glued-in note in pen:
+                     <q>320 leaves, written on both sides. Early 18th. Cent. Very much broken and discoloured. Shrī Rāmāyaṇē, Bāla Khāṇḍa. Sanskrit in Grantham character. The 1st. Book of Vālmīki's Rāmāyaṇa.</q>
+                     </p>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" notAfter="1698">Not dated, terminus ante quem 1698.</origDate>
+                     <p><q source="#WinternitzKeith1905">
+                        <locus>f. 354<hi rend="superscript">v</hi></locus>
+                           parābhavasaṃvatsaraṃ śrāvaṇamāsaṃ śrīmadrāmāyaṇaṃ sampūrṇaṃ ǁ</q></p>
+                     <note><bibl xml:id="WinternitzKeith1905">Winternitz and Keith</bibl> write:
+                        <q source="#WinternitzKeith1905">
+                           Taking into account the fairly old appearance of the MS., the <term xml:lang="sa">parābhava</term> year of the cycle of <term xml:lang="sa">Bṛhaspati</term>, in which this copy of the Rāmāyaṇa is said to have been finished, 
+                           may be A.D. <date>1666</date>, or <date>1726</date>, or <date>1786</date>. The year A.D. <date>1726</date> is the most probable. 
+                           If it is the northern <term xml:lang="sa">Bṛhaspati</term> cycle, the date is A.D. <date>1656</date> (cf. date of donation), <bibl>Sewell and Dīkṣit, Indian Calendar, p. xc.</bibl>
+                        </q>
+                     </note>
+                     
+                  </origin>
+                
+                  <acquisition>Given on <date>October 27, 1698,</date> by the <persName key="person_00212" role="dnr">Rev. George Lewis</persName>, Chaplain of the
+                     English merchants at Fort St. George.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                   
+                           <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                          <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#WinternitzKeith1905">Winternitz and Keith, <title>
+                                    Catalogue of Sanskrit manuscripts</title>,<biblScope>
+                                    <ref
+                                       target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n176/mode/1up"
+                                       >no. 1167, pp. 145-146</ref></biblScope></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="WinternitzKeith1905">Moriz Winternitz and Arthur Berriedale
+                           Keith, <title> Catalogue of Sanskrit manuscripts in the Bodleian
+                              Library</title> (Oxford, 1905), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/CatalogiCodicumManuscriptorumBibliothSanskritP2/page/n176/mode/1up"
+                                 >no. 1167, pp. 145-146</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-06-06">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

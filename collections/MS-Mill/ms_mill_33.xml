@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02636">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>South Asian Manuscripts at the Bodleian Libraries</title>
+            <funder>We Are Our History</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>Barbora Sojkova</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">ms_mill_33</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Mill</collection>
+                  <idno type="shelfmark">MS. Mill 33</idno>
+                  <idno type="ieArk">ark:29072/x0x633f0950b</idno>
+                  <idno type="crArk">ark:29072/x0x346d411p9</idno>
+                  <altIdentifier>
+                     <idno type="CSM">325</idno>
+                  </altIdentifier>
+               </msIdentifier>
+              
+               <head source="#Keith1909"><title xml:lang="sa" key="work_00264">Kathāsaritsāgara</title>, 19th cent.?</head>
+               
+               <msContents n="1">
+                  <summary>A paper manuscript of the <title xml:lang="sa" key="work_00264">Kathāsaritsāgara</title>, composed by <persName key="person_00214" type="display">Somadeva</persName>.</summary>
+                  
+                  <msItem n="1">
+                     
+                     <locus from="1r" to="164v">Ff. 1<hi rend="superscript">r</hi>-164<hi rend="superscript">v</hi> (ff. 616-779 in original foliation).</locus>
+                     
+                     <author key="person_00214" role="au">
+                        <persName xml:lang="sa" type="display">Somadeva</persName>
+                     </author>
+                     
+                     <title xml:lang="sa" key="work_00264">Kathāsaritsāgara</title>
+                     
+                     <rubric xml:lang="en">
+                        <locus from="1r" to="1r">F. 1<hi rend="superscript">r</hi> (f. 616<hi rend="superscript">r</hi> in original foliation):</locus>
+                        Vol. IV. Book IX. <hi rend="underline">Alancáravati</hi>. Chap. 54. 
+                     </rubric>
+                     
+                     <incipit xml:lang="sa">
+                        <locus from="1r" to="1r">F. 1<hi rend="superscript">r</hi> (f. 616<hi rend="superscript">r</hi> in original foliation):</locus>
+                        evaṃ sativasaṃs tatra vatseśasya pitṛrguhe
+                     </incipit>
+                     
+                     <explicit xml:lang="sa">
+                        <locus from="164v" to="164v">F. 164<hi rend="superscript">v</hi> (f. 779<hi rend="superscript">v</hi> in original foliation):</locus>
+                        vajravegassapitaraṃ taṃśāyāṃtamyācata tatassya
+                     </explicit>
+                
+                  <textLang mainLang="sa">Sanskrit.</textLang>
+               </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>Paper.</support>
+                        <extent>
+                           
+                           <measure type="laterEndleaf" quantity="2">ii</measure> + <measure
+                              type="leaf" quantity="164"> 164</measure> + <measure
+                              type="laterEndleaf" quantity="2">ii</measure>. 
+                           
+                           <dimensions
+                              type="leaf" unit="cm">
+                              <height quantity="32">32</height>
+                              <width quantity="19">19</width>
+                           </dimensions>
+                           
+                           <dimensions
+                              type="binding" unit="cm">
+                              <height quantity="34">34</height>
+                              <width quantity="21">21</width>
+                           </dimensions>
+                           
+                        </extent>
+                        
+                        
+                        <foliation n="1" style="numeral">Original foliation in Devanāgarī numerals, bottom-right margin, verso.</foliation>
+                        <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, top-right margin, verso.</foliation>
+                        
+                        <condition>
+                        In good condition.
+                           <p>Incomplete. Keith notes: <q source="#Keith1909">" The MS. is inaccurate and several lacunae are marked. [...]
+                                 The MS. is evidently only part of a volume, as the ff. are numbered 616–779."</q> </p>
+                        </condition>
+                        
+                     </supportDesc>
+                    
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="8">8 lines on a folio.
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                        <desc>Devanāgarī in black ink.</desc></handNote>
+                     <handNote scope="minor" script="Latin" medium="black_ink">
+                        <desc>Marginal and interlinear notes in both Latin and Devanāgarī script in black ink, in the hand of <persName key="person_00179" role="fmo">William Hodge Mill</persName>.</desc>
+                     </handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     Copious marginal and interlinear notes in the hand of <persName key="person_00179" role="fmo">William Hodge Mill</persName>.
+                     <p>Includes plain paper and newspaper bookmarks with the writing in the hand of <persName key="person_00179" role="fmo">William Hodge Mill</persName>.</p>
+                  </additions>
+
+
+                  <bindingDesc>
+                     <binding notAfter="1900">
+                        <p>Late 19th-century brown <term type="material">textile</term> binding over pasteboard, with the shelfmark <q>33</q> painted in white and title tooled in gold on the spine.
+                           Kept in a <term type="material">cardboard</term> library box.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               
+               
+               <history>
+                  <origin>
+                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1800"
+                        notAfter="1858">Not dated, <hi rend="italic">terminus ante quem</hi> <date>1858</date>.</origDate>
+                  </origin>
+             
+                  <acquisition source="#Keith1909">The collections of <persName key="person_00179">
+                        William Hodge Mill</persName> were purchased by the Bodleian Library in <date>1849</date> and <date>1858</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by Barbora Sojkova, based on observation of the manuscript and the following sources:
+                        <listBibl>
+                              <bibl><ref/></bibl>
+                              <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope>
+                                    <ref
+                                       target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n51/mode/1up"
+                                       >no. 325, p. 42</ref></biblScope></bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of
+                              Sanskrit manuscripts in the Bodleian Library: Appendix to Vol.
+                              I</title> (Oxford, 1909), <biblScope>
+                              <ref
+                                 target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n51/mode/1up"
+                                 >no. 325, p. 42</ref></biblScope></bibl>
+                        <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos
+                              complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref
+                                 target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=167"
+                                 >no. 325, pp. 151-152</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-07-03">
+            <persName>Barbora Sojkova</persName> modified this entry.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

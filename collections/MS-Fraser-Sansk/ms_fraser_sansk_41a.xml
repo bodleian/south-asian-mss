@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_02554">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_03543">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +9,7 @@
             <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
             <respStmt>
                <resp>Cataloguer</resp>
-               <persName>[Name of cataloguer]</persName>
+               <persName>Barbora Sojkova</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -42,11 +42,11 @@
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
                   <collection>MSS. Fraser Sansk.</collection>
-                  <idno type="shelfmark">MS. Fraser Sansk. 41</idno>
-                  <idno type="ieArk">ark:29072/x0kh04dq30hw</idno><idno type="crArk">ark:29072/x0kd17ct4765</idno><altIdentifier>
-                     <idno type="CSM">801</idno>
-                  </altIdentifier><altIdentifier type="former" source="#Keith1909"><idno>MS. Sansk. g. 2 (R)</idno></altIdentifier>
-               </msIdentifier>
+                  <idno type="shelfmark">MS. Fraser Sansk. 41a</idno>
+                  <idno type="ieArk">ark:29072/x0v692t650b3</idno><idno type="crArk">ark:29072/x0v979v333nv</idno>
+                  <altIdentifier>
+                     <idno type="CSM">801</idno></altIdentifier>
+              </msIdentifier>
              
                <msContents n="1">
                   
@@ -58,8 +58,8 @@
                      
                      <title key="work_00020" xml:lang="sa">Bhagavadgītā</title>
                      
-                     <rubric xml:lang="sa" source="#Keith1909">
-                        namo bhagavate |
+                     <rubric xml:lang="sa">
+                        oṃ śrī gaṇeśā
                      </rubric>
                      
                      <textLang mainLang="sa">Sanskrit.</textLang>
@@ -74,8 +74,8 @@
                         <extent>
                            
                         <dimensions type="roll" unit="cm">
-                           <height n="249">249</height>
-                           <width n="2.6">2.6</width>
+                           <height>unknown</height>
+                           <width n="4.6">4.6</width>
                         </dimensions>
                            
                         </extent>
@@ -91,17 +91,17 @@
                   <handDesc>
                      <handNote scope="sole" script="Devanāgarī" medium="black_ink">
                         <desc>Devanāgarī in black ink.</desc>
-                        <q source="#Keith1909">[The MS.] is written in a most painful minute hand.</q>
+                       
                      </handNote>
                   </handDesc>
                   
                   <decoDesc>
                      <decoNote type="headpiece">
-                        An illuminated headpiece decorated with red flowers and green foliage.
+                        An illuminated headpiece decorated with red flowers and green foliage, featuring seven miniatures set within thin red border:
                      </decoNote>
                      
                      <decoNote type="border">
-                        An illuminated border on both sides of the scroll. 
+                        An illuminated border of thin red and black lines, on both sides of the scroll. 
                      </decoNote>
                      
                      <decoNote type="miniature">
@@ -142,13 +142,16 @@
                
                <history>
                   <origin>
-                     <origDate calendar="#gregorian" source="#Keith1909" notBefore="1700" notAfter="1799">18th cent. CE.</origDate>
-                  <p>
-                     <q source="#Keith1909">There is nothing to aid in determining the date. Possibly it may belong to the end of the 18th cent. At any rate it cannot be much—if at all—older, and may be later.</q>
-                  </p>
+                     <date>Not dated.</date>
                   </origin>
                   
-                 <acquisition>The collection of <persName key="person_00200" type="display">James Fraser</persName> was transferred to the Bodleian Library from the Radcliffe Library in <date>May 1872</date>.</acquisition></history>
+                  <provenance>
+                     Manuscript library marks on top edge of the scroll: <q type="pressmark">MS. Fraser Sansk. 41 A (R)</q> (pencil) and <q type="pressmark">Fraser 40.</q> (ink).
+                  </provenance>
+                  
+                 <acquisition>
+                    The collection of <persName key="person_00200" type="display">James Fraser</persName> was transferred to the Bodleian Library from the Radcliffe Library in <date>May 1872</date>.</acquisition></history>
+             
              
                <additional>
                   <adminInfo>
@@ -156,7 +159,7 @@
                        <source>Description by <persName>Barbora Sojkova</persName>, based on the following sources: 
                               <listBibl>
                              <bibl><ref/></bibl>
-                           <bibl source="#Keith1909">Keith, <title>Appendix to Vol. I</title>, <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n109/mode/1up">no. 801, p. 100</ref></biblScope></bibl></listBibl>
+                                 <bibl source="#Aufrecht1864">Aufrecht, <title>Codices Sanscriticos complectens</title>, <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=361">no. 801, p. 343</ref>.</biblScope></bibl></listBibl>
                         </source>
                      </recordHist>
                      <availability status="restricted">
@@ -166,7 +169,7 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
-                     <bibl xml:id="Keith1909"> Arthur Berriedale Keith, <title>Catalogue of Sanskrit manuscripts in the Bodleian Library: Appendix to Vol. I</title> (Oxford, 1909), <biblScope> <ref target="https://archive.org/details/BodlianCatalogueofSanskritfinished/page/n109/mode/1up">no. 801, p. 100</ref></biblScope></bibl><bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=361">no. 801, p. 345</ref></biblScope></bibl></listBibl>
+                        <bibl xml:id="Aufrecht1864">Theodor Aufrecht, <title>Codices Sanscriticos complectens</title>, vol. 1. (Oxford, 1864), <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044092252816&amp;seq=361">no. 801, p. 343.</ref></biblScope></bibl></listBibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -174,6 +177,9 @@
       </fileDesc>
       
       <revisionDesc>
+         <change when="2025-05-21">
+            <persName>Barbora Sojkova</persName> modified this entry.
+         </change>
          <change when="2024-10-08">
             <persName>Barbora Sojkova</persName> modified this entry.
          </change>
