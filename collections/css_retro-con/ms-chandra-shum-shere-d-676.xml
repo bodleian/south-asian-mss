@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_05096">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Chandra Shum Shere d. 676</title>
+
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+
+            <idno type="msID">MS_Chandra_Shum_Shere_d_676</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere d.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere d. 676</idno>
+               <idno type="ieArk">ark:29072/x03n2041022w</idno><idno type="crArk">ark:29072/x03j333418rt</idno></msIdentifier>
+               <head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>paper</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang
+                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Summary description abbreviated from the Bodleian Libraries'
+                           unpublished card catalogue for otherwise-undescribed manuscripts,
+                           available in the Charles Wendell David Reading Room. </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="css_3">K. Parameswara Aithal, <title>A descriptive catalogue
+                              of the Sanskrit and other Indian manuscripts of the Chandra Shum Shere
+                              collection in the Bodleian Library, Part III: Stotras</title>,
+                              <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=136">no. 307, p. 114</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=70">no. 129, p. 48</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=121">no. 262, p. 99</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=72">no. 131, p. 50</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=28">no. 9, p. 8</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=148">no. 347, p. 126</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=163">no. 382, p. 141</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=63">no. 104, pp. 41-42</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=74">no. 137, p. 52</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=65">no. 109, p. 43</ref></biblScope></bibl>
+                     </listBibl>
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                        <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston,
+                              <title>Index Catalogue of MSS. Chandra Shum Shere</title>,
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/f319c658-e35c-429b-9786-6da0acd308ad/">fol. 223</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/b7f25234-e649-4ef6-a70b-cf6b6d7bcf57/">fol. 109</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/9ca19a19-f9e6-4953-8f80-316ff331625f/">fol. 127</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/181f740e-3066-46e2-969f-a2876ac170c1/">fol. 168</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/cc35987f-d0e9-4a27-a10f-ad2a74c7d9be/">fol. 58</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/9fdab2c5-3cca-490e-8726-bbec18f6fc67/">fol. 220</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/4a62f20f-646a-4cfe-96b5-5c1b25f73040/">fol. 57</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/2118e275-ad88-498c-81ec-53f538db2cdc/">fol. 178</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/621901ad-7754-418b-a31f-db7c1f71aca3/">fol. 157</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>RĀMSAHASRANĀMASTOTRA, from the Uttarakhaṇḍa of the Padma
+                        Purāṇa.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>19 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=136">no. 307, p. 114</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/f319c658-e35c-429b-9786-6da0acd308ad/">fol. 223</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>DURGĀSAHASRANĀMA&lt; from the VIśvasāra Tantra.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>10 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>10 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=70">no. 129, p. 48</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/b7f25234-e649-4ef6-a70b-cf6b6d7bcf57/">fol. 109</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>NṚSIṂHASAHASRANĀMASTOTRA, from the Nṛsiṃhap[rakṛtīmātra.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>25 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=121">no. 262, p. 99</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/9ca19a19-f9e6-4953-8f80-316ff331625f/">fol. 127</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>BHAVĀNĪSAHASRANĀMASTOTRA, from the Rudrayāmla Tantra.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>9 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>12 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1691</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=72">no. 131, p. 50</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/181f740e-3066-46e2-969f-a2876ac170c1/">fol. 168</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GAṆAPATISAHASRANĀMASTOTRA, from the Padma Purāṇa.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>12 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>11 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=28">no. 9, p. 8</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/cc35987f-d0e9-4a27-a10f-ad2a74c7d9be/">fol. 58</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>RĀDHĀSAHASRANĀMASTOTRA, from the Rudrayāmala Tantra.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>17 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=148">no. 347, p. 126</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/9fdab2c5-3cca-490e-8726-bbec18f6fc67/">fol. 220</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(7)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GAṄGĀSAHASRANĀMASTOTRA, from the Kāśīkhaṇḍa of the Skanda
+                        Purāṇa.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>15 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1811</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=163">no. 382, p. 141</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/4a62f20f-646a-4cfe-96b5-5c1b25f73040/">fol. 57</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(8)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>ANNAPŪRṆĀSAHASRANĀMASTOTRA, from the Pūrvakhaṇḍa of the Padma
+                        Purāṇa.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>11 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1758</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=63">no. 104, pp. 41-42</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(9)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>BHUVANEŚVARĪSVARĪSAHASRANĀMACINTĀMAṆI, from the Rudrayāmala
+                        Tantra.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>11 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>10 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1821</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=74">no. 137, p. 52</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/2118e275-ad88-498c-81ec-53f538db2cdc/">fol. 178</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.676(10)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>BĀLĀTRIPURASUNDARĪSAHASRANĀMASTOTRA, from the Mahākālasaṃhitā by
+                        Ādinātha.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>25 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=65">no. 109, p. 43</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/621901ad-7754-418b-a31f-db7c1f71aca3/">fol. 157</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

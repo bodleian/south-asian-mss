@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_04098">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Chandra Shum Shere b. 99</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">MS_Chandra_Shum_Shere_b_99</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere b.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere b. 99</idno>
+               <idno type="ieArk">ark:29072/x09880vs50hz</idno><idno type="crArk">ark:29072/x09593tw6767</idno></msIdentifier>
+               <head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>paper</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang
+                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Summary description abbreviated from the Bodleian Libraries'
+                           unpublished card catalogue for otherwise-undescribed manuscripts,
+                           available in the Charles Wendell David Reading Room. </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="css_4">K. Parameswara Aithal, <title>A descriptive catalogue
+                              of the Sanskrit and other Indian manuscripts of the Chandra Shum Shere
+                              collection in the Bodleian Library, Part IV: Vedas</title>,
+                              <editor>Jonathan Katz</editor>, (Oxford, 2019), <biblScope>no. 186, p.
+                              48</biblScope></bibl>
+                        <bibl xml:id="css_2">John Brockington, <title>A descriptive catalogue of the
+                              Sanskrit and other Indian manuscripts of the Chandra Shum Shere
+                              collection in the Bodleian Library, Part II: Epics and
+                           Purāṇas</title>, <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=283">no. 783, p. 267</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=262">no. 696, p. 246</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=26">no. 25, pp. 10-11</ref></biblScope></bibl>
+                     </listBibl>
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                        <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston,
+                              <title>Index Catalogue of MSS. Chandra Shum Shere</title>,
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/5e7a97df-c522-46ad-a4cb-5a1a52b4c2e3/">fol. 36</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/2546985e-9d2b-4974-a506-bf10dae413cd/">fol. 40</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/5eb4e555-d373-4fad-8b7d-f8333f42836f/">fol. 196</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3da70937-47f6-4ca1-acbc-978b80d53015/">fol. 74</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/4dac2d22-f49a-4c6a-9024-000331960c63/">fol. 72</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/e844fd42-56b5-4159-a3d3-0b599cf55430/">fol. 73</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3ca156af-5c24-4aa5-9db0-7d15306e3d08/">fol. 142</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/">fol. 178b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/0bfc85c0-86d6-4080-862a-e0c846faca84/">fol. 279b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/83f67cee-905e-4d5c-8563-40fd8f0299ce/">fol. 193b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/9b1f04b1-10c2-4650-8524-d85235d88b9d/">fol. 201b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/870219c7-2717-4f70-8fe3-ab6ad1792601/">fol. 160</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ec50d8f3-9f4a-416d-bb3a-ba6827103320/">fol. 261</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/e478c0e0-d10c-47ff-9bc7-0edea816fd65/">fol. 101</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/021c429b-b901-4387-bc2e-002174a177bb/">fol. 321</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/cecf076a-5d49-418b-a99f-1c989e479533/">fol. 256</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/">fol. 298</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/00451f21-dcce-49a0-8f46-7630457099db/">fol. 326</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/0174063a-29dc-476f-a3f8-229ce17f394a/">fol. 153</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/536c9cf2-8f3d-4f35-a2c9-cbd8817530f4/">fol. 291</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/14ccefc0-35a4-4da6-ace7-d99835053dee/">fol. 42</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/f06dc784-7632-49f9-b5bf-7da6f41f3072/">fol. 22b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/7144d8f9-ad1a-46e0-9edb-10d6de59b6a3/">fol. 9</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/0f6a579c-2d76-4d4b-8d79-5f77ee9b726a/">fol. 116</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/916461ce-66df-4604-84bd-36cf4d825b3c/">fol. 120</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/262ddc85-e63a-4cec-89b9-98b759f4abcb/">fol. 90b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/b0751629-872a-4938-a820-a5f30173a92a/">fol. 197</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>KRMALOCANA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>3 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>12 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/5e7a97df-c522-46ad-a4cb-5a1a52b4c2e3/">fol. 36</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(2)a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>MĀTRṢOḌAṠĪ. Fragment</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 fol.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/5eb4e555-d373-4fad-8b7d-f8333f42836f/">fol. 196</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(2)b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GHAṬASTHĀPANA. Fragment</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 fol.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3da70937-47f6-4ca1-acbc-978b80d53015/">fol. 74</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(2)c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GRAHAṆAPURAṠCARAṆAVIDHI. Fragment</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 fol.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/4dac2d22-f49a-4c6a-9024-000331960c63/">fol. 72</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(2)d</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GRAHAYĀGAPRAYOGA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>4 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/e844fd42-56b5-4159-a3d3-0b599cf55430/">fol. 73</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(2)e</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>PĀRVANASRĀDDHAPRAYOGA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>9 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3ca156af-5c24-4aa5-9db0-7d15306e3d08/">fol. 142</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(2)g</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>VYĀSA: Sōvāṣṭaka</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 fol.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>6 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/0bfc85c0-86d6-4080-862a-e0c846faca84/">fol. 279b</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(3)a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>BRAHMA UPANIṢAT</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>2 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7/8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1850</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/870219c7-2717-4f70-8fe3-ab6ad1792601/">fol. 160</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(3)b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>VAĪṠVADEVABALI, from the Āhnikatattra of the Nṛsiṃha Purāṇa.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 fol.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1772</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ec50d8f3-9f4a-416d-bb3a-ba6827103320/">fol. 261</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(3)c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>TRIPURĀSUNDARĪSTOTRA, from the Kulāṇanda Saṃhitā</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>2 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1878</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/e478c0e0-d10c-47ff-9bc7-0edea816fd65/">fol. 101</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(3)d</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>HANUMATPŪJĀ</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 fol.</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>10 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/021c429b-b901-4387-bc2e-002174a177bb/">fol. 321</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>SAPIṆṢĪKARAṆA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>6 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/">fol. 298</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>RAGHUNANDANA: Grahayāgavidhi</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>6 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/e844fd42-56b5-4159-a3d3-0b599cf55430/">fol. 73</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(8)a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GOPĀLA: Prāyaṡcittanirṇaya</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>7 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/0174063a-29dc-476f-a3f8-229ce17f394a/">fol. 153</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(8)b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>IÑĀNĀNANDNĀTHA KRAMACĀRIN: Ṣaṭcakravarṇama, from a work called
+                        Tattvaorakāṡa</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>11 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>6 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/536c9cf2-8f3d-4f35-a2c9-cbd8817530f4/">fol. 291</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(8)c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>KĀRTIKEYAVRATAKATHĀ</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>1 page</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>13 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/14ccefc0-35a4-4da6-ace7-d99835053dee/">fol. 42</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(10)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>ANNAPŪRṆĀPAṬALA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>2 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>11 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/7144d8f9-ad1a-46e0-9edb-10d6de59b6a3/">fol. 9</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(11)a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>ĀNANDANĀTHA BHAṬṬĀCĀRYA: Ṣaṭkarmasūtra.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>17 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>8/10 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/536c9cf2-8f3d-4f35-a2c9-cbd8817530f4/">fol. 291</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(11)b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>NĀNDĪMUKHAŚRĀDDHAPRAYOGA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>12 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/0f6a579c-2d76-4d4b-8d79-5f77ee9b726a/">fol. 116</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/916461ce-66df-4604-84bd-36cf4d825b3c/">fol. 120</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere b.99(12)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>MĀLĀSAṂAKĀRA</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>3 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Bengali</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/b0751629-872a-4938-a820-a5f30173a92a/">fol. 197</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

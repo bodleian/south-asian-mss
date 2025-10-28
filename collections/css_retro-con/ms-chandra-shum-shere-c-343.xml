@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_04324">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Chandra Shum Shere c. 343</title>
+
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+
+            <idno type="msID">MS_Chandra_Shum_Shere_c_343</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere c.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere c. 343</idno>
+               <idno type="ieArk">ark:29072/x0tt44pn3088</idno><idno type="crArk">ark:29072/x0tq57nr46z6</idno></msIdentifier>
+               <head type="unchecked">NOTE: This record has yet to be fully checked. </head>
+               <physDesc>
+                  <objectDesc form="pothī">
+                     <supportDesc material="paper">
+                        <support>paper</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang
+                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Summary description abbreviated from the Bodleian Libraries'
+                           unpublished card catalogue for otherwise-undescribed manuscripts,
+                           available in the Charles Wendell David Reading Room. </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="css_2">John Brockington, <title>A descriptive catalogue of the
+                              Sanskrit and other Indian manuscripts of the Chandra Shum Shere
+                              collection in the Bodleian Library, Part II: Epics and
+                           Purāṇas</title>, <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=124">no. 297, p. 108</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=277">no. 763, pp. 261-262</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=191">no. 468, p. 175</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=251">no. 658, pp. 235-237</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=277">no. 762, p. 261</ref></biblScope>; <biblScope><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=167">no. 386, p. 151</ref></biblScope></bibl>
+                        <bibl xml:id="css_3">K. Parameswara Aithal, <title>A descriptive catalogue
+                              of the Sanskrit and other Indian manuscripts of the Chandra Shum Shere
+                              collection in the Bodleian Library, Part III: Stotras</title>,
+                              <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=186">no. 431, p. 164</ref></biblScope></bibl>
+                     </listBibl>
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                        <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston,
+                              <title>Index Catalogue of MSS. Chandra Shum Shere</title>,
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3c82ca30-576b-4eac-8731-4130e2da1048/">fol. 5b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/f319c658-e35c-429b-9786-6da0acd308ad/">fol. 223</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/68383562-47bd-4737-9f7d-c7c17ef41291/">fol. 180</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/1beb7068-0fba-45c0-b3dd-9fe248ba5294/">fol. 61</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/4dac2d22-f49a-4c6a-9024-000331960c63/">fol. 72</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/2118e275-ad88-498c-81ec-53f538db2cdc/">fol. 178</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/c452efa1-a556-4b9e-ae3d-bd72047c86a9/">fol. 267</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ec50d8f3-9f4a-416d-bb3a-ba6827103320/">fol. 261</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>RĀMAHṚDYA, from the Bālakāṇḍa of the Adhyātmarāmāyaṇa in the Brahmāṇḍa
+                        Purāṇa, with commentary Adhyātmarāmāyaṇa-setu by Rāmavarman, son of
+                        Himmativarman.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>27 fols. (of which fol. 1-8 missing) 5/</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>5/10 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=124">no. 297, p. 108</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3c82ca30-576b-4eac-8731-4130e2da1048/">fol. 5b</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/f319c658-e35c-429b-9786-6da0acd308ad/">fol. 223</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>MAṄGALAVRATAKATHĀVIDHI, sccording to the Purāṇas</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>9 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9/16 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=277">no. 763, pp. 261-262</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/68383562-47bd-4737-9f7d-c7c17ef41291/">fol. 180</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GAYĀMĀHĀTMYA, from the Vāyu Purāṇa</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>29 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>9/12 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1851</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=191">no. 468, p. 175</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/1beb7068-0fba-45c0-b3dd-9fe248ba5294/">fol. 61</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>GRANTHASAṄGRAHA, chiefly from the Skanda and Bhaviṣyottara
+                        Purāṇas</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>55 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>16/22 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=251">no. 658, pp. 235-237</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/4dac2d22-f49a-4c6a-9024-000331960c63/">fol. 72</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>BHŪGOLAKAVISTĀR&lt; adh. 30 of the Dānakāṇḍa of the Brahmaṇḍa
+                        Purāṇa.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>5 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>12/13 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=277">no. 762, p. 261</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/2118e275-ad88-498c-81ec-53f538db2cdc/">fol. 178</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>ŚAṄKARAJVARAVIJAYA, adh. 63 of Sk. 10 pt.2 of the Bhāgavata Purāṇa, in
+                        Anuruddhavivāhapākhyāna.</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>4 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>11/13 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin><origDate>1832</origDate></origin>
+                  </history>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_2">Brockington, <title>Epics and purāṇas</title>,<biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=167">no. 386, p. 151</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/c452efa1-a556-4b9e-ae3d-bd72047c86a9/">fol. 267</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.343(7)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>VAISṆAVĀṂṚTASTOTRA, from the Ādi Purāṇa</summary>
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc material="paper">
+                           <support>Paper</support>
+                           <extent>9 fols</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>7/8 lines</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>Devanagari</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <additional>
+                     <listBibl>
+                        <bibl source="#css_3">K. Parameswara Aithal, <title>Stotras</title>, <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048745007&amp;seq=186">no. 431, p. 164</ref></biblScope></bibl>
+                        <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
+                              Catalogue of MSS. Chandra Shum Shere</title>, <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ec50d8f3-9f4a-416d-bb3a-ba6827103320/">fol. 261</ref></biblScope></bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
