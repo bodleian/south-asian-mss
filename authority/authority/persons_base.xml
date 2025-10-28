@@ -4566,6 +4566,39 @@
                     <note>A Jaina scribe of <idno type="shelfmark">MS Mill 61</idno>.</note>
                 </person>
                 
+                <person xml:id="person_00216">
+                    <persName type="standard" xml:lang="sa">Śaṅkara Bhaṭṭa</persName>
+                    <persName type="display" xml:lang="sa">Śaṅkara Bhaṭṭa</persName>
+                    <persName type="variant" xml:lang="sa">Śaṃkara Bhaṭṭa</persName>
+                    <persName type="variant" xml:lang="sa">Śaṃkarabhaṭṭa</persName>
+                    <persName type="variant" xml:lang="sa">Śaṅkarabhaṭṭa</persName>
+                    <idno type="VIAF">266980854</idno>
+                    <idno type="local">00216</idno>
+                    <idno type="PANDIT">85986</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/266980854/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/85986/person">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <note></note>
+                </person>
+                
+                <person xml:id="person_00217">
+                    <persName type="standard" xml:lang="sa">Vaijanātha</persName>
+                    <persName type="display" xml:lang="sa">Vaijanātha</persName>
+                    <idno type="local">00217</idno>
+                    <note>A scribe of <idno type="shelfmark">MS Chandra Shum Shere d. 516</idno>.</note>
+                </person>
+                
                 <person xml:id="person_">
                 <persName type="standard" xml:lang="sa">Sempronius, Titius Caius</persName>
                 <persName type="display" xml:lang="sa">Titius Caius Sempronius</persName>
