@@ -143,6 +143,13 @@
     <!-- only display one type of name, and prefer display over standard -->
     <xsl:template match="persName[@type='standard'][following-sibling::persName[@type='display']]"/>
     
+    <!-- deal with Āśutoṣa numbers -->
+    <xsl:template match="msIdentifier/altIdentifier/idno[@type='Chandra_Shum_Shere_Āśutoṣa']">
+        <p>
+            <xsl:text>Āśutoṣa number: </xsl:text>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
 
     
 
