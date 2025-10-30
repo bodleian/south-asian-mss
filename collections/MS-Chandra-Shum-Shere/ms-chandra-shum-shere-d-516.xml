@@ -122,7 +122,7 @@
                      <summary>A defective paper manuscript of the <title xml:lang="sa" key="00272">Mīmāṃsābālaprakāśa</title> by <persName xml:lang="sa" type="standard" key="person_00216">Śaṅkara Bhaṭṭa</persName>.</summary>
                      <msItem>
                                                 
-                        <locus from="3r" to="102v">Ff. 3<hi rend="superscript">r</hi>-102<hi rend="superscript">v</hi> (ff. 69<hi rend="superscript">r</hi>-168<hi rend="superscript">v</hi> in original foliation).</locus>
+                        <locus from="3r" to="102v">Ff. 3<hi rend="superscript">r</hi>-103<hi rend="superscript">v</hi> (ff. 69<hi rend="superscript">r</hi>-168<hi rend="superscript">v</hi> in original foliation).</locus>
                                                                   
                         <author>
                            <name type="person" subtype="aut" key="person_00216">
@@ -175,7 +175,8 @@
                            
                            <layoutDesc>
                               <layout columns="1" writtenLines="9" >
-                                 <p>9 lines per page.</p>                              
+                                 <p>9 lines per page.</p>
+                                 <p>Occasionally highlighted in red.</p>
                                  <p>Deletions in yellow paste.</p>                                    
                               </layout>
                            </layoutDesc>
@@ -192,7 +193,8 @@
                         
                         
                         <additions>
-                           <p>Occasional marginal and interlinear corrections in multiple hands, with one being that of the scribe.</p>
+                           <p>On <locus>f. 103<hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                           <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
                             </additions>
                         
                   </physDesc>
@@ -214,25 +216,85 @@
                         <idno type="Chandra_Shum_Shere_Āśutoṣa">830</idno>
                      </altIdentifier>
                   </msIdentifier>
+                  
                   <msContents n="1">
                      <summary>JAIMINI: Mimāṃsāsūtra, with Śābarabhāṣya by Śabarasvāmin.
                         Incomplete.</summary>
-                     <textLang mainLang="sa">Sanskrit</textLang>
+                     <msItem>
+                        
+                        <locus from="105r" to="175r">Ff. 105<hi rend="superscript">r</hi>-175<hi rend="superscript">r</hi> (ff. 25<hi rend="superscript">r</hi>-96<hi rend="superscript">r</hi> in original foliation).</locus>
+                        
+                        <incipit xml:lang="sa">
+                           <locus from="105r" to="105r">F. 105<hi rend="superscript">r</hi> (f. 25<hi rend="superscript">r</hi> in original foliation):</locus>
+                           ṣupuroḍāśaḥ karaṃbhapātrāṇi taṃ dulā ity evaonādīnitāni s[.]ānenagamdheran | 
+                        </incipit>
+                  
+                     <colophon xml:lang="sa">
+                        <locus from="175r" to="175r">F. 175<hi rend="superscript">r</hi> (f. 96<hi rend="superscript">r</hi> in original foliation):</locus>
+                        iti bhaṭṭa śrī śabarasvāminaḥ kṛtaumīmāṃsābhāṣye navapnasyādhyāyasyāvaturthaḥ pādaḥ samāptaḥ || saṃvat 1667 [...] mai āśvanasudicanurthyaṃ gurau śrīkāśyāṃviśveśvararājadhānāṃ
+                     </colophon>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
                   </msContents>
+                  
                   <physDesc>
-                     <objectDesc>
+                     <objectDesc form="pothī">
                         <supportDesc material="paper">
-                           <support>Paper</support>
-                           <extent>71 fols</extent>
+                           <support>Paper.
+                               <p>
+                              <dimensions type="folio" scope="most" unit="cm">
+                                 <height quantity="11">11</height>
+                                 <width quantity="27">27</width>
+                              </dimensions>
+                           </p>
+                           </support>
+                           
+                           <extent n="71">71 ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios 25-96.</p>
+                           </condition>
                         </supportDesc>
+                        
                         <layoutDesc>
-                           <layout>11 lines</layout>
+                        <layout columns="1" writtenLines="11" >
+                           <p>11 lines per page.</p>
+                           <p>The written area is framed by four thin marginal lines in black ink on each side.</p>
+                           <p>Occasionally highlighted in red.</p>
+                           <p>Deletions in yellow paste.</p>                                    
+                        </layout>
                         </layoutDesc>
                      </objectDesc>
+                     
                      <handDesc>
-                        <handNote>Devanagari</handNote>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                       </handNote>
                      </handDesc>
+                     
+                     <additions>
+                        <p>On <locus>f. 105<hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">|| śrī sarvavidhānadhānakavinrācaryasarasvatānāṃ śāvarabhāṣye 'dhamonavamaśvādhyāya ||</q> in black ink.</p>
+                        <p>On <locus>f. 105<hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">|| śrī sarvavidhānidhāvakavinrācaryasarasvatīnāṃ śāvarabhāṣyenavamodhyāya ||</q> in black ink.</p>
+                        <p>Abbreviation <q>bhā°a</q> written on the top left margin throughout the manuscript, above the original foliation.</p>
+                        <p><q>Rāma</q> written on the bottom right margin throughout the manuscript, above the original foliation.</p>
+                       <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
                   </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1667">saṃvat 1667</origDate> / <origDate calendar="#gregorian" when="1610">1610 CE</origDate>.
+                     </origin>
+                  </history>
+                  
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
@@ -242,6 +304,7 @@
                      </listBibl>
                   </additional>
                </msPart>
+               
                <msPart>
                   <msIdentifier>
                      <altIdentifier>
