@@ -4,12 +4,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:bod="http://www.bodleian.ox.ac.uk/bdlss"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="tei html xs bod"
-    version="2.0">
-    
-    
+    xmlns:bod="http://www.bodleian.ox.ac.uk/bdlss" xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei html xs bod" version="2.0">
+
+
 
     <!-- The stylesheet is a library. It doesn't validate and won't produce HTML on its own. It is called by 
          convert2HTML.xsl and previewManuscript.xsl. Any templates added below will override the templates 
@@ -25,10 +22,10 @@
                     <xsl:text> </xsl:text>
                 </span>
                 <xsl:value-of select="@class"/>
-            </div> 
+            </div>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="msItem">
         <xsl:apply-templates/>
         <xsl:if test="@class">
@@ -38,13 +35,13 @@
                     <xsl:text> </xsl:text>
                 </span>
                 <xsl:value-of select="@class"/>
-            </div> 
+            </div>
         </xsl:if>
     </xsl:template>
-    
-    
 
-    
+
+
+
     <xsl:template match="msItemStruct/textLang">
         <div class="{name()}">
             <span class="tei-label">
@@ -55,7 +52,9 @@
                 <xsl:when test="not(.//text()) and (@mainLang or @otherLangs)">
                     <xsl:for-each select="tokenize(string-join((@mainLang, @otherLangs), ' '), ' ')">
                         <xsl:value-of select="bod:languageCodeLookup(.)"/>
-                        <xsl:if test="position() ne last()"><xsl:text>, </xsl:text></xsl:if>
+                        <xsl:if test="position() ne last()">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
                     </xsl:for-each>
                 </xsl:when>
                 <xsl:otherwise>
@@ -64,7 +63,7 @@
             </xsl:choose>
         </div>
     </xsl:template>
-    
+
 
     <!-- Append the calendar if it does not appear to have been mentioned in the origDate text -->
     <xsl:template match="origDate[@calendar]">
@@ -85,8 +84,8 @@
             <xsl:text>; </xsl:text>
         </xsl:if>
     </xsl:template>
-    
-  
+
+
     <xsl:template match="msItemStruct/title">
         <div class="tei-title">
             <span class="tei-label">
@@ -129,7 +128,7 @@
     <xsl:template match="@facs"/>
 
 
-    
+
     <!-- Do not display places as hyperlinks if the key is not a subject -->
     <xsl:template match="placeName[not(starts-with(@key, 'subject_'))] | name[@type='place'][not(starts-with(@key, 'subject_'))]">
         <span>
@@ -139,19 +138,19 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <!-- only display one type of name, and prefer display over standard -->
     <xsl:template match="persName[@type='standard'][following-sibling::persName[@type='display']]"/>
-    
+
     <!-- deal with Āśutoṣa numbers -->
     <xsl:template match="msIdentifier/altIdentifier/idno[@type='Chandra_Shum_Shere_Āśutoṣa']">
-        <p>
+        <span class="a-number">
             <xsl:text>Āśutoṣa number: </xsl:text>
             <xsl:apply-templates/>
-        </p>
+        </span>
     </xsl:template>
 
-    
+
 
     <!-- Per Camillo's instructions, see https://github.com/bodleian/south-asian-mss/issues/2 -->
     <xsl:template match="tei:g">
@@ -180,7 +179,7 @@
             <xsl:when test="text() = '*'">
                 <xsl:text>*** TODO ***</xsl:text>
             </xsl:when>
-            
+
             <xsl:otherwise>
                 <xsl:value-of select="text()"/>
             </xsl:otherwise>
@@ -188,5 +187,5 @@
     </xsl:template>
 
 
-    
+
 </xsl:stylesheet>
