@@ -45,24 +45,34 @@
                </msIdentifier>
                <head type="unchecked">NOTE: This record has yet to be fully checked. </head>
                <physDesc>
-                  <objectDesc form="pothī">
-                     <supportDesc material="paper">
-                        <support>paper</support>
+                  <objectDesc>
+                     <supportDesc>                             
+                        <extent>
+                           <measure type="leaf">220</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity=""></height>
+                              <width quantity=""></width>
+                           </dimensions>
+                        </extent>
                      </supportDesc>
                   </objectDesc>
+                  <bindingDesc>                     
+                     <binding>
+                        <p> Unbound. Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
-                        <persName type="standard" xml:lang="ne">Shum Shere, Chandra</persName>
-                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang
-                           Bahadur Rana </persName></name> in <date calendar="Gregorian" when="1909">1909</date>.</acquisition>
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana</persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
+                  </acquisition>
                </history>
                <additional>
                   <adminInfo>
-                     <recordHist>
-                        <source>Summary description abbreviated from the Bodleian Libraries'
-                           unpublished card catalogue for otherwise-undescribed manuscripts,
-                           available in the Charles Wendell David Reading Room. </source>
+                     <recordHist>                       
+                      <source>Description by <persName>Barbora Sojkova</persName>, based
+                                 on observation of the manuscript, a previously existing record (2), and the unpublished card catalogue for otherwise-undescribed manuscripts,
+                                 available in the Charles Wendell David Reading Room. </source>
                      </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid
@@ -92,6 +102,86 @@
                      </listBibl>
                   </listBibl>
                </additional>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(2)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa">5257</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>A paper manuscript of the <title xml:lang="sa" key="00273">Tārāmaṇimunīśvarākhyāna</title> ascribed to the <title xml:lang="sa" type="standard" key="work_00274">Bhaviṣyottarapurāṇa</title>.</summary>
+                     <msItem>
+                        
+                        <locus from="19v" to="20r">Ff. 19<hi rend="superscript">v</hi>-20<hi rend="superscript">r</hi>.</locus>
+                      
+                        <title xml:lang="sa" key="00273">Tārāmaṇimunīśvarākhyāna</title>
+                        
+                        <incipit>
+                           <locus from="19v">F. 19<hi rend="superscript">v</hi>:</locus>
+                           śrīsarasvatī jayati athabhaviṣyottarapurāṇāntargataṃ kalaṃkimahārājendratārāmaṇīrāvavratakathānakaṃ likhyate upakrāntavarṣamāsapakṣatithyādikam ullikhya mama sukuṭumbasya saparivārasya purāṇeyaiśvarmyabhivṛddhipūrvakasaṃkalāriṣṭopaśāntyarthaṃ
+                            </incipit>
+                        
+                        <colophon>
+                           <locus from="20r">F. 20<hi rend="superscript">r</hi>:</locus>
+                           iti (bhaviṣyottarapurāṇe tārāmaṇimunīśvarākhyānakaṃ)
+                        </colophon>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="27">27</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="1">1 f.</extent>
+                           
+                           
+                           <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition.
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="20" >
+                              <p>19-20 lines per page.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                                        
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

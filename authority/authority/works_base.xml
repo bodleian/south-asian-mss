@@ -5886,6 +5886,51 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00273">
+                    <title type="uniform" xml:lang="sa">Tārāmaṇimunīśvarākhyāna</title>
+                    <title type="display" xml:lang="sa">Tārāmaṇimunīśvarākhyāna</title>
+                    <!--   <idno type="VIAF"></idno>-->
+                    <idno type="local">00273</idno>
+                   <!-- <idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <!-- <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <!--<item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
+                
+                <bibl xml:id="work_00274">
+                    <title type="uniform" xml:lang="sa">Bhaviṣyapurāṇa</title>
+                    <title type="display" xml:lang="sa">Bhaviṣyapurāṇa</title>
+                    <title type="variant" xml:lang="sa">Bhaviṣyottarapurāṇa</title>
+                    <!--   <idno type="VIAF"></idno>-->
+                    <idno type="local">00274</idno>
+                     <idno type="PANDIT">110266</idno>
+                    <note type="links">
+                        <list type="links">
+                            <!-- <item>
+                                <ref target="https://viaf.org/viaf//">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>-->
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/110266/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
                 
             </listBibl>
         </body>

@@ -1,0 +1,1027 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
+            <funder>The cataloguing of this item was made possible through a benefaction from the
+               late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>Barbora Sojkova</persName>
+            </respStmt>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere d.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere d. 107</idno>
+               </msIdentifier>
+               
+               <head>A composite manuscript containing ten manuscript works, bound in the Bodleian Library.</head>
+               
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>                             
+                        <extent>
+                           <measure type="leaf"></measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity=""></height>
+                              <width quantity=""></width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     
+                     <binding notBefore="1909">
+                        <p> Early 20th-century red-brown <term type="material">textile</term>
+                           binding over pasteboard, with shelfmark and description tooled
+                           in gold on the spine. Cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana</persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Description by <persName>Barbora Sojkova</persName>, based
+                           on observation of the manuscript and the unpublished card catalogue for otherwise-undescribed manuscripts,
+                           available in the Charles Wendell David Reading Room. </source>
+                     </recordHist>
+                     
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                        <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston,
+                              <title>Index Catalogue of MSS. Chandra Shum Shere</title>,
+                                 <biblScope><ref
+                                 target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/3f4aea96-a395-4a45-acb7-28813c5c3486/"
+                                 >fol. 1</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(1)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>ĀNANDATĪRTHA: Tantrasārasaṅgraha.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                                                
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                                                                  
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                         
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                      
+                        </explicit>
+                        
+                     <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                
+                     <physDesc>
+                        <objectDesc form="pothī"> 
+                           <supportDesc material="paper">
+                              <support>Paper.
+                                 <p>
+                                    <dimensions type="folio" scope="most" unit="cm">
+                                       <height quantity="11"></height>
+                                       <width quantity="27"></width>
+                                    </dimensions>
+                                 </p>
+                              </support>
+                                            
+                              <extent n=""> ff.</extent>
+                              
+                              
+                              <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                              <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                              
+                              <condition>
+                                 In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                                 <p>Incomplete. Extant folios .</p>
+                              </condition>
+                           </supportDesc>
+                           
+                           
+                           <layoutDesc>
+                              <layout columns="1" writtenLines="" >
+                                 <p> lines per page.</p>
+                                 <p>Occasionally highlighted in red.</p>
+                                 <p>Deletions in yellow paste.</p>                                    
+                              </layout>
+                           </layoutDesc>
+                     </objectDesc>
+                        <handDesc>
+                           <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                              <desc>Devanāgarī in black ink.</desc>
+                              <desc>Scribe: 
+                                 <name type="person" role="scr" key="person_00217">
+                                    <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                                 </name></desc>
+                           </handNote>
+                        </handDesc>
+                        
+                        
+                        <additions>
+                           <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                           <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                            </additions>
+                        
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(2)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(3)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary> GOPĀLEDRA SARASVATĪ, pupil of Kṛṣṇendu Sarasvatī: Vedāntatattvāmṛta.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+              
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(4)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary> SAṄKARA ĀCĀRYA: Cidānandaślokī, with Siddhāntabindu by Mādhusudhana Sarasvatī.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+              
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(5)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary> ŚAṄKARAĀCĀRYA: Aparokṣānubhava.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(6)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>AṢṬĀVAKRAGĪTĀ
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(6)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>DATTĀTREYA: Dattātreyavedānta.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(7)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>DATTĀTREYA: Dattātreyavedānta.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere d.107(8)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa"></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>SUREŚVARA: Pañcīkaraṇavārtika.
+                        
+                        A paper manuscript of the 
+                        <title xml:lang="sa" key=""></title> by <persName xml:lang="sa" type="standard" key="person_"></persName>.</summary>
+                     <msItem>
+                        
+                        <locus from="r" to="v">Ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> (ff. <hi rend="superscript">r</hi>-<hi rend="superscript">v</hi> in original foliation).</locus>
+                        
+                        <author>
+                           <name type="person" subtype="aut" key="person_00">
+                              <persName xml:lang="sa" type="standard"></persName>
+                           </name>
+                        </author>
+                        
+                        <title xml:lang="sa" key=""></title>
+                        
+                        <incipit>
+                           <locus from="r">F. <hi rend="superscript">r</hi> (ff. <hi rend="superscript">r</hi> in original foliation):</locus>
+                           
+                        </incipit>
+                        
+                        <explicit>
+                           <locus from="v" to="v">F. <hi rend="superscript">v</hi> (ff. <hi rend="superscript">v</hi> in original foliation):</locus>
+                           
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11"></height>
+                                    <width quantity="27"></width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n=""> ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              <p>Incomplete. Extant folios .</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="" >
+                              <p> lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00217">
+                                 <persName xml:lang="sa" type="standard">Vaijanātha</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>On <locus>f. <hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">mīmāṃsāvākaprakāsa 91</q> in black ink.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="Vikrama" when="1860">saṃvat 1860</origDate> / <origDate calendar="#gregorian" when="1803">1803 CE</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
