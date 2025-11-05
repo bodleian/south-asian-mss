@@ -449,7 +449,7 @@
                   <msContents>
               
                         <summary>An incomplete paper manuscript of the <title key="work_00275" xml:lang="sa">Mīmāṃsāsūtra</title>
-                           by <persName key="person_00218" xml:lang="sa" role="au">Jaimini</persName>, with <title key="work_00279" xml:lang="sa">Tantravārttika</title> of   
+                           by <persName key="person_00218" xml:lang="sa" role="au">Jaimini</persName>, with the <title key="work_00279" xml:lang="sa">Tantravārttika</title> of   
                           <persName key="person_00221" xml:lang="sa" role="au">Kumārila Bhaṭṭa</persName>. 
                           Includes only <term xml:lang="sa">adhyāya</term> 1, <term xml:lang="sa">padā</term> 3.
                            </summary>
@@ -653,6 +653,13 @@
                      </additions>
                      
                   </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>
+                     </origin>
+                  </history>
+                  
                   
                   <additional>
                      <listBibl>

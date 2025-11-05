@@ -53,10 +53,12 @@
                   <objectDesc>
                      <supportDesc>                             
                         <extent>
-                           <measure type="leaf">220</measure>
+                           <measure type="leaf">219 ff.
+                           <note>Ff. 176 and 177 are a single leaf.</note>
+                           </measure>
                            <dimensions type="binding" unit="cm">
-                              <height quantity=""></height>
-                              <width quantity=""></width>
+                              <height quantity="13">13</height>
+                              <width quantity="29">29</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -218,25 +220,47 @@
                   </msIdentifier>
                   
                   <msContents n="1">
-                     <summary>JAIMINI: Mimāṃsāsūtra, with Śābarabhāṣya by Śabarasvāmin.
-                        Incomplete.</summary>
-                     <msItem>
+                     
+                     <summary>An incomplete paper manuscript of the <title key="work_00275" xml:lang="sa">Mīmāṃsāsūtra</title>
+                        by <persName key="person_00218" xml:lang="sa" role="au">Jaimini</persName>, 
+                        with the <title key="work_00281" xml:lang="sa">Śābarabhāṣya</title> of   
+                        <persName key="person_00224" xml:lang="sa" role="au">Śabarasvāmin</persName>. 
+                     </summary>
+                    
+                     <msItem n="1" class="mūla" defective="true">
                         
-                        <locus from="105r" to="175r">Ff. 105<hi rend="superscript">r</hi>-175<hi rend="superscript">r</hi> (ff. 25<hi rend="superscript">r</hi>-96<hi rend="superscript">r</hi> in original foliation).</locus>
+                        <locus from="105r" to="175r">Ff. 105<hi rend="superscript">r</hi>-175<hi rend="superscript">r</hi> (ff. 25<hi rend="superscript">v</hi>-96<hi rend="superscript">r</hi> in original foliation).</locus>
+                        
+                        <title key="work_00275" xml:lang="sa">Mīmāṃsāsūtra</title>
+                        <author>
+                           <persName key="person_00218" xml:lang="sa" role="au">Jaimini</persName>
+                        </author>
                         
                         <incipit xml:lang="sa">
-                           <locus from="105r" to="105r">F. 105<hi rend="superscript">r</hi> (f. 25<hi rend="superscript">r</hi> in original foliation):</locus>
-                           ṣupuroḍāśaḥ karaṃbhapātrāṇi taṃ dulā ity evaonādīnitāni s[.]ānenagamdheran | 
+                           <locus from="105r">F. 105<hi rend="superscript">r</hi> (f. 25<hi rend="superscript">r</hi> in original foliation):</locus>   
+                           ṣupuroḍāṣāḥ karaṃbhapātrāṇi taṃ dulā ityeva
                         </incipit>
-                  
-                     <colophon xml:lang="sa">
-                        <locus from="175r" to="175r">F. 175<hi rend="superscript">r</hi> (f. 96<hi rend="superscript">r</hi> in original foliation):</locus>
-                        iti bhaṭṭa śrī śabarasvāminaḥ kṛtaumīmāṃsābhāṣye navapnasyādhyāyasyāvaturthaḥ pādaḥ samāptaḥ || saṃvat 1667 [...] mai āśvanasudicanurthyaṃ gurau śrīkāśyāṃviśveśvararājadhānāṃ
-                     </colophon>
+                        
+                        <colophon xml:lang="sa">
+                           <locus from="105r">F. 175<hi rend="superscript">r</hi> (f. 96<hi rend="superscript">r</hi> in original foliation):</locus>   
+                       iti bhaṭṭa śrī śavarasvāminaḥ kṛtau mīmāṃsābhāṣye navapnasyādhyayāsya caturthaḥ pādaḥ samāptaḥ ||
+                       saṃvat 1667 [..]me āśvanasudicanurthyaṃ gurau śrīmatkāśyāṃ viśveśvarājadhānāṃ
+                        </colophon>
+                        
                         
                         <textLang mainLang="sa">Sanskrit</textLang>
-                        
                      </msItem>
+                     
+                     <msItem n="2" class="commentary" defective="true">
+                        
+                        <title key="work_00281" xml:lang="sa">Śābarabhāṣya</title> 
+                      
+                        <author>
+                           <persName key="person_00224" xml:lang="sa" role="au">Śabarasvāmin</persName>                        
+                        </author>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                     
                   </msContents>
                   
                   <physDesc>
@@ -245,8 +269,8 @@
                            <support>Paper.
                                <p>
                               <dimensions type="folio" scope="most" unit="cm">
-                                 <height quantity="11">11</height>
-                                 <width quantity="27">27</width>
+                                 <height quantity="10">10</height>
+                                 <width quantity="26">26</width>
                               </dimensions>
                            </p>
                            </support>
@@ -258,7 +282,7 @@
                            <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
                            
                            <condition>
-                              In good condition. Some edges are frayed with woodworm-damage, but without any loss of text.
+                              In good condition. 
                               <p>Incomplete. Extant folios 25-96.</p>
                            </condition>
                         </supportDesc>
@@ -269,7 +293,8 @@
                            <p>The written area is framed by four thin marginal lines in black ink on each side.</p>
                            <p>Occasionally highlighted in red.</p>
                            <p>Deletions in yellow paste.</p>                                    
-                        </layout>
+                           <p><note>Commentary layout: <term xml:lang="sa">pratīka</term>.</note></p> 
+                       </layout>
                         </layoutDesc>
                      </objectDesc>
                      
@@ -282,7 +307,7 @@
                      <additions>
                         <p>On <locus>f. 105<hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">|| śrī sarvavidhānadhānakavinrācaryasarasvatānāṃ śāvarabhāṣye 'dhamonavamaśvādhyāya ||</q> in black ink.</p>
                         <p>On <locus>f. 105<hi rend="superscript">v</hi></locus>, a manuscript note <q xml:lang="sa">|| śrī sarvavidhānidhāvakavinrācaryasarasvatīnāṃ śāvarabhāṣyenavamodhyāya ||</q> in black ink.</p>
-                        <p>Abbreviation <q>bhā°a</q> written on the top left margin throughout the manuscript, above the original foliation.</p>
+                        <p>Abbreviation <q>bhā°na°</q> written on the top left margin throughout the manuscript, above the original foliation.</p>
                         <p><q>Rāma</q> written on the bottom right margin throughout the manuscript, above the original foliation.</p>
                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
                      </additions>
@@ -315,23 +340,91 @@
                      </altIdentifier>
                   </msIdentifier>
                   <msContents>
-                     <summary>APPAYYA DĪKṢITA: Vidhirasāyana. Defective.</summary>
-                     <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                     <summary>An incomplete paper manuscript of the <title key="work_00282" xml:lang="sa">Vidhirasāyana</title>
+                        by <persName key="person_00225" xml:lang="sa" role="au">Appayya Dīkṣita</persName>.
+                     </summary>
+                     
+                     <msItem defective="true">
+                     
+                        <locus from="178r" to="218v">Ff. 178<hi rend="superscript">r</hi>-218<hi rend="superscript">v</hi> (f. 7<hi rend="superscript">r</hi>-47<hi rend="superscript">v</hi> in original foliation)</locus>
+                     
+                        <title key="work_00282" xml:lang="sa">Vidhirasāyana</title>
+                        
+                        <author>
+                           <persName key="person_00225" xml:lang="sa" type="display">Appayya Dīkṣita</persName>
+                        </author>
+                        
+                        <incipit xml:lang="sa">
+                           <locus from="178r">F. 178<hi rend="superscript">r</hi> (f. 7<hi rend="superscript">r</hi> in original foliation):</locus>   
+                         rāśrayaṇonānyatraniyam vidhāvavivyāpnimugharurati
+                        </incipit>
+                        
+                        <explicit xml:lang="sa">
+                           <locus from="218v">F. 218<hi rend="superscript">v</hi> (f. 47<hi rend="superscript">v</hi> in original foliation):</locus>   
+                          yathā dītditonajuho
+                        </explicit>
+                     
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     
+                     </msItem>
                   </msContents>
+                  
+                  
                   <physDesc>
-                     <objectDesc>
+                     <objectDesc form="pothī">
                         <supportDesc material="paper">
-                           <support>Paper</support>
-                           <extent>41 fols</extent>
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="12">12</height>
+                                    <width quantity="27">27</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="41">41 ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva" xml:id="original">Devanāgarī numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition. 
+                              <p>Incomplete. Extant folios 7-47.</p>
+                           </condition>
                         </supportDesc>
+                        
                         <layoutDesc>
-                           <layout>14 lines</layout>
+                           <layout columns="1" writtenLines="14" >
+                              <p>14 lines per page.</p>
+                              <p>The written area is framed by two thin marginal lines in black ink on each side.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste or in black ink.</p>                                    
+                             </layout>
                         </layoutDesc>
                      </objectDesc>
+                     
                      <handDesc>
-                        <handNote>Devanagari</handNote>
+                        <handNote scope="major" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                        </handNote>
                      </handDesc>
+                     
+                     <additions>
+                        <p><q>Rāma</q> written on the bottom right margin throughout the manuscript, above the original foliation.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
                   </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>
+                     </origin>
+                  </history>
+                  
+                  
                   <additional>
                      <listBibl>
                         <bibl source="#gambier_parry">Gambier-Parry and Johnston, <title>Index
@@ -345,6 +438,10 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2025-11-04">
+            Barbora Sojkova modified this entry.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
