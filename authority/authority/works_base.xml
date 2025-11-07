@@ -6427,6 +6427,54 @@
                     </note>
                 </bibl>
                 
+                <bibl xml:id="work_00297">
+                    <title type="uniform" xml:lang="sa">R̥gvedaprātiśākhya</title>
+                    <title type="display" xml:lang="sa">R̥gvedaprātiśākhya</title>
+                    <title type="variant" xml:lang="sa">Ṛgvedaprātiśākhya</title>
+                    <title type="variant" xml:lang="sa">Ṛgveda Prātiśākhya</title>
+                    <title type="variant" xml:lang="sa">Ṛkprātiśākhya</title>
+                    <idno type="VIAF">176255675</idno>
+                    <idno type="local">00297</idno>
+                    <idno type="PANDIT">41680</idno>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/176255675/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/41680/work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="work_00298">
+                    <title type="uniform" xml:lang="sa">Taittirīyaprātiśākhya</title>
+                    <title type="display" xml:lang="sa">Taittirīyaprātiśākhya</title>
+                    <title type="variant" xml:lang="sa">Taittirīya Prātiśākhya</title>
+                    <idno type="VIAF">173945391</idno>
+                    <idno type="local">00298</idno>
+                   <!-- <idno type="PANDIT"></idno>-->
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/173945391/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                           <!-- <item>
+                                <ref target="https://www.panditproject.org/entity//work">
+                                    <title>PANDIT</title>
+                                </ref>
+                            </item>-->
+                        </list>
+                    </note>
+                </bibl>
+                
             </listBibl>
         </body>
     </text>

@@ -3021,7 +3021,7 @@
                     <persName type="display" xml:lang="sa">Śaunaka</persName>
                     <idno type="VIAF">261432256</idno>
                     <idno type="local">00130</idno>
-                    <!--<idno type="PANDIT">00000000</idno>-->
+                    <idno type="PANDIT">100028</idno>
                     <note type="links">
                         <list type="links">
                             <item>
@@ -3029,11 +3029,11 @@
                                     <title>VIAF</title>
                                 </ref>
                             </item>
-                            <!--<item>
-                                <ref target="https://www.panditproject.org/entity/00000/person">
+                            <item>
+                                <ref target="https://www.panditproject.org/entity/100028/person">
                                     <title>PANDIT</title>
                                 </ref>
-                            </item>-->
+                            </item>
                         </list>
                     </note>
                 </person>
