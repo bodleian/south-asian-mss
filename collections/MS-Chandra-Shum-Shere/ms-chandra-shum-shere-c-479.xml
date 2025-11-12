@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_04458">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sanskrit Manuscripts in the Bodleian Libraries</title>
+            <funder>The cataloguing of this item was made possible through a benefaction from the late John P. Clay, founder and benefactor of the Clay Sanskrit Library.</funder>
+            <principal>Gillian Evison</principal>
+
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>MSS. Chandra Shum Shere c.</collection>
+                  <idno type="shelfmark">MS. Chandra Shum Shere c. 479</idno>
+                  <altIdentifier type="internal">
+                     <idno type="Chandra_Shum_Shere_Āśutoṣa">5257</idno>
+                  </altIdentifier>
+               </msIdentifier>    
+               
+               <head>A collection of nine manuscript fragments on <term xml:lang="sa">nyāya</term> philosophy, unbound.</head>
+               
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>                             
+                        <extent>
+                           <measure type="leaf">67 ff.</measure>
+                           <dimensions type="binding" unit="cm">
+                              <height quantity="13">13</height>
+                              <width quantity="34">34</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>                     
+                     <binding notBefore="1909">
+                        <p> Unbound. Kept in an early 20th-century red-brown <term type="material">textile</term> cardboard cover box.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Donated by <name type="person" role="dnr" key="person_00030">
+                        <persName type="display" xml:lang="ne">Mahārāja Chandra Shamsher Jang Bahadur Rana</persName></name> in <date calendar="Gregorian" when="1909">1909</date>.
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>                       
+                      <source>Description by <persName>Barbora Sojkova</persName>, based
+                                 on observation of the manuscript, manuscript note in black ink describing the manuscript, a previously published record (2), and the unpublished card catalogue for otherwise-undescribed manuscripts,
+                                 available in the Charles Wendell David Reading Room. </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>). Contact
+                              <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for
+                           further information on the availability of this manuscript.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl type="WRAPPER">
+                     <listBibl type="PRINT">
+                        <head>Printed descriptions:</head>
+                        <bibl xml:id="css_2">John Brockington, <title>A descriptive catalogue of the
+                              Sanskrit and other Indian manuscripts of the Chandra Shum Shere
+                              collection in the Bodleian Library, Part II: Epics and
+                           Purāṇas</title>, <editor>Jonathan Katz</editor>, (Oxford, 1999), <biblScope>
+                              <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048744992&amp;seq=270">no. 733, pp. 254-255</ref></biblScope></bibl>
+                     </listBibl>
+                     <listBibl type="OTHER">
+                        <head>Other descriptions:</head>
+                        <bibl xml:id="gambier_parry">Thomas Gambier-Parry and E. H. Johnston,
+                              <title>Index Catalogue of MSS. Chandra Shum Shere</title>,
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/262ddc85-e63a-4cec-89b9-98b759f4abcb/">fol. 90b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/bfb11396-f276-4d7c-aa19-219751325e85/">fol. 95b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/d6b0ca06-de23-4296-8e18-05c13bbb07ac/">fol. 307b</ref></biblScope>;
+                                 <biblScope><ref target="https://digital.bodleian.ox.ac.uk/objects/bbf88ed7-7966-44b2-9f2e-41e18f7542b9/surfaces/ad94ceba-4204-4c2a-a015-83f34ab0acdd/">fol. 164b</ref></biblScope></bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(1)</idno>
+                     </altIdentifier>
+                   
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>An unbound paper manuscript of the <title type="display" xml:lang="sa" key="work_00293">Anumitiparāmarśayoḥ Kāryakāraṇabhāvaghaṭakapratmāsattiḥ</title>,
+                     </summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="1r" to="10r">Ff. 1<hi rend="superscript">r</hi>-10<hi rend="superscript">v</hi> (ff. 1-10 in original foliation).</locus>
+                        
+                        <title xml:lang="sa" key="work_00293">Anumitiparāmarśayoḥ Kāryakāraṇabhāvaghaṭakapratmāsattiḥ</title>
+                        
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                     
+                     <msItem n="2" defective="true">
+                        
+                        <locus from="11r" to="18v">Ff. 11<hi rend="superscript">r</hi>-18<hi rend="superscript">v</hi>.</locus>
+                        
+                        <title type="desc" key="work_00000">A collection of unidentified fragments in Bengali script, in various hands</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="27">27</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="18">18 ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral" rend="deva">Original foliation in Bengali numerals, top-left and bottom-right margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           
+                           <condition>
+                              In stable condition, but on fragile, frayed paper.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                           <layout>
+                              <p>On <locus from="1r" to="10r">ff. 1<hi rend="superscript">r</hi>-10<hi rend="superscript">v</hi>,</locus>                                 
+                                 the written area is framed on each side by two marginal lines in black ink.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     <decoDesc>
+                        <decoNote>On <locus from="1r" to="1r">f. 1<hi rend="superscript">r</hi></locus>,
+                        a drawing of three horses, two with riders holding a weapon, in black ink.
+                        </decoNote>
+                     </decoDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(2)</idno>
+                     </altIdentifier>
+                     <altIdentifier type="internal">
+                        <idno type="Chandra_Shum_Shere_Āśutoṣa">5257</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>A paper manuscript of the <title xml:lang="sa" key="00273">Tārāmaṇimunīśvarākhyāna</title> ascribed to the <title xml:lang="sa" type="standard" key="work_00274">Bhaviṣyottarapurāṇa</title>.</summary>
+                   
+                     <msItem n="1" defective="true">
+                        
+                        <locus>F. 19<hi rend="superscript">r</hi> and 20<hi rend="superscript">v</hi>.</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" defective="true">
+                        
+                        <locus from="19v" to="20r">Ff. 19<hi rend="superscript">v</hi>-20<hi rend="superscript">r</hi>.</locus>
+                      
+                        <title xml:lang="sa" key="00273">Tārāmaṇimunīśvarākhyāna</title>
+                        
+                        <incipit>
+                           <locus from="19v">F. 19<hi rend="superscript">v</hi>:</locus>
+                           śrīsarasvatī jayati athabhaviṣyottarapurāṇāntargataṃ kalaṃkimahārājendratārāmaṇīrāvavratakathānakaṃ likhyate upakrāntavarṣamāsapakṣatithyādikam ullikhya mama sukuṭumbasya saparivārasya purāṇeyaiśvarmyabhivṛddhipūrvakasaṃkalāriṣṭopaśāntyarthaṃ
+                            </incipit>
+                        
+                        <colophon>
+                           <locus from="20r">F. 20<hi rend="superscript">r</hi>:</locus>
+                           iti (bhaviṣyottarapurāṇe tārāmaṇimunīśvarākhyānakaṃ)
+                        </colophon>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                     </msItem>
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="27">27</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="1">1 f.</extent>
+                           
+                           
+                           <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="20" >
+                              <p>13 lines per page in item 1, 19-20 lines per page in item 2.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="minor" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                        </handNote>
+                        <handNote scope="minor" script="Devanāgarī" medium="black_ink">
+                           <desc>Devanāgarī in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                                        
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(3)</idno>
+                     </altIdentifier>
+                   
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>An unidentified paper manuscript fragment in Bengali script.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="21" to="29">F. 21<hi rend="superscript">r</hi>-29<hi rend="superscript">v</hi>.</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                   
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="11">11</height>
+                                    <width quantity="29">29</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="9">9 ff.</extent>
+                           
+                           
+                           <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="11" >
+                              <p>11 lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>F. 23<hi rend="superscript">v</hi> left empty.</p>
+                        <p>On the top corner, verso, of most leaves the word <q xml:lang="sa">dharmita</q>.</p>
+                        <p>Occasional marginal and interlinear corrections in multiple hands, one of them being that of the scribe.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(4)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>An unidentified paper manuscript fragment in Bengali script.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="30" to="33">F. 20<hi rend="superscript">r</hi>-33<hi rend="superscript">v</hi> (ff. 8-11 in original foliation).</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="29">29</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="4">4 ff.</extent>
+                           
+                           
+                           <foliation n="2" style="numeral">Original foliation in Bengali numerals in black ink, middle right margin, verso.</foliation>
+                           <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="16" >
+                              <p>16 lines per page.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>Occasional marginal and interlinear corrections in a different hand.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(5)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>An unidentified paper manuscript fragment in Bengali script, possibly of <title key="work_00294">Sāmānyalakṣaṇa</title>.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="34" to="37">F. 34<hi rend="superscript">r</hi>-37<hi rend="superscript">v</hi> (ff. 62-65 in original foliation).</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="29">29</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="4">4 ff.</extent>
+                           
+                           
+                           <foliation n="1" style="numeral">Original foliation in Bengali numerals in black ink, middle right and left margins, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In good condition.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="21" >
+                              <p>Up to 21 lines per page.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>Occasional marginal and interlinear corrections in a different hand.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(6)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>An unidentified paper manuscript fragment in Bengali script.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="38" to="45">F. 38<hi rend="superscript">r</hi>-45<hi rend="superscript">v</hi>.</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="28">28</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="8">8 ff.</extent>
+                           
+                           
+                           <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stable condition, written on a soft and fraying paper. Some folios torn, without a loss of any text.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="11" >
+                              <p>Up to 11 lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>Abbreviation <q>saṃ°kṣi°ṭī</q> written on the left margin of folios.</p>
+                        <p>Occasional marginal and interlinear corrections in a same hand.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(7)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>An unidentified paper manuscript fragment in Bengali script, possibly 
+                        <title key="work_00295">Siddhāntarahasya</title>.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="46" to="50">F. 46<hi rend="superscript">r</hi>-50<hi rend="superscript">v</hi> (ff. 1-4 in original foliation).</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="28">28</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="5">5 ff.</extent>
+                           
+                           <foliation n="1" style="numeral">Original foliation in Bengali numerals in black ink, middle left margin, verso.</foliation>
+                           <foliation n="2" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stable condition, written on a soft and fraying paper.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="11" >
+                              <p>Up to 11 lines per page.</p>
+                              <p>Deletions in black ink.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink, written in at least two different hands.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>Occasional marginal and interlinear corrections in a multiple hand.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(8)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>A paper manuscript fragment of
+                        <title key="work_00265">Pañcapādikā</title> of <persName role="au" key="person_00230" xml:lang="sa">Padmapāda</persName>.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="51" to="62">F. 51<hi rend="superscript">r</hi>-62<hi rend="superscript">v</hi> (ff. 1-4 in original foliation).</locus>
+                        
+                        <author>
+                           <persName role="au" key="person_00230" xml:lang="sa">Padmapāda</persName>
+                        </author>
+                        
+                        <title key="work_00265">Pañcapādikā</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height quantity="10">10</height>
+                                    <width quantity="29">29</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="12">12 ff.</extent>
+                           
+                          <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stable condition, but written on a soft and fraying paper.
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="12" >
+                              <p>Up to 12 lines per page.</p>
+                              <p>Occasionally highlighted in red.</p>
+                              <p>Deletions in black ink.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink.</desc>
+                           <desc>Scribe: 
+                              <name type="person" role="scr" key="person_00231">
+                                 <persName xml:lang="sa" type="standard">Hṛdayānandadāsa</persName>
+                              </name></desc>
+                        </handNote>
+                     </handDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">MS.Chandra Shum Shere c.479(9)</idno>
+                     </altIdentifier>
+                     
+                  </msIdentifier>
+                  
+                  <msContents>
+                     <summary>Four unidentified manuscript fragments.</summary>
+                     
+                     <msItem n="1" defective="true">
+                        
+                        <locus from="63" to="64">F. 63<hi rend="superscript">r</hi>-64<hi rend="superscript">v</hi> (ff. 75-6 in original foliation).</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" defective="true">
+                        
+                        <locus from="65" to="65">F. 65<hi rend="superscript">rv</hi> (f. 54 in original foliation).</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                     <msItem n="3" defective="true">
+                        
+                        <locus from="66" to="66">F. 66<hi rend="superscript">rv</hi>.</locus>
+                        
+                        <title type="desc" key="work_00000">An unidentified fragment in Bengali script.</title>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                     <msItem n="4" defective="true">
+                        
+                        <locus from="67" to="67">F. 67<hi rend="superscript">rv</hi></locus>
+                              
+                        <title type="desc" key="work_00000">An unidentified fragment in an unknown script, with a section in devanāgarī</title>
+                        
+                        <explicit>
+                           <locus from="67" to="67">F. 67<hi rend="superscript">v</hi></locus>
+                           daibhāṣikomādhyamikastathaivasautrāṃnikouogayutopacāraḥ catu
+                        </explicit>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  
+                  <physDesc>
+                     <objectDesc form="pothī"> 
+                        <supportDesc material="paper">
+                           <support>Paper.
+                              <p>
+                                 <dimensions type="folio" scope="most" unit="cm">
+                                    <height min="10" max="11">10-11</height>
+                                    <width min="25" max="31">25-31</width>
+                                 </dimensions>
+                              </p>
+                           </support>
+                           
+                           <extent n="5">5 ff.</extent>
+                           
+                           <foliation n="1" style="digit">Library foliation in Arabic numerals in pencil, bottom right margin, recto.</foliation>
+                           
+                           <condition>
+                              In stable condition but written on a soft and fraying paper. Corner of <locus>f. 65</locus> missing and ink rubbed off, with a significant loss of text. 
+                              <p>Incomplete.</p>
+                           </condition>
+                        </supportDesc>
+                        
+                        
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="11" >
+                              <p>Up to 11 lines per page.</p>
+                              <p>Deletions in black ink and yellow paste.</p>                                    
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major" script="Bengali" medium="black_ink">
+                           <desc>Bengali script in black ink, written in at least three different hands.</desc>
+                        </handNote>
+                        <handNote scope="minor" script="unknown" medium="black_ink">
+                           <desc>Last item written in an unknown script in black ink, with a short section in Devanāgarī in red ink.</desc>
+                        </handNote>
+                     </handDesc>
+                     
+                     
+                     <additions>
+                        <p>Occasional marginal and interlinear corrections in a multiple hand.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate calendar="#gregorian" notAfter="1909">Not dated, <hi rend="italic">terminus ante quem</hi> 1909.</origDate>.
+                     </origin>
+                  </history>
+                  
+               </msPart>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-11-06">
+            Barbora Sojkova modified this entry.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
