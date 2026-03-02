@@ -55,13 +55,12 @@
                   <incipit source="#WinternitzKeith1905">śrīgaṇeśāya namaḥ ‖ oṃ athāto gṛhyasthālīpākānāṃ karma | &amp;c.</incipit><explicit source="#WinternitzKeith1905">triḥ prāśnāti brahmā tvā tu bra 15 śrī iti śrīsāmavedīyakauśikatṛtīyo ’dhyāyaḥ samāptaḥ ‖ 3 ‖</explicit></msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="pothī">
+                  <objectDesc form="codex">
                      <supportDesc material="paper">
                         <support source="#WinternitzKeith1905">Paper. No. of leaves: ii + 29.</support>
                         <extent>
-                           <measure type="laterEndleaf"/>
-                           + <measure type="leaf"> </measure>
-                           + <measure type="laterEndleaf"/>
+                           <measure type="laterEndleaf" quantity="2">ii</measure>
+                           + <measure type="leaf" quantity="29">29</measure>
 
                         <dimensions type="binding" unit="cm">
                            <height quantity="18.4">18.4</height>

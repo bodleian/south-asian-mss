@@ -52,13 +52,13 @@
                   
                </msContents>
                <physDesc>
-                  <objectDesc form="pothī">
+                  <objectDesc form="codex">
                      <supportDesc material="paper">
-                        <support source="#WinternitzKeith1905">Paper. No. of leaves: xii + 108 + ii blank.</support>
+                        <support source="#WinternitzKeith1905">Paper.</support>
                         <extent>
-                           <measure type="laterEndleaf"/>
-                           + <measure type="leaf"> </measure>
-                           + <measure type="laterEndleaf"/>
+                           <measure type="laterEndleaf" quantity="12">xii</measure>
+                           + <measure type="leaf" quantity="108"> 108</measure>
+                           + <measure type="laterEndleaf" quantity="2">ii</measure>
 
                         <dimensions type="binding" unit="cm">
                            <height quantity="14.0">14.0</height>
