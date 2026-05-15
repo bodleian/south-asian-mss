@@ -361,6 +361,14 @@
                            further information on the availability of this manuscript.</p>
                      </availability>
                   </adminInfo>
+                  
+                  <surrogates>
+                     <bibl type="digital-facsimile" subtype="full">
+                        <ref target="https://digital.bodleian.ox.ac.uk/objects/b2e49972-9016-46f6-8eef-5a6c2b1c8c02/">
+                           <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
+                     </bibl>
+                  </surrogates>
+                  
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Printed descriptions:</head>
